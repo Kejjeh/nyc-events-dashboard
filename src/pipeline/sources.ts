@@ -17,7 +17,16 @@ const PARKS_RSS_URL = 'https://www.nycgovparks.org/xml/events_300_rss.xml';
  * parsed records match the keys the Parks normalizer expects.
  */
 export async function fetchParks(): Promise<RawBatch> {
-  const res = await fetch(PARKS_RSS_URL, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+  const res = await fetch(PARKS_RSS_URL, {
+    headers: {
+      // nycgovparks.org rejects bare/unknown agents (HTTP 403) from datacenter
+      // IPs, so present a complete browser-like header set.
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+      Accept: 'application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.9',
+    },
+  });
   if (!res.ok) {
     throw new Error(`NYC Parks RSS fetch failed: HTTP ${res.status}`);
   }

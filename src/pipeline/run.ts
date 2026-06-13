@@ -1,3 +1,4 @@
+import { existsSync } from 'node:fs';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { assembleEvents, type RawBatch } from './assemble';
@@ -30,6 +31,14 @@ async function main(): Promise<void> {
   ).filter((b): b is RawBatch => b !== null);
 
   const events = assembleEvents(batches);
+
+  // Never replace a good dataset with nothing: if every source failed this run,
+  // keep the last successful events.json rather than publishing an empty page.
+  if (events.length === 0 && existsSync(OUTPUT_PATH)) {
+    console.warn('All sources returned 0 events — keeping existing data, not overwriting.');
+    return;
+  }
+
   const payload = {
     generatedAt: nowIso,
     count: events.length,
