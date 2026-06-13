@@ -1,20 +1,24 @@
-name: Refresh events data
+name: Build and deploy
 
 on:
+  push:
+    branches: [main]
   schedule:
     # Twice daily: 11:00 and 23:00 UTC (~7am / 7pm New York time).
     - cron: '0 11,23 * * *'
   workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: write # commit refreshed data
+  pages: write
+  id-token: write
 
 concurrency:
-  group: refresh-events
+  group: deploy-pages
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,7 +33,7 @@ jobs:
       - name: Run test suite
         run: npm test
 
-      - name: Build events data
+      - name: Refresh events data
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
         run: npm run build:data
@@ -39,9 +43,28 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if git diff --quiet -- public/data/events.json; then
-            echo "No changes in events.json — nothing to commit."
+            echo "No data changes to commit."
           else
             git add public/data/events.json
             git commit -m "chore: refresh events data [skip ci]"
             git push
           fi
+
+      - name: Build site
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
