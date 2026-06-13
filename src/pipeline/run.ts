@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { assembleEvents, type RawBatch } from './assemble';
-import { fetchNycOpenData, fetchTicketmaster } from './sources';
+import { fetchNycOpenData, fetchParks, fetchTicketmaster } from './sources';
 
 const OUTPUT_PATH = 'public/data/events.json';
 
@@ -24,6 +24,7 @@ async function main(): Promise<void> {
   const batches = (
     await Promise.all([
       settle('nyc-open-data', fetchNycOpenData(nowIso)),
+      settle('nyc-parks', fetchParks()),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
     ])
   ).filter((b): b is RawBatch => b !== null);

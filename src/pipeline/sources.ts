@@ -1,3 +1,4 @@
+import { XMLParser } from 'fast-xml-parser';
 import type { RawBatch } from './assemble';
 
 /** NYC Open Data — "NYC Permitted Event Information – Current" (Socrata dataset bkfu-528j). */
@@ -6,6 +7,31 @@ const TARGET_BOROUGHS = ['Manhattan', 'Brooklyn', 'Bronx', 'Queens'];
 
 /** Ticketmaster Discovery API — events in the New York City market. */
 const TICKETMASTER_URL = 'https://app.ticketmaster.com/discovery/v2/events.json';
+
+/** NYC Parks public events RSS feed (upcoming 14 days, all free). */
+const PARKS_RSS_URL = 'https://www.nycgovparks.org/xml/events_300_rss.xml';
+
+/**
+ * Fetches upcoming NYC Parks events from the RSS feed. The feed namespaces its
+ * event fields (event:startdate, etc.); removeNSPrefix strips those so the
+ * parsed records match the keys the Parks normalizer expects.
+ */
+export async function fetchParks(): Promise<RawBatch> {
+  const res = await fetch(PARKS_RSS_URL, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+  if (!res.ok) {
+    throw new Error(`NYC Parks RSS fetch failed: HTTP ${res.status}`);
+  }
+  const xml = await res.text();
+  const parser = new XMLParser({
+    removeNSPrefix: true,
+    parseTagValue: false, // keep all values as strings (guid, coordinates, etc.)
+    trimValues: true,
+  });
+  const parsed = parser.parse(xml);
+  const items = parsed?.rss?.channel?.item ?? [];
+  const records = Array.isArray(items) ? items : [items];
+  return { source: 'nyc-parks', records };
+}
 
 /**
  * Fetches upcoming permitted events in the four target boroughs.
