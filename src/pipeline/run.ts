@@ -9,6 +9,7 @@ import {
   fetchNycOpenData,
   fetchParks,
   fetchSmalls,
+  fetchSmorgasburg,
   fetchTicketmaster,
   fetchVillageVanguard,
 } from './sources';
@@ -49,6 +50,7 @@ async function main(): Promise<void> {
       settle('smallslive', fetchSmalls(nowIso)),
       settle('village-vanguard', fetchVillageVanguard()),
       settle('dice', fetchDice()),
+      settle('smorgasburg', fetchSmorgasburg(nowIso)),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
     ])
   ).filter((b): b is RawBatch => b !== null);

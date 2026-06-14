@@ -1,6 +1,7 @@
 import { XMLParser } from 'fast-xml-parser';
 import type { RawBatch } from './assemble';
 import { parseSmallsCalendar } from '../ingestion/smallslive';
+import { smorgasburgMarketDescriptors } from '../ingestion/smorgasburg';
 import { withRetry } from './retry';
 
 const BROWSER_UA =
@@ -237,6 +238,29 @@ export async function fetchDice(): Promise<RawBatch> {
     throw new Error('DICE: comedy page parsed to zero events');
   }
   return { source: 'dice', records };
+}
+
+/** Smorgasburg special-events feed (Squarespace Events collection as JSON). */
+const SMORGASBURG_EVENTS_URL = 'https://www.smorgasburg.com/new-events?format=json-pretty';
+
+/**
+ * Builds the Smorgasburg batch: the reliable recurring weekend markets (generated
+ * locally) plus best-effort themed special events from the Squarespace feed. The
+ * special-events fetch is wrapped so the markets always ship even if it fails.
+ */
+export async function fetchSmorgasburg(nowIso: string): Promise<RawBatch> {
+  const records: any[] = smorgasburgMarketDescriptors(nowIso);
+  try {
+    const res = await fetchWithRetry(SMORGASBURG_EVENTS_URL, { headers: { 'User-Agent': BROWSER_UA } });
+    if (res.ok) {
+      const body = (await res.json()) as any;
+      const upcoming = body?.collection?.upcoming ?? body?.upcoming ?? [];
+      for (const ev of upcoming) records.push({ kind: 'special', ...ev });
+    }
+  } catch {
+    // Keep the generated markets even when the special-events feed is unavailable.
+  }
+  return { source: 'smorgasburg', records };
 }
 
 /**
