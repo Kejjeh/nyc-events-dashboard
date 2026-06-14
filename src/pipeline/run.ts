@@ -6,6 +6,7 @@ import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import {
   fetchDice,
+  fetchGreenmarket,
   fetchNycOpenData,
   fetchParks,
   fetchSmalls,
@@ -51,6 +52,7 @@ async function main(): Promise<void> {
       settle('village-vanguard', fetchVillageVanguard()),
       settle('dice', fetchDice()),
       settle('smorgasburg', fetchSmorgasburg(nowIso)),
+      settle('nyc-greenmarket', fetchGreenmarket(nowIso)),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
     ])
   ).filter((b): b is RawBatch => b !== null);

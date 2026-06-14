@@ -12,6 +12,8 @@ const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'music', label: 'Music' },
   { key: 'comedy', label: 'Comedy' },
+  { key: 'theater', label: 'Theater' },
+  { key: 'film', label: 'Film' },
   { key: 'food', label: 'Food' },
   { key: 'sports', label: 'Sports' },
   { key: 'museum', label: 'Museum' },

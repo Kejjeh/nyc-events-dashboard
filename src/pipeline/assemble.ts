@@ -6,6 +6,7 @@ import { normalizeSmallsEvent } from '../ingestion/smallslive';
 import { normalizeVillageVanguardEvent } from '../ingestion/villageVanguard';
 import { normalizeDiceEvent } from '../ingestion/dice';
 import { normalizeSmorgasburgEvent } from '../ingestion/smorgasburg';
+import { normalizeGreenmarketEvent } from '../ingestion/nycGreenmarket';
 
 export type SourceName =
   | 'ticketmaster'
@@ -14,7 +15,8 @@ export type SourceName =
   | 'smallslive'
   | 'village-vanguard'
   | 'dice'
-  | 'smorgasburg';
+  | 'smorgasburg'
+  | 'nyc-greenmarket';
 
 export interface RawBatch {
   source: SourceName;
@@ -30,6 +32,7 @@ const NORMALIZERS: Record<SourceName, (raw: any) => Event | null> = {
   'village-vanguard': normalizeVillageVanguardEvent,
   dice: normalizeDiceEvent,
   smorgasburg: normalizeSmorgasburgEvent,
+  'nyc-greenmarket': normalizeGreenmarketEvent,
 };
 
 /**

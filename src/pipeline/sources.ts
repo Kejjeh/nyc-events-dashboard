@@ -2,6 +2,7 @@ import { XMLParser } from 'fast-xml-parser';
 import type { RawBatch } from './assemble';
 import { parseSmallsCalendar } from '../ingestion/smallslive';
 import { smorgasburgMarketDescriptors } from '../ingestion/smorgasburg';
+import { greenmarketDescriptors } from '../ingestion/nycGreenmarket';
 import { withRetry } from './retry';
 
 const BROWSER_UA =
@@ -238,6 +239,35 @@ export async function fetchDice(): Promise<RawBatch> {
     throw new Error('DICE: comedy page parsed to zero events');
   }
   return { source: 'dice', records };
+}
+
+/** NYC Open Data "NYC Farmers Markets" dataset (Socrata 8vwk-6iz2). */
+const GREENMARKET_DATASET_URL = 'https://data.cityofnewyork.us/resource/8vwk-6iz2.json';
+
+/**
+ * Fetches the latest-year farmers markets and expands each recurring market into
+ * upcoming weekly occurrences. The dataset is an annual snapshot, so the newest
+ * year is resolved dynamically rather than hardcoded.
+ */
+export async function fetchGreenmarket(nowIso: string): Promise<RawBatch> {
+  const headers = { 'User-Agent': BROWSER_UA };
+
+  const yearRes = await fetchWithRetry(
+    `${GREENMARKET_DATASET_URL}?${new URLSearchParams({ $select: 'max(year)' })}`,
+    { headers },
+  );
+  if (!yearRes.ok) throw new Error(`Greenmarket year fetch failed: HTTP ${yearRes.status}`);
+  const latestYear = ((await yearRes.json()) as any[])?.[0]?.max_year;
+  if (!latestYear) throw new Error('Greenmarket: could not determine latest year');
+
+  const rowsRes = await fetchWithRetry(
+    `${GREENMARKET_DATASET_URL}?${new URLSearchParams({ $where: `year='${latestYear}'`, $limit: '500' })}`,
+    { headers },
+  );
+  if (!rowsRes.ok) throw new Error(`Greenmarket rows fetch failed: HTTP ${rowsRes.status}`);
+  const rows = (await rowsRes.json()) as any[];
+
+  return { source: 'nyc-greenmarket', records: greenmarketDescriptors(rows, nowIso) };
 }
 
 /** Smorgasburg special-events feed (Squarespace Events collection as JSON). */
