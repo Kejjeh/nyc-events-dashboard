@@ -193,34 +193,37 @@ export async function fetchVillageVanguard(): Promise<RawBatch> {
   return { source: 'village-vanguard', records };
 }
 
-/** DICE.fm — keyless Next.js data endpoint for NYC comedy shows. */
-const DICE_BROWSE_URL = 'https://dice.fm/browse?location=new-york';
+/**
+ * DICE.fm NYC city slug (the hex is DICE's stable city id). Pinned rather than
+ * resolved from the ?location=new-york redirect, which is IP-geolocated and
+ * resolves to a non-NYC city from datacenter IPs (e.g. GitHub Actions).
+ */
+const DICE_NYC_SLUG = 'new_york-5bbf4db0f06331478e9b2c59';
+const DICE_BROWSE_URL = `https://dice.fm/browse/${DICE_NYC_SLUG}`;
 
 /**
- * Fetches NYC comedy shows from DICE.fm. The browse page redirects to a
- * city-slug URL and embeds a Next.js buildId; both are discovered each run
- * (the buildId rotates on redeploy) and used to hit the keyless comedy data
- * endpoint. Pagination is intentionally single-page — DICE's nextCursor is
- * broken and re-serves the first page.
+ * Fetches NYC comedy shows from DICE.fm. The browse page embeds a Next.js
+ * buildId (rotates on redeploy, so discovered each run) used to hit the keyless
+ * comedy data endpoint for the pinned NYC slug. Pagination is intentionally
+ * single-page — DICE's nextCursor is broken and re-serves the first page.
  */
 export async function fetchDice(): Promise<RawBatch> {
   const headers = { 'User-Agent': BROWSER_UA };
   const browseRes = await fetchWithRetry(DICE_BROWSE_URL, { headers });
   const html = await browseRes.text();
 
-  const slugMatch = browseRes.url.match(/\/browse\/([^/?]+)/);
   const nextDataMatch = html.match(
     /<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/,
   );
-  if (!slugMatch || !nextDataMatch) {
-    throw new Error('DICE: could not locate browse slug or __NEXT_DATA__');
+  if (!nextDataMatch) {
+    throw new Error('DICE: could not locate __NEXT_DATA__');
   }
   const buildId = JSON.parse(nextDataMatch[1])?.buildId;
   if (!buildId) {
     throw new Error('DICE: no buildId in __NEXT_DATA__');
   }
 
-  const dataUrl = `https://dice.fm/_next/data/${buildId}/en/browse/${slugMatch[1]}/culture/comedy.json`;
+  const dataUrl = `https://dice.fm/_next/data/${buildId}/en/browse/${DICE_NYC_SLUG}/culture/comedy.json`;
   const dataRes = await fetchWithRetry(dataUrl, {
     headers: { ...headers, Accept: 'application/json' },
   });
