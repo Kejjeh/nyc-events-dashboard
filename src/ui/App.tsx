@@ -1,8 +1,11 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Borough, Category } from '../domain/event';
 import { useEvents } from './useEvents';
 import { filterEvents, sortEvents, type SortKey } from './filters';
 import { EventCard } from './EventCard';
+
+/** Cards rendered per page — keeps initial paint fast on large result sets. */
+const PAGE_SIZE = 60;
 
 const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const CATEGORIES: { key: Category; label: string }[] = [
@@ -42,6 +45,12 @@ export function App() {
       ),
     [allEvents, borough, category, freeOnly, search, sort],
   );
+
+  // Render incrementally; reset to the first page whenever the result set changes.
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  useEffect(() => setVisibleCount(PAGE_SIZE), [borough, category, freeOnly, search, sort]);
+
+  const shown = visible.slice(0, visibleCount);
 
   return (
     <div className="app">
@@ -143,24 +152,38 @@ export function App() {
         {state.status === 'ready' && (
           <>
             <p className="results__count">
-              {visible.length.toLocaleString()} {visible.length === 1 ? 'event' : 'events'}
+              {shown.length < visible.length
+                ? `Showing ${shown.length.toLocaleString()} of ${visible.length.toLocaleString()} events`
+                : `${visible.length.toLocaleString()} ${visible.length === 1 ? 'event' : 'events'}`}
             </p>
             {visible.length === 0 ? (
               <p className="notice">No events match these filters.</p>
             ) : (
-              <div className="grid">
-                {visible.map((event) => (
-                  <EventCard key={event.id} event={event} />
-                ))}
-              </div>
+              <>
+                <div className="grid">
+                  {shown.map((event) => (
+                    <EventCard key={event.id} event={event} />
+                  ))}
+                </div>
+                {visibleCount < visible.length && (
+                  <div className="more">
+                    <button
+                      className="more__btn"
+                      onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+                    >
+                      Show more
+                    </button>
+                  </div>
+                )}
+              </>
             )}
           </>
         )}
       </main>
 
       <footer className="footer">
-        Data: NYC Parks · NYC Open Data · Ticketmaster. Built with a twice-daily GitHub Actions
-        pipeline.
+        Data: NYC Parks · NYC Open Data · SmallsLIVE · Village Vanguard · Ticketmaster. Built with a
+        twice-daily GitHub Actions pipeline.
       </footer>
     </div>
   );

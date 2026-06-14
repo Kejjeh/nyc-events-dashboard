@@ -231,6 +231,26 @@ body {
   padding: 40px 0;
   text-align: center;
 }
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.more__btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 12px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.more__btn:hover {
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
 .notice--error {
   color: #ff8585;
 }
