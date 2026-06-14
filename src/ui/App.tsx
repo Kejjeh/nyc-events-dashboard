@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Borough, Category } from '../domain/event';
 import { useEvents } from './useEvents';
+import { useTheme } from './useTheme';
 import { filterEvents, sortEvents, type SortKey } from './filters';
 import { EventCard } from './EventCard';
 
@@ -24,6 +25,7 @@ const SORTS: { key: SortKey; label: string }[] = [
 
 export function App() {
   const state = useEvents();
+  const { theme, toggle } = useTheme();
 
   const [borough, setBorough] = useState<Borough | 'All'>('All');
   const [category, setCategory] = useState<Category | 'All'>('All');
@@ -56,6 +58,14 @@ export function App() {
   return (
     <div className="app">
       <header className="hero">
+        <button
+          className="theme-toggle"
+          onClick={toggle}
+          aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+          title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+        >
+          {theme === 'dark' ? '☀' : '☾'}
+        </button>
         <div className="hero__inner">
           <h1 className="hero__title">
             NYC Events<span className="hero__dot">.</span>

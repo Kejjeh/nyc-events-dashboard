@@ -7,6 +7,14 @@
   --text-dim: #9aa3b2;
   --accent: #7c5cff;
 
+  /* Active "pill" states (tabs, chips) — flip with the theme. */
+  --active-bg: #e8eaed;
+  --active-fg: #0c0e12;
+  --hero-grad-start: #141720;
+  --chip-cat-bg: rgba(124, 92, 255, 0.16);
+  --chip-cat-fg: #b9a6ff;
+  --chip-borough-bg: rgba(255, 255, 255, 0.06);
+
   --cat-music: #8b6cff;
   --cat-comedy: #ffd166;
   --cat-food: #ff8a5b;
@@ -17,6 +25,25 @@
   --radius: 14px;
   --maxw: 1180px;
   font-synthesis: none;
+}
+
+:root[data-theme='light'] {
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --surface-2: #eef1f6;
+  --border: #e3e7ef;
+  --text: #1a1f29;
+  --text-dim: #5a6473;
+  --accent: #6d4aff;
+
+  --active-bg: #1a1f29;
+  --active-fg: #ffffff;
+  --hero-grad-start: #eaedf5;
+  --chip-cat-bg: rgba(109, 74, 255, 0.12);
+  --chip-cat-fg: #5a3ee0;
+  --chip-borough-bg: rgba(0, 0, 0, 0.05);
+
+  --cat-comedy: #e0a91f; /* darker gold for contrast on white */
 }
 
 * {
@@ -41,8 +68,30 @@ body {
   background:
     radial-gradient(1100px 380px at 12% -10%, rgba(124, 92, 255, 0.35), transparent 60%),
     radial-gradient(900px 380px at 95% -20%, rgba(63, 183, 166, 0.28), transparent 55%),
-    linear-gradient(180deg, #141720, var(--bg));
+    linear-gradient(180deg, var(--hero-grad-start), var(--bg));
   border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.theme-toggle {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.theme-toggle:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
 }
 .hero__inner {
   max-width: var(--maxw);
@@ -109,9 +158,9 @@ body {
   border-color: #3a4150;
 }
 .tab--active {
-  background: var(--text);
-  color: #0c0e12;
-  border-color: var(--text);
+  background: var(--active-bg);
+  color: var(--active-fg);
+  border-color: var(--active-bg);
 }
 
 /* ---------- Toolbar ---------- */
@@ -158,9 +207,9 @@ body {
   color: var(--text);
 }
 .chip-btn--active {
-  color: #0c0e12;
-  background: var(--text);
-  border-color: var(--text);
+  color: var(--active-fg);
+  background: var(--active-bg);
+  border-color: var(--active-bg);
 }
 .chip-btn--active[data-category='music'] {
   background: var(--cat-music);
@@ -331,11 +380,11 @@ body {
   border-radius: 6px;
 }
 .chip--category {
-  background: rgba(124, 92, 255, 0.16);
-  color: #b9a6ff;
+  background: var(--chip-cat-bg);
+  color: var(--chip-cat-fg);
 }
 .chip--borough {
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--chip-borough-bg);
   color: var(--text-dim);
 }
 .card__title {
