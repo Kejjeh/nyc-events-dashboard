@@ -1,0 +1,4 @@
+# events.json is generated and rewritten by every refresh (cron + local), so a
+# 3-way line merge produces a corrupt, duplicate-laden file. Always keep the
+# current branch's version on merge; the next refresh regenerates it cleanly.
+public/data/events.json merge=ours
