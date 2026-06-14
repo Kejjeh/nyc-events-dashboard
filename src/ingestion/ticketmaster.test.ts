@@ -29,7 +29,7 @@ describe('normalizeTicketmasterEvent', () => {
       category: 'sports',
       borough: 'Manhattan',
       venue: 'Madison Square Garden',
-      start: '2026-06-20T23:00:00Z',
+      start: '2026-06-20T19:00:00', // 23:00 UTC -> 19:00 ET, bare local
       isFree: false,
       priceMin: 50,
       priceMax: 350,
@@ -87,5 +87,17 @@ describe('normalizeTicketmasterEvent', () => {
     expect(event.isFree).toBe(true);
     expect(event.priceMin).toBeUndefined();
     expect(event.priceMax).toBeUndefined();
+  });
+
+  it('drops a date-TBA event that has no start dateTime', () => {
+    const raw = {
+      id: 'tba1',
+      name: 'To Be Announced',
+      url: 'https://www.ticketmaster.com/event/tba1',
+      dates: { start: { localDate: '2026-09-01' } }, // no dateTime
+      classifications: [{ segment: { name: 'Music' } }],
+      _embedded: { venues: [{ name: 'TBD', city: { name: 'New York' } }] },
+    };
+    expect(normalizeTicketmasterEvent(raw)).toBeNull();
   });
 });

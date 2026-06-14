@@ -13,11 +13,17 @@ const BROWSER_UA =
  */
 const RETRYABLE_STATUS = new Set([403, 429, 500, 502, 503, 504]);
 
-/** Fetch with bounded exponential-backoff retries on transient failures. */
+/** Per-attempt request timeout so a hung connection becomes a retryable error
+ *  instead of stalling the whole pipeline forever. */
+const REQUEST_TIMEOUT_MS = 20000;
+
+/** Fetch with a per-attempt timeout and bounded exponential-backoff retries. */
 function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
   return withRetry(
     async () => {
-      const res = await fetch(url, init);
+      // A fresh timeout signal per attempt; AbortError rejects (and retries)
+      // rather than hanging if the server accepts but never responds.
+      const res = await fetch(url, { ...init, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
       if (RETRYABLE_STATUS.has(res.status)) {
         throw new Error(`transient HTTP ${res.status}`);
       }
@@ -59,6 +65,11 @@ export async function fetchSmalls(nowIso: string): Promise<RawBatch> {
     }
     const body = (await res.json()) as { template?: string; page_range?: number[] };
     const pageRecords = parseSmallsCalendar(body.template ?? '');
+    // A substantial template that parses to nothing means the markup changed —
+    // fail loudly so carry-forward keeps the last-good data instead of wiping it.
+    if (page === 1 && pageRecords.length === 0 && (body.template?.length ?? 0) > 300) {
+      throw new Error('SmallsLIVE: calendar template parsed to zero records');
+    }
     if (pageRecords.length === 0) break;
     records.push(...pageRecords);
 
@@ -140,7 +151,19 @@ export async function fetchVillageVanguard(): Promise<RawBatch> {
     })
     .filter((a): a is { slug: string; title: string; eventIds: string[] } => a !== null);
 
-  const jobs = acts.flatMap((a) => a.eventIds.map((id) => ({ slug: a.slug, title: a.title, id })));
+  // Homepage had upcoming slugs but none matched the chunk's slug map: the
+  // SquadUp bundle shape changed. Fail so carry-forward preserves last-good data
+  // rather than silently publishing an empty Village Vanguard.
+  if (acts.length === 0) {
+    throw new Error('Village Vanguard: SquadUp slug map yielded no acts');
+  }
+
+  // Dedup event ids: a set cross-listed under two artist slugs (double-bills)
+  // would otherwise produce duplicate Event ids.
+  const seen = new Set<string>();
+  const jobs = acts
+    .flatMap((a) => a.eventIds.map((id) => ({ slug: a.slug, title: a.title, id })))
+    .filter((job) => (seen.has(job.id) ? false : seen.add(job.id)));
   const records = (
     await Promise.all(
       jobs.map(async (job) => {
@@ -184,7 +207,9 @@ export async function fetchNycOpenData(nowIso: string): Promise<RawBatch> {
   const params = new URLSearchParams({
     $where: where,
     $order: 'start_date_time ASC',
-    $limit: '1000',
+    // The near-term rows are dominated by recurring permits; 1000 truncated to a
+    // handful of distinct events. Pull the full upcoming window (deduped later).
+    $limit: '10000',
   });
 
   const res = await fetchWithRetry(`${NYC_DATASET_URL}?${params}`);

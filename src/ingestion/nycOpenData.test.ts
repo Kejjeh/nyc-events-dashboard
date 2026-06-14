@@ -16,7 +16,7 @@ describe('normalizeNycOpenDataEvent', () => {
     const event = normalizeNycOpenDataEvent(raw);
 
     expect(event).toEqual({
-      id: 'nyc-open-data:740679',
+      id: 'nyc-open-data:740679:2026-07-10T12:00:00.000',
       title: 'Summer Stroll on Third Avenue',
       category: 'other',
       borough: 'Brooklyn',

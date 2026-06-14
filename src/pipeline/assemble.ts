@@ -27,21 +27,22 @@ const NORMALIZERS: Record<SourceName, (raw: any) => Event | null> = {
 };
 
 /**
- * Turns raw, source-tagged batches into a single clean list of events,
- * dropping records the adapters reject and sorting by start time ascending.
+ * Turns raw, source-tagged batches into a single clean list of events:
+ * normalizes each record, drops adapter-rejected and start-less records,
+ * deduplicates by id (last write wins), and sorts by start time ascending.
  */
 export function assembleEvents(batches: RawBatch[]): Event[] {
-  const events: Event[] = [];
+  const byId = new Map<string, Event>();
 
   for (const batch of batches) {
     const normalize = NORMALIZERS[batch.source];
     for (const record of batch.records) {
       const event = normalize(record);
-      if (event) {
-        events.push(event);
+      if (event && typeof event.start === 'string' && event.start.length >= 10) {
+        byId.set(event.id, event);
       }
     }
   }
 
-  return events.sort((a, b) => a.start.localeCompare(b.start));
+  return [...byId.values()].sort((a, b) => a.start.localeCompare(b.start));
 }

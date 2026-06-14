@@ -16,7 +16,10 @@ export function normalizeNycOpenDataEvent(raw: any): Event | null {
   }
 
   return {
-    id: `nyc-open-data:${raw.event_id}`,
+    // The permits dataset repeats event_id across date occurrences, so the
+    // start makes the id occurrence-unique (and exact-duplicate rows still
+    // collapse on dedup).
+    id: `nyc-open-data:${raw.event_id}:${raw.start_date_time}`,
     title: raw.event_name,
     category: 'other',
     borough: raw.event_borough,

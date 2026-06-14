@@ -54,6 +54,27 @@ describe('carryForwardEvents', () => {
     expect(result.map((e) => e.source)).toEqual(['b', 'a']);
   });
 
+  it('uses the America/New_York date, not UTC, for the past cutoff', () => {
+    // 03:00 UTC Jun 15 is still 11pm EDT Jun 14 — tonight's shows must survive.
+    const lateRun = '2026-06-15T03:00:00.000Z';
+    const fresh = [
+      ev('smallslive', '2026-06-14T22:30:00'), // tonight in NYC -> keep
+      ev('smallslive', '2026-06-13T20:00:00'), // yesterday in NYC -> drop
+    ];
+    const result = carryForwardEvents(fresh, [], ['smallslive'], lateRun);
+    expect(result.map((e) => e.start)).toEqual(['2026-06-14T22:30:00']);
+  });
+
+  it('drops events with a missing or malformed start instead of throwing', () => {
+    const fresh = [
+      ev('a', '2026-06-20T10:00:00'),
+      { ...ev('b', 'x'), start: undefined as unknown as string },
+      { ...ev('c', 'x'), start: '' },
+    ];
+    const result = carryForwardEvents(fresh, [], ['a', 'b', 'c'], NOW);
+    expect(result.map((e) => e.source)).toEqual(['a']);
+  });
+
   it('drops fresh events that have already passed (a source can return stale ids)', () => {
     const fresh = [
       ev('village-vanguard', '2026-05-11T20:00:00'), // past residency set -> drop

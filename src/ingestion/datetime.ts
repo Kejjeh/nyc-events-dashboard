@@ -16,3 +16,32 @@ export function parseTime(time: string): string {
 export function combineDateTime(date: string, time: string): string {
   return `${date}T${parseTime(time)}`;
 }
+
+const NYC_TZ = 'America/New_York';
+
+/** The America/New_York calendar date ("YYYY-MM-DD") for a given instant. */
+export function nycDateOf(iso: string): string {
+  // 'en-CA' formats as YYYY-MM-DD.
+  return new Intl.DateTimeFormat('en-CA', { timeZone: NYC_TZ }).format(new Date(iso));
+}
+
+/**
+ * Converts a timezone-aware ISO timestamp (e.g. UTC "…Z") to bare
+ * America/New_York local ISO ("YYYY-MM-DDTHH:MM:SS") so every source's start
+ * uses one consistent, comparable representation.
+ */
+export function utcToNycLocal(iso: string): string {
+  // 'sv-SE' formats as "YYYY-MM-DD HH:MM:SS".
+  return new Intl.DateTimeFormat('sv-SE', {
+    timeZone: NYC_TZ,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false,
+  })
+    .format(new Date(iso))
+    .replace(' ', 'T');
+}

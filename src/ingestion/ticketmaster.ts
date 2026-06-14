@@ -1,4 +1,5 @@
 import type { Category, Event } from '../domain/event';
+import { utcToNycLocal } from './datetime';
 
 /** Maps a Ticketmaster classification segment to our category taxonomy. */
 function categoryForSegment(segment: string | undefined): Category {
@@ -28,7 +29,11 @@ function boroughForCity(city: string): Event['borough'] {
   }
 }
 
-export function normalizeTicketmasterEvent(raw: any): Event {
+export function normalizeTicketmasterEvent(raw: any): Event | null {
+  // Date-TBA events have no start dateTime; drop them — they can't be placed.
+  const dateTime = raw.dates?.start?.dateTime;
+  if (!dateTime) return null;
+
   const venue = raw._embedded.venues[0];
   const price = raw.priceRanges?.[0];
 
@@ -38,7 +43,8 @@ export function normalizeTicketmasterEvent(raw: any): Event {
     category: categoryForSegment(raw.classifications?.[0]?.segment?.name),
     borough: boroughForCity(venue.city.name),
     venue: venue.name,
-    start: raw.dates.start.dateTime,
+    // Ticketmaster returns UTC; convert to ET-local so all sources are uniform.
+    start: utcToNycLocal(dateTime),
     isFree: !price,
     ...(price && { priceMin: price.min, priceMax: price.max }),
     url: raw.url,

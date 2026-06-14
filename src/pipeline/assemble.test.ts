@@ -45,8 +45,50 @@ describe('assembleEvents', () => {
     const events = assembleEvents(batches);
 
     expect(events.map((e) => e.id)).toEqual([
-      'nyc-open-data:early',
+      'nyc-open-data:early:2026-08-15T12:00:00.000',
       'ticketmaster:tmLate',
     ]);
+  });
+
+  it('deduplicates events by id (sources can repeat ids)', () => {
+    const batches = [
+      {
+        source: 'nyc-open-data' as const,
+        records: [
+          {
+            event_id: 'dup',
+            event_name: 'Repeated Permit',
+            start_date_time: '2026-08-01T12:00:00.000',
+            event_type: 'Street Event',
+            event_borough: 'Queens',
+            event_location: 'Somewhere',
+          },
+          {
+            event_id: 'dup',
+            event_name: 'Repeated Permit',
+            start_date_time: '2026-08-01T12:00:00.000',
+            event_type: 'Street Event',
+            event_borough: 'Queens',
+            event_location: 'Somewhere',
+          },
+        ],
+      },
+    ];
+    const events = assembleEvents(batches);
+    expect(events).toHaveLength(1);
+  });
+
+  it('skips records that normalize to an unusable start instead of throwing', () => {
+    const batches = [
+      {
+        source: 'nyc-open-data' as const,
+        records: [
+          { event_id: 'ok', event_name: 'Good', start_date_time: '2026-08-01T12:00:00.000', event_type: 'x', event_borough: 'Queens', event_location: 'p' },
+          { event_id: 'bad', event_name: 'No Start', event_type: 'x', event_borough: 'Queens', event_location: 'p' },
+        ],
+      },
+    ];
+    const events = assembleEvents(batches);
+    expect(events.map((e) => e.id)).toEqual(['nyc-open-data:ok:2026-08-01T12:00:00.000']);
   });
 });
