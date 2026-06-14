@@ -1,4 +1,5 @@
 import type { Borough, Category, Event } from '../domain/event';
+import { combineDateTime } from './datetime';
 import boroughPolygons from './data/borough-polygons.json';
 
 /** Outer rings ([lon, lat]) for each target borough, keyed by borough name. */
@@ -15,25 +16,6 @@ function pointInRing(lon: number, lat: number, ring: number[][]): boolean {
     if (intersects) inside = !inside;
   }
   return inside;
-}
-
-/** Parses a Parks RSS time like "3:00 pm" into a 24-hour "HH:MM:SS" string. */
-function parseTime(time: string): string {
-  const match = time.trim().match(/^(\d{1,2}):(\d{2})\s*(am|pm)$/i);
-  if (!match) {
-    throw new Error(`Unrecognized Parks time: "${time}"`);
-  }
-  let hour = parseInt(match[1], 10);
-  const minute = match[2];
-  const meridiem = match[3].toLowerCase();
-  if (meridiem === 'pm' && hour !== 12) hour += 12;
-  if (meridiem === 'am' && hour === 12) hour = 0;
-  return `${String(hour).padStart(2, '0')}:${minute}:00`;
-}
-
-/** Combines a Parks date ("2026-08-23") and time ("3:00 pm") into a local ISO timestamp. */
-function combineDateTime(date: string, time: string): string {
-  return `${date}T${parseTime(time)}`;
 }
 
 /**

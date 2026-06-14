@@ -36,6 +36,7 @@ const SOURCE_LABELS: Record<string, string> = {
   ticketmaster: 'Ticketmaster',
   'nyc-open-data': 'NYC Permits',
   'nyc-parks': 'NYC Parks',
+  smallslive: 'SmallsLIVE',
 };
 
 export function sourceLabel(source: string): string {

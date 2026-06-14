@@ -2,8 +2,9 @@ import type { Event } from '../domain/event';
 import { normalizeTicketmasterEvent } from '../ingestion/ticketmaster';
 import { normalizeNycOpenDataEvent } from '../ingestion/nycOpenData';
 import { normalizeParksEvent } from '../ingestion/nycParks';
+import { normalizeSmallsEvent } from '../ingestion/smallslive';
 
-export type SourceName = 'ticketmaster' | 'nyc-open-data' | 'nyc-parks';
+export type SourceName = 'ticketmaster' | 'nyc-open-data' | 'nyc-parks' | 'smallslive';
 
 export interface RawBatch {
   source: SourceName;
@@ -15,6 +16,7 @@ const NORMALIZERS: Record<SourceName, (raw: any) => Event | null> = {
   ticketmaster: normalizeTicketmasterEvent,
   'nyc-open-data': normalizeNycOpenDataEvent,
   'nyc-parks': normalizeParksEvent,
+  smallslive: normalizeSmallsEvent,
 };
 
 /**

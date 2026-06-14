@@ -1,5 +1,9 @@
 import { XMLParser } from 'fast-xml-parser';
 import type { RawBatch } from './assemble';
+import { parseSmallsCalendar } from '../ingestion/smallslive';
+
+const BROWSER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 
 /** NYC Open Data — "NYC Permitted Event Information – Current" (Socrata dataset bkfu-528j). */
 const NYC_DATASET_URL = 'https://data.cityofnewyork.us/resource/bkfu-528j.json';
@@ -10,6 +14,38 @@ const TICKETMASTER_URL = 'https://app.ticketmaster.com/discovery/v2/events.json'
 
 /** NYC Parks public events RSS feed (upcoming 14 days, all free). */
 const PARKS_RSS_URL = 'https://www.nycgovparks.org/xml/events_300_rss.xml';
+
+/** SmallsLIVE calendar JSON API (Smalls, Mezzrow & the Café — all Manhattan jazz). */
+const SMALLS_AJAX_URL = 'https://www.smallslive.com/search/upcoming-ajax/';
+const SMALLS_MAX_PAGES = 6;
+
+/**
+ * Fetches upcoming SmallsLIVE jazz sets by paging the calendar AJAX endpoint and
+ * parsing each page's `template` HTML.
+ */
+export async function fetchSmalls(nowIso: string): Promise<RawBatch> {
+  const startingDate = nowIso.slice(0, 10);
+  const records: any[] = [];
+
+  for (let page = 1; page <= SMALLS_MAX_PAGES; page++) {
+    const url = `${SMALLS_AJAX_URL}?page=${page}&venue=all&starting_date=${startingDate}`;
+    const res = await fetch(url, {
+      headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
+    });
+    if (!res.ok) {
+      throw new Error(`SmallsLIVE fetch failed: HTTP ${res.status}`);
+    }
+    const body = (await res.json()) as { template?: string; page_range?: number[] };
+    const pageRecords = parseSmallsCalendar(body.template ?? '');
+    if (pageRecords.length === 0) break;
+    records.push(...pageRecords);
+
+    const lastPage = Array.isArray(body.page_range) ? Math.max(...body.page_range) : page;
+    if (page >= lastPage) break;
+  }
+
+  return { source: 'smallslive', records };
+}
 
 /**
  * Fetches upcoming NYC Parks events from the RSS feed. The feed namespaces its
