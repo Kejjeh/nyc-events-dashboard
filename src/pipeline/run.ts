@@ -1,10 +1,29 @@
 import { existsSync } from 'node:fs';
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
+import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
-import { fetchNycOpenData, fetchParks, fetchSmalls, fetchTicketmaster } from './sources';
+import { carryForwardEvents } from './carryForward';
+import {
+  fetchNycOpenData,
+  fetchParks,
+  fetchSmalls,
+  fetchTicketmaster,
+  fetchVillageVanguard,
+} from './sources';
 
 const OUTPUT_PATH = 'public/data/events.json';
+
+/** Reads the previously-published events, or [] if there is no prior file. */
+async function readPreviousEvents(): Promise<Event[]> {
+  if (!existsSync(OUTPUT_PATH)) return [];
+  try {
+    const payload = JSON.parse(await readFile(OUTPUT_PATH, 'utf8'));
+    return Array.isArray(payload.events) ? payload.events : [];
+  } catch {
+    return [];
+  }
+}
 
 async function settle(label: string, p: Promise<RawBatch>): Promise<RawBatch | null> {
   try {
@@ -27,16 +46,31 @@ async function main(): Promise<void> {
       settle('nyc-open-data', fetchNycOpenData(nowIso)),
       settle('nyc-parks', fetchParks()),
       settle('smallslive', fetchSmalls(nowIso)),
+      settle('village-vanguard', fetchVillageVanguard()),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
     ])
   ).filter((b): b is RawBatch => b !== null);
 
-  const events = assembleEvents(batches);
+  const succeededSources = batches.map((b) => b.source);
+  const fresh = assembleEvents(batches);
 
-  // Never replace a good dataset with nothing: if every source failed this run,
-  // keep the last successful events.json rather than publishing an empty page.
+  // Carry forward last-good events for any source that failed this run, so a
+  // single source's flakiness doesn't make its events blink out of the dashboard.
+  const previous = await readPreviousEvents();
+  const events = carryForwardEvents(fresh, previous, succeededSources, nowIso);
+
+  const carried = events.length - fresh.length;
+  if (carried > 0) {
+    const downSources = [...new Set(previous.map((e) => e.source))].filter(
+      (s) => !succeededSources.includes(s),
+    );
+    console.warn(`Carried forward ${carried} events from down source(s): ${downSources.join(', ')}`);
+  }
+
+  // Never replace a good dataset with nothing: if every source failed and there
+  // was nothing to carry forward, keep the existing file rather than blanking it.
   if (events.length === 0 && existsSync(OUTPUT_PATH)) {
-    console.warn('All sources returned 0 events — keeping existing data, not overwriting.');
+    console.warn('No events produced and nothing to carry forward — keeping existing data.');
     return;
   }
 

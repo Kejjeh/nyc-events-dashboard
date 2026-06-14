@@ -37,6 +37,7 @@ const SOURCE_LABELS: Record<string, string> = {
   'nyc-open-data': 'NYC Permits',
   'nyc-parks': 'NYC Parks',
   smallslive: 'SmallsLIVE',
+  'village-vanguard': 'Village Vanguard',
 };
 
 export function sourceLabel(source: string): string {

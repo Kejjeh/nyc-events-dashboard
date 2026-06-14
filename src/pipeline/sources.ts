@@ -1,9 +1,31 @@
 import { XMLParser } from 'fast-xml-parser';
 import type { RawBatch } from './assemble';
 import { parseSmallsCalendar } from '../ingestion/smallslive';
+import { withRetry } from './retry';
 
 const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
+
+/**
+ * Transient statuses worth retrying. NYC Parks (CloudFront origin/WAF) returns a
+ * sporadic 403 on cache-miss that a retry recovers; Socrata returns transient
+ * 503s. A non-retryable status (e.g. 404) is returned as-is for the caller.
+ */
+const RETRYABLE_STATUS = new Set([403, 429, 500, 502, 503, 504]);
+
+/** Fetch with bounded exponential-backoff retries on transient failures. */
+function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
+  return withRetry(
+    async () => {
+      const res = await fetch(url, init);
+      if (RETRYABLE_STATUS.has(res.status)) {
+        throw new Error(`transient HTTP ${res.status}`);
+      }
+      return res;
+    },
+    { retries: 3, baseDelayMs: 1000 },
+  );
+}
 
 /** NYC Open Data — "NYC Permitted Event Information – Current" (Socrata dataset bkfu-528j). */
 const NYC_DATASET_URL = 'https://data.cityofnewyork.us/resource/bkfu-528j.json';
@@ -29,7 +51,7 @@ export async function fetchSmalls(nowIso: string): Promise<RawBatch> {
 
   for (let page = 1; page <= SMALLS_MAX_PAGES; page++) {
     const url = `${SMALLS_AJAX_URL}?page=${page}&venue=all&starting_date=${startingDate}`;
-    const res = await fetch(url, {
+    const res = await fetchWithRetry(url, {
       headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
     });
     if (!res.ok) {
@@ -53,12 +75,12 @@ export async function fetchSmalls(nowIso: string): Promise<RawBatch> {
  * parsed records match the keys the Parks normalizer expects.
  */
 export async function fetchParks(): Promise<RawBatch> {
-  const res = await fetch(PARKS_RSS_URL, {
+  const res = await fetchWithRetry(PARKS_RSS_URL, {
     headers: {
-      // nycgovparks.org rejects bare/unknown agents (HTTP 403) from datacenter
-      // IPs, so present a complete browser-like header set.
-      'User-Agent':
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+      // nycgovparks.org sits behind CloudFront; on a cache-miss the origin/WAF
+      // sporadically 403s datacenter IPs. fetchWithRetry recovers by landing on
+      // a warm edge on a subsequent attempt.
+      'User-Agent': BROWSER_UA,
       Accept: 'application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
       'Accept-Language': 'en-US,en;q=0.9',
     },
@@ -78,6 +100,76 @@ export async function fetchParks(): Promise<RawBatch> {
   return { source: 'nyc-parks', records };
 }
 
+/** Village Vanguard (SquadUp-ticketed) — discovery + per-event JSON API. */
+const VV_HOME = 'https://villagevanguard.com/';
+const VV_ARTIST_BASE = 'https://vv.squadup.com/artists/';
+const SQUADUP_EVENT_BASE = 'https://www.squadup.com/api/v3/events/';
+
+/**
+ * Fetches upcoming Village Vanguard jazz sets. The schedule lives behind SquadUp:
+ * the venue homepage lists upcoming artist slugs; the SquadUp SPA's page JS chunk
+ * carries a public access token plus a slug -> {name, eventIds} map; each event id
+ * resolves to a per-set JSON record. The chunk hash and token are discovered each
+ * run (never hardcoded) so SquadUp redeploys/rotations don't break the source.
+ */
+export async function fetchVillageVanguard(): Promise<RawBatch> {
+  const headers = { 'User-Agent': BROWSER_UA };
+  const home = await (await fetchWithRetry(VV_HOME, { headers })).text();
+  const slugs = [
+    ...new Set([...home.matchAll(/vv\.squadup\.com\/artists\/([a-z0-9-]+)/g)].map((m) => m[1])),
+  ];
+  if (slugs.length === 0) return { source: 'village-vanguard', records: [] };
+
+  // Discover the page chunk (hashed filename), the access token, and the slug map.
+  const shell = await (await fetchWithRetry(`${VV_ARTIST_BASE}${slugs[0]}`, { headers })).text();
+  const chunkPath = shell.match(
+    /\/_next\/static\/chunks\/app\/artists\/%5BartistSlug%5D\/page-[a-f0-9]+\.js/,
+  );
+  if (!chunkPath) throw new Error('Village Vanguard: SquadUp page chunk not found');
+  const chunk = await (await fetchWithRetry(`https://vv.squadup.com${chunkPath[0]}`, { headers })).text();
+  const tokenMatch = chunk.match(/access_token=(vv-[0-9a-f]+)/) || chunk.match(/(vv-[0-9a-f]{16,})/);
+  if (!tokenMatch) throw new Error('Village Vanguard: SquadUp access token not found');
+  const token = tokenMatch[1];
+
+  const acts = slugs
+    .map((slug) => {
+      const m = chunk.match(
+        new RegExp(`"${slug}":\\{artist:\\{name:"([^"]*)"\\},eventIds:\\[([\\d,]+)\\]`),
+      );
+      return m ? { slug, title: m[1], eventIds: m[2].split(',').filter(Boolean) } : null;
+    })
+    .filter((a): a is { slug: string; title: string; eventIds: string[] } => a !== null);
+
+  const jobs = acts.flatMap((a) => a.eventIds.map((id) => ({ slug: a.slug, title: a.title, id })));
+  const records = (
+    await Promise.all(
+      jobs.map(async (job) => {
+        try {
+          const res = await fetchWithRetry(
+            `${SQUADUP_EVENT_BASE}${job.id}?include=price_tiers&access_token=${token}`,
+            { headers: { ...headers, Accept: 'application/json' } },
+          );
+          if (!res.ok) return null;
+          const event = ((await res.json()) as any)?.events;
+          if (!event?.start_at) return null;
+          return {
+            id: event.id,
+            title: job.title,
+            slug: job.slug,
+            startAt: event.start_at,
+            endAt: event.end_at,
+            priceTiers: event.price_tiers ?? [],
+          };
+        } catch {
+          return null;
+        }
+      }),
+    )
+  ).filter(Boolean);
+
+  return { source: 'village-vanguard', records };
+}
+
 /**
  * Fetches upcoming permitted events in the four target boroughs.
  * No API key required (Socrata open endpoint).
@@ -95,7 +187,7 @@ export async function fetchNycOpenData(nowIso: string): Promise<RawBatch> {
     $limit: '1000',
   });
 
-  const res = await fetch(`${NYC_DATASET_URL}?${params}`);
+  const res = await fetchWithRetry(`${NYC_DATASET_URL}?${params}`);
   if (!res.ok) {
     throw new Error(`NYC Open Data fetch failed: HTTP ${res.status}`);
   }
@@ -119,7 +211,7 @@ export async function fetchTicketmaster(apiKey: string | undefined): Promise<Raw
     size: '200',
   });
 
-  const res = await fetch(`${TICKETMASTER_URL}?${params}`);
+  const res = await fetchWithRetry(`${TICKETMASTER_URL}?${params}`);
   if (!res.ok) {
     throw new Error(`Ticketmaster fetch failed: HTTP ${res.status}`);
   }
