@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:08:03.548Z",
-  "count": 1492,
+  "generatedAt": "2026-06-14T20:09:46.823Z",
+  "count": 1470,
   "events": [
     {
       "id": "nyc-parks:2146725",
@@ -399,30 +399,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-parks:2153669",
-      "title": "Jazz in the Park at Ralph Ellison",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Ralph Ellison Plaza",
-      "start": "2026-06-14T14:00:00",
-      "end": "2026-06-14T17:00:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/14/jazz-in-the-park-at-ralph-ellison",
-      "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-parks:2158096",
-      "title": "Horseshoe Crab Exploration",
-      "category": "other",
-      "borough": "Brooklyn",
-      "venue": "Lew Fidler Park (in Marine Park)",
-      "start": "2026-06-14T14:00:00",
-      "end": "2026-06-14T15:00:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/14/horseshoe-crab-exploration",
-      "source": "nyc-parks"
-    },
-    {
       "id": "smallslive:32834",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -447,6 +423,30 @@
       "source": "smallslive"
     },
     {
+      "id": "nyc-parks:2153669",
+      "title": "Jazz in the Park at Ralph Ellison",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Ralph Ellison Plaza",
+      "start": "2026-06-14T14:00:00",
+      "end": "2026-06-14T17:00:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/14/jazz-in-the-park-at-ralph-ellison",
+      "source": "nyc-parks"
+    },
+    {
+      "id": "nyc-parks:2158096",
+      "title": "Horseshoe Crab Exploration",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Lew Fidler Park (in Marine Park)",
+      "start": "2026-06-14T14:00:00",
+      "end": "2026-06-14T15:00:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/14/horseshoe-crab-exploration",
+      "source": "nyc-parks"
+    },
+    {
       "id": "nyc-parks:2128318",
       "title": "Shirley Chisholm: Swim Prep",
       "category": "other",
@@ -457,6 +457,28 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/shirley-chisholm-swim-prep",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32676",
+      "title": "Sarah King Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-14T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32676-sarah-king-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32678",
+      "title": "Saul Dautch Quintet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-14T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32678-saul-dautch-quintet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2158514",
@@ -483,28 +505,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32676",
-      "title": "Sarah King Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-14T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32676-sarah-king-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32678",
-      "title": "Saul Dautch Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-14T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32678-saul-dautch-quintet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2172878",
       "title": "Hudson Classical Theater Company presents: Uncle Vanya",
       "category": "other",
@@ -529,6 +529,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32790",
+      "title": "Steve Turre Sextet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-14T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32790-steve-turre-sextet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2178996",
       "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
       "category": "other",
@@ -539,17 +550,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32790",
-      "title": "Steve Turre Sextet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32790-steve-turre-sextet/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135494",
@@ -586,18 +586,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32677-ai-murakami-quartet/",
       "source": "smallslive"
-    },
-    {
-      "id": "dice:6a0262ac3f4f0c0001e380b8",
-      "title": "SWer Open Mic Pride",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-14T21:00:00",
-      "end": "2026-06-15T01:00:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/av5v9v-swer-open-mic-pride-14th-jun-alphaville-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32846",
@@ -912,6 +900,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32776",
+      "title": "Alan Broadbent Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-15T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32776-alan-broadbent-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32729",
+      "title": "Ari Hoenig Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-15T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32729-ari-hoenig-trio/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2106987",
       "title": "Cardio Dance",
       "category": "sports",
@@ -982,28 +992,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/15/bufano-park-reconstruction-community-input-meeting",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32776",
-      "title": "Alan Broadbent Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-15T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32776-alan-broadbent-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32729",
-      "title": "Ari Hoenig Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-15T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32729-ari-hoenig-trio/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2160415",
@@ -1078,6 +1066,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32895",
+      "title": "Joe Farnsworth Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32895-joe-farnsworth-quartet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2178997",
       "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
       "category": "other",
@@ -1088,17 +1087,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/15/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32895",
-      "title": "Joe Farnsworth Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-15T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32895-joe-farnsworth-quartet/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2143540",
@@ -1676,6 +1664,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32928",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-16T14:00:00",
+      "end": "2026-06-16T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32928-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2176746",
       "title": "Summer Sports Experience: Flag Football",
       "category": "sports",
@@ -1698,18 +1698,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/16/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32928",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-16T14:00:00",
-      "end": "2026-06-16T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32928-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174287",
@@ -1844,6 +1832,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32911",
+      "title": "Toru Dodo Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-16T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32911-toru-dodo-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32744",
+      "title": "Alexi David Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-16T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32744-alexi-david-trio/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2109954",
       "title": "Opening Reception: 40 in Focus: SummerStage through the Lens of Photographer Jack Vartoogian",
       "category": "other",
@@ -1940,28 +1950,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32911",
-      "title": "Toru Dodo Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-16T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32911-toru-dodo-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32744",
-      "title": "Alexi David Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-16T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32744-alexi-david-trio/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2135034",
       "title": "Uplifted Dance Fitness",
       "category": "sports",
@@ -2046,6 +2034,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32918",
+      "title": "Spike Wilner Trio Feat. Anat Cohen",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32918-spike-wilner-trio-feat-anat-cohen/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2158262",
       "title": "Dance Fitness for Fun",
       "category": "sports",
@@ -2070,29 +2069,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32918",
-      "title": "Spike Wilner Trio Feat. Anat Cohen",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32918-spike-wilner-trio-feat-anat-cohen/",
-      "source": "smallslive"
-    },
-    {
-      "id": "dice:69d5801c6c2a5d0001cf6517",
-      "title": "Free Pure Chaos Open Mic Comedy",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T23:00:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/8e538r-free-pure-chaos-open-mic-comedy-16th-jun-alphaville-new-york-tickets",
-      "source": "dice"
-    },
-    {
       "id": "village-vanguard:135501",
       "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
@@ -2105,18 +2081,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:6a14d9f63b80100001710ee7",
-      "title": "Wild Card Comedy",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-16T20:30:00",
-      "end": "2026-06-17T00:30:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/yowm5x-wild-card-comedy-16th-jun-alphaville-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32732",
@@ -2139,19 +2103,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32733-nate-jones-septet/",
       "source": "smallslive"
-    },
-    {
-      "id": "dice:6a2b026ebbc394000121a96e",
-      "title": "Acting Idol",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "The Rat NYC",
-      "start": "2026-06-16T21:00:00",
-      "end": "2026-06-16T22:15:00",
-      "isFree": false,
-      "priceMin": 17,
-      "url": "https://dice.fm/event/bb2lwv-acting-idol-16th-jun-the-rat-nyc-new-york-city-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32931",
@@ -2705,6 +2656,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32835",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-17T14:00:00",
+      "end": "2026-06-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32835-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2176688",
       "title": "Summer Sports Experience: Flag Football",
       "category": "sports",
@@ -2727,18 +2690,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/17/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32835",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-17T14:00:00",
-      "end": "2026-06-17T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32835-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174254",
@@ -2933,6 +2884,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32734",
+      "title": "Joe Alterman Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32734-joe-alterman-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32736",
+      "title": "Tyler Blanton &  Brazilian Bros",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32736-tyler-blanton-brazilian-bros/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2109651",
       "title": "Dance Fitness Fiesta",
       "category": "sports",
@@ -3029,28 +3002,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32734",
-      "title": "Joe Alterman Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-17T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32734-joe-alterman-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32736",
-      "title": "Tyler Blanton &  Brazilian Bros",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-17T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32736-tyler-blanton-brazilian-bros/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2152358",
       "title": "Summer on the Hudson: Everybody Tango!",
       "category": "other",
@@ -3099,6 +3050,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32853",
+      "title": "Sam Yahel Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32853-sam-yahel-trio/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2174832",
       "title": "Bryant Park Bingo",
       "category": "other",
@@ -3121,30 +3083,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/17/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32853",
-      "title": "Sam Yahel Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32853-sam-yahel-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "dice:6a21f5a77896040001055db8",
-      "title": "Flatbush Comedy Festival",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "Record City",
-      "start": "2026-06-17T19:30:00",
-      "end": "2026-06-17T21:30:00",
-      "isFree": false,
-      "priceMin": 18.7,
-      "url": "https://dice.fm/event/dkpmm6-flatbush-comedy-festival-17th-jun-record-city-new-york-city-tickets",
-      "source": "dice"
     },
     {
       "id": "village-vanguard:135503",
@@ -3746,6 +3684,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32836",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-18T14:00:00",
+      "end": "2026-06-18T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32836-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2168788",
       "title": "Public Gallery Tour",
       "category": "other",
@@ -3780,18 +3730,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/18/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32836",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-18T14:00:00",
-      "end": "2026-06-18T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32836-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174253",
@@ -3974,6 +3912,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32738",
+      "title": "Richie Vitale Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-18T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32738-richie-vitale-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32740",
+      "title": "Kerry Politzer Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-18T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32740-kerry-politzer-quartet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2114426",
       "title": "Low Impact Bodyweight Circuit Training",
       "category": "sports",
@@ -4142,28 +4102,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32738",
-      "title": "Richie Vitale Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-18T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32738-richie-vitale-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32740",
-      "title": "Kerry Politzer Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-18T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32740-kerry-politzer-quartet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2112385",
       "title": "Dance Fusion",
       "category": "sports",
@@ -4236,6 +4174,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32854",
+      "title": "Richie Goods quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32854-richie-goods-quartet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2169577",
       "title": "Dance Fitness",
       "category": "sports",
@@ -4272,17 +4221,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32854",
-      "title": "Richie Goods quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32854-richie-goods-quartet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2158670",
       "title": "Virtual Zumba",
       "category": "sports",
@@ -4292,31 +4230,6 @@
       "end": "2026-06-18T20:30:00",
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/18/virtual-zumba",
-      "source": "nyc-parks"
-    },
-    {
-      "id": "dice:6a221325bbc6940001ae5cba",
-      "title": "Flatbush Comedy Festival",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "YUME",
-      "start": "2026-06-18T19:30:00",
-      "end": "2026-06-18T21:30:00",
-      "isFree": false,
-      "priceMin": 17,
-      "url": "https://dice.fm/event/5366pk-flatbush-comedy-festival-18th-jun-yume-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
-      "id": "nyc-parks:2169175",
-      "title": "Movies Under the Stars: Harriet",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Softball Field 1 (in Morningside Park)",
-      "start": "2026-06-18T20:00:00",
-      "end": "2026-06-18T22:00:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/18/movies-under-the-stars-harriet",
       "source": "nyc-parks"
     },
     {
@@ -4332,6 +4245,18 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
+    },
+    {
+      "id": "nyc-parks:2169175",
+      "title": "Movies Under the Stars: Harriet",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Softball Field 1 (in Morningside Park)",
+      "start": "2026-06-18T20:00:00",
+      "end": "2026-06-18T22:00:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/18/movies-under-the-stars-harriet",
+      "source": "nyc-parks"
     },
     {
       "id": "nyc-parks:2173654",
@@ -4358,6 +4283,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32739",
+      "title": "Dred Scott Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-18T21:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32739-dred-scott-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32741",
+      "title": "Peter Brainin Sextet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-18T21:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32741-peter-brainin-sextet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2176626",
       "title": "Movies Under The Stars: Back to the Future | PG",
       "category": "other",
@@ -4380,28 +4327,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/18/movies-under-the-stars-superman-pg13",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32739",
-      "title": "Dred Scott Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-18T21:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32739-dred-scott-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32741",
-      "title": "Peter Brainin Sextet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-18T21:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32741-peter-brainin-sextet/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135510",
@@ -4739,6 +4664,30 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32837",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-19T14:00:00",
+      "end": "2026-06-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32837-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32912",
+      "title": "Smalls Afternoon Jam Session Hosted by Carol Morgan",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-19T14:00:00",
+      "end": "2026-06-19T17:15:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32912-smalls-afternoon-jam-session-hosted-by-carol-morgan/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2171664",
       "title": "Juggling in Greeley Square Park",
       "category": "sports",
@@ -4773,30 +4722,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32837",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-19T14:00:00",
-      "end": "2026-06-19T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32837-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32912",
-      "title": "Smalls Afternoon Jam Session Hosted by Carol Morgan",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-19T14:00:00",
-      "end": "2026-06-19T17:15:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32912-smalls-afternoon-jam-session-hosted-by-carol-morgan/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2180325",
@@ -4931,6 +4856,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32777",
+      "title": "Spike Wilner Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32777-spike-wilner-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32683",
+      "title": "Marius Van Den Brink Quintet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32683-marius-van-den-brink-quintet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2108579",
       "title": "CANCELED: RISE UP Circuit Training",
       "category": "sports",
@@ -4991,28 +4938,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32777",
-      "title": "Spike Wilner Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-19T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32777-spike-wilner-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32683",
-      "title": "Marius Van Den Brink Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-19T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32683-marius-van-den-brink-quintet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2109864",
       "title": "Summer on the Hudson: Forest Bathing",
       "category": "other",
@@ -5035,6 +4960,17 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/19/hudson-classical-theater-company-presents-uncle-vanya1",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32793",
+      "title": "Jeff \"Tain\" Watts Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32793-jeff-tain-watts-quartet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2172926",
@@ -5061,30 +4997,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32793",
-      "title": "Jeff \"Tain\" Watts Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32793-jeff-tain-watts-quartet/",
-      "source": "smallslive"
-    },
-    {
-      "id": "dice:6a22131a3aa9200001ced85e",
-      "title": "Flatbush Comedy Festival",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "Classic Cups",
-      "start": "2026-06-19T19:30:00",
-      "end": "2026-06-19T21:30:00",
-      "isFree": false,
-      "priceMin": 17,
-      "url": "https://dice.fm/event/nv66r3-flatbush-comedy-festival-19th-jun-classic-cups-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
       "id": "village-vanguard:135505",
       "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
@@ -5097,19 +5009,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:69f254ea5840ee0001d7616b",
-      "title": "SOMEWHERE FUNNY, NOWHERE SERIOUS!",
-      "category": "comedy",
-      "borough": "Manhattan",
-      "venue": "Somewhere Nowhere NYC",
-      "start": "2026-06-19T20:00:00",
-      "end": "2026-06-19T22:00:00",
-      "isFree": false,
-      "priceMin": 26.56,
-      "url": "https://dice.fm/event/yoeaxp-somewhere-funny-nowhere-serious-19th-jun-somewhere-nowhere-nyc-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "nyc-open-data:894581:2026-06-19T20:00:00.000",
@@ -6393,6 +6292,30 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32838",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-20T14:00:00",
+      "end": "2026-06-20T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32838-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32941",
+      "title": "Smalls Afternoon Jam Session Hosted by Steve Nelson",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-20T14:00:00",
+      "end": "2026-06-20T17:15:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32941-smalls-afternoon-jam-session-hosted-by-steve-nelson/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2168789",
       "title": "Public Gallery Tour",
       "category": "other",
@@ -6477,30 +6400,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32838",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-20T14:00:00",
-      "end": "2026-06-20T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32838-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32941",
-      "title": "Smalls Afternoon Jam Session Hosted by Steve Nelson",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-20T14:00:00",
-      "end": "2026-06-20T17:15:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32941-smalls-afternoon-jam-session-hosted-by-steve-nelson/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2146767",
       "title": "Summer on the Hudson: Story Hour!",
       "category": "other",
@@ -6561,6 +6460,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32778",
+      "title": "Spike Wilner Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-20T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32778-spike-wilner-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32684",
+      "title": "Marius Van Den Brink Quintet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-20T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32684-marius-van-den-brink-quintet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2182465",
       "title": "Midsummer Night&#8217;s Dream thru the Garden",
       "category": "other",
@@ -6597,28 +6518,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32778",
-      "title": "Spike Wilner Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-20T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32778-spike-wilner-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32684",
-      "title": "Marius Van Den Brink Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-20T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32684-marius-van-den-brink-quintet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2172881",
       "title": "Hudson Classical Theater Company presents: Uncle Vanya",
       "category": "other",
@@ -6629,6 +6528,17 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/20/hudson-classical-theater-company-presents-uncle-vanya1",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32794",
+      "title": "Jeff \"Tain\" Watts Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-20T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32794-jeff-tain-watts-quartet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2158485",
@@ -6679,28 +6589,18 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32794",
-      "title": "Jeff \"Tain\" Watts Quartet",
+      "id": "village-vanguard:135506",
+      "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
       "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-20T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32794-jeff-tain-watts-quartet/",
-      "source": "smallslive"
-    },
-    {
-      "id": "dice:6a220ed621b3ec00017b4ce1",
-      "title": "Flatbush Comedy Festival",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "Tyson Lounge",
-      "start": "2026-06-20T19:30:00",
+      "venue": "Village Vanguard",
+      "start": "2026-06-20T20:00:00",
       "end": "2026-06-20T21:30:00",
       "isFree": false,
-      "priceMin": 17,
-      "url": "https://dice.fm/event/2wyyqm-flatbush-comedy-festival-20th-jun-tyson-lounge-new-york-city-tickets",
-      "source": "dice"
+      "priceMin": 45,
+      "priceMax": 45,
+      "url": "https://vv.squadup.com/artists/fred-hersch",
+      "source": "village-vanguard"
     },
     {
       "id": "nyc-parks:2135346",
@@ -6727,20 +6627,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "village-vanguard:135506",
-      "title": "Fred Hersch / Drew Gress / Peter Erskine",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Village Vanguard",
-      "start": "2026-06-20T20:00:00",
-      "end": "2026-06-20T21:30:00",
-      "isFree": false,
-      "priceMin": 45,
-      "priceMax": 45,
-      "url": "https://vv.squadup.com/artists/fred-hersch",
-      "source": "village-vanguard"
-    },
-    {
       "id": "nyc-parks:2176266",
       "title": "Movies Under the Stars: Jumanji (1995)",
       "category": "other",
@@ -6751,6 +6637,28 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/20/movies-under-the-stars-jumanji-1995",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32680",
+      "title": "Uri Caine Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-20T21:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32680-uri-caine-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32682",
+      "title": "Bruce Williams Quintet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-20T21:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32682-bruce-williams-quintet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2176667",
@@ -6775,28 +6683,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/20/movies-under-the-stars-wicked-for-good-pg",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32680",
-      "title": "Uri Caine Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-20T21:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32680-uri-caine-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32682",
-      "title": "Bruce Williams Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-20T21:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32682-bruce-williams-quintet/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135512",
@@ -7134,30 +7020,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-parks:2136543",
-      "title": "Summer on the Hudson: Make Music New York",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Pier I (in Riverside Park South)",
-      "start": "2026-06-21T14:00:00",
-      "end": "2026-06-21T16:00:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/21/summer-on-the-hudson-make-music-new-york",
-      "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-parks:2153670",
-      "title": "Jazz in the Park at Ralph Ellison",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Ralph Ellison Plaza",
-      "start": "2026-06-21T14:00:00",
-      "end": "2026-06-21T17:00:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/21/jazz-in-the-park-at-ralph-ellison",
-      "source": "nyc-parks"
-    },
-    {
       "id": "smallslive:32839",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -7180,6 +7042,30 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32915-smalls-afternoon-jam-session-hosted-by-ryo-sasaki/",
       "source": "smallslive"
+    },
+    {
+      "id": "nyc-parks:2136543",
+      "title": "Summer on the Hudson: Make Music New York",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Pier I (in Riverside Park South)",
+      "start": "2026-06-21T14:00:00",
+      "end": "2026-06-21T16:00:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/21/summer-on-the-hudson-make-music-new-york",
+      "source": "nyc-parks"
+    },
+    {
+      "id": "nyc-parks:2153670",
+      "title": "Jazz in the Park at Ralph Ellison",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Ralph Ellison Plaza",
+      "start": "2026-06-21T14:00:00",
+      "end": "2026-06-21T17:00:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/21/jazz-in-the-park-at-ralph-ellison",
+      "source": "nyc-parks"
     },
     {
       "id": "nyc-open-data:886879:2026-06-21T14:00:00.000",
@@ -7218,30 +7104,6 @@
       "source": "nyc-open-data"
     },
     {
-      "id": "dice:6a218f7292e46b00010eb912",
-      "title": "Why I Oughta! Improv",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-21T17:30:00",
-      "end": "2026-06-21T21:30:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/l8xxrr-why-i-oughta-improv-21st-jun-alphaville-new-york-tickets",
-      "source": "dice"
-    },
-    {
-      "id": "nyc-parks:2158515",
-      "title": "Summer on the Hudson: Let's Dance",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Pier I (in Riverside Park South)",
-      "start": "2026-06-21T18:00:00",
-      "end": "2026-06-21T21:30:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/21/summer-on-the-hudson-lets-dance1",
-      "source": "nyc-parks"
-    },
-    {
       "id": "smallslive:32654",
       "title": "Mary Foster Conklin Trio",
       "category": "music",
@@ -7262,6 +7124,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32652-ron-vincent-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "nyc-parks:2158515",
+      "title": "Summer on the Hudson: Let's Dance",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Pier I (in Riverside Park South)",
+      "start": "2026-06-21T18:00:00",
+      "end": "2026-06-21T21:30:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/21/summer-on-the-hudson-lets-dance1",
+      "source": "nyc-parks"
     },
     {
       "id": "nyc-parks:1952174",
@@ -7300,6 +7174,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32795",
+      "title": "Jeff \"Tain\" Watts Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-21T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32795-jeff-tain-watts-quartet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2179003",
       "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
       "category": "other",
@@ -7310,17 +7195,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/21/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32795",
-      "title": "Jeff \"Tain\" Watts Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-21T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32795-jeff-tain-watts-quartet/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135507",
@@ -7335,18 +7209,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:6a25da09e40b580001ce36b8",
-      "title": "For the Dads Comedy Show",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-21T20:00:00",
-      "end": "2026-06-22T00:00:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/7dbx7p-for-the-dads-comedy-show-21st-jun-alphaville-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32869",
@@ -7671,6 +7533,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32781",
+      "title": "Alexander Claffy & Toninho Horta",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-22T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32781-alexander-claffy-toninho-horta/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32742",
+      "title": "Barry Altschul Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-22T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32742-barry-altschul-quartet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2108416",
       "title": "Cardio Dance",
       "category": "sports",
@@ -7741,28 +7625,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/22/big-city-folk-in-greeley-square-park",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32781",
-      "title": "Alexander Claffy & Toninho Horta",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-22T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32781-alexander-claffy-toninho-horta/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32742",
-      "title": "Barry Altschul Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-22T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32742-barry-altschul-quartet/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2160652",
@@ -8375,6 +8237,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32929",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-23T14:00:00",
+      "end": "2026-06-23T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32929-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2176698",
       "title": "Summer Sports Experience: Flag Football",
       "category": "sports",
@@ -8397,18 +8271,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/23/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32929",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-23T14:00:00",
-      "end": "2026-06-23T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32929-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174276",
@@ -8543,6 +8405,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32782",
+      "title": "James Austin Jr.  Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-23T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32782-james-austin-jr-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32745",
+      "title": "Kat Gang Sextet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-23T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32745-kat-gang-sextet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2135140",
       "title": "Tone Up Tuesday",
       "category": "sports",
@@ -8601,28 +8485,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/23/bodywerk-circuit-training",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32782",
-      "title": "James Austin Jr.  Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-23T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32782-james-austin-jr-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32745",
-      "title": "Kat Gang Sextet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-23T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32745-kat-gang-sextet/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2135078",
@@ -8709,6 +8571,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32919",
+      "title": "Adam Birnbaum Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-23T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32919-adam-birnbaum-trio/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2179012",
       "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
       "category": "other",
@@ -8719,17 +8592,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/23/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32919",
-      "title": "Adam Birnbaum Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-23T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32919-adam-birnbaum-trio/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135516",
@@ -8744,18 +8606,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:6a14d9f63b80100001710ee6",
-      "title": "Wild Card Comedy",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-23T20:30:00",
-      "end": "2026-06-24T00:30:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/xeopg3-wild-card-comedy-23rd-jun-alphaville-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32897",
@@ -9247,6 +9097,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32840",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-24T14:00:00",
+      "end": "2026-06-24T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32840-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2176728",
       "title": "Summer Sports Experience: Flag Football",
       "category": "sports",
@@ -9269,18 +9131,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32840",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-24T14:00:00",
-      "end": "2026-06-24T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32840-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174263",
@@ -9463,6 +9313,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32891",
+      "title": "Tal Ronen Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-24T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32891-tal-ronen-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32462",
+      "title": "Jason Yeager Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-24T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32462-jason-yeager-trio/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2109648",
       "title": "Dance Fitness Fiesta",
       "category": "sports",
@@ -9583,28 +9455,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32891",
-      "title": "Tal Ronen Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-24T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32891-tal-ronen-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32462",
-      "title": "Jason Yeager Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-24T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32462-jason-yeager-trio/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2152359",
       "title": "Summer on the Hudson: Everybody Tango!",
       "category": "other",
@@ -9639,6 +9489,17 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/24/zumba1",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32856",
+      "title": "Jerry Weldon Quintet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32856-jerry-weldon-quintet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174833",
@@ -9677,17 +9538,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32856",
-      "title": "Jerry Weldon Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-24T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32856-jerry-weldon-quintet/",
-      "source": "smallslive"
-    },
-    {
       "id": "village-vanguard:135517",
       "title": "Terell Stafford Quintet",
       "category": "music",
@@ -9700,19 +9550,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:6a187e6f9296bb0001bd7da0",
-      "title": "I want my money back : a sketch comedy drag show",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "C'mon Everybody",
-      "start": "2026-06-24T20:00:00",
-      "end": "2026-06-24T22:00:00",
-      "isFree": false,
-      "priceMin": 6.7,
-      "url": "https://dice.fm/event/wwp5wr-i-want-my-money-back-a-sketch-comedy-drag-show-24th-jun-cmon-everybody-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "nyc-parks:2171297",
@@ -9739,18 +9576,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-parks:2188529",
-      "title": "Movies Under the Stars: Shaolin Soccer",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Soccer Field (in Columbus Park)",
-      "start": "2026-06-24T21:00:00",
-      "end": "2026-06-24T22:30:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/24/movies-under-the-stars-shaolin-soccer",
-      "source": "nyc-parks"
-    },
-    {
       "id": "smallslive:32769",
       "title": "Noah Garabedian Trio",
       "category": "music",
@@ -9771,6 +9596,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32861-tom-christensen-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "nyc-parks:2188529",
+      "title": "Movies Under the Stars: Shaolin Soccer",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Soccer Field (in Columbus Park)",
+      "start": "2026-06-24T21:00:00",
+      "end": "2026-06-24T22:30:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/24/movies-under-the-stars-shaolin-soccer",
+      "source": "nyc-parks"
     },
     {
       "id": "village-vanguard:135523",
@@ -10168,6 +10005,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32841",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-25T14:00:00",
+      "end": "2026-06-25T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32841-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2168790",
       "title": "Public Gallery Tour",
       "category": "other",
@@ -10202,18 +10051,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/25/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32841",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-25T14:00:00",
-      "end": "2026-06-25T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32841-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2174273",
@@ -10408,6 +10245,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32746",
+      "title": "Danny Tobias Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-25T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32746-danny-tobias-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:33036",
+      "title": "Ed Cherry Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-25T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/33036-ed-cherry-quartet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2114555",
       "title": "Low Impact Bodyweight Circuit Training",
       "category": "sports",
@@ -10564,28 +10423,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32746",
-      "title": "Danny Tobias Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-25T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32746-danny-tobias-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:33036",
-      "title": "Ed Cherry Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-25T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/33036-ed-cherry-quartet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2112387",
       "title": "Dance Fusion",
       "category": "sports",
@@ -10658,6 +10495,17 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32857",
+      "title": "Corcoran Holt Quintet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-25T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32857-corcoran-holt-quintet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2169604",
       "title": "Dance Fitness",
       "category": "sports",
@@ -10680,17 +10528,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/25/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32857",
-      "title": "Corcoran Holt Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-25T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32857-corcoran-holt-quintet/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2124277",
@@ -10729,18 +10566,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-parks:2169241",
-      "title": "Movies Under the Stars: Kung Fu Panda 4",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Play Area (in McKinley Playground)",
-      "start": "2026-06-25T20:00:00",
-      "end": "2026-06-25T21:30:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/25/movies-under-the-stars-kung-fu-panda-4",
-      "source": "nyc-parks"
-    },
-    {
       "id": "village-vanguard:135518",
       "title": "Terell Stafford Quintet",
       "category": "music",
@@ -10753,6 +10578,18 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard"
+    },
+    {
+      "id": "nyc-parks:2169241",
+      "title": "Movies Under the Stars: Kung Fu Panda 4",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Play Area (in McKinley Playground)",
+      "start": "2026-06-25T20:00:00",
+      "end": "2026-06-25T21:30:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/25/movies-under-the-stars-kung-fu-panda-4",
+      "source": "nyc-parks"
     },
     {
       "id": "nyc-parks:2169079",
@@ -11304,6 +11141,30 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32842",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-26T14:00:00",
+      "end": "2026-06-26T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32842-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32942",
+      "title": "Smalls Afternoon Jam Session Hosted by Andrew Kushnir",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-26T14:00:00",
+      "end": "2026-06-26T17:15:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32942-smalls-afternoon-jam-session-hosted-by-andrew-kushnir/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2169833",
       "title": "School is Out Celebration",
       "category": "other",
@@ -11350,30 +11211,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/26/kids-in-motion-bloomingdale-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32842",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-26T14:00:00",
-      "end": "2026-06-26T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32842-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32942",
-      "title": "Smalls Afternoon Jam Session Hosted by Andrew Kushnir",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-26T14:00:00",
-      "end": "2026-06-26T17:15:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32942-smalls-afternoon-jam-session-hosted-by-andrew-kushnir/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-open-data:898221:2026-06-26T14:00:00.000",
@@ -11544,6 +11381,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32685",
+      "title": "Gray Sargent Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-26T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32685-gray-sargent-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32687",
+      "title": "Julius Tolentino Sextet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-26T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32687-julius-tolentino-sextet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2108513",
       "title": "RISE UP Circuit Training",
       "category": "sports",
@@ -11592,28 +11451,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32685",
-      "title": "Gray Sargent Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-26T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32685-gray-sargent-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32687",
-      "title": "Julius Tolentino Sextet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-26T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32687-julius-tolentino-sextet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2172888",
       "title": "Hudson Classical Theater Company presents: Hamlet",
       "category": "other",
@@ -11636,6 +11473,17 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/26/arts-culture-and-fun-the-public-theater-mobile-unit-as-you-like-it",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32798",
+      "title": "Joel Frahm Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-26T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32798-joel-frahm-quartet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2152381",
@@ -11662,17 +11510,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32798",
-      "title": "Joel Frahm Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32798-joel-frahm-quartet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2135232",
       "title": "Summer on the Hudson: Riverside Comedy Club",
       "category": "other",
@@ -11682,18 +11519,6 @@
       "end": "2026-06-26T21:00:00",
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/26/summer-on-the-hudson-riverside-comedy-club",
-      "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-parks:2158451",
-      "title": "Summer on the Hudson: Bats of Riverside Park",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "120th Street and Riverside Drive (in Riverside Park)",
-      "start": "2026-06-26T20:00:00",
-      "end": "2026-06-26T21:30:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/26/summer-on-the-hudson-bats-of-riverside-park",
       "source": "nyc-parks"
     },
     {
@@ -11711,17 +11536,16 @@
       "source": "village-vanguard"
     },
     {
-      "id": "dice:69f2551c395cfc0001bd7018",
-      "title": "SOMEWHERE FUNNY, NOWHERE SERIOUS!",
-      "category": "comedy",
+      "id": "nyc-parks:2158451",
+      "title": "Summer on the Hudson: Bats of Riverside Park",
+      "category": "other",
       "borough": "Manhattan",
-      "venue": "Somewhere Nowhere NYC",
+      "venue": "120th Street and Riverside Drive (in Riverside Park)",
       "start": "2026-06-26T20:00:00",
-      "end": "2026-06-26T22:00:00",
-      "isFree": false,
-      "priceMin": 26.56,
-      "url": "https://dice.fm/event/927ar6-somewhere-funny-nowhere-serious-26th-jun-somewhere-nowhere-nyc-new-york-tickets",
-      "source": "dice"
+      "end": "2026-06-26T21:30:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/26/summer-on-the-hudson-bats-of-riverside-park",
+      "source": "nyc-parks"
     },
     {
       "id": "nyc-parks:2169084",
@@ -11748,18 +11572,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-parks:2184097",
-      "title": "Movie Under the Stars: Mama Mia",
-      "category": "other",
-      "borough": "Queens",
-      "venue": "Francis Lewis Park Lawn Area (in Francis Lewis Park)",
-      "start": "2026-06-26T21:00:00",
-      "end": "2026-06-26T22:30:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/26/movie-under-the-stars-mama-mia",
-      "source": "nyc-parks"
-    },
-    {
       "id": "smallslive:32657",
       "title": "Jeremy Pelt Trio",
       "category": "music",
@@ -11780,6 +11592,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32689-wayne-escoffery-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "nyc-parks:2184097",
+      "title": "Movie Under the Stars: Mama Mia",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Francis Lewis Park Lawn Area (in Francis Lewis Park)",
+      "start": "2026-06-26T21:00:00",
+      "end": "2026-06-26T22:30:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/26/movie-under-the-stars-mama-mia",
+      "source": "nyc-parks"
     },
     {
       "id": "village-vanguard:135525",
@@ -12717,6 +12541,30 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "smallslive:32843",
+      "title": "Afternoon Jam in the Cafe",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-27T14:00:00",
+      "end": "2026-06-27T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32843-afternoon-jam-in-the-cafe/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32943",
+      "title": "Smalls Afternoon Jam Session Hosted by Ilya Lushtak",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-27T14:00:00",
+      "end": "2026-06-27T17:15:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32943-smalls-afternoon-jam-session-hosted-by-ilya-lushtak/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2168791",
       "title": "Public Gallery Tour",
       "category": "other",
@@ -12751,30 +12599,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/27/summer-sports-experience-flag-football",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32843",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-27T14:00:00",
-      "end": "2026-06-27T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32843-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32943",
-      "title": "Smalls Afternoon Jam Session Hosted by Ilya Lushtak",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-27T14:00:00",
-      "end": "2026-06-27T17:15:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32943-smalls-afternoon-jam-session-hosted-by-ilya-lushtak/",
-      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2146768",
@@ -12837,6 +12661,28 @@
       "source": "nyc-parks"
     },
     {
+      "id": "smallslive:32686",
+      "title": "Gray Sargent Trio",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Mezzrow",
+      "start": "2026-06-27T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32686-gray-sargent-trio/",
+      "source": "smallslive"
+    },
+    {
+      "id": "smallslive:32688",
+      "title": "Julius Tolentino Sextet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-27T18:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32688-julius-tolentino-sextet/",
+      "source": "smallslive"
+    },
+    {
       "id": "nyc-parks:2171286",
       "title": "Silent Disco American Veterans Memorial Pier",
       "category": "sports",
@@ -12861,28 +12707,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "smallslive:32686",
-      "title": "Gray Sargent Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-27T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32686-gray-sargent-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32688",
-      "title": "Julius Tolentino Sextet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-27T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32688-julius-tolentino-sextet/",
-      "source": "smallslive"
-    },
-    {
       "id": "nyc-parks:2172889",
       "title": "Hudson Classical Theater Company presents: Hamlet",
       "category": "other",
@@ -12893,6 +12717,17 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/27/hudson-classical-theater-company-presents-hamlet",
       "source": "nyc-parks"
+    },
+    {
+      "id": "smallslive:32799",
+      "title": "Joel Frahm Quartet",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "The Jazz Cultural Theater",
+      "start": "2026-06-27T19:00:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32799-joel-frahm-quartet/",
+      "source": "smallslive"
     },
     {
       "id": "nyc-parks:2146752",
@@ -12917,17 +12752,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/27/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32799",
-      "title": "Joel Frahm Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-27T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32799-joel-frahm-quartet/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135520",
@@ -13217,18 +13041,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-parks:2153671",
-      "title": "Jazz in the Park at Ralph Ellison",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Ralph Ellison Plaza",
-      "start": "2026-06-28T14:00:00",
-      "end": "2026-06-28T17:00:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/28/jazz-in-the-park-at-ralph-ellison",
-      "source": "nyc-parks"
-    },
-    {
       "id": "smallslive:32844",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -13241,6 +13053,18 @@
       "source": "smallslive"
     },
     {
+      "id": "nyc-parks:2153671",
+      "title": "Jazz in the Park at Ralph Ellison",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Ralph Ellison Plaza",
+      "start": "2026-06-28T14:00:00",
+      "end": "2026-06-28T17:00:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/28/jazz-in-the-park-at-ralph-ellison",
+      "source": "nyc-parks"
+    },
+    {
       "id": "nyc-open-data:894474:2026-06-28T16:00:00.000",
       "title": "Celebration",
       "category": "other",
@@ -13251,18 +13075,6 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
-    },
-    {
-      "id": "nyc-parks:2158516",
-      "title": "Summer on the Hudson: Let's Dance",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Pier I (in Riverside Park South)",
-      "start": "2026-06-28T18:00:00",
-      "end": "2026-06-28T21:30:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/28/summer-on-the-hudson-lets-dance1",
-      "source": "nyc-parks"
     },
     {
       "id": "smallslive:32862",
@@ -13287,6 +13099,18 @@
       "source": "smallslive"
     },
     {
+      "id": "nyc-parks:2158516",
+      "title": "Summer on the Hudson: Let's Dance",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Pier I (in Riverside Park South)",
+      "start": "2026-06-28T18:00:00",
+      "end": "2026-06-28T21:30:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/28/summer-on-the-hudson-lets-dance1",
+      "source": "nyc-parks"
+    },
+    {
       "id": "nyc-parks:2172890",
       "title": "Hudson Classical Theater Company presents: Hamlet",
       "category": "other",
@@ -13296,18 +13120,6 @@
       "end": "2026-06-28T20:30:00",
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/28/hudson-classical-theater-company-presents-hamlet",
-      "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-parks:2179017",
-      "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "E. 87th Street Entrance (in Carl Schurz Park)",
-      "start": "2026-06-28T19:00:00",
-      "end": "2026-06-28T20:45:00",
-      "isFree": true,
-      "url": "http://www.nycgovparks.org/events/2026/06/28/ny-classical-the-tragedy-of-julius-caesar",
       "source": "nyc-parks"
     },
     {
@@ -13322,17 +13134,16 @@
       "source": "smallslive"
     },
     {
-      "id": "dice:6a0ba52117f8370001313bb8",
-      "title": "Vaudeville 3000",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
+      "id": "nyc-parks:2179017",
+      "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "E. 87th Street Entrance (in Carl Schurz Park)",
       "start": "2026-06-28T19:00:00",
-      "end": "2026-06-28T23:00:00",
-      "isFree": false,
-      "priceMin": 9.07,
-      "url": "https://dice.fm/event/6damq2-vaudeville-3000-28th-jun-alphaville-new-york-tickets",
-      "source": "dice"
+      "end": "2026-06-28T20:45:00",
+      "isFree": true,
+      "url": "http://www.nycgovparks.org/events/2026/06/28/ny-classical-the-tragedy-of-julius-caesar",
+      "source": "nyc-parks"
     },
     {
       "id": "village-vanguard:135521",
@@ -13605,18 +13416,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:6a14d9f6b0e7140001b60fa8",
-      "title": "Wild Card Comedy",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-06-30T20:30:00",
-      "end": "2026-07-01T00:30:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/92kdnn-wild-card-comedy-30th-jun-alphaville-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32949",
@@ -13979,19 +13778,6 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
       "source": "village-vanguard"
-    },
-    {
-      "id": "dice:6a10cfae3178720001435a6a",
-      "title": "SOMEWHERE FUNNY, NOWHERE SERIOUS!",
-      "category": "comedy",
-      "borough": "Manhattan",
-      "venue": "Somewhere Nowhere NYC",
-      "start": "2026-07-03T20:00:00",
-      "end": "2026-07-03T22:00:00",
-      "isFree": false,
-      "priceMin": 26.56,
-      "url": "https://dice.fm/event/wwpo3p-somewhere-funny-nowhere-serious-3rd-jul-somewhere-nowhere-nyc-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:32965",
@@ -14378,18 +14164,6 @@
       "source": "smallslive"
     },
     {
-      "id": "dice:6a14d9f63b80100001710ee8",
-      "title": "Wild Card Comedy",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-07-07T20:30:00",
-      "end": "2026-07-08T00:30:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/3oxeb8-wild-card-comedy-7th-jul-alphaville-new-york-tickets",
-      "source": "dice"
-    },
-    {
       "id": "smallslive:33016",
       "title": "Greg Murphy Trio",
       "category": "music",
@@ -14488,19 +14262,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33155-byron-landham-quartet/",
       "source": "smallslive"
-    },
-    {
-      "id": "dice:6a1df3f659604b0001810791",
-      "title": "Next Stop Comedy Showcase",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "Industry City",
-      "start": "2026-07-08T20:00:00",
-      "end": "2026-07-08T23:00:00",
-      "isFree": false,
-      "priceMin": 16.23,
-      "url": "https://dice.fm/event/8el6e2-next-stop-comedy-showcase-8th-jul-industry-city-new-york-city-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:33019",
@@ -14668,19 +14429,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33107-george-colligan-quartet/",
       "source": "smallslive"
-    },
-    {
-      "id": "dice:6a10cfd1716449000182ea52",
-      "title": "SOMEWHERE FUNNY, NOWHERE SERIOUS!",
-      "category": "comedy",
-      "borough": "Manhattan",
-      "venue": "Somewhere Nowhere NYC",
-      "start": "2026-07-10T20:00:00",
-      "end": "2026-07-10T22:00:00",
-      "isFree": false,
-      "priceMin": 26.56,
-      "url": "https://dice.fm/event/q2lbxp-somewhere-funny-nowhere-serious-10th-jul-somewhere-nowhere-nyc-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:33070",
@@ -15060,31 +14808,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33160-jon-thomas-trio/",
       "source": "smallslive"
-    },
-    {
-      "id": "dice:6a1df556093d90000138a8fe",
-      "title": "Next Stop Comedy Showcase",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "Industry City",
-      "start": "2026-07-14T20:00:00",
-      "end": "2026-07-14T23:00:00",
-      "isFree": false,
-      "priceMin": 16.23,
-      "url": "https://dice.fm/event/2wy8w7-next-stop-comedy-showcase-14th-jul-industry-city-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
-      "id": "dice:6a14d9f6f93eef0001d556b6",
-      "title": "Wild Card Comedy",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2026-07-14T20:30:00",
-      "end": "2026-07-15T00:30:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/dkpxyg-wild-card-comedy-14th-jul-alphaville-new-york-tickets",
-      "source": "dice"
     },
     {
       "id": "smallslive:33120",
