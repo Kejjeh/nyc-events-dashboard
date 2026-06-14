@@ -1,22 +1,6 @@
 import type { Borough, Category, Event } from '../domain/event';
 import { combineDateTime } from './datetime';
-import boroughPolygons from './data/borough-polygons.json';
-
-/** Outer rings ([lon, lat]) for each target borough, keyed by borough name. */
-const BOROUGH_RINGS = boroughPolygons as Record<Borough, number[][][]>;
-
-/** Ray-casting point-in-polygon test for a [lon, lat] point against one ring. */
-function pointInRing(lon: number, lat: number, ring: number[][]): boolean {
-  let inside = false;
-  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-    const [xi, yi] = ring[i];
-    const [xj, yj] = ring[j];
-    const intersects =
-      yi > lat !== yj > lat && lon < ((xj - xi) * (lat - yi)) / (yj - yi) + xi;
-    if (intersects) inside = !inside;
-  }
-  return inside;
-}
+import { boroughFromLatLng } from './borough';
 
 /**
  * Parks category labels grouped into our taxonomy. An item carries several
@@ -72,15 +56,7 @@ function categoryForParks(categories: string): Category {
  */
 function boroughFromCoordinates(coordinates: string): Borough | null {
   const [lat, lon] = coordinates.split(',').map((n) => parseFloat(n.trim()));
-  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
-    return null;
-  }
-  for (const borough of Object.keys(BOROUGH_RINGS) as Borough[]) {
-    if (BOROUGH_RINGS[borough].some((ring) => pointInRing(lon, lat, ring))) {
-      return borough;
-    }
-  }
-  return null;
+  return boroughFromLatLng(lat, lon);
 }
 
 export function normalizeParksEvent(raw: any): Event | null {

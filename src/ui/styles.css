@@ -8,6 +8,7 @@
   --accent: #7c5cff;
 
   --cat-music: #8b6cff;
+  --cat-comedy: #ffd166;
   --cat-food: #ff8a5b;
   --cat-sports: #3fb7a6;
   --cat-museum: #d98be0;
@@ -166,6 +167,11 @@ body {
   border-color: var(--cat-music);
   color: #fff;
 }
+.chip-btn--active[data-category='comedy'] {
+  background: var(--cat-comedy);
+  border-color: var(--cat-comedy);
+  color: #2a2206;
+}
 .chip-btn--active[data-category='food'] {
   background: var(--cat-food);
   border-color: var(--cat-food);
@@ -279,6 +285,7 @@ body {
   background: var(--cat-other);
 }
 .card[data-category='music']::before { background: var(--cat-music); }
+.card[data-category='comedy']::before { background: var(--cat-comedy); }
 .card[data-category='food']::before { background: var(--cat-food); }
 .card[data-category='sports']::before { background: var(--cat-sports); }
 .card[data-category='museum']::before { background: var(--cat-museum); }

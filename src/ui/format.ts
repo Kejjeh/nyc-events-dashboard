@@ -38,6 +38,7 @@ const SOURCE_LABELS: Record<string, string> = {
   'nyc-parks': 'NYC Parks',
   smallslive: 'SmallsLIVE',
   'village-vanguard': 'Village Vanguard',
+  dice: 'DICE',
 };
 
 export function sourceLabel(source: string): string {

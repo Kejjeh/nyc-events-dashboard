@@ -10,6 +10,7 @@ const PAGE_SIZE = 60;
 const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'music', label: 'Music' },
+  { key: 'comedy', label: 'Comedy' },
   { key: 'food', label: 'Food' },
   { key: 'sports', label: 'Sports' },
   { key: 'museum', label: 'Museum' },

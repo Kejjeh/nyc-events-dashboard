@@ -1,4 +1,4 @@
-export type Category = 'sports' | 'music' | 'food' | 'museum' | 'other';
+export type Category = 'sports' | 'music' | 'food' | 'comedy' | 'museum' | 'other';
 
 export type Borough = 'Bronx' | 'Queens' | 'Manhattan' | 'Brooklyn';
 

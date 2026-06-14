@@ -5,6 +5,7 @@ import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import {
+  fetchDice,
   fetchNycOpenData,
   fetchParks,
   fetchSmalls,
@@ -47,6 +48,7 @@ async function main(): Promise<void> {
       settle('nyc-parks', fetchParks()),
       settle('smallslive', fetchSmalls(nowIso)),
       settle('village-vanguard', fetchVillageVanguard()),
+      settle('dice', fetchDice()),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
     ])
   ).filter((b): b is RawBatch => b !== null);
@@ -61,9 +63,8 @@ async function main(): Promise<void> {
 
   const carried = events.length - fresh.length;
   if (carried > 0) {
-    const downSources = [...new Set(previous.map((e) => e.source))].filter(
-      (s) => !succeededSources.includes(s),
-    );
+    const succeeded = new Set<string>(succeededSources);
+    const downSources = [...new Set(previous.map((e) => e.source))].filter((s) => !succeeded.has(s));
     console.warn(`Carried forward ${carried} events from down source(s): ${downSources.join(', ')}`);
   }
 

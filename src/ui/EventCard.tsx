@@ -3,6 +3,7 @@ import { formatDay, formatPrice, formatTime, sourceLabel } from './format';
 
 const CATEGORY_LABELS: Record<Event['category'], string> = {
   music: 'Music',
+  comedy: 'Comedy',
   food: 'Food',
   sports: 'Sports',
   museum: 'Museum',

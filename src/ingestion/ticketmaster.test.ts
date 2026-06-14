@@ -51,7 +51,7 @@ describe('normalizeTicketmasterEvent', () => {
       },
     };
 
-    expect(normalizeTicketmasterEvent(raw).category).toBe('music');
+    expect(normalizeTicketmasterEvent(raw)!.category).toBe('music');
   });
 
   it('classifies a Barclays Center event as Brooklyn', () => {
@@ -67,7 +67,7 @@ describe('normalizeTicketmasterEvent', () => {
       },
     };
 
-    expect(normalizeTicketmasterEvent(raw).borough).toBe('Brooklyn');
+    expect(normalizeTicketmasterEvent(raw)!.borough).toBe('Brooklyn');
   });
 
   it('marks an event with no price ranges as free with no price fields', () => {
@@ -82,7 +82,7 @@ describe('normalizeTicketmasterEvent', () => {
       },
     };
 
-    const event = normalizeTicketmasterEvent(raw);
+    const event = normalizeTicketmasterEvent(raw)!;
 
     expect(event.isFree).toBe(true);
     expect(event.priceMin).toBeUndefined();
