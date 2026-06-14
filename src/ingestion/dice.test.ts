@@ -77,6 +77,29 @@ describe('normalizeDiceEvent', () => {
     expect(event!.end).toBeUndefined();
   });
 
+  it.each([
+    ['culture:comedy', 'comedy'],
+    ['culture:theatre', 'theater'],
+    ['culture:film', 'film'],
+    ['culture:sport', 'sports'],
+    ['music:gig', 'music'],
+    ['music:dj', 'music'],
+    ['music:party', 'music'],
+    ['culture:art', 'other'],
+    ['culture:talks', 'other'],
+  ])('maps DICE tag %s to category %s', (tagValue, expected) => {
+    const event = normalizeDiceEvent({
+      id: 'x',
+      name: 'x',
+      perm_name: 'x',
+      dates: { event_start_date: '2026-06-20T20:00:00-04:00' },
+      price: { amount: 0, amount_from: null },
+      tags_types: [{ value: tagValue }],
+      venues: [{ name: 'X', location: { lat: 40.7308, lng: -74.0027 } }],
+    });
+    expect(event!.category).toBe(expected);
+  });
+
   it('defaults a non-comedy tag to the other category', () => {
     const event = normalizeDiceEvent({
       id: 'arttag000000000000000000',

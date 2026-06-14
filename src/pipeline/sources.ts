@@ -3,6 +3,7 @@ import type { RawBatch } from './assemble';
 import { parseSmallsCalendar } from '../ingestion/smallslive';
 import { smorgasburgMarketDescriptors } from '../ingestion/smorgasburg';
 import { greenmarketDescriptors } from '../ingestion/nycGreenmarket';
+import { nycDateOf } from '../ingestion/datetime';
 import { withRetry } from './retry';
 
 const BROWSER_UA =
@@ -202,12 +203,23 @@ export async function fetchVillageVanguard(): Promise<RawBatch> {
  */
 const DICE_NYC_SLUG = 'new_york-5bbf4db0f06331478e9b2c59';
 const DICE_BROWSE_URL = `https://dice.fm/browse/${DICE_NYC_SLUG}`;
+/** Browse filters to pull; each event self-tags its category via tags_types. */
+const DICE_FILTERS = [
+  'culture/comedy',
+  'culture/theatre',
+  'culture/film',
+  'culture/sport',
+  'music/gig',
+  'music/dj',
+  'music/party',
+];
 
 /**
- * Fetches NYC comedy shows from DICE.fm. The browse page embeds a Next.js
- * buildId (rotates on redeploy, so discovered each run) used to hit the keyless
- * comedy data endpoint for the pinned NYC slug. Pagination is intentionally
- * single-page — DICE's nextCursor is broken and re-serves the first page.
+ * Fetches NYC events from DICE.fm across several browse filters. The browse page
+ * embeds a Next.js buildId (rotates on redeploy, so discovered each run) used to
+ * hit the keyless per-filter data endpoints for the pinned NYC slug. Each filter
+ * is single-page (DICE's nextCursor is broken); events are deduped by id since a
+ * show can appear under multiple filters.
  */
 export async function fetchDice(): Promise<RawBatch> {
   const headers = { 'User-Agent': BROWSER_UA };
@@ -225,20 +237,85 @@ export async function fetchDice(): Promise<RawBatch> {
     throw new Error('DICE: no buildId in __NEXT_DATA__');
   }
 
-  const dataUrl = `https://dice.fm/_next/data/${buildId}/en/browse/${DICE_NYC_SLUG}/culture/comedy.json`;
-  const dataRes = await fetchWithRetry(dataUrl, {
-    headers: { ...headers, Accept: 'application/json' },
-  });
-  if (!dataRes.ok) {
-    throw new Error(`DICE comedy fetch failed: HTTP ${dataRes.status}`);
+  const pages = await Promise.all(
+    DICE_FILTERS.map(async (filter) => {
+      try {
+        const res = await fetchWithRetry(
+          `https://dice.fm/_next/data/${buildId}/en/browse/${DICE_NYC_SLUG}/${filter}.json`,
+          { headers: { ...headers, Accept: 'application/json' } },
+        );
+        if (!res.ok) return [];
+        return (((await res.json()) as any)?.pageProps?.events ?? []) as any[];
+      } catch {
+        return [];
+      }
+    }),
+  );
+
+  const byId = new Map<string, any>();
+  for (const event of pages.flat()) {
+    if (event?.id) byId.set(event.id, event);
   }
-  const records = ((await dataRes.json()) as any)?.pageProps?.events ?? [];
-  // DICE NYC always has comedy listings; zero means the shape changed — fail
-  // loud so carry-forward keeps the last-good data.
+  const records = [...byId.values()];
+  // DICE NYC always has listings; zero across all filters means the shape changed
+  // — fail loud so carry-forward keeps the last-good data.
   if (records.length === 0) {
-    throw new Error('DICE: comedy page parsed to zero events');
+    throw new Error('DICE: all filters parsed to zero events');
   }
   return { source: 'dice', records };
+}
+
+/** City Parks Foundation events via the WordPress "The Events Calendar" REST API. */
+const CITYPARKS_URL = 'https://cityparksfoundation.org/wp-json/tribe/events/v1/events';
+const CITYPARKS_MAX_PAGES = 6;
+
+/**
+ * Fetches upcoming City Parks Foundation events (SummerStage concerts + park
+ * programming) by paging the Tribe Events REST API. The origin WAF rejects bare
+ * requests, so a fuller browser header set (Accept-Language + Referer) is sent.
+ */
+export async function fetchCityParks(nowIso: string): Promise<RawBatch> {
+  const headers = {
+    'User-Agent': BROWSER_UA,
+    Accept: 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.9',
+    Referer: 'https://cityparksfoundation.org/events/',
+  };
+  const startDate = nycDateOf(nowIso);
+  const records: any[] = [];
+
+  for (let page = 1; page <= CITYPARKS_MAX_PAGES; page++) {
+    const params = new URLSearchParams({ per_page: '50', page: String(page), start_date: startDate });
+    const res = await fetchWithRetry(`${CITYPARKS_URL}?${params}`, { headers });
+    if (!res.ok) throw new Error(`City Parks fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+    const events = body?.events ?? [];
+    records.push(...events);
+    const total = body?.total ?? records.length;
+    if (events.length === 0 || records.length >= total) break;
+  }
+  return { source: 'cityparks', records };
+}
+
+/** TodayTix NYC catalog (keyless JSON API; location=1 is the NYC region). */
+const TODAYTIX_URL =
+  'https://api.todaytix.com/api/v2/shows?location=1&limit=300&fieldset=SHOW_SUMMARY';
+
+/**
+ * Fetches the NYC show catalog from TodayTix and tags each show with today's NYC
+ * date so the normalizer can clamp run-window shows to "now playing".
+ */
+export async function fetchTodayTix(nowIso: string): Promise<RawBatch> {
+  const res = await fetchWithRetry(TODAYTIX_URL, {
+    headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
+  });
+  if (!res.ok) throw new Error(`TodayTix fetch failed: HTTP ${res.status}`);
+  const shows = ((await res.json()) as any)?.data ?? [];
+  if (!Array.isArray(shows) || shows.length === 0) {
+    throw new Error('TodayTix: zero shows parsed');
+  }
+  const today = nycDateOf(nowIso);
+  return { source: 'todaytix', records: shows.map((s: any) => ({ ...s, _today: today })) };
 }
 
 /** NYC Open Data "NYC Farmers Markets" dataset (Socrata 8vwk-6iz2). */

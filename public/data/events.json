@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:38:38.346Z",
-  "count": 2372,
+  "generatedAt": "2026-06-14T20:49:38.224Z",
+  "count": 2758,
   "events": [
     {
       "id": "nyc-parks:2146725",
@@ -303,6 +303,30 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20267",
+      "title": "It's My Park at Forest Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-06-14T09:30:00",
+      "end": "2026-06-14T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-forest-park-12/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20385",
+      "title": "It's My Park at McCarren Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-14T09:30:00",
+      "end": "2026-06-14T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mccarren-park-9/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2114773",
       "title": "Urban Farm Volunteers",
       "category": "food",
@@ -447,6 +471,54 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20390",
+      "title": "It's My Park at Msgr. McGolrick Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-14T10:00:00",
+      "end": "2026-06-14T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-msgr-mcgolrick-park-14/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20466",
+      "title": "It's My Park at Bushwick Inlet Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-14T10:00:00",
+      "end": "2026-06-14T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bushwick-inlet-park-21/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20495",
+      "title": "It's My Park at Sunset Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-14T10:00:00",
+      "end": "2026-06-14T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-81/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20503",
+      "title": "It's My Park at McKinley Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-14T10:00:00",
+      "end": "2026-06-14T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mckinley-park-44/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:two-bridges-youth-market:2026-06-14",
       "title": "Two Bridges Youth Market",
       "category": "food",
@@ -531,6 +603,18 @@
       "source": "smorgasburg"
     },
     {
+      "id": "cityparks:19956",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-14T11:00:00",
+      "end": "2026-06-14T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-14/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2169907",
       "title": "Family Fun Day at Bensonhurst",
       "category": "other",
@@ -553,6 +637,19 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/family-fun-day",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:69d7e2e98582ed0001de0cf4",
+      "title": "Sunday Afterglow (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-14T12:00:00",
+      "end": "2026-06-14T18:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/v3dvol-sunday-afterglow-skate-14th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2176187",
@@ -651,6 +748,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a1f31ab3af3fd00015688fe",
+      "title": "FIFA at Listen",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "LISTEN",
+      "start": "2026-06-14T13:00:00",
+      "end": "2026-06-14T23:45:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/nv6n38-fifa-at-listen-14th-jun-listen-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2153669",
       "title": "Jazz in the Park at Ralph Ellison",
       "category": "music",
@@ -699,6 +808,56 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:6a285880e675c00001e8c12c",
+      "title": "Tiki Disco in The Ruins",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Ruins at Knockdown Center",
+      "start": "2026-06-14T14:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/6dayp3-tiki-disco-in-the-ruins-14th-jun-ruins-at-knockdown-center-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69dfd1ee7196840001894164",
+      "title": "FREE NY POOL PARTY! ",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Summer Club",
+      "start": "2026-06-14T14:00:00",
+      "end": "2026-06-14T23:45:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/8e5wr2-free-ny-pool-party-14th-jun-summer-club-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69a7595e90acda0001a759f3",
+      "title": "SOL 1 hotel: June 14th w/ Meloko",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "1 Hotel Brooklyn Bridge",
+      "start": "2026-06-14T14:00:00",
+      "end": "2026-06-15T03:00:00",
+      "isFree": false,
+      "priceMin": 28.33,
+      "url": "https://dice.fm/event/3owbwp-sol-1-hotel-june-14th-w-meloko-14th-jun-1-hotel-brooklyn-bridge-new-york-city-harriets-lounge-1-hotel-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69404b91b0632f00011bd804",
+      "title": "Fedde Le Grand with EDX",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "The Roof at Superior Ingredients",
+      "start": "2026-06-14T14:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 14.99,
+      "url": "https://dice.fm/event/ryakoy-fedde-le-grand-with-edx-14th-jun-the-roof-at-superior-ingredients-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2128318",
       "title": "Shirley Chisholm: Swim Prep",
       "category": "other",
@@ -709,6 +868,146 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/shirley-chisholm-swim-prep",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:69de74a44d72df00019c57af",
+      "title": "The Nursery: Public Sound Sessions #3 w/ Channel One Sound System",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Public Records",
+      "start": "2026-06-14T15:00:00",
+      "end": "2026-06-14T21:00:00",
+      "isFree": false,
+      "priceMin": 23.69,
+      "url": "https://dice.fm/event/k6gao9-the-nursery-public-sound-sessions-3-w-channel-one-sound-system-14th-jun-public-records-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a02ae12faa95d0001d2944e",
+      "title": "Azure Day Party June 14th",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Rooftop at Arlo Williamsburg ",
+      "start": "2026-06-14T15:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 85,
+      "url": "https://dice.fm/event/8eleb2-azure-day-party-june-14th-14th-jun-rooftop-at-arlo-williamsburg-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a217033dc17370001de4ae5",
+      "title": "Signal Pride: Barbara Tucker (Live), Nita Aviance, DJ Miss Parker, Justin Cudmore, donofrio",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Signal",
+      "start": "2026-06-14T16:00:00",
+      "end": "2026-06-15T00:00:00",
+      "isFree": false,
+      "priceMin": 28.33,
+      "url": "https://dice.fm/event/5366dy-signal-pride-barbara-tucker-live-nita-aviance-dj-miss-parker-justin-cudmore-donofrio-14th-jun-signal-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a29b5301e47bc0001b330ca",
+      "title": "Shore Sessions - House Music Summer Rooftop Series",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Highwater Rooftop NYC",
+      "start": "2026-06-14T16:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 17,
+      "url": "https://dice.fm/event/8eq3o2-shore-sessions-house-music-summer-rooftop-series-14th-jun-highwater-rooftop-nyc-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a256119a2ceb00001b13918",
+      "title": "Mhmm: Puerto Rican Day Parade After",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Honey's",
+      "start": "2026-06-14T16:00:00",
+      "end": "2026-06-15T01:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/l8x5rb-mhmm-puerto-rican-day-parade-after-14th-jun-honeys-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69dcf8af279152000148e558",
+      "title": "Paraiso Sunset June 14 w/ NIGHT TALES",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Westlight Rooftop at The William Vale",
+      "start": "2026-06-14T16:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 45,
+      "url": "https://dice.fm/event/l8dwpb-paraiso-sunset-june-14-w-night-tales-14th-jun-westlight-rooftop-at-the-william-vale-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a284a119ff5a90001111afe",
+      "title": "Sunday Sunsets Vol. 19",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-14T17:00:00",
+      "end": "2026-06-14T21:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/nv6r33-sunday-sunsets-vol-19-14th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a206d52bdd5430001be0cce",
+      "title": "MANZDEM | Kenny Summit + Scott Wozniak ",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Dead Letter No.9",
+      "start": "2026-06-14T17:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/av5w37-manzdem-kenny-summit-scott-wozniak-14th-jun-dead-letter-no9-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a1f4d1dc2f74e0001aee285",
+      "title": "RAMPA | UNBLOCKED | June 14",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Pacha New York",
+      "start": "2026-06-14T17:00:00",
+      "end": "2026-06-15T02:00:00",
+      "isFree": false,
+      "priceMin": 84.88,
+      "url": "https://dice.fm/event/q2lwep-rampa-unblocked-june-14-14th-jun-pacha-new-york-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69fe2ab838737e00010c1041",
+      "title": "Cenote Project [Open-Air Sunsets] x Haus of Joon",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Somewhere Nowhere NYC",
+      "start": "2026-06-14T17:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 36.28,
+      "url": "https://dice.fm/event/q2v3wp-cenote-project-open-air-sunsets-x-haus-of-joon-14th-jun-somewhere-nowhere-nyc-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69fbc6556b82a900012ef0eb",
+      "title": "Francis Mercier Presents Solèy NYC",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Industry City - Open Air",
+      "start": "2026-06-14T17:00:00",
+      "end": "2026-06-14T23:45:00",
+      "isFree": false,
+      "priceMin": 49.86,
+      "url": "https://dice.fm/event/2w6aop-francis-mercier-presents-soly-nyc-14th-jun-industry-city-open-air-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2158514",
@@ -755,6 +1054,45 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32678-saul-dautch-quintet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:69fb5dbab5d77600016aa87c",
+      "title": "Skaterobics - All Experience Levels Instructional Class",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-14T18:00:00",
+      "end": "2026-06-14T20:00:00",
+      "isFree": false,
+      "priceMin": 23.69,
+      "url": "https://dice.fm/event/g5xbxa-skaterobics-all-experience-levels-instructional-class-14th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a1f40070b917c000148251c",
+      "title": "Perreo Intenso Day 2: the sunset rooftop after-party w/ ROGUE, Nina Vicious, Agent DMZ",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Elsewhere - Rooftop",
+      "start": "2026-06-14T18:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 27.85,
+      "url": "https://dice.fm/event/l8x5vl-perreo-intenso-day-2-the-sunset-rooftop-after-party-w-rogue-nina-vicious-agent-dmz-14th-jun-elsewhere-rooftop-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a185c8164c29c00012d9f5a",
+      "title": "Lady Bunny's Disco Tea Dance: Pride Edition",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-14T18:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/xeokya-lady-bunnys-disco-tea-dance-pride-edition-14th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2172878",
@@ -804,6 +1142,820 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69f8eb8b4ef0da00011280b0",
+      "title": "PINCUSHION PUPPET CLUB PRESENTS: PUPPET SLAM",
+      "category": "theater",
+      "borough": "Queens",
+      "venue": "Cassette",
+      "start": "2026-06-14T19:00:00",
+      "end": "2026-06-14T21:45:00",
+      "isFree": false,
+      "priceMin": 32.12,
+      "url": "https://dice.fm/event/avw5rq-pincushion-puppet-club-presents-puppet-slam-14th-jun-cassette-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69f5082325a1ea000159b017",
+      "title": "Dominatrix • Bill Converse • Parlor Walls • Carlos Souffront",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Pianos: Showroom",
+      "start": "2026-06-14T19:00:00",
+      "end": "2026-06-14T22:30:00",
+      "isFree": false,
+      "priceMin": 22.66,
+      "url": "https://dice.fm/event/yoeebv-dominatrix-bill-converse-parlor-walls-carlos-souffront-14th-jun-pianos-showroom-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a29842424f6720001866a1b",
+      "title": "Cmd + JAZMINE, L4RV4, senoritajuicy, Swimmie",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Jupiter Disco",
+      "start": "2026-06-14T19:00:00",
+      "end": "2026-06-15T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/wwm3qx-cmd-jazmine-l4rv4-senoritajuicy-swimmie-14th-jun-jupiter-disco-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69f36d5c660105000185b9ee",
+      "title": "BUCK WILD",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Desert 5 Spot NY",
+      "start": "2026-06-14T19:00:00",
+      "end": "2026-06-14T22:00:00",
+      "isFree": false,
+      "priceMin": 20.6,
+      "url": "https://dice.fm/event/l8d5bb-buck-wild-14th-jun-desert-5-spot-ny-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "todaytix:7062",
+      "title": "Chamber Magic",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Lotte New York Palace Hotel",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 108,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:14790",
+      "title": "The Play That Goes Wrong",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 88,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24562",
+      "title": "Speakeasy Magick ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Overlook Bar",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 215,
+      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:28808",
+      "title": "Singfeld! A Musical About Nothing",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Jerry Orbach Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:39089",
+      "title": "New York Comedy Club (East Village)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (East Village)",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41648",
+      "title": "New York Comedy Club (Upper West Side)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Upper West Side)",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44703",
+      "title": "Jerome",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 57,
+      "url": "https://www.todaytix.com/nyc/shows/jerome",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46159",
+      "title": "KENREX",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Lucille Lortel Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 65,
+      "url": "https://www.todaytix.com/nyc/shows/kenrex-lortel",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46093",
+      "title": "Pied à Terre",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Anne L. Bernstein Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/pied-a-terre",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44890",
+      "title": "Mexodus",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Daryl Roth Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/mexodus",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47159",
+      "title": "Rise Up, Sing Out: A Concert for the First Amendment",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Town Hall",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/rise-up-sing-out-a-concert-for-the-first-amendment",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46557",
+      "title": "Paradise Club Presents: Salvage City Supper Club",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Paradise Club",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 105.88,
+      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47000",
+      "title": "clinamen",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Park Avenue Armory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 28,
+      "url": "https://www.todaytix.com/nyc/shows/clinamen",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47004",
+      "title": "The People Versus Lenny Bruce",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theatre Row, Theatre Four",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/the-people-versus-lenny-bruce",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46879",
+      "title": "Jim Henson's Fraggle Rock: Back to the Rock LIVE",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New Victory Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 34,
+      "url": "https://www.todaytix.com/nyc/shows/jim-hensons-fraggle-rock-back-to-the-rock-live",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:42035",
+      "title": "I'm Almost There",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "BAM Fisher (Fishman Space)",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 31,
+      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:42261",
+      "title": "Heathers The Musical",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45703",
+      "title": "Dirty Books",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Bated Breath Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 59,
+      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:43651",
+      "title": "LOS SOLES TRUNCOS",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:25028",
+      "title": "Friends The Musical Parody",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Theater Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/friends-the-musical-parody",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24608",
+      "title": "Little Shop of Horrors",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Westside Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 55,
+      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46638",
+      "title": "Heated Rivalry: The Unauthorized Musical Parody",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Club",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 87,
+      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46772",
+      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Superfine, Dumbo",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46852",
+      "title": "And Then The Rodeo Burned Down",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Ars Nova",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 64,
+      "url": "https://www.todaytix.com/nyc/shows/and-then-the-rodeo-burned-down",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46956",
+      "title": "NT Live: Les Liaisons Dangereuses",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Peter Jay Sharp Theatre at Symphony Space",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/nt-live-les-liaisons-dangereuses",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46871",
+      "title": "Youth in Flames",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater C",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/youth-in-flames",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:13514",
+      "title": "Gazillion Bubble Show",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 57,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44453",
+      "title": "AMAZE Magic",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/amaze-magic",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24867",
+      "title": "Katsura Sunshine's Rakugo",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 25,
+      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46071",
+      "title": "Petite Rouge by Company XIV",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Théâtre XIV",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/petite-rouge-by-company-xiv",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46942",
+      "title": "Camping",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "HERE Arts Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 51,
+      "url": "https://www.todaytix.com/nyc/shows/camping",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46965",
+      "title": "Senior 65+ Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:16859",
+      "title": "Amateur Night at The Apollo",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Apollo Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/amateur-night",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:1299",
+      "title": "Perfect Crime",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Theater Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:32431",
+      "title": "New York Comedy Club (Midtown)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Midtown)",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44721",
+      "title": "||: Girls :||: Chance :||: Music :||",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/girls-chance-music",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44745",
+      "title": "Masquerade",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Masquerade",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 195,
+      "url": "https://www.todaytix.com/nyc/shows/masquerade",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:39635",
+      "title": "La Llamada",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45907",
+      "title": "MÁS SABE EL SAULO POR VIEJO...",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44354",
+      "title": "Drunk Romeo & Juliet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 37,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45756",
+      "title": "Girl, Interrupted ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 117,
+      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44388",
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46378",
+      "title": "The Maids",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "St. Ann's Warehouse ",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-maids",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46836",
+      "title": "The Last Ship",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 155,
+      "url": "https://www.todaytix.com/nyc/shows/the-last-ship",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:19034",
+      "title": "La Breve y Maravillosa Vida de Oscar Wao",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/la-breve-y-maravillosa-vida-de-oscar-wao",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44748",
+      "title": "Well, I'll Let You Go",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Studio Seaview",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 52,
+      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46839",
+      "title": "SMALL",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/small",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46642",
+      "title": "Label•less",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Duke on 42nd Street",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/label-less",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46427",
+      "title": "Silverback Mountain",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "AMT Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 73,
+      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46488",
+      "title": "What Happened Was",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Audible’s Minetta Lane Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/what-happened-was",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46964",
+      "title": "ADA Accessible Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46912",
+      "title": "Catch of the Day",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater B",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 47,
+      "url": "https://www.todaytix.com/nyc/shows/catch-of-the-day",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46870",
+      "title": "David Copperfield",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater A",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46992",
+      "title": "Are You Now or Have You Ever Been",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 100,
+      "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:152",
+      "title": "Drunk Shakespeare",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-shakespeare-nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46913",
+      "title": "Grown-Up Nights! Jim Henson's Fraggle Rock: Back to the Rock LIVE",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New Victory Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/grown-up-nights-jim-hensons-fraggle-rock-back-to-the-rock-live",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:9564",
+      "title": "Dirty Circus",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "House of Yes",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:25507",
+      "title": "Eva Luna",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eva-luna",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44146",
+      "title": "Animal Wisdom",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/animal-wisdom",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44328",
+      "title": "My Joy Is Heavy",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/my-joy-is-heavy",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:6689",
+      "title": "BATSU! NYC",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Kogame",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41744",
+      "title": "Age Is a Feeling",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/age-is-a-feeling",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46817",
+      "title": "The Very Hungry Caterpillar Interactive Show",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Manhattan Movement & Arts Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-very-hungry-caterpillar-interactive-show",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41054",
+      "title": "This Is My Favorite Song",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/this-is-my-favorite-song",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135494",
       "title": "Renee Rosnes Quartet",
       "category": "music",
@@ -816,6 +1968,42 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/renee-rosnes-quartet",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a21d7197896040001b5d109",
+      "title": "Love Language (Cafe De Nadie)",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Moondog HiFi",
+      "start": "2026-06-14T20:00:00",
+      "end": "2026-06-14T23:45:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/3oxx7l-love-language-cafe-de-nadie-14th-jun-moondog-hifi-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a20dda8e15c420001621f61",
+      "title": "SOUNDAY: DIEGO GARCIA, ANGIE OCAMPO, TELLEZ JUANZE",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "LISTEN",
+      "start": "2026-06-14T20:00:00",
+      "end": "2026-06-15T04:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/rykdo5-sounday-diego-garcia-angie-ocampo-tellez-juanze-14th-jun-listen-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a15aa8f605f1c0001cc413b",
+      "title": "Mila Rubio(extended set)",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Althea's Hideaway NYC",
+      "start": "2026-06-14T20:00:00",
+      "end": "2026-06-15T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/dkpn66-mila-rubioextended-set-14th-jun-altheas-hideaway-nyc-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32868",
@@ -852,6 +2040,19 @@
       "source": "dice"
     },
     {
+      "id": "dice:69f4de7825a1ea00010718dc",
+      "title": "Puerto Rican Day Afterparty",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Paragon",
+      "start": "2026-06-14T21:30:00",
+      "end": "2026-06-15T04:00:00",
+      "isFree": false,
+      "priceMin": 22.66,
+      "url": "https://dice.fm/event/2w667o-puerto-rican-day-afterparty-14th-jun-paragon-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:32846",
       "title": "SUNDAY NITE Jam in the Cafe",
       "category": "music",
@@ -877,6 +2078,81 @@
       "source": "village-vanguard"
     },
     {
+      "id": "dice:6a1edf5b85b8a50001c8890c",
+      "title": "HARRY NILSSON NIGHT",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Cassette",
+      "start": "2026-06-14T22:00:00",
+      "end": "2026-06-15T02:00:00",
+      "isFree": false,
+      "priceMin": 18.04,
+      "url": "https://dice.fm/event/bb788o-harry-nilsson-night-14th-jun-cassette-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a067fb58527370001340707",
+      "title": "Perreo Baby",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-14T22:00:00",
+      "end": "2026-06-15T02:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/wwp2xx-perreo-baby-14th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a1f5cc80b917c00017a3fc6",
+      "title": "Unblocked Afters: Late Night Tech House",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "SILO Brooklyn ",
+      "start": "2026-06-14T22:00:00",
+      "end": "2026-06-15T04:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/nv6nb9-unblocked-afters-late-night-tech-house-14th-jun-silo-brooklyn-brooklyn-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a12b95be4a1c00001fe1df3",
+      "title": "˖ ݁♬⋆.˚𝄞. Karaoke Sunday Night ˖ ݁♬⋆.˚𝄞.",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Seventh Heaven Bar & Karaoke",
+      "start": "2026-06-14T22:00:00",
+      "end": "2026-06-15T03:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/dkpxee--karaoke-sunday-night-14th-jun-seventh-heaven-bar-karaoke-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a0392692d2cbd00011573eb",
+      "title": "ISLA DEL TERROR & PRENDIO CLUB PRESENTA: 𝕃.𝔼.𝕊. 𝔾𝕌𝔸𝕐𝕆𝕋𝔼𝕆 𝕄𝕀𝕏𝕏𝕏𝔻𝕆𝕎ℕ",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Pianos: The Mezzanine",
+      "start": "2026-06-14T22:00:00",
+      "end": "2026-06-15T04:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/nv6ybq-isla-del-terror-prendio-club-presenta-14th-jun-pianos-the-mezzanine-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69f2915788141c00019da5d5",
+      "title": "Loco Carnaval",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Somewhere Nowhere NYC",
+      "start": "2026-06-14T23:00:00",
+      "end": "2026-06-15T04:00:00",
+      "isFree": false,
+      "priceMin": 33.19,
+      "url": "https://dice.fm/event/pyd8yk-loco-carnaval-14th-jun-somewhere-nowhere-nyc-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33039",
       "title": "Asaf Yuria Quartet",
       "category": "music",
@@ -886,6 +2162,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33039-asaf-yuria-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a2e290789b9e70001fa0d53",
+      "title": "Industry Mondays",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "LISTEN",
+      "start": "2026-06-15T04:00:00",
+      "end": "2026-06-15T10:00:00",
+      "isFree": false,
+      "priceMin": 33.99,
+      "url": "https://dice.fm/event/q2pna9-industry-mondays-15th-jun-listen-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2183263",
@@ -960,6 +2249,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:20307",
+      "title": "It's My Park at Mosholu Parkway",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-15T09:00:00",
+      "end": "2026-06-15T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-7/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2169819",
       "title": "Zumba Gold&#174;",
       "category": "sports",
@@ -1030,6 +2331,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20180",
+      "title": "It's My Park at Stuyvesant Square",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-15T10:00:00",
+      "end": "2026-06-15T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-stuyvesant-square-46/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2188062",
@@ -1116,6 +2429,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a23762640d5060001ec6fb6",
+      "title": "FIFA at Listen",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "LISTEN",
+      "start": "2026-06-15T12:00:00",
+      "end": "2026-06-15T23:45:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/bb79ev-fifa-at-listen-15th-jun-listen-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2171154",
       "title": "Piano in Bryant Park",
       "category": "music",
@@ -1198,6 +2523,18 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/15/chair-yoga1",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:6a078884f03f2d0001d0492f",
+      "title": "@ w/ Allegra Krieger & Fernette",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "[untitled] Rooftop (Address TBA, Brooklyn)",
+      "start": "2026-06-15T17:30:00",
+      "end": "2026-06-15T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/7dboxp--w-allegra-krieger-fernette-15th-jun-untitled-rooftop-address-tba-brooklyn-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2106987",
@@ -1389,6 +2726,32 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:6a0777963820ee0001bbe8be",
+      "title": "Fightback/Care Free/By All Means/P4P/Formal/Square",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Gold Sounds",
+      "start": "2026-06-15T19:00:00",
+      "end": "2026-06-15T23:00:00",
+      "isFree": false,
+      "priceMin": 13.6,
+      "url": "https://dice.fm/event/dkpv7v-fightbackcare-freeby-all-meansp4pformalsquare-15th-jun-gold-sounds-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69ea2f12224db70001b005b7",
+      "title": "James Corrigan's Take Time, Cimiotti, Tom Gluibizzi",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-15T19:00:00",
+      "end": "2026-06-15T22:00:00",
+      "isFree": false,
+      "priceMin": 14.73,
+      "url": "https://dice.fm/event/7dglab-james-corrigans-take-time-cimiotti-tom-gluibizzi-15th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2143540",
       "title": "Virtual Yoga",
       "category": "sports",
@@ -1399,6 +2762,75 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/15/virtual-yoga",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:69a5f5c3f6bb0d0001e86c93",
+      "title": "MARTINI MONDAYS: DERVISI",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Cassette",
+      "start": "2026-06-15T19:30:00",
+      "end": "2026-06-15T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/nv9p78-martini-mondays-dervisi-15th-jun-cassette-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "todaytix:46799",
+      "title": "A Walk on the Moon",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46163",
+      "title": "Music City",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "St. Luke's Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/music-city",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47153",
+      "title": "Standard Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47154",
+      "title": "ADA Accessible Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47155",
+      "title": "Senior 65+ Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
+      "source": "todaytix"
     },
     {
       "id": "village-vanguard:135466",
@@ -1413,6 +2845,80 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a0e1b65b9f68f000171a2df",
+      "title": "Party Dark, Isabella Sage, and more",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-15T20:00:00",
+      "end": "2026-06-15T23:30:00",
+      "isFree": false,
+      "priceMin": 13.6,
+      "url": "https://dice.fm/event/oeax5g-party-dark-isabella-sage-and-more-15th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a2822469eaf6000015c02ed",
+      "title": "industry mondays with surprise guest",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Althea's Hideaway NYC",
+      "start": "2026-06-15T20:00:00",
+      "end": "2026-06-16T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/k6y27l-industry-mondays-with-surprise-guest-15th-jun-altheas-hideaway-nyc-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a08fe0a9c0f700001585df5",
+      "title": "Mall Drag",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-15T20:00:00",
+      "end": "2026-06-15T23:00:00",
+      "isFree": false,
+      "priceMin": 16,
+      "url": "https://dice.fm/event/nv6agl-mall-drag-15th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "cityparks:19759",
+      "title": "The Metropolitan Opera Summer Recital featuring Emily Pogorelc, Joshua Blue, Edward Nelson, and Dimitri Dover",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-15T20:00:00",
+      "end": "2026-06-15T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/met-opera-rumsey-26/",
+      "source": "cityparks"
+    },
+    {
+      "id": "dice:69d81d513fc36500016c6b80",
+      "title": "Rev. Vince Anderson & The Love Choir!",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Union Pool",
+      "start": "2026-06-15T20:30:00",
+      "end": "2026-06-16T00:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/nvdyn8-rev-vince-anderson-the-love-choir-15th-jun-union-pool-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a15bd68605f1c0001a4c28e",
+      "title": "Karaoke Mondays ",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "ALPHAVILLE",
+      "start": "2026-06-15T20:30:00",
+      "end": "2026-06-16T00:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/pyb29l-karaoke-mondays-15th-jun-alphaville-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32775",
@@ -1460,6 +2966,42 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a12b715dd59360001c83957",
+      "title": "˖ ݁♬⋆.˚𝄞. Karaoke Monday Night ˖ ݁♬⋆.˚𝄞.",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Seventh Heaven Bar & Karaoke",
+      "start": "2026-06-15T22:00:00",
+      "end": "2026-06-16T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/xeopxm--karaoke-monday-night-15th-jun-seventh-heaven-bar-karaoke-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69f7ad89f408960001037811",
+      "title": "DOWNSTAIRS: Karaoke (Free!)",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-15T22:00:00",
+      "end": "2026-06-16T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/avw5nv-downstairs-karaoke-free-15th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a1decd2a0fa4a0001de9c5f",
+      "title": "NITEOWL KARAOKE",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-15T22:30:00",
+      "end": "2026-06-16T03:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/3oxwp8-niteowl-karaoke-15th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32758",
@@ -2000,6 +3542,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:20494",
+      "title": "It's My Park at Sunset Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-16T10:00:00",
+      "end": "2026-06-16T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-80/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:891519:2026-06-16T10:00:00.000",
       "title": "PS 107 3rd Grade Picnic",
       "category": "other",
@@ -2180,6 +3734,19 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:69d9605dec720900018c982d",
+      "title": "World Cup Music Fest",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "DROM",
+      "start": "2026-06-16T14:30:00",
+      "end": "2026-06-16T18:30:00",
+      "isFree": false,
+      "priceMin": 17.62,
+      "url": "https://dice.fm/event/yoe86x-world-cup-music-fest-16th-jun-drom-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2180352",
       "title": "Kids in Motion: Al Quinones Playground",
       "category": "sports",
@@ -2288,6 +3855,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a22176f718cb50001a6533b",
+      "title": "FIFA at Listen",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "LISTEN",
+      "start": "2026-06-16T15:00:00",
+      "end": "2026-06-17T00:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/dkpokq-fifa-at-listen-16th-jun-listen-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2114556",
       "title": "CANCELED: Cardio Dance",
       "category": "sports",
@@ -2298,6 +3877,19 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/16/cardio-dance",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:69defb65de946600011057bb",
+      "title": "TACO & TEQUILA TUESDAY ON THE HUDSON  06/16",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Skyport Marina",
+      "start": "2026-06-16T17:30:00",
+      "end": "2026-06-16T21:30:00",
+      "isFree": false,
+      "priceMin": 23.18,
+      "url": "https://dice.fm/event/nvdap9-taco-tequila-tuesday-on-the-hudson-0616-16th-jun-skyport-marina-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2109954",
@@ -2549,6 +4141,95 @@
       "source": "dice"
     },
     {
+      "id": "dice:6a19e46f26204e0001450e52",
+      "title": "Neoni, PEGGY",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Elsewhere - Zone One",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T22:30:00",
+      "isFree": false,
+      "priceMin": 48.72,
+      "url": "https://dice.fm/event/oeaq7a-neoni-peggy-16th-jun-elsewhere-zone-one-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a0ccf86ec904a000182af9c",
+      "title": "Lockimara / Sylvie Lou / Birdie Wren ",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Pianos: The Mezzanine",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T22:30:00",
+      "isFree": false,
+      "priceMin": 12,
+      "url": "https://dice.fm/event/yow9kr-lockimara-sylvie-lou-birdie-wren-16th-jun-pianos-the-mezzanine-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69fbc3633d312d000178e501",
+      "title": "Lilly Gitlitz, Juliette Lola",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T23:00:00",
+      "isFree": false,
+      "priceMin": 14.73,
+      "url": "https://dice.fm/event/oed9ya-lilly-gitlitz-juliette-lola-16th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69d7eb27ebff1400013c1913",
+      "title": "Andrew Sa/Zach Cale/Olivia Ellen Lloyd",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Union Pool",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T23:00:00",
+      "isFree": false,
+      "priceMin": 18.54,
+      "url": "https://dice.fm/event/eomkw6-andrew-sazach-caleolivia-ellen-lloyd-16th-jun-union-pool-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a17dbe139e6b50001de9f50",
+      "title": "Open Decks w/ Steen & MyCube",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "SILO Brooklyn ",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-17T02:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/xeokbe-open-decks-w-steen-mycube-16th-jun-silo-brooklyn-brooklyn-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a1eecd62b893b0001cb2413",
+      "title": "ANJOLI SIMONE, MEGAN'S JEANS, HOT HANDS",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Cassette",
+      "start": "2026-06-16T19:30:00",
+      "end": "2026-06-16T22:30:00",
+      "isFree": false,
+      "priceMin": 18.04,
+      "url": "https://dice.fm/event/ryk9k5-anjoli-simone-megans-jeans-hot-hands-16th-jun-cassette-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "todaytix:45341",
+      "title": "Birthright",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Newman Mills Theatre at the Robert W. Wilson MCC Theatre Space",
+      "start": "2026-06-16T19:30:00",
+      "isFree": false,
+      "priceMin": 42,
+      "url": "https://www.todaytix.com/nyc/shows/birthright",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135501",
       "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
@@ -2635,6 +4316,31 @@
       "source": "village-vanguard"
     },
     {
+      "id": "dice:6a12b7a084ba100001e77006",
+      "title": "˖ ݁♬⋆.˚𝄞. Karaoke Tuesday Night ˖ ݁♬⋆.˚𝄞.",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Seventh Heaven Bar & Karaoke",
+      "start": "2026-06-16T22:00:00",
+      "end": "2026-06-17T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/oea65r--karaoke-tuesday-night-16th-jun-seventh-heaven-bar-karaoke-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69efc8c5efe7480001c8f2aa",
+      "title": "Nebula Tuesdays",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Nebula",
+      "start": "2026-06-16T23:00:00",
+      "end": "2026-06-17T03:00:00",
+      "isFree": false,
+      "priceMin": 22.05,
+      "url": "https://dice.fm/event/2w673m-nebula-tuesdays-16th-jun-nebula-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:32760",
       "title": "Vinyl After Hours",
       "category": "music",
@@ -2655,6 +4361,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32872-jam-session-hosted-by-jason-clotter/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:20483",
+      "title": "It's My Park at Bushwick Inlet Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-17T06:00:00",
+      "end": "2026-06-17T08:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bushwick-inlet-park-26/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2139666",
@@ -2847,6 +4565,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20403",
+      "title": "It's My Park at Asser Levy Playground",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-17T09:00:00",
+      "end": "2026-06-17T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-asser-levy-playground-8/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:888603:2026-06-17T09:00:00.000",
@@ -3219,6 +4949,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20546",
+      "title": "It's My Park at Seth Low Playground/ Bealin Square",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-17T10:00:00",
+      "end": "2026-06-17T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-seth-low-playground-bealin-square-33/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:891522:2026-06-17T10:00:00.000",
@@ -3665,6 +5407,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:20310",
+      "title": "It's My Park at Bensonhurst Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-17T15:00:00",
+      "end": "2026-06-17T18:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bensonhurst-park-12/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2174400",
       "title": "Arts Culture and Fun Presents:  Nature Painting Workshop",
       "category": "other",
@@ -3677,6 +5431,19 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a1dd9d8093d900001a2f22f",
+      "title": "I Love R&B Wednesday",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Paradise Coney Island",
+      "start": "2026-06-17T16:00:00",
+      "end": "2026-06-17T22:00:00",
+      "isFree": false,
+      "priceMin": 25.13,
+      "url": "https://dice.fm/event/7dbqyp-i-love-rb-wednesday-17th-jun-paradise-coney-island-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2182961",
       "title": "Healing Through Movement",
       "category": "sports",
@@ -3687,6 +5454,18 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/17/healing-through-movement",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:6a2ea64cda6d8100017fbb0d",
+      "title": "Tinto & 8billion Present: Juntos Pal Gol",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Tinto New York",
+      "start": "2026-06-17T17:00:00",
+      "end": "2026-06-17T23:45:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/bb2vyv-tinto-8billion-present-juntos-pal-gol-17th-jun-tinto-new-york-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2127457",
@@ -3843,6 +5622,44 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69f904b2019f4d0001d0774c",
+      "title": "Skaterobics - All Experience Levels Instructional Class",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-17T18:00:00",
+      "end": "2026-06-17T20:00:00",
+      "isFree": false,
+      "priceMin": 23.69,
+      "url": "https://dice.fm/event/8e5l7v-skaterobics-all-experience-levels-instructional-class-17th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a207ee6984a110001561195",
+      "title": "Date Nite: Vinyl Happy Hour",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-17T18:00:00",
+      "end": "2026-06-17T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/l8xd9x-date-nite-vinyl-happy-hour-17th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69f379995bc8db00016a4025",
+      "title": "BABY BUCK",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Desert 5 Spot NY",
+      "start": "2026-06-17T18:00:00",
+      "end": "2026-06-17T20:00:00",
+      "isFree": false,
+      "priceMin": 20.6,
+      "url": "https://dice.fm/event/avwqqq-baby-buck-17th-jun-desert-5-spot-ny-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2152358",
       "title": "Summer on the Hudson: Everybody Tango!",
       "category": "other",
@@ -3926,6 +5743,30 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69bcbf62743cc90001940089",
+      "title": "Open Decks w/ Steen and Monkey Wrench Techno",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "SILO Brooklyn ",
+      "start": "2026-06-17T19:00:00",
+      "end": "2026-06-18T02:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/ryq6vr-open-decks-w-steen-and-monkey-wrench-techno-17th-jun-silo-brooklyn-brooklyn-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "cityparks:19760",
+      "title": "The Metropolitan Opera Summer Recital featuring Emily Pogorelc, Joshua Blue, Edward Nelson, and Dimitri Dover",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-17T19:00:00",
+      "end": "2026-06-17T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/met-opera-bk-bridge-26/",
+      "source": "cityparks"
+    },
+    {
       "id": "dice:6a21f5a77896040001055db8",
       "title": "Flatbush Comedy Festival",
       "category": "comedy",
@@ -3937,6 +5778,41 @@
       "priceMin": 18.7,
       "url": "https://dice.fm/event/dkpmm6-flatbush-comedy-festival-17th-jun-record-city-new-york-city-tickets",
       "source": "dice"
+    },
+    {
+      "id": "todaytix:41318",
+      "title": "Swan Lake",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/swan-lake",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44532",
+      "title": "Encores! La Cage Aux Folles",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 63,
+      "url": "https://www.todaytix.com/nyc/shows/encores-la-cage-aux-folles",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47123",
+      "title": "Dad Don't Read This",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Greenwich House Theater ",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/dad-dont-read-this",
+      "source": "todaytix"
     },
     {
       "id": "village-vanguard:135503",
@@ -3951,6 +5827,32 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a1866676885a20001a2f5a3",
+      "title": "GUILTY PLEASURES",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-17T20:00:00",
+      "end": "2026-06-17T22:30:00",
+      "isFree": false,
+      "priceMin": 10.5,
+      "url": "https://dice.fm/event/2wyea7-guilty-pleasures-17th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a2872ecfe10c10001f19b74",
+      "title": "Wednesday on Wheels ft. Big Bob (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-17T20:00:00",
+      "end": "2026-06-18T00:00:00",
+      "isFree": false,
+      "priceMin": 18.54,
+      "url": "https://dice.fm/event/nv6rb8-wednesday-on-wheels-ft-big-bob-skate-17th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2178526",
@@ -3999,6 +5901,18 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:6a14c672f93eef000100ed4e",
+      "title": "DOWNSTAIRS: Mascternity x Femmerority",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-17T21:00:00",
+      "end": "2026-06-18T00:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/536yky-downstairs-mascternity-x-femmerority-17th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "village-vanguard:135509",
       "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
@@ -4011,6 +5925,18 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a12b7d7f83cb4000179eb43",
+      "title": "˖ ݁♬⋆.˚𝄞. Karaoke Wednesday Night ˖ ݁♬⋆.˚𝄞.",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Seventh Heaven Bar & Karaoke",
+      "start": "2026-06-17T22:00:00",
+      "end": "2026-06-18T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/k6yeb9--karaoke-wednesday-night-17th-jun-seventh-heaven-bar-karaoke-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32960",
@@ -4550,6 +6476,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20317",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-06-18T10:00:00",
+      "end": "2026-06-18T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-28/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:889581:2026-06-18T10:00:00.000",
       "title": "Miscellaneous",
       "category": "other",
@@ -4572,6 +6510,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:20621",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-18T10:15:00",
+      "end": "2026-06-18T11:15:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-39/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2137079",
@@ -4946,6 +6896,19 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a2c8dcbd4c69f0001d2d1c5",
+      "title": "TURF CLUB: SUNSET SOUNDS",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Westlight Rooftop at The William Vale",
+      "start": "2026-06-18T16:00:00",
+      "end": "2026-06-18T23:00:00",
+      "isFree": false,
+      "priceMin": 25,
+      "url": "https://dice.fm/event/ry83g5-turf-club-sunset-sounds-18th-jun-westlight-rooftop-at-the-william-vale-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:uptown-good-food-farm-stand-csa:2026-06-18",
       "title": "Uptown Good Food Farm Stand & CSA",
       "category": "food",
@@ -4968,6 +6931,19 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/18/cardio-dance",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:6993607c333fcc0001955ee0",
+      "title": "Above(Ten) 1 Hotel Rooftop",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "1 Hotel Brooklyn Bridge",
+      "start": "2026-06-18T17:00:00",
+      "end": "2026-06-18T22:00:00",
+      "isFree": false,
+      "priceMin": 14.99,
+      "url": "https://dice.fm/event/2w8pbo-aboveten-1-hotel-rooftop-18th-jun-1-hotel-brooklyn-bridge-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2182444",
@@ -5184,6 +7160,44 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69fa46df82a5c3000133c694",
+      "title": "Open Skate Happy Hour (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-18T18:00:00",
+      "end": "2026-06-18T20:00:00",
+      "isFree": false,
+      "priceMin": 18.54,
+      "url": "https://dice.fm/event/avwr8q-open-skate-happy-hour-skate-18th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69b847e51d3ec30001a9e31f",
+      "title": "Palosanto On The Roof - June 18th",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Rooftop at Arlo Williamsburg ",
+      "start": "2026-06-18T18:00:00",
+      "end": "2026-06-18T23:00:00",
+      "isFree": false,
+      "priceMin": 25,
+      "url": "https://dice.fm/event/g5ag32-palosanto-on-the-roof-june-18th-18th-jun-rooftop-at-arlo-williamsburg-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a0debc4b9f68f0001635878",
+      "title": "DOWNSTAIRS: Happy Birthday Ripcut",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-18T18:00:00",
+      "end": "2026-06-18T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/8eloa7-downstairs-happy-birthday-ripcut-18th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2112385",
       "title": "Dance Fusion",
       "category": "sports",
@@ -5328,6 +7342,42 @@
       "source": "dice"
     },
     {
+      "id": "todaytix:46955",
+      "title": "NTLive: Hamlet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Leonard Nimoy Thalia Theatre at Symphony Space",
+      "start": "2026-06-18T19:30:00",
+      "isFree": false,
+      "priceMin": 32,
+      "url": "https://www.todaytix.com/nyc/shows/ntlive-hamlet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46500",
+      "title": "VIDA",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-18T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/vida",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46985",
+      "title": "The Met Orchestra - Yannick Nézet-Séguin / Joyce DiDonato",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+      "start": "2026-06-18T19:30:00",
+      "isFree": false,
+      "priceMin": 35,
+      "url": "https://www.todaytix.com/nyc/shows/the-met-orchestra",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-parks:2169175",
       "title": "Movies Under the Stars: Harriet",
       "category": "other",
@@ -5447,6 +7497,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33074-asaf-yuria-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a2b272e052dfc0001e0e6b4",
+      "title": "Pink Metal Presents: CABARET DE LUXE",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-18T22:30:00",
+      "end": "2026-06-19T03:00:00",
+      "isFree": false,
+      "priceMin": 22.66,
+      "url": "https://dice.fm/event/eoxoe6-pink-metal-presents-cabaret-de-luxe-18th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32762",
@@ -5649,6 +7712,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20548",
+      "title": "It's My Park at Peter's Field",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-19T09:00:00",
+      "end": "2026-06-19T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-peters-field/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:crown-heights-farmstand:2026-06-19",
@@ -6167,6 +8242,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a0f149b1cd9130001cbb703",
+      "title": "World Cup at Brooklyn Brewery: USA vs Australia",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn Brewery",
+      "start": "2026-06-19T15:00:00",
+      "end": "2026-06-19T17:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/oeaxdm-world-cup-at-brooklyn-brewery-usa-vs-australia-19th-jun-brooklyn-brewery-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:edgemere-farm-market:2026-06-19",
       "title": "Edgemere Farm Market",
       "category": "food",
@@ -6189,6 +8276,19 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/19/paint-sip-at-the-garden",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:69d7ed973886bd00011cb73b",
+      "title": "Weekend Warm-Up (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-19T16:00:00",
+      "end": "2026-06-19T19:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/g5x7k2-weekend-warm-up-skate-19th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2108579",
@@ -6345,6 +8445,18 @@
       "source": "dice"
     },
     {
+      "id": "todaytix:47157",
+      "title": "Power Network",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/power-network",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135505",
       "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
@@ -6441,6 +8553,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32796-eric-wyatt-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a079cac60e1e10001467cc8",
+      "title": "Last Chance Dancers & Xaddy Addy: A Burlesque Tribute to Kendrick Lamar",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Sleepwalk",
+      "start": "2026-06-19T22:30:00",
+      "end": "2026-06-20T03:00:00",
+      "isFree": false,
+      "priceMin": 11.33,
+      "url": "https://dice.fm/event/l8xyab-last-chance-dancers-xaddy-addy-a-burlesque-tribute-to-kendrick-lamar-19th-jun-sleepwalk-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32779",
@@ -7029,6 +9154,30 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20380",
+      "title": "It's My Park at Cooper Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-20T09:00:00",
+      "end": "2026-06-20T10:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-cooper-park-2/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20497",
+      "title": "It's My Park at Moore Homestead Playground",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-06-20T09:00:00",
+      "end": "2026-06-20T10:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-moore-homestead-playground-2/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2170415",
       "title": "It's My Park at Marine Park",
       "category": "other",
@@ -7075,6 +9224,42 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:19920",
+      "title": "It's My Park at Marine Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-20T09:30:00",
+      "end": "2026-06-20T11:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-marine-park-12/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20187",
+      "title": "It's My Park at East River Esplanade",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-20T09:30:00",
+      "end": "2026-06-20T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-east-river-esplanade-10/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20298",
+      "title": "It's My Park at Ewen Park",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-20T09:30:00",
+      "end": "2026-06-20T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-ewen-park-24/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:1726283",
@@ -7677,6 +9862,42 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19922",
+      "title": "It's My Park at Seabury Playground",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-20T10:00:00",
+      "end": "2026-06-20T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-seabury-playground-3/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20313",
+      "title": "It's My Park at Tompkins Square Park",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-20T10:00:00",
+      "end": "2026-06-20T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-tompkins-square-park-20/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20470",
+      "title": "It's My Park at Leif Ericson Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-20T10:00:00",
+      "end": "2026-06-20T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-leif-ericson-park-44/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2108927",
       "title": "R&B Beats Dance Fitness",
       "category": "sports",
@@ -8025,6 +10246,19 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:69d7e38c3886bd0001e23cbb",
+      "title": "Xanadu Day Disco (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-20T12:00:00",
+      "end": "2026-06-20T18:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/pydgpk-xanadu-day-disco-skate-20th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:black-radish-farmstand:2026-06-20",
       "title": "Black Radish Farmstand",
       "category": "food",
@@ -8035,6 +10269,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20287",
+      "title": "It's My Park at Soundview Park",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-20T12:00:00",
+      "end": "2026-06-20T14:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-soundview-park-6/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2141714",
@@ -8241,6 +10487,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:20322",
+      "title": "It's My Park at Bowne Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-06-20T14:00:00",
+      "end": "2026-06-20T17:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bowne-park-2/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2146767",
       "title": "Summer on the Hudson: Story Hour!",
       "category": "other",
@@ -8289,6 +10547,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19957",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-20T16:30:00",
+      "end": "2026-06-20T17:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-15/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2146834",
       "title": "Summer on the Hudson: Revival 10: Retrospective",
       "category": "other",
@@ -8311,6 +10581,18 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/20/lgbtq-pride-month-summer-solstice-pride-stroll",
       "source": "nyc-parks"
+    },
+    {
+      "id": "cityparks:19958",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-20T17:30:00",
+      "end": "2026-06-20T18:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-16/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2182465",
@@ -8383,6 +10665,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:19959",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-20T18:30:00",
+      "end": "2026-06-20T19:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-17/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2158485",
       "title": "RTA Summer Sunset Concert Series featuring Ron McClure & Friends",
       "category": "music",
@@ -8442,6 +10736,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:18201",
+      "title": "Elderbrook / Tobiahs",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-20T19:00:00",
+      "end": "2026-06-20T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/elderbrook/",
+      "source": "cityparks"
+    },
+    {
       "id": "dice:6a220ed621b3ec00017b4ce1",
       "title": "Flatbush Comedy Festival",
       "category": "comedy",
@@ -8453,6 +10759,30 @@
       "priceMin": 17,
       "url": "https://dice.fm/event/2wyyqm-flatbush-comedy-festival-20th-jun-tyson-lounge-new-york-city-tickets",
       "source": "dice"
+    },
+    {
+      "id": "dice:6a185d636885a20001ede021",
+      "title": "Studi-Ho Ghibli ",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-20T19:30:00",
+      "end": "2026-06-20T22:00:00",
+      "isFree": false,
+      "priceMin": 20.09,
+      "url": "https://dice.fm/event/6daxo3-studi-ho-ghibli-20th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "todaytix:47075",
+      "title": "The Black Mirror Experience",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Shed",
+      "start": "2026-06-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-black-mirror-experience",
+      "source": "todaytix"
     },
     {
       "id": "nyc-parks:2135346",
@@ -8886,6 +11216,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20391",
+      "title": "It's My Park at McCarren Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-21T09:30:00",
+      "end": "2026-06-21T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mccarren-park-11/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2114774",
       "title": "Urban Farm Volunteers",
       "category": "food",
@@ -8944,6 +11286,30 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20491",
+      "title": "It's My Park at Sunset Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-21T10:00:00",
+      "end": "2026-06-21T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-78/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20499",
+      "title": "It's My Park at McKinley Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-21T10:00:00",
+      "end": "2026-06-21T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mckinley-park-42/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:two-bridges-youth-market:2026-06-21",
@@ -9016,6 +11382,19 @@
       "isFree": true,
       "url": "https://www.smorgasburg.com/",
       "source": "smorgasburg"
+    },
+    {
+      "id": "dice:69d7e2ead2186b0001790248",
+      "title": "Sunday Afterglow (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-21T12:00:00",
+      "end": "2026-06-21T18:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/oedkwm-sunday-afterglow-skate-21st-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2141006",
@@ -9268,6 +11647,19 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69fb5dba5b39e60001c3d6b3",
+      "title": "Skaterobics - All Experience Levels Instructional Class",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-21T18:00:00",
+      "end": "2026-06-21T20:00:00",
+      "isFree": false,
+      "priceMin": 23.69,
+      "url": "https://dice.fm/event/53lmll-skaterobics-all-experience-levels-instructional-class-21st-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:1952174",
       "title": "Summer on the Hudson: Make Music New York",
       "category": "music",
@@ -9327,6 +11719,30 @@
       "source": "smallslive"
     },
     {
+      "id": "todaytix:47191",
+      "title": "National Theatre Live Screening: The Playboy of the Western World",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "NYU Skirball",
+      "start": "2026-06-21T19:30:00",
+      "isFree": false,
+      "priceMin": 38,
+      "url": "https://www.todaytix.com/nyc/shows/national-theatre-live-screening-the-playboy-of-the-western-world",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46554",
+      "title": "NT Live: The Audience (Encore)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Leonard Nimoy Thalia Theatre at Symphony Space",
+      "start": "2026-06-21T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/nt-live-the-audience-encore",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135507",
       "title": "Fred Hersch / Drew Gress / Peter Erskine",
       "category": "music",
@@ -9350,6 +11766,19 @@
       "end": "2026-06-22T00:00:00",
       "isFree": true,
       "url": "https://dice.fm/event/7dbx7p-for-the-dads-comedy-show-21st-jun-alphaville-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a0c821a5592f90001f0af6e",
+      "title": "Geek Rants",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-21T20:00:00",
+      "end": "2026-06-21T22:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/wwpx3p-geek-rants-21st-jun-cmon-everybody-new-york-tickets",
       "source": "dice"
     },
     {
@@ -9398,6 +11827,19 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a29b471e4f6eb0001551be4",
+      "title": "Big Little Naturals",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-21T22:00:00",
+      "end": "2026-06-22T01:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/eoxg26-big-little-naturals-21st-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33040",
@@ -9481,6 +11923,18 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/22/its-my-park-at-mosholu-parkway",
       "source": "nyc-parks"
+    },
+    {
+      "id": "cityparks:20304",
+      "title": "It's My Park at Mosholu Parkway",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-22T09:00:00",
+      "end": "2026-06-22T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-6/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:893471:2026-06-22T09:00:00.000",
@@ -9865,6 +12319,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a1f47832776fb0001bafc51",
+      "title": "MUSIC MOVIE MONDAYS: SCHOOL OF ROCK",
+      "category": "film",
+      "borough": "Queens",
+      "venue": "Cassette",
+      "start": "2026-06-22T18:30:00",
+      "end": "2026-06-22T21:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/av5qo2-music-movie-mondays-school-of-rock-22nd-jun-cassette-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:32894",
       "title": "Bruce Harris: To Be or not to Bop",
       "category": "music",
@@ -9874,6 +12340,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32894-bruce-harris-to-be-or-not-to-bop/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19761",
+      "title": "New York Sings Yiddish: Passing the Torch to a New Generation Featuring The Shvesters / YidLife Crisis / Yair Keydar / Riki Rose + More",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-22T19:00:00",
+      "end": "2026-06-22T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/new-york-sings-yiddish-26/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2143507",
@@ -10451,6 +12929,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:20490",
+      "title": "It's My Park at Sunset Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-23T10:00:00",
+      "end": "2026-06-23T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-sunset-park-77/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:888085:2026-06-23T10:00:00.000",
       "title": "TSMS 839 Field Day",
       "category": "other",
@@ -10497,6 +12987,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20406",
+      "title": "It's My Park at Ralph Bunche Park",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-23T11:00:00",
+      "end": "2026-06-23T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-ralph-bunche-park-27/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2126848",
@@ -10940,6 +13442,31 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:6a1724a07adffc000141ff20",
+      "title": "The Rocky Horror Wyrd Friends Show",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-23T19:00:00",
+      "end": "2026-06-23T23:30:00",
+      "isFree": false,
+      "priceMin": 24.93,
+      "url": "https://dice.fm/event/nv685q-the-rocky-horror-wyrd-friends-show-23rd-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "todaytix:41314",
+      "title": "Onegin",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-23T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/onegin",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135516",
       "title": "Terell Stafford Quintet",
       "category": "music",
@@ -11033,6 +13560,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32875-jam-session-hosted-by-kyle-colina/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:20478",
+      "title": "It's My Park at Bushwick Inlet Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-24T06:00:00",
+      "end": "2026-06-24T08:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bushwick-inlet-park-23/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2139786",
@@ -11561,6 +14100,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20539",
+      "title": "It's My Park at Seth Low Playground/ Bealin Square",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-24T10:00:00",
+      "end": "2026-06-24T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-seth-low-playground-bealin-square-32/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2129316",
@@ -12149,6 +14700,31 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69f904b2019f4d0001d07746",
+      "title": "Skaterobics - All Experience Levels Instructional Class",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-24T18:00:00",
+      "end": "2026-06-24T20:00:00",
+      "isFree": false,
+      "priceMin": 23.69,
+      "url": "https://dice.fm/event/wwdpkv-skaterobics-all-experience-levels-instructional-class-24th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "cityparks:19762",
+      "title": "Black Country, New Road / Horsegirl / Sharp Pins",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-24T18:00:00",
+      "end": "2026-06-24T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/black-country-new-road/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2152359",
       "title": "Summer on the Hudson: Everybody Tango!",
       "category": "other",
@@ -12259,6 +14835,19 @@
       "source": "dice"
     },
     {
+      "id": "dice:6a0b6a938f93ac0001e0f963",
+      "title": "Wednesday on Wheels ft. Tone Capo (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-24T20:00:00",
+      "end": "2026-06-25T00:00:00",
+      "isFree": false,
+      "priceMin": 18.54,
+      "url": "https://dice.fm/event/92komd-wednesday-on-wheels-ft-tone-capo-skate-24th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2171297",
       "title": "Movies Under the Stars: The Lego Movie (2014)",
       "category": "other",
@@ -12329,6 +14918,18 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a26f809864f380001f123d8",
+      "title": "Re[Vision]",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-24T22:00:00",
+      "end": "2026-06-25T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/pyb3vk-revision-24th-jun-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32961",
@@ -12770,6 +15371,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20275",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-06-25T10:00:00",
+      "end": "2026-06-25T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-25/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2137080",
@@ -13358,6 +15971,19 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:69fa46dfd9d3150001294307",
+      "title": "Open Skate Happy Hour (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-25T18:00:00",
+      "end": "2026-06-25T20:00:00",
+      "isFree": false,
+      "priceMin": 18.54,
+      "url": "https://dice.fm/event/bbo2qo-open-skate-happy-hour-skate-25th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2112387",
       "title": "Dance Fusion",
       "category": "sports",
@@ -13501,6 +16127,30 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:69d7bd7f8582ed0001d2bf5d",
+      "title": "Learn The Words, Bitch!",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-25T19:30:00",
+      "end": "2026-06-25T22:00:00",
+      "isFree": false,
+      "priceMin": 19,
+      "url": "https://dice.fm/event/53lwqw-learn-the-words-bitch-25th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "todaytix:47189",
+      "title": "PRÓXIMO",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-25T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/proximo",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-parks:2169241",
       "title": "Movies Under the Stars: Kung Fu Panda 4",
       "category": "other",
@@ -13585,6 +16235,18 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a0f154a24c2620001ac33a1",
+      "title": "World Cup at Brooklyn Brewery: USA vs. Turkey",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn Brewery",
+      "start": "2026-06-25T22:00:00",
+      "end": "2026-06-25T23:59:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/bb7w7v-world-cup-at-brooklyn-brewery-usa-vs-turkey-25th-jun-brooklyn-brewery-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32956",
@@ -14292,6 +16954,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:20374",
+      "title": "It's My Park at Fulton Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-26T12:00:00",
+      "end": "2026-06-26T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-fulton-park-3/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2171163",
       "title": "Piano in Bryant Park",
       "category": "music",
@@ -14734,6 +17408,18 @@
       "priceMin": 26.56,
       "url": "https://dice.fm/event/927ar6-somewhere-funny-nowhere-serious-26th-jun-somewhere-nowhere-nyc-new-york-tickets",
       "source": "dice"
+    },
+    {
+      "id": "cityparks:19763",
+      "title": "Laurie Anderson: Republic of Love with Sexmob",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-26T20:00:00",
+      "end": "2026-06-26T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/laurie-anderson/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-parks:2169084",
@@ -15357,6 +18043,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20485",
+      "title": "It's My Park at Cooper Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-27T09:00:00",
+      "end": "2026-06-27T10:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-cooper-park-5/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:ridgewood-farmstand:2026-06-27",
       "title": "Ridgewood Farmstand",
       "category": "food",
@@ -15873,6 +18571,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20450",
+      "title": "Tree Guards Part 2: DIY Installation Demonstration",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-27T10:00:00",
+      "end": "2026-06-27T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/tree-guards-part-2-diy-installation-demonstration/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2108955",
       "title": "R&B Beats Dance Fitness",
       "category": "sports",
@@ -16053,6 +18763,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20538",
+      "title": "It's My Park at Rev. T. Wendell Foster Park and Recreation Center",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-27T11:00:00",
+      "end": "2026-06-27T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-rev-t-wendell-foster-park-and-recreation-center/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2139157",
       "title": "Bodyweight Circuit Training",
       "category": "sports",
@@ -16195,6 +18917,18 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/27/strong-nation",
       "source": "nyc-parks"
+    },
+    {
+      "id": "cityparks:19960",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-27T13:00:00",
+      "end": "2026-06-27T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-18/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:895798:2026-06-27T13:00:00.000",
@@ -16434,6 +19168,29 @@
       "source": "smallslive"
     },
     {
+      "id": "todaytix:46357",
+      "title": "Spamalot",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "State Theatre New Jersey",
+      "start": "2026-06-27T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/spamalot",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46949",
+      "title": "NT Live: The Playboy of the Western World",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Leonard Nimoy Thalia Theatre at Symphony Space",
+      "start": "2026-06-27T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/nt-live-the-playboy-of-the-western-world",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135520",
       "title": "Terell Stafford Quintet",
       "category": "music",
@@ -16492,6 +19249,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32690-wayne-escoffery-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a1f4d642776fb0001d8b54c",
+      "title": "Sexpérience - PRIDE EDITION",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "The Reading Room",
+      "start": "2026-06-27T21:30:00",
+      "end": "2026-06-28T01:30:00",
+      "isFree": false,
+      "priceMin": 45.32,
+      "url": "https://dice.fm/event/rykqvq-sexprience-pride-edition-27th-jun-the-reading-room-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "village-vanguard:135526",
@@ -16889,6 +19659,30 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20394",
+      "title": "It's My Park at WNYC Transmitter Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-28T10:00:00",
+      "end": "2026-06-28T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-wnyc-transmitter-park-13/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20484",
+      "title": "It's My Park at Msgr. McGolrick Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-06-28T10:00:00",
+      "end": "2026-06-28T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-msgr-mcgolrick-park-16/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:two-bridges-youth-market:2026-06-28",
       "title": "Two Bridges Youth Market",
       "category": "food",
@@ -16973,6 +19767,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "cityparks:19961",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-28T13:00:00",
+      "end": "2026-06-28T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-19/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-parks:2153671",
       "title": "Jazz in the Park at Ralph Ellison",
       "category": "music",
@@ -16995,6 +19801,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32844-afternoon-jam-in-the-cafe/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:18471",
+      "title": "Dreamland: Pride in Central Park with Purple Disco Machine / Kungs / Dani Brasil",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-28T15:00:00",
+      "end": "2026-06-28T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/dreamland-pride-pdm/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:894474:2026-06-28T16:00:00.000",
@@ -17088,6 +19906,19 @@
       "isFree": false,
       "priceMin": 9.07,
       "url": "https://dice.fm/event/6damq2-vaudeville-3000-28th-jun-alphaville-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a298fd2ae96cb000177f52a",
+      "title": "Fagnet: Pride ",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-28T19:00:00",
+      "end": "2026-06-28T22:00:00",
+      "isFree": false,
+      "priceMin": 20.09,
+      "url": "https://dice.fm/event/3o7qmx-fagnet-pride-28th-jun-cmon-everybody-new-york-tickets",
       "source": "dice"
     },
     {
@@ -17199,6 +20030,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20308",
+      "title": "It's My Park at Mosholu Parkway",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-06-29T09:00:00",
+      "end": "2026-06-29T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mosholu-parkway-8/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:fresh-vibes-market-at-medgar-evers-college:2026-06-29",
       "title": "Fresh Vibes Market at Medgar Evers College",
       "category": "food",
@@ -17209,6 +20052,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:19962",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-06-29T11:00:00",
+      "end": "2026-06-29T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-20/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:fulton-stall-market-indoor-farmers-market:2026-06-29",
@@ -17255,6 +20110,51 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32749-dan-weiss-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:47204",
+      "title": "ADA Accessible Lottery - Public Forum: Cities Under Siege",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Delacorte Theater",
+      "start": "2026-06-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-public-forum-cities-under-siege",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47035",
+      "title": "Don Quixote",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-29T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/don-quixote",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47203",
+      "title": "Senior 65+ Lottery - Public Forum: Cities Under Siege",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-cities-under-siege",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47202",
+      "title": "Standard Lottery - Public Forum: Cities Under Siege",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-public-forum-cities-under-siege",
+      "source": "todaytix"
     },
     {
       "id": "village-vanguard:135468",
@@ -17648,6 +20548,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:20479",
+      "title": "It's My Park at Bushwick Inlet Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-01T06:00:00",
+      "end": "2026-07-01T08:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bushwick-inlet-park-24/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:bartel-pritchard-square-greenmarket:2026-07-01",
       "title": "Bartel-Pritchard Square Greenmarket",
       "category": "food",
@@ -17948,6 +20860,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20284",
+      "title": "It's My Park at Soundview Park",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-01T12:00:00",
+      "end": "2026-07-01T14:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-soundview-park-5/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:uptown-grand-central-farmstand:2026-07-01",
       "title": "Uptown Grand Central Farmstand",
       "category": "food",
@@ -18016,6 +20940,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33003-jennifer-whartons-bonegasm/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19764",
+      "title": "SHABAKA / Kokoroko / Omar / Lovie",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-01T18:00:00",
+      "end": "2026-07-01T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/shabaka-kokoroko-omar-lovie/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33150",
@@ -18243,6 +21179,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20312",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-02T10:00:00",
+      "end": "2026-07-02T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-26/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:lenox-hill-farmstand:2026-07-02",
@@ -18696,6 +21644,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:18362",
+      "title": "Odd Mob",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-03T17:30:00",
+      "end": "2026-07-03T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/odd-mob/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:32963",
@@ -19654,6 +22614,30 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20299",
+      "title": "It's My Park at Ewen Park",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-05T09:30:00",
+      "end": "2026-07-05T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-ewen-park-25/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20393",
+      "title": "It's My Park at McCarren Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-05T09:30:00",
+      "end": "2026-07-05T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mccarren-park-12/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:queens-county-farm-museum-farm-stand:2026-07-05",
       "title": "Queens County Farm Museum Farm Stand",
       "category": "food",
@@ -19664,6 +22648,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20542",
+      "title": "It's My Park at WNYC Transmitter Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-05T10:00:00",
+      "end": "2026-07-05T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-wnyc-transmitter-park-15/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:two-bridges-youth-market:2026-07-05",
@@ -19831,6 +22827,17 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33123-mike-clark-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:46984",
+      "title": "Shifters",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Cherry Lane Theatre",
+      "start": "2026-07-06T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/shifters",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:33014",
@@ -20090,6 +23097,28 @@
       "source": "smallslive"
     },
     {
+      "id": "todaytix:40301",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings I",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-07T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-i",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44499",
+      "title": "The Whoopi Monologues ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Lincoln Center Theater - Mitzi E. Newhouse Theater",
+      "start": "2026-07-07T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-whoopi-monologues",
+      "source": "todaytix"
+    },
+    {
       "id": "dice:6a14d9f63b80100001710ee8",
       "title": "Wild Card Comedy",
       "category": "comedy",
@@ -20155,6 +23184,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33088-jam-session-hosted-by-kyle-colina/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:20481",
+      "title": "It's My Park at Bushwick Inlet Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-08T06:00:00",
+      "end": "2026-07-08T08:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-bushwick-inlet-park-25/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:bartel-pritchard-square-greenmarket:2026-07-08",
@@ -20433,6 +23474,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19965",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-08T11:00:00",
+      "end": "2026-07-08T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-21/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:fulton-stall-market-indoor-farmers-market:2026-07-08",
       "title": "Fulton Stall Market (indoor farmers market)",
       "category": "food",
@@ -20527,6 +23580,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19765",
+      "title": "Spoon / Ratboys / Bodega",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-08T18:00:00",
+      "end": "2026-07-08T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/spoon-ratboys-bodega/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33155",
       "title": "Byron Landham Quartet",
       "category": "music",
@@ -20536,6 +23601,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33155-byron-landham-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:46214",
+      "title": "The Saviors",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Atlantic Theater Company - Linda Gross Theater",
+      "start": "2026-07-08T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/the-saviors",
+      "source": "todaytix"
     },
     {
       "id": "dice:6a1df3f659604b0001810791",
@@ -20571,6 +23648,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33022-darryl-yokleys-sound-reformation/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a26f809864f380001f123d7",
+      "title": "Re[Vision]",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-07-08T22:00:00",
+      "end": "2026-07-09T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/8el7m2-revision-8th-jul-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33131",
@@ -20739,6 +23828,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20314",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-09T10:00:00",
+      "end": "2026-07-09T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-27/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:lenox-hill-farmstand:2026-07-09",
       "title": "Lenox Hill Farmstand",
       "category": "food",
@@ -20857,6 +23958,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19766",
+      "title": "Duck Down Music presents: Heltah Skeltah & O.G.C. of Boot Camp Clik, Nocturnal & Da Storm 30 Year Anniversary",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-09T18:00:00",
+      "end": "2026-07-09T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/duck-down-music/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33156",
       "title": "Jay Collins & the D.F.C",
       "category": "music",
@@ -20866,6 +23979,30 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33156-jay-collins-the-dfc/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19767",
+      "title": "Shaggy's Yaad Live",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-09T19:00:00",
+      "end": "2026-07-09T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/shaggys-yaad-live/",
+      "source": "cityparks"
+    },
+    {
+      "id": "todaytix:44084",
+      "title": "Sylvia",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-07-09T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/sylvia",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:33026",
@@ -21128,6 +24265,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19966",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-10T11:00:00",
+      "end": "2026-07-10T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-22/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:fulton-stall-market-indoor-farmers-market:2026-07-10",
       "title": "Fulton Stall Market (indoor farmers market)",
       "category": "food",
@@ -21162,6 +24311,30 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:18366",
+      "title": "Nora En Pure Presents PURIFIED / Andhim / Kidnap / Corren Cavini / Jack Emery",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-10T16:00:00",
+      "end": "2026-07-10T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/nora-en-pure/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19768",
+      "title": "Mereba / Mack Keane / Arima Ederra / Halfmoon BK",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-10T17:00:00",
+      "end": "2026-07-10T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/mereba/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:32975",
@@ -21568,6 +24741,30 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20384",
+      "title": "It's My Park at Brookville Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-11T09:00:00",
+      "end": "2026-07-11T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-brookville-park/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20399",
+      "title": "It's My Park at Cooper Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-11T09:00:00",
+      "end": "2026-07-11T10:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-cooper-park-4/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:ridgewood-farmstand:2026-07-11",
       "title": "Ridgewood Farmstand",
       "category": "food",
@@ -21662,6 +24859,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20405",
+      "title": "It's My Park at Msgr. McGolrick Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-11T10:00:00",
+      "end": "2026-07-11T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-msgr-mcgolrick-park-15/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:899371:2026-07-11T10:00:00.000",
@@ -21784,6 +24993,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19769",
+      "title": "MIKE's Young World: Max B / MIKE with The Band of the Century",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-11T16:30:00",
+      "end": "2026-07-11T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/mikes-young-world-26/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:32976",
       "title": "Nir Felder Trio",
       "category": "music",
@@ -21804,6 +25025,17 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33108-george-colligan-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:30144",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings II",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-11T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-ii",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:33071",
@@ -21837,6 +25069,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33159-duane-eubanks-quintet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a2ccc4bf9a7e00001c5977d",
+      "title": "Black Cherry Sideshow",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-07-11T22:30:00",
+      "end": "2026-07-12T02:00:00",
+      "isFree": false,
+      "priceMin": 17,
+      "url": "https://dice.fm/event/k6l6v8-black-cherry-sideshow-11th-jul-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33078",
@@ -22078,6 +25323,30 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20382",
+      "title": "It's My Park at McCarren Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-12T09:30:00",
+      "end": "2026-07-12T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-mccarren-park-8/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20395",
+      "title": "It's My Park at Marine Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-12T09:30:00",
+      "end": "2026-07-12T11:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-marine-park-13/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:queens-county-farm-museum-farm-stand:2026-07-12",
       "title": "Queens County Farm Museum Farm Stand",
       "category": "food",
@@ -22088,6 +25357,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20469",
+      "title": "It's My Park at Franz Sigel Park",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-12T10:00:00",
+      "end": "2026-07-12T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-franz-sigel-park-10/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:899374:2026-07-12T10:00:00.000",
@@ -22138,6 +25419,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19770",
+      "title": "Bilal / GENA / DJ Tara",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-12T17:00:00",
+      "end": "2026-07-12T20:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/bilal/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:32696",
       "title": "Andrea Wolper Trio",
       "category": "music",
@@ -22160,6 +25453,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19771",
+      "title": "Bastille Day: Black M / Laurent Voulzy / Legends of the 80’s / Michel Polnareff",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-12T18:00:00",
+      "end": "2026-07-12T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/bastille-day-26/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33109",
       "title": "George Colligan Quartet",
       "category": "music",
@@ -22169,6 +25474,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33109-george-colligan-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a18ef750581f1000187eb88",
+      "title": "Locavore Cinema",
+      "category": "film",
+      "borough": "Brooklyn",
+      "venue": "ALPHAVILLE",
+      "start": "2026-07-12T20:00:00",
+      "end": "2026-07-13T00:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/oeaq55-locavore-cinema-12th-jul-alphaville-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:32979",
@@ -22524,6 +25841,29 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33160-jon-thomas-trio/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:46802",
+      "title": "Cat Cohen: Broad Strokes",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Lucille Lortel Theatre",
+      "start": "2026-07-14T19:30:00",
+      "isFree": false,
+      "priceMin": 52,
+      "url": "https://www.todaytix.com/nyc/shows/cat-cohen-broad-strokes",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:40304",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings III",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-iii-nyc",
+      "source": "todaytix"
     },
     {
       "id": "dice:6a1df556093d90000138a8fe",
@@ -22882,6 +26222,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19968",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-15T11:00:00",
+      "end": "2026-07-15T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-24/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:fulton-stall-market-indoor-farmers-market:2026-07-15",
       "title": "Fulton Stall Market (indoor farmers market)",
       "category": "food",
@@ -22965,6 +26317,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19772",
+      "title": "Morocco: From Dakhla to Casablanca: Hoba Hoba Spirit / Hamid El Kasri Dakhla / Casa Xpress / Mr ID",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-15T18:00:00",
+      "end": "2026-07-15T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/morocco-from-dakhla-to-casablanca/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33161",
       "title": "George Papageorge Quartet",
       "category": "music",
@@ -22974,6 +26338,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33161-george-papageorge-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a18581bb2653b0001cb6eb7",
+      "title": "Frolic: Black Burlesque Revue ",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-07-15T19:30:00",
+      "end": "2026-07-15T22:00:00",
+      "isFree": false,
+      "priceMin": 15,
+      "url": "https://dice.fm/event/dkp8pq-frolic-black-burlesque-revue-15th-jul-cmon-everybody-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33035",
@@ -23164,6 +26541,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20547",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-16T10:00:00",
+      "end": "2026-07-16T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-30/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:lenox-hill-farmstand:2026-07-16",
       "title": "Lenox Hill Farmstand",
       "category": "food",
@@ -23280,6 +26669,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33047-dave-scott-quintet/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19773",
+      "title": "Mavis Staples / Brother Wallace",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-16T18:00:00",
+      "end": "2026-07-16T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/mavis-staples/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33045",
@@ -23598,6 +26999,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32984-yuhan-su-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19774",
+      "title": "De La Soul / Pete Rock",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-17T18:00:00",
+      "end": "2026-07-17T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/de-la-soul-pete-rock/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33110",
@@ -24185,6 +27598,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19969",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-18T13:00:00",
+      "end": "2026-07-18T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-25/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33190",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -24207,6 +27632,30 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:18565",
+      "title": "Anjunadeep: Open Air New York City: Because of Art / Durante / Ezequiel Arias / James Grant & Jody Wisternoff / Marsh / Romain Garcia / SunrYse",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-18T15:00:00",
+      "end": "2026-07-18T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/anjunadeep/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19775",
+      "title": "DJ Rekha's Basement Bhangra Beyond: Jaz Dhami / Mitika Kanwar / Babbulicious / DJ Rekha + special guests",
+      "category": "music",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-18T17:00:00",
+      "end": "2026-07-18T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/dj-rekhas-basement-bhangra-beyond/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33050",
@@ -24240,6 +27689,17 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33111-geoffrey-keezer-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:40311",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings IV",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-18T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-iv",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:32983",
@@ -24502,6 +27962,18 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "cityparks:20489",
+      "title": "It's My Park at Ewen Park",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-19T09:30:00",
+      "end": "2026-07-19T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-ewen-park-28/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-greenmarket:queens-county-farm-museum-farm-stand:2026-07-19",
@@ -24882,6 +28354,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19971",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-21T10:00:00",
+      "end": "2026-07-21T11:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-27/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:fresh-vibes-market-at-the-local-development-corportation-of-crown-heights-inc:2026-07-21",
       "title": "Fresh Vibes Market at the Local Development Corportation of Crown Heights, Inc.",
       "category": "food",
@@ -24950,6 +28434,17 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33164-jeb-patton-trio/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:40313",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings V",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-21T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-v",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:33146",
@@ -25366,6 +28861,30 @@
       "source": "smallslive"
     },
     {
+      "id": "todaytix:47049",
+      "title": "Disruption",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Romulus Linney Courtyard Theatre at The Pershing Square Signature Center",
+      "start": "2026-07-22T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/disruption",
+      "source": "todaytix"
+    },
+    {
+      "id": "cityparks:19776",
+      "title": "Complexions Contemporary Ballet / Paul Taylor Dance Company / LaTasha Barnes’ The Jazz Continuum presents <i>The Look of Love</i>",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-22T20:00:00",
+      "end": "2026-07-22T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/complexions-contemporary-ballet/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33053",
       "title": "JinJoo Yoo  Trio",
       "category": "music",
@@ -25386,6 +28905,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33054-kyle-nasser-quintet/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a26f8090139d30001e1c4b2",
+      "title": "Re[Vision]",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-07-22T22:00:00",
+      "end": "2026-07-23T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/wwpk2g-revision-22nd-jul-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33139",
@@ -25554,6 +29085,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20545",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-23T10:00:00",
+      "end": "2026-07-23T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-29/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:lenox-hill-farmstand:2026-07-23",
       "title": "Lenox Hill Farmstand",
       "category": "food",
@@ -25672,6 +29215,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19369",
+      "title": "SOLD OUT: Yeat: The LOVE/LYFE Tour / Slayr / BNYX",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-23T18:00:00",
+      "end": "2026-07-23T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/yeat/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33166",
       "title": "Leo Genovese Quartet",
       "category": "music",
@@ -25681,6 +29236,30 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33166-leo-genovese-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:46158",
+      "title": "Hugo Marchand | Artists at the Center",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-07-23T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/hugo-marchand-or-artists-at-the-center",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46998",
+      "title": "An American Daughter",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Irene Diamond Stage at the Pershing Square Signature Center",
+      "start": "2026-07-23T19:30:00",
+      "isFree": false,
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/an-american-daughter",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:32597",
@@ -26406,6 +29985,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:20541",
+      "title": "It's My Park at Marine Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-25T09:30:00",
+      "end": "2026-07-25T11:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-marine-park-14/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:bissel-gardens-farmers-market:2026-07-25",
       "title": "Bissel Gardens Farmers Market",
       "category": "food",
@@ -26550,6 +30141,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19973",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-25T11:00:00",
+      "end": "2026-07-25T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-29/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-greenmarket:fulton-stall-market-indoor-farmers-market:2026-07-25",
       "title": "Fulton Stall Market (indoor farmers market)",
       "category": "food",
@@ -26598,6 +30201,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:20550",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-25T13:00:00",
+      "end": "2026-07-25T15:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-31/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33197",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -26622,6 +30237,18 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "cityparks:19449",
+      "title": "Maccabi House: Adam Ten and Mita Gami / Darco / Malive / Monobase",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-25T15:00:00",
+      "end": "2026-07-25T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/maccabi-house/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:32993",
       "title": "Eric Person Quintet",
       "category": "music",
@@ -26642,6 +30269,17 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33114-steve-wilson-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:40314",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings VI",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-25T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-vi",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:32995",
@@ -26676,6 +30314,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:20544",
+      "title": "It's My Park at WNYC Transmitter Park",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-07-26T10:00:00",
+      "end": "2026-07-26T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-wnyc-transmitter-park-16/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:899438:2026-07-26T10:00:00.000",
@@ -26736,6 +30386,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19777",
+      "title": "Afro-Latinas: Susana Baca / Luedji Luna ft. Liniker / Lady G / Mai-Elka Prado ft. Lush Song Collective / DJ Agent DMZ",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-26T18:00:00",
+      "end": "2026-07-26T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/afro-latinas/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33115",
       "title": "Steve Wilson Quartet",
       "category": "music",
@@ -26745,6 +30407,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33115-steve-wilson-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:47193",
+      "title": "National Theatre Live Screening: Les Liaisons Dangereuses",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "NYU Skirball",
+      "start": "2026-07-26T19:30:00",
+      "isFree": false,
+      "priceMin": 38,
+      "url": "https://www.todaytix.com/nyc/shows/national-theatre-live-screening-les-liaisons-dangereuses",
+      "source": "todaytix"
     },
     {
       "id": "smallslive:32997",
@@ -26778,6 +30452,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33209-sunday-nite-jam-in-the-cafe/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19974",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-27T11:00:00",
+      "end": "2026-07-27T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-30/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33199",
@@ -26976,6 +30662,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19778",
+      "title": "Julieta Venegas / Lasso / DJ Anamaria Sayre",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-29T18:00:00",
+      "end": "2026-07-29T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/julieta-venegas/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33170",
       "title": "Jerry Weldon Quintet",
       "category": "music",
@@ -27031,6 +30729,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:20551",
+      "title": "It's My Park at Hunter's Point South Park",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-07-30T10:00:00",
+      "end": "2026-07-30T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-32/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33202",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -27065,6 +30775,18 @@
       "source": "smallslive"
     },
     {
+      "id": "cityparks:19780",
+      "title": "La India & MD Bobby Allende / DJ Tony Touch",
+      "category": "music",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-30T18:00:00",
+      "end": "2026-07-30T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/la-india-bronx-26/",
+      "source": "cityparks"
+    },
+    {
       "id": "smallslive:33171",
       "title": "Rudresh Mahanthappa Quartet",
       "category": "music",
@@ -27074,6 +30796,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33171-rudresh-mahanthappa-quartet/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19779",
+      "title": "UBB 40th Anniversary Celebration: BreakBeat Lou & Lord Finesse / Diamond D / Grand Puba / Sadat X / Nice & Smooth / Peter Gunz / DJ Boogie Blind",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-07-30T19:00:00",
+      "end": "2026-07-30T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/ubb-40th-anniversary/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33065",
@@ -27164,6 +30898,18 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32998-chuck-zeuren-quintet/",
       "source": "smallslive"
+    },
+    {
+      "id": "cityparks:19781",
+      "title": "Doug E. Fresh & Funk Flex Second Annual Hip-Hop Appreciation Park Jam",
+      "category": "music",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-07-31T18:00:00",
+      "end": "2026-07-31T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/doug-e-fresh-funk-flex/",
+      "source": "cityparks"
     },
     {
       "id": "smallslive:33116",
@@ -27258,6 +31004,30 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:19782",
+      "title": "GHANAFEST-NY: Edem / Andy Dosty",
+      "category": "music",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-08-01T18:00:00",
+      "end": "2026-08-01T20:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/ghanafest-ny-edem-andy-dosty/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19783",
+      "title": "Trueno / Milo J / J Noa",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-01T18:00:00",
+      "end": "2026-08-01T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/trueno-milo-j-j-noa/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893352:2026-08-02T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27282,6 +31052,18 @@
       "source": "smorgasburg"
     },
     {
+      "id": "cityparks:19784",
+      "title": "WayV / THE EITHER / Chopstix",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-02T19:00:00",
+      "end": "2026-08-02T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/wayv-the-either-chopstix/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:888856:2026-08-05T12:00:00.000",
       "title": "Celebration",
       "category": "other",
@@ -27294,6 +31076,30 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "dice:6a26f809e458720001958e35",
+      "title": "Re[Vision]",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-08-05T22:00:00",
+      "end": "2026-08-06T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/q2ldoa-revision-5th-aug-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "cityparks:19978",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-08-06T11:00:00",
+      "end": "2026-08-06T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-32/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:890875:2026-08-06T18:00:00.000",
       "title": "Members' Carousel Picnic",
       "category": "other",
@@ -27304,6 +31110,42 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:19785",
+      "title": "Andrew Bird with the Wordless Music Orchestra Perform 20th Anniversary of &#8220;The Mysterious Production of Eggs&#8221;",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-06T20:00:00",
+      "end": "2026-08-06T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/andrew-bird/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19979",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-08-07T11:00:00",
+      "end": "2026-08-07T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-33/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19786",
+      "title": "Funk Flex Birthday R&B Picnic: El DeBarge / Jon B / Fonda Rae / Taana Gardner / Strafe / Dres From Blacksheep / DJ M U / Music by Funk Flex",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-07T19:00:00",
+      "end": "2026-08-07T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/funk-flex-birthday-rb-picnic/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:893353:2026-08-08T08:00:00.000",
@@ -27330,6 +31172,18 @@
       "source": "smorgasburg"
     },
     {
+      "id": "cityparks:19980",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-08-08T13:00:00",
+      "end": "2026-08-08T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-34/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893354:2026-08-09T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27352,6 +31206,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:19981",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Brooklyn",
+      "venue": "Brooklyn",
+      "start": "2026-08-14T13:00:00",
+      "end": "2026-08-14T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-35/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:893356:2026-08-15T08:00:00.000",
@@ -27426,6 +31292,30 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:19982",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Bronx",
+      "venue": "Bronx",
+      "start": "2026-08-15T13:00:00",
+      "end": "2026-08-15T14:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-36/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:18227",
+      "title": "Blues Traveler / Gin Blossoms / Spin Doctors",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-15T18:00:00",
+      "end": "2026-08-15T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/blues-traveler-gin-blossoms/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893357:2026-08-16T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27450,6 +31340,78 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:19789",
+      "title": "Taiwanese Waves 10th Anniversary: 9m88 + ØZI + YELLOW / Chance Emerson / Mong Tong / Chinatown Records",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-16T18:00:00",
+      "end": "2026-08-16T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/taiwanese-waves-26/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:20251",
+      "title": "Chance the Rapper: Coloring Book 10 Year Anniversary Tour",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-18T19:00:00",
+      "end": "2026-08-18T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/chance-the-rapper/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19983",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-08-19T14:00:00",
+      "end": "2026-08-19T15:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-37/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:18563",
+      "title": "SIMPLE PLAN / 3OH!3 / BOWLING FOR SOUP",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-19T18:00:00",
+      "end": "2026-08-19T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/simple-3-soup/",
+      "source": "cityparks"
+    },
+    {
+      "id": "dice:6a26f809e458720001958e34",
+      "title": "Re[Vision]",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-08-19T22:00:00",
+      "end": "2026-08-20T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/rykogw-revision-19th-aug-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "cityparks:19790",
+      "title": "The Voice of Miles Davis: A Symphonic Celebration",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-21T19:00:00",
+      "end": "2026-08-21T21:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/the-voice-of-miles-davis/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893358:2026-08-22T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27462,6 +31424,30 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:19984",
+      "title": "Pinocchio and Gepetto's Big Apple Adventure",
+      "category": "other",
+      "borough": "Queens",
+      "venue": "Queens",
+      "start": "2026-08-22T11:00:00",
+      "end": "2026-08-22T12:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-38/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19791",
+      "title": "The Soapbox Presents: Run it Back, The Art of the Sample Vol. II",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-22T18:00:00",
+      "end": "2026-08-22T21:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/the-soapbox-presents-2/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893359:2026-08-23T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27472,6 +31458,42 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:19792",
+      "title": "Angélique Kidjo / DJ Freshy K",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-23T19:00:00",
+      "end": "2026-08-23T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/angelique-kidjo/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19189",
+      "title": "Myles Smith: My Mess, My Heart, My Life Tour with Special Guest Michael Marcagi",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-25T19:00:00",
+      "end": "2026-08-25T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/myles-smith/",
+      "source": "cityparks"
+    },
+    {
+      "id": "cityparks:19793",
+      "title": "Charlie Parker Jazz Festival: Jazz at Lincoln Center Orchestra with special guests Marquis Hill and Ekep Nkwelle / Sherman Irby, music director",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-28T19:00:00",
+      "end": "2026-08-28T21:30:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/cpjf-jlco/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:893360:2026-08-29T08:00:00.000",
@@ -27496,6 +31518,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:19794",
+      "title": "Charlie Parker Jazz Festival: Joshua Redman / Nat Adderley Jr. / Catherine Russell / Nicole Glover",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-29T14:00:00",
+      "end": "2026-08-29T19:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/cpjf-joshua-redman/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:887637:2026-08-29T15:00:00.000",
@@ -27534,6 +31568,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:19795",
+      "title": "The Charlie Parker Jazz Festival: Ravi Coltrane / Kassa Overall / Vanisha Gould",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-08-30T15:00:00",
+      "end": "2026-08-30T19:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/cpjf-ravi-coltrane/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:896695:2026-09-01T06:00:00.000",
       "title": "Sri Chinmoy 3100 Mile Race",
       "category": "other",
@@ -27544,6 +31590,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "cityparks:19796",
+      "title": "Samara Joy and Christian McBride Celebrate Verve’s 70th Anniversary / Mei Semones & Friends play the music of <i>Getz/Gilberto</i> / Sparklmami DJ set",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-09-02T19:00:00",
+      "end": "2026-09-02T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/verve-70th-anniversary-christian-mcbride-mei-semones-friends-play-the-music-of-getz-gilberto/",
+      "source": "cityparks"
     },
     {
       "id": "nyc-open-data:897651:2026-09-04T14:00:00.000",
@@ -27618,6 +31676,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "todaytix:47079",
+      "title": "Truly, Howard Hughes",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theater at St. Jean",
+      "start": "2026-09-09T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/truly-howard-hughes",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-open-data:893365:2026-09-12T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27642,6 +31712,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:18980",
+      "title": "Darling Blue PT2 Tour: Marcus King Band / Penelope Road",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-09-12T19:00:00",
+      "end": "2026-09-12T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/marcus-king-band/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893367:2026-09-13T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27652,6 +31734,17 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "todaytix:46897",
+      "title": "How Shakespeare Saved My Life",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-09-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/how-shakespeare-saved-my-life",
+      "source": "todaytix"
     },
     {
       "id": "nyc-open-data:894522:2026-09-18T11:00:00.000",
@@ -27762,6 +31855,17 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "todaytix:46888",
+      "title": "Good Time Charlie",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-09-24T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/good-time-charlie",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-open-data:893370:2026-09-26T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27808,6 +31912,17 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "todaytix:46801",
+      "title": "Fish",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "WP Theater",
+      "start": "2026-09-26T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/fish",
+      "source": "todaytix"
     },
     {
       "id": "nyc-open-data:893371:2026-09-27T08:00:00.000",
@@ -27870,6 +31985,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "cityparks:18861",
+      "title": "The Age of the Ram Tour: Charley Crockett with special guests Durand Jones and the Indications",
+      "category": "music",
+      "borough": "Manhattan",
+      "venue": "Manhattan",
+      "start": "2026-10-01T19:00:00",
+      "end": "2026-10-01T22:00:00",
+      "isFree": true,
+      "url": "https://cityparksfoundation.org/events/charley-crockett/",
+      "source": "cityparks"
+    },
+    {
       "id": "nyc-open-data:893372:2026-10-03T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27930,6 +32057,29 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "todaytix:46133",
+      "title": "MAGIC MIKE LIVE New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Magic Mike Live",
+      "start": "2026-10-08T19:30:00",
+      "isFree": false,
+      "priceMin": 69,
+      "url": "https://www.todaytix.com/nyc/shows/magic-mike-live-new-york-city",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46894",
+      "title": "The Curious Case of Benjamin Button",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-10-08T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-curious-case-of-benjamin-button",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-open-data:893383:2026-10-10T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -27964,6 +32114,28 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "todaytix:46506",
+      "title": "The Unbelievers",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-10-13T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-unbelievers",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46994",
+      "title": "Clifford Odets’ Waiting for Lefty",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "2026-10-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/clifford-odets-waiting-for-lefty",
+      "source": "todaytix"
     },
     {
       "id": "nyc-open-data:894971:2026-10-16T15:00:00.000",
@@ -28012,6 +32184,17 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "todaytix:47139",
+      "title": "The Visitors",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Irene Diamond Stage at the Pershing Square Signature Center",
+      "start": "2026-10-21T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-visitors",
+      "source": "todaytix"
     },
     {
       "id": "nyc-open-data:893389:2026-10-24T08:00:00.000",
@@ -28072,6 +32255,39 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "todaytix:46899",
+      "title": "We'll See",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-10-25T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/well-see",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46898",
+      "title": "The Verge",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-10-27T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-verge",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46483",
+      "title": "In the Heights",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-10-28T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/in-the-heights",
+      "source": "todaytix"
     },
     {
       "id": "nyc-open-data:893391:2026-10-31T08:00:00.000",
@@ -28194,6 +32410,17 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "todaytix:18743",
+      "title": "A Christmas Carol",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Perelman Performing Arts Center (PAC NYC)",
+      "start": "2026-11-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/a-christmas-carol",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-open-data:893400:2026-11-21T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -28264,6 +32491,391 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "todaytix:46908",
+      "title": "You're a Good Man, Charlie Brown",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2027-02-03T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/youre-a-good-man-charlie-brown",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47141",
+      "title": "Work of Devotion",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Irene Diamond Stage at the Pershing Square Signature Center",
+      "start": "2027-02-03T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/work-of-devotion",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46770",
+      "title": "The Gorgeous Nothings",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Perelman Performing Arts Center (PAC NYC)",
+      "start": "2027-02-16T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-gorgeous-nothings",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47069",
+      "title": "New2NY Series",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theater at St. Jean",
+      "start": "2027-03-06T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/new2ny-series",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46906",
+      "title": "Hallelujah, Baby!",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2027-03-17T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/hallelujah-baby",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46911",
+      "title": "Kiss of the Spider Woman",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2027-04-28T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/kiss-of-the-spider-woman",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47096",
+      "title": "the ripple, the wave that carried me home",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46809",
+      "title": "The Heart",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-heart",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46893",
+      "title": "Welcome Table",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/welcome-table",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:14428",
+      "title": "Spring Awakening",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Studio Seaview",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/spring-awakening",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45879",
+      "title": "The Winter's Tale",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Delacorte Theater",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-winters-tale",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46921",
+      "title": "Ms. Blakk for President",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46987",
+      "title": "Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/come-back-to-the-5-and-dime-jimmy-dean-jimmy-dean",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47098",
+      "title": "Untitled New Work by Monica Bill Barnes and Robbie Saenz de Viteri ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/untitled-new-work-by-monica-bill-barnes-and-robbie-saenz-de-viteri",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46616",
+      "title": "In Honor of Jean-Michel Basquiat",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/in-honor-of-jean-michel-basquiat",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46814",
+      "title": "The Full Monty",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Todd Haimes Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-full-monty-on-broadway",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46815",
+      "title": "The Vagina Monologues",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-vagina-monologues",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47083",
+      "title": "Hole!",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/hole",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47099",
+      "title": "Narcissister",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/narcissister",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47084",
+      "title": "Degenerates",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/degenerates",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47087",
+      "title": "Feast of Rabbits",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/feast-of-rabbits",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46309",
+      "title": "Imitation of Life",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Shed",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45923",
+      "title": "Bocking",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theatre at St. Clement's",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/bocking",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46615",
+      "title": "Wild Rose",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47085",
+      "title": "The Annunciation",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-annunciation",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47086",
+      "title": "Wold Meteor",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wold-meteor",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47097",
+      "title": "Miss Step",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/miss-step",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46797",
+      "title": "Eisa's Mixtape",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47188",
+      "title": "The Conversation",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Astor Place Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-conversation",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45922",
+      "title": "Jackals",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theatre at St. Clement's",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/jackals",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46794",
+      "title": "King of the Yees",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/king-of-the-yees",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46796",
+      "title": "Miles for Mary",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/miles-for-mary",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46810",
+      "title": "The Grief Eater Near North Bender",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-grief-eater-near-north-bender",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46895",
+      "title": "Are the Bennet Girls Ok?",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/are-the-bennet-girls-ok",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46993",
+      "title": "Wonder! A Woman Keeps a Secret",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
+      "source": "todaytix"
     }
   ]
 }

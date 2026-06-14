@@ -3,13 +3,26 @@ import { utcToNycLocal } from './datetime';
 import { boroughFromLatLng } from './borough';
 
 /**
- * Maps DICE tag values to our taxonomy. The fetcher pulls the comedy filter, so
- * every event carries 'culture:comedy'; anything else defaults to 'other'
- * (DICE NYC has no food taxonomy, so this source never produces 'food').
+ * Maps a DICE primary-filter tag value to our taxonomy. Each event self-tags via
+ * tags_types, so multi-filter fetches need no per-filter plumbing. DICE NYC has
+ * no food tag, so this source never produces 'food'.
  */
+const DICE_TAG_CATEGORY: Record<string, Category> = {
+  'culture:comedy': 'comedy',
+  'culture:theatre': 'theater',
+  'culture:film': 'film',
+  'culture:sport': 'sports',
+  'music:gig': 'music',
+  'music:dj': 'music',
+  'music:party': 'music',
+  'music:playback': 'music',
+  'music:artistsigning': 'music',
+};
+
 function categoryForTags(tags: any[]): Category {
   for (const tag of tags ?? []) {
-    if (tag?.value === 'culture:comedy') return 'comedy';
+    const mapped = tag?.value && DICE_TAG_CATEGORY[tag.value];
+    if (mapped) return mapped;
   }
   return 'other';
 }
