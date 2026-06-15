@@ -70,23 +70,77 @@ describe('normalizeTicketmasterEvent', () => {
     expect(normalizeTicketmasterEvent(raw)!.borough).toBe('Brooklyn');
   });
 
-  it('marks an event with no price ranges as free with no price fields', () => {
+  it('treats a missing price range as price-unknown, not free', () => {
     const raw = {
       id: 'vvC4wW6jkl',
-      name: 'Free Summer Concert in Central Park',
+      name: 'Concert with prices not yet announced',
       url: 'https://www.ticketmaster.com/event/vvC4wW6jkl',
       dates: { start: { dateTime: '2026-08-15T23:00:00Z' } },
       classifications: [{ segment: { name: 'Music' } }],
       _embedded: {
-        venues: [{ name: 'Central Park', city: { name: 'New York' } }],
+        venues: [{ name: 'Some Hall', city: { name: 'New York' } }],
       },
     };
 
     const event = normalizeTicketmasterEvent(raw)!;
 
-    expect(event.isFree).toBe(true);
+    expect(event.isFree).toBe(false); // no price ≠ free for a ticketing platform
     expect(event.priceMin).toBeUndefined();
     expect(event.priceMax).toBeUndefined();
+  });
+
+  it('marks an explicit $0 price range as free', () => {
+    const event = normalizeTicketmasterEvent({
+      id: 'vvFree000',
+      name: 'Free Show',
+      url: 'https://www.ticketmaster.com/event/vvFree000',
+      dates: { start: { dateTime: '2026-08-15T23:00:00Z' } },
+      classifications: [{ segment: { name: 'Music' } }],
+      priceRanges: [{ currency: 'USD', min: 0, max: 0 }],
+      _embedded: { venues: [{ name: 'Hall', city: { name: 'New York' } }] },
+    })!;
+    expect(event.isFree).toBe(true);
+  });
+
+  it('resolves borough and neighborhood from venue coordinates', () => {
+    const event = normalizeTicketmasterEvent({
+      id: 'vvCoord00',
+      name: 'Show at a Bushwick venue',
+      url: 'https://www.ticketmaster.com/event/vvCoord00',
+      dates: { start: { dateTime: '2026-08-15T23:00:00Z' } },
+      classifications: [{ segment: { name: 'Music' } }],
+      _embedded: {
+        venues: [
+          {
+            name: 'Alphaville',
+            city: { name: 'New York' }, // mislabeled "New York" but coords say Brooklyn
+            location: { latitude: '40.700486', longitude: '-73.925855' },
+          },
+        ],
+      },
+    })!;
+    expect(event.borough).toBe('Brooklyn');
+    expect(event.neighborhood).toBe('Bushwick (West)');
+  });
+
+  it('maps Arts & Theatre to theater, and the Comedy genre to comedy', () => {
+    const base = {
+      id: 'vvArts000',
+      name: 'A Play',
+      url: 'https://www.ticketmaster.com/event/vvArts000',
+      dates: { start: { dateTime: '2026-08-15T23:00:00Z' } },
+      _embedded: { venues: [{ name: 'Theatre', city: { name: 'New York' } }] },
+    };
+    expect(
+      normalizeTicketmasterEvent({ ...base, classifications: [{ segment: { name: 'Arts & Theatre' } }] })!
+        .category,
+    ).toBe('theater');
+    expect(
+      normalizeTicketmasterEvent({
+        ...base,
+        classifications: [{ segment: { name: 'Arts & Theatre' }, genre: { name: 'Comedy' } }],
+      })!.category,
+    ).toBe('comedy');
   });
 
   it('drops a date-TBA event that has no start dateTime', () => {

@@ -469,7 +469,9 @@ export async function fetchTicketmaster(apiKey: string | undefined): Promise<Raw
 
   const params = new URLSearchParams({
     apikey: apiKey,
-    city: 'New York',
+    // All four boroughs (Brooklyn/Bronx/Queens venues use their own city name,
+    // not "New York"); the normalizer drops anything outside them by coordinates.
+    city: 'New York,Brooklyn,Bronx,Queens',
     sort: 'date,asc',
     size: '200',
   });
