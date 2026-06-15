@@ -1,91 +1,7 @@
 {
-  "generatedAt": "2026-06-14T20:51:43.594Z",
-  "count": 2758,
+  "generatedAt": "2026-06-15T00:00:07.469Z",
+  "count": 2752,
   "events": [
-    {
-      "id": "nyc-greenmarket:bartel-pritchard-square-greenmarket:2026-06-14",
-      "title": "Bartel-Pritchard Square Greenmarket",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Bartel-Pritchard Square Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:carroll-gardens-greenmarket:2026-06-14",
-      "title": "Carroll Gardens Greenmarket",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Carroll Gardens Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:columbia-greenmarket:2026-06-14",
-      "title": "Columbia Greenmarket",
-      "category": "food",
-      "borough": "Manhattan",
-      "venue": "Columbia Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T16:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:cortelyou-greenmarket:2026-06-14",
-      "title": "Cortelyou Greenmarket",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Cortelyou Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:domino-park-greenmarket:2026-06-14",
-      "title": "Domino Park Greenmarket",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Domino Park Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T15:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:forest-hills-greenmarket:2026-06-14",
-      "title": "Forest Hills Greenmarket",
-      "category": "food",
-      "borough": "Queens",
-      "venue": "Forest Hills Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:jackson-heights-greenmarket:2026-06-14",
-      "title": "Jackson Heights Greenmarket",
-      "category": "food",
-      "borough": "Queens",
-      "venue": "Jackson Heights Greenmarket",
-      "start": "2026-06-14T08:00:00",
-      "end": "2026-06-14T15:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
     {
       "id": "nyc-parks:2146725",
       "title": "Summer on the Hudson: Tai Chi",
@@ -123,126 +39,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "nyc-greenmarket:79th-street-greenmarket:2026-06-14",
-      "title": "79th Street Greenmarket",
-      "category": "food",
-      "borough": "Manhattan",
-      "venue": "79th Street Greenmarket",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T16:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:bensonhurst-greenmarket:2026-06-14",
-      "title": "Bensonhurst Greenmarket",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Bensonhurst Greenmarket",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T15:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:bronx-park-east-bxpe-farmers-market:2026-06-14",
-      "title": "Bronx Park East (BxPE) Farmers Market",
-      "category": "food",
-      "borough": "Bronx",
-      "venue": "Bronx Park East (BxPE) Farmers Market",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T16:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:down-to-earth-cunningham-park-farmers-market:2026-06-14",
-      "title": "Down to Earth Cunningham Park Farmers Market",
-      "category": "food",
-      "borough": "Queens",
-      "venue": "Down to Earth Cunningham Park Farmers Market",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:down-to-earth-mcgolrick-park-farmers-market:2026-06-14",
-      "title": "Down to Earth McGolrick Park Farmers Market",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Down to Earth McGolrick Park Farmers Market",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:down-to-earth-park-slope-farmers-market:2026-06-14",
-      "title": "Down to Earth Park Slope Farmers Market",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Down to Earth Park Slope Farmers Market",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:riseboro-farmers-markets-at-irving-square-park:2026-06-14",
-      "title": "RiseBoro Farmers Markets at Irving Square Park",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "RiseBoro Farmers Markets at Irving Square Park",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:riverdale-y-sunday-market:2026-06-14",
-      "title": "Riverdale Y Sunday Market",
-      "category": "food",
-      "borough": "Bronx",
-      "venue": "Riverdale Y Sunday Market",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T14:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:ruppert-park-greenmarket:2026-06-14",
-      "title": "Ruppert Park Greenmarket",
-      "category": "food",
-      "borough": "Manhattan",
-      "venue": "Ruppert Park Greenmarket",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T15:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "nyc-greenmarket:tompkins-square-greenmarket:2026-06-14",
-      "title": "Tompkins Square Greenmarket",
-      "category": "food",
-      "borough": "Manhattan",
-      "venue": "Tompkins Square Greenmarket",
-      "start": "2026-06-14T09:00:00",
-      "end": "2026-06-14T16:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
       "id": "nyc-parks:2188403",
       "title": "It's My Park at Breininger Park",
       "category": "other",
@@ -253,18 +49,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/its-my-park-at-breininger-park",
       "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-greenmarket:stuyvesant-town-greenmarket:2026-06-14",
-      "title": "Stuyvesant Town Greenmarket",
-      "category": "food",
-      "borough": "Manhattan",
-      "venue": "Stuyvesant Town Greenmarket",
-      "start": "2026-06-14T09:30:00",
-      "end": "2026-06-14T16:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
     },
     {
       "id": "cityparks:20267",
@@ -325,18 +109,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/adventure-course-free-public-sunday-morning-program",
       "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-greenmarket:queens-county-farm-museum-farm-stand:2026-06-14",
-      "title": "Queens County Farm Museum Farm Stand",
-      "category": "food",
-      "borough": "Queens",
-      "venue": "Queens County Farm Museum Farm Stand",
-      "start": "2026-06-14T10:00:00",
-      "end": "2026-06-14T16:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
     },
     {
       "id": "cityparks:20390",
@@ -517,30 +289,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/summertime-rocket-show-with-mad-science",
       "source": "nyc-parks"
-    },
-    {
-      "id": "nyc-greenmarket:two-bridges-youth-market:2026-06-14",
-      "title": "Two Bridges Youth Market",
-      "category": "food",
-      "borough": "Manhattan",
-      "venue": "Two Bridges Youth Market",
-      "start": "2026-06-14T10:30:00",
-      "end": "2026-06-14T15:00:00",
-      "isFree": true,
-      "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
-    },
-    {
-      "id": "smorgasburg:prospect:2026-06-14",
-      "title": "Smorgasburg Prospect Park",
-      "category": "food",
-      "borough": "Brooklyn",
-      "venue": "Prospect Park (Breeze Hill)",
-      "start": "2026-06-14T11:00:00",
-      "end": "2026-06-14T18:00:00",
-      "isFree": true,
-      "url": "https://www.smorgasburg.com/",
-      "source": "smorgasburg"
     },
     {
       "id": "cityparks:19956",
@@ -758,30 +506,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/its-my-park-at-sara-d-roosevelt-park",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32834",
-      "title": "Afternoon Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-14T14:00:00",
-      "end": "2026-06-14T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32834-afternoon-jam-in-the-cafe/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32914",
-      "title": "Smalls Afternoon Jam Session Hosted by Ryo Sasaki",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-14T14:00:00",
-      "end": "2026-06-14T17:15:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32914-smalls-afternoon-jam-session-hosted-by-ryo-sasaki/",
-      "source": "smallslive"
     },
     {
       "id": "dice:6a285880e675c00001e8c12c",
@@ -1010,28 +734,6 @@
       "source": "dice"
     },
     {
-      "id": "smallslive:32676",
-      "title": "Sarah King Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-14T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32676-sarah-king-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32678",
-      "title": "Saul Dautch Quintet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-14T18:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32678-saul-dautch-quintet/",
-      "source": "smallslive"
-    },
-    {
       "id": "dice:69fb5dbab5d77600016aa87c",
       "title": "Skaterobics - All Experience Levels Instructional Class",
       "category": "sports",
@@ -1117,17 +819,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/arts-culture-fun-the-public-theater-mobile-unit-as-you-like-it",
       "source": "nyc-parks"
-    },
-    {
-      "id": "smallslive:32790",
-      "title": "Steve Turre Sextet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32790-steve-turre-sextet/",
-      "source": "smallslive"
     },
     {
       "id": "dice:69f8eb8b4ef0da00011280b0",
@@ -1217,30 +908,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:24562",
-      "title": "Speakeasy Magick ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Overlook Bar",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 215,
-      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:28808",
-      "title": "Singfeld! A Musical About Nothing",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Jerry Orbach Theatre",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:39089",
       "title": "New York Comedy Club (East Village)",
       "category": "theater",
@@ -1265,6 +932,30 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:28808",
+      "title": "Singfeld! A Musical About Nothing",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Jerry Orbach Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24562",
+      "title": "Speakeasy Magick ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Overlook Bar",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 215,
+      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:44703",
       "title": "Jerome",
       "category": "theater",
@@ -1274,6 +965,17 @@
       "isFree": false,
       "priceMin": 57,
       "url": "https://www.todaytix.com/nyc/shows/jerome",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44890",
+      "title": "Mexodus",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Daryl Roth Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/mexodus",
       "source": "todaytix"
     },
     {
@@ -1289,49 +991,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46093",
-      "title": "Pied à Terre",
+      "id": "todaytix:47004",
+      "title": "The People Versus Lenny Bruce",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Anne L. Bernstein Theater",
+      "venue": "Theatre Row, Theatre Four",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/pied-a-terre",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44890",
-      "title": "Mexodus",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Daryl Roth Theatre",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/mexodus",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47159",
-      "title": "Rise Up, Sing Out: A Concert for the First Amendment",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Town Hall",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/rise-up-sing-out-a-concert-for-the-first-amendment",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46557",
-      "title": "Paradise Club Presents: Salvage City Supper Club",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Paradise Club",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 105.88,
-      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/the-people-versus-lenny-bruce",
       "source": "todaytix"
     },
     {
@@ -1347,15 +1015,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47004",
-      "title": "The People Versus Lenny Bruce",
+      "id": "todaytix:46093",
+      "title": "Pied à Terre",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Theatre Row, Theatre Four",
+      "venue": "Anne L. Bernstein Theater",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/the-people-versus-lenny-bruce",
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/pied-a-terre",
       "source": "todaytix"
     },
     {
@@ -1371,51 +1039,26 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:42035",
-      "title": "I'm Almost There",
+      "id": "todaytix:46557",
+      "title": "Paradise Club Presents: Salvage City Supper Club",
       "category": "theater",
-      "borough": "Brooklyn",
-      "venue": "BAM Fisher (Fishman Space)",
+      "borough": "Manhattan",
+      "venue": "Paradise Club",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 31,
-      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
+      "priceMin": 105.88,
+      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:42261",
-      "title": "Heathers The Musical",
+      "id": "todaytix:47159",
+      "title": "Rise Up, Sing Out: A Concert for the First Amendment",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New World Stages",
+      "venue": "The Town Hall",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45703",
-      "title": "Dirty Books",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Bated Breath Theater",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 59,
-      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:43651",
-      "title": "LOS SOLES TRUNCOS",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
+      "url": "https://www.todaytix.com/nyc/shows/rise-up-sing-out-a-concert-for-the-first-amendment",
       "source": "todaytix"
     },
     {
@@ -1443,15 +1086,51 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46480",
-      "title": "Henry VI: A Trilogy in Two Parts",
+      "id": "todaytix:42035",
+      "title": "I'm Almost There",
       "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
+      "borough": "Brooklyn",
+      "venue": "BAM Fisher (Fishman Space)",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "priceMin": 31,
+      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:42261",
+      "title": "Heathers The Musical",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:43651",
+      "title": "LOS SOLES TRUNCOS",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45703",
+      "title": "Dirty Books",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Bated Breath Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 59,
+      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
       "source": "todaytix"
     },
     {
@@ -1474,8 +1153,20 @@
       "venue": "Superfine, Dumbo",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 40,
+      "priceMin": 53,
       "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
       "source": "todaytix"
     },
     {
@@ -1491,18 +1182,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46956",
-      "title": "NT Live: Les Liaisons Dangereuses",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Peter Jay Sharp Theatre at Symphony Space",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/nt-live-les-liaisons-dangereuses",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46871",
       "title": "Youth in Flames",
       "category": "theater",
@@ -1512,6 +1191,18 @@
       "isFree": false,
       "priceMin": 33,
       "url": "https://www.todaytix.com/nyc/shows/youth-in-flames",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46881",
+      "title": "Building The Wall",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Urban Stages",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 29,
+      "url": "https://www.todaytix.com/nyc/shows/building-the-wall",
       "source": "todaytix"
     },
     {
@@ -1609,6 +1300,18 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:39635",
+      "title": "La Llamada",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:32431",
       "title": "New York Comedy Club (Midtown)",
       "category": "theater",
@@ -1618,6 +1321,42 @@
       "isFree": false,
       "priceMin": 27,
       "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45907",
+      "title": "MÁS SABE EL SAULO POR VIEJO...",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45756",
+      "title": "Girl, Interrupted ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 117,
+      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44354",
+      "title": "Drunk Romeo & Juliet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 37,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
       "source": "todaytix"
     },
     {
@@ -1645,54 +1384,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:39635",
-      "title": "La Llamada",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45907",
-      "title": "MÁS SABE EL SAULO POR VIEJO...",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44354",
-      "title": "Drunk Romeo & Juliet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Ruby Theatre",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 37,
-      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45756",
-      "title": "Girl, Interrupted ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 117,
-      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:44388",
       "title": "The 25th Annual Putnam County Spelling Bee",
       "category": "theater",
@@ -1716,18 +1407,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46836",
-      "title": "The Last Ship",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Metropolitan Opera House",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 155,
-      "url": "https://www.todaytix.com/nyc/shows/the-last-ship",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:19034",
       "title": "La Breve y Maravillosa Vida de Oscar Wao",
       "category": "theater",
@@ -1737,6 +1416,18 @@
       "isFree": false,
       "priceMin": 53,
       "url": "https://www.todaytix.com/nyc/shows/la-breve-y-maravillosa-vida-de-oscar-wao",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44496",
+      "title": "A Woman Among Women",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "LCT3 at the Claire Tow Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/a-woman-among-women",
       "source": "todaytix"
     },
     {
@@ -1752,27 +1443,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46839",
-      "title": "SMALL",
+      "id": "todaytix:44687",
+      "title": "Morgan Bassichis: Can I Be Frank?",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
+      "venue": "SoHo Playhouse",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/small",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46642",
-      "title": "Label•less",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Duke on 42nd Street",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/label-less",
+      "priceMin": 46,
+      "url": "https://www.todaytix.com/nyc/shows/can-i-be-frank",
       "source": "todaytix"
     },
     {
@@ -1788,17 +1467,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46488",
-      "title": "What Happened Was",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Audible’s Minetta Lane Theatre",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/what-happened-was",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46964",
       "title": "ADA Accessible Lottery - Romeo & Juliet: Free Shakespeare in the Park",
       "category": "theater",
@@ -1807,6 +1475,30 @@
       "start": "2026-06-14T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46992",
+      "title": "Are You Now or Have You Ever Been",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 100,
+      "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46839",
+      "title": "SMALL",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/small",
       "source": "todaytix"
     },
     {
@@ -1822,6 +1514,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46488",
+      "title": "What Happened Was",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Audible’s Minetta Lane Theatre",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/what-happened-was",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46870",
       "title": "David Copperfield",
       "category": "theater",
@@ -1834,15 +1537,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46992",
-      "title": "Are You Now or Have You Ever Been",
+      "id": "todaytix:46642",
+      "title": "Label•less",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New York City Center",
+      "venue": "The Duke on 42nd Street",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 100,
-      "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/label-less",
       "source": "todaytix"
     },
     {
@@ -1879,17 +1582,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:25507",
-      "title": "Eva Luna",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eva-luna",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:44146",
       "title": "Animal Wisdom",
       "category": "theater",
@@ -1898,6 +1590,17 @@
       "start": "2026-06-14T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/animal-wisdom",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:25507",
+      "title": "Eva Luna",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eva-luna",
       "source": "todaytix"
     },
     {
@@ -1942,6 +1645,17 @@
       "start": "2026-06-14T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/the-very-hungry-caterpillar-interactive-show",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46836",
+      "title": "The Last Ship",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-last-ship",
       "source": "todaytix"
     },
     {
@@ -2006,28 +1720,6 @@
       "source": "dice"
     },
     {
-      "id": "smallslive:32868",
-      "title": "Naama Trio",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Mezzrow",
-      "start": "2026-06-14T21:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32868-naama-trio/",
-      "source": "smallslive"
-    },
-    {
-      "id": "smallslive:32677",
-      "title": "Ai Murakami Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-14T21:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32677-ai-murakami-quartet/",
-      "source": "smallslive"
-    },
-    {
       "id": "dice:6a0262ac3f4f0c0001e380b8",
       "title": "SWer Open Mic Pride",
       "category": "comedy",
@@ -2051,17 +1743,6 @@
       "priceMin": 22.66,
       "url": "https://dice.fm/event/2w667o-puerto-rican-day-afterparty-14th-jun-paragon-new-york-city-tickets",
       "source": "dice"
-    },
-    {
-      "id": "smallslive:32846",
-      "title": "SUNDAY NITE Jam in the Cafe",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "The Jazz Cultural Theater",
-      "start": "2026-06-14T22:00:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/32846-sunday-nite-jam-in-the-cafe/",
-      "source": "smallslive"
     },
     {
       "id": "village-vanguard:135500",
@@ -2151,17 +1832,6 @@
       "priceMin": 33.19,
       "url": "https://dice.fm/event/pyd8yk-loco-carnaval-14th-jun-somewhere-nowhere-nyc-new-york-tickets",
       "source": "dice"
-    },
-    {
-      "id": "smallslive:33039",
-      "title": "Asaf Yuria Quartet",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Smalls Jazz Club",
-      "start": "2026-06-14T23:55:00",
-      "isFree": false,
-      "url": "https://www.smallslive.com/events/33039-asaf-yuria-quartet/",
-      "source": "smallslive"
     },
     {
       "id": "dice:6a2e290789b9e70001fa0d53",
@@ -2788,17 +2458,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47153",
-      "title": "Standard Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47154",
       "title": "ADA Accessible Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
       "category": "theater",
@@ -2818,6 +2477,17 @@
       "start": "2026-06-15T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47153",
+      "title": "Standard Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
       "source": "todaytix"
     },
     {
@@ -5811,6 +5481,7 @@
       "venue": "Greenwich House Theater ",
       "start": "2026-06-17T19:30:00",
       "isFree": false,
+      "priceMin": 48,
       "url": "https://www.todaytix.com/nyc/shows/dad-dont-read-this",
       "source": "todaytix"
     },
@@ -19922,6 +19593,18 @@
       "source": "nyc-parks"
     },
     {
+      "id": "todaytix:45163",
+      "title": "Giulia: The Poison Queen of Palermo",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Perelman Performing Arts Center (PAC NYC)",
+      "start": "2026-06-28T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/giulia-the-poison-queen-of-palermo",
+      "source": "todaytix"
+    },
+    {
       "id": "village-vanguard:135521",
       "title": "Terell Stafford Quintet",
       "category": "music",
@@ -20112,6 +19795,17 @@
       "source": "smallslive"
     },
     {
+      "id": "todaytix:47203",
+      "title": "Senior 65+ Lottery - Public Forum: Cities Under Siege",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-cities-under-siege",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47204",
       "title": "ADA Accessible Lottery - Public Forum: Cities Under Siege",
       "category": "theater",
@@ -20132,17 +19826,6 @@
       "isFree": false,
       "priceMin": 40,
       "url": "https://www.todaytix.com/nyc/shows/don-quixote",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47203",
-      "title": "Senior 65+ Lottery - Public Forum: Cities Under Siege",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
-      "start": "2026-06-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-cities-under-siege",
       "source": "todaytix"
     },
     {
@@ -25855,17 +25538,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:40304",
-      "title": "Chamber Music Society of Lincoln Center: Summer Evenings III",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Alice Tully Hall",
-      "start": "2026-07-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-iii-nyc",
-      "source": "todaytix"
-    },
-    {
       "id": "dice:6a1df556093d90000138a8fe",
       "title": "Next Stop Comedy Showcase",
       "category": "comedy",
@@ -30304,6 +29976,90 @@
       "source": "smallslive"
     },
     {
+      "id": "nyc-greenmarket:bartel-pritchard-square-greenmarket:2026-07-26",
+      "title": "Bartel-Pritchard Square Greenmarket",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Bartel-Pritchard Square Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:carroll-gardens-greenmarket:2026-07-26",
+      "title": "Carroll Gardens Greenmarket",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Carroll Gardens Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:columbia-greenmarket:2026-07-26",
+      "title": "Columbia Greenmarket",
+      "category": "food",
+      "borough": "Manhattan",
+      "venue": "Columbia Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T16:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:cortelyou-greenmarket:2026-07-26",
+      "title": "Cortelyou Greenmarket",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Cortelyou Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:domino-park-greenmarket:2026-07-26",
+      "title": "Domino Park Greenmarket",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Domino Park Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T15:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:forest-hills-greenmarket:2026-07-26",
+      "title": "Forest Hills Greenmarket",
+      "category": "food",
+      "borough": "Queens",
+      "venue": "Forest Hills Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:jackson-heights-greenmarket:2026-07-26",
+      "title": "Jackson Heights Greenmarket",
+      "category": "food",
+      "borough": "Queens",
+      "venue": "Jackson Heights Greenmarket",
+      "start": "2026-07-26T08:00:00",
+      "end": "2026-07-26T15:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
       "id": "nyc-open-data:893349:2026-07-26T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -30314,6 +30070,150 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "nyc-greenmarket:79th-street-greenmarket:2026-07-26",
+      "title": "79th Street Greenmarket",
+      "category": "food",
+      "borough": "Manhattan",
+      "venue": "79th Street Greenmarket",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T16:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:bensonhurst-greenmarket:2026-07-26",
+      "title": "Bensonhurst Greenmarket",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Bensonhurst Greenmarket",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T15:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:bronx-park-east-bxpe-farmers-market:2026-07-26",
+      "title": "Bronx Park East (BxPE) Farmers Market",
+      "category": "food",
+      "borough": "Bronx",
+      "venue": "Bronx Park East (BxPE) Farmers Market",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T16:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:down-to-earth-cunningham-park-farmers-market:2026-07-26",
+      "title": "Down to Earth Cunningham Park Farmers Market",
+      "category": "food",
+      "borough": "Queens",
+      "venue": "Down to Earth Cunningham Park Farmers Market",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:down-to-earth-mcgolrick-park-farmers-market:2026-07-26",
+      "title": "Down to Earth McGolrick Park Farmers Market",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Down to Earth McGolrick Park Farmers Market",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:down-to-earth-park-slope-farmers-market:2026-07-26",
+      "title": "Down to Earth Park Slope Farmers Market",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Down to Earth Park Slope Farmers Market",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:riseboro-farmers-markets-at-irving-square-park:2026-07-26",
+      "title": "RiseBoro Farmers Markets at Irving Square Park",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "RiseBoro Farmers Markets at Irving Square Park",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:riverdale-y-sunday-market:2026-07-26",
+      "title": "Riverdale Y Sunday Market",
+      "category": "food",
+      "borough": "Bronx",
+      "venue": "Riverdale Y Sunday Market",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T14:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:ruppert-park-greenmarket:2026-07-26",
+      "title": "Ruppert Park Greenmarket",
+      "category": "food",
+      "borough": "Manhattan",
+      "venue": "Ruppert Park Greenmarket",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T15:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:tompkins-square-greenmarket:2026-07-26",
+      "title": "Tompkins Square Greenmarket",
+      "category": "food",
+      "borough": "Manhattan",
+      "venue": "Tompkins Square Greenmarket",
+      "start": "2026-07-26T09:00:00",
+      "end": "2026-07-26T16:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:stuyvesant-town-greenmarket:2026-07-26",
+      "title": "Stuyvesant Town Greenmarket",
+      "category": "food",
+      "borough": "Manhattan",
+      "venue": "Stuyvesant Town Greenmarket",
+      "start": "2026-07-26T09:30:00",
+      "end": "2026-07-26T16:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
+    },
+    {
+      "id": "nyc-greenmarket:queens-county-farm-museum-farm-stand:2026-07-26",
+      "title": "Queens County Farm Museum Farm Stand",
+      "category": "food",
+      "borough": "Queens",
+      "venue": "Queens County Farm Museum Farm Stand",
+      "start": "2026-07-26T10:00:00",
+      "end": "2026-07-26T16:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
     },
     {
       "id": "cityparks:20544",
@@ -30338,6 +30238,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "nyc-greenmarket:two-bridges-youth-market:2026-07-26",
+      "title": "Two Bridges Youth Market",
+      "category": "food",
+      "borough": "Manhattan",
+      "venue": "Two Bridges Youth Market",
+      "start": "2026-07-26T10:30:00",
+      "end": "2026-07-26T15:00:00",
+      "isFree": true,
+      "url": "https://www.grownyc.org/greenmarket",
+      "source": "nyc-greenmarket"
     },
     {
       "id": "smorgasburg:prospect:2026-07-26",
@@ -31194,6 +31106,18 @@
       "isFree": true,
       "url": "https://www.nyc.gov/site/cecm/about/events.page",
       "source": "nyc-open-data"
+    },
+    {
+      "id": "smorgasburg:prospect:2026-08-09",
+      "title": "Smorgasburg Prospect Park",
+      "category": "food",
+      "borough": "Brooklyn",
+      "venue": "Prospect Park (Breeze Hill)",
+      "start": "2026-08-09T11:00:00",
+      "end": "2026-08-09T18:00:00",
+      "isFree": true,
+      "url": "https://www.smorgasburg.com/",
+      "source": "smorgasburg"
     },
     {
       "id": "nyc-open-data:892606:2026-08-09T13:00:00.000",
@@ -32457,6 +32381,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "todaytix:47070",
+      "title": "Kilgallen",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theater at St. Jean's",
+      "start": "2026-11-28T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/kilgallen",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-open-data:893405:2026-11-29T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -32614,17 +32550,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46921",
-      "title": "Ms. Blakk for President",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Vineyard Theatre",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46987",
       "title": "Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",
       "category": "theater",
@@ -32636,6 +32561,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46921",
+      "title": "Ms. Blakk for President",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47098",
       "title": "Untitled New Work by Monica Bill Barnes and Robbie Saenz de Viteri ",
       "category": "theater",
@@ -32644,17 +32580,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/untitled-new-work-by-monica-bill-barnes-and-robbie-saenz-de-viteri",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46616",
-      "title": "In Honor of Jean-Michel Basquiat",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/in-honor-of-jean-michel-basquiat",
       "source": "todaytix"
     },
     {
@@ -32680,6 +32605,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46616",
+      "title": "In Honor of Jean-Michel Basquiat",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/in-honor-of-jean-michel-basquiat",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47083",
       "title": "Hole!",
       "category": "theater",
@@ -32688,17 +32624,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/hole",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47099",
-      "title": "Narcissister",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/narcissister",
       "source": "todaytix"
     },
     {
@@ -32713,6 +32638,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47099",
+      "title": "Narcissister",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/narcissister",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47087",
       "title": "Feast of Rabbits",
       "category": "theater",
@@ -32721,6 +32657,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/feast-of-rabbits",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46615",
+      "title": "Wild Rose",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
       "source": "todaytix"
     },
     {
@@ -32746,14 +32693,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46615",
-      "title": "Wild Rose",
+      "id": "todaytix:46797",
+      "title": "Eisa's Mixtape",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
+      "venue": "Pershing Square Signature Center",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
+      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
       "source": "todaytix"
     },
     {
@@ -32787,17 +32734,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/miss-step",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46797",
-      "title": "Eisa's Mixtape",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
       "source": "todaytix"
     },
     {
