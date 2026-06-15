@@ -39,6 +39,12 @@ export function App() {
   const state = useEvents();
   const { theme, toggle } = useTheme();
 
+  // Today's date in NYC, used to evaluate the date-window filter.
+  const today = useMemo(
+    () => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date()),
+    [],
+  );
+
   // Hydrate initial filters from the shareable URL (parsed once).
   const [init] = useState(() => parseFilters(window.location.search));
   const [borough, setBorough] = useState<Borough | 'All'>(init.borough);
@@ -47,14 +53,12 @@ export function App() {
   const [freeOnly, setFreeOnly] = useState(init.freeOnly);
   const [search, setSearch] = useState(init.search);
   const [sort, setSort] = useState<SortKey>(init.sort);
-  const [dateWindow, setDateWindow] = useState<DateWindow>(init.dateWindow);
-  const [copied, setCopied] = useState(false);
-
-  // Today's date in NYC, used to evaluate the date-window filter.
-  const today = useMemo(
-    () => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date()),
-    [],
+  // A shared link can carry a picked date that has since passed — fall back to
+  // "Any date" rather than hydrate into a silently-empty board.
+  const [dateWindow, setDateWindow] = useState<DateWindow>(
+    PICKED_DATE_RE.test(init.dateWindow) && init.dateWindow < today ? 'all' : init.dateWindow,
   );
+  const [copied, setCopied] = useState(false);
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
 
@@ -227,12 +231,14 @@ export function App() {
             </button>
           ))}
           <input
-            className="date-input"
+            className={`date-input ${PICKED_DATE_RE.test(dateWindow) ? 'date-input--active' : ''}`}
             type="date"
             min={today}
             value={PICKED_DATE_RE.test(dateWindow) ? dateWindow : ''}
             onChange={(e) => setDateWindow(e.target.value || 'all')}
-            aria-label="Pick a specific date"
+            aria-label={
+              PICKED_DATE_RE.test(dateWindow) ? `Filtering by ${dateWindow}` : 'Pick a specific date'
+            }
           />
         </div>
 

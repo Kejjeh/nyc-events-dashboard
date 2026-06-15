@@ -34,7 +34,13 @@ describe('summarizeSources', () => {
     });
   });
 
-  it('returns an empty array for no events', () => {
-    expect(summarizeSources([], ['dice'])).toEqual([]);
+  it('surfaces a source that succeeded but returned zero events (silent drop)', () => {
+    const events = [ev('dice')];
+    const summary = summarizeSources(events, ['dice', 'todaytix']); // todaytix fetched ok, 0 events
+    expect(summary).toContainEqual({ source: 'todaytix', count: 0, fresh: true });
+  });
+
+  it('returns no rows when there are neither events nor succeeded sources', () => {
+    expect(summarizeSources([], [])).toEqual([]);
   });
 });

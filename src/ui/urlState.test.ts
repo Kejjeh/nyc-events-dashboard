@@ -34,6 +34,12 @@ describe('urlState', () => {
     expect(parsed).toEqual(DEFAULT_FILTERS);
   });
 
+  it('rejects a structurally-valid but impossible picked date', () => {
+    expect(parseFilters('when=2026-13-45').dateWindow).toBe('all');
+    expect(parseFilters('when=9999-99-99').dateWindow).toBe('all');
+    expect(parseFilters('when=2026-06-20').dateWindow).toBe('2026-06-20'); // real date still works
+  });
+
   it('drops a neighborhood when the borough is absent or invalid', () => {
     expect(parseFilters('n=Williamsburg').neighborhood).toBe('All');
     expect(parseFilters('b=Atlantis&n=Williamsburg').neighborhood).toBe('All');

@@ -32,3 +32,11 @@ export interface Event {
   /** Source adapter that produced this event, e.g. 'ticketmaster'. */
   source: string;
 }
+
+/** Per-source health for the published payload, so silent drops stay visible. */
+export interface SourceStatus {
+  source: string;
+  count: number;
+  /** True when the source was fetched successfully this run (not carried forward). */
+  fresh: boolean;
+}

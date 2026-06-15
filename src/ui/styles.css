@@ -258,6 +258,11 @@ body {
   border-color: var(--accent);
   color: var(--text);
 }
+.date-input--active {
+  color: var(--active-fg);
+  background: var(--active-bg);
+  border-color: var(--active-bg);
+}
 .chips {
   display: flex;
   flex-wrap: wrap;

@@ -61,4 +61,23 @@ describe('toIcs', () => {
     expect(allDay).toContain('DTSTART;VALUE=DATE:20260615');
     expect(allDay).toContain('DTEND;VALUE=DATE:20260616');
   });
+
+  it('keeps a timed start timed when the end is date-only (no invalid VALUE=DATE)', () => {
+    const mixed = toIcs({ ...base, end: '2026-06-16' }, '2026-06-10T12:00:00Z');
+    expect(mixed).toContain('DTSTART;TZID=America/New_York:20260615T200000');
+    // The date-only end is coerced to a timestamp (start + 2h), never VALUE=DATE.
+    expect(mixed).toContain('DTEND;TZID=America/New_York:20260615T220000');
+    expect(mixed).not.toContain('VALUE=DATE');
+  });
+
+  it('folds content lines to 75 octets per RFC 5545', () => {
+    const longTitle = 'A Very Long Event Title That Comfortably Exceeds Seventy Five Octets ' + 'x'.repeat(40);
+    const ics = toIcs({ ...base, title: longTitle }, '2026-06-10T12:00:00Z');
+    const enc = new TextEncoder();
+    for (const line of ics.split('\r\n')) {
+      expect(enc.encode(line).length).toBeLessThanOrEqual(75);
+    }
+    // Continuation lines begin with a single space.
+    expect(ics).toMatch(/\r\n /);
+  });
 });

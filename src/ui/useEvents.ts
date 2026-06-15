@@ -1,11 +1,7 @@
 import { useEffect, useState } from 'react';
-import type { Event } from '../domain/event';
+import type { Event, SourceStatus } from '../domain/event';
 
-export interface SourceStatus {
-  source: string;
-  count: number;
-  fresh: boolean;
-}
+export type { SourceStatus };
 
 export interface EventsPayload {
   generatedAt: string;
