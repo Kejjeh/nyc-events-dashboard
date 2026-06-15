@@ -3,12 +3,21 @@ import type { Borough, Category } from '../domain/event';
 import { useEvents } from './useEvents';
 import { useTheme } from './useTheme';
 import { filterEvents, sortEvents, type SortKey } from './filters';
+import type { DateWindow } from './dateWindow';
+import { parseFilters, serializeFilters } from './urlState';
 import { EventCard } from './EventCard';
 
 /** Cards rendered per page — keeps initial paint fast on large result sets. */
 const PAGE_SIZE = 60;
 
 const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
+const DATE_WINDOWS: { key: DateWindow; label: string }[] = [
+  { key: 'all', label: 'Any date' },
+  { key: 'today', label: 'Today' },
+  { key: 'weekend', label: 'This weekend' },
+  { key: 'week', label: 'Next 7 days' },
+];
+const PICKED_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'music', label: 'Music' },
   { key: 'comedy', label: 'Comedy' },
@@ -29,14 +38,42 @@ export function App() {
   const state = useEvents();
   const { theme, toggle } = useTheme();
 
-  const [borough, setBorough] = useState<Borough | 'All'>('All');
-  const [neighborhood, setNeighborhood] = useState<string>('All');
-  const [category, setCategory] = useState<Category | 'All'>('All');
-  const [freeOnly, setFreeOnly] = useState(false);
-  const [search, setSearch] = useState('');
-  const [sort, setSort] = useState<SortKey>('soonest');
+  // Hydrate initial filters from the shareable URL (parsed once).
+  const [init] = useState(() => parseFilters(window.location.search));
+  const [borough, setBorough] = useState<Borough | 'All'>(init.borough);
+  const [neighborhood, setNeighborhood] = useState<string>(init.neighborhood);
+  const [category, setCategory] = useState<Category | 'All'>(init.category);
+  const [freeOnly, setFreeOnly] = useState(init.freeOnly);
+  const [search, setSearch] = useState(init.search);
+  const [sort, setSort] = useState<SortKey>(init.sort);
+  const [dateWindow, setDateWindow] = useState<DateWindow>(init.dateWindow);
+  const [copied, setCopied] = useState(false);
+
+  // Today's date in NYC, used to evaluate the date-window filter.
+  const today = useMemo(
+    () => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date()),
+    [],
+  );
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
+
+  // Keep the URL in sync with the filters so the current view is shareable.
+  useEffect(() => {
+    const qs = serializeFilters({ borough, neighborhood, category, freeOnly, search, sort, dateWindow });
+    const url = `${window.location.pathname}${qs ? `?${qs}` : ''}`;
+    window.history.replaceState(null, '', url);
+  }, [borough, neighborhood, category, freeOnly, search, sort, dateWindow]);
+
+  // Copy the current (filtered) view's URL so it can be shared with a friend.
+  function copyLink() {
+    navigator.clipboard
+      ?.writeText(window.location.href)
+      .then(() => {
+        setCopied(true);
+        window.setTimeout(() => setCopied(false), 1500);
+      })
+      .catch(() => {});
+  }
 
   // Switching borough must clear the neighborhood in the same render, or the
   // stale neighborhood briefly filters the new borough to an empty set.
@@ -55,12 +92,14 @@ export function App() {
       category: category === 'All' ? undefined : category,
       freeOnly,
       search,
+      dateWindow,
+      today,
     });
     const set = new Set<string>();
     for (const e of inScope) if (e.neighborhood) set.add(e.neighborhood);
     if (neighborhood !== 'All') set.add(neighborhood);
     return [...set].sort();
-  }, [allEvents, borough, category, freeOnly, search, neighborhood]);
+  }, [allEvents, borough, category, freeOnly, search, dateWindow, today, neighborhood]);
 
   const visible = useMemo(
     () =>
@@ -71,17 +110,19 @@ export function App() {
           category: category === 'All' ? undefined : category,
           freeOnly,
           search,
+          dateWindow,
+          today,
         }),
         sort,
       ),
-    [allEvents, borough, neighborhood, category, freeOnly, search, sort],
+    [allEvents, borough, neighborhood, category, freeOnly, search, sort, dateWindow, today],
   );
 
   // Render incrementally; reset to the first page whenever the result set changes.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   useEffect(
     () => setVisibleCount(PAGE_SIZE),
-    [borough, neighborhood, category, freeOnly, search, sort],
+    [borough, neighborhood, category, freeOnly, search, sort, dateWindow],
   );
 
   const shown = visible.slice(0, visibleCount);
@@ -116,6 +157,9 @@ export function App() {
               })}
             </p>
           )}
+          <button className="share-btn" onClick={copyLink}>
+            {copied ? '✓ Link copied' : '🔗 Copy link to this view'}
+          </button>
         </div>
       </header>
 
@@ -169,6 +213,27 @@ export function App() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
+
+        <div className="dates" role="group" aria-label="Filter by date">
+          {DATE_WINDOWS.map((d) => (
+            <button
+              key={d.key}
+              className={`chip-btn ${dateWindow === d.key ? 'chip-btn--active' : ''}`}
+              aria-pressed={dateWindow === d.key}
+              onClick={() => setDateWindow(d.key)}
+            >
+              {d.label}
+            </button>
+          ))}
+          <input
+            className="date-input"
+            type="date"
+            min={today}
+            value={PICKED_DATE_RE.test(dateWindow) ? dateWindow : ''}
+            onChange={(e) => setDateWindow(e.target.value || 'all')}
+            aria-label="Pick a specific date"
+          />
+        </div>
 
         <div className="chips" role="group" aria-label="Filter by category">
           <button
