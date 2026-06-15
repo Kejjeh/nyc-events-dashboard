@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T15:28:42.818Z",
-  "count": 3418,
+  "generatedAt": "2026-06-15T15:29:22.548Z",
+  "count": 3414,
   "sources": [
     {
       "source": "nyc-parks",
@@ -19,7 +19,7 @@
     },
     {
       "source": "seatgeek",
-      "count": 288,
+      "count": 289,
       "fresh": true
     },
     {
@@ -34,16 +34,16 @@
     },
     {
       "source": "dice",
-      "count": 151,
-      "fresh": true
-    },
-    {
-      "source": "todaytix",
       "count": 150,
       "fresh": true
     },
     {
       "source": "nyc-open-data",
+      "count": 146,
+      "fresh": true
+    },
+    {
+      "source": "todaytix",
       "count": 146,
       "fresh": true
     },
@@ -64,6 +64,38 @@
     }
   ],
   "events": [
+    {
+      "id": "dice:6a2fa16a6d1d2f0001fbfaa6",
+      "title": "Industry Mondays",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "East Williamsburg",
+      "venue": "LISTEN",
+      "start": "2026-06-15T03:30:00",
+      "end": "2026-06-15T08:00:00",
+      "isFree": false,
+      "priceMin": 33.99,
+      "url": "https://dice.fm/event/2w5o8a-industry-mondays-15th-jun-listen-new-york-city-tickets",
+      "source": "dice",
+      "lat": 40.70969,
+      "lon": -73.92506
+    },
+    {
+      "id": "dice:6a2e290789b9e70001fa0d53",
+      "title": "Industry Mondays",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "East Williamsburg",
+      "venue": "LISTEN",
+      "start": "2026-06-15T04:00:00",
+      "end": "2026-06-15T10:00:00",
+      "isFree": false,
+      "priceMin": 33.99,
+      "url": "https://dice.fm/event/q2pna9-industry-mondays-15th-jun-listen-new-york-city-tickets",
+      "source": "dice",
+      "lat": 40.70969,
+      "lon": -73.92506
+    },
     {
       "id": "nyc-parks:2183263",
       "title": "Harlem Run: Monday Night Run",
@@ -1238,7 +1270,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1256,7 +1289,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1375,7 +1409,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1393,7 +1428,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1411,7 +1447,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1429,7 +1466,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1447,7 +1485,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1465,7 +1504,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1483,7 +1523,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1501,7 +1542,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1534,7 +1576,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1552,7 +1595,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1570,7 +1614,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -1588,7 +1633,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -2164,7 +2210,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -2207,15 +2254,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:28808",
-      "title": "Singfeld! A Musical About Nothing",
+      "id": "todaytix:24562",
+      "title": "Speakeasy Magick ",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Jerry Orbach Theatre",
+      "venue": "The Overlook Bar",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
+      "priceMin": 215,
+      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
       "source": "todaytix"
     },
     {
@@ -2231,27 +2278,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:41648",
-      "title": "New York Comedy Club (Upper West Side)",
+      "id": "todaytix:28808",
+      "title": "Singfeld! A Musical About Nothing",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New York Comedy Club (Upper West Side)",
+      "venue": "Jerry Orbach Theatre",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:24562",
-      "title": "Speakeasy Magick ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Overlook Bar",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 215,
-      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
       "source": "todaytix"
     },
     {
@@ -2267,18 +2302,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46159",
-      "title": "KENREX",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Lucille Lortel Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 65,
-      "url": "https://www.todaytix.com/nyc/shows/kenrex-lortel",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46093",
       "title": "Pied à Terre",
       "category": "theater",
@@ -2291,15 +2314,27 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46799",
-      "title": "A Walk on the Moon",
+      "id": "todaytix:46159",
+      "title": "KENREX",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "venue": "Lucille Lortel Theatre",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 39,
-      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
+      "priceMin": 65,
+      "url": "https://www.todaytix.com/nyc/shows/kenrex-lortel",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41648",
+      "title": "New York Comedy Club (Upper West Side)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Upper West Side)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
       "source": "todaytix"
     },
     {
@@ -2312,6 +2347,18 @@
       "isFree": false,
       "priceMin": 105.88,
       "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46799",
+      "title": "A Walk on the Moon",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
       "source": "todaytix"
     },
     {
@@ -2351,18 +2398,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:24608",
-      "title": "Little Shop of Horrors",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Westside Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 70,
-      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:25028",
       "title": "Friends The Musical Parody",
       "category": "theater",
@@ -2375,6 +2410,30 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:24608",
+      "title": "Little Shop of Horrors",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Westside Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 70,
+      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46163",
       "title": "Music City",
       "category": "theater",
@@ -2384,42 +2443,6 @@
       "isFree": false,
       "priceMin": 67,
       "url": "https://www.todaytix.com/nyc/shows/music-city",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:42035",
-      "title": "I'm Almost There",
-      "category": "theater",
-      "borough": "Brooklyn",
-      "venue": "BAM Fisher (Fishman Space)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 31,
-      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:42261",
-      "title": "Heathers The Musical",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:43651",
-      "title": "LOS SOLES TRUNCOS",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
       "source": "todaytix"
     },
     {
@@ -2471,38 +2494,39 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46772",
-      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
+      "id": "todaytix:42035",
+      "title": "I'm Almost There",
       "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Superfine, Dumbo",
+      "borough": "Brooklyn",
+      "venue": "BAM Fisher (Fishman Space)",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "priceMin": 31,
+      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46956",
-      "title": "NT Live: Les Liaisons Dangereuses",
+      "id": "todaytix:42261",
+      "title": "Heathers The Musical",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Peter Jay Sharp Theatre at Symphony Space",
+      "venue": "New World Stages",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/nt-live-les-liaisons-dangereuses",
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46963",
-      "title": "Standard Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "id": "todaytix:43651",
+      "title": "LOS SOLES TRUNCOS",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
       "source": "todaytix"
     },
     {
@@ -2518,15 +2542,38 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46480",
-      "title": "Henry VI: A Trilogy in Two Parts",
+      "id": "todaytix:46772",
+      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Public Theater",
+      "venue": "Superfine, Dumbo",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46963",
+      "title": "Standard Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46956",
+      "title": "NT Live: Les Liaisons Dangereuses",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Peter Jay Sharp Theatre at Symphony Space",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/nt-live-les-liaisons-dangereuses",
       "source": "todaytix"
     },
     {
@@ -2601,6 +2648,66 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:1299",
+      "title": "Perfect Crime",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Theater Center",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44745",
+      "title": "Masquerade",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Masquerade",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 195,
+      "url": "https://www.todaytix.com/nyc/shows/masquerade",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44354",
+      "title": "Drunk Romeo & Juliet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 37,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44721",
+      "title": "||: Girls :||: Chance :||: Music :||",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/girls-chance-music",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44388",
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:32431",
       "title": "New York Comedy Club (Midtown)",
       "category": "theater",
@@ -2636,63 +2743,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:1299",
-      "title": "Perfect Crime",
+      "id": "todaytix:45756",
+      "title": "Girl, Interrupted ",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Theater Center",
+      "venue": "The Public Theater",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44721",
-      "title": "||: Girls :||: Chance :||: Music :||",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Vineyard Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/girls-chance-music",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44745",
-      "title": "Masquerade",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Masquerade",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 195,
-      "url": "https://www.todaytix.com/nyc/shows/masquerade",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44354",
-      "title": "Drunk Romeo & Juliet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Ruby Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 37,
-      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44388",
-      "title": "The 25th Annual Putnam County Spelling Bee",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
+      "priceMin": 117,
+      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
       "source": "todaytix"
     },
     {
@@ -2708,66 +2767,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:45756",
-      "title": "Girl, Interrupted ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 117,
-      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46642",
-      "title": "Label•less",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Duke on 42nd Street",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/label-less",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46427",
-      "title": "Silverback Mountain",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "AMT Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 73,
-      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46870",
-      "title": "David Copperfield",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater A",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46839",
-      "title": "SMALL",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/small",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:19034",
       "title": "La Breve y Maravillosa Vida de Oscar Wao",
       "category": "theater",
@@ -2777,6 +2776,18 @@
       "isFree": false,
       "priceMin": 53,
       "url": "https://www.todaytix.com/nyc/shows/la-breve-y-maravillosa-vida-de-oscar-wao",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44748",
+      "title": "Well, I'll Let You Go",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Studio Seaview",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 52,
+      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
       "source": "todaytix"
     },
     {
@@ -2801,18 +2812,6 @@
       "isFree": false,
       "priceMin": 43,
       "url": "https://www.todaytix.com/nyc/shows/a-woman-among-women",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44748",
-      "title": "Well, I'll Let You Go",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Studio Seaview",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 52,
-      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
       "source": "todaytix"
     },
     {
@@ -3182,7 +3181,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781546400000
       }
     },
     {
@@ -3220,7 +3220,7 @@
     },
     {
       "id": "dice:6a2822469eaf6000015c02ed",
-      "title": "Industry Monday: Mila Rubio",
+      "title": "industry mondays with surprise guest",
       "category": "music",
       "borough": "Manhattan",
       "neighborhood": "Hell's Kitchen",
@@ -3228,7 +3228,7 @@
       "start": "2026-06-15T20:00:00",
       "end": "2026-06-16T02:00:00",
       "isFree": true,
-      "url": "https://dice.fm/event/k6y27l-industry-monday-mila-rubio-15th-jun-altheas-hideaway-nyc-new-york-city-tickets",
+      "url": "https://dice.fm/event/k6y27l-industry-mondays-with-surprise-guest-15th-jun-altheas-hideaway-nyc-new-york-city-tickets",
       "source": "dice",
       "lat": 40.767757,
       "lon": -73.995683
@@ -3263,7 +3263,8 @@
       "weather": {
         "icon": "02d",
         "temp": 78,
-        "description": "few clouds"
+        "description": "few clouds",
+        "dt": 1781557200000
       }
     },
     {
@@ -3707,7 +3708,8 @@
       "weather": {
         "icon": "01n",
         "temp": 60,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781589600000
       }
     },
     {
@@ -3725,7 +3727,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3743,7 +3746,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3761,7 +3765,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3779,7 +3784,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3797,7 +3803,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3815,7 +3822,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3833,7 +3841,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3851,7 +3860,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3869,7 +3879,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3887,7 +3898,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3905,7 +3917,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3923,7 +3936,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3941,7 +3955,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3959,7 +3974,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3977,7 +3993,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -3995,7 +4012,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4025,7 +4043,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4043,7 +4062,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4060,7 +4080,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4090,7 +4111,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4108,7 +4130,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4126,7 +4149,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4144,7 +4168,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4162,7 +4187,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4180,7 +4206,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4198,7 +4225,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4216,7 +4244,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4234,7 +4263,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4252,7 +4282,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4270,7 +4301,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4288,7 +4320,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4306,7 +4339,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4324,7 +4358,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4342,7 +4377,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4360,7 +4396,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4378,7 +4415,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4396,7 +4434,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4414,7 +4453,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4432,7 +4472,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4450,7 +4491,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4468,7 +4510,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4486,7 +4529,8 @@
       "weather": {
         "icon": "01n",
         "temp": 59,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781600400000
       }
     },
     {
@@ -4540,7 +4584,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4558,7 +4603,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4576,7 +4622,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4594,7 +4641,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4624,7 +4672,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4642,7 +4691,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4660,7 +4710,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4859,7 +4910,8 @@
       "weather": {
         "icon": "01d",
         "temp": 62,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781611200000
       }
     },
     {
@@ -4925,7 +4977,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5075,7 +5128,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5093,7 +5147,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5175,7 +5230,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5484,7 +5540,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5502,7 +5559,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5520,7 +5578,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5538,7 +5597,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5556,7 +5616,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5574,7 +5635,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5592,7 +5654,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5610,7 +5673,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -5628,7 +5692,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -6006,7 +6071,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781622000000
       }
     },
     {
@@ -6340,7 +6406,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6358,7 +6425,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6376,7 +6444,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6394,7 +6463,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6412,7 +6482,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6430,7 +6501,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6448,7 +6520,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6466,7 +6539,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6484,7 +6558,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6502,7 +6577,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6520,7 +6596,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6652,7 +6729,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6670,7 +6748,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6688,7 +6767,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -6706,7 +6786,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -7817,34 +7898,6 @@
       "lon": -73.983
     },
     {
-      "id": "seatgeek:17953731",
-      "title": "Orchestra of St Lukes - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Carnegie Hall - Judy & Arthur Zankel Hall",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/orchestra-of-st-lukes-tickets/orchestral/2026-06-16-7-pm/17953731",
-      "source": "seatgeek",
-      "lat": 40.765,
-      "lon": -73.9799
-    },
-    {
-      "id": "seatgeek:17950976",
-      "title": "Lambrini Girls",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Greenpoint",
-      "venue": "Warsaw",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/lambrini-girls-tickets/brooklyn-new-york-warsaw-2026-06-16-7-pm/concert/17950976",
-      "source": "seatgeek",
-      "lat": 40.7226,
-      "lon": -73.9484
-    },
-    {
       "id": "seatgeek:17923673",
       "title": "Drunk Romeo & Juliet - New York",
       "category": "theater",
@@ -7873,34 +7926,32 @@
       "lon": -73.9922
     },
     {
-      "id": "seatgeek:18109440",
-      "title": "Chess The Musical - New York",
+      "id": "seatgeek:17950976",
+      "title": "Lambrini Girls",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Greenpoint",
+      "venue": "Warsaw",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/lambrini-girls-tickets/brooklyn-new-york-warsaw-2026-06-16-7-pm/concert/17950976",
+      "source": "seatgeek",
+      "lat": 40.7226,
+      "lon": -73.9484
+    },
+    {
+      "id": "seatgeek:17953731",
+      "title": "Orchestra of St Lukes - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Imperial Theatre - NY",
+      "venue": "Carnegie Hall - Judy & Arthur Zankel Hall",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-16-7-pm/18109440",
+      "url": "https://seatgeek.com/orchestra-of-st-lukes-tickets/orchestral/2026-06-16-7-pm/17953731",
       "source": "seatgeek",
-      "lat": 40.7588,
-      "lon": -73.9873
-    },
-    {
-      "id": "seatgeek:18157818",
-      "title": "Chris Travis",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Gramercy",
-      "venue": "Gramercy Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chris-travis-tickets/new-york-new-york-gramercy-theatre-2026-06-16-7-pm/concert/18157818",
-      "source": "seatgeek",
-      "lat": 40.738,
-      "lon": -73.9829,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8144078990ac7ec1b49cd766",
-      "spotifyUrl": "https://open.spotify.com/artist/6TxY5T8v9RjF7Ry4XQvWT5"
+      "lat": 40.765,
+      "lon": -73.9799
     },
     {
       "id": "seatgeek:17917295",
@@ -7945,6 +7996,20 @@
       "lon": -73.9837
     },
     {
+      "id": "seatgeek:17716090",
+      "title": "Maybe Happy Ending - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Belasco Theatre - NY",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-16-7-pm/17716090",
+      "source": "seatgeek",
+      "lat": 40.7563,
+      "lon": -73.9836
+    },
+    {
       "id": "seatgeek:18241733",
       "title": "The Balusters - New York",
       "category": "theater",
@@ -7959,18 +8024,34 @@
       "lon": -73.9868
     },
     {
-      "id": "seatgeek:17716090",
-      "title": "Maybe Happy Ending - New York",
+      "id": "seatgeek:18109440",
+      "title": "Chess The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Belasco Theatre - NY",
+      "venue": "Imperial Theatre - NY",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-16-7-pm/17716090",
+      "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-16-7-pm/18109440",
       "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9836
+      "lat": 40.7588,
+      "lon": -73.9873
+    },
+    {
+      "id": "seatgeek:18157818",
+      "title": "Chris Travis",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Gramercy",
+      "venue": "Gramercy Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chris-travis-tickets/new-york-new-york-gramercy-theatre-2026-06-16-7-pm/concert/18157818",
+      "source": "seatgeek",
+      "lat": 40.738,
+      "lon": -73.9829,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8144078990ac7ec1b49cd766",
+      "spotifyUrl": "https://open.spotify.com/artist/6TxY5T8v9RjF7Ry4XQvWT5"
     },
     {
       "id": "seatgeek:18063329",
@@ -7987,20 +8068,6 @@
       "lon": -73.9891
     },
     {
-      "id": "seatgeek:18133459",
-      "title": "Widowspeak",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Williamsburg",
-      "venue": "Music Hall of Williamsburg",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/widowspeak-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-06-16-7-pm/concert/18133459",
-      "source": "seatgeek",
-      "lat": 40.719154,
-      "lon": -73.96175
-    },
-    {
       "id": "seatgeek:18229577",
       "title": "KENREX",
       "category": "theater",
@@ -8013,6 +8080,20 @@
       "source": "seatgeek",
       "lat": 40.7334,
       "lon": -74.0058
+    },
+    {
+      "id": "seatgeek:18133459",
+      "title": "Widowspeak",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Williamsburg",
+      "venue": "Music Hall of Williamsburg",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/widowspeak-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-06-16-7-pm/concert/18133459",
+      "source": "seatgeek",
+      "lat": 40.719154,
+      "lon": -73.96175
     },
     {
       "id": "seatgeek:18162173",
@@ -8087,20 +8168,6 @@
       "lon": -73.9934
     },
     {
-      "id": "seatgeek:17945730",
-      "title": "The Lost Boys - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-16-7-pm/17945730",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
-    },
-    {
       "id": "seatgeek:17972181",
       "title": "Proof with Ayo Edebiri and Don Cheadle",
       "category": "other",
@@ -8157,20 +8224,18 @@
       "lon": -73.9862
     },
     {
-      "id": "seatgeek:18175895",
-      "title": "Neoni",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "East Williamsburg",
-      "venue": "Elsewhere - Brooklyn",
+      "id": "seatgeek:17945730",
+      "title": "The Lost Boys - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/neoni-tickets/brooklyn-new-york-elsewhere-brooklyn-2026-06-16-7-pm/concert/18175895",
+      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-16-7-pm/17945730",
       "source": "seatgeek",
-      "lat": 40.7093,
-      "lon": -73.9232,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb3271751184c0f83d54898378",
-      "spotifyUrl": "https://open.spotify.com/artist/38wxcfNEqMwuPniHvplin5"
+      "lat": 40.7589,
+      "lon": -73.9846
     },
     {
       "id": "seatgeek:17420230",
@@ -8187,18 +8252,20 @@
       "lon": -73.9927
     },
     {
-      "id": "seatgeek:17958094",
-      "title": "Harry Potter and The Cursed Child - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyric Theatre - New York",
+      "id": "seatgeek:18175895",
+      "title": "Neoni",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "East Williamsburg",
+      "venue": "Elsewhere - Brooklyn",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-16-7-pm/17958094",
+      "url": "https://seatgeek.com/neoni-tickets/brooklyn-new-york-elsewhere-brooklyn-2026-06-16-7-pm/concert/18175895",
       "source": "seatgeek",
-      "lat": 40.7565,
-      "lon": -73.9878
+      "lat": 40.7093,
+      "lon": -73.9232,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3271751184c0f83d54898378",
+      "spotifyUrl": "https://open.spotify.com/artist/38wxcfNEqMwuPniHvplin5"
     },
     {
       "id": "seatgeek:18143535",
@@ -8271,18 +8338,32 @@
       "lon": -73.9855
     },
     {
-      "id": "seatgeek:17851270",
-      "title": "Hamilton - New York",
+      "id": "seatgeek:17881495",
+      "title": "Wicked - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Richard Rodgers Theatre",
+      "venue": "Gershwin Theatre",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-16-7-pm/17851270",
+      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-16-7-pm/17881495",
       "source": "seatgeek",
-      "lat": 40.7592,
-      "lon": -73.9866
+      "lat": 40.7624,
+      "lon": -73.9851
+    },
+    {
+      "id": "seatgeek:17958094",
+      "title": "Harry Potter and The Cursed Child - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyric Theatre - New York",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-16-7-pm/17958094",
+      "source": "seatgeek",
+      "lat": 40.7565,
+      "lon": -73.9878
     },
     {
       "id": "seatgeek:18169495",
@@ -8299,18 +8380,18 @@
       "lon": -73.9848
     },
     {
-      "id": "seatgeek:17881495",
-      "title": "Wicked - New York",
+      "id": "seatgeek:17851270",
+      "title": "Hamilton - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Gershwin Theatre",
+      "venue": "Richard Rodgers Theatre",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-16-7-pm/17881495",
+      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-16-7-pm/17851270",
       "source": "seatgeek",
-      "lat": 40.7624,
-      "lon": -73.9851
+      "lat": 40.7592,
+      "lon": -73.9866
     },
     {
       "id": "seatgeek:18014476",
@@ -8355,7 +8436,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -8373,7 +8455,8 @@
       "weather": {
         "icon": "01d",
         "temp": 80,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781632800000
       }
     },
     {
@@ -9151,7 +9234,8 @@
       "weather": {
         "icon": "04n",
         "temp": 67,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781676000000
       }
     },
     {
@@ -9169,7 +9253,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9187,7 +9272,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9205,7 +9291,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9223,7 +9310,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9241,7 +9329,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9259,7 +9348,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9277,7 +9367,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9295,7 +9386,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9313,7 +9405,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9331,7 +9424,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9349,7 +9443,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9367,7 +9462,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9385,7 +9481,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9402,7 +9499,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9420,7 +9518,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9438,7 +9537,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9456,7 +9556,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9486,7 +9587,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9516,7 +9618,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9534,7 +9637,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9552,7 +9656,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9570,7 +9675,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9588,7 +9694,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9606,7 +9713,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9624,7 +9732,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9641,7 +9750,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9707,7 +9817,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9725,7 +9836,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9743,7 +9855,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9761,7 +9874,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9779,7 +9893,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9797,7 +9912,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9815,7 +9931,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9833,7 +9950,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9851,7 +9969,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9869,7 +9988,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9887,7 +10007,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9905,7 +10026,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9923,7 +10045,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9941,7 +10064,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9959,7 +10083,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9977,7 +10102,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -9995,7 +10121,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10013,7 +10140,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10031,7 +10159,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10049,7 +10178,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10067,7 +10197,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10085,7 +10216,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10139,7 +10271,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10181,7 +10314,8 @@
       "weather": {
         "icon": "04n",
         "temp": 68,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781686800000
       }
     },
     {
@@ -10199,7 +10333,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10217,7 +10352,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10369,7 +10505,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10387,7 +10524,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10405,7 +10543,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10423,7 +10562,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10480,7 +10620,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10606,7 +10747,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10624,7 +10766,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10642,7 +10785,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10660,7 +10804,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10678,7 +10823,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10780,20 +10926,6 @@
       "lon": -73.98792867
     },
     {
-      "id": "seatgeek:18081449",
-      "title": "Death of a Salesman - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Winter Garden Theatre",
-      "start": "2026-06-17T13:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-17-1-pm/18081449",
-      "source": "seatgeek",
-      "lat": 40.7617,
-      "lon": -73.9837
-    },
-    {
       "id": "seatgeek:17851239",
       "title": "Hamilton - New York",
       "category": "other",
@@ -10806,6 +10938,20 @@
       "source": "seatgeek",
       "lat": 40.7592,
       "lon": -73.9866
+    },
+    {
+      "id": "seatgeek:18081449",
+      "title": "Death of a Salesman - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Winter Garden Theatre",
+      "start": "2026-06-17T13:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-17-1-pm/18081449",
+      "source": "seatgeek",
+      "lat": 40.7617,
+      "lon": -73.9837
     },
     {
       "id": "seatgeek:17738293",
@@ -10864,7 +11010,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10882,7 +11029,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10900,7 +11048,8 @@
       "weather": {
         "icon": "10d",
         "temp": 68,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781697600000
       }
     },
     {
@@ -10931,7 +11080,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11397,18 +11547,18 @@
       "lon": -73.984
     },
     {
-      "id": "seatgeek:17717871",
-      "title": "Two Strangers (Carry a Cake Across New York) - New York",
+      "id": "seatgeek:18063359",
+      "title": "Moulin Rouge! The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Longacre Theatre",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Al Hirschfeld Theatre",
       "start": "2026-06-17T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-17-2-pm/17717871",
+      "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-17-2-pm/18063359",
       "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
+      "lat": 40.7594,
+      "lon": -73.9891
     },
     {
       "id": "seatgeek:17881496",
@@ -11425,18 +11575,18 @@
       "lon": -73.9851
     },
     {
-      "id": "seatgeek:18063359",
-      "title": "Moulin Rouge! The Musical - New York",
+      "id": "seatgeek:17717871",
+      "title": "Two Strangers (Carry a Cake Across New York) - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Al Hirschfeld Theatre",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Longacre Theatre",
       "start": "2026-06-17T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-17-2-pm/18063359",
+      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-17-2-pm/17717871",
       "source": "seatgeek",
-      "lat": 40.7594,
-      "lon": -73.9891
+      "lat": 40.7605,
+      "lon": -73.9857
     },
     {
       "id": "seatgeek:18229580",
@@ -11467,18 +11617,18 @@
       "lon": -73.9863
     },
     {
-      "id": "seatgeek:18011616",
-      "title": "Death Becomes Her - New York",
+      "id": "seatgeek:17808468",
+      "title": "The Outsiders - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Lunt-Fontanne Theatre",
+      "venue": "Bernard B. Jacobs Theatre",
       "start": "2026-06-17T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-17-2-pm/18011616",
+      "url": "https://seatgeek.com/the-outsiders-1-tickets/broadway/2026-06-17-2-pm/17808468",
       "source": "seatgeek",
-      "lat": 40.759,
-      "lon": -73.986
+      "lat": 40.7586,
+      "lon": -73.9878
     },
     {
       "id": "seatgeek:18169499",
@@ -11495,18 +11645,18 @@
       "lon": -73.9848
     },
     {
-      "id": "seatgeek:17808468",
-      "title": "The Outsiders - New York",
+      "id": "seatgeek:18011616",
+      "title": "Death Becomes Her - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Bernard B. Jacobs Theatre",
+      "venue": "Lunt-Fontanne Theatre",
       "start": "2026-06-17T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-outsiders-1-tickets/broadway/2026-06-17-2-pm/17808468",
+      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-17-2-pm/18011616",
       "source": "seatgeek",
-      "lat": 40.7586,
-      "lon": -73.9878
+      "lat": 40.759,
+      "lon": -73.986
     },
     {
       "id": "seatgeek:17833932",
@@ -11537,6 +11687,20 @@
       "lon": -73.9939
     },
     {
+      "id": "seatgeek:18041547",
+      "title": "& Juliet - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Stephen Sondheim Theatre - New York",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-17-2-pm/18041547",
+      "source": "seatgeek",
+      "lat": 40.7559,
+      "lon": -73.9849
+    },
+    {
       "id": "seatgeek:17992442",
       "title": "American Ballet Theatre - Swan Lake",
       "category": "other",
@@ -11565,20 +11729,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18041547",
-      "title": "& Juliet - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Stephen Sondheim Theatre - New York",
-      "start": "2026-06-17T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-17-2-pm/18041547",
-      "source": "seatgeek",
-      "lat": 40.7559,
-      "lon": -73.9849
-    },
-    {
       "id": "seatgeek:17945031",
       "title": "Joe Turner's Come and Gone - New York",
       "category": "other",
@@ -11591,20 +11741,6 @@
       "source": "seatgeek",
       "lat": 40.7602,
       "lon": -73.9862
-    },
-    {
-      "id": "seatgeek:17945725",
-      "title": "The Lost Boys - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-06-17T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-17-2-pm/17945725",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
     },
     {
       "id": "seatgeek:18241725",
@@ -11633,6 +11769,20 @@
       "source": "seatgeek",
       "lat": 40.7563,
       "lon": -73.9836
+    },
+    {
+      "id": "seatgeek:17945725",
+      "title": "The Lost Boys - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-17-2-pm/17945725",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9846
     },
     {
       "id": "seatgeek:18014477",
@@ -11677,20 +11827,6 @@
       "lon": -73.983
     },
     {
-      "id": "seatgeek:17989919",
-      "title": "Schmigadoon! - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Nederlander Theatre - NY",
-      "start": "2026-06-17T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-06-17-2-pm/17989919",
-      "source": "seatgeek",
-      "lat": 40.7557,
-      "lon": -73.9882
-    },
-    {
       "id": "seatgeek:18109441",
       "title": "Chess The Musical - New York",
       "category": "other",
@@ -11703,6 +11839,20 @@
       "source": "seatgeek",
       "lat": 40.7588,
       "lon": -73.9873
+    },
+    {
+      "id": "seatgeek:17989919",
+      "title": "Schmigadoon! - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Nederlander Theatre - NY",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-06-17-2-pm/17989919",
+      "source": "seatgeek",
+      "lat": 40.7557,
+      "lon": -73.9882
     },
     {
       "id": "nyc-parks:2176688",
@@ -11719,7 +11869,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11737,7 +11888,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11755,7 +11907,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11787,7 +11940,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11804,7 +11958,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11836,7 +11991,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11854,7 +12010,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11872,7 +12029,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11890,7 +12048,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11908,7 +12067,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11926,7 +12086,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11944,7 +12105,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11962,7 +12124,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11980,7 +12143,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -11998,7 +12162,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -12048,7 +12213,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781708400000
       }
     },
     {
@@ -12096,7 +12262,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12128,7 +12295,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12146,7 +12314,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12164,7 +12333,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12269,7 +12439,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12287,7 +12458,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12305,7 +12477,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12323,7 +12496,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12341,7 +12515,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12359,7 +12534,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12377,7 +12553,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12395,7 +12572,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12412,22 +12590,6 @@
       "source": "dice",
       "lat": 40.6872368,
       "lon": -73.9057271
-    },
-    {
-      "id": "dice:6a07b0840f6a700001a9a654",
-      "title": "Nothing Happens Film Fest",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Lower East Side",
-      "venue": "Pianos: Showroom",
-      "start": "2026-06-17T18:30:00",
-      "end": "2026-06-17T22:30:00",
-      "isFree": false,
-      "priceMin": 10,
-      "url": "https://dice.fm/event/dkprke-nothing-happens-film-fest-17th-jun-pianos-showroom-new-york-tickets",
-      "source": "dice",
-      "lat": 40.72097249999999,
-      "lon": -73.9876401
     },
     {
       "id": "seatgeek:18299627",
@@ -12472,7 +12634,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12490,7 +12653,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12508,7 +12672,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12526,7 +12691,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -12542,22 +12708,6 @@
       "source": "smallslive",
       "image": "https://i.scdn.co/image/ab67616d0000b273f1c44d45d21373a1a25c1d9e",
       "spotifyUrl": "https://open.spotify.com/artist/3ISh6Jz1xLIprziBMg5Iuu"
-    },
-    {
-      "id": "dice:6a2daef80910ce000145d151",
-      "title": "Benevolence // Tipper Gore // Gangstalker ",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Bushwick (West)",
-      "venue": "Gold Sounds",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T23:00:00",
-      "isFree": false,
-      "priceMin": 15,
-      "url": "https://dice.fm/event/g537rp-benevolence-tipper-gore-gangstalker-17th-jun-gold-sounds-new-york-tickets",
-      "source": "dice",
-      "lat": 40.702624,
-      "lon": -73.929611
     },
     {
       "id": "dice:69bcbf62743cc90001940089",
@@ -12588,8 +12738,23 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
+    },
+    {
+      "id": "seatgeek:17923675",
+      "title": "Drunk Romeo & Juliet - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-17-7-pm/17923675",
+      "source": "seatgeek",
+      "lat": 40.7527,
+      "lon": -73.9841
     },
     {
       "id": "seatgeek:17530707",
@@ -12620,20 +12785,6 @@
       "lon": -73.96175
     },
     {
-      "id": "seatgeek:17923675",
-      "title": "Drunk Romeo & Juliet - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "The Ruby Theatre",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-17-7-pm/17923675",
-      "source": "seatgeek",
-      "lat": 40.7527,
-      "lon": -73.9841
-    },
-    {
       "id": "seatgeek:18109822",
       "title": "Padma Puts On Another Comedy Show with Padma Lakshmi (Rescheduled from 6/10/2026)",
       "category": "comedy",
@@ -12646,6 +12797,20 @@
       "source": "seatgeek",
       "lat": 40.6735,
       "lon": -73.9916
+    },
+    {
+      "id": "seatgeek:18069706",
+      "title": "Heathers - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-17-7-pm/18069706",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18029958",
@@ -12704,20 +12869,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18069706",
-      "title": "Heathers - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-17-7-pm/18069706",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:18143659",
       "title": "Luigi: The Musical",
       "category": "theater",
@@ -12732,20 +12883,6 @@
       "lon": -73.9955
     },
     {
-      "id": "seatgeek:17968666",
-      "title": "Hamilton - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Richard Rodgers Theatre",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-17-7-pm/17968666",
-      "source": "seatgeek",
-      "lat": 40.7592,
-      "lon": -73.9866
-    },
-    {
       "id": "seatgeek:18027930",
       "title": "Just In Time - New York",
       "category": "other",
@@ -12758,20 +12895,6 @@
       "source": "seatgeek",
       "lat": 40.7623,
       "lon": -73.9852
-    },
-    {
-      "id": "seatgeek:17967292",
-      "title": "Wicked - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Gershwin Theatre",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-17-7-pm/17967292",
-      "source": "seatgeek",
-      "lat": 40.7624,
-      "lon": -73.9851
     },
     {
       "id": "seatgeek:17876145",
@@ -12802,6 +12925,48 @@
       "lon": -73.9868
     },
     {
+      "id": "seatgeek:17967292",
+      "title": "Wicked - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Gershwin Theatre",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-17-7-pm/17967292",
+      "source": "seatgeek",
+      "lat": 40.7624,
+      "lon": -73.9851
+    },
+    {
+      "id": "seatgeek:17968666",
+      "title": "Hamilton - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Richard Rodgers Theatre",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-17-7-pm/17968666",
+      "source": "seatgeek",
+      "lat": 40.7592,
+      "lon": -73.9866
+    },
+    {
+      "id": "seatgeek:17740763",
+      "title": "The Lion King - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Minskoff Theatre",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-17-7-pm/17740763",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9862
+    },
+    {
       "id": "seatgeek:18185720",
       "title": "Jamie Allan's Amaze - New York",
       "category": "other",
@@ -12827,20 +12992,6 @@
       "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-17-7-pm/17945033",
       "source": "seatgeek",
       "lat": 40.7602,
-      "lon": -73.9862
-    },
-    {
-      "id": "seatgeek:17740763",
-      "title": "The Lion King - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-17-7-pm/17740763",
-      "source": "seatgeek",
-      "lat": 40.7579,
       "lon": -73.9862
     },
     {
@@ -12900,20 +13051,6 @@
       "lon": -73.9877
     },
     {
-      "id": "seatgeek:18140964",
-      "title": "Naomi Scott (16+)",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Lower East Side",
-      "venue": "Bowery Ballroom",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/naomi-scott-tickets/new-york-new-york-bowery-ballroom-2026-06-17-7-pm/concert/18140964",
-      "source": "seatgeek",
-      "lat": 40.7204,
-      "lon": -73.9934
-    },
-    {
       "id": "seatgeek:17957908",
       "title": "The Book of Mormon - New York",
       "category": "other",
@@ -12926,6 +13063,20 @@
       "source": "seatgeek",
       "lat": 40.7611,
       "lon": -73.9857
+    },
+    {
+      "id": "seatgeek:18140964",
+      "title": "Naomi Scott (16+)",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Lower East Side",
+      "venue": "Bowery Ballroom",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/naomi-scott-tickets/new-york-new-york-bowery-ballroom-2026-06-17-7-pm/concert/18140964",
+      "source": "seatgeek",
+      "lat": 40.7204,
+      "lon": -73.9934
     },
     {
       "id": "seatgeek:18241729",
@@ -12942,20 +13093,6 @@
       "lon": -73.9868
     },
     {
-      "id": "seatgeek:18229584",
-      "title": "KENREX",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "West Village",
-      "venue": "Lucille Lortel Theatre",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-17-7-pm/18229584",
-      "source": "seatgeek",
-      "lat": 40.7334,
-      "lon": -74.0058
-    },
-    {
       "id": "seatgeek:18243073",
       "title": "Girl, Interrupted - New York",
       "category": "theater",
@@ -12968,6 +13105,20 @@
       "source": "seatgeek",
       "lat": 40.729,
       "lon": -73.9922
+    },
+    {
+      "id": "seatgeek:18229584",
+      "title": "KENREX",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "West Village",
+      "venue": "Lucille Lortel Theatre",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-17-7-pm/18229584",
+      "source": "seatgeek",
+      "lat": 40.7334,
+      "lon": -74.0058
     },
     {
       "id": "seatgeek:18081450",
@@ -13054,7 +13205,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -13072,7 +13224,8 @@
       "weather": {
         "icon": "10d",
         "temp": 74,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781719200000
       }
     },
     {
@@ -13156,20 +13309,6 @@
       "lon": -73.9875
     },
     {
-      "id": "seatgeek:17945815",
-      "title": "The Lost Boys - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-17-7-30-pm/17945815",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
-    },
-    {
       "id": "seatgeek:18109446",
       "title": "Chess The Musical - New York",
       "category": "other",
@@ -13182,6 +13321,20 @@
       "source": "seatgeek",
       "lat": 40.7588,
       "lon": -73.9873
+    },
+    {
+      "id": "seatgeek:17945815",
+      "title": "The Lost Boys - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-17-7-30-pm/17945815",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9846
     },
     {
       "id": "seatgeek:17992447",
@@ -13399,22 +13552,6 @@
       "lon": -73.921529
     },
     {
-      "id": "dice:6a3014156b493700016e3157",
-      "title": "Bikini fashion show ",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Althea's Hideaway NYC",
-      "start": "2026-06-17T20:00:00",
-      "end": "2026-06-18T02:00:00",
-      "isFree": false,
-      "priceMin": 45.32,
-      "url": "https://dice.fm/event/6d8ed2-bikini-fashion-show-17th-jun-altheas-hideaway-nyc-new-york-city-tickets",
-      "source": "dice",
-      "lat": 40.767757,
-      "lon": -73.995683
-    },
-    {
       "id": "seatgeek:18143531",
       "title": "Ragtime - New York",
       "category": "other",
@@ -13485,7 +13622,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781730000000
       }
     },
     {
@@ -13503,7 +13641,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781730000000
       }
     },
     {
@@ -13672,7 +13811,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13690,7 +13830,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13708,7 +13849,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13726,7 +13868,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13744,7 +13887,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13762,7 +13906,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13780,7 +13925,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13798,7 +13944,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13816,7 +13963,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13870,7 +14018,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13888,7 +14037,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13906,7 +14056,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13924,7 +14075,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13942,7 +14094,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13960,7 +14113,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13977,7 +14131,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -13995,7 +14150,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14013,7 +14169,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14031,7 +14188,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14049,7 +14207,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14067,7 +14226,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14085,7 +14245,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14103,7 +14264,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14121,7 +14283,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14139,7 +14302,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14157,7 +14321,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14175,7 +14340,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14193,7 +14359,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14211,7 +14378,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14229,7 +14397,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14247,7 +14416,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14265,7 +14435,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14283,7 +14454,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14301,7 +14473,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14319,7 +14492,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14337,7 +14511,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14355,7 +14530,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14373,7 +14549,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14391,7 +14568,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14409,7 +14587,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14450,7 +14629,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14468,7 +14648,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14486,7 +14667,8 @@
       "weather": {
         "icon": "04n",
         "temp": 71,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781773200000
       }
     },
     {
@@ -14504,7 +14686,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14522,7 +14705,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14554,7 +14738,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14572,7 +14757,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14590,7 +14776,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14608,7 +14795,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14626,7 +14814,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14644,7 +14833,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14662,7 +14852,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14680,7 +14871,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14712,7 +14904,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14730,7 +14923,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14748,7 +14942,8 @@
       "weather": {
         "icon": "10d",
         "temp": 72,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781784000000
       }
     },
     {
@@ -14793,20 +14988,6 @@
       "lon": -73.9829
     },
     {
-      "id": "seatgeek:18069708",
-      "title": "Heathers - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
-      "start": "2026-06-18T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-18-2-pm/18069708",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:17891630",
       "title": "Six the Musical - New York",
       "category": "other",
@@ -14819,6 +15000,20 @@
       "source": "seatgeek",
       "lat": 40.7602,
       "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:18069708",
+      "title": "Heathers - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
+      "start": "2026-06-18T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-18-2-pm/18069708",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18166133",
@@ -14877,7 +15072,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -14895,7 +15091,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -14913,7 +15110,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -14931,7 +15129,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -14991,7 +15190,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15009,7 +15209,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15027,7 +15228,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15045,7 +15247,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15063,7 +15266,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15081,7 +15285,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15099,7 +15304,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15117,7 +15323,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15135,7 +15342,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15153,7 +15361,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15171,7 +15380,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15207,7 +15417,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15225,7 +15436,8 @@
       "weather": {
         "icon": "10d",
         "temp": 83,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781794800000
       }
     },
     {
@@ -15273,7 +15485,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15305,7 +15518,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15382,20 +15596,6 @@
       "lon": -73.9057271
     },
     {
-      "id": "seatgeek:17948704",
-      "title": "Ike Dweck with zachy (18+)",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Lower East Side",
-      "venue": "Mercury Lounge - New York",
-      "start": "2026-06-18T18:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/ike-dweck-tickets/new-york-new-york-mercury-lounge-new-york-2026-06-18-6-pm/concert/17948704",
-      "source": "seatgeek",
-      "lat": 40.72211,
-      "lon": -73.986786
-    },
-    {
       "id": "seatgeek:18077309",
       "title": "Young the Giant with Cold War Kids and Almost Monday",
       "category": "music",
@@ -15408,6 +15608,20 @@
       "source": "seatgeek",
       "lat": 40.7063,
       "lon": -74.0038
+    },
+    {
+      "id": "seatgeek:17948704",
+      "title": "Ike Dweck with zachy (18+)",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Lower East Side",
+      "venue": "Mercury Lounge - New York",
+      "start": "2026-06-18T18:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/ike-dweck-tickets/new-york-new-york-mercury-lounge-new-york-2026-06-18-6-pm/concert/17948704",
+      "source": "seatgeek",
+      "lat": 40.72211,
+      "lon": -73.986786
     },
     {
       "id": "seatgeek:18243140",
@@ -15438,7 +15652,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15456,7 +15671,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15474,7 +15690,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15492,7 +15709,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15510,7 +15728,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15528,7 +15747,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15546,7 +15766,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15564,7 +15785,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15582,7 +15804,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15600,7 +15823,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15618,7 +15842,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15636,7 +15861,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15654,7 +15880,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15672,7 +15899,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15705,7 +15933,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15723,7 +15952,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15741,7 +15971,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15759,7 +15990,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15777,7 +16009,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15795,7 +16028,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -15839,6 +16073,20 @@
       "source": "seatgeek",
       "lat": 40.729,
       "lon": -73.9922
+    },
+    {
+      "id": "seatgeek:17945670",
+      "title": "The Lost Boys - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-18-7-pm/17945670",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9846
     },
     {
       "id": "seatgeek:18063363",
@@ -15895,20 +16143,6 @@
       "source": "seatgeek",
       "lat": 40.7592,
       "lon": -73.9866
-    },
-    {
-      "id": "seatgeek:17945670",
-      "title": "The Lost Boys - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-2-tickets/theater/2026-06-18-7-pm/17945670",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
     },
     {
       "id": "seatgeek:18201379",
@@ -15993,6 +16227,20 @@
       "source": "seatgeek",
       "lat": 40.7623,
       "lon": -73.9852
+    },
+    {
+      "id": "seatgeek:17733276",
+      "title": "MJ - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Neil Simon Theatre",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-18-7-pm/17733276",
+      "source": "seatgeek",
+      "lat": 40.7632,
+      "lon": -73.9845
     },
     {
       "id": "seatgeek:17958096",
@@ -16415,7 +16663,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -16433,7 +16682,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -16451,7 +16701,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -16633,7 +16884,8 @@
       "weather": {
         "icon": "04d",
         "temp": 91,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781805600000
       }
     },
     {
@@ -16751,7 +17003,8 @@
       "weather": {
         "icon": "01d",
         "temp": 92,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781816400000
       }
     },
     {
@@ -16797,7 +17050,8 @@
       "weather": {
         "icon": "01d",
         "temp": 92,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781816400000
       }
     },
     {
@@ -16815,7 +17069,8 @@
       "weather": {
         "icon": "01d",
         "temp": 92,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781816400000
       }
     },
     {
@@ -16845,20 +17100,6 @@
       "source": "smallslive"
     },
     {
-      "id": "seatgeek:18226672",
-      "title": "Celebrity Autobiography - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Shubert Theatre - NY",
-      "start": "2026-06-18T21:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-18-9-pm/18226672",
-      "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9875
-    },
-    {
       "id": "seatgeek:18105556",
       "title": "Mickey Avalon",
       "category": "music",
@@ -16871,6 +17112,20 @@
       "source": "seatgeek",
       "lat": 40.72211,
       "lon": -73.986786
+    },
+    {
+      "id": "seatgeek:18226672",
+      "title": "Celebrity Autobiography - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Shubert Theatre - NY",
+      "start": "2026-06-18T21:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-18-9-pm/18226672",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9875
     },
     {
       "id": "nyc-parks:2176626",
@@ -16887,7 +17142,8 @@
       "weather": {
         "icon": "01d",
         "temp": 92,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781816400000
       }
     },
     {
@@ -16905,7 +17161,8 @@
       "weather": {
         "icon": "01d",
         "temp": 92,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781816400000
       }
     },
     {
@@ -17137,7 +17394,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17155,7 +17413,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17173,7 +17432,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17191,7 +17451,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17209,7 +17470,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17227,7 +17489,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17245,7 +17508,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17263,7 +17527,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17281,7 +17546,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17299,7 +17565,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17317,7 +17584,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17335,7 +17603,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17353,7 +17622,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17370,7 +17640,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17388,7 +17659,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17406,7 +17678,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17424,7 +17697,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17442,7 +17716,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17460,7 +17735,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17478,7 +17754,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17496,7 +17773,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17514,7 +17792,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17532,7 +17811,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17550,7 +17830,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17568,7 +17849,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17586,7 +17868,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17604,7 +17887,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17622,7 +17906,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17640,7 +17925,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17658,7 +17944,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17676,7 +17963,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17694,7 +17982,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17712,7 +18001,8 @@
       "weather": {
         "icon": "10n",
         "temp": 70,
-        "description": "light rain"
+        "description": "light rain",
+        "dt": 1781859600000
       }
     },
     {
@@ -17730,7 +18020,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17762,7 +18053,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17780,7 +18072,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17798,7 +18091,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17816,7 +18110,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17834,7 +18129,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17852,7 +18148,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17870,7 +18167,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17902,7 +18200,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17920,7 +18219,8 @@
       "weather": {
         "icon": "04d",
         "temp": 73,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781870400000
       }
     },
     {
@@ -17978,7 +18278,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -17995,7 +18296,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18013,7 +18315,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18092,7 +18395,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18110,7 +18414,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18128,7 +18433,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18146,7 +18452,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18164,7 +18471,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18182,7 +18490,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18200,7 +18509,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18218,7 +18528,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18236,7 +18547,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18254,7 +18566,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18272,7 +18585,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18384,7 +18698,8 @@
       "weather": {
         "icon": "04d",
         "temp": 79,
-        "description": "overcast clouds"
+        "description": "overcast clouds",
+        "dt": 1781881200000
       }
     },
     {
@@ -18562,7 +18877,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -18580,7 +18896,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -18598,7 +18915,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -18616,7 +18934,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -18634,7 +18953,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -18666,7 +18986,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -18684,7 +19005,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -19197,7 +19519,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -19215,7 +19538,8 @@
       "weather": {
         "icon": "04d",
         "temp": 85,
-        "description": "broken clouds"
+        "description": "broken clouds",
+        "dt": 1781892000000
       }
     },
     {
@@ -19390,7 +19714,8 @@
       "weather": {
         "icon": "02d",
         "temp": 84,
-        "description": "few clouds"
+        "description": "few clouds",
+        "dt": 1781902800000
       }
     },
     {
@@ -19433,6 +19758,21 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a299ede1e47bc0001ff0a5b",
+      "title": "MAMACITA : A Latin/Hip-Hop Party",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "East Village",
+      "venue": "Deluxx Fluxx",
+      "start": "2026-06-19T22:00:00",
+      "end": "2026-06-20T04:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/pynoek-mamacita-a-latinhip-hop-party-19th-jun-deluxx-fluxx-new-york-city-tickets",
+      "source": "dice",
+      "lat": 40.73166,
+      "lon": -73.98917
     },
     {
       "id": "smallslive:32796",
@@ -19501,7 +19841,8 @@
       "weather": {
         "icon": "02d",
         "temp": 79,
-        "description": "few clouds"
+        "description": "few clouds",
+        "dt": 1781913600000
       }
     },
     {
@@ -19519,7 +19860,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19537,7 +19879,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19555,7 +19898,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19573,7 +19917,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19591,7 +19936,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19609,7 +19955,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19627,7 +19974,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19645,7 +19993,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19663,7 +20012,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19681,7 +20031,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19699,7 +20050,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19717,7 +20069,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19735,7 +20088,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19753,7 +20107,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19771,7 +20126,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19789,7 +20145,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19807,7 +20164,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19825,7 +20183,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19843,7 +20202,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19873,7 +20233,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19891,7 +20252,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19909,7 +20271,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19927,7 +20290,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19945,7 +20309,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19963,7 +20328,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19981,7 +20347,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -19999,7 +20366,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20017,7 +20385,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20035,7 +20404,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20053,7 +20423,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20071,7 +20442,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20089,7 +20461,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20107,7 +20480,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20125,7 +20499,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20143,7 +20518,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20161,7 +20537,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20179,7 +20556,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20197,7 +20575,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20215,7 +20594,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20232,7 +20612,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20249,7 +20630,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20267,7 +20649,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20285,7 +20668,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20303,7 +20687,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20321,7 +20706,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20339,7 +20725,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20357,7 +20744,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20375,7 +20763,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20392,7 +20781,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20409,7 +20799,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20426,7 +20817,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20444,7 +20836,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20462,7 +20855,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20480,7 +20874,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20498,7 +20893,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20516,7 +20912,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20534,7 +20931,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20552,7 +20950,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20570,7 +20969,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20588,7 +20988,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20606,7 +21007,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20623,7 +21025,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20640,7 +21043,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20657,7 +21061,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20675,7 +21080,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20693,7 +21099,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20711,7 +21118,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20729,7 +21137,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20747,7 +21156,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20765,7 +21175,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20783,7 +21194,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20801,7 +21213,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20819,7 +21232,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20837,7 +21251,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20855,7 +21270,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20873,7 +21289,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20891,7 +21308,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20909,7 +21327,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20927,7 +21346,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20945,7 +21365,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20963,7 +21384,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20981,7 +21403,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -20999,7 +21422,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21017,7 +21441,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21035,7 +21460,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21053,7 +21479,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21071,7 +21498,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21089,7 +21517,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21107,7 +21536,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21125,7 +21555,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21143,7 +21574,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21161,7 +21593,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21179,7 +21612,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21197,7 +21631,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21215,7 +21650,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21233,7 +21669,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21251,7 +21688,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21269,7 +21707,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21287,7 +21726,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21305,7 +21745,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21323,7 +21764,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21341,7 +21783,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21359,7 +21802,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21377,7 +21821,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21395,7 +21840,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21413,7 +21859,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21431,7 +21878,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21449,7 +21897,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21467,7 +21916,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21485,7 +21935,8 @@
       "weather": {
         "icon": "01n",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781946000000
       }
     },
     {
@@ -21503,7 +21954,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21521,7 +21973,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21539,7 +21992,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21557,7 +22011,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21575,7 +22030,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21593,7 +22049,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21611,7 +22068,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21629,7 +22087,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21647,7 +22106,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21665,7 +22125,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21683,7 +22144,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21701,7 +22163,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21719,7 +22182,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21737,7 +22201,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21755,7 +22220,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21773,7 +22239,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21806,7 +22273,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21823,7 +22291,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21841,7 +22310,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21859,7 +22329,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21877,7 +22348,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21895,7 +22367,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21913,7 +22386,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21931,7 +22405,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21949,7 +22424,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21967,7 +22443,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -21985,7 +22462,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22003,7 +22481,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22021,7 +22500,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22039,7 +22519,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22057,7 +22538,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22075,7 +22557,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22093,7 +22576,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22111,7 +22595,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22129,7 +22614,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22147,7 +22633,8 @@
       "weather": {
         "icon": "01d",
         "temp": 65,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781956800000
       }
     },
     {
@@ -22190,7 +22677,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22208,7 +22696,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22226,7 +22715,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22244,7 +22734,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22262,7 +22753,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22280,7 +22772,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22298,7 +22791,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22316,7 +22810,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22334,7 +22829,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22352,7 +22848,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22370,7 +22867,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -22388,7 +22886,8 @@
       "weather": {
         "icon": "01d",
         "temp": 74,
-        "description": "clear sky"
+        "description": "clear sky",
+        "dt": 1781967600000
       }
     },
     {
@@ -32561,22 +33060,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/32692-andy-farber-quintet/",
       "source": "smallslive"
-    },
-    {
-      "id": "dice:69fb5dbaa548350001680eb2",
-      "title": "Skaterobics - All Experience Levels Instructional Class",
-      "category": "sports",
-      "borough": "Brooklyn",
-      "neighborhood": "Bushwick (West)",
-      "venue": "Xanadu",
-      "start": "2026-06-28T18:00:00",
-      "end": "2026-06-28T20:00:00",
-      "isFree": false,
-      "priceMin": 23.69,
-      "url": "https://dice.fm/event/7dgxgb-skaterobics-all-experience-levels-instructional-class-28th-jun-xanadu-new-york-city-tickets",
-      "source": "dice",
-      "lat": 40.706478,
-      "lon": -73.921529
     },
     {
       "id": "nyc-parks:2158516",
@@ -46331,6 +46814,18 @@
       "source": "nyc-open-data"
     },
     {
+      "id": "todaytix:47079",
+      "title": "Truly, Howard Hughes",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theater at St. Jean",
+      "start": "2026-09-09T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/truly-howard-hughes",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-open-data:893365:2026-09-12T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -47100,18 +47595,6 @@
       "source": "nyc-open-data"
     },
     {
-      "id": "todaytix:47070",
-      "title": "Kilgallen",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Theater at St. Jean's",
-      "start": "2026-11-28T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/kilgallen",
-      "source": "todaytix"
-    },
-    {
       "id": "nyc-open-data:893405:2026-11-29T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -47214,14 +47697,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47096",
-      "title": "the ripple, the wave that carried me home",
+      "id": "todaytix:46809",
+      "title": "The Heart",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
+      "url": "https://www.todaytix.com/nyc/shows/the-heart",
       "source": "todaytix"
     },
     {
@@ -47236,14 +47719,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46809",
-      "title": "The Heart",
+      "id": "todaytix:47096",
+      "title": "the ripple, the wave that carried me home",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "venue": "Playwrights Horizons",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-heart",
+      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
       "source": "todaytix"
     },
     {
@@ -47255,6 +47738,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/spring-awakening",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46921",
+      "title": "Ms. Blakk for President",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
       "source": "todaytix"
     },
     {
@@ -47277,17 +47771,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/come-back-to-the-5-and-dime-jimmy-dean-jimmy-dean",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46921",
-      "title": "Ms. Blakk for President",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Vineyard Theatre",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
       "source": "todaytix"
     },
     {
@@ -47335,6 +47818,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47083",
+      "title": "Hole!",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/hole",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47084",
       "title": "Degenerates",
       "category": "theater",
@@ -47357,17 +47851,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47083",
-      "title": "Hole!",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/hole",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47099",
       "title": "Narcissister",
       "category": "theater",
@@ -47379,47 +47862,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46309",
-      "title": "Imitation of Life",
+      "id": "todaytix:47097",
+      "title": "Miss Step",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Shed",
+      "venue": "Playwrights Horizons",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46615",
-      "title": "Wild Rose",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45923",
-      "title": "Bocking",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Theatre at St. Clement's",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/bocking",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46797",
-      "title": "Eisa's Mixtape",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
+      "url": "https://www.todaytix.com/nyc/shows/miss-step",
       "source": "todaytix"
     },
     {
@@ -47445,17 +47895,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47097",
-      "title": "Miss Step",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/miss-step",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47188",
       "title": "The Conversation",
       "category": "theater",
@@ -47464,6 +47903,50 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/the-conversation",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46309",
+      "title": "Imitation of Life",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Shed",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45923",
+      "title": "Bocking",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theatre at St. Clement's",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/bocking",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46615",
+      "title": "Wild Rose",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46797",
+      "title": "Eisa's Mixtape",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
       "source": "todaytix"
     },
     {
