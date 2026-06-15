@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:17:03.406Z",
-  "count": 2729,
+  "generatedAt": "2026-06-15T00:18:02.446Z",
+  "count": 2728,
   "events": [
     {
       "id": "nyc-parks:2146725",
@@ -639,19 +639,6 @@
       "source": "nyc-parks"
     },
     {
-      "id": "dice:69d7e2e98582ed0001de0cf4",
-      "title": "Sunday Afterglow (skate)",
-      "category": "sports",
-      "borough": "Brooklyn",
-      "venue": "Xanadu",
-      "start": "2026-06-14T12:00:00",
-      "end": "2026-06-14T18:00:00",
-      "isFree": false,
-      "priceMin": 13.39,
-      "url": "https://dice.fm/event/v3dvol-sunday-afterglow-skate-14th-jun-xanadu-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
       "id": "nyc-parks:2176187",
       "title": "Tea and Culture Event in the Garden",
       "category": "other",
@@ -886,18 +873,6 @@
       "source": "dice"
     },
     {
-      "id": "dice:6a284a119ff5a90001111afe",
-      "title": "Sunday Sunsets Vol. 19",
-      "category": "music",
-      "borough": "Brooklyn",
-      "venue": "Sleepwalk",
-      "start": "2026-06-14T17:00:00",
-      "end": "2026-06-14T21:00:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/nv6r33-sunday-sunsets-vol-19-14th-jun-sleepwalk-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
       "id": "dice:6a206d52bdd5430001be0cce",
       "title": "MANZDEM | Kenny Summit + Scott Wozniak ",
       "category": "music",
@@ -945,19 +920,6 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/14/silent-disco-kelly-park-playground",
       "source": "nyc-parks"
-    },
-    {
-      "id": "dice:69fb5dbab5d77600016aa87c",
-      "title": "Skaterobics - All Experience Levels Instructional Class",
-      "category": "sports",
-      "borough": "Brooklyn",
-      "venue": "Xanadu",
-      "start": "2026-06-14T18:00:00",
-      "end": "2026-06-14T20:00:00",
-      "isFree": false,
-      "priceMin": 23.69,
-      "url": "https://dice.fm/event/g5xbxa-skaterobics-all-experience-levels-instructional-class-14th-jun-xanadu-new-york-city-tickets",
-      "source": "dice"
     },
     {
       "id": "dice:6a1f40070b917c000148251c",
@@ -1032,19 +994,6 @@
       "isFree": false,
       "priceMin": 32.12,
       "url": "https://dice.fm/event/avw5rq-pincushion-puppet-club-presents-puppet-slam-14th-jun-cassette-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
-      "id": "dice:69f5082325a1ea000159b017",
-      "title": "Dominatrix • Bill Converse • Parlor Walls • Carlos Souffront",
-      "category": "music",
-      "borough": "Manhattan",
-      "venue": "Pianos: Showroom",
-      "start": "2026-06-14T19:00:00",
-      "end": "2026-06-14T22:30:00",
-      "isFree": false,
-      "priceMin": 22.66,
-      "url": "https://dice.fm/event/yoeebv-dominatrix-bill-converse-parlor-walls-carlos-souffront-14th-jun-pianos-showroom-new-york-tickets",
       "source": "dice"
     },
     {
@@ -1643,27 +1592,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:44496",
-      "title": "A Woman Among Women",
+      "id": "todaytix:46488",
+      "title": "What Happened Was",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "LCT3 at the Claire Tow Theater",
+      "venue": "Audible’s Minetta Lane Theatre",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/a-woman-among-women",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44748",
-      "title": "Well, I'll Let You Go",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Studio Seaview",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 52,
-      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
+      "url": "https://www.todaytix.com/nyc/shows/what-happened-was",
       "source": "todaytix"
     },
     {
@@ -1679,14 +1615,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46488",
-      "title": "What Happened Was",
+      "id": "todaytix:46642",
+      "title": "Label•less",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Audible’s Minetta Lane Theatre",
+      "venue": "The Duke on 42nd Street",
       "start": "2026-06-14T19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/what-happened-was",
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/label-less",
       "source": "todaytix"
     },
     {
@@ -1702,30 +1639,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46870",
-      "title": "David Copperfield",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater A",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46642",
-      "title": "Label•less",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Duke on 42nd Street",
-      "start": "2026-06-14T19:30:00",
-      "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/label-less",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46912",
       "title": "Catch of the Day",
       "category": "theater",
@@ -1735,6 +1648,18 @@
       "isFree": false,
       "priceMin": 47,
       "url": "https://www.todaytix.com/nyc/shows/catch-of-the-day",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46870",
+      "title": "David Copperfield",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater A",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
       "source": "todaytix"
     },
     {
@@ -1758,6 +1683,30 @@
       "isFree": false,
       "priceMin": 100,
       "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44496",
+      "title": "A Woman Among Women",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "LCT3 at the Claire Tow Theater",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/a-woman-among-women",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44748",
+      "title": "Well, I'll Let You Go",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Studio Seaview",
+      "start": "2026-06-14T19:30:00",
+      "isFree": false,
+      "priceMin": 52,
+      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
       "source": "todaytix"
     },
     {
@@ -1994,6 +1943,18 @@
       "end": "2026-06-15T04:00:00",
       "isFree": true,
       "url": "https://dice.fm/event/nv6nb9-unblocked-afters-late-night-tech-house-14th-jun-silo-brooklyn-brooklyn-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a2f37078c70150001b8efa3",
+      "title": "Puerto Rican Day Parade after party ",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "SEA WOLF BUSHWICK",
+      "start": "2026-06-14T22:00:00",
+      "end": "2026-06-15T03:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/bb2v8k-puerto-rican-day-parade-after-party-14th-jun-sea-wolf-bushwick-new-york-city-tickets",
       "source": "dice"
     },
     {
@@ -4004,12 +3965,12 @@
       "title": "Lockimara / Sylvie Lou / Birdie Wren ",
       "category": "music",
       "borough": "Manhattan",
-      "venue": "Pianos: The Mezzanine",
+      "venue": "Pianos: Showroom",
       "start": "2026-06-16T19:00:00",
       "end": "2026-06-16T22:30:00",
       "isFree": false,
       "priceMin": 12,
-      "url": "https://dice.fm/event/yow9kr-lockimara-sylvie-lou-birdie-wren-16th-jun-pianos-the-mezzanine-new-york-tickets",
+      "url": "https://dice.fm/event/yow9kr-lockimara-sylvie-lou-birdie-wren-16th-jun-pianos-showroom-new-york-tickets",
       "source": "dice"
     },
     {
@@ -4088,6 +4049,32 @@
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/fred-hersch",
       "source": "village-vanguard"
+    },
+    {
+      "id": "dice:6a14a916f93eef0001b15c57",
+      "title": "Your Friend, Claudine w/ Kolezanka and Adi",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "Purgatory",
+      "start": "2026-06-16T20:00:00",
+      "end": "2026-06-16T23:30:00",
+      "isFree": false,
+      "priceMin": 13.6,
+      "url": "https://dice.fm/event/eo8e86-your-friend-claudine-w-kolezanka-and-adi-16th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a0c83c0ee412800014340a9",
+      "title": "Polina West *EP Release* ",
+      "category": "music",
+      "borough": "Brooklyn",
+      "venue": "C'mon Everybody",
+      "start": "2026-06-16T20:00:00",
+      "end": "2026-06-16T23:00:00",
+      "isFree": false,
+      "priceMin": 17.41,
+      "url": "https://dice.fm/event/6davdq-polina-west-ep-release-16th-jun-cmon-everybody-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "dice:6a14d9f63b80100001710ee7",
@@ -7018,18 +7005,6 @@
       "isFree": false,
       "priceMin": 25,
       "url": "https://dice.fm/event/g5ag32-palosanto-on-the-roof-june-18th-18th-jun-rooftop-at-arlo-williamsburg-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
-      "id": "dice:6a0debc4b9f68f0001635878",
-      "title": "DOWNSTAIRS: Happy Birthday Ripcut",
-      "category": "music",
-      "borough": "Brooklyn",
-      "venue": "Purgatory",
-      "start": "2026-06-18T18:00:00",
-      "end": "2026-06-18T22:00:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/8eloa7-downstairs-happy-birthday-ripcut-18th-jun-purgatory-new-york-tickets",
       "source": "dice"
     },
     {
@@ -18696,6 +18671,19 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:69d7e38d3886bd00018739ca",
+      "title": "Xanadu Day Disco (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-27T12:00:00",
+      "end": "2026-06-27T18:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/8e5vx2-xanadu-day-disco-skate-27th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:black-radish-farmstand:2026-06-27",
       "title": "Black Radish Farmstand",
       "category": "food",
@@ -19554,6 +19542,19 @@
       "isFree": true,
       "url": "https://www.smorgasburg.com/",
       "source": "smorgasburg"
+    },
+    {
+      "id": "dice:69d7e2eaaa8a570001ce4c1e",
+      "title": "Sunday Afterglow (skate)",
+      "category": "sports",
+      "borough": "Brooklyn",
+      "venue": "Xanadu",
+      "start": "2026-06-28T12:00:00",
+      "end": "2026-06-28T18:00:00",
+      "isFree": false,
+      "priceMin": 13.39,
+      "url": "https://dice.fm/event/6dk9x3-sunday-afterglow-skate-28th-jun-xanadu-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-open-data:890236:2026-06-28T12:00:00.000",
@@ -22873,17 +22874,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33154-alan-broadbent-trio/",
       "source": "smallslive"
-    },
-    {
-      "id": "todaytix:40301",
-      "title": "Chamber Music Society of Lincoln Center: Summer Evenings I",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Alice Tully Hall",
-      "start": "2026-07-07T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-i",
-      "source": "todaytix"
     },
     {
       "id": "todaytix:44499",
@@ -32316,17 +32306,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46815",
-      "title": "The Vagina Monologues",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-vagina-monologues",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46814",
       "title": "The Full Monty",
       "category": "theater",
@@ -32335,6 +32314,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/the-full-monty-on-broadway",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46815",
+      "title": "The Vagina Monologues",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-vagina-monologues",
       "source": "todaytix"
     },
     {
