@@ -8,6 +8,7 @@ import { summarizeSources } from './sourceSummary';
 import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
 import { enrichWithWeather } from './weatherEnrich';
 import { enrichWithGeocode } from './geocodeEnrich';
+import { enrichWithNeighborhoods } from './neighborhoodEnrich';
 import {
   fetchBpl,
   fetchCityParks,
@@ -100,9 +101,20 @@ async function main(): Promise<void> {
     if (geocoded > 0) console.log(`  geocode: +${geocoded} venues resolved`);
   }
 
+  // Replace NTA census neighborhood names with community-recognized names from
+  // Google Maps reverse geocoding. Results are cached in neighborhood-cache.json
+  // so each unique lat/lon is only ever looked up once across all pipeline runs.
+  const withNeighborhoods = await enrichWithNeighborhoods(withCoords, process.env.GOOGLE_MAPS_API_KEY);
+  if (process.env.GOOGLE_MAPS_API_KEY) {
+    const overridden = withNeighborhoods.filter(
+      (e, i) => e.neighborhood !== withCoords[i].neighborhood,
+    ).length;
+    if (overridden > 0) console.log(`  neighborhoods: ${overridden} events updated with Google Maps names`);
+  }
+
   // Attach near-term weather forecast to outdoor events (parks, markets) within
   // the next 5 days. Stale weather is stripped on events now outside the window.
-  const withWeather = await enrichWithWeather(withCoords, process.env.OPENWEATHER_API_KEY);
+  const withWeather = await enrichWithWeather(withNeighborhoods, process.env.OPENWEATHER_API_KEY);
   if (process.env.OPENWEATHER_API_KEY) {
     const weatherCount = withWeather.filter((e) => e.weather).length;
     if (weatherCount > 0) console.log(`  weather: ${weatherCount} outdoor events have a forecast`);

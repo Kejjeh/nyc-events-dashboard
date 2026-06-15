@@ -41,7 +41,7 @@ export interface Event {
   /** Venue longitude (WGS-84), when available from the source or geocoded. */
   lon?: number;
   /** Near-term weather forecast for outdoor events within the 5-day window. */
-  weather?: { icon: string; temp: number; description: string };
+  weather?: { icon: string; temp: number; description: string; dt?: number };
 }
 
 /** Per-source health for the published payload, so silent drops stay visible. */
