@@ -49,6 +49,30 @@ describe('normalizeCityParksEvent', () => {
     expect(event!.priceMin).toBe(25);
   });
 
+  it('does not mark a paid event free just because "free" appears in the cost note', () => {
+    const event = normalizeCityParksEvent({
+      ...concert,
+      cost: 'Adults $15, children under 12 free',
+    });
+    expect(event!.isFree).toBe(false);
+    expect(event!.priceMin).toBe(15); // lowest $-anchored amount, not the "12"
+  });
+
+  it('takes the lowest dollar amount for tiered pricing', () => {
+    const event = normalizeCityParksEvent({ ...concert, cost: 'Non-members $20, Members $10' });
+    expect(event!.priceMin).toBe(10);
+  });
+
+  it('decodes numeric and named HTML entities (ellipsis, nbsp)', () => {
+    const event = normalizeCityParksEvent({ ...concert, title: 'Jazz Night&#8230;&nbsp;&amp; More' });
+    expect(event!.title).toBe('Jazz Night… & More');
+  });
+
+  it('drops a record with a missing start_date instead of crashing', () => {
+    const { start_date, ...noStart } = concert;
+    expect(normalizeCityParksEvent(noStart)).toBeNull();
+  });
+
   it('drops events that cannot be placed in one of the four boroughs', () => {
     const event = normalizeCityParksEvent({
       ...concert,

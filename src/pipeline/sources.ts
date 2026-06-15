@@ -244,21 +244,25 @@ export async function fetchDice(): Promise<RawBatch> {
           `https://dice.fm/_next/data/${buildId}/en/browse/${DICE_NYC_SLUG}/${filter}.json`,
           { headers: { ...headers, Accept: 'application/json' } },
         );
-        if (!res.ok) return [];
-        return (((await res.json()) as any)?.pageProps?.events ?? []) as any[];
+        if (!res.ok) return { failed: true, events: [] as any[] };
+        return { failed: false, events: (((await res.json()) as any)?.pageProps?.events ?? []) as any[] };
       } catch {
-        return [];
+        return { failed: true, events: [] as any[] };
       }
     }),
   );
 
+  // If any filter failed (after retries), fail the whole source so carry-forward
+  // preserves that category's last-good data instead of silently dropping it.
+  if (pages.some((p) => p.failed)) {
+    throw new Error('DICE: one or more browse filters failed to fetch');
+  }
+
   const byId = new Map<string, any>();
-  for (const event of pages.flat()) {
+  for (const event of pages.flatMap((p) => p.events)) {
     if (event?.id) byId.set(event.id, event);
   }
   const records = [...byId.values()];
-  // DICE NYC always has listings; zero across all filters means the shape changed
-  // — fail loud so carry-forward keeps the last-good data.
   if (records.length === 0) {
     throw new Error('DICE: all filters parsed to zero events');
   }
@@ -313,6 +317,14 @@ export async function fetchTodayTix(nowIso: string): Promise<RawBatch> {
   const shows = ((await res.json()) as any)?.data ?? [];
   if (!Array.isArray(shows) || shows.length === 0) {
     throw new Error('TodayTix: zero shows parsed');
+  }
+  // The catalog always has off-Broadway shows; zero matches means the subcategory
+  // slug drifted — fail loud so carry-forward keeps the last-good theater data.
+  const offBroadway = shows.filter((s: any) =>
+    (s.subcategories ?? []).some((x: any) => x?.slug === 'off-broadway'),
+  );
+  if (offBroadway.length === 0) {
+    throw new Error('TodayTix: zero off-Broadway shows (schema drift?)');
   }
   const today = nycDateOf(nowIso);
   return { source: 'todaytix', records: shows.map((s: any) => ({ ...s, _today: today })) };

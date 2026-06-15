@@ -52,7 +52,13 @@ export function assembleEvents(batches: RawBatch[]): Event[] {
   for (const batch of batches) {
     const normalize = NORMALIZERS[batch.source];
     for (const record of batch.records) {
-      const event = normalize(record);
+      let event: Event | null = null;
+      try {
+        event = normalize(record);
+      } catch {
+        // A single malformed record must never sink the whole refresh.
+        continue;
+      }
       if (event && typeof event.start === 'string' && event.start.length >= 10) {
         byId.set(event.id, event);
       }

@@ -71,6 +71,17 @@ describe('normalizeSmorgasburgEvent', () => {
     });
   });
 
+  it('drops a special event with a missing or invalid start date', () => {
+    expect(
+      normalizeSmorgasburgEvent({
+        kind: 'special',
+        title: 'Draft',
+        fullUrl: '/x',
+        location: { addressTitle: 'Prospect Park', markerLat: 40.6602037, markerLng: -73.9689558 },
+      }),
+    ).toBeNull();
+  });
+
   it('drops a special event outside the four boroughs (Smorgasburg Miami)', () => {
     const event = normalizeSmorgasburgEvent({
       kind: 'special',

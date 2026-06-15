@@ -1,7 +1,11 @@
 import type { Borough, Event } from '../domain/event';
 import { boroughFromLatLng } from './borough';
+import { nycDateOf } from './datetime';
 
 const GREENMARKET_URL = 'https://www.grownyc.org/greenmarket';
+/** Seasonal (non-year-round) greenmarkets run roughly June–November outdoors. */
+const SEASON_START_MONTH = 6;
+const SEASON_END_MONTH = 11;
 
 const DAY_INDEX: Record<string, number> = {
   sun: 0, mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6,
@@ -66,15 +70,43 @@ export function parseMarketHours(input: string): { start: string; end?: string }
   if (!startC) return null;
   const endC = endRaw ? parseClock(endRaw) : null;
   // A meridiem-less start ("1-5 p.m.") inherits the end's meridiem.
-  const start = to24(startC, startC.mer ?? endC?.mer ?? null);
+  const startInherited = startC.mer === null;
+  let start = to24(startC, startC.mer ?? endC?.mer ?? null);
   if (!start) return null;
 
   const result: { start: string; end?: string } = { start };
   if (endC) {
     const end = to24(endC, endC.mer ?? startC.mer ?? null);
-    if (end) result.end = end;
+    if (end) {
+      // An inherited-meridiem start that lands at/after the end inverted the
+      // range ("8 - 4 p.m." is 8 AM–4 PM, not 8 PM): the start is actually AM.
+      if (startInherited && end <= start) {
+        start = to24(startC, 'am') ?? start;
+        result.start = start;
+      }
+      result.end = end;
+    }
   }
   return result;
+}
+
+const ORDINAL_WORDS: Record<string, number> = {
+  '1st': 1, first: 1, '2nd': 2, second: 2, '3rd': 3, third: 3, '4th': 4, fourth: 4, '5th': 5, fifth: 5,
+};
+
+/**
+ * Returns the weeks-of-month (1–5) an ordinal-qualified market operates, or null
+ * when it runs every week. "Wednesday (1st & 3rd)" -> [1,3]; "(monthly)" -> [1].
+ */
+export function parseDayOrdinals(input: string): number[] | null {
+  if (!input.includes('(') || !/1st|2nd|3rd|4th|5th|first|second|third|fourth|fifth|monthly|each month/i.test(input)) {
+    return null;
+  }
+  const ordinals = new Set<number>();
+  for (const m of input.toLowerCase().matchAll(/\b(1st|2nd|3rd|4th|5th|first|second|third|fourth|fifth)\b/g)) {
+    ordinals.add(ORDINAL_WORDS[m[1]]);
+  }
+  return ordinals.size > 0 ? [...ordinals].sort((a, b) => a - b) : [1];
 }
 
 export interface GreenmarketDescriptor {
@@ -99,7 +131,9 @@ export function greenmarketDescriptors(
   nowIso: string,
   weeksAhead = 6,
 ): GreenmarketDescriptor[] {
-  const start = new Date(nowIso);
+  // Seed from the NYC calendar date so a late-evening (UTC next-day) run still
+  // includes today's markets.
+  const [year, month, day] = nycDateOf(nowIso).split('-').map(Number);
   const out: GreenmarketDescriptor[] = [];
 
   for (const row of rows) {
@@ -110,9 +144,20 @@ export function greenmarketDescriptors(
     const hours = parseMarketHours(row.hoursoperations ?? '');
     if (!hours) continue;
 
-    const cursor = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate()));
+    const ordinals = parseDayOrdinals(row.daysoperation ?? '');
+    const yearRound = (row.open_year_round ?? '').trim().toLowerCase().startsWith('yes');
+
+    const cursor = new Date(Date.UTC(year, month - 1, day));
     for (let i = 0; i < weeksAhead * 7; i++) {
-      if (days.has(cursor.getUTCDay())) {
+      const cursorMonth = cursor.getUTCMonth() + 1;
+      const inSeason =
+        yearRound || (cursorMonth >= SEASON_START_MONTH && cursorMonth <= SEASON_END_MONTH);
+      const weekOfMonth = Math.ceil(cursor.getUTCDate() / 7);
+      if (
+        inSeason &&
+        days.has(cursor.getUTCDay()) &&
+        (!ordinals || ordinals.includes(weekOfMonth))
+      ) {
         out.push({
           marketname: row.marketname,
           borough,

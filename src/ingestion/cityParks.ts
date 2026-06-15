@@ -19,17 +19,23 @@ function boroughFromName(...values: (string | undefined)[]): Borough | null {
 
 function decodeEntities(text: string): string {
   return (text ?? '')
-    .replace(/&#0?38;|&amp;/g, '&')
-    .replace(/&#8217;|&#039;|&#39;/g, "'")
-    .replace(/&#8211;/g, '–')
-    .replace(/&#8212;/g, '—')
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&hellip;/g, '…')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
+    .replace(/&#?39;|&apos;/g, "'")
+    .replace(/&amp;/g, '&')
     .trim();
 }
 
 const CONCERT_RE = /concert|music|summerstage|performance/i;
 
 export function normalizeCityParksEvent(raw: any): Event | null {
+  if (typeof raw.start_date !== 'string') return null; // malformed feed item
+
   const venue = raw.venue ?? {};
   const borough =
     boroughFromLatLng(parseFloat(venue.geo_lat), parseFloat(venue.geo_lng)) ??
@@ -39,9 +45,12 @@ export function normalizeCityParksEvent(raw: any): Event | null {
   const categories: string[] = (raw.categories ?? []).map((c: any) => c?.name ?? '');
   const category: Category = categories.some((name) => CONCERT_RE.test(name)) ? 'music' : 'other';
 
+  // "Free" only when the whole field is free/empty — not when "free" appears in a
+  // note like "children under 12 free". Price is the lowest $-anchored amount.
   const cost: string = (raw.cost ?? '').trim();
-  const isFree = cost === '' || /free/i.test(cost);
-  const priceMatch = cost.match(/(\d+(?:\.\d+)?)/);
+  const isFree = cost === '' || cost.toLowerCase() === 'free';
+  const dollarAmounts = [...cost.matchAll(/\$\s*(\d+(?:\.\d+)?)/g)].map((m) => parseFloat(m[1]));
+  const priceMin = !isFree && dollarAmounts.length > 0 ? Math.min(...dollarAmounts) : undefined;
 
   return {
     id: `cityparks:${raw.id}`,
@@ -50,9 +59,9 @@ export function normalizeCityParksEvent(raw: any): Event | null {
     borough,
     venue: venue.venue,
     start: raw.start_date.replace(' ', 'T'),
-    ...(raw.end_date && { end: raw.end_date.replace(' ', 'T') }),
+    ...(typeof raw.end_date === 'string' && { end: raw.end_date.replace(' ', 'T') }),
     isFree,
-    ...(!isFree && priceMatch && { priceMin: parseFloat(priceMatch[1]) }),
+    ...(priceMin !== undefined && { priceMin }),
     url: raw.url,
     source: 'cityparks',
   };

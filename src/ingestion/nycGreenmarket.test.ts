@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
   parseMarketDays,
   parseMarketHours,
+  parseDayOrdinals,
   greenmarketDescriptors,
   normalizeGreenmarketEvent,
 } from './nycGreenmarket';
@@ -31,8 +32,28 @@ describe('parseMarketHours', () => {
     expect(parseMarketHours(input)).toEqual(expected);
   });
 
+  it.each([
+    ['8 - 4 p.m.', { start: '08:00:00', end: '16:00:00' }], // morning-to-afternoon: start is AM
+    ['11-4 p.m.', { start: '11:00:00', end: '16:00:00' }],
+  ])('disambiguates an inherited-meridiem morning start "%s"', (input, expected) => {
+    expect(parseMarketHours(input)).toEqual(expected);
+  });
+
   it('returns null for unparseable hours', () => {
     expect(parseMarketHours('TBD')).toBeNull();
+  });
+});
+
+describe('parseDayOrdinals', () => {
+  it.each([
+    ['Wednesday', null],
+    ['Mon-Sat', null],
+    ['Wednesday (1st & 3rd)', [1, 3]],
+    ['Monday (1st and 3rd)', [1, 3]],
+    ['Wednesday (2nd of each month)', [2]],
+    ['Sunday (monthly)', [1]],
+  ])('parses week-of-month ordinals from "%s"', (input, expected) => {
+    expect(parseDayOrdinals(input)).toEqual(expected);
   });
 });
 
@@ -63,6 +84,29 @@ describe('greenmarketDescriptors', () => {
     const statenIsland = { ...MANHATTAN_ROW, latitude: '40.5795', longitude: '-74.1502' };
     const noDays = { ...MANHATTAN_ROW, daysoperation: 'TBD' };
     expect(greenmarketDescriptors([statenIsland, noDays], '2026-07-01T12:00:00Z', 3)).toEqual([]);
+  });
+
+  it('skips seasonal markets out of season but keeps year-round ones', () => {
+    const seasonal = { ...MANHATTAN_ROW, open_year_round: 'No' };
+    const yearRound = { ...MANHATTAN_ROW, open_year_round: 'Yes' };
+    expect(greenmarketDescriptors([seasonal], '2026-01-15T12:00:00Z', 4)).toEqual([]); // winter
+    expect(greenmarketDescriptors([yearRound], '2026-01-15T12:00:00Z', 4).length).toBeGreaterThan(0);
+  });
+
+  it('only emits ordinal-qualified markets on their weeks of the month', () => {
+    const row = { ...MANHATTAN_ROW, daysoperation: 'Wednesday (1st & 3rd)' };
+    const ds = greenmarketDescriptors([row], '2026-07-01T12:00:00Z', 8);
+    expect(ds.length).toBeGreaterThan(0);
+    for (const d of ds) {
+      const weekOfMonth = Math.ceil(parseInt(d.date.slice(8), 10) / 7);
+      expect([1, 3]).toContain(weekOfMonth);
+    }
+  });
+
+  it('seeds the cursor from the NYC date, not UTC, on a late-evening run', () => {
+    const daily = { ...MANHATTAN_ROW, daysoperation: 'Mon-Sun', open_year_round: 'Yes' };
+    const ds = greenmarketDescriptors([daily], '2026-07-02T03:00:00Z', 1); // 11pm ET Jul 1
+    expect(ds[0].date).toBe('2026-07-01');
   });
 });
 

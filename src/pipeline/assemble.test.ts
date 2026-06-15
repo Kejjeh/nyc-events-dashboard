@@ -78,6 +78,28 @@ describe('assembleEvents', () => {
     expect(events).toHaveLength(1);
   });
 
+  it('skips a record whose normalizer throws instead of failing the whole batch', () => {
+    const batches = [
+      {
+        source: 'ticketmaster' as const,
+        records: [
+          { id: 'broken', name: 'No embedded' }, // normalizeTicketmasterEvent will throw on raw._embedded
+          {
+            id: 'good',
+            name: 'Good Show',
+            url: 'u',
+            dates: { start: { dateTime: '2026-09-01T23:00:00Z' } },
+            classifications: [{ segment: { name: 'Music' } }],
+            priceRanges: [{ currency: 'USD', min: 10, max: 20 }],
+            _embedded: { venues: [{ name: 'MSG', city: { name: 'New York' } }] },
+          },
+        ],
+      },
+    ];
+    const events = assembleEvents(batches);
+    expect(events.map((e) => e.id)).toEqual(['ticketmaster:good']);
+  });
+
   it('skips records that normalize to an unusable start instead of throwing', () => {
     const batches = [
       {

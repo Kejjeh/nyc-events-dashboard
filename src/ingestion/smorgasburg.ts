@@ -1,5 +1,5 @@
 import type { Event } from '../domain/event';
-import { utcToNycLocal } from './datetime';
+import { utcToNycLocal, nycDateOf } from './datetime';
 import { boroughFromLatLng } from './borough';
 
 /** Smorgasburg runs every weekend, April–October. */
@@ -37,8 +37,9 @@ const toDateStr = (d: Date) =>
  * Sunday Prospect Park) within `weeksAhead`, limited to the April–October season.
  */
 export function smorgasburgMarketDescriptors(nowIso: string, weeksAhead = 8): MarketDescriptor[] {
-  const start = new Date(nowIso);
-  const cursor = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate()));
+  // Seed from the NYC calendar date so a late-evening (UTC next-day) run keeps today.
+  const [year, month, day] = nycDateOf(nowIso).split('-').map(Number);
+  const cursor = new Date(Date.UTC(year, month - 1, day));
   const out: MarketDescriptor[] = [];
 
   for (let i = 0; i < weeksAhead * 7; i++) {
@@ -72,21 +73,27 @@ function normalizeMarket(raw: MarketDescriptor): Event {
   };
 }
 
-/** Normalizes a Squarespace special-event record; null when outside the four boroughs. */
+/** Normalizes a Squarespace special-event record; null when unplaceable or undated. */
 function normalizeSpecial(raw: any): Event | null {
   const loc = raw.location ?? {};
   const borough = boroughFromLatLng(loc.markerLat, loc.markerLng);
   if (!borough) {
     return null;
   }
+  // A draft/malformed feed item can lack a valid startDate — drop rather than crash.
+  const startMs = new Date(raw.startDate).getTime();
+  if (!Number.isFinite(startMs)) {
+    return null;
+  }
+  const endMs = raw.endDate != null ? new Date(raw.endDate).getTime() : NaN;
   return {
     id: `smorgasburg:event:${raw.fullUrl}`,
     title: raw.title,
     category: 'food',
     borough,
     venue: loc.addressTitle || loc.addressLine1 || 'Smorgasburg',
-    start: utcToNycLocal(new Date(raw.startDate).toISOString()),
-    ...(raw.endDate && { end: utcToNycLocal(new Date(raw.endDate).toISOString()) }),
+    start: utcToNycLocal(new Date(startMs).toISOString()),
+    ...(Number.isFinite(endMs) && { end: utcToNycLocal(new Date(endMs).toISOString()) }),
     isFree: true,
     url: `https://www.smorgasburg.com${raw.fullUrl}`,
     source: 'smorgasburg',
