@@ -6,13 +6,18 @@ import { neighborhoodFromLatLng } from './neighborhood';
 /**
  * Maps a DICE primary-filter tag value to our taxonomy. Each event self-tags via
  * tags_types, so multi-filter fetches need no per-filter plumbing. DICE NYC has
- * no food tag, so this source never produces 'food'.
+ * no food tag, so this source never produces 'food'. Art → museum; the community
+ * tags (social/talks/wellbeing) → social.
  */
 const DICE_TAG_CATEGORY: Record<string, Category> = {
   'culture:comedy': 'comedy',
   'culture:theatre': 'theater',
   'culture:film': 'film',
   'culture:sport': 'sports',
+  'culture:art': 'museum',
+  'culture:social': 'social',
+  'culture:talks': 'social',
+  'culture:wellbeing': 'social',
   'music:gig': 'music',
   'music:dj': 'music',
   'music:party': 'music',

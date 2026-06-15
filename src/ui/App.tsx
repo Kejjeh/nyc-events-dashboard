@@ -27,6 +27,7 @@ const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'food', label: 'Food' },
   { key: 'sports', label: 'Sports' },
   { key: 'museum', label: 'Museum' },
+  { key: 'social', label: 'Social' },
   { key: 'other', label: 'Other' },
 ];
 const SORTS: { key: SortKey; label: string }[] = [

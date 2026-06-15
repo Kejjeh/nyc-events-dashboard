@@ -86,8 +86,10 @@ describe('normalizeDiceEvent', () => {
     ['music:gig', 'music'],
     ['music:dj', 'music'],
     ['music:party', 'music'],
-    ['culture:art', 'other'],
-    ['culture:talks', 'other'],
+    ['culture:art', 'museum'],
+    ['culture:social', 'social'],
+    ['culture:talks', 'social'],
+    ['culture:wellbeing', 'social'],
   ])('maps DICE tag %s to category %s', (tagValue, expected) => {
     const event = normalizeDiceEvent({
       id: 'x',
@@ -101,14 +103,14 @@ describe('normalizeDiceEvent', () => {
     expect(event!.category).toBe(expected);
   });
 
-  it('defaults a non-comedy tag to the other category', () => {
+  it('defaults an unmapped tag to the other category', () => {
     const event = normalizeDiceEvent({
-      id: 'arttag000000000000000000',
-      name: 'Gallery Thing',
-      perm_name: 'gallery-thing',
+      id: 'unkn0000000000000000000000',
+      name: 'Mystery Thing',
+      perm_name: 'mystery-thing',
       dates: { event_start_date: '2026-06-20T20:00:00-04:00' },
       price: { amount: 0, amount_from: null },
-      tags_types: [{ value: 'culture:art' }],
+      tags_types: [{ value: 'culture:somethingnew' }],
       venues: [{ name: 'X', location: { lat: 40.7308, lng: -74.0027 } }],
     });
     expect(event!.category).toBe('other');

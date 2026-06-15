@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T05:06:42.227Z",
-  "count": 2904,
+  "generatedAt": "2026-06-15T05:45:48.279Z",
+  "count": 2932,
   "sources": [
     {
       "source": "nyc-parks",
@@ -24,7 +24,7 @@
     },
     {
       "source": "todaytix",
-      "count": 148,
+      "count": 147,
       "fresh": true
     },
     {
@@ -33,13 +33,13 @@
       "fresh": true
     },
     {
-      "source": "cityparks",
-      "count": 126,
+      "source": "dice",
+      "count": 143,
       "fresh": true
     },
     {
-      "source": "dice",
-      "count": 114,
+      "source": "cityparks",
+      "count": 126,
       "fresh": true
     },
     {
@@ -1434,6 +1434,19 @@
       "source": "nyc-parks"
     },
     {
+      "id": "dice:6a078ae5dd70be0001c681ed",
+      "title": "DOWNSTAIRS: Fiber Night Crafty Bug Office Hours",
+      "category": "museum",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-15T18:30:00",
+      "end": "2026-06-15T21:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/6da7yq-downstairs-fiber-night-crafty-bug-office-hours-15th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2178997",
       "title": "NY Classical: \"The Tragedy of Julius Caesar\"",
       "category": "other",
@@ -1513,18 +1526,6 @@
       "source": "dice"
     },
     {
-      "id": "todaytix:44703",
-      "title": "Jerome",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 57,
-      "url": "https://www.todaytix.com/nyc/shows/jerome",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:7062",
       "title": "Chamber Magic",
       "category": "theater",
@@ -1549,75 +1550,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:24562",
-      "title": "Speakeasy Magick ",
+      "id": "todaytix:46557",
+      "title": "Paradise Club Presents: Salvage City Supper Club",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Overlook Bar",
+      "venue": "Paradise Club",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 215,
-      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:39089",
-      "title": "New York Comedy Club (East Village)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Comedy Club (East Village)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 27,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:28808",
-      "title": "Singfeld! A Musical About Nothing",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Jerry Orbach Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:41648",
-      "title": "New York Comedy Club (Upper West Side)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Comedy Club (Upper West Side)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47000",
-      "title": "clinamen",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Park Avenue Armory",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 28,
-      "url": "https://www.todaytix.com/nyc/shows/clinamen",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47004",
-      "title": "The People Versus Lenny Bruce",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Theatre Row, Theatre Four",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/the-people-versus-lenny-bruce",
+      "priceMin": 105.88,
+      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
       "source": "todaytix"
     },
     {
@@ -1645,15 +1586,63 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46557",
-      "title": "Paradise Club Presents: Salvage City Supper Club",
+      "id": "todaytix:28808",
+      "title": "Singfeld! A Musical About Nothing",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Paradise Club",
+      "venue": "Jerry Orbach Theatre",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 105.88,
-      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:39089",
+      "title": "New York Comedy Club (East Village)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (East Village)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24562",
+      "title": "Speakeasy Magick ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Overlook Bar",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 215,
+      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44703",
+      "title": "Jerome",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 57,
+      "url": "https://www.todaytix.com/nyc/shows/jerome",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41648",
+      "title": "New York Comedy Club (Upper West Side)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Upper West Side)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
       "source": "todaytix"
     },
     {
@@ -1681,111 +1670,27 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46163",
-      "title": "Music City",
+      "id": "todaytix:47000",
+      "title": "clinamen",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "St. Luke's Theatre",
+      "venue": "Park Avenue Armory",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/music-city",
+      "priceMin": 28,
+      "url": "https://www.todaytix.com/nyc/shows/clinamen",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46480",
-      "title": "Henry VI: A Trilogy in Two Parts",
+      "id": "todaytix:47004",
+      "title": "The People Versus Lenny Bruce",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Public Theater",
+      "venue": "Theatre Row, Theatre Four",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:42035",
-      "title": "I'm Almost There",
-      "category": "theater",
-      "borough": "Brooklyn",
-      "venue": "BAM Fisher (Fishman Space)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 31,
-      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:42261",
-      "title": "Heathers The Musical",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:43651",
-      "title": "LOS SOLES TRUNCOS",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:24608",
-      "title": "Little Shop of Horrors",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Westside Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 55,
-      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:25028",
-      "title": "Friends The Musical Parody",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Theater Center",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/friends-the-musical-parody",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45703",
-      "title": "Dirty Books",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Bated Breath Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 59,
-      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46638",
-      "title": "Heated Rivalry: The Unauthorized Musical Parody",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Club",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 87,
-      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/the-people-versus-lenny-bruce",
       "source": "todaytix"
     },
     {
@@ -1825,6 +1730,138 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46956",
+      "title": "NT Live: Les Liaisons Dangereuses",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Peter Jay Sharp Theatre at Symphony Space",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/nt-live-les-liaisons-dangereuses",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45703",
+      "title": "Dirty Books",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Bated Breath Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 59,
+      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46163",
+      "title": "Music City",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "St. Luke's Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/music-city",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46772",
+      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Superfine, Dumbo",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46638",
+      "title": "Heated Rivalry: The Unauthorized Musical Parody",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Club",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 87,
+      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:42035",
+      "title": "I'm Almost There",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "BAM Fisher (Fishman Space)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 31,
+      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:43651",
+      "title": "LOS SOLES TRUNCOS",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:42261",
+      "title": "Heathers The Musical",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24608",
+      "title": "Little Shop of Horrors",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Westside Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 55,
+      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:25028",
+      "title": "Friends The Musical Parody",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Theater Center",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/friends-the-musical-parody",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46963",
       "title": "Standard Lottery - Romeo & Juliet: Free Shakespeare in the Park",
       "category": "theater",
@@ -1845,6 +1882,18 @@
       "isFree": false,
       "priceMin": 57,
       "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:24867",
+      "title": "Katsura Sunshine's Rakugo",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 25,
+      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
       "source": "todaytix"
     },
     {
@@ -1872,18 +1921,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:24867",
-      "title": "Katsura Sunshine's Rakugo",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 25,
-      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46942",
       "title": "Camping",
       "category": "theater",
@@ -1904,65 +1941,6 @@
       "start": "2026-06-15T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:16859",
-      "title": "Amateur Night at The Apollo",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Apollo Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/amateur-night",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:1299",
-      "title": "Perfect Crime",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Theater Center",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:39635",
-      "title": "La Llamada",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:32431",
-      "title": "New York Comedy Club (Midtown)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Comedy Club (Midtown)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 27,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44745",
-      "title": "Masquerade",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Masquerade",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 195,
-      "url": "https://www.todaytix.com/nyc/shows/masquerade",
       "source": "todaytix"
     },
     {
@@ -1999,6 +1977,65 @@
       "isFree": false,
       "priceMin": 48,
       "url": "https://www.todaytix.com/nyc/shows/girls-chance-music",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44745",
+      "title": "Masquerade",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Masquerade",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 195,
+      "url": "https://www.todaytix.com/nyc/shows/masquerade",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:16859",
+      "title": "Amateur Night at The Apollo",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Apollo Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/amateur-night",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:1299",
+      "title": "Perfect Crime",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Theater Center",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:32431",
+      "title": "New York Comedy Club (Midtown)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Midtown)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:39635",
+      "title": "La Llamada",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
       "source": "todaytix"
     },
     {
@@ -2062,27 +2099,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:19034",
-      "title": "La Breve y Maravillosa Vida de Oscar Wao",
+      "id": "todaytix:46870",
+      "title": "David Copperfield",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "venue": "59E59 Theaters Theater A",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/la-breve-y-maravillosa-vida-de-oscar-wao",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46427",
-      "title": "Silverback Mountain",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "AMT Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 73,
-      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
       "source": "todaytix"
     },
     {
@@ -2098,27 +2123,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46642",
-      "title": "Label•less",
+      "id": "todaytix:46912",
+      "title": "Catch of the Day",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Duke on 42nd Street",
+      "venue": "59E59 Theaters Theater B",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/label-less",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46870",
-      "title": "David Copperfield",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater A",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
+      "priceMin": 47,
+      "url": "https://www.todaytix.com/nyc/shows/catch-of-the-day",
       "source": "todaytix"
     },
     {
@@ -2133,6 +2146,30 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46642",
+      "title": "Label•less",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Duke on 42nd Street",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/label-less",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46427",
+      "title": "Silverback Mountain",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "AMT Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 73,
+      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46992",
       "title": "Are You Now or Have You Ever Been",
       "category": "theater",
@@ -2142,29 +2179,6 @@
       "isFree": false,
       "priceMin": 100,
       "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46912",
-      "title": "Catch of the Day",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater B",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 47,
-      "url": "https://www.todaytix.com/nyc/shows/catch-of-the-day",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47155",
-      "title": "Senior 65+ Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
       "source": "todaytix"
     },
     {
@@ -2187,6 +2201,17 @@
       "start": "2026-06-15T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47155",
+      "title": "Senior 65+ Lottery - Public Forum: Quick Bright Things Come to Confusion, or What We Do For Love",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-public-forum-quick-bright-things-come-to-confusion-or-what-we-do-for-love",
       "source": "todaytix"
     },
     {
@@ -5058,6 +5083,19 @@
       "source": "dice"
     },
     {
+      "id": "dice:69d3a9336330570001db7836",
+      "title": "DOWNSTAIRS: Level Up! Video Game Club",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T23:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/nvnxrl-downstairs-level-up-video-game-club-16th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "dice:6a19e46f26204e0001450e52",
       "title": "Neoni, PEGGY",
       "category": "music",
@@ -7162,6 +7200,19 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/17/zumba1",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:6a219c2b43b7390001282d3e",
+      "title": "DOWNSTAIRS: From Outside / To Inside",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-17T18:30:00",
+      "end": "2026-06-17T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/dkppae-downstairs-from-outside-to-inside-17th-jun-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2174832",
@@ -10136,6 +10187,19 @@
       "source": "dice"
     },
     {
+      "id": "dice:6a2b27d4052dfc00016d8e73",
+      "title": "Dusk Open Air Rooftop Party (Afro, House)",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Chinatown-Two Bridges",
+      "venue": "The Crown (Rooftop)",
+      "start": "2026-06-19T17:00:00",
+      "end": "2026-06-20T00:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/xeyela-dusk-open-air-rooftop-party-afro-house-19th-jun-the-crown-rooftop-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-parks:2108579",
       "title": "CANCELED: RISE UP Circuit Training",
       "category": "sports",
@@ -12577,6 +12641,19 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "dice:6a2c5ef48c6e380001a7bb3a",
+      "title": "J-Fashion Film Screening w/ Rococo Beat & Nibbline",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (West)",
+      "venue": "Seventh Heaven Bar & Karaoke",
+      "start": "2026-06-20T16:00:00",
+      "end": "2026-06-20T19:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/6d8992-j-fashion-film-screening-w-rococo-beat-nibbline-20th-jun-seventh-heaven-bar-karaoke-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "cityparks:19957",
@@ -15684,6 +15761,19 @@
       "source": "dice"
     },
     {
+      "id": "dice:69d3a933317a3400018ee8fe",
+      "title": "DOWNSTAIRS: Level Up! Video Game Club",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-23T19:00:00",
+      "end": "2026-06-23T23:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/py83xy-downstairs-level-up-video-game-club-23rd-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "todaytix:41314",
       "title": "Onegin",
       "category": "theater",
@@ -17017,6 +17107,20 @@
       "source": "dice"
     },
     {
+      "id": "dice:6a205eebe02a2b00012fa886",
+      "title": "JORDY Q&A + Signing",
+      "category": "social",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Rough Trade Below",
+      "start": "2026-06-24T18:00:00",
+      "end": "2026-06-24T20:00:00",
+      "isFree": false,
+      "priceMin": 19,
+      "url": "https://dice.fm/event/q2lv6x-jordy-qa-signing-24th-jun-rough-trade-below-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "cityparks:19762",
       "title": "Black Country, New Road / Horsegirl / Sharp Pins",
       "category": "music",
@@ -17250,6 +17354,19 @@
       "end": "2026-06-25T02:00:00",
       "isFree": true,
       "url": "https://dice.fm/event/pyb3vk-revision-24th-jun-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:6a2f51c00a3b4f0001519425",
+      "title": "DOWNSTAIRS: Talk Me Through It",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-24T22:00:00",
+      "end": "2026-06-25T02:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/l8kq9r-downstairs-talk-me-through-it-24th-jun-purgatory-new-york-tickets",
       "source": "dice"
     },
     {
@@ -21914,6 +22031,20 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:6a2b04d818965d00017f6eb0",
+      "title": "Lovership",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Williamsburg",
+      "venue": "Othership Williamsburg",
+      "start": "2026-06-27T21:15:00",
+      "end": "2026-06-27T23:30:00",
+      "isFree": false,
+      "priceMin": 74.78,
+      "url": "https://dice.fm/event/nv5vqq-lovership-27th-jun-othership-williamsburg-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "dice:6a1f4d642776fb0001d8b54c",
       "title": "Sexpérience - PRIDE EDITION",
       "category": "theater",
@@ -22647,16 +22778,31 @@
       "source": "dice"
     },
     {
-      "id": "todaytix:45163",
-      "title": "Giulia: The Poison Queen of Palermo",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Perelman Performing Arts Center (PAC NYC)",
-      "start": "2026-06-28T19:30:00",
+      "id": "dice:6a29f4d3dd83280001306c8e",
+      "title": "The 2nd Annual Yuri vs. Yaoi Pride Month Cookout",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (West)",
+      "venue": "Seventh Heaven Bar & Karaoke",
+      "start": "2026-06-28T19:00:00",
+      "end": "2026-06-28T22:00:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/k6lpao-the-2nd-annual-yuri-vs-yaoi-pride-month-cookout-28th-jun-seventh-heaven-bar-karaoke-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
+      "id": "dice:69fa3baad798b40001716a92",
+      "title": "DATE MY FRIEND: QUEER NITE",
+      "category": "social",
+      "borough": "Queens",
+      "neighborhood": "Ridgewood",
+      "venue": "Cassette",
+      "start": "2026-06-28T19:00:00",
+      "end": "2026-06-28T22:00:00",
       "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/giulia-the-poison-queen-of-palermo",
-      "source": "todaytix"
+      "priceMin": 18.04,
+      "url": "https://dice.fm/event/avwrkq-date-my-friend-queer-nite-28th-jun-cassette-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "village-vanguard:135521",
@@ -23251,6 +23397,19 @@
       "isFree": true,
       "url": "http://www.nycgovparks.org/events/2026/06/29/retro-dance-fitness",
       "source": "nyc-parks"
+    },
+    {
+      "id": "dice:6a078ae5dd70be0001c681ec",
+      "title": "DOWNSTAIRS: Fiber Night Crafty Bug Office Hours",
+      "category": "museum",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-29T18:30:00",
+      "end": "2026-06-29T21:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/av5n8d-downstairs-fiber-night-crafty-bug-office-hours-29th-jun-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-parks:2143463",
@@ -25553,6 +25712,19 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a1df7d001137900018d9066",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-04T13:00:00",
+      "end": "2026-07-04T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/wwpy2n-house-of-goal-daytime-general-admission-4th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33176",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -26002,6 +26174,19 @@
       "source": "smorgasburg"
     },
     {
+      "id": "dice:6a1df8bddf215f0001c21dae",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-05T13:00:00",
+      "end": "2026-07-05T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/mx9lwl-house-of-goal-daytime-general-admission-5th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33177",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -26143,6 +26328,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33178-afternoon-jam-in-the-cafe/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a203f98a95ce20001493724",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-06T15:00:00",
+      "end": "2026-07-06T23:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/wwp6nx-house-of-goal-daytime-general-admission-6th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33123",
@@ -26385,6 +26583,19 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a1dfa84df215f0001a460e6",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-07T13:00:00",
+      "end": "2026-07-07T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/2wykn7-house-of-goal-daytime-general-admission-7th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33179",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -26445,6 +26656,17 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33154-alan-broadbent-trio/",
       "source": "smallslive"
+    },
+    {
+      "id": "todaytix:40301",
+      "title": "Chamber Music Society of Lincoln Center: Summer Evenings I",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Alice Tully Hall",
+      "start": "2026-07-07T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-chamber-music-society-of-lincoln-center-summer-evenings-i",
+      "source": "todaytix"
     },
     {
       "id": "todaytix:44499",
@@ -26867,6 +27089,19 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a1ee6352b893b00010643e5",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-08T13:00:00",
+      "end": "2026-07-08T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/yow6qa-house-of-goal-daytime-general-admission-8th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:uptown-grand-central-farmstand:2026-07-08",
       "title": "Uptown Grand Central Farmstand",
       "category": "food",
@@ -27259,6 +27494,19 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "dice:6a1ee7e9a169700001caf0f3",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-09T13:00:00",
+      "end": "2026-07-09T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/92kwv7-house-of-goal-daytime-general-admission-9th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "nyc-greenmarket:east-new-york-farm-stand:2026-07-09",
@@ -27690,6 +27938,19 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "dice:6a1eee0f2b893b0001bc7bce",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-10T13:00:00",
+      "end": "2026-07-10T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/3oxg8x-house-of-goal-daytime-general-admission-10th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33182",
@@ -28419,6 +28680,19 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a1ef03f2776fb00012092a2",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-11T13:00:00",
+      "end": "2026-07-11T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/dkp3yo-house-of-goal-daytime-general-admission-11th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33183",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -28887,6 +29161,19 @@
       "source": "smorgasburg"
     },
     {
+      "id": "dice:6a1ef3890b917c0001e8b321",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-12T13:00:00",
+      "end": "2026-07-12T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/eo8396-house-of-goal-daytime-general-admission-12th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33184",
       "title": "Afternoon Jam in the Cafe",
       "category": "music",
@@ -29058,6 +29345,19 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33032-ari-hoenig-trio/",
       "source": "smallslive"
+    },
+    {
+      "id": "dice:6a078ae5dd70be0001c681eb",
+      "title": "DOWNSTAIRS: Fiber Night Crafty Bug Office Hours",
+      "category": "museum",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-07-13T18:30:00",
+      "end": "2026-07-13T21:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/bb7eqm-downstairs-fiber-night-crafty-bug-office-hours-13th-jul-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "village-vanguard:136438",
@@ -29280,6 +29580,19 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "dice:6a1ef63fbfda79000104d50a",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-14T13:00:00",
+      "end": "2026-07-14T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/oeagmm-house-of-goal-daytime-general-admission-14th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33186",
@@ -29766,6 +30079,19 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a1ef7a9a169700001a43319",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-15T13:00:00",
+      "end": "2026-07-15T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/pyb9ok-house-of-goal-daytime-general-admission-15th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:uptown-grand-central-farmstand:2026-07-15",
       "title": "Uptown Grand Central Farmstand",
       "category": "food",
@@ -30123,6 +30449,19 @@
       "source": "nyc-greenmarket"
     },
     {
+      "id": "dice:6a1efb0a2ea9c9000142cb71",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-16T13:00:00",
+      "end": "2026-07-16T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/8el632-house-of-goal-daytime-general-admission-16th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
+    },
+    {
       "id": "nyc-greenmarket:east-new-york-farm-stand:2026-07-16",
       "title": "East New York Farm Stand",
       "category": "food",
@@ -30222,6 +30561,19 @@
       "isFree": true,
       "url": "https://cityparksfoundation.org/events/mavis-staples/",
       "source": "cityparks"
+    },
+    {
+      "id": "dice:6a1c8bfbf268d500010f2027",
+      "title": "DOWNSTAIRS: NABIpalooza",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-07-16T19:00:00",
+      "end": "2026-07-16T21:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/mx9lmw-downstairs-nabipalooza-16th-jul-purgatory-new-york-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33045",
@@ -30504,6 +30856,19 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "dice:6a1efdfe2776fb00013b590f",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-17T13:00:00",
+      "end": "2026-07-17T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/q2l9xa-house-of-goal-daytime-general-admission-17th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "smallslive:33189",
@@ -31193,6 +31558,19 @@
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket"
+    },
+    {
+      "id": "dice:6a1eff653586650001b88add",
+      "title": "House of Goal - Daytime General Admission",
+      "category": "social",
+      "borough": "Brooklyn",
+      "neighborhood": "Sunset Park (West)",
+      "venue": "Industry City",
+      "start": "2026-07-18T13:00:00",
+      "end": "2026-07-18T21:00:00",
+      "isFree": false,
+      "url": "https://dice.fm/event/ryk92w-house-of-goal-daytime-general-admission-18th-jul-industry-city-new-york-city-tickets",
+      "source": "dice"
     },
     {
       "id": "cityparks:19969",
@@ -34492,6 +34870,19 @@
       "source": "smallslive"
     },
     {
+      "id": "dice:6a078ae56ecf2f00017371b3",
+      "title": "DOWNSTAIRS: Fiber Night Crafty Bug Office Hours",
+      "category": "museum",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-07-27T18:30:00",
+      "end": "2026-07-27T21:30:00",
+      "isFree": true,
+      "url": "https://dice.fm/event/l8x3pr-downstairs-fiber-night-crafty-bug-office-hours-27th-jul-purgatory-new-york-tickets",
+      "source": "dice"
+    },
+    {
       "id": "smallslive:33168",
       "title": "Joe Farnsworth Quartet",
       "category": "music",
@@ -35744,18 +36135,6 @@
       "source": "nyc-open-data"
     },
     {
-      "id": "todaytix:47079",
-      "title": "Truly, Howard Hughes",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Theater at St. Jean",
-      "start": "2026-09-09T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/truly-howard-hughes",
-      "source": "todaytix"
-    },
-    {
       "id": "nyc-open-data:893365:2026-09-12T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -36525,18 +36904,6 @@
       "source": "nyc-open-data"
     },
     {
-      "id": "todaytix:47070",
-      "title": "Kilgallen",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Theater at St. Jean's",
-      "start": "2026-11-28T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/kilgallen",
-      "source": "todaytix"
-    },
-    {
       "id": "nyc-open-data:893405:2026-11-29T08:00:00.000",
       "title": "Picnic House",
       "category": "other",
@@ -36639,6 +37006,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47096",
+      "title": "the ripple, the wave that carried me home",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46809",
       "title": "The Heart",
       "category": "theater",
@@ -36658,17 +37036,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/welcome-table",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47096",
-      "title": "the ripple, the wave that carried me home",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
       "source": "todaytix"
     },
     {
@@ -36694,17 +37061,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46987",
-      "title": "Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Classic Stage Company",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/come-back-to-the-5-and-dime-jimmy-dean-jimmy-dean",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46921",
       "title": "Ms. Blakk for President",
       "category": "theater",
@@ -36713,6 +37069,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46987",
+      "title": "Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/come-back-to-the-5-and-dime-jimmy-dean-jimmy-dean",
       "source": "todaytix"
     },
     {
@@ -36738,6 +37105,28 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47083",
+      "title": "Hole!",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/hole",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47084",
+      "title": "Degenerates",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/degenerates",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46814",
       "title": "The Full Monty",
       "category": "theater",
@@ -36757,28 +37146,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/the-vagina-monologues",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47084",
-      "title": "Degenerates",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/degenerates",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47083",
-      "title": "Hole!",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/hole",
       "source": "todaytix"
     },
     {
@@ -36804,17 +37171,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46615",
-      "title": "Wild Rose",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:45923",
       "title": "Bocking",
       "category": "theater",
@@ -36834,6 +37190,28 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46615",
+      "title": "Wild Rose",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46797",
+      "title": "Eisa's Mixtape",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
       "source": "todaytix"
     },
     {
@@ -36870,17 +37248,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46797",
-      "title": "Eisa's Mixtape",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47188",
       "title": "The Conversation",
       "category": "theater",
@@ -36903,25 +37270,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46810",
-      "title": "The Grief Eater Near North Bender",
+      "id": "todaytix:46794",
+      "title": "King of the Yees",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "venue": "Pershing Square Signature Center",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-grief-eater-near-north-bender",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46895",
-      "title": "Are the Bennet Girls Ok?",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/are-the-bennet-girls-ok",
+      "url": "https://www.todaytix.com/nyc/shows/king-of-the-yees",
       "source": "todaytix"
     },
     {
@@ -36936,14 +37292,25 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46794",
-      "title": "King of the Yees",
+      "id": "todaytix:46895",
+      "title": "Are the Bennet Girls Ok?",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
+      "venue": "The Public Theater",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/king-of-the-yees",
+      "url": "https://www.todaytix.com/nyc/shows/are-the-bennet-girls-ok",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46810",
+      "title": "The Grief Eater Near North Bender",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-grief-eater-near-north-bender",
       "source": "todaytix"
     },
     {

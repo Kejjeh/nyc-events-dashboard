@@ -6,6 +6,7 @@ export type Category =
   | 'film'
   | 'food'
   | 'museum'
+  | 'social'
   | 'other';
 
 export type Borough = 'Bronx' | 'Queens' | 'Manhattan' | 'Brooklyn';

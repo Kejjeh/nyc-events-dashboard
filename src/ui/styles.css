@@ -22,6 +22,7 @@
   --cat-food: #ff8a5b;
   --cat-sports: #3fb7a6;
   --cat-museum: #d98be0;
+  --cat-social: #5bcf80;
   --cat-other: #6b7488;
 
   --radius: 14px;
@@ -322,6 +323,11 @@ body {
   border-color: var(--cat-museum);
   color: #2c0a30;
 }
+.chip-btn--active[data-category='social'] {
+  background: var(--cat-social);
+  border-color: var(--cat-social);
+  color: #042713;
+}
 .chip-btn--active[data-category='other'] {
   background: var(--cat-other);
   border-color: var(--cat-other);
@@ -426,6 +432,7 @@ body {
 .card[data-category='food']::before { background: var(--cat-food); }
 .card[data-category='sports']::before { background: var(--cat-sports); }
 .card[data-category='museum']::before { background: var(--cat-museum); }
+.card[data-category='social']::before { background: var(--cat-social); }
 .card:hover {
   transform: translateY(-3px);
   border-color: #3c4252;

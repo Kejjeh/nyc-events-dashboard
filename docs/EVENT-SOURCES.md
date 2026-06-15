@@ -82,11 +82,13 @@ collection APIs are **not** event feeds:
 | **MoMA** | **Cloudflare** "Just a moment" challenge → **CI-blocked**. No events API. |
 | **Brooklyn Museum** | `/api/v2/*` returns **Vercel 429** → **CI-blocked**. |
 | **Whitney** | `whitney.org/events` is **reachable** (plain HTML, no wall) — viable via HTML scrape; no official API. |
-| **Smithsonian / Cooper Hewitt** | Open Access = objects, not events; mostly DC-based. |
+| **Guggenheim** | `/wp-json/wp/v2/event` returns **clean JSON from CI** ✅ — but the event date lives in an `event_date` taxonomy (often empty) and most programs are "free with admission" (not actually free). Buildable like BPL's branch resolution; modest volume. |
+| **Smithsonian / Cooper Hewitt** | Open Access = objects, not events; mostly DC-based. Cooper Hewitt `/wp-json` → 403. |
 
-→ **Best path for museums:** a small static generator for the well-known recurring
-**free-admission days** (MoMA Free Friday, Whitney Friday nights, Brooklyn Museum
-First Saturdays) rather than scraping — these are stable rules, not feeds.
+→ **Best path for museums:** today we surface museum/art programming via **DICE's
+`culture/art` filter** (→ `museum` category). For deeper coverage, the Guggenheim
+WP-REST feed or a small static generator for recurring **free-admission days**
+(MoMA Free Friday, Whitney Friday nights, Brooklyn Museum First Saturdays).
 
 **Libraries** (free, high-quality programming):
 

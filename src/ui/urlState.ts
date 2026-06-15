@@ -32,6 +32,7 @@ const CATEGORIES: readonly string[] = [
   'food',
   'sports',
   'museum',
+  'social',
   'other',
 ];
 const SORTS: readonly string[] = ['soonest', 'borough', 'category'];
