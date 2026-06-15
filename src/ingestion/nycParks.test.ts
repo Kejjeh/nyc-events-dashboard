@@ -31,6 +31,8 @@ describe('normalizeParksEvent', () => {
       isFree: true,
       url: 'http://www.nycgovparks.org/events/2026/08/23/charlie-parker-jazz-festival',
       source: 'nyc-parks',
+      lat: 40.8023,
+      lon: -73.94209,
     });
   });
 

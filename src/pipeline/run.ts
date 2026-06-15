@@ -6,6 +6,8 @@ import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import { summarizeSources } from './sourceSummary';
 import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
+import { enrichWithWeather } from './weatherEnrich';
+import { enrichWithGeocode } from './geocodeEnrich';
 import {
   fetchBpl,
   fetchCityParks,
@@ -89,13 +91,30 @@ async function main(): Promise<void> {
     return;
   }
 
+  // Geocode venue addresses for events without coordinates so they appear on the
+  // map and get proper neighborhoods. No-op without a key; subsequent runs skip
+  // any venue already geocoded (lat/lon carries forward).
+  const withCoords = await enrichWithGeocode(events, process.env.GOOGLE_MAPS_API_KEY);
+  if (process.env.GOOGLE_MAPS_API_KEY) {
+    const geocoded = withCoords.filter((e) => e.lat != null).length - events.filter((e) => e.lat != null).length;
+    if (geocoded > 0) console.log(`  geocode: +${geocoded} venues resolved`);
+  }
+
+  // Attach near-term weather forecast to outdoor events (parks, markets) within
+  // the next 5 days. Stale weather is stripped on events now outside the window.
+  const withWeather = await enrichWithWeather(withCoords, process.env.OPENWEATHER_API_KEY);
+  if (process.env.OPENWEATHER_API_KEY) {
+    const weatherCount = withWeather.filter((e) => e.weather).length;
+    if (weatherCount > 0) console.log(`  weather: ${weatherCount} outdoor events have a forecast`);
+  }
+
   // Enrich music events with a Spotify artist image/link (no-op without creds);
   // seed from the previous file so recurring artists aren't re-searched.
   const token = await getSpotifyToken(
     process.env.SPOTIFY_CLIENT_ID,
     process.env.SPOTIFY_CLIENT_SECRET,
   );
-  const enriched = await enrichWithSpotify(events, token, previous);
+  const enriched = await enrichWithSpotify(withWeather, token, previous);
   if (token) {
     console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
   }

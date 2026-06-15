@@ -7,6 +7,7 @@ import type { DateWindow } from './dateWindow';
 import { parseFilters, serializeFilters } from './urlState';
 import { sourceLabel } from './format';
 import { EventCard } from './EventCard';
+import { MapView } from './MapView';
 
 /** Cards rendered per page — keeps initial paint fast on large result sets. */
 const PAGE_SIZE = 60;
@@ -60,6 +61,7 @@ export function App() {
     PICKED_DATE_RE.test(init.dateWindow) && init.dateWindow < today ? 'all' : init.dateWindow,
   );
   const [copied, setCopied] = useState(false);
+  const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
 
@@ -288,17 +290,37 @@ export function App() {
       <main className="results">
         {state.status === 'loading' && <p className="notice">Loading events…</p>}
         {state.status === 'error' && (
-          <p className="notice notice--error">Couldn’t load events ({state.message}).</p>
+          <p className="notice notice--error">Couldn't load events ({state.message}).</p>
         )}
         {state.status === 'ready' && (
           <>
-            <p className="results__count">
-              {shown.length < visible.length
-                ? `Showing ${shown.length.toLocaleString()} of ${visible.length.toLocaleString()} events`
-                : `${visible.length.toLocaleString()} ${visible.length === 1 ? 'event' : 'events'}`}
-            </p>
+            <div className="view-bar">
+              <p className="results__count">
+                {shown.length < visible.length
+                  ? `Showing ${shown.length.toLocaleString()} of ${visible.length.toLocaleString()} events`
+                  : `${visible.length.toLocaleString()} ${visible.length === 1 ? 'event' : 'events'}`}
+              </p>
+              <div className="view-toggle" role="group" aria-label="View mode">
+                <button
+                  className={`view-btn ${viewMode === 'list' ? 'view-btn--active' : ''}`}
+                  aria-pressed={viewMode === 'list'}
+                  onClick={() => setViewMode('list')}
+                >
+                  ☰ List
+                </button>
+                <button
+                  className={`view-btn ${viewMode === 'map' ? 'view-btn--active' : ''}`}
+                  aria-pressed={viewMode === 'map'}
+                  onClick={() => setViewMode('map')}
+                >
+                  ⊙ Map
+                </button>
+              </div>
+            </div>
             {visible.length === 0 ? (
               <p className="notice">No events match these filters.</p>
+            ) : viewMode === 'map' ? (
+              <MapView events={visible} />
             ) : (
               <>
                 <div className="grid">

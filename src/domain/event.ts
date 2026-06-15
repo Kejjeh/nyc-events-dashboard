@@ -36,6 +36,12 @@ export interface Event {
   image?: string;
   /** Spotify artist page for matched music events. */
   spotifyUrl?: string;
+  /** Venue latitude (WGS-84), when available from the source or geocoded. */
+  lat?: number;
+  /** Venue longitude (WGS-84), when available from the source or geocoded. */
+  lon?: number;
+  /** Near-term weather forecast for outdoor events within the 5-day window. */
+  weather?: { icon: string; temp: number; description: string };
 }
 
 /** Per-source health for the published payload, so silent drops stay visible. */

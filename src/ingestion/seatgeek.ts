@@ -45,5 +45,7 @@ export function normalizeSeatGeekEvent(raw: any): Event | null {
     ...(highestPrice != null && { priceMax: highestPrice }),
     url: raw.url,
     source: 'seatgeek',
+    lat,
+    lon,
   };
 }

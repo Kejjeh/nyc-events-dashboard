@@ -41,6 +41,17 @@ export function EventCard({ event }: { event: Event }) {
           <span className={`price ${event.isFree ? 'price--free' : ''}`}>{formatPrice(event)}</span>
           <span className="card__source">{sourceLabel(event.source)}</span>
         </div>
+        {event.weather && (
+          <div className="card__weather">
+            <img
+              src={`https://openweathermap.org/img/wn/${event.weather.icon}.png`}
+              alt={event.weather.description}
+              width={24}
+              height={24}
+            />
+            <span>{event.weather.temp}°F · {event.weather.description}</span>
+          </div>
+        )}
         <div className="card__cal">
           <span className="card__cal-label">Add to calendar</span>
           <a

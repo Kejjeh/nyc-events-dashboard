@@ -36,6 +36,8 @@ describe('normalizeDiceEvent', () => {
       isFree: true,
       url: 'https://dice.fm/event/swer-open-mic-pride',
       source: 'dice',
+      lat: 40.700486,
+      lon: -73.925855,
     });
   });
 

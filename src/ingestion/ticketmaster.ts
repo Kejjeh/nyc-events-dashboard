@@ -60,5 +60,6 @@ export function normalizeTicketmasterEvent(raw: any): Event | null {
     ...(price && { priceMin: price.min, priceMax: price.max }),
     url: raw.url,
     source: 'ticketmaster',
+    ...(Number.isFinite(lat) && Number.isFinite(lon) && { lat, lon }),
   };
 }

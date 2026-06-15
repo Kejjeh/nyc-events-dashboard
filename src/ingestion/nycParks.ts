@@ -75,5 +75,6 @@ export function normalizeParksEvent(raw: any): Event | null {
     isFree: true,
     url: raw.link,
     source: 'nyc-parks',
+    ...(Number.isFinite(lat) && Number.isFinite(lon) && { lat, lon }),
   };
 }

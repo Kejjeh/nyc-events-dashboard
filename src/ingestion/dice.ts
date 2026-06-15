@@ -62,5 +62,6 @@ export function normalizeDiceEvent(raw: any): Event | null {
     ...(hasPrice && { priceMin: cents / 100 }),
     url: `https://dice.fm/event/${raw.perm_name}`,
     source: 'dice',
+    ...(location?.lat != null && location?.lng != null && { lat: location.lat, lon: location.lng }),
   };
 }
