@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T18:27:01.003Z",
+  "generatedAt": "2026-06-15T18:32:34.145Z",
   "count": 3419,
   "sources": [
     {
@@ -40,7 +40,7 @@
     {
       "source": "todaytix",
       "count": 149,
-      "fresh": true
+      "fresh": false
     },
     {
       "source": "nyc-open-data",
@@ -1558,13 +1558,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/15/chair-yoga",
       "source": "nyc-parks",
       "lat": 40.8704537,
-      "lon": -73.8291111,
-      "weather": {
-        "icon": "01d",
-        "temp": 76,
-        "description": "clear sky",
-        "dt": 1781557200000
-      }
+      "lon": -73.8291111
     },
     {
       "id": "nyc-parks:2167722",
@@ -1579,13 +1573,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/15/bodyweight-interval-training",
       "source": "nyc-parks",
       "lat": 40.7201004,
-      "lon": -73.94999695,
-      "weather": {
-        "icon": "01d",
-        "temp": 77,
-        "description": "clear sky",
-        "dt": 1781557200000
-      }
+      "lon": -73.94999695
     },
     {
       "id": "nyc-parks:2180148",
@@ -1600,13 +1588,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/15/bollyx",
       "source": "nyc-parks",
       "lat": 40.74829865,
-      "lon": -74.00219727,
-      "weather": {
-        "icon": "01d",
-        "temp": 77,
-        "description": "clear sky",
-        "dt": 1781557200000
-      }
+      "lon": -74.00219727
     },
     {
       "id": "nyc-parks:2183940",
@@ -1621,13 +1603,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/15/retro-dance-fitness",
       "source": "nyc-parks",
       "lat": 40.77149963,
-      "lon": -73.9885025,
-      "weather": {
-        "icon": "01d",
-        "temp": 76,
-        "description": "clear sky",
-        "dt": 1781557200000
-      }
+      "lon": -73.9885025
     },
     {
       "id": "smallslive:32895",
@@ -2104,20 +2080,6 @@
       "lon": -73.9829
     },
     {
-      "id": "seatgeek:18069731",
-      "title": "Heathers - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
-      "start": "2026-06-15T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-15-7-pm/18069731",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:18028164",
       "title": "Chicago - The Musical - New York",
       "category": "other",
@@ -2132,15 +2094,15 @@
       "lon": -73.985
     },
     {
-      "id": "seatgeek:18015984",
-      "title": "The Play That Goes Wrong - New York",
+      "id": "seatgeek:18069731",
+      "title": "Heathers - New York",
       "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 4",
+      "venue": "New World Stages - Stage 1",
       "start": "2026-06-15T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-15-7-pm/18015984",
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-15-7-pm/18069731",
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
@@ -2155,6 +2117,20 @@
       "start": "2026-06-15T19:00:00",
       "isFree": false,
       "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-06-15-7-pm/18185719",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18015984",
+      "title": "The Play That Goes Wrong - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 4",
+      "start": "2026-06-15T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-15-7-pm/18015984",
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
@@ -2222,6 +2198,202 @@
       "source": "dice",
       "lat": 40.70256,
       "lon": -73.901176
+    },
+    {
+      "id": "ticketmaster:1AdZZ_kGkUKSS1Y",
+      "title": "Singfeld! A Musical About Nothing!",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "The Theater Center",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-06-15-2026/event/3000646D93CF32B0",
+      "source": "ticketmaster",
+      "lat": 40.76161629,
+      "lon": -73.98448955
+    },
+    {
+      "id": "ticketmaster:LvZ18QLzxfTYx4OZ0lmOz",
+      "title": "A New York Evening With Durand Bernarr",
+      "category": "other",
+      "borough": "Brooklyn",
+      "neighborhood": "Williamsburg",
+      "venue": "National Sawdust",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/a-new-york-evening-with-durand-bernarr-tickets-4XYMD1?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 40.71910773,
+      "lon": -73.96135327
+    },
+    {
+      "id": "ticketmaster:Z1r9uZruZqGZ17JZ0d",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyceum Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-new-york-new-york-06-15-2026/event/Z1r9uZruZqGZ17JZ0d",
+      "source": "ticketmaster",
+      "lat": 40.7577032,
+      "lon": -73.98451117
+    },
+    {
+      "id": "ticketmaster:Z1r9uZruZqGZ17J_fe",
+      "title": "Celebrity Autobiography",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Shubert Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/celebrity-autobiography-new-york-new-york-06-15-2026/event/Z1r9uZruZqGZ17J_fe",
+      "source": "ticketmaster",
+      "lat": 40.75804,
+      "lon": -73.987351
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-_Cb",
+      "title": "Gotta Dance!",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Stage 42",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-_Cb",
+      "source": "ticketmaster",
+      "lat": 40.7593,
+      "lon": -73.990196
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70K0V",
+      "title": "Celebrity Autobiography",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Shubert Theatre-NY",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70K0V",
+      "source": "ticketmaster",
+      "lat": 40.7593,
+      "lon": -73.990196
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7O-x_",
+      "title": "Titanique (NY)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "St. James Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O-x_",
+      "source": "ticketmaster",
+      "lat": 40.7593,
+      "lon": -73.990196
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7P97M",
+      "title": "A Walk on the Moon",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Laura Pels Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P97M",
+      "source": "ticketmaster",
+      "lat": 40.7593,
+      "lon": -73.990196
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7j4qe",
+      "title": "Oh, Mary!",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Lyceum Theatre - NY",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j4qe",
+      "source": "ticketmaster",
+      "lat": 40.7593,
+      "lon": -73.990196
+    },
+    {
+      "id": "seatgeek:17747734",
+      "title": "Oh, Mary! - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyceum Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/oh-mary-tickets/broadway/2026-06-15-7-30-pm/17747734",
+      "source": "seatgeek",
+      "lat": 40.7577,
+      "lon": -73.9846
+    },
+    {
+      "id": "seatgeek:18222385",
+      "title": "Gotta Dance - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Stage 42",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-15-7-30-pm/18222385",
+      "source": "seatgeek",
+      "lat": 40.7587,
+      "lon": -73.9939
+    },
+    {
+      "id": "seatgeek:18129988",
+      "title": "Singfeld! A Musical About Nothing! - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "The Theater Center",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/singfeld-a-musical-about-nothing-tickets/broadway/2026-06-15-7-30-pm/18129988",
+      "source": "seatgeek",
+      "lat": 40.7615,
+      "lon": -73.9845
+    },
+    {
+      "id": "seatgeek:18226668",
+      "title": "Celebrity Autobiography - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Shubert Theatre - NY",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-15-7-30-pm/18226668",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9875
+    },
+    {
+      "id": "seatgeek:18012795",
+      "title": "Titanique - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "St. James Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-15-7-30-pm/18012795",
+      "source": "seatgeek",
+      "lat": 40.758,
+      "lon": -73.9875
     },
     {
       "id": "todaytix:14790",
@@ -3011,202 +3183,6 @@
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/this-is-my-favorite-song",
       "source": "todaytix"
-    },
-    {
-      "id": "ticketmaster:1AdZZ_kGkUKSS1Y",
-      "title": "Singfeld! A Musical About Nothing!",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "The Theater Center",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/singfeld-a-musical-about-nothing-new-york-new-york-06-15-2026/event/3000646D93CF32B0",
-      "source": "ticketmaster",
-      "lat": 40.76161629,
-      "lon": -73.98448955
-    },
-    {
-      "id": "ticketmaster:LvZ18QLzxfTYx4OZ0lmOz",
-      "title": "A New York Evening With Durand Bernarr",
-      "category": "other",
-      "borough": "Brooklyn",
-      "neighborhood": "Williamsburg",
-      "venue": "National Sawdust",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/a-new-york-evening-with-durand-bernarr-tickets-4XYMD1?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.71910773,
-      "lon": -73.96135327
-    },
-    {
-      "id": "ticketmaster:Z1r9uZruZqGZ17JZ0d",
-      "title": "Oh, Mary!",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyceum Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/oh-mary-new-york-new-york-06-15-2026/event/Z1r9uZruZqGZ17JZ0d",
-      "source": "ticketmaster",
-      "lat": 40.7577032,
-      "lon": -73.98451117
-    },
-    {
-      "id": "ticketmaster:Z1r9uZruZqGZ17J_fe",
-      "title": "Celebrity Autobiography",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Shubert Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/celebrity-autobiography-new-york-new-york-06-15-2026/event/Z1r9uZruZqGZ17J_fe",
-      "source": "ticketmaster",
-      "lat": 40.75804,
-      "lon": -73.987351
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7-_Cb",
-      "title": "Gotta Dance!",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Stage 42",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-_Cb",
-      "source": "ticketmaster",
-      "lat": 40.7593,
-      "lon": -73.990196
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70K0V",
-      "title": "Celebrity Autobiography",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Shubert Theatre-NY",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70K0V",
-      "source": "ticketmaster",
-      "lat": 40.7593,
-      "lon": -73.990196
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7O-x_",
-      "title": "Titanique (NY)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "St. James Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O-x_",
-      "source": "ticketmaster",
-      "lat": 40.7593,
-      "lon": -73.990196
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P97M",
-      "title": "A Walk on the Moon",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Laura Pels Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P97M",
-      "source": "ticketmaster",
-      "lat": 40.7593,
-      "lon": -73.990196
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7j4qe",
-      "title": "Oh, Mary!",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Lyceum Theatre - NY",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j4qe",
-      "source": "ticketmaster",
-      "lat": 40.7593,
-      "lon": -73.990196
-    },
-    {
-      "id": "seatgeek:17747734",
-      "title": "Oh, Mary! - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyceum Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/oh-mary-tickets/broadway/2026-06-15-7-30-pm/17747734",
-      "source": "seatgeek",
-      "lat": 40.7577,
-      "lon": -73.9846
-    },
-    {
-      "id": "seatgeek:18222385",
-      "title": "Gotta Dance - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Stage 42",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-15-7-30-pm/18222385",
-      "source": "seatgeek",
-      "lat": 40.7587,
-      "lon": -73.9939
-    },
-    {
-      "id": "seatgeek:18129988",
-      "title": "Singfeld! A Musical About Nothing! - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "The Theater Center",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/singfeld-a-musical-about-nothing-tickets/broadway/2026-06-15-7-30-pm/18129988",
-      "source": "seatgeek",
-      "lat": 40.7615,
-      "lon": -73.9845
-    },
-    {
-      "id": "seatgeek:18226668",
-      "title": "Celebrity Autobiography - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Shubert Theatre - NY",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-15-7-30-pm/18226668",
-      "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9875
-    },
-    {
-      "id": "seatgeek:18012795",
-      "title": "Titanique - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "St. James Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-15-7-30-pm/18012795",
-      "source": "seatgeek",
-      "lat": 40.758,
-      "lon": -73.9875
     },
     {
       "id": "nyc-parks:2143540",
@@ -8074,20 +8050,6 @@
       "lon": -73.9857
     },
     {
-      "id": "seatgeek:18243078",
-      "title": "Girl, Interrupted - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Greenwich Village",
-      "venue": "Public Theater - Martinson Hall",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-16-7-pm/18243078",
-      "source": "seatgeek",
-      "lat": 40.729,
-      "lon": -73.9922
-    },
-    {
       "id": "seatgeek:17953731",
       "title": "Orchestra of St Lukes - New York",
       "category": "other",
@@ -8116,18 +8078,18 @@
       "lon": -73.9841
     },
     {
-      "id": "seatgeek:17874072",
-      "title": "Richard O'Brien's Rocky Horror Show - New York",
+      "id": "seatgeek:18243078",
+      "title": "Girl, Interrupted - New York",
       "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Studio 54",
+      "neighborhood": "Greenwich Village",
+      "venue": "Public Theater - Martinson Hall",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-06-16-7-pm/17874072",
+      "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-16-7-pm/18243078",
       "source": "seatgeek",
-      "lat": 40.7644,
-      "lon": -73.9838
+      "lat": 40.729,
+      "lon": -73.9922
     },
     {
       "id": "seatgeek:17950976",
@@ -8144,18 +8106,18 @@
       "lon": -73.9484
     },
     {
-      "id": "seatgeek:18241733",
-      "title": "The Balusters - New York",
+      "id": "seatgeek:17874072",
+      "title": "Richard O'Brien's Rocky Horror Show - New York",
       "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Samuel J. Friedman Theatre",
+      "venue": "Studio 54",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-balusters-tickets/theater/2026-06-16-7-pm/18241733",
+      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-06-16-7-pm/17874072",
       "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9868
+      "lat": 40.7644,
+      "lon": -73.9838
     },
     {
       "id": "seatgeek:17716090",
@@ -8172,20 +8134,6 @@
       "lon": -73.9836
     },
     {
-      "id": "seatgeek:18109440",
-      "title": "Chess The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Imperial Theatre - NY",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-16-7-pm/18109440",
-      "source": "seatgeek",
-      "lat": 40.7588,
-      "lon": -73.9873
-    },
-    {
       "id": "seatgeek:17917295",
       "title": "Buena Vista Social Club - The Musical - New York",
       "category": "other",
@@ -8198,6 +8146,34 @@
       "source": "seatgeek",
       "lat": 40.7587,
       "lon": -73.9873
+    },
+    {
+      "id": "seatgeek:18241733",
+      "title": "The Balusters - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Samuel J. Friedman Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-balusters-tickets/theater/2026-06-16-7-pm/18241733",
+      "source": "seatgeek",
+      "lat": 40.7602,
+      "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:18063329",
+      "title": "Moulin Rouge! The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Al Hirschfeld Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-16-7-pm/18063329",
+      "source": "seatgeek",
+      "lat": 40.7594,
+      "lon": -73.9891
     },
     {
       "id": "seatgeek:18157818",
@@ -8216,6 +8192,20 @@
       "spotifyUrl": "https://open.spotify.com/artist/6TxY5T8v9RjF7Ry4XQvWT5"
     },
     {
+      "id": "seatgeek:18109440",
+      "title": "Chess The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Imperial Theatre - NY",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-16-7-pm/18109440",
+      "source": "seatgeek",
+      "lat": 40.7588,
+      "lon": -73.9873
+    },
+    {
       "id": "seatgeek:17876141",
       "title": "Dog Day Afternoon - New York",
       "category": "other",
@@ -8228,48 +8218,6 @@
       "source": "seatgeek",
       "lat": 40.7629,
       "lon": -73.9837
-    },
-    {
-      "id": "seatgeek:18063329",
-      "title": "Moulin Rouge! The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Al Hirschfeld Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-16-7-pm/18063329",
-      "source": "seatgeek",
-      "lat": 40.7594,
-      "lon": -73.9891
-    },
-    {
-      "id": "seatgeek:18133459",
-      "title": "Widowspeak",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Williamsburg",
-      "venue": "Music Hall of Williamsburg",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/widowspeak-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-06-16-7-pm/concert/18133459",
-      "source": "seatgeek",
-      "lat": 40.719154,
-      "lon": -73.96175
-    },
-    {
-      "id": "seatgeek:17945029",
-      "title": "Joe Turner's Come and Gone - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Barrymore Theatre - New York",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-16-7-pm/17945029",
-      "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9862
     },
     {
       "id": "seatgeek:18229577",
@@ -8300,6 +8248,34 @@
       "lon": -73.9635,
       "image": "https://i.scdn.co/image/ab6761610000e5eb4d9e8848710c3566768ee87f",
       "spotifyUrl": "https://open.spotify.com/artist/3dZ1fTizrmY5jfkf0jrvav"
+    },
+    {
+      "id": "seatgeek:18133459",
+      "title": "Widowspeak",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Williamsburg",
+      "venue": "Music Hall of Williamsburg",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/widowspeak-tickets/brooklyn-new-york-music-hall-of-williamsburg-2026-06-16-7-pm/concert/18133459",
+      "source": "seatgeek",
+      "lat": 40.719154,
+      "lon": -73.96175
+    },
+    {
+      "id": "seatgeek:17945029",
+      "title": "Joe Turner's Come and Gone - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Barrymore Theatre - New York",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-16-7-pm/17945029",
+      "source": "seatgeek",
+      "lat": 40.7602,
+      "lon": -73.9862
     },
     {
       "id": "seatgeek:17808335",
@@ -8344,18 +8320,18 @@
       "lon": -73.9849
     },
     {
-      "id": "seatgeek:18157843",
-      "title": "Cailin Russo (18+)",
-      "category": "music",
+      "id": "seatgeek:17815837",
+      "title": "The Lion King - New York",
+      "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Lower East Side",
-      "venue": "Bowery Ballroom",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Minskoff Theatre",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/cailin-russo-tickets/new-york-new-york-bowery-ballroom-2026-06-16-7-pm/concert/18157843",
+      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-16-7-pm/17815837",
       "source": "seatgeek",
-      "lat": 40.7204,
-      "lon": -73.9934
+      "lat": 40.7579,
+      "lon": -73.9862
     },
     {
       "id": "seatgeek:17989978",
@@ -8370,20 +8346,6 @@
       "source": "seatgeek",
       "lat": 40.7557,
       "lon": -73.9882
-    },
-    {
-      "id": "seatgeek:17815837",
-      "title": "The Lion King - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-16-7-pm/17815837",
-      "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9862
     },
     {
       "id": "seatgeek:17972181",
@@ -8414,130 +8376,18 @@
       "lon": -73.9846
     },
     {
-      "id": "seatgeek:17958094",
-      "title": "Harry Potter and The Cursed Child - New York",
-      "category": "theater",
+      "id": "seatgeek:18157843",
+      "title": "Cailin Russo (18+)",
+      "category": "music",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyric Theatre - New York",
+      "neighborhood": "Lower East Side",
+      "venue": "Bowery Ballroom",
       "start": "2026-06-16T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-16-7-pm/17958094",
+      "url": "https://seatgeek.com/cailin-russo-tickets/new-york-new-york-bowery-ballroom-2026-06-16-7-pm/concert/18157843",
       "source": "seatgeek",
-      "lat": 40.7565,
-      "lon": -73.9878
-    },
-    {
-      "id": "seatgeek:17874688",
-      "title": "Stranger Things: The First Shadow - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Marquis Theatre - New York",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-16-7-pm/17874688",
-      "source": "seatgeek",
-      "lat": 40.7584,
-      "lon": -73.9855
-    },
-    {
-      "id": "seatgeek:17733272",
-      "title": "MJ - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Neil Simon Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-16-7-pm/17733272",
-      "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9845
-    },
-    {
-      "id": "seatgeek:17979050",
-      "title": "Operation Mincemeat - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "John Golden Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-06-16-7-pm/17979050",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9878
-    },
-    {
-      "id": "seatgeek:18048741",
-      "title": "Chicago - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Ambassador Theatre - New York",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-16-7-pm/18048741",
-      "source": "seatgeek",
-      "lat": 40.7613,
-      "lon": -73.985
-    },
-    {
-      "id": "seatgeek:17851270",
-      "title": "Hamilton - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Richard Rodgers Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-16-7-pm/17851270",
-      "source": "seatgeek",
-      "lat": 40.7592,
-      "lon": -73.9866
-    },
-    {
-      "id": "seatgeek:18014476",
-      "title": "Hadestown - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-16-7-pm/18014476",
-      "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
-    },
-    {
-      "id": "seatgeek:18143535",
-      "title": "Ragtime - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Upper West Side-Lincoln Square",
-      "venue": "Lincoln Center Theater - Vivian Beaumont",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/ragtime-tickets/broadway/2026-06-16-7-pm/18143535",
-      "source": "seatgeek",
-      "lat": 40.7736,
-      "lon": -73.984
-    },
-    {
-      "id": "seatgeek:18169495",
-      "title": "Every Brilliant Thing starring Mariska Hargitay - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Hudson Theatre - New York",
-      "start": "2026-06-16T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/every-brilliant-thing-tickets/broadway/2026-06-16-7-pm/18169495",
-      "source": "seatgeek",
-      "lat": 40.7569,
-      "lon": -73.9848
+      "lat": 40.7204,
+      "lon": -73.9934
     },
     {
       "id": "seatgeek:18175895",
@@ -8570,6 +8420,76 @@
       "lon": -73.9927
     },
     {
+      "id": "seatgeek:17958094",
+      "title": "Harry Potter and The Cursed Child - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyric Theatre - New York",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-16-7-pm/17958094",
+      "source": "seatgeek",
+      "lat": 40.7565,
+      "lon": -73.9878
+    },
+    {
+      "id": "seatgeek:18143535",
+      "title": "Ragtime - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Upper West Side-Lincoln Square",
+      "venue": "Lincoln Center Theater - Vivian Beaumont",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/ragtime-tickets/broadway/2026-06-16-7-pm/18143535",
+      "source": "seatgeek",
+      "lat": 40.7736,
+      "lon": -73.984
+    },
+    {
+      "id": "seatgeek:17733272",
+      "title": "MJ - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Neil Simon Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-16-7-pm/17733272",
+      "source": "seatgeek",
+      "lat": 40.7632,
+      "lon": -73.9845
+    },
+    {
+      "id": "seatgeek:18048741",
+      "title": "Chicago - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Ambassador Theatre - New York",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-16-7-pm/18048741",
+      "source": "seatgeek",
+      "lat": 40.7613,
+      "lon": -73.985
+    },
+    {
+      "id": "seatgeek:17851270",
+      "title": "Hamilton - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Richard Rodgers Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-16-7-pm/17851270",
+      "source": "seatgeek",
+      "lat": 40.7592,
+      "lon": -73.9866
+    },
+    {
       "id": "seatgeek:17738292",
       "title": "Aladdin - New York",
       "category": "theater",
@@ -8596,6 +8516,62 @@
       "source": "seatgeek",
       "lat": 40.7624,
       "lon": -73.9851
+    },
+    {
+      "id": "seatgeek:18014476",
+      "title": "Hadestown - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Walter Kerr Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-16-7-pm/18014476",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
+    },
+    {
+      "id": "seatgeek:18169495",
+      "title": "Every Brilliant Thing starring Mariska Hargitay - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Hudson Theatre - New York",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/every-brilliant-thing-tickets/broadway/2026-06-16-7-pm/18169495",
+      "source": "seatgeek",
+      "lat": 40.7569,
+      "lon": -73.9848
+    },
+    {
+      "id": "seatgeek:17979050",
+      "title": "Operation Mincemeat - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "John Golden Theatre",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-06-16-7-pm/17979050",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9878
+    },
+    {
+      "id": "seatgeek:17874688",
+      "title": "Stranger Things: The First Shadow - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Marquis Theatre - New York",
+      "start": "2026-06-16T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-16-7-pm/17874688",
+      "source": "seatgeek",
+      "lat": 40.7584,
+      "lon": -73.9855
     },
     {
       "id": "nyc-parks:2158262",
@@ -8724,18 +8700,6 @@
       "source": "dice",
       "lat": 40.70256,
       "lon": -73.901176
-    },
-    {
-      "id": "todaytix:45341",
-      "title": "Birthright",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Newman Mills Theatre at the Robert W. Wilson MCC Theatre Space",
-      "start": "2026-06-16T19:30:00",
-      "isFree": false,
-      "priceMin": 42,
-      "url": "https://www.todaytix.com/nyc/shows/birthright",
-      "source": "todaytix"
     },
     {
       "id": "ticketmaster:17GZv0G65FWHIVO",
@@ -8906,6 +8870,20 @@
       "lon": -73.9857
     },
     {
+      "id": "seatgeek:18254136",
+      "title": "Jes Tom",
+      "category": "comedy",
+      "borough": "Brooklyn",
+      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+      "venue": "The Bell House",
+      "start": "2026-06-16T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/jes-tom-tickets/comedy/2026-06-16-7-30-pm/18254136",
+      "source": "seatgeek",
+      "lat": 40.6735,
+      "lon": -73.9916
+    },
+    {
       "id": "seatgeek:17747729",
       "title": "Oh, Mary! - New York",
       "category": "other",
@@ -8920,18 +8898,16 @@
       "lon": -73.9846
     },
     {
-      "id": "seatgeek:18254136",
-      "title": "Jes Tom",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
-      "venue": "The Bell House",
+      "id": "todaytix:45341",
+      "title": "Birthright",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Newman Mills Theatre at the Robert W. Wilson MCC Theatre Space",
       "start": "2026-06-16T19:30:00",
       "isFree": false,
-      "url": "https://seatgeek.com/jes-tom-tickets/comedy/2026-06-16-7-30-pm/18254136",
-      "source": "seatgeek",
-      "lat": 40.6735,
-      "lon": -73.9916
+      "priceMin": 42,
+      "url": "https://www.todaytix.com/nyc/shows/birthright",
+      "source": "todaytix"
     },
     {
       "id": "village-vanguard:135501",
@@ -11335,8 +11311,8 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10d",
-        "temp": 72,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -11929,6 +11905,20 @@
       "lon": -73.9876
     },
     {
+      "id": "seatgeek:18222384",
+      "title": "Gotta Dance - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Stage 42",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-17-2-pm/18222384",
+      "source": "seatgeek",
+      "lat": 40.7587,
+      "lon": -73.9939
+    },
+    {
       "id": "seatgeek:17992442",
       "title": "American Ballet Theatre - Swan Lake",
       "category": "other",
@@ -11941,20 +11931,6 @@
       "source": "seatgeek",
       "lat": 40.7742,
       "lon": -73.9843
-    },
-    {
-      "id": "seatgeek:17979053",
-      "title": "Operation Mincemeat - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "John Golden Theatre",
-      "start": "2026-06-17T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-06-17-2-pm/17979053",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9878
     },
     {
       "id": "seatgeek:17945031",
@@ -11971,6 +11947,20 @@
       "lon": -73.9862
     },
     {
+      "id": "seatgeek:17979053",
+      "title": "Operation Mincemeat - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "John Golden Theatre",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-06-17-2-pm/17979053",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9878
+    },
+    {
       "id": "seatgeek:18041547",
       "title": "& Juliet - New York",
       "category": "other",
@@ -11983,20 +11973,6 @@
       "source": "seatgeek",
       "lat": 40.7559,
       "lon": -73.9849
-    },
-    {
-      "id": "seatgeek:18222384",
-      "title": "Gotta Dance - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Stage 42",
-      "start": "2026-06-17T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-17-2-pm/18222384",
-      "source": "seatgeek",
-      "lat": 40.7587,
-      "lon": -73.9939
     },
     {
       "id": "seatgeek:17945725",
@@ -12126,8 +12102,8 @@
       "lon": -73.933819293976,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12146,9 +12122,9 @@
       "lat": 40.799301147461,
       "lon": -73.966003417969,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12166,8 +12142,8 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10d",
-        "temp": 72,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12201,10 +12177,26 @@
       "lon": -73.932821512222,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
+    },
+    {
+      "id": "dice:6a303c1d02d3c00001885931",
+      "title": "Volena, Peaer, Kissing Well, and Marshy",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick (East)",
+      "venue": "Purgatory",
+      "start": "2026-06-17T15:00:00",
+      "end": "2026-06-17T18:30:00",
+      "isFree": false,
+      "priceMin": 13.6,
+      "url": "https://dice.fm/event/rykak5-volena-peaer-kissing-well-and-marshy-17th-jun-purgatory-new-york-tickets",
+      "source": "dice",
+      "lat": 40.6872368,
+      "lon": -73.9057271
     },
     {
       "id": "cityparks:20310",
@@ -12219,8 +12211,8 @@
       "source": "cityparks",
       "weather": {
         "icon": "10d",
-        "temp": 72,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12254,8 +12246,8 @@
       "lon": -74.000801086426,
       "weather": {
         "icon": "10d",
-        "temp": 70,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12274,9 +12266,9 @@
       "lat": 40.866019354534,
       "lon": -73.898195624351,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 65,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12296,8 +12288,8 @@
       "lon": -73.913262844086,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12317,8 +12309,8 @@
       "lon": -73.901274625272,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12337,9 +12329,9 @@
       "lat": 40.877219084337,
       "lon": -73.878661870956,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 65,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12359,8 +12351,8 @@
       "lon": -73.922477979305,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12379,9 +12371,9 @@
       "lat": 40.887225893575,
       "lon": -73.916396338164,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 65,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12401,8 +12393,8 @@
       "lon": -73.886041879654,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12421,9 +12413,9 @@
       "lat": 40.854499816895,
       "lon": -73.870101928711,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 65,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12443,8 +12435,8 @@
       "lon": -73.851939344896,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12496,8 +12488,8 @@
       "lon": -73.942486521164,
       "weather": {
         "icon": "10d",
-        "temp": 74,
-        "description": "light rain",
+        "temp": 66,
+        "description": "moderate rain",
         "dt": 1781708400000
       }
     },
@@ -12546,9 +12538,9 @@
       "lat": 40.804781530286,
       "lon": -73.922479271889,
       "weather": {
-        "icon": "04d",
-        "temp": 77,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -12582,7 +12574,7 @@
       "lon": -73.841875076294,
       "weather": {
         "icon": "10d",
-        "temp": 74,
+        "temp": 69,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12602,9 +12594,9 @@
       "lat": 40.6855549,
       "lon": -73.9411715,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 70,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -12624,7 +12616,7 @@
       "lon": -73.956886291504,
       "weather": {
         "icon": "10d",
-        "temp": 77,
+        "temp": 71,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12732,7 +12724,7 @@
       "lon": -73.775010301575,
       "weather": {
         "icon": "10d",
-        "temp": 74,
+        "temp": 69,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12752,9 +12744,9 @@
       "lat": 40.84260178,
       "lon": -73.93430328,
       "weather": {
-        "icon": "04d",
-        "temp": 77,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -12774,7 +12766,7 @@
       "lon": -74.004046916962,
       "weather": {
         "icon": "10d",
-        "temp": 74,
+        "temp": 70,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12794,9 +12786,9 @@
       "lat": 40.6646618,
       "lon": -73.9111354,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 70,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -12816,7 +12808,7 @@
       "lon": -73.988085303512,
       "weather": {
         "icon": "10d",
-        "temp": 74,
+        "temp": 70,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12837,7 +12829,7 @@
       "lon": -73.983734458685,
       "weather": {
         "icon": "10d",
-        "temp": 77,
+        "temp": 71,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12858,7 +12850,7 @@
       "lon": -73.96199798584,
       "weather": {
         "icon": "10d",
-        "temp": 74,
+        "temp": 70,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12878,9 +12870,9 @@
       "lat": 40.682991343794,
       "lon": -73.887737512589,
       "weather": {
-        "icon": "04d",
-        "temp": 74,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 70,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -12959,7 +12951,7 @@
       "lon": -73.961097717285,
       "weather": {
         "icon": "10d",
-        "temp": 77,
+        "temp": 71,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -12980,7 +12972,7 @@
       "lon": -73.9906997680664,
       "weather": {
         "icon": "10d",
-        "temp": 77,
+        "temp": 71,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -13000,9 +12992,9 @@
       "lat": 40.811420680861,
       "lon": -73.912468910217,
       "weather": {
-        "icon": "04d",
-        "temp": 77,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -13021,9 +13013,9 @@
       "lat": 40.79349899,
       "lon": -73.93669891,
       "weather": {
-        "icon": "04d",
-        "temp": 77,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1781719200000
       }
     },
@@ -13040,22 +13032,6 @@
       "source": "smallslive",
       "image": "https://i.scdn.co/image/ab67616d0000b273f1c44d45d21373a1a25c1d9e",
       "spotifyUrl": "https://open.spotify.com/artist/3ISh6Jz1xLIprziBMg5Iuu"
-    },
-    {
-      "id": "dice:6a2daef80910ce000145d151",
-      "title": "Benevolence // Tipper Gore // Gangstalker ",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Bushwick (West)",
-      "venue": "Gold Sounds",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T23:00:00",
-      "isFree": false,
-      "priceMin": 15,
-      "url": "https://dice.fm/event/g537rp-benevolence-tipper-gore-gangstalker-17th-jun-gold-sounds-new-york-tickets",
-      "source": "dice",
-      "lat": 40.702624,
-      "lon": -73.929611
     },
     {
       "id": "dice:69bcbf62743cc90001940089",
@@ -13085,7 +13061,7 @@
       "source": "cityparks",
       "weather": {
         "icon": "10d",
-        "temp": 74,
+        "temp": 70,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -13105,20 +13081,6 @@
       "lon": -73.9841
     },
     {
-      "id": "seatgeek:17530707",
-      "title": "Little Shop of Horrors - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Westside Theatre Upstairs",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-17-7-pm/17530707",
-      "source": "seatgeek",
-      "lat": 40.7593,
-      "lon": -73.9927
-    },
-    {
       "id": "seatgeek:18037545",
       "title": "Yot Club with Renny Conti",
       "category": "music",
@@ -13131,6 +13093,20 @@
       "source": "seatgeek",
       "lat": 40.719154,
       "lon": -73.96175
+    },
+    {
+      "id": "seatgeek:17530707",
+      "title": "Little Shop of Horrors - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Westside Theatre Upstairs",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-17-7-pm/17530707",
+      "source": "seatgeek",
+      "lat": 40.7593,
+      "lon": -73.9927
     },
     {
       "id": "seatgeek:18069706",
@@ -13161,20 +13137,6 @@
       "lon": -73.983
     },
     {
-      "id": "seatgeek:17874699",
-      "title": "Stranger Things: The First Shadow - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Marquis Theatre - New York",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-17-7-pm/17874699",
-      "source": "seatgeek",
-      "lat": 40.7584,
-      "lon": -73.9855
-    },
-    {
       "id": "seatgeek:18109822",
       "title": "Padma Puts On Another Comedy Show with Padma Lakshmi (Rescheduled from 6/10/2026)",
       "category": "comedy",
@@ -13187,6 +13149,20 @@
       "source": "seatgeek",
       "lat": 40.6735,
       "lon": -73.9916
+    },
+    {
+      "id": "seatgeek:17874699",
+      "title": "Stranger Things: The First Shadow - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Marquis Theatre - New York",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-17-7-pm/17874699",
+      "source": "seatgeek",
+      "lat": 40.7584,
+      "lon": -73.9855
     },
     {
       "id": "seatgeek:17716093",
@@ -13343,20 +13319,6 @@
       "lon": -73.9862
     },
     {
-      "id": "seatgeek:18166083",
-      "title": "Royal & The Serpent with Siiickbrain",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Gramercy",
-      "venue": "Irving Plaza",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/royal-the-serpent-tickets/new-york-new-york-irving-plaza-2026-06-17-7-pm/concert/18166083",
-      "source": "seatgeek",
-      "lat": 40.7349,
-      "lon": -73.9884
-    },
-    {
       "id": "seatgeek:18140964",
       "title": "Naomi Scott (16+)",
       "category": "music",
@@ -13369,6 +13331,20 @@
       "source": "seatgeek",
       "lat": 40.7204,
       "lon": -73.9934
+    },
+    {
+      "id": "seatgeek:18166083",
+      "title": "Royal & The Serpent with Siiickbrain",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Gramercy",
+      "venue": "Irving Plaza",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/royal-the-serpent-tickets/new-york-new-york-irving-plaza-2026-06-17-7-pm/concert/18166083",
+      "source": "seatgeek",
+      "lat": 40.7349,
+      "lon": -73.9884
     },
     {
       "id": "seatgeek:17733273",
@@ -13441,18 +13417,32 @@
       "lon": -73.9857
     },
     {
-      "id": "seatgeek:18081450",
-      "title": "Death of a Salesman - New York",
-      "category": "other",
+      "id": "seatgeek:18229584",
+      "title": "KENREX",
+      "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Winter Garden Theatre",
+      "neighborhood": "West Village",
+      "venue": "Lucille Lortel Theatre",
       "start": "2026-06-17T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-17-7-pm/18081450",
+      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-17-7-pm/18229584",
       "source": "seatgeek",
-      "lat": 40.7617,
-      "lon": -73.9837
+      "lat": 40.7334,
+      "lon": -74.0058
+    },
+    {
+      "id": "seatgeek:18243073",
+      "title": "Girl, Interrupted - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Greenwich Village",
+      "venue": "Public Theater - Martinson Hall",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-17-7-pm/18243073",
+      "source": "seatgeek",
+      "lat": 40.729,
+      "lon": -73.9922
     },
     {
       "id": "seatgeek:18054794",
@@ -13483,46 +13473,18 @@
       "lon": -73.9838
     },
     {
-      "id": "seatgeek:17808411",
-      "title": "The Great Gatsby - The Musical - New York",
+      "id": "seatgeek:18081450",
+      "title": "Death of a Salesman - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Broadway Theatre - New York",
+      "venue": "Winter Garden Theatre",
       "start": "2026-06-17T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-17-7-pm/17808411",
+      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-17-7-pm/18081450",
       "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9829
-    },
-    {
-      "id": "seatgeek:18243073",
-      "title": "Girl, Interrupted - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Greenwich Village",
-      "venue": "Public Theater - Martinson Hall",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-17-7-pm/18243073",
-      "source": "seatgeek",
-      "lat": 40.729,
-      "lon": -73.9922
-    },
-    {
-      "id": "seatgeek:18229584",
-      "title": "KENREX",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "West Village",
-      "venue": "Lucille Lortel Theatre",
-      "start": "2026-06-17T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-17-7-pm/18229584",
-      "source": "seatgeek",
-      "lat": 40.7334,
-      "lon": -74.0058
+      "lat": 40.7617,
+      "lon": -73.9837
     },
     {
       "id": "seatgeek:18169501",
@@ -13537,6 +13499,20 @@
       "source": "seatgeek",
       "lat": 40.7569,
       "lon": -73.9848
+    },
+    {
+      "id": "seatgeek:17808411",
+      "title": "The Great Gatsby - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Broadway Theatre - New York",
+      "start": "2026-06-17T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-17-7-pm/17808411",
+      "source": "seatgeek",
+      "lat": 40.7632,
+      "lon": -73.9829
     },
     {
       "id": "nyc-parks:2174832",
@@ -13554,7 +13530,7 @@
       "lon": -73.9844970703125,
       "weather": {
         "icon": "10d",
-        "temp": 77,
+        "temp": 71,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -13575,7 +13551,7 @@
       "lon": -73.96148121357,
       "weather": {
         "icon": "10d",
-        "temp": 77,
+        "temp": 71,
         "description": "light rain",
         "dt": 1781719200000
       }
@@ -13604,47 +13580,11 @@
       "start": "2026-06-17T19:30:00",
       "end": "2026-06-17T21:30:00",
       "isFree": false,
-      "priceMin": 18.7,
+      "priceMin": 17,
       "url": "https://dice.fm/event/dkpmm6-flatbush-comedy-festival-17th-jun-record-city-new-york-city-tickets",
       "source": "dice",
       "lat": 40.658198,
       "lon": -73.960047
-    },
-    {
-      "id": "todaytix:44532",
-      "title": "Encores! La Cage Aux Folles",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York City Center",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "priceMin": 63,
-      "url": "https://www.todaytix.com/nyc/shows/encores-la-cage-aux-folles",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:41318",
-      "title": "Swan Lake",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Metropolitan Opera House",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "priceMin": 40,
-      "url": "https://www.todaytix.com/nyc/shows/swan-lake",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47123",
-      "title": "Dad Don't Read This",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Greenwich House Theater ",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/dad-dont-read-this",
-      "source": "todaytix"
     },
     {
       "id": "seatgeek:17945815",
@@ -13689,18 +13629,18 @@
       "lon": -73.9873
     },
     {
-      "id": "seatgeek:18011613",
-      "title": "Death Becomes Her - New York",
+      "id": "seatgeek:18222417",
+      "title": "Gotta Dance - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lunt-Fontanne Theatre",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Stage 42",
       "start": "2026-06-17T19:30:00",
       "isFree": false,
-      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-17-7-30-pm/18011613",
+      "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-17-7-30-pm/18222417",
       "source": "seatgeek",
-      "lat": 40.759,
-      "lon": -73.986
+      "lat": 40.7587,
+      "lon": -73.9939
     },
     {
       "id": "seatgeek:17917292",
@@ -13731,18 +13671,46 @@
       "lon": -73.9843
     },
     {
-      "id": "seatgeek:18222417",
-      "title": "Gotta Dance - New York",
+      "id": "seatgeek:18011613",
+      "title": "Death Becomes Her - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Stage 42",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lunt-Fontanne Theatre",
       "start": "2026-06-17T19:30:00",
       "isFree": false,
-      "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-17-7-30-pm/18222417",
+      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-17-7-30-pm/18011613",
       "source": "seatgeek",
-      "lat": 40.7587,
-      "lon": -73.9939
+      "lat": 40.759,
+      "lon": -73.986
+    },
+    {
+      "id": "seatgeek:17965664",
+      "title": "Giant - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Music Box Theatre - NY",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/giant-tickets/theater/2026-06-17-7-30-pm/17965664",
+      "source": "seatgeek",
+      "lat": 40.7588,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:17717872",
+      "title": "Two Strangers (Carry a Cake Across New York) - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Longacre Theatre",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-17-7-30-pm/17717872",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
     },
     {
       "id": "seatgeek:18014478",
@@ -13787,34 +13755,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:17717872",
-      "title": "Two Strangers (Carry a Cake Across New York) - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Longacre Theatre",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-17-7-30-pm/17717872",
-      "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
-    },
-    {
-      "id": "seatgeek:17965664",
-      "title": "Giant - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Music Box Theatre - NY",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/giant-tickets/theater/2026-06-17-7-30-pm/17965664",
-      "source": "seatgeek",
-      "lat": 40.7588,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:17747738",
       "title": "Oh, Mary! - New York",
       "category": "other",
@@ -13855,6 +13795,42 @@
       "source": "seatgeek",
       "lat": 40.7639,
       "lon": -73.9794
+    },
+    {
+      "id": "todaytix:44532",
+      "title": "Encores! La Cage Aux Folles",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 63,
+      "url": "https://www.todaytix.com/nyc/shows/encores-la-cage-aux-folles",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41318",
+      "title": "Swan Lake",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/swan-lake",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47123",
+      "title": "Dad Don't Read This",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Greenwich House Theater ",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/dad-dont-read-this",
+      "source": "todaytix"
     },
     {
       "id": "village-vanguard:135503",
@@ -14011,9 +13987,9 @@
       "lat": 40.703493982314,
       "lon": -73.922447353601,
       "weather": {
-        "icon": "10d",
+        "icon": "03d",
         "temp": 72,
-        "description": "light rain",
+        "description": "scattered clouds",
         "dt": 1781730000000
       }
     },
@@ -14181,9 +14157,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14200,9 +14176,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14219,9 +14195,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14238,9 +14214,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14257,9 +14233,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14276,9 +14252,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14297,9 +14273,9 @@
       "lat": 40.67350006,
       "lon": -73.93479919,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14318,9 +14294,9 @@
       "lat": 40.767200469971,
       "lon": -73.971298217773,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14339,9 +14315,9 @@
       "lat": 40.886100769043,
       "lon": -73.897499084473,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14394,9 +14370,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14413,9 +14389,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14432,9 +14408,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14451,9 +14427,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14470,9 +14446,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14489,9 +14465,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14507,9 +14483,9 @@
       "url": "https://cityparksfoundation.org/events/its-my-park-at-hunters-point-south-park-28/",
       "source": "cityparks",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14528,9 +14504,9 @@
       "lat": 40.771337744717,
       "lon": -73.98848224009,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14549,9 +14525,9 @@
       "lat": 40.741905676395,
       "lon": -73.960692945351,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14570,9 +14546,9 @@
       "lat": 40.711898803711,
       "lon": -73.821601867676,
       "weather": {
-        "icon": "04n",
-        "temp": 70,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14591,9 +14567,9 @@
       "lat": 40.694295031495,
       "lon": -73.821800351143,
       "weather": {
-        "icon": "04n",
-        "temp": 70,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14612,9 +14588,9 @@
       "lat": 40.606391389274,
       "lon": -73.927646875381,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 69,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14633,9 +14609,9 @@
       "lat": 40.793319915217,
       "lon": -73.933819293976,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14654,9 +14630,9 @@
       "lat": 40.714499,
       "lon": -73.989886,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14675,9 +14651,9 @@
       "lat": 40.76139831543,
       "lon": -73.992698669434,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14696,9 +14672,9 @@
       "lat": 40.71419906616211,
       "lon": -73.98380279541016,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14717,9 +14693,9 @@
       "lat": 40.715198516846,
       "lon": -74,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14738,9 +14714,9 @@
       "lat": 40.747299194336,
       "lon": -73.921798706055,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14759,9 +14735,9 @@
       "lat": 40.710800170898,
       "lon": -73.911201477051,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14780,9 +14756,9 @@
       "lat": 40.805416107177734,
       "lon": -73.94432830810547,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14801,9 +14777,9 @@
       "lat": 40.805416107177734,
       "lon": -73.94432830810547,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14822,9 +14798,9 @@
       "lat": 40.726200103759766,
       "lon": -73.847900390625,
       "weather": {
-        "icon": "04n",
-        "temp": 70,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14843,9 +14819,9 @@
       "lat": 40.683898925781,
       "lon": -73.769996643066,
       "weather": {
-        "icon": "04n",
-        "temp": 70,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14864,9 +14840,9 @@
       "lat": 40.741525676437,
       "lon": -73.748691678048,
       "weather": {
-        "icon": "04n",
-        "temp": 70,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14885,9 +14861,9 @@
       "lat": 40.6622043,
       "lon": -73.742109417915,
       "weather": {
-        "icon": "04n",
-        "temp": 70,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14906,9 +14882,9 @@
       "lat": 40.894686781515,
       "lon": -73.862355232239,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14927,9 +14903,9 @@
       "lat": 40.63828844529,
       "lon": -73.946924981476,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 69,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14948,9 +14924,9 @@
       "lat": 40.673876085691,
       "lon": -73.935838633842,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14969,9 +14945,9 @@
       "lat": 40.758201599121,
       "lon": -73.824798583984,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -14990,9 +14966,9 @@
       "lat": 40.756574188559,
       "lon": -73.874223549264,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -15011,9 +14987,9 @@
       "lat": 40.86520004272461,
       "lon": -73.92880249023438,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -15053,9 +15029,9 @@
       "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-39/",
       "source": "cityparks",
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -15074,9 +15050,9 @@
       "lat": 40.774719851048,
       "lon": -73.992537140846,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 67,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -15095,9 +15071,9 @@
       "lat": 40.6682174,
       "lon": -73.9834162,
       "weather": {
-        "icon": "04n",
-        "temp": 71,
-        "description": "overcast clouds",
+        "icon": "10n",
+        "temp": 68,
+        "description": "light rain",
         "dt": 1781773200000
       }
     },
@@ -15114,9 +15090,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 72,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15133,9 +15109,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 72,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15168,9 +15144,9 @@
       "lat": 40.814910128999,
       "lon": -73.889116707316,
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 71,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15210,9 +15186,9 @@
       "lat": 40.755045994592,
       "lon": -73.949578225613,
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 71,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15229,9 +15205,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 72,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15250,9 +15226,9 @@
       "lat": 40.755894029168,
       "lon": -73.926240560102,
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 71,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15271,9 +15247,9 @@
       "lat": 40.75339889526367,
       "lon": -73.98269653320312,
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 71,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15290,9 +15266,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 72,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15309,9 +15285,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 72,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15344,9 +15320,9 @@
       "lat": 40.806144714355,
       "lon": -73.964828491211,
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 71,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15365,9 +15341,9 @@
       "lat": 40.886241912842,
       "lon": -73.91463470459,
       "weather": {
-        "icon": "10d",
-        "temp": 70,
-        "description": "light rain",
+        "icon": "04d",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15384,9 +15360,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10d",
+        "icon": "04d",
         "temp": 72,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781784000000
       }
     },
@@ -15460,6 +15436,20 @@
       "lon": -73.9868
     },
     {
+      "id": "seatgeek:18166133",
+      "title": "The Gazillion Bubble Show - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 2",
+      "start": "2026-06-18T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-18-2-pm/18166133",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
       "id": "seatgeek:18003216",
       "title": "American Ballet Theatre - Swan Lake",
       "category": "other",
@@ -15488,20 +15478,6 @@
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:18166133",
-      "title": "The Gazillion Bubble Show - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 2",
-      "start": "2026-06-18T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-18-2-pm/18166133",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "nyc-parks:2168788",
       "title": "Public Gallery Tour",
       "category": "other",
@@ -15517,7 +15493,7 @@
       "lon": -73.9124984741211,
       "weather": {
         "icon": "04d",
-        "temp": 80,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15538,7 +15514,7 @@
       "lon": -73.933819293976,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15559,7 +15535,7 @@
       "lon": -73.966003417969,
       "weather": {
         "icon": "04d",
-        "temp": 83,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15580,24 +15556,10 @@
       "lon": -73.932821512222,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
-    },
-    {
-      "id": "seatgeek:17747728",
-      "title": "Oh, Mary! - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyceum Theatre",
-      "start": "2026-06-18T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/oh-mary-tickets/broadway/2026-06-18-3-pm/17747728",
-      "source": "seatgeek",
-      "lat": 40.7577,
-      "lon": -73.9846
     },
     {
       "id": "seatgeek:18257839",
@@ -15612,6 +15574,20 @@
       "source": "seatgeek",
       "lat": 40.758,
       "lon": -73.9875
+    },
+    {
+      "id": "seatgeek:17747728",
+      "title": "Oh, Mary! - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyceum Theatre",
+      "start": "2026-06-18T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/oh-mary-tickets/broadway/2026-06-18-3-pm/17747728",
+      "source": "seatgeek",
+      "lat": 40.7577,
+      "lon": -73.9846
     },
     {
       "id": "seatgeek:17874076",
@@ -15643,7 +15619,7 @@
       "lon": -73.886041879654,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15664,7 +15640,7 @@
       "lon": -73.901274625272,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15685,7 +15661,7 @@
       "lon": -73.913262844086,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15706,7 +15682,7 @@
       "lon": -73.916396338164,
       "weather": {
         "icon": "04d",
-        "temp": 80,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15727,7 +15703,7 @@
       "lon": -73.898195624351,
       "weather": {
         "icon": "04d",
-        "temp": 80,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15748,7 +15724,7 @@
       "lon": -73.922477979305,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15769,7 +15745,7 @@
       "lon": -73.878661870956,
       "weather": {
         "icon": "04d",
-        "temp": 80,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15790,7 +15766,7 @@
       "lon": -73.851939344896,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15811,7 +15787,7 @@
       "lon": -73.870101928711,
       "weather": {
         "icon": "04d",
-        "temp": 80,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15832,7 +15808,7 @@
       "lon": -73.886041879654,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15853,7 +15829,7 @@
       "lon": -73.992537140846,
       "weather": {
         "icon": "04d",
-        "temp": 83,
+        "temp": 74,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15890,7 +15866,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10d",
-        "temp": 83,
+        "temp": 75,
         "description": "light rain",
         "dt": 1781794800000
       }
@@ -15911,7 +15887,7 @@
       "lon": -73.94249725,
       "weather": {
         "icon": "04d",
-        "temp": 82,
+        "temp": 75,
         "description": "overcast clouds",
         "dt": 1781794800000
       }
@@ -15961,9 +15937,9 @@
       "lat": 40.675350789075,
       "lon": -73.769889950752,
       "weather": {
-        "icon": "04d",
-        "temp": 89,
-        "description": "broken clouds",
+        "icon": "10d",
+        "temp": 86,
+        "description": "light rain",
         "dt": 1781805600000
       }
     },
@@ -15997,7 +15973,7 @@
       "lon": -73.94670104980469,
       "weather": {
         "icon": "04d",
-        "temp": 90,
+        "temp": 87,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16133,7 +16109,7 @@
       "lon": -73.92220306396484,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16153,9 +16129,9 @@
       "lat": 40.70080998243,
       "lon": -73.831687512611,
       "weather": {
-        "icon": "04d",
-        "temp": 89,
-        "description": "broken clouds",
+        "icon": "10d",
+        "temp": 86,
+        "description": "light rain",
         "dt": 1781805600000
       }
     },
@@ -16175,7 +16151,7 @@
       "lon": -73.98179626,
       "weather": {
         "icon": "04d",
-        "temp": 91,
+        "temp": 87,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16196,7 +16172,7 @@
       "lon": -73.921704828739,
       "weather": {
         "icon": "04d",
-        "temp": 90,
+        "temp": 87,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16216,9 +16192,9 @@
       "lat": 40.7601617,
       "lon": -73.7683806,
       "weather": {
-        "icon": "04d",
-        "temp": 91,
-        "description": "broken clouds",
+        "icon": "10d",
+        "temp": 89,
+        "description": "light rain",
         "dt": 1781805600000
       }
     },
@@ -16238,7 +16214,7 @@
       "lon": -73.926194962548,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16259,7 +16235,7 @@
       "lon": -73.93669891,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16280,7 +16256,7 @@
       "lon": -73.861925057672,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16301,7 +16277,7 @@
       "lon": -73.873869,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16322,7 +16298,7 @@
       "lon": -73.94999695,
       "weather": {
         "icon": "04d",
-        "temp": 90,
+        "temp": 87,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16343,7 +16319,7 @@
       "lon": -74.036773681641,
       "weather": {
         "icon": "04d",
-        "temp": 87,
+        "temp": 84,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16364,7 +16340,7 @@
       "lon": -73.9844970703125,
       "weather": {
         "icon": "04d",
-        "temp": 93,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16384,9 +16360,9 @@
       "lat": 40.79159927368164,
       "lon": -73.7760009765625,
       "weather": {
-        "icon": "04d",
-        "temp": 91,
-        "description": "broken clouds",
+        "icon": "10d",
+        "temp": 89,
+        "description": "light rain",
         "dt": 1781805600000
       }
     },
@@ -16406,7 +16382,7 @@
       "lon": -73.918559074402,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16442,7 +16418,7 @@
       "lon": -73.889116707316,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16463,7 +16439,7 @@
       "lon": -73.95349884033203,
       "weather": {
         "icon": "04d",
-        "temp": 93,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16484,7 +16460,7 @@
       "lon": -74.00219727,
       "weather": {
         "icon": "04d",
-        "temp": 91,
+        "temp": 87,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16505,7 +16481,7 @@
       "lon": -73.978996276855,
       "weather": {
         "icon": "04d",
-        "temp": 93,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16526,7 +16502,7 @@
       "lon": -73.912468910217,
       "weather": {
         "icon": "04d",
-        "temp": 92,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -16546,9 +16522,9 @@
       "lat": 40.742657289192,
       "lon": -73.849996328354,
       "weather": {
-        "icon": "04d",
-        "temp": 89,
-        "description": "broken clouds",
+        "icon": "10d",
+        "temp": 86,
+        "description": "light rain",
         "dt": 1781805600000
       }
     },
@@ -16693,6 +16669,20 @@
       "lon": -73.9841
     },
     {
+      "id": "seatgeek:18048004",
+      "title": "Just In Time - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Circle In The Square Theatre",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/just-in-time-tickets/broadway/2026-06-18-7-pm/18048004",
+      "source": "seatgeek",
+      "lat": 40.7623,
+      "lon": -73.9852
+    },
+    {
       "id": "seatgeek:18081459",
       "title": "Death of a Salesman - New York",
       "category": "other",
@@ -16719,20 +16709,6 @@
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
-    },
-    {
-      "id": "seatgeek:18048004",
-      "title": "Just In Time - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Circle In The Square Theatre",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/just-in-time-tickets/broadway/2026-06-18-7-pm/18048004",
-      "source": "seatgeek",
-      "lat": 40.7623,
-      "lon": -73.9852
     },
     {
       "id": "seatgeek:18015990",
@@ -16763,32 +16739,46 @@
       "lon": -73.9635
     },
     {
-      "id": "seatgeek:17740759",
-      "title": "The Lion King - New York",
+      "id": "seatgeek:17945034",
+      "title": "Joe Turner's Come and Gone - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
+      "venue": "Barrymore Theatre - New York",
       "start": "2026-06-18T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-18-7-pm/17740759",
+      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-18-7-pm/17945034",
       "source": "seatgeek",
-      "lat": 40.7579,
+      "lat": 40.7602,
       "lon": -73.9862
     },
     {
-      "id": "seatgeek:18143532",
-      "title": "Ragtime - New York",
+      "id": "seatgeek:17733276",
+      "title": "MJ - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Upper West Side-Lincoln Square",
-      "venue": "Lincoln Center Theater - Vivian Beaumont",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Neil Simon Theatre",
       "start": "2026-06-18T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/ragtime-tickets/broadway/2026-06-18-7-pm/18143532",
+      "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-18-7-pm/17733276",
       "source": "seatgeek",
-      "lat": 40.7736,
-      "lon": -73.984
+      "lat": 40.7632,
+      "lon": -73.9845
+    },
+    {
+      "id": "seatgeek:18011587",
+      "title": "Death Becomes Her - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lunt-Fontanne Theatre",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-18-7-pm/18011587",
+      "source": "seatgeek",
+      "lat": 40.759,
+      "lon": -73.986
     },
     {
       "id": "seatgeek:18169502",
@@ -16847,20 +16837,6 @@
       "lon": -73.9863
     },
     {
-      "id": "seatgeek:18011587",
-      "title": "Death Becomes Her - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lunt-Fontanne Theatre",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-18-7-pm/18011587",
-      "source": "seatgeek",
-      "lat": 40.759,
-      "lon": -73.986
-    },
-    {
       "id": "seatgeek:17958096",
       "title": "Harry Potter and The Cursed Child - New York",
       "category": "theater",
@@ -16903,20 +16879,6 @@
       "lon": -73.9927
     },
     {
-      "id": "seatgeek:18028214",
-      "title": "Chicago - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Ambassador Theatre - New York",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-18-7-pm/18028214",
-      "source": "seatgeek",
-      "lat": 40.7613,
-      "lon": -73.985
-    },
-    {
       "id": "seatgeek:17891631",
       "title": "Six the Musical - New York",
       "category": "other",
@@ -16929,6 +16891,48 @@
       "source": "seatgeek",
       "lat": 40.7602,
       "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:17833937",
+      "title": "Cats - The Jellicle Ball",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Broadhurst Theatre",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/cats-the-jellicle-ball-tickets/broadway/2026-06-18-7-pm/17833937",
+      "source": "seatgeek",
+      "lat": 40.7582,
+      "lon": -73.9876
+    },
+    {
+      "id": "seatgeek:17716112",
+      "title": "Maybe Happy Ending - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Belasco Theatre - NY",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-18-7-pm/17716112",
+      "source": "seatgeek",
+      "lat": 40.7563,
+      "lon": -73.9836
+    },
+    {
+      "id": "seatgeek:18028214",
+      "title": "Chicago - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Ambassador Theatre - New York",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-18-7-pm/18028214",
+      "source": "seatgeek",
+      "lat": 40.7613,
+      "lon": -73.985
     },
     {
       "id": "seatgeek:17808458",
@@ -16973,48 +16977,6 @@
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:17716112",
-      "title": "Maybe Happy Ending - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Belasco Theatre - NY",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-18-7-pm/17716112",
-      "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9836
-    },
-    {
-      "id": "seatgeek:17833937",
-      "title": "Cats - The Jellicle Ball",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Broadhurst Theatre",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/cats-the-jellicle-ball-tickets/broadway/2026-06-18-7-pm/17833937",
-      "source": "seatgeek",
-      "lat": 40.7582,
-      "lon": -73.9876
-    },
-    {
-      "id": "seatgeek:18229585",
-      "title": "KENREX",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "West Village",
-      "venue": "Lucille Lortel Theatre",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-18-7-pm/18229585",
-      "source": "seatgeek",
-      "lat": 40.7334,
-      "lon": -74.0058
-    },
-    {
       "id": "seatgeek:18033524",
       "title": "Fulton Lee",
       "category": "music",
@@ -17041,6 +17003,20 @@
       "source": "seatgeek",
       "lat": 40.7584,
       "lon": -73.9855
+    },
+    {
+      "id": "seatgeek:17917310",
+      "title": "Buena Vista Social Club - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Gerald Schoenfeld Theatre",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-06-18-7-pm/17917310",
+      "source": "seatgeek",
+      "lat": 40.7587,
+      "lon": -73.9873
     },
     {
       "id": "seatgeek:17989903",
@@ -17085,20 +17061,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:17917310",
-      "title": "Buena Vista Social Club - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Gerald Schoenfeld Theatre",
-      "start": "2026-06-18T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-06-18-7-pm/17917310",
-      "source": "seatgeek",
-      "lat": 40.7587,
-      "lon": -73.9873
-    },
-    {
       "id": "seatgeek:17738295",
       "title": "Aladdin - New York",
       "category": "theater",
@@ -17113,18 +17075,18 @@
       "lon": -73.9877
     },
     {
-      "id": "seatgeek:17876147",
-      "title": "Dog Day Afternoon - New York",
-      "category": "other",
+      "id": "seatgeek:18229585",
+      "title": "KENREX",
+      "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "August Wilson Theatre",
+      "neighborhood": "West Village",
+      "venue": "Lucille Lortel Theatre",
       "start": "2026-06-18T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-18-7-pm/17876147",
+      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-18-7-pm/18229585",
       "source": "seatgeek",
-      "lat": 40.7629,
-      "lon": -73.9837
+      "lat": 40.7334,
+      "lon": -74.0058
     },
     {
       "id": "seatgeek:18241728",
@@ -17141,6 +17103,20 @@
       "lon": -73.9868
     },
     {
+      "id": "seatgeek:17876147",
+      "title": "Dog Day Afternoon - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "August Wilson Theatre",
+      "start": "2026-06-18T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-18-7-pm/17876147",
+      "source": "seatgeek",
+      "lat": 40.7629,
+      "lon": -73.9837
+    },
+    {
       "id": "nyc-parks:2169577",
       "title": "Dance Fitness",
       "category": "sports",
@@ -17155,9 +17131,9 @@
       "lat": 40.637883828414,
       "lon": -73.946818290168,
       "weather": {
-        "icon": "04d",
-        "temp": 86,
-        "description": "broken clouds",
+        "icon": "10d",
+        "temp": 83,
+        "description": "light rain",
         "dt": 1781805600000
       }
     },
@@ -17177,7 +17153,7 @@
       "lon": -73.983734458685,
       "weather": {
         "icon": "04d",
-        "temp": 93,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -17198,7 +17174,7 @@
       "lon": -73.96148121357,
       "weather": {
         "icon": "04d",
-        "temp": 93,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -17232,42 +17208,6 @@
       "source": "dice",
       "lat": 40.65544,
       "lon": -73.952771
-    },
-    {
-      "id": "todaytix:46955",
-      "title": "NTLive: Hamlet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Leonard Nimoy Thalia Theatre at Symphony Space",
-      "start": "2026-06-18T19:30:00",
-      "isFree": false,
-      "priceMin": 32,
-      "url": "https://www.todaytix.com/nyc/shows/ntlive-hamlet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46500",
-      "title": "VIDA",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-18T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/vida",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46985",
-      "title": "The Met Orchestra - Yannick Nézet-Séguin / Joyce DiDonato",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
-      "start": "2026-06-18T19:30:00",
-      "isFree": false,
-      "priceMin": 35,
-      "url": "https://www.todaytix.com/nyc/shows/the-met-orchestra",
-      "source": "todaytix"
     },
     {
       "id": "seatgeek:18061830",
@@ -17368,6 +17308,42 @@
       "lon": -73.9874
     },
     {
+      "id": "todaytix:46955",
+      "title": "NTLive: Hamlet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Leonard Nimoy Thalia Theatre at Symphony Space",
+      "start": "2026-06-18T19:30:00",
+      "isFree": false,
+      "priceMin": 32,
+      "url": "https://www.todaytix.com/nyc/shows/ntlive-hamlet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46500",
+      "title": "VIDA",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-18T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/vida",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46985",
+      "title": "The Met Orchestra - Yannick Nézet-Séguin / Joyce DiDonato",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+      "start": "2026-06-18T19:30:00",
+      "isFree": false,
+      "priceMin": 35,
+      "url": "https://www.todaytix.com/nyc/shows/the-met-orchestra",
+      "source": "todaytix"
+    },
+    {
       "id": "nyc-parks:2158670",
       "title": "Virtual Zumba",
       "category": "sports",
@@ -17383,7 +17359,7 @@
       "lon": -73.9935168,
       "weather": {
         "icon": "04d",
-        "temp": 93,
+        "temp": 89,
         "description": "broken clouds",
         "dt": 1781805600000
       }
@@ -17447,20 +17423,6 @@
       "lon": -73.9795
     },
     {
-      "id": "seatgeek:18116968",
-      "title": "Rostam (16+)",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "East Village",
-      "venue": "Webster Hall",
-      "start": "2026-06-18T20:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/rostam-tickets/new-york-new-york-webster-hall-2026-06-18-8-pm/concert/18116968",
-      "source": "seatgeek",
-      "lat": 40.7318,
-      "lon": -73.9892
-    },
-    {
       "id": "seatgeek:17808407",
       "title": "The Great Gatsby - The Musical - New York",
       "category": "other",
@@ -17489,6 +17451,20 @@
       "lon": -73.9943
     },
     {
+      "id": "seatgeek:18116968",
+      "title": "Rostam (16+)",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "East Village",
+      "venue": "Webster Hall",
+      "start": "2026-06-18T20:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/rostam-tickets/new-york-new-york-webster-hall-2026-06-18-8-pm/concert/18116968",
+      "source": "seatgeek",
+      "lat": 40.7318,
+      "lon": -73.9892
+    },
+    {
       "id": "nyc-parks:2169175",
       "title": "Movies Under the Stars: Harriet",
       "category": "other",
@@ -17503,9 +17479,9 @@
       "lat": 40.802675134403,
       "lon": -73.959757685661,
       "weather": {
-        "icon": "01d",
-        "temp": 94,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 92,
+        "description": "few clouds",
         "dt": 1781816400000
       }
     },
@@ -17553,7 +17529,7 @@
       "lon": -73.9572830681,
       "weather": {
         "icon": "01d",
-        "temp": 88,
+        "temp": 87,
         "description": "clear sky",
         "dt": 1781816400000
       }
@@ -17573,9 +17549,9 @@
       "lat": 40.810328310544,
       "lon": -73.910537719727,
       "weather": {
-        "icon": "01d",
-        "temp": 94,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 92,
+        "description": "few clouds",
         "dt": 1781816400000
       }
     },
@@ -17648,9 +17624,9 @@
       "lat": 40.657732087789,
       "lon": -73.844125211239,
       "weather": {
-        "icon": "02d",
-        "temp": 91,
-        "description": "few clouds",
+        "icon": "01d",
+        "temp": 89,
+        "description": "clear sky",
         "dt": 1781816400000
       }
     },
@@ -17669,9 +17645,9 @@
       "lat": 40.756574188559,
       "lon": -73.874223549264,
       "weather": {
-        "icon": "01d",
-        "temp": 94,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 92,
+        "description": "few clouds",
         "dt": 1781816400000
       }
     },
@@ -17902,9 +17878,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -17921,9 +17897,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -17940,9 +17916,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -17959,9 +17935,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -17978,9 +17954,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -17997,9 +17973,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18016,9 +17992,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18035,9 +18011,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18054,9 +18030,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18073,9 +18049,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18092,9 +18068,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18111,9 +18087,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18130,9 +18106,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18148,9 +18124,9 @@
       "url": "https://cityparksfoundation.org/events/its-my-park-at-peters-field/",
       "source": "cityparks",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18169,9 +18145,9 @@
       "lat": 40.767200469971,
       "lon": -73.971298217773,
       "weather": {
-        "icon": "10n",
-        "temp": 71,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 69,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18190,9 +18166,9 @@
       "lat": 40.735599517822266,
       "lon": -73.9822006225586,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18209,9 +18185,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18228,9 +18204,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18247,9 +18223,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18268,9 +18244,9 @@
       "lat": 40.771337744717,
       "lon": -73.98848224009,
       "weather": {
-        "icon": "10n",
-        "temp": 71,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 69,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18289,9 +18265,9 @@
       "lat": 40.753299713135,
       "lon": -73.984001159668,
       "weather": {
-        "icon": "10n",
-        "temp": 71,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 69,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18310,9 +18286,9 @@
       "lat": 40.70133568698,
       "lon": -73.841577112675,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18331,9 +18307,9 @@
       "lat": 40.714499,
       "lon": -73.989886,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18352,9 +18328,9 @@
       "lat": 40.715198516846,
       "lon": -74,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18373,9 +18349,9 @@
       "lat": 40.71419906616211,
       "lon": -73.98380279541016,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18394,9 +18370,9 @@
       "lat": 40.76139831543,
       "lon": -73.992698669434,
       "weather": {
-        "icon": "10n",
-        "temp": 71,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 69,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18415,9 +18391,9 @@
       "lat": 40.6734656,
       "lon": -73.9217933,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18436,9 +18412,9 @@
       "lat": 40.673876085691,
       "lon": -73.935838633842,
       "weather": {
-        "icon": "10n",
+        "icon": "04n",
         "temp": 70,
-        "description": "light rain",
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18457,9 +18433,9 @@
       "lat": 40.63828844529,
       "lon": -73.946924981476,
       "weather": {
-        "icon": "10n",
-        "temp": 70,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18478,9 +18454,9 @@
       "lat": 40.758201599121,
       "lon": -73.824798583984,
       "weather": {
-        "icon": "10n",
-        "temp": 72,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18499,9 +18475,9 @@
       "lat": 40.756574188559,
       "lon": -73.874223549264,
       "weather": {
-        "icon": "10n",
-        "temp": 71,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 70,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18520,9 +18496,9 @@
       "lat": 40.86520004272461,
       "lon": -73.92880249023438,
       "weather": {
-        "icon": "10n",
-        "temp": 72,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 69,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18541,9 +18517,9 @@
       "lat": 40.8175688,
       "lon": -73.8442854,
       "weather": {
-        "icon": "10n",
-        "temp": 72,
-        "description": "light rain",
+        "icon": "04n",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781859600000
       }
     },
@@ -18561,7 +18537,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 71,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18596,7 +18572,7 @@
       "lon": -73.878591092031,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18617,7 +18593,7 @@
       "lon": -73.982597351074,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 71,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18636,7 +18612,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 71,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18657,7 +18633,7 @@
       "lon": -73.9124984741211,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18678,7 +18654,7 @@
       "lon": -73.983368813992,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18720,7 +18696,7 @@
       "lon": -73.98269653320312,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18755,7 +18731,7 @@
       "lon": -73.971595048905,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18776,7 +18752,7 @@
       "lon": -73.947303771973,
       "weather": {
         "icon": "04d",
-        "temp": 73,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781870400000
       }
@@ -18837,7 +18813,7 @@
       "lon": -73.988085303512,
       "weather": {
         "icon": "04d",
-        "temp": 79,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -18857,7 +18833,7 @@
       "lon": -73.994777917862,
       "weather": {
         "icon": "04d",
-        "temp": 79,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -18878,8 +18854,8 @@
       "lon": -73.966003417969,
       "weather": {
         "icon": "04d",
-        "temp": 81,
-        "description": "broken clouds",
+        "temp": 72,
+        "description": "overcast clouds",
         "dt": 1781881200000
       }
     },
@@ -18958,7 +18934,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04d",
-        "temp": 79,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -18979,7 +18955,7 @@
       "lon": -73.901274625272,
       "weather": {
         "icon": "04d",
-        "temp": 81,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19000,8 +18976,8 @@
       "lon": -73.898195624351,
       "weather": {
         "icon": "04d",
-        "temp": 81,
-        "description": "broken clouds",
+        "temp": 72,
+        "description": "overcast clouds",
         "dt": 1781881200000
       }
     },
@@ -19021,8 +18997,8 @@
       "lon": -73.878661870956,
       "weather": {
         "icon": "04d",
-        "temp": 81,
-        "description": "broken clouds",
+        "temp": 72,
+        "description": "overcast clouds",
         "dt": 1781881200000
       }
     },
@@ -19042,7 +19018,7 @@
       "lon": -73.913262844086,
       "weather": {
         "icon": "04d",
-        "temp": 81,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19063,7 +19039,7 @@
       "lon": -73.922477979305,
       "weather": {
         "icon": "04d",
-        "temp": 81,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19084,8 +19060,8 @@
       "lon": -73.916396338164,
       "weather": {
         "icon": "04d",
-        "temp": 81,
-        "description": "broken clouds",
+        "temp": 72,
+        "description": "overcast clouds",
         "dt": 1781881200000
       }
     },
@@ -19105,7 +19081,7 @@
       "lon": -73.942673603319,
       "weather": {
         "icon": "04d",
-        "temp": 81,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19126,7 +19102,7 @@
       "lon": -73.851939344896,
       "weather": {
         "icon": "04d",
-        "temp": 81,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19147,7 +19123,7 @@
       "lon": -73.886041879654,
       "weather": {
         "icon": "04d",
-        "temp": 81,
+        "temp": 72,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19168,8 +19144,8 @@
       "lon": -73.870101928711,
       "weather": {
         "icon": "04d",
-        "temp": 81,
-        "description": "broken clouds",
+        "temp": 72,
+        "description": "overcast clouds",
         "dt": 1781881200000
       }
     },
@@ -19283,7 +19259,7 @@
       "lon": -73.768686624391,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 71,
         "description": "overcast clouds",
         "dt": 1781881200000
       }
@@ -19464,8 +19440,8 @@
       "lon": -73.9419066,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19485,8 +19461,8 @@
       "lon": -73.9609146118164,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19506,8 +19482,8 @@
       "lon": -73.965400695801,
       "weather": {
         "icon": "04d",
-        "temp": 85,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19527,8 +19503,8 @@
       "lon": -73.948640763759,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19548,8 +19524,8 @@
       "lon": -73.987603574991,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19583,8 +19559,8 @@
       "lon": -73.965441942215,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19604,8 +19580,8 @@
       "lon": -73.978996276855,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -19685,20 +19661,6 @@
       "lon": -73.984
     },
     {
-      "id": "seatgeek:17876149",
-      "title": "Dog Day Afternoon - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "August Wilson Theatre",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-19-7-pm/17876149",
-      "source": "seatgeek",
-      "lat": 40.7629,
-      "lon": -73.9837
-    },
-    {
       "id": "seatgeek:17777373",
       "title": "Maybe Happy Ending - New York",
       "category": "other",
@@ -19711,6 +19673,20 @@
       "source": "seatgeek",
       "lat": 40.7563,
       "lon": -73.9836
+    },
+    {
+      "id": "seatgeek:17876149",
+      "title": "Dog Day Afternoon - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "August Wilson Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-19-7-pm/17876149",
+      "source": "seatgeek",
+      "lat": 40.7629,
+      "lon": -73.9837
     },
     {
       "id": "seatgeek:17945037",
@@ -19769,20 +19745,6 @@
       "lon": -73.9857
     },
     {
-      "id": "seatgeek:18229586",
-      "title": "KENREX",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "West Village",
-      "venue": "Lucille Lortel Theatre",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-19-7-pm/18229586",
-      "source": "seatgeek",
-      "lat": 40.7334,
-      "lon": -74.0058
-    },
-    {
       "id": "seatgeek:18048022",
       "title": "Just In Time - New York",
       "category": "other",
@@ -19809,20 +19771,6 @@
       "source": "seatgeek",
       "lat": 40.7624,
       "lon": -73.9851
-    },
-    {
-      "id": "seatgeek:17808394",
-      "title": "The Great Gatsby - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Broadway Theatre - New York",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-19-7-pm/17808394",
-      "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9829
     },
     {
       "id": "seatgeek:18029960",
@@ -19853,6 +19801,20 @@
       "lon": -73.9891
     },
     {
+      "id": "seatgeek:18229586",
+      "title": "KENREX",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "West Village",
+      "venue": "Lucille Lortel Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-19-7-pm/18229586",
+      "source": "seatgeek",
+      "lat": 40.7334,
+      "lon": -74.0058
+    },
+    {
       "id": "seatgeek:18022744",
       "title": "Daisy Grenade with Vienna Vienna (16+)",
       "category": "music",
@@ -19865,6 +19827,20 @@
       "source": "seatgeek",
       "lat": 40.7204,
       "lon": -73.9934
+    },
+    {
+      "id": "seatgeek:17808394",
+      "title": "The Great Gatsby - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Broadway Theatre - New York",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-19-7-pm/17808394",
+      "source": "seatgeek",
+      "lat": 40.7632,
+      "lon": -73.9829
     },
     {
       "id": "seatgeek:18184597",
@@ -19909,6 +19885,20 @@
       "lon": -73.9874
     },
     {
+      "id": "seatgeek:17874745",
+      "title": "Stranger Things: The First Shadow - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Marquis Theatre - New York",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-19-7-pm/17874745",
+      "source": "seatgeek",
+      "lat": 40.7584,
+      "lon": -73.9855
+    },
+    {
       "id": "seatgeek:17958104",
       "title": "Harry Potter and The Cursed Child - New York",
       "category": "theater",
@@ -19935,20 +19925,6 @@
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
-    },
-    {
-      "id": "seatgeek:17874745",
-      "title": "Stranger Things: The First Shadow - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Marquis Theatre - New York",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-19-7-pm/17874745",
-      "source": "seatgeek",
-      "lat": 40.7584,
-      "lon": -73.9855
     },
     {
       "id": "seatgeek:17420187",
@@ -19979,20 +19955,6 @@
       "lon": -73.9829
     },
     {
-      "id": "seatgeek:18069721",
-      "title": "Heathers - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-19-7-pm/18069721",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:17965672",
       "title": "Giant - New York",
       "category": "theater",
@@ -20004,6 +19966,20 @@
       "url": "https://seatgeek.com/giant-tickets/theater/2026-06-19-7-pm/17965672",
       "source": "seatgeek",
       "lat": 40.7588,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18069721",
+      "title": "Heathers - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-19-7-pm/18069721",
+      "source": "seatgeek",
+      "lat": 40.7628,
       "lon": -73.9874
     },
     {
@@ -20120,8 +20096,8 @@
       "lon": -73.983734458685,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -20141,8 +20117,8 @@
       "lon": -73.96148121357,
       "weather": {
         "icon": "04d",
-        "temp": 87,
-        "description": "broken clouds",
+        "temp": 71,
+        "description": "overcast clouds",
         "dt": 1781892000000
       }
     },
@@ -20177,18 +20153,6 @@
       "lon": -73.952895
     },
     {
-      "id": "todaytix:47157",
-      "title": "Power Network",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/power-network",
-      "source": "todaytix"
-    },
-    {
       "id": "seatgeek:17567670",
       "title": "New York Philharmonic - Disney's Encanto In Concert",
       "category": "other",
@@ -20217,6 +20181,20 @@
       "lon": -73.9753
     },
     {
+      "id": "seatgeek:18197249",
+      "title": "Drunk Black History with Brandon Collins",
+      "category": "comedy",
+      "borough": "Brooklyn",
+      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+      "venue": "The Bell House",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/drunk-black-history-tickets/comedy/2026-06-19-7-30-pm/18197249",
+      "source": "seatgeek",
+      "lat": 40.6735,
+      "lon": -73.9916
+    },
+    {
       "id": "seatgeek:18222414",
       "title": "Gotta Dance - New York",
       "category": "other",
@@ -20231,18 +20209,16 @@
       "lon": -73.9939
     },
     {
-      "id": "seatgeek:18197249",
-      "title": "Drunk Black History with Brandon Collins",
-      "category": "comedy",
-      "borough": "Brooklyn",
-      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
-      "venue": "The Bell House",
+      "id": "todaytix:47157",
+      "title": "Power Network",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "url": "https://seatgeek.com/drunk-black-history-tickets/comedy/2026-06-19-7-30-pm/18197249",
-      "source": "seatgeek",
-      "lat": 40.6735,
-      "lon": -73.9916
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/power-network",
+      "source": "todaytix"
     },
     {
       "id": "village-vanguard:135505",
@@ -20318,9 +20294,9 @@
       "lat": 40.82091454717,
       "lon": -73.931822240353,
       "weather": {
-        "icon": "03d",
-        "temp": 85,
-        "description": "scattered clouds",
+        "icon": "04d",
+        "temp": 78,
+        "description": "broken clouds",
         "dt": 1781902800000
       }
     },
@@ -20432,9 +20408,9 @@
       "lat": 40.6648739,
       "lon": -73.8975101,
       "weather": {
-        "icon": "02d",
-        "temp": 79,
-        "description": "few clouds",
+        "icon": "04d",
+        "temp": 76,
+        "description": "broken clouds",
         "dt": 1781913600000
       }
     },
@@ -20796,7 +20772,7 @@
       "lon": -73.98848224009,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -20849,9 +20825,9 @@
       "lat": 40.8498479,
       "lon": -73.825355,
       "weather": {
-        "icon": "01n",
-        "temp": 64,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 66,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -20870,9 +20846,9 @@
       "lat": 40.628942896777,
       "lon": -73.895997524261,
       "weather": {
-        "icon": "01n",
-        "temp": 66,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 68,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -20892,7 +20868,7 @@
       "lon": -73.91180419921875,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -20913,7 +20889,7 @@
       "lon": -73.92109680175781,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -20934,7 +20910,7 @@
       "lon": -73.922377586365,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -20954,9 +20930,9 @@
       "lat": 40.67300033569336,
       "lon": -73.78669738769531,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 67,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -20975,9 +20951,9 @@
       "lat": 40.773001879825,
       "lon": -73.769996166229,
       "weather": {
-        "icon": "01n",
-        "temp": 64,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 66,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -20996,9 +20972,9 @@
       "lat": 40.68360137939453,
       "lon": -73.88569641113281,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -21017,9 +20993,9 @@
       "lat": 40.63140850518,
       "lon": -74.039070755243,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -21039,7 +21015,7 @@
       "lon": -73.872398376465,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21267,7 +21243,7 @@
       "lon": -73.9935168,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21288,7 +21264,7 @@
       "lon": -73.971084296703,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21308,9 +21284,9 @@
       "lat": 40.75149918,
       "lon": -73.83439636,
       "weather": {
-        "icon": "01n",
-        "temp": 64,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 66,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -21329,9 +21305,9 @@
       "lat": 40.71590042114258,
       "lon": -73.93730163574219,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -21350,9 +21326,9 @@
       "lat": 40.742321270198,
       "lon": -73.882089495659,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -21372,7 +21348,7 @@
       "lon": -73.9651413,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21465,9 +21441,9 @@
       "lat": 40.602721158633,
       "lon": -73.925704956055,
       "weather": {
-        "icon": "01n",
-        "temp": 66,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 68,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -21487,7 +21463,7 @@
       "lon": -73.910017073154,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21715,9 +21691,9 @@
       "lat": 40.686199188232,
       "lon": -73.889801025391,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -21737,7 +21713,7 @@
       "lon": -73.935256958008,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21757,9 +21733,9 @@
       "lat": 40.709951990499,
       "lon": -73.835199058056,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 67,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -21820,9 +21796,9 @@
       "lat": 40.67350006,
       "lon": -73.93479919,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -21842,7 +21818,7 @@
       "lon": -73.9651413,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21863,7 +21839,7 @@
       "lon": -73.8878934,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21883,9 +21859,9 @@
       "lat": 40.726200103759766,
       "lon": -73.847900390625,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 67,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -21926,7 +21902,7 @@
       "lon": -73.932821512222,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -21946,9 +21922,9 @@
       "lat": 40.694295031495,
       "lon": -73.821800351143,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 67,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -21967,9 +21943,9 @@
       "lat": 40.711898803711,
       "lon": -73.821601867676,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 67,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -21989,7 +21965,7 @@
       "lon": -73.933819293976,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22073,7 +22049,7 @@
       "lon": -73.992698669434,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22093,9 +22069,9 @@
       "lat": 40.677428995602,
       "lon": -73.878542423248,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -22115,7 +22091,7 @@
       "lon": -73.93669891,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22135,9 +22111,9 @@
       "lat": 40.710800170898,
       "lon": -73.911201477051,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -22156,9 +22132,9 @@
       "lat": 40.747299194336,
       "lon": -73.921798706055,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -22177,9 +22153,9 @@
       "lat": 40.631000518799,
       "lon": -74.012199401855,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -22199,7 +22175,7 @@
       "lon": -73.913262844086,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22220,7 +22196,7 @@
       "lon": -73.886041879654,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22241,7 +22217,7 @@
       "lon": -73.922477979305,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22262,7 +22238,7 @@
       "lon": -73.916396338164,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22283,7 +22259,7 @@
       "lon": -73.901274625272,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22304,7 +22280,7 @@
       "lon": -73.870101928711,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22325,7 +22301,7 @@
       "lon": -73.851939344896,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22346,7 +22322,7 @@
       "lon": -73.878661870956,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22367,7 +22343,7 @@
       "lon": -73.898195624351,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22388,7 +22364,7 @@
       "lon": -73.966003417969,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22408,9 +22384,9 @@
       "lat": 40.683898925781,
       "lon": -73.769996643066,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 67,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -22429,9 +22405,9 @@
       "lat": 40.6622043,
       "lon": -73.742109417915,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "04n",
+        "temp": 67,
+        "description": "broken clouds",
         "dt": 1781946000000
       }
     },
@@ -22450,9 +22426,9 @@
       "lat": 40.741525676437,
       "lon": -73.748691678048,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "04n",
+        "temp": 67,
+        "description": "broken clouds",
         "dt": 1781946000000
       }
     },
@@ -22471,9 +22447,9 @@
       "lat": 40.745462857369,
       "lon": -73.745961189271,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "04n",
+        "temp": 67,
+        "description": "broken clouds",
         "dt": 1781946000000
       }
     },
@@ -22492,9 +22468,9 @@
       "lat": 40.673876085691,
       "lon": -73.935838633842,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -22513,9 +22489,9 @@
       "lat": 40.63828844529,
       "lon": -73.946924981476,
       "weather": {
-        "icon": "01n",
-        "temp": 66,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 68,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -22534,9 +22510,9 @@
       "lat": 40.758201599121,
       "lon": -73.824798583984,
       "weather": {
-        "icon": "01n",
-        "temp": 64,
-        "description": "clear sky",
+        "icon": "03n",
+        "temp": 66,
+        "description": "scattered clouds",
         "dt": 1781946000000
       }
     },
@@ -22556,7 +22532,7 @@
       "lon": -73.874223549264,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22577,7 +22553,7 @@
       "lon": -73.92880249023438,
       "weather": {
         "icon": "01n",
-        "temp": 63,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22598,7 +22574,7 @@
       "lon": -73.93430328,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22618,9 +22594,9 @@
       "lat": 40.69569984134,
       "lon": -73.741208053924,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "04n",
+        "temp": 67,
+        "description": "broken clouds",
         "dt": 1781946000000
       }
     },
@@ -22639,9 +22615,9 @@
       "lat": 40.607961671271,
       "lon": -74.003469103657,
       "weather": {
-        "icon": "01n",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02n",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781946000000
       }
     },
@@ -22661,7 +22637,7 @@
       "lon": -73.9885025,
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1781946000000
       }
@@ -22739,7 +22715,7 @@
       "lon": -73.907868580643,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22759,9 +22735,9 @@
       "lat": 40.70080998243,
       "lon": -73.831687512611,
       "weather": {
-        "icon": "01d",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781956800000
       }
     },
@@ -22781,7 +22757,7 @@
       "lon": -73.90466158151,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22802,7 +22778,7 @@
       "lon": -73.9609146118164,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22843,9 +22819,9 @@
       "lat": 40.588275354362,
       "lon": -73.789541244507,
       "weather": {
-        "icon": "01d",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781956800000
       }
     },
@@ -22865,7 +22841,7 @@
       "lon": -73.86710357666016,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22886,7 +22862,7 @@
       "lon": -73.946824550629,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22907,7 +22883,7 @@
       "lon": -73.93669891357422,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22928,7 +22904,7 @@
       "lon": -73.86710357666016,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -22949,7 +22925,7 @@
       "lon": -73.913101196289,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23062,7 +23038,7 @@
       "lon": -74.02997589,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23083,7 +23059,7 @@
       "lon": -73.961097717285,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23104,7 +23080,7 @@
       "lon": -73.876602172852,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23125,7 +23101,7 @@
       "lon": -73.86519622802734,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23145,9 +23121,9 @@
       "lat": 40.692501068115234,
       "lon": -73.79460144042969,
       "weather": {
-        "icon": "01d",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781956800000
       }
     },
@@ -23167,7 +23143,7 @@
       "lon": -73.983368813992,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23188,7 +23164,7 @@
       "lon": -73.99474334716797,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23209,7 +23185,7 @@
       "lon": -73.9281005859375,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23230,7 +23206,7 @@
       "lon": -73.98690032959,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23251,7 +23227,7 @@
       "lon": -73.8975101,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23272,7 +23248,7 @@
       "lon": -73.899219214916,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23293,7 +23269,7 @@
       "lon": -73.93430328,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23314,7 +23290,7 @@
       "lon": -73.9651413,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23335,7 +23311,7 @@
       "lon": -73.94498444,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23355,9 +23331,9 @@
       "lat": 40.596775098812,
       "lon": -73.928580284119,
       "weather": {
-        "icon": "01d",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781956800000
       }
     },
@@ -23376,9 +23352,9 @@
       "lat": 40.675882000605,
       "lon": -73.78319811821,
       "weather": {
-        "icon": "01d",
-        "temp": 65,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 67,
+        "description": "few clouds",
         "dt": 1781956800000
       }
     },
@@ -23398,7 +23374,7 @@
       "lon": -73.94498444,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23419,7 +23395,7 @@
       "lon": -73.93430328,
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 67,
         "description": "clear sky",
         "dt": 1781956800000
       }
@@ -23484,7 +23460,7 @@
       "lon": -73.9124984741211,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23505,7 +23481,7 @@
       "lon": -73.80729675292969,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23526,7 +23502,7 @@
       "lon": -73.933819293976,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23547,7 +23523,7 @@
       "lon": -73.948501586914,
       "weather": {
         "icon": "01d",
-        "temp": 74,
+        "temp": 73,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23568,7 +23544,7 @@
       "lon": -73.878249458414,
       "weather": {
         "icon": "01d",
-        "temp": 74,
+        "temp": 73,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23589,7 +23565,7 @@
       "lon": -73.94154626131,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23610,7 +23586,7 @@
       "lon": -73.950996398926,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23650,7 +23626,7 @@
       "lon": -73.973306179047,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23671,7 +23647,7 @@
       "lon": -73.931602478027,
       "weather": {
         "icon": "01d",
-        "temp": 75,
+        "temp": 74,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23692,7 +23668,7 @@
       "lon": -73.94670104980469,
       "weather": {
         "icon": "01d",
-        "temp": 74,
+        "temp": 73,
         "description": "clear sky",
         "dt": 1781967600000
       }
@@ -23745,9 +23721,9 @@
       "lat": 40.813201904297,
       "lon": -73.962997436523,
       "weather": {
-        "icon": "01d",
-        "temp": 80,
-        "description": "clear sky",
+        "icon": "03d",
+        "temp": 74,
+        "description": "scattered clouds",
         "dt": 1781978400000
       }
     },
@@ -23833,9 +23809,9 @@
       "lat": 40.7199713,
       "lon": -73.9452668,
       "weather": {
-        "icon": "01d",
-        "temp": 78,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 74,
+        "description": "few clouds",
         "dt": 1781978400000
       }
     },
@@ -23854,9 +23830,9 @@
       "lat": 40.77199935913086,
       "lon": -73.76959991455078,
       "weather": {
-        "icon": "01d",
-        "temp": 80,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 76,
+        "description": "few clouds",
         "dt": 1781978400000
       }
     },
@@ -23875,9 +23851,9 @@
       "lat": 40.770500183105,
       "lon": -73.80729675293,
       "weather": {
-        "icon": "01d",
-        "temp": 80,
-        "description": "clear sky",
+        "icon": "02d",
+        "temp": 76,
+        "description": "few clouds",
         "dt": 1781978400000
       }
     },
@@ -23891,7 +23867,13 @@
       "end": "2026-06-20T19:30:00",
       "isFree": true,
       "url": "https://cityparksfoundation.org/events/pinocchio-and-gepettos-big-apple-adventure-17/",
-      "source": "cityparks"
+      "source": "cityparks",
+      "weather": {
+        "icon": "01d",
+        "temp": 79,
+        "description": "clear sky",
+        "dt": 1781978400000
+      }
     },
     {
       "id": "nyc-parks:2172881",
@@ -23906,7 +23888,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/20/hudson-classical-theater-company-presents-uncle-vanya1",
       "source": "nyc-parks",
       "lat": 40.791999816895,
-      "lon": -73.978996276855
+      "lon": -73.978996276855,
+      "weather": {
+        "icon": "03d",
+        "temp": 74,
+        "description": "scattered clouds",
+        "dt": 1781978400000
+      }
     },
     {
       "id": "smallslive:32794",
