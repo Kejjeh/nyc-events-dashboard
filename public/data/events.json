@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T07:46:42.199Z",
-  "count": 3127,
+  "generatedAt": "2026-06-15T07:48:56.322Z",
+  "count": 3122,
   "sources": [
     {
       "source": "nyc-parks",
@@ -29,16 +29,16 @@
     },
     {
       "source": "dice",
-      "count": 149,
-      "fresh": true
-    },
-    {
-      "source": "todaytix",
-      "count": 149,
+      "count": 147,
       "fresh": true
     },
     {
       "source": "nyc-open-data",
+      "count": 146,
+      "fresh": true
+    },
+    {
+      "source": "todaytix",
       "count": 146,
       "fresh": true
     },
@@ -1906,6 +1906,18 @@
       "source": "dice"
     },
     {
+      "id": "todaytix:7062",
+      "title": "Chamber Magic",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Lotte New York Palace Hotel",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 108,
+      "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:14790",
       "title": "The Play That Goes Wrong",
       "category": "theater",
@@ -1927,6 +1939,30 @@
       "isFree": false,
       "priceMin": 57,
       "url": "https://www.todaytix.com/nyc/shows/jerome",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41648",
+      "title": "New York Comedy Club (Upper West Side)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Upper West Side)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:28808",
+      "title": "Singfeld! A Musical About Nothing",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Jerry Orbach Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
       "source": "todaytix"
     },
     {
@@ -1954,42 +1990,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:28808",
-      "title": "Singfeld! A Musical About Nothing",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Jerry Orbach Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:7062",
-      "title": "Chamber Magic",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Lotte New York Palace Hotel",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 108,
-      "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:41648",
-      "title": "New York Comedy Club (Upper West Side)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Comedy Club (Upper West Side)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-upper-west-side",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46093",
       "title": "Pied à Terre",
       "category": "theater",
@@ -2011,6 +2011,30 @@
       "isFree": false,
       "priceMin": 65,
       "url": "https://www.todaytix.com/nyc/shows/kenrex-lortel",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46557",
+      "title": "Paradise Club Presents: Salvage City Supper Club",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Paradise Club",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 105.88,
+      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46799",
+      "title": "A Walk on the Moon",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
       "source": "todaytix"
     },
     {
@@ -2038,30 +2062,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46799",
-      "title": "A Walk on the Moon",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 39,
-      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46557",
-      "title": "Paradise Club Presents: Salvage City Supper Club",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Paradise Club",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 105.88,
-      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46879",
       "title": "Jim Henson's Fraggle Rock: Back to the Rock LIVE",
       "category": "theater",
@@ -2071,102 +2071,6 @@
       "isFree": false,
       "priceMin": 34,
       "url": "https://www.todaytix.com/nyc/shows/jim-hensons-fraggle-rock-back-to-the-rock-live",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:42035",
-      "title": "I'm Almost There",
-      "category": "theater",
-      "borough": "Brooklyn",
-      "venue": "BAM Fisher (Fishman Space)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 31,
-      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:42261",
-      "title": "Heathers The Musical",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:43651",
-      "title": "LOS SOLES TRUNCOS",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46638",
-      "title": "Heated Rivalry: The Unauthorized Musical Parody",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Club",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 87,
-      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46480",
-      "title": "Henry VI: A Trilogy in Two Parts",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46163",
-      "title": "Music City",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "St. Luke's Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/music-city",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45703",
-      "title": "Dirty Books",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Bated Breath Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 59,
-      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:24608",
-      "title": "Little Shop of Horrors",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Westside Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 55,
-      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
       "source": "todaytix"
     },
     {
@@ -2182,39 +2086,87 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46871",
-      "title": "Youth in Flames",
+      "id": "todaytix:42035",
+      "title": "I'm Almost There",
       "category": "theater",
-      "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater C",
+      "borough": "Brooklyn",
+      "venue": "BAM Fisher (Fishman Space)",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 33,
-      "url": "https://www.todaytix.com/nyc/shows/youth-in-flames",
+      "priceMin": 31,
+      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46772",
-      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
+      "id": "todaytix:43651",
+      "title": "LOS SOLES TRUNCOS",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Superfine, Dumbo",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46881",
-      "title": "Building The Wall",
+      "id": "todaytix:24608",
+      "title": "Little Shop of Horrors",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Urban Stages",
+      "venue": "Westside Theatre",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 29,
-      "url": "https://www.todaytix.com/nyc/shows/building-the-wall",
+      "priceMin": 55,
+      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45703",
+      "title": "Dirty Books",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Bated Breath Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 59,
+      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46163",
+      "title": "Music City",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "St. Luke's Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/music-city",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:42261",
+      "title": "Heathers The Musical",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46638",
+      "title": "Heated Rivalry: The Unauthorized Musical Parody",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Club",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 87,
+      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
       "source": "todaytix"
     },
     {
@@ -2241,6 +2193,30 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46772",
+      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Superfine, Dumbo",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46852",
       "title": "And Then The Rodeo Burned Down",
       "category": "theater",
@@ -2250,6 +2226,18 @@
       "isFree": false,
       "priceMin": 64,
       "url": "https://www.todaytix.com/nyc/shows/and-then-the-rodeo-burned-down",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46871",
+      "title": "Youth in Flames",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater C",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 33,
+      "url": "https://www.todaytix.com/nyc/shows/youth-in-flames",
       "source": "todaytix"
     },
     {
@@ -2265,18 +2253,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:24867",
-      "title": "Katsura Sunshine's Rakugo",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 25,
-      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:44453",
       "title": "AMAZE Magic",
       "category": "theater",
@@ -2289,14 +2265,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46965",
-      "title": "Senior 65+ Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "id": "todaytix:24867",
+      "title": "Katsura Sunshine's Rakugo",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "venue": "New World Stages",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "priceMin": 25,
+      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
       "source": "todaytix"
     },
     {
@@ -2312,6 +2289,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46965",
+      "title": "Senior 65+ Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/senior-65-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46071",
       "title": "Petite Rouge by Company XIV",
       "category": "theater",
@@ -2321,54 +2309,6 @@
       "isFree": false,
       "priceMin": 39,
       "url": "https://www.todaytix.com/nyc/shows/petite-rouge-by-company-xiv",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44721",
-      "title": "||: Girls :||: Chance :||: Music :||",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Vineyard Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/girls-chance-music",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44745",
-      "title": "Masquerade",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Masquerade",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 195,
-      "url": "https://www.todaytix.com/nyc/shows/masquerade",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44354",
-      "title": "Drunk Romeo & Juliet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Ruby Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 37,
-      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44388",
-      "title": "The 25th Annual Putnam County Spelling Bee",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
       "source": "todaytix"
     },
     {
@@ -2395,6 +2335,18 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:32431",
+      "title": "New York Comedy Club (Midtown)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (Midtown)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:39635",
       "title": "La Llamada",
       "category": "theater",
@@ -2407,15 +2359,51 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:32431",
-      "title": "New York Comedy Club (Midtown)",
+      "id": "todaytix:44745",
+      "title": "Masquerade",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New York Comedy Club (Midtown)",
+      "venue": "Masquerade",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 27,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club",
+      "priceMin": 195,
+      "url": "https://www.todaytix.com/nyc/shows/masquerade",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44721",
+      "title": "||: Girls :||: Chance :||: Music :||",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Vineyard Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/girls-chance-music",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44354",
+      "title": "Drunk Romeo & Juliet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 37,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44388",
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
       "source": "todaytix"
     },
     {
@@ -2455,6 +2443,30 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46642",
+      "title": "Label•less",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Duke on 42nd Street",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 45,
+      "url": "https://www.todaytix.com/nyc/shows/label-less",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46427",
+      "title": "Silverback Mountain",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "AMT Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 73,
+      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:44496",
       "title": "A Woman Among Women",
       "category": "theater",
@@ -2488,18 +2500,6 @@
       "isFree": false,
       "priceMin": 46,
       "url": "https://www.todaytix.com/nyc/shows/can-i-be-frank",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46642",
-      "title": "Label•less",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Duke on 42nd Street",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 45,
-      "url": "https://www.todaytix.com/nyc/shows/label-less",
       "source": "todaytix"
     },
     {
@@ -2617,17 +2617,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:25507",
-      "title": "Eva Luna",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eva-luna",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:9564",
       "title": "Dirty Circus",
       "category": "theater",
@@ -2636,6 +2625,17 @@
       "start": "2026-06-15T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:25507",
+      "title": "Eva Luna",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eva-luna",
       "source": "todaytix"
     },
     {
@@ -9666,18 +9666,6 @@
       "source": "dice"
     },
     {
-      "id": "todaytix:44532",
-      "title": "Encores! La Cage Aux Folles",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York City Center",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "priceMin": 63,
-      "url": "https://www.todaytix.com/nyc/shows/encores-la-cage-aux-folles",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:41318",
       "title": "Swan Lake",
       "category": "theater",
@@ -9687,6 +9675,18 @@
       "isFree": false,
       "priceMin": 40,
       "url": "https://www.todaytix.com/nyc/shows/swan-lake",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44532",
+      "title": "Encores! La Cage Aux Folles",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 63,
+      "url": "https://www.todaytix.com/nyc/shows/encores-la-cage-aux-folles",
       "source": "todaytix"
     },
     {
@@ -12586,20 +12586,6 @@
       "source": "dice"
     },
     {
-      "id": "dice:69a9dacc1c823d0001b882c9",
-      "title": "Autograf - Friends In High Places",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Williamsburg",
-      "venue": "Westlight Rooftop at The William Vale",
-      "start": "2026-06-19T17:00:00",
-      "end": "2026-06-19T23:00:00",
-      "isFree": false,
-      "priceMin": 24.99,
-      "url": "https://dice.fm/event/dkmgag-autograf-friends-in-high-places-19th-jun-westlight-rooftop-at-the-william-vale-new-york-city-tickets",
-      "source": "dice"
-    },
-    {
       "id": "nyc-parks:2108579",
       "title": "CANCELED: RISE UP Circuit Training",
       "category": "sports",
@@ -12691,20 +12677,6 @@
       "source": "smallslive",
       "image": "https://i.scdn.co/image/ab67616d0000b27385b42c524ec3dd7c1f2aab64",
       "spotifyUrl": "https://open.spotify.com/artist/5m5RxO3umBzrcY0eGYpJEo"
-    },
-    {
-      "id": "dice:69efa4ac6920940001afc7dd",
-      "title": "SLEEPYHEADS (EARLY INDIE DANCE PARTY)",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Lower East Side",
-      "venue": "Sistem",
-      "start": "2026-06-19T18:00:00",
-      "end": "2026-06-19T22:00:00",
-      "isFree": false,
-      "priceMin": 11.33,
-      "url": "https://dice.fm/event/wwd55v-sleepyheads-early-indie-dance-party-19th-jun-sistem-new-york-city-tickets",
-      "source": "dice"
     },
     {
       "id": "nyc-parks:2109864",
@@ -39344,17 +39316,6 @@
       "source": "nyc-open-data"
     },
     {
-      "id": "todaytix:46506",
-      "title": "The Unbelievers",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York City Center",
-      "start": "2026-10-13T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-unbelievers",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46994",
       "title": "Clifford Odets’ Waiting for Lefty",
       "category": "theater",
@@ -39504,17 +39465,6 @@
       "start": "2026-10-27T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/the-verge",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46483",
-      "title": "In the Heights",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York City Center",
-      "start": "2026-10-28T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/in-the-heights",
       "source": "todaytix"
     },
     {
@@ -39799,17 +39749,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47096",
-      "title": "the ripple, the wave that carried me home",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46809",
       "title": "The Heart",
       "category": "theater",
@@ -39832,6 +39771,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47096",
+      "title": "the ripple, the wave that carried me home",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:14428",
       "title": "Spring Awakening",
       "category": "theater",
@@ -39840,6 +39790,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/spring-awakening",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47098",
+      "title": "Untitled New Work by Monica Bill Barnes and Robbie Saenz de Viteri ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/untitled-new-work-by-monica-bill-barnes-and-robbie-saenz-de-viteri",
       "source": "todaytix"
     },
     {
@@ -39876,25 +39837,25 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47098",
-      "title": "Untitled New Work by Monica Bill Barnes and Robbie Saenz de Viteri ",
+      "id": "todaytix:47083",
+      "title": "Hole!",
       "category": "theater",
       "borough": "Manhattan",
       "venue": "Playwrights Horizons",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/untitled-new-work-by-monica-bill-barnes-and-robbie-saenz-de-viteri",
+      "url": "https://www.todaytix.com/nyc/shows/hole",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46616",
-      "title": "In Honor of Jean-Michel Basquiat",
+      "id": "todaytix:47084",
+      "title": "Degenerates",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
+      "venue": "Playwrights Horizons",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/in-honor-of-jean-michel-basquiat",
+      "url": "https://www.todaytix.com/nyc/shows/degenerates",
       "source": "todaytix"
     },
     {
@@ -39942,25 +39903,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47084",
-      "title": "Degenerates",
+      "id": "todaytix:46309",
+      "title": "Imitation of Life",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
+      "venue": "The Shed",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/degenerates",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47083",
-      "title": "Hole!",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/hole",
+      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
       "source": "todaytix"
     },
     {
@@ -39972,17 +39922,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/bocking",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46309",
-      "title": "Imitation of Life",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Shed",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
       "source": "todaytix"
     },
     {
@@ -40019,17 +39958,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47097",
-      "title": "Miss Step",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/miss-step",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47086",
       "title": "Wold Meteor",
       "category": "theater",
@@ -40038,6 +39966,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/wold-meteor",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47097",
+      "title": "Miss Step",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/miss-step",
       "source": "todaytix"
     },
     {
@@ -40060,17 +39999,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/jackals",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46993",
-      "title": "Wonder! A Woman Keeps a Secret",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Classic Stage Company",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
       "source": "todaytix"
     },
     {
@@ -40115,6 +40043,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/miles-for-mary",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46993",
+      "title": "Wonder! A Woman Keeps a Secret",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
       "source": "todaytix"
     }
   ]
