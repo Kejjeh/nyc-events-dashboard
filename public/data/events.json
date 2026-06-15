@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T07:27:03.539Z",
-  "count": 3126,
+  "generatedAt": "2026-06-15T07:46:42.199Z",
+  "count": 3127,
   "sources": [
     {
       "source": "nyc-parks",
@@ -24,17 +24,17 @@
     },
     {
       "source": "ticketmaster",
-      "count": 185,
-      "fresh": true
-    },
-    {
-      "source": "todaytix",
-      "count": 151,
+      "count": 187,
       "fresh": true
     },
     {
       "source": "dice",
-      "count": 148,
+      "count": 149,
+      "fresh": true
+    },
+    {
+      "source": "todaytix",
+      "count": 149,
       "fresh": true
     },
     {
@@ -1303,7 +1303,9 @@
       "priceMin": 24.91,
       "priceMax": 45.76,
       "url": "https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14166954",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab67616d0000b27350b4036af2feb97d9a7997f3",
+      "spotifyUrl": "https://open.spotify.com/artist/1F4A7SV8Xp0KrWdPzkh8UO"
     },
     {
       "id": "nyc-parks:2106987",
@@ -1393,7 +1395,9 @@
       "start": "2026-06-15T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32776-alan-broadbent-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730abfd76691719b18fbbfb4f9",
+      "spotifyUrl": "https://open.spotify.com/artist/2hYe90veE7CgFfElwnp48p"
     },
     {
       "id": "smallslive:32729",
@@ -1405,7 +1409,9 @@
       "start": "2026-06-15T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32729-ari-hoenig-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb64c95c4c8cb93f95c41894b",
+      "spotifyUrl": "https://open.spotify.com/artist/1P6Llrp12ldpVbyC8gCHBz"
     },
     {
       "id": "ticketmaster:LvZ18Q_c0H00mR8ZvjD5Y",
@@ -1545,7 +1551,9 @@
       "start": "2026-06-15T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32895-joe-farnsworth-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b98cc16ee290e262e99d90de",
+      "spotifyUrl": "https://open.spotify.com/artist/441bJwgHqaZ7Ly5VaX1zC7"
     },
     {
       "id": "dice:6a0777963820ee0001bbe8be",
@@ -1898,18 +1906,6 @@
       "source": "dice"
     },
     {
-      "id": "todaytix:7062",
-      "title": "Chamber Magic",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Lotte New York Palace Hotel",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 108,
-      "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:14790",
       "title": "The Play That Goes Wrong",
       "category": "theater",
@@ -1919,6 +1915,18 @@
       "isFree": false,
       "priceMin": 88,
       "url": "https://www.todaytix.com/nyc",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44703",
+      "title": "Jerome",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 57,
+      "url": "https://www.todaytix.com/nyc/shows/jerome",
       "source": "todaytix"
     },
     {
@@ -1934,6 +1942,18 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:39089",
+      "title": "New York Comedy Club (East Village)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (East Village)",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:28808",
       "title": "Singfeld! A Musical About Nothing",
       "category": "theater",
@@ -1943,6 +1963,18 @@
       "isFree": false,
       "priceMin": 43,
       "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:7062",
+      "title": "Chamber Magic",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Lotte New York Palace Hotel",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 108,
+      "url": "https://www.todaytix.com/nyc",
       "source": "todaytix"
     },
     {
@@ -1970,30 +2002,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:39089",
-      "title": "New York Comedy Club (East Village)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Comedy Club (East Village)",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 27,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46557",
-      "title": "Paradise Club Presents: Salvage City Supper Club",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Paradise Club",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 105.88,
-      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46159",
       "title": "KENREX",
       "category": "theater",
@@ -2003,30 +2011,6 @@
       "isFree": false,
       "priceMin": 65,
       "url": "https://www.todaytix.com/nyc/shows/kenrex-lortel",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44703",
-      "title": "Jerome",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 57,
-      "url": "https://www.todaytix.com/nyc/shows/jerome",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46799",
-      "title": "A Walk on the Moon",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 39,
-      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
       "source": "todaytix"
     },
     {
@@ -2054,6 +2038,30 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46799",
+      "title": "A Walk on the Moon",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46557",
+      "title": "Paradise Club Presents: Salvage City Supper Club",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Paradise Club",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 105.88,
+      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46879",
       "title": "Jim Henson's Fraggle Rock: Back to the Rock LIVE",
       "category": "theater",
@@ -2066,54 +2074,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46638",
-      "title": "Heated Rivalry: The Unauthorized Musical Parody",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Club",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 87,
-      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46480",
-      "title": "Henry VI: A Trilogy in Two Parts",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46772",
-      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Superfine, Dumbo",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:25028",
-      "title": "Friends The Musical Parody",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Theater Center",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/friends-the-musical-parody",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:42035",
       "title": "I'm Almost There",
       "category": "theater",
@@ -2123,18 +2083,6 @@
       "isFree": false,
       "priceMin": 31,
       "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:24608",
-      "title": "Little Shop of Horrors",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Westside Theatre",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 55,
-      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
       "source": "todaytix"
     },
     {
@@ -2162,15 +2110,27 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:45703",
-      "title": "Dirty Books",
+      "id": "todaytix:46638",
+      "title": "Heated Rivalry: The Unauthorized Musical Parody",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Bated Breath Theater",
+      "venue": "The Club",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 59,
-      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
+      "priceMin": 87,
+      "url": "https://www.todaytix.com/nyc/shows/heated-rivalry-the-unauthorized-musical-parody",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
       "source": "todaytix"
     },
     {
@@ -2186,27 +2146,39 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46881",
-      "title": "Building The Wall",
+      "id": "todaytix:45703",
+      "title": "Dirty Books",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Urban Stages",
+      "venue": "Bated Breath Theater",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 29,
-      "url": "https://www.todaytix.com/nyc/shows/building-the-wall",
+      "priceMin": 59,
+      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46852",
-      "title": "And Then The Rodeo Burned Down",
+      "id": "todaytix:24608",
+      "title": "Little Shop of Horrors",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Ars Nova",
+      "venue": "Westside Theatre",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 64,
-      "url": "https://www.todaytix.com/nyc/shows/and-then-the-rodeo-burned-down",
+      "priceMin": 55,
+      "url": "https://www.todaytix.com/nyc/shows/little-shop-of-horrors",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:25028",
+      "title": "Friends The Musical Parody",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Theater Center",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/friends-the-musical-parody",
       "source": "todaytix"
     },
     {
@@ -2219,6 +2191,30 @@
       "isFree": false,
       "priceMin": 33,
       "url": "https://www.todaytix.com/nyc/shows/youth-in-flames",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46772",
+      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Superfine, Dumbo",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46881",
+      "title": "Building The Wall",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Urban Stages",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 29,
+      "url": "https://www.todaytix.com/nyc/shows/building-the-wall",
       "source": "todaytix"
     },
     {
@@ -2245,6 +2241,18 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46852",
+      "title": "And Then The Rodeo Burned Down",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Ars Nova",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 64,
+      "url": "https://www.todaytix.com/nyc/shows/and-then-the-rodeo-burned-down",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:13514",
       "title": "Gazillion Bubble Show",
       "category": "theater",
@@ -2254,30 +2262,6 @@
       "isFree": false,
       "priceMin": 57,
       "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46071",
-      "title": "Petite Rouge by Company XIV",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Théâtre XIV",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 39,
-      "url": "https://www.todaytix.com/nyc/shows/petite-rouge-by-company-xiv",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44453",
-      "title": "AMAZE Magic",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/amaze-magic",
       "source": "todaytix"
     },
     {
@@ -2293,15 +2277,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46942",
-      "title": "Camping",
+      "id": "todaytix:44453",
+      "title": "AMAZE Magic",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "HERE Arts Center",
+      "venue": "New World Stages",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 51,
-      "url": "https://www.todaytix.com/nyc/shows/camping",
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/amaze-magic",
       "source": "todaytix"
     },
     {
@@ -2316,15 +2300,27 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:44354",
-      "title": "Drunk Romeo & Juliet",
+      "id": "todaytix:46942",
+      "title": "Camping",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Ruby Theatre",
+      "venue": "HERE Arts Center",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 37,
-      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
+      "priceMin": 51,
+      "url": "https://www.todaytix.com/nyc/shows/camping",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46071",
+      "title": "Petite Rouge by Company XIV",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Théâtre XIV",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/petite-rouge-by-company-xiv",
       "source": "todaytix"
     },
     {
@@ -2349,6 +2345,18 @@
       "isFree": false,
       "priceMin": 195,
       "url": "https://www.todaytix.com/nyc/shows/masquerade",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44354",
+      "title": "Drunk Romeo & Juliet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 37,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
       "source": "todaytix"
     },
     {
@@ -2387,27 +2395,15 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:45756",
-      "title": "Girl, Interrupted ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 117,
-      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:45907",
-      "title": "MÁS SABE EL SAULO POR VIEJO...",
+      "id": "todaytix:39635",
+      "title": "La Llamada",
       "category": "theater",
       "borough": "Manhattan",
       "venue": "Repertorio Español / Spanish Theatre Repertory",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
       "source": "todaytix"
     },
     {
@@ -2423,15 +2419,27 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:39635",
-      "title": "La Llamada",
+      "id": "todaytix:45907",
+      "title": "MÁS SABE EL SAULO POR VIEJO...",
       "category": "theater",
       "borough": "Manhattan",
       "venue": "Repertorio Español / Spanish Theatre Repertory",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:45756",
+      "title": "Girl, Interrupted ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 117,
+      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
       "source": "todaytix"
     },
     {
@@ -2447,15 +2455,39 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46870",
-      "title": "David Copperfield",
+      "id": "todaytix:44496",
+      "title": "A Woman Among Women",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater A",
+      "venue": "LCT3 at the Claire Tow Theater",
       "start": "2026-06-15T19:30:00",
       "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/a-woman-among-women",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44748",
+      "title": "Well, I'll Let You Go",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Studio Seaview",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 52,
+      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:44687",
+      "title": "Morgan Bassichis: Can I Be Frank?",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "SoHo Playhouse",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 46,
+      "url": "https://www.todaytix.com/nyc/shows/can-i-be-frank",
       "source": "todaytix"
     },
     {
@@ -2468,6 +2500,41 @@
       "isFree": false,
       "priceMin": 45,
       "url": "https://www.todaytix.com/nyc/shows/label-less",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46870",
+      "title": "David Copperfield",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater A",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46912",
+      "title": "Catch of the Day",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater B",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "priceMin": 47,
+      "url": "https://www.todaytix.com/nyc/shows/catch-of-the-day",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46964",
+      "title": "ADA Accessible Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
       "source": "todaytix"
     },
     {
@@ -2492,77 +2559,6 @@
       "isFree": false,
       "priceMin": 100,
       "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44748",
-      "title": "Well, I'll Let You Go",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Studio Seaview",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 52,
-      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44496",
-      "title": "A Woman Among Women",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "LCT3 at the Claire Tow Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/a-woman-among-women",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:44687",
-      "title": "Morgan Bassichis: Can I Be Frank?",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "SoHo Playhouse",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 46,
-      "url": "https://www.todaytix.com/nyc/shows/can-i-be-frank",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46427",
-      "title": "Silverback Mountain",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "AMT Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 73,
-      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46912",
-      "title": "Catch of the Day",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater B",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "priceMin": 47,
-      "url": "https://www.todaytix.com/nyc/shows/catch-of-the-day",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46964",
-      "title": "ADA Accessible Lottery - Romeo & Juliet: Free Shakespeare in the Park",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/ada-accessible-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
       "source": "todaytix"
     },
     {
@@ -2621,17 +2617,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:9564",
-      "title": "Dirty Circus",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "House of Yes",
-      "start": "2026-06-15T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:25507",
       "title": "Eva Luna",
       "category": "theater",
@@ -2640,6 +2625,17 @@
       "start": "2026-06-15T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/eva-luna",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:9564",
+      "title": "Dirty Circus",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "House of Yes",
+      "start": "2026-06-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc",
       "source": "todaytix"
     },
     {
@@ -2807,7 +2803,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "dice:6a0e1b65b9f68f000171a2df",
@@ -2940,7 +2938,9 @@
       "priceMin": 38.1,
       "priceMax": 54.99,
       "url": "https://www.ticketweb.com/event/brandee-younger-with-special-guest-blue-note-jazz-club-tickets/14180894",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba9481e909429024e6d456fb8",
+      "spotifyUrl": "https://open.spotify.com/artist/1DT11FntvMnaU47ZZWlTpB"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afkoof",
@@ -2967,7 +2967,9 @@
       "end": "2026-06-16T00:30:00",
       "isFree": true,
       "url": "https://dice.fm/event/nvdyn8-rev-vince-anderson-the-love-choir-15th-jun-union-pool-new-york-tickets",
-      "source": "dice"
+      "source": "dice",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd0d4c65351b22d3078672007",
+      "spotifyUrl": "https://open.spotify.com/artist/6QHhDeQ38xw8xhCwK1Bxzn"
     },
     {
       "id": "dice:6a15bd68605f1c0001a4c28e",
@@ -2994,7 +2996,9 @@
       "priceMin": 0,
       "priceMax": 0,
       "url": "https://www.ticketweb.com/event/sasha-dobson-lucindas-tickets/14928843",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3fd9e06709a123942482122a",
+      "spotifyUrl": "https://open.spotify.com/artist/1uZW0AdX9UtVkFfOsLMY7t"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfAJPV",
@@ -3008,7 +3012,9 @@
       "priceMin": 24.91,
       "priceMax": 45.76,
       "url": "https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14166974",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab67616d0000b27350b4036af2feb97d9a7997f3",
+      "spotifyUrl": "https://open.spotify.com/artist/1F4A7SV8Xp0KrWdPzkh8UO"
     },
     {
       "id": "smallslive:32775",
@@ -3020,7 +3026,9 @@
       "start": "2026-06-15T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32775-pasquale-grasso-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb55d0cc5ab501dfd0258580ef",
+      "spotifyUrl": "https://open.spotify.com/artist/7M6Meoc3uCzIyRP7V8HQQY"
     },
     {
       "id": "smallslive:32730",
@@ -3032,7 +3040,9 @@
       "start": "2026-06-15T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32730-bruce-cox-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273165a4d0bcb20f2013c50fcd4",
+      "spotifyUrl": "https://open.spotify.com/artist/5alxENWo4vQJNNNbjvuSf6"
     },
     {
       "id": "ticketmaster:k7vGF_aDV_UEd",
@@ -3099,7 +3109,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "dice:6a12b715dd59360001c83957",
@@ -3166,7 +3178,9 @@
       "priceMin": 38.1,
       "priceMax": 54.99,
       "url": "https://www.ticketweb.com/event/brandee-younger-with-special-guest-blue-note-jazz-club-tickets/14180904",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba9481e909429024e6d456fb8",
+      "spotifyUrl": "https://open.spotify.com/artist/1DT11FntvMnaU47ZZWlTpB"
     },
     {
       "id": "smallslive:32758",
@@ -5278,7 +5292,9 @@
       "priceMin": 24.91,
       "priceMax": 45.76,
       "url": "https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14166984",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab67616d0000b27350b4036af2feb97d9a7997f3",
+      "spotifyUrl": "https://open.spotify.com/artist/1F4A7SV8Xp0KrWdPzkh8UO"
     },
     {
       "id": "nyc-parks:2109954",
@@ -5801,7 +5817,9 @@
       "start": "2026-06-16T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32918-spike-wilner-trio-feat-anat-cohen/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd666114504e4c07c3b8a203f",
+      "spotifyUrl": "https://open.spotify.com/artist/2IsQRgCkOiPQwg0sKFLAJQ"
     },
     {
       "id": "dice:69d5801c6c2a5d0001cf6517",
@@ -6208,7 +6226,9 @@
       "start": "2026-06-16T19:00:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yqx",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3271751184c0f83d54898378",
+      "spotifyUrl": "https://open.spotify.com/artist/38wxcfNEqMwuPniHvplin5"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70706",
@@ -6220,7 +6240,9 @@
       "start": "2026-06-16T19:00:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70706",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d9e8848710c3566768ee87f",
+      "spotifyUrl": "https://open.spotify.com/artist/3dZ1fTizrmY5jfkf0jrvav"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70EPa",
@@ -6604,7 +6626,9 @@
       "start": "2026-06-16T19:00:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/cailin-russo-new-york-new-york-06-16-2026/event/0000647FD8F7EB24",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7b3e72ab7d88f1cb8ce0ec35",
+      "spotifyUrl": "https://open.spotify.com/artist/2org0PubBAxTvjVvLo9PJ0"
     },
     {
       "id": "ticketmaster:k7vGF_6XYNnSk",
@@ -6616,7 +6640,9 @@
       "start": "2026-06-16T19:00:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/chris-travis-new-york-new-york-06-16-2026/event/0000647FB08EACC6",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8144078990ac7ec1b49cd766",
+      "spotifyUrl": "https://open.spotify.com/artist/6TxY5T8v9RjF7Ry4XQvWT5"
     },
     {
       "id": "ticketmaster:k7vGFbz2TKT0E",
@@ -6642,7 +6668,9 @@
       "priceMin": 0,
       "priceMax": 0,
       "url": "https://www.ticketweb.com/event/the-thing-is-night-club-101-tickets/14931383",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc5d0eb4277028a9b5bddb915",
+      "spotifyUrl": "https://open.spotify.com/artist/4BdNtwDz26IN9ttqSfyiJG"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfAEb7",
@@ -6656,7 +6684,9 @@
       "priceMin": 45.76,
       "priceMax": 56.06,
       "url": "https://www.ticketweb.com/event/ravi-coltrane-quartet-birdland-jazz-club-tickets/14167604",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6772690000c46cd931efa8a2cff65d5681c5c4",
+      "spotifyUrl": "https://open.spotify.com/artist/7acdJJMSkYQly2X92K3u7u"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfO9fN",
@@ -6893,7 +6923,9 @@
       "isFree": false,
       "priceMin": 13.6,
       "url": "https://dice.fm/event/eo8e86-your-friend-claudine-w-kolezanka-and-adi-16th-jun-purgatory-new-york-tickets",
-      "source": "dice"
+      "source": "dice",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd3bc1b4acfc94169415613a6",
+      "spotifyUrl": "https://open.spotify.com/artist/5LqV25ZwIS47RIUq14cosx"
     },
     {
       "id": "dice:6a0c83c0ee412800014340a9",
@@ -6934,7 +6966,9 @@
       "isFree": false,
       "priceMin": 28.84,
       "url": "https://dice.fm/event/oedwwg-marian-hill-16th-jun-public-records-new-york-tickets",
-      "source": "dice"
+      "source": "dice",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb659ee2bd6796d2d5f75247bc",
+      "spotifyUrl": "https://open.spotify.com/artist/1xHQO9GJIW9OXHxGBISYc5"
     },
     {
       "id": "ticketmaster:1AdZZ_FGkBd_sta",
@@ -7063,7 +7097,9 @@
       "priceMin": 24.91,
       "priceMax": 45.76,
       "url": "https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14166964",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab67616d0000b27350b4036af2feb97d9a7997f3",
+      "spotifyUrl": "https://open.spotify.com/artist/1F4A7SV8Xp0KrWdPzkh8UO"
     },
     {
       "id": "smallslive:32732",
@@ -7075,7 +7111,9 @@
       "start": "2026-06-16T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32732-tardo-hammer-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27393ffe2eb4c6505d6bd86e9b2",
+      "spotifyUrl": "https://open.spotify.com/artist/5CMf8TbckEaVoCIyEHTdcY"
     },
     {
       "id": "smallslive:32733",
@@ -7115,7 +7153,9 @@
       "priceMin": 23.62,
       "priceMax": 23.62,
       "url": "https://www.ticketweb.com/event/morning-silk-night-club-101-tickets/14917893",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe354ae8e684bb3fbef036cd7",
+      "spotifyUrl": "https://open.spotify.com/artist/4tyiJFCv1MuTzfykbK0q7A"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af0zaS",
@@ -7143,7 +7183,9 @@
       "priceMin": 45.76,
       "priceMax": 56.06,
       "url": "https://www.ticketweb.com/event/ravi-coltrane-quartet-birdland-jazz-club-tickets/14167684",
-      "source": "ticketmaster"
+      "source": "ticketmaster",
+      "image": "https://i.scdn.co/image/ab6772690000c46cd931efa8a2cff65d5681c5c4",
+      "spotifyUrl": "https://open.spotify.com/artist/7acdJJMSkYQly2X92K3u7u"
     },
     {
       "id": "smallslive:32931",
@@ -8998,6 +9040,30 @@
       "source": "ticketmaster"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7q-p_",
+      "title": "Lost Boys Musical",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Palace Theatre-NY",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q-p_",
+      "source": "ticketmaster"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7q4kb",
+      "title": "CATS: The Jellicle Ball",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Broadhurst Theatre",
+      "start": "2026-06-17T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q4kb",
+      "source": "ticketmaster"
+    },
+    {
       "id": "nyc-parks:2174254",
       "title": "Queens Recreation Summer Sports Experience",
       "category": "sports",
@@ -9398,7 +9464,9 @@
       "start": "2026-06-17T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32734-joe-alterman-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273aab9ac624ecd4d7c05f79d62",
+      "spotifyUrl": "https://open.spotify.com/artist/2Yis2gilJFEa5mppvSPNb0"
     },
     {
       "id": "smallslive:32736",
@@ -9554,7 +9622,9 @@
       "start": "2026-06-17T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32853-sam-yahel-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f1c44d45d21373a1a25c1d9e",
+      "spotifyUrl": "https://open.spotify.com/artist/3ISh6Jz1xLIprziBMg5Iuu"
     },
     {
       "id": "dice:69bcbf62743cc90001940089",
@@ -9596,18 +9666,6 @@
       "source": "dice"
     },
     {
-      "id": "todaytix:41318",
-      "title": "Swan Lake",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Metropolitan Opera House",
-      "start": "2026-06-17T19:30:00",
-      "isFree": false,
-      "priceMin": 40,
-      "url": "https://www.todaytix.com/nyc/shows/swan-lake",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:44532",
       "title": "Encores! La Cage Aux Folles",
       "category": "theater",
@@ -9617,6 +9675,18 @@
       "isFree": false,
       "priceMin": 63,
       "url": "https://www.todaytix.com/nyc/shows/encores-la-cage-aux-folles",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:41318",
+      "title": "Swan Lake",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-17T19:30:00",
+      "isFree": false,
+      "priceMin": 40,
+      "url": "https://www.todaytix.com/nyc/shows/swan-lake",
       "source": "todaytix"
     },
     {
@@ -9710,7 +9780,9 @@
       "start": "2026-06-17T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32735-julian-shore-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f56259e73311c6b9071c474a",
+      "spotifyUrl": "https://open.spotify.com/artist/4XGuhaBhfAZ6zHOR3NdWut"
     },
     {
       "id": "smallslive:32737",
@@ -9775,7 +9847,9 @@
       "start": "2026-06-17T22:30:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32960-kyle-koehler-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730e2c9cb0b0f573e202228f39",
+      "spotifyUrl": "https://open.spotify.com/artist/7rQYBwzxMYxzdcG7JJO6V0"
     },
     {
       "id": "smallslive:32761",
@@ -10807,7 +10881,9 @@
       "isFree": false,
       "priceMin": 25,
       "url": "https://dice.fm/event/ry83g5-turf-club-sunset-sounds-18th-jun-westlight-rooftop-at-the-william-vale-new-york-city-tickets",
-      "source": "dice"
+      "source": "dice",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4bb36a99b87f114c4578301",
+      "spotifyUrl": "https://open.spotify.com/artist/7aKOgYSq40h47LEd60Sqag"
     },
     {
       "id": "nyc-greenmarket:uptown-good-food-farm-stand-csa:2026-06-18",
@@ -11079,7 +11155,9 @@
       "start": "2026-06-18T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32740-kerry-politzer-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf94e02b4d44f66be2fcfeadb",
+      "spotifyUrl": "https://open.spotify.com/artist/1bX2Yy6txDSxRU2iAq9sqZ"
     },
     {
       "id": "dice:69fa46df82a5c3000133c694",
@@ -11262,7 +11340,9 @@
       "start": "2026-06-18T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32854-richie-goods-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb287f691762bb7d3285d32020",
+      "spotifyUrl": "https://open.spotify.com/artist/3vIV7TBZyCi5dGGaaFB6G6"
     },
     {
       "id": "nyc-parks:2158670",
@@ -11430,7 +11510,9 @@
       "start": "2026-06-18T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32739-dred-scott-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735f7f601b722070cf03cd6ecf",
+      "spotifyUrl": "https://open.spotify.com/artist/0osvUzR2sfqm3SDy5XRwDA"
     },
     {
       "id": "smallslive:32741",
@@ -12592,7 +12674,9 @@
       "start": "2026-06-19T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32777-spike-wilner-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd666114504e4c07c3b8a203f",
+      "spotifyUrl": "https://open.spotify.com/artist/2IsQRgCkOiPQwg0sKFLAJQ"
     },
     {
       "id": "smallslive:32683",
@@ -12604,7 +12688,9 @@
       "start": "2026-06-19T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32683-marius-van-den-brink-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27385b42c524ec3dd7c1f2aab64",
+      "spotifyUrl": "https://open.spotify.com/artist/5m5RxO3umBzrcY0eGYpJEo"
     },
     {
       "id": "dice:69efa4ac6920940001afc7dd",
@@ -12682,7 +12768,9 @@
       "start": "2026-06-19T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32793-jeff-tain-watts-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/d9f3ca49d2d38785498f88846f062e2193dd92e1",
+      "spotifyUrl": "https://open.spotify.com/artist/0hZXvDnljkma4aThiBMQ6h"
     },
     {
       "id": "dice:6a12b909dd59360001b11382",
@@ -12781,6 +12869,22 @@
       "source": "dice"
     },
     {
+      "id": "dice:6a15ac0127a1a30001d6fa59",
+      "title": "DJ DOVE",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Althea's Hideaway NYC",
+      "start": "2026-06-19T20:00:00",
+      "end": "2026-06-20T04:00:00",
+      "isFree": false,
+      "priceMin": 45.32,
+      "url": "https://dice.fm/event/g5qrlb-dj-dove-19th-jun-altheas-hideaway-nyc-new-york-city-tickets",
+      "source": "dice",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfe27e8ef76f90cfbaf3f8927",
+      "spotifyUrl": "https://open.spotify.com/artist/4d6dDvAt5jdSDAhH33UabE"
+    },
+    {
       "id": "nyc-open-data:894581:2026-06-19T20:00:00.000",
       "title": "MUTS Prospect Park",
       "category": "other",
@@ -12815,7 +12919,9 @@
       "start": "2026-06-19T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32679-uri-caine-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f6709c293ddc5a00bdf43dc3",
+      "spotifyUrl": "https://open.spotify.com/artist/21krrnT1VUrSwjdduInHuQ"
     },
     {
       "id": "smallslive:32681",
@@ -15114,7 +15220,9 @@
       "start": "2026-06-20T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32778-spike-wilner-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd666114504e4c07c3b8a203f",
+      "spotifyUrl": "https://open.spotify.com/artist/2IsQRgCkOiPQwg0sKFLAJQ"
     },
     {
       "id": "smallslive:32684",
@@ -15126,7 +15234,9 @@
       "start": "2026-06-20T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32684-marius-van-den-brink-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27385b42c524ec3dd7c1f2aab64",
+      "spotifyUrl": "https://open.spotify.com/artist/5m5RxO3umBzrcY0eGYpJEo"
     },
     {
       "id": "nyc-parks:2172881",
@@ -15215,7 +15325,9 @@
       "start": "2026-06-20T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32794-jeff-tain-watts-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/d9f3ca49d2d38785498f88846f062e2193dd92e1",
+      "spotifyUrl": "https://open.spotify.com/artist/0hZXvDnljkma4aThiBMQ6h"
     },
     {
       "id": "cityparks:18201",
@@ -15358,7 +15470,9 @@
       "start": "2026-06-20T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32680-uri-caine-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f6709c293ddc5a00bdf43dc3",
+      "spotifyUrl": "https://open.spotify.com/artist/21krrnT1VUrSwjdduInHuQ"
     },
     {
       "id": "smallslive:32682",
@@ -15421,7 +15535,9 @@
       "start": "2026-06-20T23:55:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32905-stacy-dillard-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739b9e19dff8ff80a69c33c2ae",
+      "spotifyUrl": "https://open.spotify.com/artist/2ZMsMQeqpo8xdpPNIbzEDi"
     },
     {
       "id": "nyc-parks:2146726",
@@ -16271,7 +16387,9 @@
       "start": "2026-06-21T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32795-jeff-tain-watts-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/d9f3ca49d2d38785498f88846f062e2193dd92e1",
+      "spotifyUrl": "https://open.spotify.com/artist/0hZXvDnljkma4aThiBMQ6h"
     },
     {
       "id": "todaytix:47191",
@@ -16349,7 +16467,9 @@
       "start": "2026-06-21T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32869-vanisha-gould-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebce1c1b3b00b169ce7d255ea9",
+      "spotifyUrl": "https://open.spotify.com/artist/0z7qSkfrWXvgNrSgnidiag"
     },
     {
       "id": "smallslive:32653",
@@ -16839,7 +16959,9 @@
       "start": "2026-06-22T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32742-barry-altschul-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/2eeb357f6338ec3b1cd5958503b10b314f2a492e",
+      "spotifyUrl": "https://open.spotify.com/artist/7gkHmjc6mHg9osmjnVikLo"
     },
     {
       "id": "nyc-parks:2160652",
@@ -16969,7 +17091,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:32860",
@@ -16981,7 +17105,8 @@
       "start": "2026-06-22T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32860-jon-davis-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "spotifyUrl": "https://open.spotify.com/artist/41tkKllYhtZFpkE1YZU1xs"
     },
     {
       "id": "smallslive:32743",
@@ -16993,7 +17118,9 @@
       "start": "2026-06-22T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32743-kenyatta-beasley-sextet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c1bcf342104c494d0d499b19",
+      "spotifyUrl": "https://open.spotify.com/artist/6PetfHWX8Vx5V3PfSqx5qv"
     },
     {
       "id": "smallslive:32934",
@@ -17020,7 +17147,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:32763",
@@ -17988,7 +18117,9 @@
       "start": "2026-06-23T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32745-kat-gang-sextet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734c97c0ec86d79e554a269a62",
+      "spotifyUrl": "https://open.spotify.com/artist/2xTwCujoVxqAHsNTUr1qDi"
     },
     {
       "id": "nyc-parks:2135078",
@@ -18104,7 +18235,9 @@
       "start": "2026-06-23T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32919-adam-birnbaum-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2733b10d596acc27aedebd88bfc",
+      "spotifyUrl": "https://open.spotify.com/artist/1S7G9ASNi375RMs38eVNVs"
     },
     {
       "id": "dice:6a1724a07adffc000141ff20",
@@ -18158,7 +18291,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "dice:6a14d9f63b80100001710ee6",
@@ -18183,7 +18317,9 @@
       "start": "2026-06-23T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32897-michael-kanan-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af46a88f6111a32e88d94e2d",
+      "spotifyUrl": "https://open.spotify.com/artist/6iY9mU5NQWJLt0G0iwi14R"
     },
     {
       "id": "smallslive:32717",
@@ -18195,7 +18331,9 @@
       "start": "2026-06-23T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32717-timothy-norton-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb03627a97537920d860ba217",
+      "spotifyUrl": "https://open.spotify.com/artist/1QPPh7h2TLskmH5RfQREb5"
     },
     {
       "id": "smallslive:32932",
@@ -18222,7 +18360,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "smallslive:32764",
@@ -19450,7 +19589,9 @@
       "start": "2026-06-24T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32462-jason-yeager-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738fac60aca7537962fb0f553c",
+      "spotifyUrl": "https://open.spotify.com/artist/1akhyGKqaHmBDYTJ0pQw14"
     },
     {
       "id": "dice:69f904b2019f4d0001d07746",
@@ -19580,7 +19721,9 @@
       "start": "2026-06-24T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32856-jerry-weldon-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fcbb2f7cf06f20f1d28b652a",
+      "spotifyUrl": "https://open.spotify.com/artist/04x8WUfUIXvBy0I8UmvO9U"
     },
     {
       "id": "village-vanguard:135517",
@@ -19595,7 +19738,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "dice:6a187e6f9296bb0001bd7da0",
@@ -19674,7 +19818,9 @@
       "start": "2026-06-24T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32769-noah-garabedian-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/4f8c5189a68e3e86cbc8b8947a04dfdad6fe600a",
+      "spotifyUrl": "https://open.spotify.com/artist/7jMADK6ZS37uBZbrKK5XAm"
     },
     {
       "id": "smallslive:32861",
@@ -19701,7 +19847,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "dice:6a26f809864f380001f123d8",
@@ -20851,7 +20998,9 @@
       "start": "2026-06-25T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33036-ed-cherry-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b91c35b9aebd172af9695981",
+      "spotifyUrl": "https://open.spotify.com/artist/4UTYWloKbU26EGhaLQFOVy"
     },
     {
       "id": "dice:69fa46dfd9d3150001294307",
@@ -20981,7 +21130,9 @@
       "start": "2026-06-25T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32857-corcoran-holt-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbce16ebf4a603026198949c1",
+      "spotifyUrl": "https://open.spotify.com/artist/2JFydXcNBuz8kLKHZdKMqH"
     },
     {
       "id": "nyc-parks:2124277",
@@ -21073,7 +21224,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "nyc-parks:2169079",
@@ -21123,7 +21275,9 @@
       "start": "2026-06-25T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32649-altin-sencalar-sextet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfe93c8c913197c17331f370b",
+      "spotifyUrl": "https://open.spotify.com/artist/7jrfh4x5qBnmM7hwqz5jam"
     },
     {
       "id": "village-vanguard:135524",
@@ -21138,7 +21292,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "dice:6a0f154a24c2620001ac33a1",
@@ -22336,7 +22491,9 @@
       "start": "2026-06-26T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32798-joel-frahm-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734759aee0790a35ebc68c104c",
+      "spotifyUrl": "https://open.spotify.com/artist/7v9McHDRoYmDr6xzyaXG3g"
     },
     {
       "id": "nyc-parks:2135232",
@@ -22377,7 +22534,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "dice:69f2551c395cfc0001bd7018",
@@ -22454,7 +22612,9 @@
       "start": "2026-06-26T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32657-jeremy-pelt-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/3a47d671a2d560b69fff9506d9b59ff5ab1f8484",
+      "spotifyUrl": "https://open.spotify.com/artist/0ie9W9nN4iPymAkS9WW8nX"
     },
     {
       "id": "smallslive:32689",
@@ -22466,7 +22626,9 @@
       "start": "2026-06-26T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32689-wayne-escoffery-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/c76c229f53ce424c30c4540335e09a9c60abbcf3",
+      "spotifyUrl": "https://open.spotify.com/artist/5OZcVqX1OWspU3UCsymKw9"
     },
     {
       "id": "village-vanguard:135525",
@@ -22481,7 +22643,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "smallslive:32889",
@@ -22493,7 +22656,9 @@
       "start": "2026-06-26T22:30:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32889-jason-marshall-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb02823357f9fd33647add6404",
+      "spotifyUrl": "https://open.spotify.com/artist/708QSifUgODmuMSE8pJCqZ"
     },
     {
       "id": "smallslive:33030",
@@ -24300,7 +24465,9 @@
       "start": "2026-06-27T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32799-joel-frahm-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734759aee0790a35ebc68c104c",
+      "spotifyUrl": "https://open.spotify.com/artist/7v9McHDRoYmDr6xzyaXG3g"
     },
     {
       "id": "todaytix:46357",
@@ -24338,7 +24505,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "nyc-parks:2169085",
@@ -24376,7 +24544,9 @@
       "start": "2026-06-27T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32658-jeremy-pelt-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/3a47d671a2d560b69fff9506d9b59ff5ab1f8484",
+      "spotifyUrl": "https://open.spotify.com/artist/0ie9W9nN4iPymAkS9WW8nX"
     },
     {
       "id": "smallslive:32690",
@@ -24388,7 +24558,9 @@
       "start": "2026-06-27T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32690-wayne-escoffery-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/c76c229f53ce424c30c4540335e09a9c60abbcf3",
+      "spotifyUrl": "https://open.spotify.com/artist/5OZcVqX1OWspU3UCsymKw9"
     },
     {
       "id": "dice:6a2b04d818965d00017f6eb0",
@@ -24431,7 +24603,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "smallslive:32890",
@@ -24443,7 +24616,9 @@
       "start": "2026-06-27T22:30:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32890-jason-marshall-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb02823357f9fd33647add6404",
+      "spotifyUrl": "https://open.spotify.com/artist/708QSifUgODmuMSE8pJCqZ"
     },
     {
       "id": "smallslive:33031",
@@ -24467,7 +24642,9 @@
       "start": "2026-06-27T23:55:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32909-ken-fowser-sextet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd1321a68707f53c1de2ca8b0",
+      "spotifyUrl": "https://open.spotify.com/artist/0tq7Vj2OhSgeCiutp9X94a"
     },
     {
       "id": "nyc-open-data:899352:2026-06-28T07:00:00.000",
@@ -25107,7 +25284,9 @@
       "start": "2026-06-28T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32800-joel-frahm-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734759aee0790a35ebc68c104c",
+      "spotifyUrl": "https://open.spotify.com/artist/7v9McHDRoYmDr6xzyaXG3g"
     },
     {
       "id": "dice:6a0ba52117f8370001313bb8",
@@ -25189,7 +25368,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "dice:6a2f5a403806650001d50ed9",
@@ -25240,7 +25420,9 @@
       "start": "2026-06-28T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32870-lucy-wijnands-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4bf5e85bd34dc0eafc5ae0ed",
+      "spotifyUrl": "https://open.spotify.com/artist/4ZlwbQN4esF0xuC1xGDF4Q"
     },
     {
       "id": "smallslive:32892",
@@ -25252,7 +25434,9 @@
       "start": "2026-06-28T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32892-john-sneider-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba8f5cafa998be77a12a6b1c0",
+      "spotifyUrl": "https://open.spotify.com/artist/284u6rMBJb6UithL47ETVs"
     },
     {
       "id": "smallslive:32848",
@@ -25279,7 +25463,8 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
     },
     {
       "id": "smallslive:33041",
@@ -25691,7 +25876,9 @@
       "start": "2026-06-29T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32863-jeremy-manasia-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eba328502a2659c401b3c07ce2",
+      "spotifyUrl": "https://open.spotify.com/artist/5342uGSvmV48bzF5OjSqIq"
     },
     {
       "id": "smallslive:32749",
@@ -25703,7 +25890,9 @@
       "start": "2026-06-29T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32749-dan-weiss-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/3346ec807392d6fa8524dda7e4e92e2738427304",
+      "spotifyUrl": "https://open.spotify.com/artist/66o87gept0Bh7KEWo6iej1"
     },
     {
       "id": "nyc-parks:2160576",
@@ -25854,7 +26043,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "nyc-parks:2176205",
@@ -25891,7 +26082,9 @@
       "start": "2026-06-29T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32750-mike-ledonne-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/2098fa04e9ded668a9af0aff35d7226ceb30320b",
+      "spotifyUrl": "https://open.spotify.com/artist/5HOZypv3IkaUfwr6UwhOX7"
     },
     {
       "id": "smallslive:32935",
@@ -25918,7 +26111,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:32767",
@@ -26136,7 +26331,9 @@
       "start": "2026-06-30T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32770-neal-miner-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbf8a87b1d28e3e6c4c7298a4",
+      "spotifyUrl": "https://open.spotify.com/artist/1G29L0Rp57OCtvcPGv7ppD"
     },
     {
       "id": "smallslive:32865",
@@ -26148,7 +26345,9 @@
       "start": "2026-06-30T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32865-steve-nelson-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27329771607969dd8ee0e9226bb",
+      "spotifyUrl": "https://open.spotify.com/artist/39kLO9sJGaOhfk9wcsjxzY"
     },
     {
       "id": "smallslive:32920",
@@ -26160,7 +26359,9 @@
       "start": "2026-06-30T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32920-david-hazeltine-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731bcaf5926f2846d75f4eb6e6",
+      "spotifyUrl": "https://open.spotify.com/artist/0ys9taHClGkZMwmTydgBJA"
     },
     {
       "id": "village-vanguard:135528",
@@ -26175,7 +26376,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "dice:6a14d9f6b0e7140001b60fa8",
@@ -26200,7 +26403,9 @@
       "start": "2026-06-30T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32949-jesse-green-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27390b8771deb83a9512b020156",
+      "spotifyUrl": "https://open.spotify.com/artist/6F9RWjBvRtYDrlFVW9Ut7M"
     },
     {
       "id": "smallslive:32866",
@@ -26212,7 +26417,9 @@
       "start": "2026-06-30T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32866-david-gibson-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb64ea28200bcc415e77dedde1",
+      "spotifyUrl": "https://open.spotify.com/artist/2xtRXEqN4qxtf4AYocor5g"
     },
     {
       "id": "smallslive:32933",
@@ -26239,7 +26446,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:32768",
@@ -26662,7 +26871,9 @@
       "start": "2026-07-01T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33003-jennifer-whartons-bonegasm/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737566d7c70c66267d900c828e",
+      "spotifyUrl": "https://open.spotify.com/artist/5tkmSTTOeuzYl7tqmDdWGW"
     },
     {
       "id": "cityparks:19764",
@@ -26701,7 +26912,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:32957",
@@ -26713,7 +26926,9 @@
       "start": "2026-07-01T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32957-sebastian-noelle-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7cdadd3019b3f37af25bb1b2",
+      "spotifyUrl": "https://open.spotify.com/artist/2IDltGSvlY42839jaM7thE"
     },
     {
       "id": "smallslive:33004",
@@ -26740,7 +26955,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:33127",
@@ -27048,7 +27265,9 @@
       "start": "2026-07-02T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33005-larry-fuller-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b94063dc7e8e405dfa31fd39",
+      "spotifyUrl": "https://open.spotify.com/artist/5YQgUMDrIF4nhR0jgLDPan"
     },
     {
       "id": "smallslive:33007",
@@ -27087,7 +27306,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:33006",
@@ -27099,7 +27320,9 @@
       "start": "2026-07-02T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33006-colin-stranahan-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273041f9459900eb6d5d748ddd6",
+      "spotifyUrl": "https://open.spotify.com/artist/1owzblOPaoTvaopqpOp4zB"
     },
     {
       "id": "smallslive:33008",
@@ -27126,7 +27349,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:33128",
@@ -27422,7 +27647,9 @@
       "end": "2026-07-03T22:00:00",
       "isFree": true,
       "url": "https://cityparksfoundation.org/events/odd-mob/",
-      "source": "cityparks"
+      "source": "cityparks",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60a5642e7a0bf885809f7fac",
+      "spotifyUrl": "https://open.spotify.com/artist/4qLwtWhlhyAoQ4S9mSrDW9"
     },
     {
       "id": "smallslive:32963",
@@ -27434,7 +27661,9 @@
       "start": "2026-07-03T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32963-bill-mays-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27390e4a3a60b5fff282c736c53",
+      "spotifyUrl": "https://open.spotify.com/artist/0u0kF8FSLbjeCbwzf9rSL9"
     },
     {
       "id": "smallslive:32967",
@@ -27446,7 +27675,9 @@
       "start": "2026-07-03T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32967-ralph-bowen-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4dc2cbded4cf716a34604b95",
+      "spotifyUrl": "https://open.spotify.com/artist/05ZColDwFrnLPvoaJkvqcX"
     },
     {
       "id": "smallslive:33104",
@@ -27458,7 +27689,9 @@
       "start": "2026-07-03T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33104-chuck-redd-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27323a5dcd2cd5a7bb63cb9ca31",
+      "spotifyUrl": "https://open.spotify.com/artist/5TTbzy6ZzPF2E7uoPP4GVt"
     },
     {
       "id": "village-vanguard:135531",
@@ -27473,7 +27706,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "dice:6a10cfae3178720001435a6a",
@@ -27499,7 +27734,9 @@
       "start": "2026-07-03T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32965-harry-allen-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7060178cc1b25dbc8999eb0",
+      "spotifyUrl": "https://open.spotify.com/artist/7HEPzI1k3SXs2lJ3EixmjR"
     },
     {
       "id": "smallslive:32969",
@@ -27511,7 +27748,9 @@
       "start": "2026-07-03T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32969-mike-dirubbo-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaad141d957e61373395f6a6b",
+      "spotifyUrl": "https://open.spotify.com/artist/6U6bOqDXBo9jhvL9V1NHkl"
     },
     {
       "id": "village-vanguard:135537",
@@ -27526,7 +27765,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:33122",
@@ -28132,7 +28373,9 @@
       "start": "2026-07-04T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32964-bill-mays-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27390e4a3a60b5fff282c736c53",
+      "spotifyUrl": "https://open.spotify.com/artist/0u0kF8FSLbjeCbwzf9rSL9"
     },
     {
       "id": "smallslive:32968",
@@ -28144,7 +28387,9 @@
       "start": "2026-07-04T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32968-ralph-bowen-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4dc2cbded4cf716a34604b95",
+      "spotifyUrl": "https://open.spotify.com/artist/05ZColDwFrnLPvoaJkvqcX"
     },
     {
       "id": "smallslive:33105",
@@ -28156,7 +28401,9 @@
       "start": "2026-07-04T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33105-chuck-redd-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27323a5dcd2cd5a7bb63cb9ca31",
+      "spotifyUrl": "https://open.spotify.com/artist/5TTbzy6ZzPF2E7uoPP4GVt"
     },
     {
       "id": "village-vanguard:135532",
@@ -28171,7 +28418,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:32966",
@@ -28183,7 +28432,9 @@
       "start": "2026-07-04T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32966-harry-allen-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7060178cc1b25dbc8999eb0",
+      "spotifyUrl": "https://open.spotify.com/artist/7HEPzI1k3SXs2lJ3EixmjR"
     },
     {
       "id": "smallslive:32970",
@@ -28195,7 +28446,9 @@
       "start": "2026-07-04T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32970-mike-dirubbo-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaad141d957e61373395f6a6b",
+      "spotifyUrl": "https://open.spotify.com/artist/6U6bOqDXBo9jhvL9V1NHkl"
     },
     {
       "id": "village-vanguard:135538",
@@ -28210,7 +28463,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:33077",
@@ -28581,7 +28836,9 @@
       "start": "2026-07-05T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32973-jed-levy-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bb6703fe0943c46e59c4e9c2",
+      "spotifyUrl": "https://open.spotify.com/artist/7tvMYesk0Ghft0BJBdx1Rj"
     },
     {
       "id": "smallslive:33106",
@@ -28593,7 +28850,9 @@
       "start": "2026-07-05T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33106-chuck-redd-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27323a5dcd2cd5a7bb63cb9ca31",
+      "spotifyUrl": "https://open.spotify.com/artist/5TTbzy6ZzPF2E7uoPP4GVt"
     },
     {
       "id": "village-vanguard:135533",
@@ -28608,7 +28867,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "smallslive:32971",
@@ -28647,7 +28908,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/james-brandon-lewis-quartet",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8624967c2bfaf06224562b7",
+      "spotifyUrl": "https://open.spotify.com/artist/4vPE7pt5RgtB8cqDqQHhMK"
     },
     {
       "id": "nyc-greenmarket:union-square-greenmarket:2026-07-06",
@@ -28724,7 +28987,9 @@
       "start": "2026-07-06T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33123-mike-clark-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6772690000c46ca56d5ab56f275ff9357a9a25",
+      "spotifyUrl": "https://open.spotify.com/artist/44sbgaYkco7J0jLsRPkoEt"
     },
     {
       "id": "todaytix:46984",
@@ -29027,7 +29292,9 @@
       "start": "2026-07-07T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33154-alan-broadbent-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730abfd76691719b18fbbfb4f9",
+      "spotifyUrl": "https://open.spotify.com/artist/2hYe90veE7CgFfElwnp48p"
     },
     {
       "id": "todaytix:40301",
@@ -29074,7 +29341,9 @@
       "start": "2026-07-07T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33016-greg-murphy-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27329cf6001c9f405974ad5df18",
+      "spotifyUrl": "https://open.spotify.com/artist/30zt3ProLZr6NT4Tfl0Z1F"
     },
     {
       "id": "smallslive:33018",
@@ -29086,7 +29355,9 @@
       "start": "2026-07-07T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33018-mike-karn-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c090fe04cd08af011153b31a",
+      "spotifyUrl": "https://open.spotify.com/artist/3BTla7lLPFswdgVvDS1WVx"
     },
     {
       "id": "smallslive:33215",
@@ -29571,7 +29842,9 @@
       "start": "2026-07-08T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33155-byron-landham-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27303a786ea956a9fa04c1eca54",
+      "spotifyUrl": "https://open.spotify.com/artist/1tqyJnk32ilFSAnmoj0gMv"
     },
     {
       "id": "todaytix:46214",
@@ -29621,7 +29894,9 @@
       "start": "2026-07-08T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33022-darryl-yokleys-sound-reformation/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe6908328f2fa064a6c3477b0",
+      "spotifyUrl": "https://open.spotify.com/artist/11tY5pBuaNqS5pBNSs6JJ9"
     },
     {
       "id": "dice:6a26f809864f380001f123d7",
@@ -29967,7 +30242,9 @@
       "start": "2026-07-09T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33027-ralph-alessi-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6772690000c46cfc8c8fc8206e1c2e01c07510",
+      "spotifyUrl": "https://open.spotify.com/artist/2yHcAgHAPUdUhVuiIWWcba"
     },
     {
       "id": "cityparks:19766",
@@ -30039,7 +30316,9 @@
       "start": "2026-07-09T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32695-robby-ameen-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3458d3f28b6ef3806f8d775b",
+      "spotifyUrl": "https://open.spotify.com/artist/2EWLNYbiWAIEl2MDfE3nCj"
     },
     {
       "id": "smallslive:33157",
@@ -30360,7 +30639,9 @@
       "end": "2026-07-10T22:00:00",
       "isFree": true,
       "url": "https://cityparksfoundation.org/events/nora-en-pure/",
-      "source": "cityparks"
+      "source": "cityparks",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2d6db1d82461593938beef62",
+      "spotifyUrl": "https://open.spotify.com/artist/24DO0PijjITGIEWsO8XaPs"
     },
     {
       "id": "cityparks:19768",
@@ -30384,7 +30665,9 @@
       "start": "2026-07-10T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32975-nir-felder-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcd5479ac220195d4bfb588ce",
+      "spotifyUrl": "https://open.spotify.com/artist/7L6hdiesl0TXJgdciKKrxD"
     },
     {
       "id": "smallslive:33107",
@@ -30396,7 +30679,9 @@
       "start": "2026-07-10T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33107-george-colligan-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e4422d3126fe3dd2dcd20414",
+      "spotifyUrl": "https://open.spotify.com/artist/6EzaqikagU5xbAh9EJ7bF4"
     },
     {
       "id": "dice:6a10cfd1716449000182ea52",
@@ -30422,7 +30707,9 @@
       "start": "2026-07-10T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33070-peter-zak-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7fafd3e286b89a619415399",
+      "spotifyUrl": "https://open.spotify.com/artist/4TUzGFPK273rVUpYTn0WRk"
     },
     {
       "id": "smallslive:32977",
@@ -30434,7 +30721,9 @@
       "start": "2026-07-10T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32977-michael-dease-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbe5c6cf68975e70a635cb6b5",
+      "spotifyUrl": "https://open.spotify.com/artist/29h9KL3WADCGIx9ykAZxRS"
     },
     {
       "id": "smallslive:33158",
@@ -30446,7 +30735,9 @@
       "start": "2026-07-10T22:30:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33158-duane-eubanks-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe933b5d9fca2c05b99eebf12",
+      "spotifyUrl": "https://open.spotify.com/artist/371h9y9TkJSNXcTzHW6b3u"
     },
     {
       "id": "nyc-greenmarket:4th-ave-sunset-park-greenmarket:2026-07-11",
@@ -31112,7 +31403,9 @@
       "start": "2026-07-11T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32976-nir-felder-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcd5479ac220195d4bfb588ce",
+      "spotifyUrl": "https://open.spotify.com/artist/7L6hdiesl0TXJgdciKKrxD"
     },
     {
       "id": "smallslive:33108",
@@ -31124,7 +31417,9 @@
       "start": "2026-07-11T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33108-george-colligan-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e4422d3126fe3dd2dcd20414",
+      "spotifyUrl": "https://open.spotify.com/artist/6EzaqikagU5xbAh9EJ7bF4"
     },
     {
       "id": "todaytix:30144",
@@ -31147,7 +31442,9 @@
       "start": "2026-07-11T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33071-peter-zak-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7fafd3e286b89a619415399",
+      "spotifyUrl": "https://open.spotify.com/artist/4TUzGFPK273rVUpYTn0WRk"
     },
     {
       "id": "smallslive:32978",
@@ -31159,7 +31456,9 @@
       "start": "2026-07-11T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32978-michael-dease-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbe5c6cf68975e70a635cb6b5",
+      "spotifyUrl": "https://open.spotify.com/artist/29h9KL3WADCGIx9ykAZxRS"
     },
     {
       "id": "smallslive:33159",
@@ -31171,7 +31470,9 @@
       "start": "2026-07-11T22:30:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33159-duane-eubanks-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe933b5d9fca2c05b99eebf12",
+      "spotifyUrl": "https://open.spotify.com/artist/371h9y9TkJSNXcTzHW6b3u"
     },
     {
       "id": "dice:6a2ccc4bf9a7e00001c5977d",
@@ -31197,7 +31498,9 @@
       "start": "2026-07-11T23:55:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33078-stacy-dillard-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739b9e19dff8ff80a69c33c2ae",
+      "spotifyUrl": "https://open.spotify.com/artist/2ZMsMQeqpo8xdpPNIbzEDi"
     },
     {
       "id": "nyc-greenmarket:bartel-pritchard-square-greenmarket:2026-07-12",
@@ -31616,7 +31919,9 @@
       "start": "2026-07-12T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33109-george-colligan-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e4422d3126fe3dd2dcd20414",
+      "spotifyUrl": "https://open.spotify.com/artist/6EzaqikagU5xbAh9EJ7bF4"
     },
     {
       "id": "dice:6a18ef750581f1000187eb88",
@@ -31641,7 +31946,9 @@
       "start": "2026-07-12T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32979-vanisha-gould-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebce1c1b3b00b169ce7d255ea9",
+      "spotifyUrl": "https://open.spotify.com/artist/0z7qSkfrWXvgNrSgnidiag"
     },
     {
       "id": "smallslive:32981",
@@ -31716,7 +32023,9 @@
       "start": "2026-07-13T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33032-ari-hoenig-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb64c95c4c8cb93f95c41894b",
+      "spotifyUrl": "https://open.spotify.com/artist/1P6Llrp12ldpVbyC8gCHBz"
     },
     {
       "id": "dice:6a078ae5dd70be0001c681eb",
@@ -31744,7 +32053,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:33212",
@@ -31771,7 +32082,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:33133",
@@ -32002,7 +32315,9 @@
       "start": "2026-07-14T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33119-michael-kanan-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273af46a88f6111a32e88d94e2d",
+      "spotifyUrl": "https://open.spotify.com/artist/6iY9mU5NQWJLt0G0iwi14R"
     },
     {
       "id": "smallslive:33160",
@@ -32014,7 +32329,9 @@
       "start": "2026-07-14T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33160-jon-thomas-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb35d0054c427c5057e1a3d85a",
+      "spotifyUrl": "https://open.spotify.com/artist/3gV5r1iOvrDXAiew86XlKI"
     },
     {
       "id": "todaytix:46802",
@@ -32076,7 +32393,9 @@
       "start": "2026-07-14T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33120-ray-gallon-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb248cf0cd6f4d98659584dbfd",
+      "spotifyUrl": "https://open.spotify.com/artist/1FBv8rfOaEEwZO9ExqHAsX"
     },
     {
       "id": "smallslive:33121",
@@ -32525,7 +32844,9 @@
       "start": "2026-07-15T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33044-behn-gillece-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5e91da99b9e36c2792c9ff87",
+      "spotifyUrl": "https://open.spotify.com/artist/0YyytaIFxrBwVdJkKe8ZrU"
     },
     {
       "id": "cityparks:19772",
@@ -32587,7 +32908,9 @@
       "start": "2026-07-15T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33043-adam-niewood-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e122cfc48684c3183226889c",
+      "spotifyUrl": "https://open.spotify.com/artist/2jW6cwdf5BnGrvJva7Fa89"
     },
     {
       "id": "smallslive:33135",
@@ -32908,7 +33231,9 @@
       "start": "2026-07-16T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33046-marcus-goldhaber-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb121e5c8804f21a52065d9f96",
+      "spotifyUrl": "https://open.spotify.com/artist/7Is5v9T0nFnfX4NwFD7446"
     },
     {
       "id": "smallslive:33047",
@@ -33278,7 +33603,9 @@
       "start": "2026-07-17T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33049-jim-ridl-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734a3e84aae77da848a69f9638",
+      "spotifyUrl": "https://open.spotify.com/artist/3cpoYYwT3fSUp3PW94FZ5o"
     },
     {
       "id": "smallslive:32984",
@@ -33314,7 +33641,9 @@
       "start": "2026-07-17T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33110-geoffrey-keezer-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebef6d5833cb1eb26af521af30",
+      "spotifyUrl": "https://open.spotify.com/artist/6blxY1iqiaDxSkZ1OGPUZ7"
     },
     {
       "id": "smallslive:32982",
@@ -34016,7 +34345,9 @@
       "start": "2026-07-18T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33050-jim-ridl-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734a3e84aae77da848a69f9638",
+      "spotifyUrl": "https://open.spotify.com/artist/3cpoYYwT3fSUp3PW94FZ5o"
     },
     {
       "id": "smallslive:32985",
@@ -34040,7 +34371,9 @@
       "start": "2026-07-18T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33111-geoffrey-keezer-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebef6d5833cb1eb26af521af30",
+      "spotifyUrl": "https://open.spotify.com/artist/6blxY1iqiaDxSkZ1OGPUZ7"
     },
     {
       "id": "todaytix:40311",
@@ -34075,7 +34408,9 @@
       "start": "2026-07-18T23:55:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33080-justin-robinson-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6772690000c46cc01a0e5837b75789d8b4316c",
+      "spotifyUrl": "https://open.spotify.com/artist/7FObFXOHxYMEcpKJi5VKkF"
     },
     {
       "id": "nyc-greenmarket:bartel-pritchard-square-greenmarket:2026-07-19",
@@ -34421,7 +34756,9 @@
       "start": "2026-07-19T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32988-april-varner-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb73b62be81af24ff58b5ee9e9",
+      "spotifyUrl": "https://open.spotify.com/artist/70NIXLuu1MgRfFpKRpb12b"
     },
     {
       "id": "smallslive:32990",
@@ -34445,7 +34782,9 @@
       "start": "2026-07-19T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33112-geoffrey-keezer-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebef6d5833cb1eb26af521af30",
+      "spotifyUrl": "https://open.spotify.com/artist/6blxY1iqiaDxSkZ1OGPUZ7"
     },
     {
       "id": "smallslive:32989",
@@ -34457,7 +34796,9 @@
       "start": "2026-07-19T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32989-naama-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb26ce17abea954acae32e767c",
+      "spotifyUrl": "https://open.spotify.com/artist/1m4JqvlkZXqZxFZjWaY1jg"
     },
     {
       "id": "smallslive:32991",
@@ -34469,7 +34810,9 @@
       "start": "2026-07-19T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32991-hendrik-meurkens-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8b4c7d7a62a7ddf9af252a88",
+      "spotifyUrl": "https://open.spotify.com/artist/15QPTkzWjzD8Elv2zPX8VH"
     },
     {
       "id": "smallslive:33208",
@@ -34545,7 +34888,9 @@
       "start": "2026-07-20T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33126-ari-hoenig-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb64c95c4c8cb93f95c41894b",
+      "spotifyUrl": "https://open.spotify.com/artist/1P6Llrp12ldpVbyC8gCHBz"
     },
     {
       "id": "village-vanguard:136441",
@@ -34560,7 +34905,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:33213",
@@ -34587,7 +34934,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:33137",
@@ -34817,7 +35166,9 @@
       "start": "2026-07-21T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33145-alberto-pibiri-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730e9e6c7b37e0f5dec8894a0b",
+      "spotifyUrl": "https://open.spotify.com/artist/6RywuBCiHuECDrrMaZnk7q"
     },
     {
       "id": "smallslive:33164",
@@ -34829,7 +35180,9 @@
       "start": "2026-07-21T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33164-jeb-patton-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7f61d5c87505a58df2e19355",
+      "spotifyUrl": "https://open.spotify.com/artist/0wYKpSqMDbPDpq2wVxqNgj"
     },
     {
       "id": "todaytix:40313",
@@ -34852,7 +35205,9 @@
       "start": "2026-07-21T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33146-tardo-hammer-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b27393ffe2eb4c6505d6bd86e9b2",
+      "spotifyUrl": "https://open.spotify.com/artist/5CMf8TbckEaVoCIyEHTdcY"
     },
     {
       "id": "smallslive:33217",
@@ -35251,7 +35606,9 @@
       "start": "2026-07-22T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33052-melissa-stylianou-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6a52c7b7b356fbbe8a96a58e",
+      "spotifyUrl": "https://open.spotify.com/artist/00KkXfM8sSIwfrtLlH1umS"
     },
     {
       "id": "smallslive:33165",
@@ -35264,18 +35621,6 @@
       "isFree": false,
       "url": "https://www.smallslive.com/events/33165-ian-hendrickson-smith-quartet/",
       "source": "smallslive"
-    },
-    {
-      "id": "todaytix:47049",
-      "title": "Disruption",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Romulus Linney Courtyard Theatre at The Pershing Square Signature Center",
-      "start": "2026-07-22T19:30:00",
-      "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/disruption",
-      "source": "todaytix"
     },
     {
       "id": "cityparks:19776",
@@ -35632,7 +35977,9 @@
       "start": "2026-07-23T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33055-arcoiris-sandoval-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa48b694ca476720f7dad344",
+      "spotifyUrl": "https://open.spotify.com/artist/6vZDnYE8Ua8uK38jtiI4Av"
     },
     {
       "id": "smallslive:33056",
@@ -35644,7 +35991,9 @@
       "start": "2026-07-23T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33056-richard-sussman-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736b3cd373525607deec194e2d",
+      "spotifyUrl": "https://open.spotify.com/artist/0ZSR2vlrhqv00BiThti4lx"
     },
     {
       "id": "cityparks:19369",
@@ -35668,7 +36017,9 @@
       "start": "2026-07-23T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33166-leo-genovese-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc2bed71fe74fcb439380b971",
+      "spotifyUrl": "https://open.spotify.com/artist/6oTt7SbO878MuvMRjHmTmk"
     },
     {
       "id": "todaytix:46158",
@@ -35704,7 +36055,9 @@
       "start": "2026-07-23T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32597-chris-bergson-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb51aa57b7090c587311244b0b",
+      "spotifyUrl": "https://open.spotify.com/artist/6vt9HocJqTG5XNtEhUt9u0"
     },
     {
       "id": "smallslive:33057",
@@ -36036,7 +36389,9 @@
       "start": "2026-07-24T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33113-steve-wilson-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ada51cfc6ca0baa53da6157",
+      "spotifyUrl": "https://open.spotify.com/artist/4SJKRhUda34Q9RzmChXeNQ"
     },
     {
       "id": "smallslive:32994",
@@ -36060,7 +36415,9 @@
       "start": "2026-07-24T23:55:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33081-ken-fowser-sextet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd1321a68707f53c1de2ca8b0",
+      "spotifyUrl": "https://open.spotify.com/artist/0tq7Vj2OhSgeCiutp9X94a"
     },
     {
       "id": "nyc-open-data:888629:2026-07-25T07:00:00.000",
@@ -36761,7 +37118,9 @@
       "start": "2026-07-25T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33114-steve-wilson-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ada51cfc6ca0baa53da6157",
+      "spotifyUrl": "https://open.spotify.com/artist/4SJKRhUda34Q9RzmChXeNQ"
     },
     {
       "id": "todaytix:40314",
@@ -37130,7 +37489,9 @@
       "start": "2026-07-26T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32996-alyssa-allgood-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb558bf6af11f6eade0e009e9c",
+      "spotifyUrl": "https://open.spotify.com/artist/4uEMNqiIfm2qGplhFBy4jf"
     },
     {
       "id": "smallslive:33009",
@@ -37166,7 +37527,9 @@
       "start": "2026-07-26T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33115-steve-wilson-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ada51cfc6ca0baa53da6157",
+      "spotifyUrl": "https://open.spotify.com/artist/4SJKRhUda34Q9RzmChXeNQ"
     },
     {
       "id": "todaytix:47193",
@@ -37190,7 +37553,9 @@
       "start": "2026-07-26T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/32997-lucy-wijnands-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4bf5e85bd34dc0eafc5ae0ed",
+      "spotifyUrl": "https://open.spotify.com/artist/4ZlwbQN4esF0xuC1xGDF4Q"
     },
     {
       "id": "smallslive:33010",
@@ -37202,7 +37567,9 @@
       "start": "2026-07-26T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33010-todd-herbert-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738cf13168148ead678b93b275",
+      "spotifyUrl": "https://open.spotify.com/artist/5GcOLfiQS3M5Al8WtYB5ht"
     },
     {
       "id": "smallslive:33209",
@@ -37264,7 +37631,9 @@
       "start": "2026-07-27T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33168-joe-farnsworth-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b98cc16ee290e262e99d90de",
+      "spotifyUrl": "https://open.spotify.com/artist/441bJwgHqaZ7Ly5VaX1zC7"
     },
     {
       "id": "village-vanguard:136443",
@@ -37279,7 +37648,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:33059",
@@ -37318,7 +37689,9 @@
       "priceMin": 45,
       "priceMax": 45,
       "url": "https://vv.squadup.com/artists/vanguard-jazz-orchestra",
-      "source": "village-vanguard"
+      "source": "village-vanguard",
+      "image": "https://i.scdn.co/image/ab67616d0000b27311d88e1125f367a13f671d76",
+      "spotifyUrl": "https://open.spotify.com/artist/5X6ELFlxtOjIwtiyj4ZHda"
     },
     {
       "id": "smallslive:33141",
@@ -37379,7 +37752,9 @@
       "start": "2026-07-28T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33169-victor-gould-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e28c60089bc7bc090abb34e8",
+      "spotifyUrl": "https://open.spotify.com/artist/37MrIQfFRvlCAidwFyY8RY"
     },
     {
       "id": "smallslive:33218",
@@ -37440,7 +37815,9 @@
       "start": "2026-07-29T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33060-elsa-nilsson-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2781cf0d1756d29427c6d05a",
+      "spotifyUrl": "https://open.spotify.com/artist/6qyQySgAI6VVmrWIVyUb11"
     },
     {
       "id": "smallslive:33062",
@@ -37476,7 +37853,9 @@
       "start": "2026-07-29T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33170-jerry-weldon-quintet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fcbb2f7cf06f20f1d28b652a",
+      "spotifyUrl": "https://open.spotify.com/artist/04x8WUfUIXvBy0I8UmvO9U"
     },
     {
       "id": "smallslive:33061",
@@ -37573,7 +37952,9 @@
       "start": "2026-07-30T18:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33066-arthur-kell-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b273399cc1a890672e3dbb2dd350",
+      "spotifyUrl": "https://open.spotify.com/artist/6HVswvAMDskMXGHEmWWp2U"
     },
     {
       "id": "cityparks:19780",
@@ -37597,7 +37978,9 @@
       "start": "2026-07-30T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33171-rudresh-mahanthappa-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6772690000c46c49d2419ea5e92f59af411844",
+      "spotifyUrl": "https://open.spotify.com/artist/3OaIGXcN9CnCX6etIGVf8G"
     },
     {
       "id": "cityparks:19779",
@@ -37633,7 +38016,9 @@
       "start": "2026-07-30T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33067-josh-lawrence-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb078fec99314958491bd90bc1",
+      "spotifyUrl": "https://open.spotify.com/artist/681wQa2SRYvrMxq3H9pqk5"
     },
     {
       "id": "smallslive:33172",
@@ -37645,7 +38030,9 @@
       "start": "2026-07-30T22:30:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33172-josh-evans-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1dc874f5984beb5280e8a122",
+      "spotifyUrl": "https://open.spotify.com/artist/2ZcECec1DtMzSuqnNjt2Cx"
     },
     {
       "id": "smallslive:33144",
@@ -37730,7 +38117,9 @@
       "start": "2026-07-31T19:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33116-steve-davis-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb080312bc0942c8208f42baf6",
+      "spotifyUrl": "https://open.spotify.com/artist/37SVnwHrnnfBR1Gb0Yq7GD"
     },
     {
       "id": "smallslive:33072",
@@ -37742,7 +38131,9 @@
       "start": "2026-07-31T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33072-william-hill-iii-trio/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6753726f39f4859873925a90",
+      "spotifyUrl": "https://open.spotify.com/artist/5gYgzu3Z6XZ3r3icCY6pMj"
     },
     {
       "id": "smallslive:33000",
@@ -37754,7 +38145,9 @@
       "start": "2026-07-31T21:00:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33000-jochen-rueckert-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcb381228b04a9d90c95bcf5f",
+      "spotifyUrl": "https://open.spotify.com/artist/1jLkxP1qLQVmZr5h1SfJiU"
     },
     {
       "id": "smallslive:33083",
@@ -37766,7 +38159,9 @@
       "start": "2026-07-31T23:55:00",
       "isFree": false,
       "url": "https://www.smallslive.com/events/33083-philip-harper-quartet/",
-      "source": "smallslive"
+      "source": "smallslive",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736201432d92d25b27c47b06c6",
+      "spotifyUrl": "https://open.spotify.com/artist/4bXqLZCCZmXTfTiLKIuYL6"
     },
     {
       "id": "nyc-open-data:893351:2026-08-01T08:00:00.000",
@@ -37937,7 +38332,9 @@
       "end": "2026-08-06T22:00:00",
       "isFree": true,
       "url": "https://cityparksfoundation.org/events/andrew-bird/",
-      "source": "cityparks"
+      "source": "cityparks",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8e222369fdfd1cda64bf76b6",
+      "spotifyUrl": "https://open.spotify.com/artist/4uSftVc3FPWe6RJuMZNEe9"
     },
     {
       "id": "cityparks:19979",
@@ -39402,6 +39799,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47096",
+      "title": "the ripple, the wave that carried me home",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46809",
       "title": "The Heart",
       "category": "theater",
@@ -39421,17 +39829,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/welcome-table",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:47096",
-      "title": "the ripple, the wave that carried me home",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-ripple-the-wave-that-carried-me-home",
       "source": "todaytix"
     },
     {
@@ -39457,17 +39854,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46987",
-      "title": "Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Classic Stage Company",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/come-back-to-the-5-and-dime-jimmy-dean-jimmy-dean",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:46921",
       "title": "Ms. Blakk for President",
       "category": "theater",
@@ -39476,6 +39862,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/ms-blakk-for-president",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46987",
+      "title": "Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/come-back-to-the-5-and-dime-jimmy-dean-jimmy-dean",
       "source": "todaytix"
     },
     {
@@ -39523,17 +39920,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47084",
-      "title": "Degenerates",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/degenerates",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47087",
       "title": "Feast of Rabbits",
       "category": "theater",
@@ -39556,6 +39942,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:47084",
+      "title": "Degenerates",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/degenerates",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47083",
       "title": "Hole!",
       "category": "theater",
@@ -39564,39 +39961,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/hole",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46797",
-      "title": "Eisa's Mixtape",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46615",
-      "title": "Wild Rose",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46309",
-      "title": "Imitation of Life",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Shed",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
       "source": "todaytix"
     },
     {
@@ -39611,6 +39975,39 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46309",
+      "title": "Imitation of Life",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Shed",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/imitation-of-life",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46615",
+      "title": "Wild Rose",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:46797",
+      "title": "Eisa's Mixtape",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:47085",
       "title": "The Annunciation",
       "category": "theater",
@@ -39622,17 +40019,6 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:47086",
-      "title": "Wold Meteor",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wold-meteor",
-      "source": "todaytix"
-    },
-    {
       "id": "todaytix:47097",
       "title": "Miss Step",
       "category": "theater",
@@ -39641,6 +40027,17 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/miss-step",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47086",
+      "title": "Wold Meteor",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wold-meteor",
       "source": "todaytix"
     },
     {
@@ -39666,6 +40063,17 @@
       "source": "todaytix"
     },
     {
+      "id": "todaytix:46993",
+      "title": "Wonder! A Woman Keeps a Secret",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "nullT19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
+      "source": "todaytix"
+    },
+    {
       "id": "todaytix:46895",
       "title": "Are the Bennet Girls Ok?",
       "category": "theater",
@@ -39674,17 +40082,6 @@
       "start": "nullT19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/are-the-bennet-girls-ok",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:46796",
-      "title": "Miles for Mary",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "nullT19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/miles-for-mary",
       "source": "todaytix"
     },
     {
@@ -39710,14 +40107,14 @@
       "source": "todaytix"
     },
     {
-      "id": "todaytix:46993",
-      "title": "Wonder! A Woman Keeps a Secret",
+      "id": "todaytix:46796",
+      "title": "Miles for Mary",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Classic Stage Company",
+      "venue": "Pershing Square Signature Center",
       "start": "nullT19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
+      "url": "https://www.todaytix.com/nyc/shows/miles-for-mary",
       "source": "todaytix"
     }
   ]

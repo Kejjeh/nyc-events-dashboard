@@ -556,6 +556,23 @@ body {
   color: var(--text);
   border-color: var(--accent);
 }
+.cal-btn--spotify {
+  color: #1db954;
+  border-color: rgba(29, 185, 84, 0.4);
+}
+.cal-btn--spotify:hover {
+  color: #1db954;
+  border-color: #1db954;
+}
+/* Artist image (Spotify) for matched music events. */
+.card__art {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-self: center;
+}
 
 /* ---------- Footer ---------- */
 .footer {

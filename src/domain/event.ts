@@ -32,6 +32,10 @@ export interface Event {
   url: string;
   /** Source adapter that produced this event, e.g. 'ticketmaster'. */
   source: string;
+  /** Artist image (Spotify) for matched music events. */
+  image?: string;
+  /** Spotify artist page for matched music events. */
+  spotifyUrl?: string;
 }
 
 /** Per-source health for the published payload, so silent drops stay visible. */

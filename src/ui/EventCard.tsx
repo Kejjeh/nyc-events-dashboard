@@ -60,8 +60,23 @@ export function EventCard({ event }: { event: Event }) {
           >
             iCal
           </a>
+          {event.spotifyUrl && (
+            <a
+              className="cal-btn cal-btn--spotify"
+              href={event.spotifyUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`Listen to ${event.title} on Spotify`}
+            >
+              ♫ Spotify
+            </a>
+          )}
         </div>
       </div>
+
+      {event.image && (
+        <img className="card__art" src={event.image} alt="" loading="lazy" aria-hidden="true" />
+      )}
     </article>
   );
 }

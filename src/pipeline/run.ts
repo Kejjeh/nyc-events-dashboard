@@ -5,6 +5,7 @@ import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import { summarizeSources } from './sourceSummary';
+import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
 import {
   fetchBpl,
   fetchCityParks,
@@ -86,11 +87,22 @@ async function main(): Promise<void> {
     return;
   }
 
+  // Enrich music events with a Spotify artist image/link (no-op without creds);
+  // seed from the previous file so recurring artists aren't re-searched.
+  const token = await getSpotifyToken(
+    process.env.SPOTIFY_CLIENT_ID,
+    process.env.SPOTIFY_CLIENT_SECRET,
+  );
+  const enriched = await enrichWithSpotify(events, token, previous);
+  if (token) {
+    console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
+  }
+
   const payload = {
     generatedAt: nowIso,
-    count: events.length,
-    sources: summarizeSources(events, succeededSources),
-    events,
+    count: enriched.length,
+    sources: summarizeSources(enriched, succeededSources),
+    events: enriched,
   };
 
   await mkdir(dirname(OUTPUT_PATH), { recursive: true });
