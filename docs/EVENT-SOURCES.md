@@ -119,3 +119,21 @@ zero-parse so carry-forward keeps last-good data). Register it in
 `src/pipeline/assemble.ts` and `src/pipeline/run.ts`. Borough comes from
 `boroughFromLatLng`, neighborhood from `neighborhoodFromLatLng` (both
 point-in-polygon over bundled NYC boundaries).
+
+## Neighborhood coverage (~78%)
+
+Neighborhood is resolved by point-in-polygon, so it needs lat/lng. Four sources
+ship without coordinates and therefore show borough only:
+
+| Source | No-nbhd events | Why it's hard |
+| --- | --- | --- |
+| BPL | ~210 | Branch coords aren't in the JSON:API term or the location page; geocoding branch *names* is wrong (GeoSearch maps "Greenpoint Library" → Downtown Brooklyn). |
+| TodayTix | ~145 | Catalog (`SHOW_SUMMARY`) has venue names but no address/coords. |
+| NYC Open Data | ~145 | `event_location` is free text ("Damrosch Park: Bandshell"); the dataset has no lat/lng. |
+| City Parks | ~125 | Venue rows without geo fall back to borough-from-name, so there's nothing to snap. |
+
+A wrong neighborhood is worse than none (it misplaces an event in the sub-filter),
+so we leave these blank rather than guess. The one accurate path that would lift
+coverage is a **curated BPL branch → NTA map** (the ~60 branches are a fixed set;
+many are named after their neighborhood). That's a bounded follow-up, not a
+quick geocode.

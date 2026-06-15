@@ -4,6 +4,7 @@ import { dirname } from 'node:path';
 import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
+import { summarizeSources } from './sourceSummary';
 import {
   fetchBpl,
   fetchCityParks,
@@ -88,6 +89,7 @@ async function main(): Promise<void> {
   const payload = {
     generatedAt: nowIso,
     count: events.length,
+    sources: summarizeSources(events, succeededSources),
     events,
   };
 

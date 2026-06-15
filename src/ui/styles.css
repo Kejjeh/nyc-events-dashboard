@@ -555,6 +555,31 @@ body {
   font-size: 0.82rem;
   text-align: center;
 }
+.footer__sources {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 14px;
+  margin: 0 0 10px;
+}
+.src {
+  white-space: nowrap;
+}
+.src__count {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.src--stale {
+  opacity: 0.7;
+}
+.src--stale .src__count {
+  color: #f59e0b;
+}
+.footer__note {
+  margin: 0;
+  opacity: 0.8;
+}
 
 @media (max-width: 560px) {
   .toolbar {

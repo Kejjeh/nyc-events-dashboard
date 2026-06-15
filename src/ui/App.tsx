@@ -5,6 +5,7 @@ import { useTheme } from './useTheme';
 import { filterEvents, sortEvents, type SortKey } from './filters';
 import type { DateWindow } from './dateWindow';
 import { parseFilters, serializeFilters } from './urlState';
+import { sourceLabel } from './format';
 import { EventCard } from './EventCard';
 
 /** Cards rendered per page — keeps initial paint fast on large result sets. */
@@ -315,9 +316,29 @@ export function App() {
       </main>
 
       <footer className="footer">
-        Data: NYC Parks · NYC Open Data · City Parks Foundation · GrowNYC Greenmarkets · Smorgasburg ·
-        TodayTix · DICE · SmallsLIVE · Village Vanguard · Brooklyn Public Library · Ticketmaster. Built
-        with a twice-daily GitHub Actions pipeline.
+        {state.status === 'ready' && state.payload.sources?.length ? (
+          <p className="footer__sources">
+            {state.payload.sources.map((s) => (
+              <span
+                key={s.source}
+                className={`src ${s.fresh ? '' : 'src--stale'}`}
+                title={
+                  s.fresh
+                    ? 'Refreshed this run'
+                    : 'Carried forward — this source was unavailable at the last refresh'
+                }
+              >
+                {sourceLabel(s.source)} <span className="src__count">{s.count.toLocaleString()}</span>
+                {!s.fresh && ' ⚠'}
+              </span>
+            ))}
+          </p>
+        ) : (
+          <p className="footer__sources">
+            Data from NYC Parks, NYC Open Data, and more.
+          </p>
+        )}
+        <p className="footer__note">Free NYC events, refreshed twice daily by a GitHub Actions pipeline.</p>
       </footer>
     </div>
   );

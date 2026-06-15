@@ -1,9 +1,17 @@
 import { useEffect, useState } from 'react';
 import type { Event } from '../domain/event';
 
+export interface SourceStatus {
+  source: string;
+  count: number;
+  fresh: boolean;
+}
+
 export interface EventsPayload {
   generatedAt: string;
   count: number;
+  /** Per-source health summary (absent in older published data). */
+  sources?: SourceStatus[];
   events: Event[];
 }
 
