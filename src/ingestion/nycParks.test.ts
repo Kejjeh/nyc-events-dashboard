@@ -24,6 +24,7 @@ describe('normalizeParksEvent', () => {
       title: 'Charlie Parker Jazz Festival',
       category: 'music',
       borough: 'Manhattan',
+      neighborhood: 'East Harlem (North)',
       venue: 'Marcus Garvey Park',
       start: '2026-08-23T15:00:00',
       end: '2026-08-23T19:00:00',

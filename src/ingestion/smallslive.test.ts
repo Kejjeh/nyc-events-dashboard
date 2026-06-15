@@ -19,6 +19,7 @@ describe('normalizeSmallsEvent', () => {
       title: 'Santi Debriano Bembe Arktet',
       category: 'music',
       borough: 'Manhattan',
+      neighborhood: 'West Village',
       venue: 'Smalls Jazz Club',
       start: '2026-06-13T18:00:00',
       end: '2026-06-13T19:30:00',

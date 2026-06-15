@@ -1,5 +1,6 @@
 import type { Borough, Category, Event } from '../domain/event';
 import { boroughFromLatLng } from './borough';
+import { neighborhoodFromLatLng } from './neighborhood';
 
 const BOROUGH_NAMES: Record<string, Borough> = {
   manhattan: 'Manhattan',
@@ -37,10 +38,11 @@ export function normalizeCityParksEvent(raw: any): Event | null {
   if (typeof raw.start_date !== 'string') return null; // malformed feed item
 
   const venue = raw.venue ?? {};
-  const borough =
-    boroughFromLatLng(parseFloat(venue.geo_lat), parseFloat(venue.geo_lng)) ??
-    boroughFromName(venue.city, venue.venue);
+  const lat = parseFloat(venue.geo_lat);
+  const lon = parseFloat(venue.geo_lng);
+  const borough = boroughFromLatLng(lat, lon) ?? boroughFromName(venue.city, venue.venue);
   if (!borough) return null;
+  const neighborhood = neighborhoodFromLatLng(lat, lon);
 
   const categories: string[] = (raw.categories ?? []).map((c: any) => c?.name ?? '');
   const category: Category = categories.some((name) => CONCERT_RE.test(name)) ? 'music' : 'other';
@@ -57,6 +59,7 @@ export function normalizeCityParksEvent(raw: any): Event | null {
     title: decodeEntities(raw.title),
     category,
     borough,
+    ...(neighborhood && { neighborhood }),
     venue: venue.venue,
     start: raw.start_date.replace(' ', 'T'),
     ...(typeof raw.end_date === 'string' && { end: raw.end_date.replace(' ', 'T') }),

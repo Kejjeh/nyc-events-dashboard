@@ -29,6 +29,7 @@ describe('normalizeDiceEvent', () => {
       title: 'SWer Open Mic Pride',
       category: 'comedy',
       borough: 'Brooklyn',
+      neighborhood: 'Bushwick (West)',
       venue: 'ALPHAVILLE',
       start: '2026-06-14T21:00:00',
       end: '2026-06-15T01:00:00',

@@ -21,6 +21,7 @@ describe('normalizeVillageVanguardEvent', () => {
       title: 'Renee Rosnes Quartet',
       category: 'music',
       borough: 'Manhattan',
+      neighborhood: 'West Village',
       venue: 'Village Vanguard',
       start: '2026-06-09T20:00:00',
       end: '2026-06-09T21:30:00',

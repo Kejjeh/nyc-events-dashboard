@@ -20,6 +20,7 @@ export function normalizeVillageVanguardEvent(raw: any): Event {
     title: titleCase(raw.title),
     category: 'music',
     borough: 'Manhattan',
+    neighborhood: 'West Village',
     venue: 'Village Vanguard',
     start: toLocalIso(raw.startAt),
     ...(raw.endAt && { end: toLocalIso(raw.endAt) }),

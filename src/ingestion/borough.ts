@@ -5,7 +5,7 @@ import boroughPolygons from './data/borough-polygons.json';
 const BOROUGH_RINGS = boroughPolygons as Record<Borough, number[][][]>;
 
 /** Ray-casting point-in-polygon test for a [lon, lat] point against one ring. */
-function pointInRing(lon: number, lat: number, ring: number[][]): boolean {
+export function pointInRing(lon: number, lat: number, ring: number[][]): boolean {
   let inside = false;
   for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
     const [xi, yi] = ring[i];

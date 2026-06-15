@@ -1,6 +1,7 @@
 import type { Event } from '../domain/event';
 import { utcToNycLocal, nycDateOf } from './datetime';
 import { boroughFromLatLng } from './borough';
+import { neighborhoodFromLatLng } from './neighborhood';
 
 /** Smorgasburg runs every weekend, April–October. */
 const SEASON_START_MONTH = 4; // April
@@ -12,11 +13,13 @@ const MARKETS = {
     weekday: 6, // Saturday
     title: 'Smorgasburg Williamsburg',
     venue: 'Marsha P. Johnson State Park (90 Kent Ave)',
+    neighborhood: 'Williamsburg',
   },
   prospect: {
     weekday: 0, // Sunday
     title: 'Smorgasburg Prospect Park',
     venue: 'Prospect Park (Breeze Hill)',
+    neighborhood: 'Prospect Park',
   },
 } as const;
 
@@ -64,6 +67,7 @@ function normalizeMarket(raw: MarketDescriptor): Event {
     title: market.title,
     category: 'food',
     borough: 'Brooklyn',
+    neighborhood: market.neighborhood,
     venue: market.venue,
     start: `${raw.date}T11:00:00`,
     end: `${raw.date}T18:00:00`,
@@ -86,11 +90,13 @@ function normalizeSpecial(raw: any): Event | null {
     return null;
   }
   const endMs = raw.endDate != null ? new Date(raw.endDate).getTime() : NaN;
+  const neighborhood = neighborhoodFromLatLng(loc.markerLat, loc.markerLng);
   return {
     id: `smorgasburg:event:${raw.fullUrl}`,
     title: raw.title,
     category: 'food',
     borough,
+    ...(neighborhood && { neighborhood }),
     venue: loc.addressTitle || loc.addressLine1 || 'Smorgasburg',
     start: utcToNycLocal(new Date(startMs).toISOString()),
     ...(Number.isFinite(endMs) && { end: utcToNycLocal(new Date(endMs).toISOString()) }),

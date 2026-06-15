@@ -1,6 +1,7 @@
-import type { Borough, Category, Event } from '../domain/event';
+import type { Category, Event } from '../domain/event';
 import { combineDateTime } from './datetime';
 import { boroughFromLatLng } from './borough';
+import { neighborhoodFromLatLng } from './neighborhood';
 
 /**
  * Parks category labels grouped into our taxonomy. An item carries several
@@ -54,22 +55,20 @@ function categoryForParks(categories: string): Category {
  * against the four target boroughs. Returns null for points outside them
  * (Staten Island, New Jersey, bad data).
  */
-function boroughFromCoordinates(coordinates: string): Borough | null {
-  const [lat, lon] = coordinates.split(',').map((n) => parseFloat(n.trim()));
-  return boroughFromLatLng(lat, lon);
-}
-
 export function normalizeParksEvent(raw: any): Event | null {
-  const borough = boroughFromCoordinates(raw.coordinates);
+  const [lat, lon] = (raw.coordinates ?? '').split(',').map((n: string) => parseFloat(n.trim()));
+  const borough = boroughFromLatLng(lat, lon);
   if (!borough) {
     return null;
   }
+  const neighborhood = neighborhoodFromLatLng(lat, lon);
 
   return {
     id: `nyc-parks:${raw.guid}`,
     title: raw.title,
     category: categoryForParks(raw.categories),
     borough,
+    ...(neighborhood && { neighborhood }),
     venue: raw.location,
     start: combineDateTime(raw.startdate, raw.starttime),
     end: combineDateTime(raw.enddate, raw.endtime),

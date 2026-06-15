@@ -19,6 +19,7 @@ describe('normalizeCityParksEvent', () => {
       title: 'SummerStage: Jazz at Marcus Garvey',
       category: 'music',
       borough: 'Manhattan',
+      neighborhood: 'East Harlem (North)',
       venue: 'Marcus Garvey Park',
       start: '2026-07-04T19:00:00',
       end: '2026-07-04T21:00:00',

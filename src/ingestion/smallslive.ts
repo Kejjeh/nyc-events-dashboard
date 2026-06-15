@@ -110,6 +110,7 @@ export function normalizeSmallsEvent(raw: any): Event {
     title: raw.title,
     category: 'music',
     borough: 'Manhattan',
+    neighborhood: 'West Village',
     venue: VENUE_NAMES[raw.venue] ?? raw.venue,
     start: combineDateTime(raw.date, raw.startTime),
     ...(raw.endTime && { end: combineDateTime(raw.date, raw.endTime) }),
