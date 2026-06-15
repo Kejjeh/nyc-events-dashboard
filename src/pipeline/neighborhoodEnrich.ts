@@ -27,12 +27,22 @@ function cacheKey(lat: number, lon: number): string {
   return `${lat.toFixed(4)},${lon.toFixed(4)}`;
 }
 
-/** Extract the Google Maps "neighborhood" component from a reverse-geocode result. */
+const BOROUGH_NAMES = new Set([
+  'Manhattan', 'Brooklyn', 'The Bronx', 'Queens', 'Staten Island', 'New York',
+]);
+
+/**
+ * Extract the best available neighborhood name from a reverse-geocode result.
+ * Tries component types in priority order; skips bare borough names.
+ */
 function extractNeighborhood(results: any[]): string | null {
-  for (const result of results ?? []) {
-    for (const component of result.address_components ?? []) {
-      if ((component.types ?? []).includes('neighborhood')) {
-        return component.long_name ?? null;
+  for (const typeKey of ['neighborhood', 'sublocality_level_2', 'sublocality_level_1']) {
+    for (const result of results ?? []) {
+      for (const component of result.address_components ?? []) {
+        if ((component.types ?? []).includes(typeKey)) {
+          const name: string | undefined = component.long_name;
+          if (name && !BOROUGH_NAMES.has(name)) return name;
+        }
       }
     }
   }
@@ -46,6 +56,9 @@ const reverseGeocode: ReverseFn = async (lat, lon, key) => {
     );
     if (!res.ok) return null;
     const body = (await res.json()) as any;
+    if (body?.status && body.status !== 'OK' && body.status !== 'ZERO_RESULTS') {
+      console.warn(`  neighborhoodEnrich: reverse-geocode status=${body.status} for ${lat},${lon}`);
+    }
     return extractNeighborhood(body?.results ?? []);
   } catch {
     return null;
