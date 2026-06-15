@@ -90,7 +90,7 @@ function normalizeSpecial(raw: any): Event | null {
     return null;
   }
   const endMs = raw.endDate != null ? new Date(raw.endDate).getTime() : NaN;
-  const neighborhood = neighborhoodFromLatLng(loc.markerLat, loc.markerLng);
+  const neighborhood = neighborhoodFromLatLng(loc.markerLat, loc.markerLng, borough);
   return {
     id: `smorgasburg:event:${raw.fullUrl}`,
     title: raw.title,

@@ -14,4 +14,11 @@ describe('neighborhoodFromLatLng', () => {
     expect(neighborhoodFromLatLng(40.5795, -74.1502)).toBeNull(); // Staten Island
     expect(neighborhoodFromLatLng(NaN, NaN)).toBeNull();
   });
+
+  it('constrains to in-borough NTAs when an expected borough is given', () => {
+    const [lat, lon] = [40.700486, -73.925855]; // Alphaville → Bushwick (West), Brooklyn
+    expect(neighborhoodFromLatLng(lat, lon, 'Brooklyn')).toBe('Bushwick (West)');
+    // The same point must not resolve to a neighborhood tagged to another borough.
+    expect(neighborhoodFromLatLng(lat, lon, 'Queens')).toBeNull();
+  });
 });

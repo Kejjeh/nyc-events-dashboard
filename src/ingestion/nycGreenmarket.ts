@@ -143,7 +143,7 @@ export function greenmarketDescriptors(
     const lon = parseFloat(row.longitude);
     const borough = boroughFromLatLng(lat, lon);
     if (!borough) continue;
-    const neighborhood = neighborhoodFromLatLng(lat, lon) ?? undefined;
+    const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
     const days = new Set(parseMarketDays(row.daysoperation ?? ''));
     if (days.size === 0) continue;
     const hours = parseMarketHours(row.hoursoperations ?? '');

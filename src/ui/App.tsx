@@ -38,14 +38,29 @@ export function App() {
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
 
-  // Selecting a borough reveals its neighborhoods; switching borough clears it.
-  useEffect(() => setNeighborhood('All'), [borough]);
+  // Switching borough must clear the neighborhood in the same render, or the
+  // stale neighborhood briefly filters the new borough to an empty set.
+  function selectBorough(next: Borough | 'All') {
+    setBorough(next);
+    setNeighborhood('All');
+  }
+
+  // Only offer neighborhood chips that survive the other active filters, so no
+  // chip leads to an empty result set. The current selection is always kept
+  // visible so it stays highlighted and can be toggled off.
   const neighborhoods = useMemo(() => {
     if (borough === 'All') return [];
+    const inScope = filterEvents(allEvents, {
+      borough,
+      category: category === 'All' ? undefined : category,
+      freeOnly,
+      search,
+    });
     const set = new Set<string>();
-    for (const e of allEvents) if (e.borough === borough && e.neighborhood) set.add(e.neighborhood);
+    for (const e of inScope) if (e.neighborhood) set.add(e.neighborhood);
+    if (neighborhood !== 'All') set.add(neighborhood);
     return [...set].sort();
-  }, [allEvents, borough]);
+  }, [allEvents, borough, category, freeOnly, search, neighborhood]);
 
   const visible = useMemo(
     () =>
@@ -104,10 +119,11 @@ export function App() {
         </div>
       </header>
 
-      <nav className="tabs">
+      <nav className="tabs" aria-label="Filter by borough">
         <button
           className={`tab ${borough === 'All' ? 'tab--active' : ''}`}
-          onClick={() => setBorough('All')}
+          aria-pressed={borough === 'All'}
+          onClick={() => selectBorough('All')}
         >
           All boroughs
         </button>
@@ -115,7 +131,8 @@ export function App() {
           <button
             key={b}
             className={`tab ${borough === b ? 'tab--active' : ''}`}
-            onClick={() => setBorough(b)}
+            aria-pressed={borough === b}
+            onClick={() => selectBorough(b)}
           >
             {b}
           </button>
@@ -123,9 +140,10 @@ export function App() {
       </nav>
 
       {borough !== 'All' && neighborhoods.length > 0 && (
-        <nav className="hoods">
+        <nav className="hoods" aria-label={`Filter by neighborhood in ${borough}`}>
           <button
             className={`hood ${neighborhood === 'All' ? 'hood--active' : ''}`}
+            aria-pressed={neighborhood === 'All'}
             onClick={() => setNeighborhood('All')}
           >
             All {borough}
@@ -134,6 +152,7 @@ export function App() {
             <button
               key={n}
               className={`hood ${neighborhood === n ? 'hood--active' : ''}`}
+              aria-pressed={neighborhood === n}
               onClick={() => setNeighborhood(n)}
             >
               {n}
@@ -151,9 +170,10 @@ export function App() {
           onChange={(e) => setSearch(e.target.value)}
         />
 
-        <div className="chips">
+        <div className="chips" role="group" aria-label="Filter by category">
           <button
             className={`chip-btn ${category === 'All' ? 'chip-btn--active' : ''}`}
+            aria-pressed={category === 'All'}
             onClick={() => setCategory('All')}
           >
             All
@@ -162,6 +182,7 @@ export function App() {
             <button
               key={c.key}
               className={`chip-btn ${category === c.key ? 'chip-btn--active' : ''}`}
+              aria-pressed={category === c.key}
               data-category={c.key}
               onClick={() => setCategory(c.key)}
             >
@@ -229,8 +250,9 @@ export function App() {
       </main>
 
       <footer className="footer">
-        Data: NYC Parks · NYC Open Data · SmallsLIVE · Village Vanguard · Ticketmaster. Built with a
-        twice-daily GitHub Actions pipeline.
+        Data: NYC Parks · NYC Open Data · City Parks Foundation · GrowNYC Greenmarkets · Smorgasburg ·
+        TodayTix · DICE · SmallsLIVE · Village Vanguard · Brooklyn Public Library · Ticketmaster. Built
+        with a twice-daily GitHub Actions pipeline.
       </footer>
     </div>
   );

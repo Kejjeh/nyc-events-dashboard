@@ -303,11 +303,13 @@ export async function fetchCityParks(nowIso: string): Promise<RawBatch> {
 
 /** Brooklyn Public Library events (Drupal JSON:API). */
 const BPL_URL = 'https://www.bklynlibrary.org/jsonapi/node/event';
+const BPL_MAX_PAGES = 8; // 50/page — enough headroom for the full upcoming window
 
 /**
- * Fetches upcoming in-person Brooklyn Public Library programs. The branch venue
- * lives in the field_location include, so it's resolved into a map and attached
- * to each event record for the normalizer.
+ * Fetches upcoming in-person Brooklyn Public Library programs, following
+ * JSON:API `links.next` so far-future programs aren't capped at one page. The
+ * branch venue lives in the field_location include, so each page's includes are
+ * merged into a name map and attached to every event record for the normalizer.
  */
 export async function fetchBpl(nowIso: string): Promise<RawBatch> {
   const params = new URLSearchParams({
@@ -318,21 +320,28 @@ export async function fetchBpl(nowIso: string): Promise<RawBatch> {
     'page[limit]': '50',
     include: 'field_location',
   });
-  const res = await fetchWithRetry(`${BPL_URL}?${params}`, {
-    headers: { 'User-Agent': BROWSER_UA, Accept: 'application/vnd.api+json' },
-  });
-  if (!res.ok) throw new Error(`BPL fetch failed: HTTP ${res.status}`);
-  const body = (await res.json()) as any;
 
   const branchById = new Map<string, string>();
-  for (const inc of body?.included ?? []) {
-    const name = inc?.attributes?.name ?? inc?.attributes?.title;
-    if (inc?.id && name) branchById.set(inc.id, name);
+  const records: any[] = [];
+  let next: string | null = `${BPL_URL}?${params}`;
+
+  for (let page = 0; next && page < BPL_MAX_PAGES; page++) {
+    const res = await fetchWithRetry(next, {
+      headers: { 'User-Agent': BROWSER_UA, Accept: 'application/vnd.api+json' },
+    });
+    if (!res.ok) throw new Error(`BPL fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+
+    for (const inc of body?.included ?? []) {
+      const name = inc?.attributes?.name ?? inc?.attributes?.title;
+      if (inc?.id && name) branchById.set(inc.id, name);
+    }
+    for (const node of body?.data ?? []) {
+      records.push({ ...node, _venue: branchById.get(node?.relationships?.field_location?.data?.id) });
+    }
+    next = typeof body?.links?.next?.href === 'string' ? body.links.next.href : null;
   }
-  const records = (body?.data ?? []).map((node: any) => ({
-    ...node,
-    _venue: branchById.get(node?.relationships?.field_location?.data?.id),
-  }));
+
   if (records.length === 0) throw new Error('BPL: zero events parsed');
   return { source: 'bpl', records };
 }

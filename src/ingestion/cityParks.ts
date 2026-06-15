@@ -42,7 +42,7 @@ export function normalizeCityParksEvent(raw: any): Event | null {
   const lon = parseFloat(venue.geo_lng);
   const borough = boroughFromLatLng(lat, lon) ?? boroughFromName(venue.city, venue.venue);
   if (!borough) return null;
-  const neighborhood = neighborhoodFromLatLng(lat, lon);
+  const neighborhood = neighborhoodFromLatLng(lat, lon, borough);
 
   const categories: string[] = (raw.categories ?? []).map((c: any) => c?.name ?? '');
   const category: Category = categories.some((name) => CONCERT_RE.test(name)) ? 'music' : 'other';

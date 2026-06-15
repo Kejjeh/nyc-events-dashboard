@@ -52,4 +52,72 @@ describe('normalizeBplEvent', () => {
     const event = normalizeBplEvent({ ...base, _venue: undefined });
     expect(event!.venue).toBe('Brooklyn Public Library');
   });
+
+  it('omits end when the record has no end_value', () => {
+    const event = normalizeBplEvent({
+      ...base,
+      attributes: { ...base.attributes, field_date: { value: '2026-06-14T13:00:00+00:00' } },
+    });
+    expect(event).not.toHaveProperty('end');
+    expect(event!.start).toBe('2026-06-14T13:00:00');
+  });
+
+  it('falls back to the bare domain when path.alias is missing', () => {
+    const event = normalizeBplEvent({
+      ...base,
+      attributes: { ...base.attributes, path: undefined },
+    });
+    expect(event!.url).toBe('https://www.bklynlibrary.org');
+  });
+
+  it('drops a record with no title', () => {
+    expect(
+      normalizeBplEvent({ ...base, attributes: { ...base.attributes, title: undefined } }),
+    ).toBeNull();
+  });
+
+  it('drops a record with no node id (avoids bpl:undefined id collisions)', () => {
+    expect(
+      normalizeBplEvent({
+        ...base,
+        attributes: { ...base.attributes, drupal_internal__nid: undefined },
+      }),
+    ).toBeNull();
+  });
+
+  const withTitle = (title: string) =>
+    normalizeBplEvent({ ...base, attributes: { ...base.attributes, title } });
+
+  it.each([
+    'Toddler Time',
+    'Windsor Terrace Storytime',
+    'Story Play',
+    'Babies & Books',
+    'English Conversation Group',
+    'Free English Class (We Speak NYC)',
+    'Homework Help',
+    'Citizenship Exam Prep',
+    'Ask a Tech',
+    'Neighborhood Tech Help',
+    'Computer Basics (New Utrecht)',
+    'Resume Help Office Hours',
+    'Free Notary Services',
+    'Immigrant Job Support (One-on-One) Sessions',
+    'ONE -ON- ONE TECHNOLOGY HELP',
+    'Technology Help',
+  ])('drops routine recurring programming: %s', (title) => {
+    expect(withTitle(title)).toBeNull();
+  });
+
+  it.each([
+    'World Cup 2026 Watch Party: France vs. Senegal',
+    'Yoga with Nicole and ShapeUp NYC',
+    'Classical Interludes: American Mavericks Project',
+    '$1 Book Sale, Vintage Gift Shop',
+    'Adult Coloring',
+    'Juneteenth Craft',
+    'Repair Cafe NYC',
+  ])('keeps discoverable one-off events: %s', (title) => {
+    expect(withTitle(title)).not.toBeNull();
+  });
 });

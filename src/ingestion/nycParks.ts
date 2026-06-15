@@ -61,7 +61,7 @@ export function normalizeParksEvent(raw: any): Event | null {
   if (!borough) {
     return null;
   }
-  const neighborhood = neighborhoodFromLatLng(lat, lon);
+  const neighborhood = neighborhoodFromLatLng(lat, lon, borough);
 
   return {
     id: `nyc-parks:${raw.guid}`,

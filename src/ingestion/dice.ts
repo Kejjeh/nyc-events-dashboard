@@ -36,7 +36,7 @@ export function normalizeDiceEvent(raw: any): Event | null {
   if (!borough) {
     return null;
   }
-  const neighborhood = neighborhoodFromLatLng(location.lat, location.lng);
+  const neighborhood = neighborhoodFromLatLng(location.lat, location.lng, borough);
 
   // Prices are in cents: single-price uses amount, multi-tier uses amount_from.
   const price = raw.price ?? {};
