@@ -458,6 +458,40 @@ export async function fetchNycOpenData(nowIso: string): Promise<RawBatch> {
   return { source: 'nyc-open-data', records };
 }
 
+/** SeatGeek v2 events API — geo-radius query centered on NYC. */
+const SEATGEEK_URL = 'https://api.seatgeek.com/2/events';
+const SEATGEEK_MAX_PAGES = 3;
+
+/**
+ * Fetches upcoming NYC events from SeatGeek using a 20-mile geo-radius query.
+ * Requires SEATGEEK_CLIENT_ID; returns an empty batch when the key is absent.
+ * The borough polygon check in the normalizer filters to NYC proper.
+ */
+export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBatch> {
+  if (!clientId) return { source: 'seatgeek', records: [] };
+
+  const records: any[] = [];
+  for (let page = 1; page <= SEATGEEK_MAX_PAGES; page++) {
+    const params = new URLSearchParams({
+      client_id: clientId,
+      lat: '40.7308',
+      lon: '-73.9973',
+      range: '20mi',
+      per_page: '200',
+      page: String(page),
+      sort: 'datetime_local.asc',
+    });
+    const res = await fetchWithRetry(`${SEATGEEK_URL}?${params}`);
+    if (!res.ok) throw new Error(`SeatGeek fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+    const events = body?.events ?? [];
+    records.push(...events);
+    const total = body?.meta?.total ?? records.length;
+    if (events.length === 0 || records.length >= total) break;
+  }
+  return { source: 'seatgeek', records };
+}
+
 /**
  * Fetches upcoming NYC events from Ticketmaster. Requires TICKETMASTER_API_KEY;
  * returns an empty batch when the key is absent so the pipeline still runs.

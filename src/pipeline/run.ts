@@ -13,6 +13,7 @@ import {
   fetchGreenmarket,
   fetchNycOpenData,
   fetchParks,
+  fetchSeatGeek,
   fetchSmalls,
   fetchSmorgasburg,
   fetchTicketmaster,
@@ -62,6 +63,7 @@ async function main(): Promise<void> {
       settle('cityparks', fetchCityParks(nowIso)),
       settle('bpl', fetchBpl(nowIso)),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
+      settle('seatgeek', fetchSeatGeek(process.env.SEATGEEK_CLIENT_ID)),
     ])
   ).filter((b): b is RawBatch => b !== null);
 

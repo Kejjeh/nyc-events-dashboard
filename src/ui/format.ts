@@ -44,6 +44,7 @@ const SOURCE_LABELS: Record<string, string> = {
   todaytix: 'TodayTix',
   cityparks: 'City Parks Foundation',
   bpl: 'Brooklyn Public Library',
+  seatgeek: 'SeatGeek',
 };
 
 export function sourceLabel(source: string): string {
