@@ -18,9 +18,9 @@ function ev(overrides: Partial<Event>): Event {
 }
 
 const events: Event[] = [
-  ev({ id: 'a', title: 'Jazz Night', borough: 'Brooklyn', category: 'music', isFree: true, venue: 'Smalls', start: '2026-07-03T20:00:00' }),
-  ev({ id: 'b', title: 'Food Fair', borough: 'Queens', category: 'food', isFree: true, venue: 'Flushing Meadows', start: '2026-07-01T11:00:00' }),
-  ev({ id: 'c', title: 'Knicks Game', borough: 'Manhattan', category: 'sports', isFree: false, priceMin: 50, venue: 'MSG', start: '2026-07-02T19:00:00' }),
+  ev({ id: 'a', title: 'Jazz Night', borough: 'Brooklyn', neighborhood: 'Williamsburg', category: 'music', isFree: true, venue: 'Smalls', start: '2026-07-03T20:00:00' }),
+  ev({ id: 'b', title: 'Food Fair', borough: 'Queens', neighborhood: 'Flushing', category: 'food', isFree: true, venue: 'Flushing Meadows', start: '2026-07-01T11:00:00' }),
+  ev({ id: 'c', title: 'Knicks Game', borough: 'Manhattan', neighborhood: 'Midtown', category: 'sports', isFree: false, priceMin: 50, venue: 'MSG', start: '2026-07-02T19:00:00' }),
 ];
 
 describe('filterEvents', () => {
@@ -34,6 +34,10 @@ describe('filterEvents', () => {
 
   it('filters by category', () => {
     expect(filterEvents(events, { category: 'food' }).map((e) => e.id)).toEqual(['b']);
+  });
+
+  it('filters by neighborhood', () => {
+    expect(filterEvents(events, { neighborhood: 'Williamsburg' }).map((e) => e.id)).toEqual(['a']);
   });
 
   it('filters to free events only', () => {

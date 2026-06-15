@@ -16,6 +16,8 @@ export interface Event {
   title: string;
   category: Category;
   borough: Borough;
+  /** Neighborhood within the borough, when resolvable (e.g. "Harlem", "Bushwick"). */
+  neighborhood?: string;
   venue: string;
   /** ISO 8601 start timestamp. */
   start: string;

@@ -165,6 +165,36 @@ body {
   border-color: var(--active-bg);
 }
 
+/* ---------- Neighborhood sub-filter ---------- */
+.hoods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px 4px;
+}
+.hood {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.hood:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+.hood--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 /* ---------- Toolbar ---------- */
 .toolbar {
   display: flex;

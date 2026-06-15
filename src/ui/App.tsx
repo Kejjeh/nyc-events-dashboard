@@ -30,6 +30,7 @@ export function App() {
   const { theme, toggle } = useTheme();
 
   const [borough, setBorough] = useState<Borough | 'All'>('All');
+  const [neighborhood, setNeighborhood] = useState<string>('All');
   const [category, setCategory] = useState<Category | 'All'>('All');
   const [freeOnly, setFreeOnly] = useState(false);
   const [search, setSearch] = useState('');
@@ -37,23 +38,36 @@ export function App() {
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
 
+  // Selecting a borough reveals its neighborhoods; switching borough clears it.
+  useEffect(() => setNeighborhood('All'), [borough]);
+  const neighborhoods = useMemo(() => {
+    if (borough === 'All') return [];
+    const set = new Set<string>();
+    for (const e of allEvents) if (e.borough === borough && e.neighborhood) set.add(e.neighborhood);
+    return [...set].sort();
+  }, [allEvents, borough]);
+
   const visible = useMemo(
     () =>
       sortEvents(
         filterEvents(allEvents, {
           borough: borough === 'All' ? undefined : borough,
+          neighborhood: neighborhood === 'All' ? undefined : neighborhood,
           category: category === 'All' ? undefined : category,
           freeOnly,
           search,
         }),
         sort,
       ),
-    [allEvents, borough, category, freeOnly, search, sort],
+    [allEvents, borough, neighborhood, category, freeOnly, search, sort],
   );
 
   // Render incrementally; reset to the first page whenever the result set changes.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  useEffect(() => setVisibleCount(PAGE_SIZE), [borough, category, freeOnly, search, sort]);
+  useEffect(
+    () => setVisibleCount(PAGE_SIZE),
+    [borough, neighborhood, category, freeOnly, search, sort],
+  );
 
   const shown = visible.slice(0, visibleCount);
 
@@ -107,6 +121,26 @@ export function App() {
           </button>
         ))}
       </nav>
+
+      {borough !== 'All' && neighborhoods.length > 0 && (
+        <nav className="hoods">
+          <button
+            className={`hood ${neighborhood === 'All' ? 'hood--active' : ''}`}
+            onClick={() => setNeighborhood('All')}
+          >
+            All {borough}
+          </button>
+          {neighborhoods.map((n) => (
+            <button
+              key={n}
+              className={`hood ${neighborhood === n ? 'hood--active' : ''}`}
+              onClick={() => setNeighborhood(n)}
+            >
+              {n}
+            </button>
+          ))}
+        </nav>
+      )}
 
       <div className="toolbar">
         <input

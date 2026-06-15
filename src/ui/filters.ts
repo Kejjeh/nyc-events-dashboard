@@ -2,6 +2,7 @@ import type { Borough, Category, Event } from '../domain/event';
 
 export interface FilterCriteria {
   borough?: Borough;
+  neighborhood?: string;
   category?: Category;
   freeOnly?: boolean;
   search?: string;
@@ -15,6 +16,7 @@ export function filterEvents(events: Event[], criteria: FilterCriteria): Event[]
 
   return events.filter((event) => {
     if (criteria.borough && event.borough !== criteria.borough) return false;
+    if (criteria.neighborhood && event.neighborhood !== criteria.neighborhood) return false;
     if (criteria.category && event.category !== criteria.category) return false;
     if (criteria.freeOnly && !event.isFree) return false;
     if (query) {

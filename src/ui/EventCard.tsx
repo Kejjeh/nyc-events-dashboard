@@ -29,7 +29,9 @@ export function EventCard({ event }: { event: Event }) {
       <div className="card__body">
         <div className="card__tags">
           <span className="chip chip--category">{CATEGORY_LABELS[event.category]}</span>
-          <span className="chip chip--borough">{event.borough}</span>
+          <span className="chip chip--borough">
+            {event.neighborhood ? `${event.borough} · ${event.neighborhood}` : event.borough}
+          </span>
         </div>
         <h3 className="card__title">{event.title}</h3>
         <p className="card__venue">{event.venue}</p>
