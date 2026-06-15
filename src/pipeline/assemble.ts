@@ -9,6 +9,7 @@ import { normalizeSmorgasburgEvent } from '../ingestion/smorgasburg';
 import { normalizeGreenmarketEvent } from '../ingestion/nycGreenmarket';
 import { normalizeTodayTixShow } from '../ingestion/todaytix';
 import { normalizeCityParksEvent } from '../ingestion/cityParks';
+import { normalizeBplEvent } from '../ingestion/bpl';
 
 export type SourceName =
   | 'ticketmaster'
@@ -20,7 +21,8 @@ export type SourceName =
   | 'smorgasburg'
   | 'nyc-greenmarket'
   | 'todaytix'
-  | 'cityparks';
+  | 'cityparks'
+  | 'bpl';
 
 export interface RawBatch {
   source: SourceName;
@@ -39,6 +41,7 @@ const NORMALIZERS: Record<SourceName, (raw: any) => Event | null> = {
   'nyc-greenmarket': normalizeGreenmarketEvent,
   todaytix: normalizeTodayTixShow,
   cityparks: normalizeCityParksEvent,
+  bpl: normalizeBplEvent,
 };
 
 /**
