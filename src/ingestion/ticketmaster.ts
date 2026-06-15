@@ -7,6 +7,7 @@ import { neighborhoodFromLatLng } from './neighborhood';
 function categoryFor(classification: any): Category {
   const segment = classification?.segment?.name;
   const genre = classification?.genre?.name;
+  if (segment === 'Family') return 'kids';
   if (segment === 'Sports') return 'sports';
   if (segment === 'Music') return 'music';
   if (segment === 'Film') return 'film';

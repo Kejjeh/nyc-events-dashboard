@@ -33,6 +33,7 @@ function decodeEntities(text: string): string {
 }
 
 const CONCERT_RE = /concert|music|summerstage|performance/i;
+const KIDS_RE = /kids|children|family|youth|junior|toddler|storytime|story time|puppet/i;
 
 export function normalizeCityParksEvent(raw: any): Event | null {
   if (typeof raw.start_date !== 'string') return null; // malformed feed item
@@ -45,7 +46,13 @@ export function normalizeCityParksEvent(raw: any): Event | null {
   const neighborhood = neighborhoodFromLatLng(lat, lon, borough);
 
   const categories: string[] = (raw.categories ?? []).map((c: any) => c?.name ?? '');
-  const category: Category = categories.some((name) => CONCERT_RE.test(name)) ? 'music' : 'other';
+  const title: string = decodeEntities(raw.title ?? '');
+  const searchable = [...categories, title].join(' ');
+  const category: Category = KIDS_RE.test(searchable)
+    ? 'kids'
+    : categories.some((name) => CONCERT_RE.test(name))
+      ? 'music'
+      : 'other';
 
   // "Free" only when the whole field is free/empty — not when "free" appears in a
   // note like "children under 12 free". Price is the lowest $-anchored amount.

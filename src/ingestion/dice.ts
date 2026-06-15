@@ -18,6 +18,8 @@ const DICE_TAG_CATEGORY: Record<string, Category> = {
   'culture:social': 'social',
   'culture:talks': 'social',
   'culture:wellbeing': 'social',
+  'culture:family': 'kids',
+  'culture:kids': 'kids',
   'music:gig': 'music',
   'music:dj': 'music',
   'music:party': 'music',

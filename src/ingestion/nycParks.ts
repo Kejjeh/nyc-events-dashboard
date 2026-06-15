@@ -12,6 +12,20 @@ const PARKS_CATEGORY_GROUPS: ReadonlyArray<readonly [Category, ReadonlySet<strin
   ['music', new Set(['Concerts', 'Free Summer Concerts'])],
   ['food', new Set(['Food', 'Markets'])],
   [
+    'kids',
+    new Set([
+      "Children's Events",
+      'Kids',
+      'Family',
+      'Youth Programs',
+      'After School',
+      'Junior',
+      'Teen Programs',
+      'Sports Camps',
+      'Summer Sports Experience',
+    ]),
+  ],
+  [
     'sports',
     new Set([
       'Sports',
@@ -33,8 +47,6 @@ const PARKS_CATEGORY_GROUPS: ReadonlyArray<readonly [Category, ReadonlySet<strin
       'Martial Arts',
       'Strength Training/Weightlifting',
       'Social Sports',
-      'Sports Camps',
-      'Summer Sports Experience',
     ]),
   ],
 ];

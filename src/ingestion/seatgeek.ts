@@ -12,6 +12,8 @@ const TYPE_CATEGORY: Partial<Record<string, Category>> = {
   ballet_opera_dance: 'theater',
   comedy: 'comedy',
   film: 'film',
+  family_fun_kids: 'kids',
+  family: 'kids',
 };
 
 export function normalizeSeatGeekEvent(raw: any): Event | null {

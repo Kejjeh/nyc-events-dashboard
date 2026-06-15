@@ -13,6 +13,7 @@ const CATEGORY_COLOR: Record<string, string> = {
   comedy: '#facc15',
   museum: '#818cf8',
   social: '#4ade80',
+  kids: '#f472b6',
   film: '#f43f5e',
   other: '#94a3b8',
 };

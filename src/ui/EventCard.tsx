@@ -30,6 +30,7 @@ const CATEGORY_LABELS: Record<Event['category'], string> = {
   sports: 'Sports',
   museum: 'Museum',
   social: 'Social',
+  kids: 'Kids',
   other: 'Other',
 };
 

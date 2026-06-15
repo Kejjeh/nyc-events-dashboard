@@ -27,6 +27,7 @@ const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'film', label: 'Film' },
   { key: 'food', label: 'Food' },
   { key: 'sports', label: 'Sports' },
+  { key: 'kids', label: 'Kids' },
   { key: 'museum', label: 'Museum' },
   { key: 'social', label: 'Social' },
   { key: 'other', label: 'Other' },
