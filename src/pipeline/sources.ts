@@ -492,6 +492,126 @@ export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBa
   return { source: 'seatgeek', records };
 }
 
+/** Eventbrite public events — geo-radius search around NYC. */
+const EVENTBRITE_URL = 'https://www.eventbriteapi.com/v3/events/search/';
+const EVENTBRITE_MAX_PAGES = 5;
+
+/**
+ * Fetches upcoming NYC events from Eventbrite using the geo-location search
+ * endpoint. Requires EVENTBRITE_API_KEY (private token / application key);
+ * returns an empty batch when the key is absent.
+ */
+export async function fetchEventbrite(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
+  if (!apiKey) return { source: 'eventbrite', records: [] };
+
+  const headers = {
+    'User-Agent': BROWSER_UA,
+    Authorization: `Bearer ${apiKey}`,
+    Accept: 'application/json',
+  };
+
+  const records: any[] = [];
+  for (let page = 1; page <= EVENTBRITE_MAX_PAGES; page++) {
+    const params = new URLSearchParams({
+      'location.latitude': '40.7308',
+      'location.longitude': '-73.9973',
+      'location.within': '25km',
+      expand: 'venue,ticket_availability',
+      sort_by: 'date',
+      'start_date.range_start': nowIso.slice(0, 10),
+      status: 'live',
+      page_size: '50',
+      page: String(page),
+    });
+    const res = await fetchWithRetry(`${EVENTBRITE_URL}?${params}`, { headers });
+    if (!res.ok) throw new Error(`Eventbrite fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+    const events = body?.events ?? [];
+    records.push(...events);
+    const pageCount = body?.pagination?.page_count ?? 1;
+    if (events.length === 0 || page >= pageCount) break;
+  }
+  return { source: 'eventbrite', records };
+}
+
+/** Resident Advisor GraphQL endpoint — NYC (area 43) club and concert listings. */
+const RA_GRAPHQL_URL = 'https://ra.co/graphql';
+const RA_NYC_AREA_ID = 43;
+const RA_MAX_PAGES = 3;
+const RA_PAGE_SIZE = 50;
+
+const RA_QUERY = `
+  query EventListings($filters: FilterInputDtoInput, $pageSize: Int, $page: Int) {
+    eventListings(
+      filters: $filters
+      pageSize: $pageSize
+      page: $page
+      sort: { name: "date", dir: "asc" }
+    ) {
+      data {
+        id
+        event {
+          id
+          title
+          startTime
+          endTime
+          contentUrl
+          venue {
+            id
+            name
+            address
+            lat
+            lng
+          }
+        }
+      }
+      totalResults
+    }
+  }
+`;
+
+/**
+ * Fetches upcoming NYC club/concert listings from Resident Advisor's unofficial
+ * GraphQL API. No API key required; the NYC area ID (43) is stable.
+ */
+export async function fetchResidentAdvisor(nowIso: string): Promise<RawBatch> {
+  const headers = {
+    'User-Agent': BROWSER_UA,
+    'Content-Type': 'application/json',
+    Referer: 'https://ra.co',
+  };
+
+  const startDate = nowIso.slice(0, 10);
+  const endDate = new Date(new Date(nowIso).getTime() + 30 * 24 * 60 * 60 * 1000)
+    .toISOString().slice(0, 10);
+
+  const records: any[] = [];
+  for (let page = 1; page <= RA_MAX_PAGES; page++) {
+    const res = await fetchWithRetry(RA_GRAPHQL_URL, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({
+        query: RA_QUERY,
+        variables: {
+          filters: {
+            areas: { eq: RA_NYC_AREA_ID },
+            listingDate: { gte: startDate, lte: endDate },
+          },
+          pageSize: RA_PAGE_SIZE,
+          page,
+        },
+      }),
+    });
+    if (!res.ok) throw new Error(`Resident Advisor fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+    const listings = body?.data?.eventListings?.data ?? [];
+    records.push(...listings);
+    const total = body?.data?.eventListings?.totalResults ?? 0;
+    if (listings.length === 0 || records.length >= total) break;
+  }
+  return { source: 'resident-advisor', records };
+}
+
 /**
  * Fetches upcoming NYC events from Ticketmaster. Requires TICKETMASTER_API_KEY;
  * returns an empty batch when the key is absent so the pipeline still runs.
