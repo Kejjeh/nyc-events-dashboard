@@ -9,6 +9,8 @@ export interface FilterState {
   sources: string[];
   category: Category | 'All';
   freeOnly: boolean;
+  /** Max price cap in USD; 0 means no cap. */
+  maxPrice: number;
   search: string;
   sort: SortKey;
   dateWindow: DateWindow;
@@ -20,6 +22,7 @@ export const DEFAULT_FILTERS: FilterState = {
   sources: [],
   category: 'All',
   freeOnly: false,
+  maxPrice: 0,
   search: '',
   sort: 'soonest',
   dateWindow: 'all',
@@ -56,6 +59,7 @@ export function serializeFilters(s: FilterState): string {
   if (s.sources.length > 0) p.set('src', s.sources.join(','));
   if (s.category !== 'All') p.set('c', s.category);
   if (s.freeOnly) p.set('free', '1');
+  if (s.maxPrice > 0) p.set('mp', String(s.maxPrice));
   if (s.search.trim()) p.set('q', s.search.trim());
   if (s.sort !== 'soonest') p.set('sort', s.sort);
   if (s.dateWindow !== 'all') p.set('when', s.dateWindow);
@@ -76,6 +80,8 @@ export function parseFilters(search: string): FilterState {
   if (q) out.search = q;
   const sort = p.get('sort');
   if (sort && SORTS.includes(sort)) out.sort = sort as SortKey;
+  const mp = Number(p.get('mp'));
+  if (mp > 0 && Number.isFinite(mp)) out.maxPrice = mp;
   const when = p.get('when');
   if (when && (NAMED_WINDOWS.includes(when) || isRealDate(when))) out.dateWindow = when;
 

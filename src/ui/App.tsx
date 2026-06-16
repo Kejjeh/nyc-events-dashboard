@@ -2,11 +2,14 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Borough, Category } from '../domain/event';
 import { useEvents } from './useEvents';
 import { useTheme } from './useTheme';
+import { useBookmarks } from './useBookmarks';
+import { useGeolocation } from './useGeolocation';
 import { filterEvents, sortEvents, type SortKey } from './filters';
 import type { DateWindow } from './dateWindow';
 import { parseFilters, serializeFilters } from './urlState';
 import { sourceLabel } from './format';
 import { EventCard } from './EventCard';
+import { EventModal } from './EventModal';
 import { MapView } from './MapView';
 
 /** Cards rendered per page — keeps initial paint fast on large result sets. */
@@ -36,11 +39,20 @@ const SORTS: { key: SortKey; label: string }[] = [
   { key: 'soonest', label: 'Soonest' },
   { key: 'borough', label: 'Borough' },
   { key: 'category', label: 'Category' },
+  { key: 'nearest', label: 'Nearest' },
+];
+const PRICE_CAPS = [
+  { label: 'Any price', value: 0 },
+  { label: 'Under $25', value: 25 },
+  { label: 'Under $50', value: 50 },
+  { label: 'Under $100', value: 100 },
 ];
 
 export function App() {
   const state = useEvents();
   const { theme, toggle } = useTheme();
+  const { saved, toggle: toggleSave } = useBookmarks();
+  const { geo, request: requestGeo } = useGeolocation();
 
   // Today's date in NYC, used to evaluate the date-window filter.
   const today = useMemo(
@@ -55,6 +67,7 @@ export function App() {
   const [sources, setSources] = useState<string[]>(init.sources);
   const [category, setCategory] = useState<Category | 'All'>(init.category);
   const [freeOnly, setFreeOnly] = useState(init.freeOnly);
+  const [maxPrice, setMaxPrice] = useState(init.maxPrice);
   const [search, setSearch] = useState(init.search);
   const [sort, setSort] = useState<SortKey>(init.sort);
   // A shared link can carry a picked date that has since passed — fall back to
@@ -62,17 +75,30 @@ export function App() {
   const [dateWindow, setDateWindow] = useState<DateWindow>(
     PICKED_DATE_RE.test(init.dateWindow) && init.dateWindow < today ? 'all' : init.dateWindow,
   );
+  const [savedOnly, setSavedOnly] = useState(false);
   const [copied, setCopied] = useState(false);
   const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
+  // Selected event id drives the detail modal; also synced into ?event= URL param.
+  const [selectedEventId, setSelectedEventId] = useState<string | null>(
+    () => new URLSearchParams(window.location.search).get('event'),
+  );
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
 
+  // Auto-request geolocation when the "Nearest" sort is active.
+  useEffect(() => {
+    if (sort === 'nearest' && geo.status === 'idle') requestGeo();
+  }, [sort, geo.status, requestGeo]);
+
   // Keep the URL in sync with the filters so the current view is shareable.
   useEffect(() => {
-    const qs = serializeFilters({ borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow });
-    const url = `${window.location.pathname}${qs ? `?${qs}` : ''}`;
+    const qs = serializeFilters({ borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow });
+    const p = qs ? new URLSearchParams(qs) : new URLSearchParams();
+    if (selectedEventId) p.set('event', selectedEventId);
+    const str = p.toString();
+    const url = `${window.location.pathname}${str ? `?${str}` : ''}`;
     window.history.replaceState(null, '', url);
-  }, [borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow]);
+  }, [borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId]);
 
   // Copy the current (filtered) view's URL so it can be shared with a friend.
   function copyLink() {
@@ -112,29 +138,35 @@ export function App() {
     return [...set].sort();
   }, [allEvents, borough, category, freeOnly, search, dateWindow, today, neighborhoods, sources]);
 
-  const visible = useMemo(
-    () =>
-      sortEvents(
-        filterEvents(allEvents, {
-          borough: borough === 'All' ? undefined : borough,
-          neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
-          sources: sources.length > 0 ? sources : undefined,
-          category: category === 'All' ? undefined : category,
-          freeOnly,
-          search,
-          dateWindow,
-          today,
-        }),
-        sort,
-      ),
-    [allEvents, borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow, today],
-  );
+  const userCoords = geo.status === 'ok' ? { lat: geo.lat, lon: geo.lon } : undefined;
+
+  const visible = useMemo(() => {
+    let results = filterEvents(allEvents, {
+      borough: borough === 'All' ? undefined : borough,
+      neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
+      sources: sources.length > 0 ? sources : undefined,
+      category: category === 'All' ? undefined : category,
+      freeOnly,
+      maxPrice: maxPrice > 0 ? maxPrice : undefined,
+      search,
+      dateWindow,
+      today,
+    });
+    if (savedOnly) results = results.filter((e) => saved.has(e.id));
+    return sortEvents(results, sort, userCoords);
+  }, [allEvents, borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow, today, savedOnly, saved, userCoords]);
 
   // Render incrementally; reset to the first page whenever the result set changes.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   useEffect(
     () => setVisibleCount(PAGE_SIZE),
-    [borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow],
+    [borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow, savedOnly],
+  );
+
+  // Resolve the selected event from the loaded data (null while loading or not found).
+  const selectedEvent = useMemo(
+    () => (selectedEventId ? (allEvents.find((e) => e.id === selectedEventId) ?? null) : null),
+    [selectedEventId, allEvents],
   );
 
   const shown = visible.slice(0, visibleCount);
@@ -300,6 +332,19 @@ export function App() {
           </div>
         )}
 
+        <div className="chips" role="group" aria-label="Filter by price">
+          {PRICE_CAPS.map((p) => (
+            <button
+              key={p.value}
+              className={`chip-btn ${maxPrice === p.value ? 'chip-btn--active' : ''}`}
+              aria-pressed={maxPrice === p.value}
+              onClick={() => setMaxPrice(p.value)}
+            >
+              {p.label}
+            </button>
+          ))}
+        </div>
+
         <label className="toggle">
           <input
             type="checkbox"
@@ -309,12 +354,31 @@ export function App() {
           Free only
         </label>
 
+        <button
+          className={`chip-btn ${savedOnly ? 'chip-btn--active chip-btn--heart' : 'chip-btn--heart'}`}
+          aria-pressed={savedOnly}
+          onClick={() => setSavedOnly((v) => !v)}
+        >
+          {savedOnly ? '♥' : '♡'} Saved{saved.size > 0 ? ` (${saved.size})` : ''}
+        </button>
+
         <label className="sort">
           Sort
-          <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
+          <select
+            value={sort}
+            onChange={(e) => {
+              const next = e.target.value as SortKey;
+              if (next === 'nearest' && geo.status === 'idle') requestGeo();
+              setSort(next);
+            }}
+          >
             {SORTS.map((s) => (
               <option key={s.key} value={s.key}>
-                {s.label}
+                {s.key === 'nearest' && geo.status === 'pending'
+                  ? 'Locating…'
+                  : s.key === 'nearest' && geo.status === 'denied'
+                    ? 'Nearest (denied)'
+                    : s.label}
               </option>
             ))}
           </select>
@@ -359,7 +423,13 @@ export function App() {
               <>
                 <div className="grid">
                   {shown.map((event) => (
-                    <EventCard key={event.id} event={event} />
+                    <EventCard
+                      key={event.id}
+                      event={event}
+                      saved={saved.has(event.id)}
+                      onToggleSave={() => toggleSave(event.id)}
+                      onExpand={() => setSelectedEventId(event.id)}
+                    />
                   ))}
                 </div>
                 {visibleCount < visible.length && (
@@ -403,6 +473,15 @@ export function App() {
         )}
         <p className="footer__note">Free NYC events, refreshed twice daily by a GitHub Actions pipeline.</p>
       </footer>
+
+      {selectedEvent && (
+        <EventModal
+          event={selectedEvent}
+          saved={saved.has(selectedEvent.id)}
+          onClose={() => setSelectedEventId(null)}
+          onToggleSave={() => toggleSave(selectedEvent.id)}
+        />
+      )}
     </div>
   );
 }

@@ -54,6 +54,17 @@ describe('filterEvents', () => {
     expect(filterEvents(mixed, { sources: ['ticketmaster', 'dice'] }).map((e) => e.id)).toEqual(['a', 'c']);
   });
 
+  it('filters by maxPrice, passing free events and events with no price', () => {
+    const priced = [
+      ev({ id: 'free', isFree: true }),
+      ev({ id: 'cheap', isFree: false, priceMin: 20 }),
+      ev({ id: 'mid', isFree: false, priceMin: 60 }),
+      ev({ id: 'unknown', isFree: false }), // no priceMin — passes through
+    ];
+    expect(filterEvents(priced, { maxPrice: 50 }).map((e) => e.id)).toEqual(['free', 'cheap', 'unknown']);
+    expect(filterEvents(priced, { maxPrice: 0 }).map((e) => e.id)).toEqual(['free', 'cheap', 'mid', 'unknown']);
+  });
+
   it('filters to free events only', () => {
     expect(filterEvents(events, { freeOnly: true }).map((e) => e.id)).toEqual(['a', 'b']);
   });

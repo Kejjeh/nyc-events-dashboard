@@ -13,6 +13,7 @@ describe('urlState', () => {
       sources: ['ticketmaster', 'dice'],
       category: 'music',
       freeOnly: true,
+      maxPrice: 50,
       search: 'jazz quartet',
       sort: 'borough',
       dateWindow: 'weekend',

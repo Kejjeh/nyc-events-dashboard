@@ -687,6 +687,193 @@ body {
   color: var(--text-dim);
   text-align: right;
 }
+/* ---------- Card action buttons (bookmark + expand) ---------- */
+.card__actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: flex;
+  gap: 4px;
+}
+.card__save,
+.card__expand {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+}
+.card:hover .card__save,
+.card:hover .card__expand {
+  opacity: 1;
+}
+.card__save--saved {
+  opacity: 1 !important;
+  color: #ff6b9d;
+  border-color: rgba(255, 107, 157, 0.5);
+}
+.card__expand:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+/* Saved heart chip in toolbar */
+.chip-btn--heart {
+  font-size: 0.9rem;
+}
+
+/* ---------- Modal ---------- */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  backdrop-filter: blur(4px);
+}
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  max-width: 520px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+}
+.modal__close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, border-color 0.15s;
+}
+.modal__close:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+.modal__art {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 17px 17px 0 0;
+  display: block;
+}
+.modal__body {
+  padding: 20px 24px 28px;
+}
+.modal__tags {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.modal__title {
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.modal__venue {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+.modal__when {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 12px 0 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+.modal__price-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.modal__source {
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+.modal__weather {
+  margin-top: 10px;
+  font-size: 0.82rem;
+}
+.modal__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+.modal-btn {
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: border-color 0.15s, background 0.15s;
+}
+.modal-btn:hover {
+  border-color: var(--accent);
+}
+.modal-btn--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.modal-btn--primary:hover {
+  filter: brightness(1.1);
+  border-color: var(--accent);
+}
+.modal-btn--saved {
+  color: #ff6b9d;
+  border-color: rgba(255, 107, 157, 0.5);
+}
+.modal__cal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
 /* MapLibre popup theme */
 .maplibregl-popup-content {
   background: var(--surface);

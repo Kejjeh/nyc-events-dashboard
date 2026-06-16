@@ -1,4 +1,4 @@
-﻿import type { Event } from '../domain/event';
+import type { Event } from '../domain/event';
 import { formatDay, formatPrice, formatTime, sourceLabel } from './format';
 import { googleCalendarUrl, icsHref } from './calendar';
 
@@ -14,7 +14,7 @@ function formatForecastTime(dt: number): string {
   const now = new Date();
   const timeStr = d
     .toLocaleTimeString('en-US', { timeZone: TZ, hour: 'numeric', minute: '2-digit', hour12: true })
-    .replace(':00', ''); // "7:00 PM" → "7 PM", "7:30 PM" stays
+    .replace(':00', '');
   if (sameDay(d, now)) return timeStr;
   if (sameDay(d, new Date(now.getTime() + 86_400_000))) return `tomorrow, ${timeStr}`;
   const weekday = d.toLocaleDateString('en-US', { timeZone: TZ, weekday: 'short' });
@@ -34,10 +34,41 @@ const CATEGORY_LABELS: Record<Event['category'], string> = {
   other: 'Other',
 };
 
-export function EventCard({ event }: { event: Event }) {
+export function EventCard({
+  event,
+  saved,
+  onToggleSave,
+  onExpand,
+}: {
+  event: Event;
+  saved: boolean;
+  onToggleSave: () => void;
+  onExpand: () => void;
+}) {
   const icsName = `${event.id.replace(/[^a-z0-9]+/gi, '-')}.ics`;
   return (
     <article className="card" data-category={event.category}>
+      {/* Bookmark + expand buttons — z-index above the stretched link */}
+      <div className="card__actions">
+        <button
+          className={`card__save ${saved ? 'card__save--saved' : ''}`}
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); onToggleSave(); }}
+          aria-label={saved ? `Remove ${event.title} from saved` : `Save ${event.title}`}
+          aria-pressed={saved}
+          title={saved ? 'Remove from saved' : 'Save event'}
+        >
+          {saved ? '♥' : '♡'}
+        </button>
+        <button
+          className="card__expand"
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); onExpand(); }}
+          aria-label={`View details for ${event.title}`}
+          title="View details"
+        >
+          ⋯
+        </button>
+      </div>
+
       <div className="card__date">
         <span className="card__day">{formatDay(event.start)}</span>
         <span className="card__time">{formatTime(event.start)}</span>
@@ -51,7 +82,6 @@ export function EventCard({ event }: { event: Event }) {
           </span>
         </div>
         <h3 className="card__title">
-          {/* Stretched link: makes the whole card open the event page. */}
           <a className="card__link" href={event.url} target="_blank" rel="noreferrer">
             {event.title}
           </a>

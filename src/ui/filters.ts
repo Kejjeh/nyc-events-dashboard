@@ -9,6 +9,8 @@ export interface FilterCriteria {
   sources?: string[];
   category?: Category;
   freeOnly?: boolean;
+  /** If > 0, hide paid events whose priceMin exceeds this; free events always pass. */
+  maxPrice?: number;
   search?: string;
   /** A date window ('today' | 'weekend' | 'week' | 'YYYY-MM-DD'); needs `today`. */
   dateWindow?: DateWindow;
@@ -16,7 +18,7 @@ export interface FilterCriteria {
   today?: string;
 }
 
-export type SortKey = 'soonest' | 'borough' | 'category';
+export type SortKey = 'soonest' | 'borough' | 'category' | 'nearest';
 
 /** Filters events by borough, category, free-only, date window, and a title/venue search. */
 export function filterEvents(events: Event[], criteria: FilterCriteria): Event[] {
@@ -28,6 +30,9 @@ export function filterEvents(events: Event[], criteria: FilterCriteria): Event[]
     if (criteria.neighborhoods?.length && !criteria.neighborhoods.includes(event.neighborhood ?? '')) return false;
     if (criteria.sources?.length && !criteria.sources.includes(event.source)) return false;
     if (criteria.category && event.category !== criteria.category) return false;
+    if (criteria.maxPrice && criteria.maxPrice > 0) {
+      if (!event.isFree && event.priceMin != null && event.priceMin > criteria.maxPrice) return false;
+    }
     if (criteria.freeOnly && !event.isFree) return false;
     if (applyDate && !isInDateWindow(event.start, criteria.dateWindow!, criteria.today!)) {
       return false;
@@ -40,10 +45,40 @@ export function filterEvents(events: Event[], criteria: FilterCriteria): Event[]
   });
 }
 
+function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
 /** Returns a new array of events sorted by the given key (never mutates input). */
-export function sortEvents(events: Event[], key: SortKey): Event[] {
+export function sortEvents(
+  events: Event[],
+  key: SortKey,
+  userCoords?: { lat: number; lon: number },
+): Event[] {
   const sorted = [...events];
   switch (key) {
+    case 'nearest': {
+      if (!userCoords) return sorted.sort((a, b) => a.start.localeCompare(b.start));
+      return sorted.sort((a, b) => {
+        const da =
+          a.lat != null && a.lon != null
+            ? haversineKm(userCoords.lat, userCoords.lon, a.lat, a.lon)
+            : Infinity;
+        const db =
+          b.lat != null && b.lon != null
+            ? haversineKm(userCoords.lat, userCoords.lon, b.lat, b.lon)
+            : Infinity;
+        return da - db;
+      });
+    }
     case 'soonest':
       return sorted.sort((a, b) => a.start.localeCompare(b.start));
     case 'borough':
