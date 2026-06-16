@@ -1,4 +1,4 @@
-import type { Event } from '../domain/event';
+﻿import type { Event } from '../domain/event';
 import { formatDay, formatPrice, formatTime, sourceLabel } from './format';
 import { googleCalendarUrl, icsHref } from './calendar';
 
@@ -94,6 +94,17 @@ export function EventCard({ event }: { event: Event }) {
           >
             iCal
           </a>
+          {event.lat != null && event.lon != null && (
+            <a
+              className="cal-btn"
+              href={`https://www.google.com/maps/dir/?api=1&destination=${event.lat},${event.lon}`}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`Get directions to ${event.venue}`}
+            >
+              Directions
+            </a>
+          )}
           {event.spotifyUrl && (
             <a
               className="cal-btn cal-btn--spotify"
