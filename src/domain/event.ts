@@ -43,6 +43,8 @@ export interface Event {
   lon?: number;
   /** Near-term weather forecast for outdoor events within the 5-day window. */
   weather?: { icon: string; temp: number; description: string; dt?: number };
+  /** Other ticketing sources carrying the same show (added by cross-source dedup). */
+  altTicketLinks?: { source: string; url: string }[];
 }
 
 /** Per-source health for the published payload, so silent drops stay visible. */

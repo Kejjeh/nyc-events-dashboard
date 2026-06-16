@@ -11,7 +11,7 @@ describe('urlState', () => {
       borough: 'Brooklyn',
       neighborhoods: ['Williamsburg', 'Bushwick'],
       sources: ['ticketmaster', 'dice'],
-      category: 'music',
+      categories: ['music'],
       freeOnly: true,
       maxPrice: 50,
       search: 'jazz quartet',

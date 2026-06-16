@@ -33,7 +33,11 @@ describe('filterEvents', () => {
   });
 
   it('filters by category', () => {
-    expect(filterEvents(events, { category: 'food' }).map((e) => e.id)).toEqual(['b']);
+    expect(filterEvents(events, { categories: ['food'] }).map((e) => e.id)).toEqual(['b']);
+  });
+
+  it('filters by multiple categories', () => {
+    expect(filterEvents(events, { categories: ['food', 'music'] }).map((e) => e.id)).toEqual(['a', 'b']);
   });
 
   it('filters by neighborhood', () => {
@@ -76,7 +80,7 @@ describe('filterEvents', () => {
 
   it('combines criteria', () => {
     expect(filterEvents(events, { borough: 'Queens', freeOnly: true }).map((e) => e.id)).toEqual(['b']);
-    expect(filterEvents(events, { category: 'music', borough: 'Manhattan' })).toEqual([]);
+    expect(filterEvents(events, { categories: ['music'], borough: 'Manhattan' })).toEqual([]);
   });
 });
 

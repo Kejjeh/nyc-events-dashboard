@@ -134,6 +134,15 @@ export function EventModal({
               {linkCopied ? '✓ Copied' : '🔗 Share'}
             </button>
           </div>
+          {event.altTicketLinks && event.altTicketLinks.length > 0 && (
+            <div className="modal__alt-links">
+              {event.altTicketLinks.map((link) => (
+                <a key={link.source} className="modal-btn" href={link.url} target="_blank" rel="noreferrer">
+                  Also on {sourceLabel(link.source)} ↗
+                </a>
+              ))}
+            </div>
+          )}
 
           <div className="modal__cal">
             <span className="card__cal-label">Add to calendar</span>

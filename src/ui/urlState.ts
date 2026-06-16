@@ -7,7 +7,7 @@ export interface FilterState {
   borough: Borough | 'All';
   neighborhoods: string[];
   sources: string[];
-  category: Category | 'All';
+  categories: Category[];
   freeOnly: boolean;
   /** Max price cap in USD; 0 means no cap. */
   maxPrice: number;
@@ -20,7 +20,7 @@ export const DEFAULT_FILTERS: FilterState = {
   borough: 'All',
   neighborhoods: [],
   sources: [],
-  category: 'All',
+  categories: [],
   freeOnly: false,
   maxPrice: 0,
   search: '',
@@ -30,15 +30,8 @@ export const DEFAULT_FILTERS: FilterState = {
 
 const BOROUGHS: readonly string[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const CATEGORIES: readonly string[] = [
-  'music',
-  'comedy',
-  'theater',
-  'film',
-  'food',
-  'sports',
-  'museum',
-  'social',
-  'other',
+  'music', 'comedy', 'theater', 'film', 'food',
+  'sports', 'kids', 'museum', 'social', 'other',
 ];
 const SORTS: readonly string[] = ['soonest', 'borough', 'category'];
 const NAMED_WINDOWS: readonly string[] = ['all', 'today', 'weekend', 'week'];
@@ -57,7 +50,7 @@ export function serializeFilters(s: FilterState): string {
   if (s.borough !== 'All') p.set('b', s.borough);
   if (s.borough !== 'All' && s.neighborhoods.length > 0) p.set('n', s.neighborhoods.join(','));
   if (s.sources.length > 0) p.set('src', s.sources.join(','));
-  if (s.category !== 'All') p.set('c', s.category);
+  if (s.categories.length > 0) p.set('c', s.categories.join(','));
   if (s.freeOnly) p.set('free', '1');
   if (s.maxPrice > 0) p.set('mp', String(s.maxPrice));
   if (s.search.trim()) p.set('q', s.search.trim());
@@ -74,7 +67,10 @@ export function parseFilters(search: string): FilterState {
   const b = p.get('b');
   if (b && BOROUGHS.includes(b)) out.borough = b as Borough;
   const c = p.get('c');
-  if (c && CATEGORIES.includes(c)) out.category = c as Category;
+  if (c) {
+    const vals = c.split(',').filter((v) => CATEGORIES.includes(v)) as Category[];
+    if (vals.length > 0) out.categories = vals;
+  }
   if (p.get('free') === '1') out.freeOnly = true;
   const q = p.get('q');
   if (q) out.search = q;

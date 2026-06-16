@@ -4,6 +4,7 @@ import { dirname } from 'node:path';
 import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
+import { deduplicateEvents } from './dedup';
 import { summarizeSources } from './sourceSummary';
 import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
 import { enrichWithWeather } from './weatherEnrich';
@@ -80,14 +81,19 @@ async function main(): Promise<void> {
   // Carry forward last-good events for any source that failed this run, so a
   // single source's flakiness doesn't make its events blink out of the dashboard.
   const previous = await readPreviousEvents();
-  const events = carryForwardEvents(fresh, previous, succeededSources, nowIso);
+  const withCarry = carryForwardEvents(fresh, previous, succeededSources, nowIso);
 
-  const carried = events.length - fresh.length;
+  const carried = withCarry.length - fresh.length;
   if (carried > 0) {
     const succeeded = new Set<string>(succeededSources);
     const downSources = [...new Set(previous.map((e) => e.source))].filter((s) => !succeeded.has(s));
     console.warn(`Carried forward ${carried} events from down source(s): ${downSources.join(', ')}`);
   }
+
+  // Collapse cross-source duplicates (same show on Ticketmaster + SeatGeek, etc.)
+  const events = deduplicateEvents(withCarry);
+  const dedupRemoved = withCarry.length - events.length;
+  if (dedupRemoved > 0) console.log(`  dedup: collapsed ${dedupRemoved} cross-source duplicates`);
 
   // Never replace a good dataset with nothing: if every source failed and there
   // was nothing to carry forward, keep the existing file rather than blanking it.

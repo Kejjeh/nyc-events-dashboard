@@ -7,7 +7,8 @@ export interface FilterCriteria {
   neighborhoods?: string[];
   /** One or more source IDs to include; absent/empty = no filter. */
   sources?: string[];
-  category?: Category;
+  /** One or more categories to include; absent/empty = no filter. */
+  categories?: Category[];
   freeOnly?: boolean;
   /** If > 0, hide paid events whose priceMin exceeds this; free events always pass. */
   maxPrice?: number;
@@ -29,7 +30,7 @@ export function filterEvents(events: Event[], criteria: FilterCriteria): Event[]
     if (criteria.borough && event.borough !== criteria.borough) return false;
     if (criteria.neighborhoods?.length && !criteria.neighborhoods.includes(event.neighborhood ?? '')) return false;
     if (criteria.sources?.length && !criteria.sources.includes(event.source)) return false;
-    if (criteria.category && event.category !== criteria.category) return false;
+    if (criteria.categories?.length && !criteria.categories.includes(event.category)) return false;
     if (criteria.maxPrice && criteria.maxPrice > 0) {
       if (!event.isFree && event.priceMin != null && event.priceMin > criteria.maxPrice) return false;
     }

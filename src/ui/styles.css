@@ -215,17 +215,22 @@ body {
 
 /* ---------- Toolbar ---------- */
 .toolbar {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 4px 24px 12px;
+}
+.toolbar__top {
+  margin-bottom: 10px;
+}
+.toolbar__filters {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
-  max-width: var(--maxw);
-  margin: 0 auto;
-  padding: 4px 24px 20px;
+  gap: 8px;
 }
 .search {
-  flex: 1 1 240px;
-  min-width: 200px;
+  width: 100%;
+  max-width: 480px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -610,10 +615,193 @@ body {
   opacity: 0.8;
 }
 
-@media (max-width: 560px) {
-  .toolbar {
+/* ---------- Filter Dropdown ---------- */
+.fdd {
+  position: relative;
+}
+.fdd__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 13px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.fdd__btn:hover {
+  color: var(--text);
+  border-color: #3a4150;
+}
+.fdd__btn--active {
+  background: var(--active-bg);
+  color: var(--active-fg);
+  border-color: var(--active-bg);
+}
+.fdd__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+.fdd__btn--active .fdd__badge {
+  background: rgba(0, 0, 0, 0.18);
+}
+.fdd__arrow {
+  font-size: 0.65rem;
+  opacity: 0.7;
+}
+.fdd__panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 50;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+  padding: 6px 0;
+  min-width: 190px;
+  max-height: 340px;
+  overflow-y: auto;
+}
+.fdd__options {
+  display: flex;
+  flex-direction: column;
+}
+.fdd__option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  transition: background 0.1s, color 0.1s;
+}
+.fdd__option:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+.fdd__option input {
+  accent-color: var(--accent);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.fdd__option--datepicker {
+  padding: 6px 12px;
+}
+.fdd__divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 4px 0;
+}
+
+/* ---------- Modal alt ticket links ---------- */
+.modal__alt-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.card__alt-links {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+/* ---------- Bottom nav (mobile only) ---------- */
+.bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 8px 0 env(safe-area-inset-bottom, 8px);
+  backdrop-filter: blur(12px);
+  justify-content: space-around;
+}
+.bottom-nav__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 4px 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  flex: 1;
+  transition: color 0.15s;
+}
+.bottom-nav__btn--active {
+  color: var(--accent);
+}
+.bottom-nav__icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.bottom-nav__label {
+  font-size: 0.62rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .toolbar__filters {
+    display: none;
     flex-direction: column;
     align-items: stretch;
+    gap: 6px;
+  }
+  .toolbar__filters--open {
+    display: flex;
+  }
+  .toolbar__filters--open .fdd {
+    width: 100%;
+  }
+  .toolbar__filters--open .fdd__btn {
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .toolbar__filters--open .fdd__panel {
+    position: static;
+    box-shadow: none;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    margin-top: -6px;
+  }
+  .bottom-nav {
+    display: flex;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .results {
+    padding-bottom: 88px;
+  }
+  .footer {
+    padding-bottom: 80px;
   }
 }
 

@@ -11,6 +11,7 @@ import { sourceLabel } from './format';
 import { EventCard } from './EventCard';
 import { EventModal } from './EventModal';
 import { MapView } from './MapView';
+import { FilterDropdown } from './FilterDropdown';
 
 /** Cards rendered per page — keeps initial paint fast on large result sets. */
 const PAGE_SIZE = 60;
@@ -65,7 +66,7 @@ export function App() {
   const [borough, setBorough] = useState<Borough | 'All'>(init.borough);
   const [neighborhoods, setNeighborhoods] = useState<string[]>(init.neighborhoods);
   const [sources, setSources] = useState<string[]>(init.sources);
-  const [category, setCategory] = useState<Category | 'All'>(init.category);
+  const [categories, setCategories] = useState<Category[]>(init.categories);
   const [freeOnly, setFreeOnly] = useState(init.freeOnly);
   const [maxPrice, setMaxPrice] = useState(init.maxPrice);
   const [search, setSearch] = useState(init.search);
@@ -78,6 +79,7 @@ export function App() {
   const [savedOnly, setSavedOnly] = useState(false);
   const [copied, setCopied] = useState(false);
   const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
+  const [filtersOpen, setFiltersOpen] = useState(false);
   // Selected event id drives the detail modal; also synced into ?event= URL param.
   const [selectedEventId, setSelectedEventId] = useState<string | null>(
     () => new URLSearchParams(window.location.search).get('event'),
@@ -92,13 +94,13 @@ export function App() {
 
   // Keep the URL in sync with the filters so the current view is shareable.
   useEffect(() => {
-    const qs = serializeFilters({ borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow });
+    const qs = serializeFilters({ borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow });
     const p = qs ? new URLSearchParams(qs) : new URLSearchParams();
     if (selectedEventId) p.set('event', selectedEventId);
     const str = p.toString();
     const url = `${window.location.pathname}${str ? `?${str}` : ''}`;
     window.history.replaceState(null, '', url);
-  }, [borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId]);
+  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId]);
 
   // Copy the current (filtered) view's URL so it can be shared with a friend.
   function copyLink() {
@@ -118,6 +120,12 @@ export function App() {
     setNeighborhoods([]);
   }
 
+  function toggleCategory(key: Category) {
+    setCategories((prev) =>
+      prev.includes(key) ? prev.filter((c) => c !== key) : [...prev, key],
+    );
+  }
+
   // Only offer neighborhood chips that survive the other active filters, so no
   // chip leads to an empty result set. The current selection is always kept
   // visible so it stays highlighted and can be toggled off.
@@ -125,7 +133,7 @@ export function App() {
     if (borough === 'All') return [];
     const inScope = filterEvents(allEvents, {
       borough,
-      category: category === 'All' ? undefined : category,
+      categories: categories.length > 0 ? categories : undefined,
       freeOnly,
       search,
       dateWindow,
@@ -136,7 +144,7 @@ export function App() {
     for (const e of inScope) if (e.neighborhood) set.add(e.neighborhood);
     for (const n of neighborhoods) set.add(n);
     return [...set].sort();
-  }, [allEvents, borough, category, freeOnly, search, dateWindow, today, neighborhoods, sources]);
+  }, [allEvents, borough, categories, freeOnly, search, dateWindow, today, neighborhoods, sources]);
 
   const userCoords = geo.status === 'ok' ? { lat: geo.lat, lon: geo.lon } : undefined;
 
@@ -145,7 +153,7 @@ export function App() {
       borough: borough === 'All' ? undefined : borough,
       neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
       sources: sources.length > 0 ? sources : undefined,
-      category: category === 'All' ? undefined : category,
+      categories: categories.length > 0 ? categories : undefined,
       freeOnly,
       maxPrice: maxPrice > 0 ? maxPrice : undefined,
       search,
@@ -154,13 +162,13 @@ export function App() {
     });
     if (savedOnly) results = results.filter((e) => saved.has(e.id));
     return sortEvents(results, sort, userCoords);
-  }, [allEvents, borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow, today, savedOnly, saved, userCoords]);
+  }, [allEvents, borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, today, savedOnly, saved, userCoords]);
 
   // Render incrementally; reset to the first page whenever the result set changes.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   useEffect(
     () => setVisibleCount(PAGE_SIZE),
-    [borough, neighborhoods, sources, category, freeOnly, maxPrice, search, sort, dateWindow, savedOnly],
+    [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, savedOnly],
   );
 
   // Resolve the selected event from the loaded data (null while loading or not found).
@@ -170,6 +178,22 @@ export function App() {
   );
 
   const shown = visible.slice(0, visibleCount);
+
+  // Badge count shown on the mobile Filters button.
+  const totalActiveFilters =
+    (dateWindow !== 'all' ? 1 : 0) +
+    categories.length +
+    sources.length +
+    (maxPrice > 0 || freeOnly ? 1 : 0) +
+    (sort !== 'soonest' ? 1 : 0);
+
+  const sourcesInData = state.status === 'ready' ? (state.payload.sources ?? []) : [];
+
+  function sortLabel(key: SortKey) {
+    if (key === 'nearest' && geo.status === 'pending') return 'Locating…';
+    if (key === 'nearest' && geo.status === 'denied') return 'Nearest (denied)';
+    return SORTS.find((s) => s.key === key)!.label;
+  }
 
   return (
     <div className="app">
@@ -254,135 +278,151 @@ export function App() {
       )}
 
       <div className="toolbar">
-        <input
-          className="search"
-          type="search"
-          placeholder="Search events or venues…"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-
-        <div className="dates" role="group" aria-label="Filter by date">
-          {DATE_WINDOWS.map((d) => (
-            <button
-              key={d.key}
-              className={`chip-btn ${dateWindow === d.key ? 'chip-btn--active' : ''}`}
-              aria-pressed={dateWindow === d.key}
-              onClick={() => setDateWindow(d.key)}
-            >
-              {d.label}
-            </button>
-          ))}
+        <div className="toolbar__top">
           <input
-            className={`date-input ${PICKED_DATE_RE.test(dateWindow) ? 'date-input--active' : ''}`}
-            type="date"
-            min={today}
-            value={PICKED_DATE_RE.test(dateWindow) ? dateWindow : ''}
-            onChange={(e) => setDateWindow(e.target.value || 'all')}
-            aria-label={
-              PICKED_DATE_RE.test(dateWindow) ? `Filtering by ${dateWindow}` : 'Pick a specific date'
-            }
+            className="search"
+            type="search"
+            placeholder="Search events or venues…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
           />
         </div>
 
-        <div className="chips" role="group" aria-label="Filter by category">
+        <div className={`toolbar__filters ${filtersOpen ? 'toolbar__filters--open' : ''}`}>
+          <FilterDropdown label="Date" activeCount={dateWindow !== 'all' ? 1 : 0}>
+            <div className="fdd__options">
+              {DATE_WINDOWS.map((d) => (
+                <label key={d.key} className="fdd__option">
+                  <input
+                    type="radio"
+                    name="dateWindow"
+                    checked={dateWindow === d.key}
+                    onChange={() => setDateWindow(d.key)}
+                  />
+                  {d.label}
+                </label>
+              ))}
+              <div className="fdd__option fdd__option--datepicker">
+                <input
+                  className={`date-input ${PICKED_DATE_RE.test(dateWindow) ? 'date-input--active' : ''}`}
+                  type="date"
+                  min={today}
+                  value={PICKED_DATE_RE.test(dateWindow) ? dateWindow : ''}
+                  onChange={(e) => setDateWindow(e.target.value || 'all')}
+                  aria-label={
+                    PICKED_DATE_RE.test(dateWindow) ? `Filtering by ${dateWindow}` : 'Pick a specific date'
+                  }
+                />
+              </div>
+            </div>
+          </FilterDropdown>
+
+          <FilterDropdown label="Category" activeCount={categories.length}>
+            <div className="fdd__options">
+              <label className="fdd__option">
+                <input
+                  type="checkbox"
+                  checked={categories.length === 0}
+                  onChange={() => setCategories([])}
+                />
+                All categories
+              </label>
+              {CATEGORIES.map((c) => (
+                <label key={c.key} className="fdd__option">
+                  <input
+                    type="checkbox"
+                    checked={categories.includes(c.key)}
+                    onChange={() => toggleCategory(c.key)}
+                  />
+                  {c.label}
+                </label>
+              ))}
+            </div>
+          </FilterDropdown>
+
+          {sourcesInData.length > 1 && (
+            <FilterDropdown label="Source" activeCount={sources.length}>
+              <div className="fdd__options">
+                <label className="fdd__option">
+                  <input
+                    type="checkbox"
+                    checked={sources.length === 0}
+                    onChange={() => setSources([])}
+                  />
+                  All sources
+                </label>
+                {sourcesInData.map((s) => (
+                  <label key={s.source} className="fdd__option">
+                    <input
+                      type="checkbox"
+                      checked={sources.includes(s.source)}
+                      onChange={() =>
+                        setSources((prev) =>
+                          prev.includes(s.source)
+                            ? prev.filter((x) => x !== s.source)
+                            : [...prev, s.source],
+                        )
+                      }
+                    />
+                    {sourceLabel(s.source)}
+                  </label>
+                ))}
+              </div>
+            </FilterDropdown>
+          )}
+
+          <FilterDropdown label="Price" activeCount={maxPrice > 0 || freeOnly ? 1 : 0}>
+            <div className="fdd__options">
+              {PRICE_CAPS.map((p) => (
+                <label key={p.value} className="fdd__option">
+                  <input
+                    type="radio"
+                    name="maxPrice"
+                    checked={maxPrice === p.value}
+                    onChange={() => setMaxPrice(p.value)}
+                  />
+                  {p.label}
+                </label>
+              ))}
+              <hr className="fdd__divider" />
+              <label className="fdd__option">
+                <input
+                  type="checkbox"
+                  checked={freeOnly}
+                  onChange={(e) => setFreeOnly(e.target.checked)}
+                />
+                Free events only
+              </label>
+            </div>
+          </FilterDropdown>
+
+          <FilterDropdown label={`Sort: ${sortLabel(sort)}`} activeCount={sort !== 'soonest' ? 1 : 0}>
+            <div className="fdd__options">
+              {SORTS.map((s) => (
+                <label key={s.key} className="fdd__option">
+                  <input
+                    type="radio"
+                    name="sort"
+                    checked={sort === s.key}
+                    onChange={() => {
+                      if (s.key === 'nearest' && geo.status === 'idle') requestGeo();
+                      setSort(s.key);
+                    }}
+                  />
+                  {sortLabel(s.key)}
+                </label>
+              ))}
+            </div>
+          </FilterDropdown>
+
           <button
-            className={`chip-btn ${category === 'All' ? 'chip-btn--active' : ''}`}
-            aria-pressed={category === 'All'}
-            onClick={() => setCategory('All')}
+            className={`chip-btn ${savedOnly ? 'chip-btn--active chip-btn--heart' : 'chip-btn--heart'}`}
+            aria-pressed={savedOnly}
+            onClick={() => setSavedOnly((v) => !v)}
           >
-            All
+            {savedOnly ? '♥' : '♡'} Saved{saved.size > 0 ? ` (${saved.size})` : ''}
           </button>
-          {CATEGORIES.map((c) => (
-            <button
-              key={c.key}
-              className={`chip-btn ${category === c.key ? 'chip-btn--active' : ''}`}
-              aria-pressed={category === c.key}
-              data-category={c.key}
-              onClick={() => setCategory(c.key)}
-            >
-              {c.label}
-            </button>
-          ))}
         </div>
-
-        {state.status === 'ready' && (state.payload.sources?.length ?? 0) > 1 && (
-          <div className="chips" role="group" aria-label="Filter by source">
-            <button
-              className={`chip-btn ${sources.length === 0 ? 'chip-btn--active' : ''}`}
-              aria-pressed={sources.length === 0}
-              onClick={() => setSources([])}
-            >
-              All sources
-            </button>
-            {state.payload.sources.map((s) => (
-              <button
-                key={s.source}
-                className={`chip-btn ${sources.includes(s.source) ? 'chip-btn--active' : ''}`}
-                aria-pressed={sources.includes(s.source)}
-                onClick={() =>
-                  setSources((prev) =>
-                    prev.includes(s.source) ? prev.filter((x) => x !== s.source) : [...prev, s.source],
-                  )
-                }
-              >
-                {sourceLabel(s.source)}
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className="chips" role="group" aria-label="Filter by price">
-          {PRICE_CAPS.map((p) => (
-            <button
-              key={p.value}
-              className={`chip-btn ${maxPrice === p.value ? 'chip-btn--active' : ''}`}
-              aria-pressed={maxPrice === p.value}
-              onClick={() => setMaxPrice(p.value)}
-            >
-              {p.label}
-            </button>
-          ))}
-        </div>
-
-        <label className="toggle">
-          <input
-            type="checkbox"
-            checked={freeOnly}
-            onChange={(e) => setFreeOnly(e.target.checked)}
-          />
-          Free only
-        </label>
-
-        <button
-          className={`chip-btn ${savedOnly ? 'chip-btn--active chip-btn--heart' : 'chip-btn--heart'}`}
-          aria-pressed={savedOnly}
-          onClick={() => setSavedOnly((v) => !v)}
-        >
-          {savedOnly ? '♥' : '♡'} Saved{saved.size > 0 ? ` (${saved.size})` : ''}
-        </button>
-
-        <label className="sort">
-          Sort
-          <select
-            value={sort}
-            onChange={(e) => {
-              const next = e.target.value as SortKey;
-              if (next === 'nearest' && geo.status === 'idle') requestGeo();
-              setSort(next);
-            }}
-          >
-            {SORTS.map((s) => (
-              <option key={s.key} value={s.key}>
-                {s.key === 'nearest' && geo.status === 'pending'
-                  ? 'Locating…'
-                  : s.key === 'nearest' && geo.status === 'denied'
-                    ? 'Nearest (denied)'
-                    : s.label}
-              </option>
-            ))}
-          </select>
-        </label>
       </div>
 
       <main className="results">
@@ -398,7 +438,7 @@ export function App() {
                   ? `Showing ${shown.length.toLocaleString()} of ${visible.length.toLocaleString()} events`
                   : `${visible.length.toLocaleString()} ${visible.length === 1 ? 'event' : 'events'}`}
               </p>
-              <div className="view-toggle" role="group" aria-label="View mode">
+              <div className="view-toggle desktop-only" role="group" aria-label="View mode">
                 <button
                   className={`view-btn ${viewMode === 'list' ? 'view-btn--active' : ''}`}
                   aria-pressed={viewMode === 'list'}
@@ -473,6 +513,42 @@ export function App() {
         )}
         <p className="footer__note">Free NYC events, refreshed twice daily by a GitHub Actions pipeline.</p>
       </footer>
+
+      {/* Mobile-only sticky bottom navigation */}
+      <nav className="bottom-nav" aria-label="Main navigation">
+        <button
+          className={`bottom-nav__btn ${viewMode === 'list' && !savedOnly ? 'bottom-nav__btn--active' : ''}`}
+          onClick={() => { setViewMode('list'); setSavedOnly(false); }}
+        >
+          <span className="bottom-nav__icon">☰</span>
+          <span className="bottom-nav__label">Events</span>
+        </button>
+        <button
+          className={`bottom-nav__btn ${viewMode === 'map' ? 'bottom-nav__btn--active' : ''}`}
+          onClick={() => setViewMode('map')}
+        >
+          <span className="bottom-nav__icon">⊙</span>
+          <span className="bottom-nav__label">Map</span>
+        </button>
+        <button
+          className={`bottom-nav__btn ${savedOnly ? 'bottom-nav__btn--active' : ''}`}
+          onClick={() => { setSavedOnly((v) => !v); setViewMode('list'); }}
+        >
+          <span className="bottom-nav__icon">{savedOnly ? '♥' : '♡'}</span>
+          <span className="bottom-nav__label">
+            Saved{saved.size > 0 ? ` (${saved.size})` : ''}
+          </span>
+        </button>
+        <button
+          className={`bottom-nav__btn ${filtersOpen ? 'bottom-nav__btn--active' : ''}`}
+          onClick={() => setFiltersOpen((v) => !v)}
+        >
+          <span className="bottom-nav__icon">⚙</span>
+          <span className="bottom-nav__label">
+            Filters{totalActiveFilters > 0 ? ` (${totalActiveFilters})` : ''}
+          </span>
+        </button>
+      </nav>
 
       {selectedEvent && (
         <EventModal
