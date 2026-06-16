@@ -10,8 +10,8 @@ export function normalizeResidentAdvisorEvent(raw: any): Event | null {
   if (!startTime) return null;
 
   const venue = event.venue;
-  const lat = parseFloat(venue?.lat);
-  const lon = parseFloat(venue?.lng);
+  const lat = parseFloat(venue?.location?.latitude);
+  const lon = parseFloat(venue?.location?.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
 
   const borough = boroughFromLatLng(lat, lon);

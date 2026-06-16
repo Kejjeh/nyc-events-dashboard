@@ -536,17 +536,17 @@ export async function fetchEventbrite(apiKey: string | undefined, nowIso: string
 
 /** Resident Advisor GraphQL endpoint — NYC (area 43) club and concert listings. */
 const RA_GRAPHQL_URL = 'https://ra.co/graphql';
-const RA_NYC_AREA_ID = 43;
+const RA_NYC_AREA_ID = 8; // RA's stable ID for the New York City area
 const RA_MAX_PAGES = 3;
 const RA_PAGE_SIZE = 50;
 
 const RA_QUERY = `
-  query EventListings($filters: FilterInputDtoInput, $pageSize: Int, $page: Int) {
+  query EventListings($filters: FilterInputDtoInput, $pageSize: Int, $page: Int, $sort: SortInputDtoInput) {
     eventListings(
       filters: $filters
       pageSize: $pageSize
       page: $page
-      sort: { name: "date", dir: "asc" }
+      sort: $sort
     ) {
       data {
         id
@@ -560,8 +560,10 @@ const RA_QUERY = `
             id
             name
             address
-            lat
-            lng
+            location {
+              latitude
+              longitude
+            }
           }
         }
       }
@@ -597,6 +599,7 @@ export async function fetchResidentAdvisor(nowIso: string): Promise<RawBatch> {
             areas: { eq: RA_NYC_AREA_ID },
             listingDate: { gte: startDate, lte: endDate },
           },
+          sort: { listingDate: { order: 'ASCENDING' } },
           pageSize: RA_PAGE_SIZE,
           page,
         },
