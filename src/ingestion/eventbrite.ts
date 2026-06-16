@@ -1,52 +1,63 @@
 import type { Category, Event } from '../domain/event';
-import { utcToNycLocal } from './datetime';
 import { boroughFromLatLng } from './borough';
 import { neighborhoodFromLatLng } from './neighborhood';
 
+// Eventbrite category IDs (from EventbriteCategory/<id> tags in web-scraped data).
 const CATEGORY_MAP: Record<string, Category> = {
   '103': 'music',    // Music
+  '104': 'film',     // Film & Media
   '105': 'theater',  // Performing & Visual Arts
   '108': 'sports',   // Sports & Fitness
   '110': 'food',     // Food & Drink
   '113': 'social',   // Community & Culture
   '115': 'kids',     // Family & Education
-  '119': 'film',     // Film, Media & Entertainment
 };
 
 export function normalizeEventbriteEvent(raw: any): Event | null {
-  const start = raw.start?.utc;
-  if (!start) return null;
+  // start_date is "YYYY-MM-DD HH:MM" (already NYC local) or "YYYY-MM-DD".
+  const startRaw: string = raw.start_date ?? '';
+  if (!startRaw) return null;
+  const start = startRaw.includes(' ')
+    ? startRaw.replace(' ', 'T') + ':00'
+    : `${startRaw}T${raw.start_time ?? '00:00'}:00`;
 
-  const venue = raw.venue;
-  // Eventbrite exposes lat/lon both on the venue root and inside address.
-  const lat = parseFloat(venue?.latitude ?? venue?.address?.latitude);
-  const lon = parseFloat(venue?.longitude ?? venue?.address?.longitude);
+  const venue = raw.primary_venue;
+  const lat = parseFloat(venue?.address?.latitude);
+  const lon = parseFloat(venue?.address?.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
 
   const borough = boroughFromLatLng(lat, lon);
   if (!borough) return null;
 
   const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
-  const category: Category = CATEGORY_MAP[String(raw.category_id)] ?? 'other';
 
-  const ta = raw.ticket_availability;
-  // ticket_availability price values are in minor currency units (cents for USD).
-  const minCents = ta?.minimum_ticket_price?.value;
-  const maxCents = ta?.maximum_ticket_price?.value;
+  const catTag = (raw.tags ?? []).find(
+    (t: any) => typeof t?.tag === 'string' && t.tag.startsWith('EventbriteCategory/'),
+  );
+  const catCode = catTag?.tag?.split('/')?.[1] ?? '';
+  const category: Category = CATEGORY_MAP[catCode] ?? 'other';
+
+  const endRaw: string | undefined = raw.end_date;
+  const end = endRaw
+    ? endRaw.includes(' ')
+      ? endRaw.replace(' ', 'T') + ':00'
+      : `${endRaw}T${raw.end_time ?? '00:00'}:00`
+    : undefined;
+
+  const id = raw.eid ?? raw.eventbrite_event_id;
+  if (!id) return null;
 
   return {
-    id: `eventbrite:${raw.id}`,
-    title: raw.name?.text ?? '',
+    id: `eventbrite:${id}`,
+    title: raw.name ?? '',
     category,
     borough,
     ...(neighborhood && { neighborhood }),
     venue: venue?.name ?? '',
-    start: utcToNycLocal(start),
-    ...(raw.end?.utc && { end: utcToNycLocal(raw.end.utc) }),
-    isFree: raw.is_free === true || minCents === 0,
-    ...(typeof minCents === 'number' && minCents > 0 && { priceMin: minCents / 100 }),
-    ...(typeof maxCents === 'number' && maxCents > 0 && { priceMax: maxCents / 100 }),
-    url: raw.url,
+    start,
+    ...(end && { end }),
+    isFree: raw.is_free === true,
+    url: raw.url ?? '',
     source: 'eventbrite',
     lat,
     lon,

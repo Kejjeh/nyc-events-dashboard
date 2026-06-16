@@ -69,7 +69,7 @@ async function main(): Promise<void> {
       settle('bpl', fetchBpl(nowIso)),
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
       settle('seatgeek', fetchSeatGeek(process.env.SEATGEEK_CLIENT_ID)),
-      settle('eventbrite', fetchEventbrite(process.env.EVENTBRITE_API_KEY, nowIso)),
+      settle('eventbrite', fetchEventbrite(nowIso)),
       settle('resident-advisor', fetchResidentAdvisor(nowIso)),
     ])
   ).filter((b): b is RawBatch => b !== null);

@@ -492,44 +492,97 @@ export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBa
   return { source: 'seatgeek', records };
 }
 
-/** Eventbrite public events — geo-radius search around NYC. */
-const EVENTBRITE_URL = 'https://www.eventbriteapi.com/v3/events/search/';
-const EVENTBRITE_MAX_PAGES = 5;
+/**
+ * Eventbrite NYC browse — scrapes the public event listing page and extracts
+ * the embedded `"events":[...]` array from the server-rendered HTML. No API
+ * key required; the events are the same ones shown on eventbrite.com.
+ */
+const EVENTBRITE_BROWSE_URL = 'https://www.eventbrite.com/d/ny--new-york/events/';
+const EVENTBRITE_MAX_PAGES = 10; // 10 events/page → up to 100 events
 
 /**
- * Fetches upcoming NYC events from Eventbrite using the geo-location search
- * endpoint. Requires EVENTBRITE_API_KEY (private token / application key);
- * returns an empty batch when the key is absent.
+ * Extracts top-level JSON objects from the best `"events":[...]` array
+ * embedded in Eventbrite's server-rendered HTML. The page embeds several
+ * arrays (carousels, recommendations, etc.); we pick the largest one that
+ * contains real event listings (items with a primary_venue).
  */
-export async function fetchEventbrite(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
-  if (!apiKey) return { source: 'eventbrite', records: [] };
+function parseEventbriteHtml(html: string): any[] {
+  const marker = '"events":[{';
+  let searchFrom = 0;
+  let best: any[] = [];
 
+  while (searchFrom < html.length) {
+    const startIdx = html.indexOf(marker, searchFrom);
+    if (startIdx === -1) break;
+    searchFrom = startIdx + 1;
+
+    const raw = html.slice(startIdx + '"events":['.length);
+    const events: any[] = [];
+    let depth = 0;
+    let objStart = 0;
+
+    for (let i = 0; i < raw.length; i++) {
+      const c = raw[i];
+      if (c === '{') {
+        if (depth === 0) objStart = i;
+        depth++;
+      } else if (c === '}') {
+        depth--;
+        if (depth === 0) {
+          try {
+            events.push(JSON.parse(raw.slice(objStart, i + 1)));
+          } catch {
+            // Skip malformed individual event records.
+          }
+        }
+      } else if (c === ']' && depth === 0) {
+        break;
+      }
+    }
+
+    // Keep the array that looks most like real listings (has the most items
+    // with a primary_venue, which carousel/image arrays don't have).
+    const realCount = events.filter((e) => e?.primary_venue || e?.name).length;
+    const bestReal = best.filter((e) => e?.primary_venue || e?.name).length;
+    if (realCount > bestReal) best = events;
+  }
+
+  return best;
+}
+
+/**
+ * Fetches upcoming NYC events from Eventbrite's public browse pages. The
+ * v3 API's /events/search/ endpoint is unavailable on the free tier, so we
+ * scrape the server-rendered HTML instead (same data, no API key needed).
+ */
+export async function fetchEventbrite(nowIso: string): Promise<RawBatch> {
   const headers = {
     'User-Agent': BROWSER_UA,
-    Authorization: `Bearer ${apiKey}`,
-    Accept: 'application/json',
+    Accept: 'text/html',
+    'Accept-Language': 'en-US,en;q=0.9',
   };
 
+  const seen = new Set<string>();
   const records: any[] = [];
+
   for (let page = 1; page <= EVENTBRITE_MAX_PAGES; page++) {
-    const params = new URLSearchParams({
-      'location.latitude': '40.7308',
-      'location.longitude': '-73.9973',
-      'location.within': '25km',
-      expand: 'venue,ticket_availability',
-      sort_by: 'date',
-      'start_date.range_start': nowIso.slice(0, 10),
-      status: 'live',
-      page_size: '50',
-      page: String(page),
-    });
-    const res = await fetchWithRetry(`${EVENTBRITE_URL}?${params}`, { headers });
-    if (!res.ok) throw new Error(`Eventbrite fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
-    const events = body?.events ?? [];
-    records.push(...events);
-    const pageCount = body?.pagination?.page_count ?? 1;
-    if (events.length === 0 || page >= pageCount) break;
+    const url = page === 1 ? EVENTBRITE_BROWSE_URL : `${EVENTBRITE_BROWSE_URL}?page=${page}`;
+    const res = await fetchWithRetry(url, { headers });
+    if (!res.ok) throw new Error(`Eventbrite browse fetch failed: HTTP ${res.status}`);
+    const html = await res.text();
+    const events = parseEventbriteHtml(html);
+    if (events.length === 0) break;
+
+    let fresh = 0;
+    for (const e of events) {
+      const id = String(e.eid ?? e.eventbrite_event_id ?? '');
+      if (id && !seen.has(id)) {
+        seen.add(id);
+        records.push(e);
+        fresh++;
+      }
+    }
+    if (fresh === 0) break; // Reached repeat content — no new events this page.
   }
   return { source: 'eventbrite', records };
 }
