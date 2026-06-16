@@ -9,7 +9,8 @@ describe('urlState', () => {
   it('round-trips a full filter state', () => {
     const state: FilterState = {
       borough: 'Brooklyn',
-      neighborhood: 'Williamsburg',
+      neighborhoods: ['Williamsburg', 'Bushwick'],
+      sources: ['ticketmaster', 'dice'],
       category: 'music',
       freeOnly: true,
       search: 'jazz quartet',
@@ -24,8 +25,8 @@ describe('urlState', () => {
     expect(parseFilters(serializeFilters(state))).toEqual(state);
   });
 
-  it('omits the neighborhood when no borough is selected', () => {
-    const qs = serializeFilters({ ...DEFAULT_FILTERS, neighborhood: 'Williamsburg' });
+  it('omits neighborhoods when no borough is selected', () => {
+    const qs = serializeFilters({ ...DEFAULT_FILTERS, neighborhoods: ['Williamsburg'] });
     expect(qs).toBe('');
   });
 
@@ -40,20 +41,25 @@ describe('urlState', () => {
     expect(parseFilters('when=2026-06-20').dateWindow).toBe('2026-06-20'); // real date still works
   });
 
-  it('drops a neighborhood when the borough is absent or invalid', () => {
-    expect(parseFilters('n=Williamsburg').neighborhood).toBe('All');
-    expect(parseFilters('b=Atlantis&n=Williamsburg').neighborhood).toBe('All');
+  it('drops neighborhoods when the borough is absent or invalid', () => {
+    expect(parseFilters('n=Williamsburg').neighborhoods).toEqual([]);
+    expect(parseFilters('b=Atlantis&n=Williamsburg').neighborhoods).toEqual([]);
   });
 
-  it('decodes spaces in search and neighborhood', () => {
+  it('decodes spaces in search and neighborhoods', () => {
     const qs = serializeFilters({
       ...DEFAULT_FILTERS,
       borough: 'Manhattan',
-      neighborhood: 'West Village',
+      neighborhoods: ['West Village'],
       search: 'live music',
     });
     const parsed = parseFilters(qs);
-    expect(parsed.neighborhood).toBe('West Village');
+    expect(parsed.neighborhoods).toEqual(['West Village']);
     expect(parsed.search).toBe('live music');
+  });
+
+  it('round-trips multiple sources without a borough', () => {
+    const state: FilterState = { ...DEFAULT_FILTERS, sources: ['dice', 'nyc-parks'] };
+    expect(parseFilters(serializeFilters(state))).toEqual(state);
   });
 });

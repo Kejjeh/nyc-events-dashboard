@@ -3,7 +3,10 @@ import { isInDateWindow, type DateWindow } from './dateWindow';
 
 export interface FilterCriteria {
   borough?: Borough;
-  neighborhood?: string;
+  /** One or more neighborhoods to include; absent/empty = no filter. */
+  neighborhoods?: string[];
+  /** One or more source IDs to include; absent/empty = no filter. */
+  sources?: string[];
   category?: Category;
   freeOnly?: boolean;
   search?: string;
@@ -22,7 +25,8 @@ export function filterEvents(events: Event[], criteria: FilterCriteria): Event[]
 
   return events.filter((event) => {
     if (criteria.borough && event.borough !== criteria.borough) return false;
-    if (criteria.neighborhood && event.neighborhood !== criteria.neighborhood) return false;
+    if (criteria.neighborhoods?.length && !criteria.neighborhoods.includes(event.neighborhood ?? '')) return false;
+    if (criteria.sources?.length && !criteria.sources.includes(event.source)) return false;
     if (criteria.category && event.category !== criteria.category) return false;
     if (criteria.freeOnly && !event.isFree) return false;
     if (applyDate && !isInDateWindow(event.start, criteria.dateWindow!, criteria.today!)) {

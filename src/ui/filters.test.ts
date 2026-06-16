@@ -37,7 +37,21 @@ describe('filterEvents', () => {
   });
 
   it('filters by neighborhood', () => {
-    expect(filterEvents(events, { neighborhood: 'Williamsburg' }).map((e) => e.id)).toEqual(['a']);
+    expect(filterEvents(events, { neighborhoods: ['Williamsburg'] }).map((e) => e.id)).toEqual(['a']);
+  });
+
+  it('filters by multiple neighborhoods', () => {
+    expect(filterEvents(events, { neighborhoods: ['Williamsburg', 'Flushing'] }).map((e) => e.id)).toEqual(['a', 'b']);
+  });
+
+  it('filters by source', () => {
+    const mixed = [
+      ev({ id: 'a', source: 'ticketmaster' }),
+      ev({ id: 'b', source: 'nyc-parks' }),
+      ev({ id: 'c', source: 'dice' }),
+    ];
+    expect(filterEvents(mixed, { sources: ['ticketmaster'] }).map((e) => e.id)).toEqual(['a']);
+    expect(filterEvents(mixed, { sources: ['ticketmaster', 'dice'] }).map((e) => e.id)).toEqual(['a', 'c']);
   });
 
   it('filters to free events only', () => {

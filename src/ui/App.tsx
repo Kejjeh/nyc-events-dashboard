@@ -51,7 +51,8 @@ export function App() {
   // Hydrate initial filters from the shareable URL (parsed once).
   const [init] = useState(() => parseFilters(window.location.search));
   const [borough, setBorough] = useState<Borough | 'All'>(init.borough);
-  const [neighborhood, setNeighborhood] = useState<string>(init.neighborhood);
+  const [neighborhoods, setNeighborhoods] = useState<string[]>(init.neighborhoods);
+  const [sources, setSources] = useState<string[]>(init.sources);
   const [category, setCategory] = useState<Category | 'All'>(init.category);
   const [freeOnly, setFreeOnly] = useState(init.freeOnly);
   const [search, setSearch] = useState(init.search);
@@ -68,10 +69,10 @@ export function App() {
 
   // Keep the URL in sync with the filters so the current view is shareable.
   useEffect(() => {
-    const qs = serializeFilters({ borough, neighborhood, category, freeOnly, search, sort, dateWindow });
+    const qs = serializeFilters({ borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow });
     const url = `${window.location.pathname}${qs ? `?${qs}` : ''}`;
     window.history.replaceState(null, '', url);
-  }, [borough, neighborhood, category, freeOnly, search, sort, dateWindow]);
+  }, [borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow]);
 
   // Copy the current (filtered) view's URL so it can be shared with a friend.
   function copyLink() {
@@ -88,13 +89,13 @@ export function App() {
   // stale neighborhood briefly filters the new borough to an empty set.
   function selectBorough(next: Borough | 'All') {
     setBorough(next);
-    setNeighborhood('All');
+    setNeighborhoods([]);
   }
 
   // Only offer neighborhood chips that survive the other active filters, so no
   // chip leads to an empty result set. The current selection is always kept
   // visible so it stays highlighted and can be toggled off.
-  const neighborhoods = useMemo(() => {
+  const hoodOptions = useMemo(() => {
     if (borough === 'All') return [];
     const inScope = filterEvents(allEvents, {
       borough,
@@ -103,19 +104,21 @@ export function App() {
       search,
       dateWindow,
       today,
+      sources: sources.length > 0 ? sources : undefined,
     });
     const set = new Set<string>();
     for (const e of inScope) if (e.neighborhood) set.add(e.neighborhood);
-    if (neighborhood !== 'All') set.add(neighborhood);
+    for (const n of neighborhoods) set.add(n);
     return [...set].sort();
-  }, [allEvents, borough, category, freeOnly, search, dateWindow, today, neighborhood]);
+  }, [allEvents, borough, category, freeOnly, search, dateWindow, today, neighborhoods, sources]);
 
   const visible = useMemo(
     () =>
       sortEvents(
         filterEvents(allEvents, {
           borough: borough === 'All' ? undefined : borough,
-          neighborhood: neighborhood === 'All' ? undefined : neighborhood,
+          neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
+          sources: sources.length > 0 ? sources : undefined,
           category: category === 'All' ? undefined : category,
           freeOnly,
           search,
@@ -124,14 +127,14 @@ export function App() {
         }),
         sort,
       ),
-    [allEvents, borough, neighborhood, category, freeOnly, search, sort, dateWindow, today],
+    [allEvents, borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow, today],
   );
 
   // Render incrementally; reset to the first page whenever the result set changes.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   useEffect(
     () => setVisibleCount(PAGE_SIZE),
-    [borough, neighborhood, category, freeOnly, search, sort, dateWindow],
+    [borough, neighborhoods, sources, category, freeOnly, search, sort, dateWindow],
   );
 
   const shown = visible.slice(0, visibleCount);
@@ -192,21 +195,25 @@ export function App() {
         ))}
       </nav>
 
-      {borough !== 'All' && neighborhoods.length > 0 && (
+      {borough !== 'All' && hoodOptions.length > 0 && (
         <nav className="hoods" aria-label={`Filter by neighborhood in ${borough}`}>
           <button
-            className={`hood ${neighborhood === 'All' ? 'hood--active' : ''}`}
-            aria-pressed={neighborhood === 'All'}
-            onClick={() => setNeighborhood('All')}
+            className={`hood ${neighborhoods.length === 0 ? 'hood--active' : ''}`}
+            aria-pressed={neighborhoods.length === 0}
+            onClick={() => setNeighborhoods([])}
           >
             All {borough}
           </button>
-          {neighborhoods.map((n) => (
+          {hoodOptions.map((n) => (
             <button
               key={n}
-              className={`hood ${neighborhood === n ? 'hood--active' : ''}`}
-              aria-pressed={neighborhood === n}
-              onClick={() => setNeighborhood(n)}
+              className={`hood ${neighborhoods.includes(n) ? 'hood--active' : ''}`}
+              aria-pressed={neighborhoods.includes(n)}
+              onClick={() =>
+                setNeighborhoods((prev) =>
+                  prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n],
+                )
+              }
             >
               {n}
             </button>
@@ -266,6 +273,32 @@ export function App() {
             </button>
           ))}
         </div>
+
+        {state.status === 'ready' && (state.payload.sources?.length ?? 0) > 1 && (
+          <div className="chips" role="group" aria-label="Filter by source">
+            <button
+              className={`chip-btn ${sources.length === 0 ? 'chip-btn--active' : ''}`}
+              aria-pressed={sources.length === 0}
+              onClick={() => setSources([])}
+            >
+              All sources
+            </button>
+            {state.payload.sources.map((s) => (
+              <button
+                key={s.source}
+                className={`chip-btn ${sources.includes(s.source) ? 'chip-btn--active' : ''}`}
+                aria-pressed={sources.includes(s.source)}
+                onClick={() =>
+                  setSources((prev) =>
+                    prev.includes(s.source) ? prev.filter((x) => x !== s.source) : [...prev, s.source],
+                  )
+                }
+              >
+                {sourceLabel(s.source)}
+              </button>
+            ))}
+          </div>
+        )}
 
         <label className="toggle">
           <input

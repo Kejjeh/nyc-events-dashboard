@@ -5,7 +5,8 @@ import type { DateWindow } from './dateWindow';
 /** The full filter state the dashboard serializes into a shareable URL. */
 export interface FilterState {
   borough: Borough | 'All';
-  neighborhood: string;
+  neighborhoods: string[];
+  sources: string[];
   category: Category | 'All';
   freeOnly: boolean;
   search: string;
@@ -15,7 +16,8 @@ export interface FilterState {
 
 export const DEFAULT_FILTERS: FilterState = {
   borough: 'All',
-  neighborhood: 'All',
+  neighborhoods: [],
+  sources: [],
   category: 'All',
   freeOnly: false,
   search: '',
@@ -50,7 +52,8 @@ function isRealDate(s: string): boolean {
 export function serializeFilters(s: FilterState): string {
   const p = new URLSearchParams();
   if (s.borough !== 'All') p.set('b', s.borough);
-  if (s.borough !== 'All' && s.neighborhood !== 'All') p.set('n', s.neighborhood);
+  if (s.borough !== 'All' && s.neighborhoods.length > 0) p.set('n', s.neighborhoods.join(','));
+  if (s.sources.length > 0) p.set('src', s.sources.join(','));
   if (s.category !== 'All') p.set('c', s.category);
   if (s.freeOnly) p.set('free', '1');
   if (s.search.trim()) p.set('q', s.search.trim());
@@ -76,9 +79,11 @@ export function parseFilters(search: string): FilterState {
   const when = p.get('when');
   if (when && (NAMED_WINDOWS.includes(when) || isRealDate(when))) out.dateWindow = when;
 
-  // A neighborhood only has meaning inside a chosen borough.
+  // Neighborhoods only have meaning inside a chosen borough.
   const n = p.get('n');
-  if (n && out.borough !== 'All') out.neighborhood = n;
+  if (n && out.borough !== 'All') out.neighborhoods = n.split(',').filter(Boolean);
+  const src = p.get('src');
+  if (src) out.sources = src.split(',').filter(Boolean);
 
   return out;
 }
