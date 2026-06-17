@@ -6,6 +6,10 @@ export type { SourceStatus };
 export interface EventsPayload {
   generatedAt: string;
   count: number;
+  /** Count of events held in the offline archive (other cities + far future). */
+  archivedCount?: number;
+  /** All cities present across the dataset, for the city selector. NYC first. */
+  cities?: string[];
   /** Per-source health summary (absent in older published data). */
   sources?: SourceStatus[];
   events: Event[];

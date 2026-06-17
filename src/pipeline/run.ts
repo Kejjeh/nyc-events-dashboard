@@ -5,7 +5,7 @@ import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import { deduplicateEvents } from './dedup';
-import { partitionEvents } from './partition';
+import { partitionEvents, eventCity } from './partition';
 import { summarizeSources } from './sourceSummary';
 import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
 import { enrichWithWeather } from './weatherEnrich';
@@ -168,10 +168,17 @@ async function main(): Promise<void> {
     console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
   }
 
+  // Cities present across the whole superset, so the UI's city selector knows
+  // what's available (the non-NYC ones live in archive.json, lazy-loaded on pick).
+  const cities = [...new Set([...live, ...archive].map(eventCity))].sort((a, b) =>
+    a === 'New York' ? -1 : b === 'New York' ? 1 : a.localeCompare(b),
+  );
+
   const payload = {
     generatedAt: nowIso,
     count: enriched.length,
     archivedCount: archive.length,
+    cities,
     sources: summarizeSources(enriched, succeededSources),
     events: enriched,
   };

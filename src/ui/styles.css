@@ -183,6 +183,36 @@ body {
   border-color: var(--active-bg);
 }
 
+/* ---------- City selector (above borough tabs) ---------- */
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 16px 24px 0;
+}
+.city-tab {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.city-tab:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+.city-tab--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 /* ---------- Neighborhood sub-filter ---------- */
 .hoods {
   display: flex;

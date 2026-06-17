@@ -75,9 +75,11 @@ export function EventModal({
           <div className="modal__tags">
             <span className="chip chip--category">{CATEGORY_LABELS[event.category]}</span>
             <span className="chip chip--borough">
-              {event.neighborhood
-                ? `${event.borough} · ${event.neighborhood}`
-                : event.borough}
+              {event.borough
+                ? event.neighborhood
+                  ? `${event.borough} · ${event.neighborhood}`
+                  : event.borough
+                : event.city}
             </span>
           </div>
 

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Borough, Category } from '../domain/event';
+import type { Borough, Category, Event } from '../domain/event';
 import { useEvents } from './useEvents';
+import { useArchive } from './useArchive';
 import { useTheme } from './useTheme';
 import { useBookmarks } from './useBookmarks';
 import { useGeolocation } from './useGeolocation';
@@ -17,6 +18,9 @@ import { FilterDropdown } from './FilterDropdown';
 
 /** Cards rendered per page — keeps initial paint fast on large result sets. */
 const PAGE_SIZE = 60;
+
+/** Stable empty array so memo dependencies don't churn before data loads. */
+const EMPTY_EVENTS: Event[] = [];
 
 const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const DATE_WINDOWS: { key: DateWindow; label: string }[] = [
@@ -63,6 +67,7 @@ export function App() {
   const { saved, toggle: toggleSave } = useBookmarks();
   const { geo, request: requestGeo } = useGeolocation();
   const { searches, save: saveSearch, remove: removeSearch, markSeen } = useSavedSearches();
+  const { archive, loadArchive } = useArchive();
 
   // Today's date in NYC, used to evaluate the date-window filter.
   const today = useMemo(
@@ -95,8 +100,27 @@ export function App() {
   const [selectedVenue, setSelectedVenue] = useState<string | null>(
     () => new URLSearchParams(window.location.search).get('venue'),
   );
+  // Selected city (NYC by default); non-NYC cities live in the lazy-loaded archive.
+  const [city, setCity] = useState<string>(
+    () => new URLSearchParams(window.location.search).get('city') || 'New York',
+  );
 
-  const allEvents = state.status === 'ready' ? state.payload.events : [];
+  const liveEvents = state.status === 'ready' ? state.payload.events : EMPTY_EVENTS;
+  const archiveEvents = archive.status === 'ready' ? archive.events : EMPTY_EVENTS;
+  const cities = state.status === 'ready' ? (state.payload.cities ?? ['New York']) : ['New York'];
+
+  // Non-NYC cities + "All" live in archive.json — fetch it once, on demand.
+  useEffect(() => {
+    if (city !== 'New York') loadArchive();
+  }, [city, loadArchive]);
+
+  // The event set for the selected city: NYC from the live file, other cities from
+  // the archive, "All" merges both.
+  const allEvents = useMemo(() => {
+    if (city === 'New York') return liveEvents;
+    if (city === 'All') return [...liveEvents, ...archiveEvents];
+    return archiveEvents.filter((e) => (e.city ?? 'New York') === city);
+  }, [city, liveEvents, archiveEvents]);
 
   // Auto-request geolocation when the "Nearest" sort is active.
   useEffect(() => {
@@ -109,10 +133,11 @@ export function App() {
     const p = qs ? new URLSearchParams(qs) : new URLSearchParams();
     if (selectedEventId) p.set('event', selectedEventId);
     if (selectedVenue) p.set('venue', selectedVenue);
+    if (city !== 'New York') p.set('city', city);
     const str = p.toString();
     const url = `${window.location.pathname}${str ? `?${str}` : ''}`;
     window.history.replaceState(null, '', url);
-  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId, selectedVenue]);
+  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId, selectedVenue, city]);
 
   // Copy the current (filtered) view's URL so it can be shared with a friend.
   function copyLink() {
@@ -129,6 +154,13 @@ export function App() {
   // stale neighborhood briefly filters the new borough to an empty set.
   function selectBorough(next: Borough | 'All') {
     setBorough(next);
+    setNeighborhoods([]);
+  }
+
+  // Switching city resets the NYC-only borough/neighborhood sub-filters.
+  function selectCity(next: string) {
+    setCity(next);
+    setBorough('All');
     setNeighborhoods([]);
   }
 
@@ -364,50 +396,69 @@ export function App() {
         </div>
       </header>
 
-      <nav className="tabs" aria-label="Filter by borough">
-        <button
-          className={`tab ${borough === 'All' ? 'tab--active' : ''}`}
-          aria-pressed={borough === 'All'}
-          onClick={() => selectBorough('All')}
-        >
-          All boroughs
-        </button>
-        {BOROUGHS.map((b) => (
-          <button
-            key={b}
-            className={`tab ${borough === b ? 'tab--active' : ''}`}
-            aria-pressed={borough === b}
-            onClick={() => selectBorough(b)}
-          >
-            {b}
-          </button>
-        ))}
-      </nav>
-
-      {borough !== 'All' && hoodOptions.length > 0 && (
-        <nav className="hoods" aria-label={`Filter by neighborhood in ${borough}`}>
-          <button
-            className={`hood ${neighborhoods.length === 0 ? 'hood--active' : ''}`}
-            aria-pressed={neighborhoods.length === 0}
-            onClick={() => setNeighborhoods([])}
-          >
-            All {borough}
-          </button>
-          {hoodOptions.map((n) => (
+      {cities.length > 1 && (
+        <nav className="cities" aria-label="Select city">
+          {[...cities, 'All'].map((c) => (
             <button
-              key={n}
-              className={`hood ${neighborhoods.includes(n) ? 'hood--active' : ''}`}
-              aria-pressed={neighborhoods.includes(n)}
-              onClick={() =>
-                setNeighborhoods((prev) =>
-                  prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n],
-                )
-              }
+              key={c}
+              className={`city-tab ${city === c ? 'city-tab--active' : ''}`}
+              aria-pressed={city === c}
+              onClick={() => selectCity(c)}
             >
-              {n}
+              {c === 'All' ? 'All cities' : c}
             </button>
           ))}
         </nav>
+      )}
+
+      {city === 'New York' && (
+        <>
+          <nav className="tabs" aria-label="Filter by borough">
+            <button
+              className={`tab ${borough === 'All' ? 'tab--active' : ''}`}
+              aria-pressed={borough === 'All'}
+              onClick={() => selectBorough('All')}
+            >
+              All boroughs
+            </button>
+            {BOROUGHS.map((b) => (
+              <button
+                key={b}
+                className={`tab ${borough === b ? 'tab--active' : ''}`}
+                aria-pressed={borough === b}
+                onClick={() => selectBorough(b)}
+              >
+                {b}
+              </button>
+            ))}
+          </nav>
+
+          {borough !== 'All' && hoodOptions.length > 0 && (
+            <nav className="hoods" aria-label={`Filter by neighborhood in ${borough}`}>
+              <button
+                className={`hood ${neighborhoods.length === 0 ? 'hood--active' : ''}`}
+                aria-pressed={neighborhoods.length === 0}
+                onClick={() => setNeighborhoods([])}
+              >
+                All {borough}
+              </button>
+              {hoodOptions.map((n) => (
+                <button
+                  key={n}
+                  className={`hood ${neighborhoods.includes(n) ? 'hood--active' : ''}`}
+                  aria-pressed={neighborhoods.includes(n)}
+                  onClick={() =>
+                    setNeighborhoods((prev) =>
+                      prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n],
+                    )
+                  }
+                >
+                  {n}
+                </button>
+              ))}
+            </nav>
+          )}
+        </>
       )}
 
       <div className="toolbar">
@@ -473,7 +524,7 @@ export function App() {
             </div>
           </FilterDropdown>
 
-          {sourcesInData.length > 1 && (
+          {city === 'New York' && sourcesInData.length > 1 && (
             <FilterDropdown label="Source" activeCount={sources.length}>
               <div className="fdd__options">
                 <label className="fdd__option">
@@ -607,7 +658,13 @@ export function App() {
         {state.status === 'error' && (
           <p className="notice notice--error">Couldn't load events ({state.message}).</p>
         )}
-        {state.status === 'ready' && (
+        {state.status === 'ready' && city !== 'New York' && archive.status === 'loading' && (
+          <p className="notice">Loading {city === 'All' ? 'all' : city} events…</p>
+        )}
+        {state.status === 'ready' && city !== 'New York' && archive.status === 'error' && (
+          <p className="notice notice--error">Couldn't load events for {city}.</p>
+        )}
+        {state.status === 'ready' && (city === 'New York' || archive.status === 'ready') && (
           <>
             <div className="view-bar">
               <p className="results__count">
