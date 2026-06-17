@@ -84,9 +84,11 @@ export function EventCard({
               ? event.neighborhood
                 ? `${event.borough} · ${event.neighborhood}`
                 : event.borough
-              : event.state
-                ? `${event.city}, ${event.state}`
-                : event.city}
+              : event.neighborhood
+                ? `${event.city} · ${event.neighborhood}`
+                : event.state
+                  ? `${event.city}, ${event.state}`
+                  : event.city}
           </span>
         </div>
         <h3 className="card__title">

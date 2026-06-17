@@ -172,10 +172,24 @@ async function main(): Promise<void> {
     console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
   }
 
+  // Resolve neighborhoods for archived (other-city) events too, so the city →
+  // neighborhood drill works beyond NYC. This is thousands of reverse-geocodes the
+  // first time, so it's skipped on push runs — the shared cache is populated by
+  // cron/manual runs and carried forward to keep pushes fast.
+  let archiveOut = archive;
+  if (!onPush) {
+    archiveOut = await enrichWithNeighborhoods(archive, process.env.GOOGLE_MAPS_API_KEY);
+    if (process.env.GOOGLE_MAPS_API_KEY) {
+      console.log(
+        `  archive neighborhoods: ${archiveOut.filter((e) => e.neighborhood).length} of ${archiveOut.length} placed`,
+      );
+    }
+  }
+
   // State → cities present across the superset, so the UI's location selector
   // knows what's available without loading the archive. NY first; cities sorted.
   const byState = new Map<string, Map<string, number>>();
-  for (const e of [...live, ...archive]) {
+  for (const e of [...enriched, ...archiveOut]) {
     const st = eventState(e);
     const ci = eventCity(e);
     if (!byState.has(st)) byState.set(st, new Map<string, number>());
@@ -194,7 +208,7 @@ async function main(): Promise<void> {
   const payload = {
     generatedAt: nowIso,
     count: enriched.length,
-    archivedCount: archive.length,
+    archivedCount: archiveOut.length,
     places,
     sources: summarizeSources(enriched, succeededSources),
     events: enriched,
@@ -204,10 +218,10 @@ async function main(): Promise<void> {
   await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n');
   await writeFile(
     ARCHIVE_PATH,
-    JSON.stringify({ generatedAt: nowIso, count: archive.length, events: archive }, null, 2) + '\n',
+    JSON.stringify({ generatedAt: nowIso, count: archiveOut.length, events: archiveOut }, null, 2) + '\n',
   );
   console.log(
-    `Wrote ${enriched.length} live events to ${OUTPUT_PATH} + ${archive.length} archived to ${ARCHIVE_PATH}`,
+    `Wrote ${enriched.length} live events to ${OUTPUT_PATH} + ${archiveOut.length} archived to ${ARCHIVE_PATH}`,
   );
 }
 

@@ -231,6 +231,17 @@ export function App() {
     return [...set].sort();
   }, [allEvents, borough, categories, freeOnly, search, dateWindow, today, neighborhoods, sources]);
 
+  // Neighborhoods present in the selected non-NYC city (NYC uses the borough →
+  // neighborhood drill instead). Powers the city → neighborhood chip row.
+  const cityHoods = useMemo(() => {
+    if (stateFilter === 'All' || cityFilter === 'All') return [];
+    if (stateFilter === 'NY' && cityFilter === 'New York') return [];
+    const set = new Set<string>();
+    for (const e of allEvents) if (e.neighborhood) set.add(e.neighborhood);
+    for (const n of neighborhoods) set.add(n);
+    return [...set].sort();
+  }, [allEvents, stateFilter, cityFilter, neighborhoods]);
+
   // Memoized so its identity is stable across renders; otherwise a fresh object
   // literal each render would defeat the `visible` memo and re-sort every time.
   const userCoords = useMemo(
@@ -529,6 +540,32 @@ export function App() {
             </nav>
           )}
         </>
+      )}
+
+      {cityHoods.length > 1 && (
+        <nav className="hoods" aria-label={`Filter by neighborhood in ${cityFilter}`}>
+          <button
+            className={`hood ${neighborhoods.length === 0 ? 'hood--active' : ''}`}
+            aria-pressed={neighborhoods.length === 0}
+            onClick={() => setNeighborhoods([])}
+          >
+            All {cityFilter}
+          </button>
+          {cityHoods.map((n) => (
+            <button
+              key={n}
+              className={`hood ${neighborhoods.includes(n) ? 'hood--active' : ''}`}
+              aria-pressed={neighborhoods.includes(n)}
+              onClick={() =>
+                setNeighborhoods((prev) =>
+                  prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n],
+                )
+              }
+            >
+              {n}
+            </button>
+          ))}
+        </nav>
       )}
 
       <div className="toolbar">
