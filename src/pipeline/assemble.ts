@@ -12,6 +12,7 @@ import { normalizeCityParksEvent } from '../ingestion/cityParks';
 import { normalizeBplEvent } from '../ingestion/bpl';
 import { normalizeSeatGeekEvent } from '../ingestion/seatgeek';
 import { normalizeSongkickEvent } from '../ingestion/songkick';
+import { normalizeSerpApiEvent } from '../ingestion/serpapi';
 import { normalizeEventbriteEvent } from '../ingestion/eventbrite';
 import { normalizeResidentAdvisorEvent } from '../ingestion/residentAdvisor';
 
@@ -29,6 +30,7 @@ export type SourceName =
   | 'bpl'
   | 'seatgeek'
   | 'songkick'
+  | 'serpapi'
   | 'eventbrite'
   | 'resident-advisor';
 
@@ -52,6 +54,7 @@ const NORMALIZERS: Record<SourceName, (raw: any) => Event | null> = {
   bpl: normalizeBplEvent,
   seatgeek: normalizeSeatGeekEvent,
   songkick: normalizeSongkickEvent,
+  serpapi: normalizeSerpApiEvent,
   eventbrite: normalizeEventbriteEvent,
   'resident-advisor': normalizeResidentAdvisorEvent,
 };

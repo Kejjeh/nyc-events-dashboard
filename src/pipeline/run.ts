@@ -20,6 +20,7 @@ import {
   fetchParks,
   fetchResidentAdvisor,
   fetchSeatGeek,
+  fetchSerpApi,
   fetchSmalls,
   fetchSmorgasburg,
   fetchSongkick,
@@ -57,6 +58,14 @@ async function main(): Promise<void> {
   const nowIso = new Date().toISOString();
   console.log(`Refreshing events at ${nowIso}`);
 
+  // SerpAPI's free tier is 250 searches/month. The pipeline runs on every push
+  // (not just the 2x/day cron), so frequent dev pushes would burn the budget.
+  // Only spend quota on scheduled cron + manual dispatch; on push runs SerpAPI is
+  // skipped entirely (absent from succeededSources) so carry-forward keeps its
+  // last-good events. A local run (no GITHUB_EVENT_NAME) is treated as eligible.
+  const onPush = process.env.GITHUB_EVENT_NAME === 'push';
+  if (onPush) console.log('  (push run: skipping quota-limited SerpAPI; carrying its events forward)');
+
   const batches = (
     await Promise.all([
       settle('nyc-open-data', fetchNycOpenData(nowIso)),
@@ -74,6 +83,7 @@ async function main(): Promise<void> {
       settle('songkick', fetchSongkick(process.env.SONGKICK_API_KEY, nowIso)),
       settle('eventbrite', fetchEventbrite(nowIso)),
       settle('resident-advisor', fetchResidentAdvisor(nowIso)),
+      ...(onPush ? [] : [settle('serpapi', fetchSerpApi(process.env.SERPAPI_KEY, nowIso))]),
     ])
   ).filter((b): b is RawBatch => b !== null);
 

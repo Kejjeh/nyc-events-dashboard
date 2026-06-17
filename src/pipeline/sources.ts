@@ -542,6 +542,52 @@ export async function fetchSongkick(
   return { source: 'songkick', records };
 }
 
+/** SerpAPI Google-Events engine — gap-filling NYC events. Requires SERPAPI_KEY. */
+const SERPAPI_URL = 'https://serpapi.com/search.json';
+// One search each (free tier = 250/month). Chosen to fill gaps our concert- and
+// market-heavy sources miss, not to re-pull events we already have.
+const SERPAPI_QUERIES = [
+  'Comedy shows in New York',
+  'Family events in New York',
+  'Food festivals in New York',
+];
+
+/**
+ * Fetches NYC events from Google Events via SerpAPI. Returns an empty batch
+ * without a key. run.ts gates this to scheduled/manual runs (never on push) so
+ * frequent dev pushes don't burn the monthly search quota. Each record is tagged
+ * with its seeding query (`_q`) and `_nowIso` for the normalizer's category and
+ * year-inference logic. A failed query throws so carry-forward keeps last-good
+ * data rather than publishing a partial pull.
+ */
+export async function fetchSerpApi(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
+  if (!apiKey) return { source: 'serpapi', records: [] };
+
+  const records: any[] = [];
+  const seen = new Set<string>();
+  for (const q of SERPAPI_QUERIES) {
+    const params = new URLSearchParams({
+      engine: 'google_events',
+      q,
+      location: 'New York, New York, United States',
+      hl: 'en',
+      gl: 'us',
+      api_key: apiKey,
+    });
+    const res = await fetchWithRetry(`${SERPAPI_URL}?${params}`, { headers: { Accept: 'application/json' } });
+    if (!res.ok) throw new Error(`SerpAPI fetch failed: HTTP ${res.status}`);
+    const events = ((await res.json()) as any)?.events_results ?? [];
+    for (const e of events) {
+      const key = `${e?.title ?? ''}|${(e?.address ?? []).join(',')}`;
+      if (e?.title && !seen.has(key)) {
+        seen.add(key);
+        records.push({ ...e, _q: q, _nowIso: nowIso });
+      }
+    }
+  }
+  return { source: 'serpapi', records };
+}
+
 /**
  * Eventbrite NYC browse — scrapes the public event listing pages and extracts
  * the embedded `"events":[...]` array from the server-rendered HTML. No API

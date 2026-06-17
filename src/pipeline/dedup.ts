@@ -9,6 +9,7 @@ const TICKETING_SOURCES = new Set([
   'eventbrite',
   'resident-advisor',
   'songkick',
+  'serpapi',
 ]);
 
 function normalizeStr(s: string): string {
