@@ -25,8 +25,11 @@ export function normalizeTodayTixShow(raw: any): Event | null {
   const endDate = raw.endDate && raw.endDate !== 'null' ? raw.endDate.slice(0, 10) : null;
   if (endDate && endDate < today) return null; // run already ended
 
-  const runStart = raw.startDate?.slice(0, 10) ?? today;
-  const date = runStart > today ? runStart : today;
+  // startDate, like endDate, can arrive as the literal string "null" for
+  // open-ended runs — fall back to today so the show clamps to "now playing"
+  // instead of producing a "nullT…" start.
+  const rawStart = raw.startDate && raw.startDate !== 'null' ? raw.startDate.slice(0, 10) : null;
+  const date = rawStart && rawStart > today ? rawStart : today;
 
   const price = raw.lowPriceForRegularTickets?.value;
   const hasPrice = typeof price === 'number' && price > 0;

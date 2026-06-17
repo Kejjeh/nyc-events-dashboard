@@ -80,7 +80,9 @@ export function assembleEvents(batches: RawBatch[]): Event[] {
         // A single malformed record must never sink the whole refresh.
         continue;
       }
-      if (event && typeof event.start === 'string' && event.start.length >= 10) {
+      // Require a real ISO date prefix (not just length) so a malformed start
+      // like "nullT19:30:00" from any source is dropped rather than published.
+      if (event && typeof event.start === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(event.start)) {
         byId.set(event.id, event);
       }
     }

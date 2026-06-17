@@ -59,6 +59,11 @@ describe('normalizeTodayTixShow', () => {
     expect(event!.start).toBe('2026-06-14T19:30:00');
   });
 
+  it('clamps to today when startDate is the string "null" (no "nullT…" start)', () => {
+    const event = normalizeTodayTixShow({ ...base, startDate: 'null' });
+    expect(event!.start).toBe('2026-06-14T19:30:00');
+  });
+
   it('falls back to the TodayTix NYC page when the slug is missing', () => {
     const event = normalizeTodayTixShow({ ...base, slug: null });
     expect(event!.url).toBe('https://www.todaytix.com/nyc');
