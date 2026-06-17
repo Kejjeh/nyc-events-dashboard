@@ -28,7 +28,9 @@ const STATE_NAMES: Record<string, string> = {
   MA: 'Massachusetts', PA: 'Pennsylvania', MD: 'Maryland', DE: 'Delaware',
   DC: 'Washington DC', VA: 'Virginia', NH: 'New Hampshire', VT: 'Vermont', ME: 'Maine',
 };
-const DEFAULT_PLACES = [{ state: 'NY', cities: ['New York'] }];
+const DEFAULT_PLACES = [{ state: 'NY', cities: [{ name: 'New York', count: 0 }] }];
+/** Max city chips shown per state; the long tail is reachable via "All <state>". */
+const CITY_CHIP_CAP = 24;
 
 const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const DATE_WINDOWS: { key: DateWindow; label: string }[] = [
@@ -125,6 +127,16 @@ export function App() {
     () => places.find((p) => p.state === stateFilter)?.cities ?? [],
     [places, stateFilter],
   );
+  // Top cities by event count for the chip drill-down; always keep the selected
+  // one visible even if it's in the long tail.
+  const cityChips = useMemo(() => {
+    const top = stateCities.slice(0, CITY_CHIP_CAP);
+    if (cityFilter !== 'All' && !top.some((c) => c.name === cityFilter)) {
+      const sel = stateCities.find((c) => c.name === cityFilter);
+      if (sel) return [...top, sel];
+    }
+    return top;
+  }, [stateCities, cityFilter]);
 
   // Only the NYC default lives entirely in the live file; anything else needs the archive.
   const isNycDefault = stateFilter === 'NY' && cityFilter === 'New York';
@@ -447,6 +459,28 @@ export function App() {
         </nav>
       )}
 
+      {stateFilter !== 'All' && cityChips.length > 1 && (
+        <nav className="hoods" aria-label={`Select a city in ${STATE_NAMES[stateFilter] ?? stateFilter}`}>
+          <button
+            className={`hood ${cityFilter === 'All' ? 'hood--active' : ''}`}
+            aria-pressed={cityFilter === 'All'}
+            onClick={() => selectCityFilter('All')}
+          >
+            All {STATE_NAMES[stateFilter] ?? stateFilter}
+          </button>
+          {cityChips.map((c) => (
+            <button
+              key={c.name}
+              className={`hood ${cityFilter === c.name ? 'hood--active' : ''}`}
+              aria-pressed={cityFilter === c.name}
+              onClick={() => selectCityFilter(c.name)}
+            >
+              {c.name}
+            </button>
+          ))}
+        </nav>
+      )}
+
       {stateFilter === 'NY' && cityFilter === 'New York' && (
         <>
           <nav className="tabs" aria-label="Filter by borough">
@@ -509,36 +543,6 @@ export function App() {
         </div>
 
         <div className={`toolbar__filters ${filtersOpen ? 'toolbar__filters--open' : ''}`}>
-          {stateFilter !== 'All' && stateCities.length > 1 && (
-            <FilterDropdown
-              label={`City: ${cityFilter === 'All' ? 'All' : cityFilter}`}
-              activeCount={cityFilter !== 'All' ? 1 : 0}
-            >
-              <div className="fdd__options">
-                <label className="fdd__option">
-                  <input
-                    type="radio"
-                    name="cityFilter"
-                    checked={cityFilter === 'All'}
-                    onChange={() => selectCityFilter('All')}
-                  />
-                  All cities in {STATE_NAMES[stateFilter] ?? stateFilter}
-                </label>
-                {stateCities.map((c) => (
-                  <label key={c} className="fdd__option">
-                    <input
-                      type="radio"
-                      name="cityFilter"
-                      checked={cityFilter === c}
-                      onChange={() => selectCityFilter(c)}
-                    />
-                    {c}
-                  </label>
-                ))}
-              </div>
-            </FilterDropdown>
-          )}
-
           <FilterDropdown label="Date" activeCount={dateWindow !== 'all' ? 1 : 0}>
             <div className="fdd__options">
               {DATE_WINDOWS.map((d) => (

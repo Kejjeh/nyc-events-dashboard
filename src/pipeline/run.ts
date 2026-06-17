@@ -174,14 +174,21 @@ async function main(): Promise<void> {
 
   // State → cities present across the superset, so the UI's location selector
   // knows what's available without loading the archive. NY first; cities sorted.
-  const byState = new Map<string, Set<string>>();
+  const byState = new Map<string, Map<string, number>>();
   for (const e of [...live, ...archive]) {
     const st = eventState(e);
-    if (!byState.has(st)) byState.set(st, new Set<string>());
-    byState.get(st)!.add(eventCity(e));
+    const ci = eventCity(e);
+    if (!byState.has(st)) byState.set(st, new Map<string, number>());
+    const m = byState.get(st)!;
+    m.set(ci, (m.get(ci) ?? 0) + 1);
   }
   const places = [...byState.entries()]
-    .map(([state, citySet]) => ({ state, cities: [...citySet].sort() }))
+    .map(([state, cityMap]) => ({
+      state,
+      cities: [...cityMap.entries()]
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count),
+    }))
     .sort((a, b) => (a.state === 'NY' ? -1 : b.state === 'NY' ? 1 : a.state.localeCompare(b.state)));
 
   const payload = {
