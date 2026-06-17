@@ -79,7 +79,9 @@ export function EventModal({
                 ? event.neighborhood
                   ? `${event.borough} · ${event.neighborhood}`
                   : event.borough
-                : event.city}
+                : event.state
+                  ? `${event.city}, ${event.state}`
+                  : event.city}
             </span>
           </div>
 

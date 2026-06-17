@@ -10,6 +10,11 @@ export function eventCity(e: Event): string {
   return e.city ?? 'New York';
 }
 
+/** The two-letter state an event is in; NYC-only sources default to NY. */
+export function eventState(e: Event): string {
+  return e.state ?? 'NY';
+}
+
 /**
  * Splits the carried-forward superset into the live board (`events.json`) and the
  * offline archive (`archive.json`). An event is live when it's in a live city AND

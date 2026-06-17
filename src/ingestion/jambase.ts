@@ -1,4 +1,4 @@
-import type { Event } from '../domain/event';
+import type { Borough, Event } from '../domain/event';
 import { localityFromLatLng } from './locality';
 import { neighborhoodFromLatLng } from './neighborhood';
 
@@ -20,11 +20,31 @@ export function normalizeJamBaseEvent(raw: any): Event | null {
   const lon = Number(loc?.geo?.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
 
+  // NYC stays polygon-precise (borough + neighborhood). Other cities/states come
+  // straight from JamBase's venue address, which lets us capture the whole region
+  // — not just the handful of metros the locality resolver knows.
   const place = localityFromLatLng(lat, lon);
-  if (!place) return null;
-  const neighborhood = place.borough
-    ? (neighborhoodFromLatLng(lat, lon, place.borough) ?? undefined)
-    : undefined;
+  const addr = (loc?.address ?? {}) as any;
+  const region = (addr?.addressRegion ?? {}) as any;
+  const stateAbbr =
+    (typeof region?.alternateName === 'string' && region.alternateName) ||
+    (typeof region?.identifier === 'string' ? region.identifier.replace(/^US-/, '') : '') ||
+    undefined;
+
+  let city: string;
+  let borough: Borough | undefined;
+  let neighborhood: string | undefined;
+  let state: string | undefined;
+  if (place?.borough) {
+    city = 'New York';
+    borough = place.borough;
+    state = 'NY';
+    neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  } else {
+    city = place?.city || (typeof addr?.addressLocality === 'string' ? addr.addressLocality.trim() : '');
+    state = stateAbbr;
+  }
+  if (!city) return null;
 
   const startRaw = typeof raw?.startDate === 'string' ? raw.startDate : '';
   if (!startRaw) return null;
@@ -41,8 +61,9 @@ export function normalizeJamBaseEvent(raw: any): Event | null {
     id,
     title,
     category: 'music',
-    city: place.city,
-    ...(place.borough && { borough: place.borough }),
+    city,
+    ...(state && { state }),
+    ...(borough && { borough }),
     ...(neighborhood && { neighborhood }),
     venue: (typeof loc?.name === 'string' && loc.name) || 'Venue',
     start,

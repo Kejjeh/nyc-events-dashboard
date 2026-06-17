@@ -5,7 +5,7 @@ import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import { deduplicateEvents } from './dedup';
-import { partitionEvents, eventCity } from './partition';
+import { partitionEvents, eventCity, eventState } from './partition';
 import { summarizeSources } from './sourceSummary';
 import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
 import { enrichWithWeather } from './weatherEnrich';
@@ -67,7 +67,7 @@ async function main(): Promise<void> {
   // skipped entirely (absent from succeededSources) so carry-forward keeps its
   // last-good events. A local run (no GITHUB_EVENT_NAME) is treated as eligible.
   const onPush = process.env.GITHUB_EVENT_NAME === 'push';
-  if (onPush) console.log('  (push run: skipping quota-limited SerpAPI; carrying its events forward)');
+  if (onPush) console.log('  (push run: skipping high-volume SerpAPI + JamBase; carrying their events forward)');
 
   const batches = (
     await Promise.all([
@@ -84,10 +84,14 @@ async function main(): Promise<void> {
       settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
       settle('seatgeek', fetchSeatGeek(process.env.SEATGEEK_CLIENT_ID)),
       settle('songkick', fetchSongkick(process.env.SONGKICK_API_KEY, nowIso)),
-      settle('jambase', fetchJamBase(process.env.JAMBASE_API_KEY, nowIso)),
       settle('eventbrite', fetchEventbrite(nowIso)),
       settle('resident-advisor', fetchResidentAdvisor(nowIso)),
-      ...(onPush ? [] : [settle('serpapi', fetchSerpApi(process.env.SERPAPI_KEY, nowIso))]),
+      ...(onPush
+        ? []
+        : [
+            settle('serpapi', fetchSerpApi(process.env.SERPAPI_KEY, nowIso)),
+            settle('jambase', fetchJamBase(process.env.JAMBASE_API_KEY, nowIso)),
+          ]),
     ])
   ).filter((b): b is RawBatch => b !== null);
 
@@ -168,17 +172,23 @@ async function main(): Promise<void> {
     console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
   }
 
-  // Cities present across the whole superset, so the UI's city selector knows
-  // what's available (the non-NYC ones live in archive.json, lazy-loaded on pick).
-  const cities = [...new Set([...live, ...archive].map(eventCity))].sort((a, b) =>
-    a === 'New York' ? -1 : b === 'New York' ? 1 : a.localeCompare(b),
-  );
+  // State → cities present across the superset, so the UI's location selector
+  // knows what's available without loading the archive. NY first; cities sorted.
+  const byState = new Map<string, Set<string>>();
+  for (const e of [...live, ...archive]) {
+    const st = eventState(e);
+    if (!byState.has(st)) byState.set(st, new Set<string>());
+    byState.get(st)!.add(eventCity(e));
+  }
+  const places = [...byState.entries()]
+    .map(([state, citySet]) => ({ state, cities: [...citySet].sort() }))
+    .sort((a, b) => (a.state === 'NY' ? -1 : b.state === 'NY' ? 1 : a.state.localeCompare(b.state)));
 
   const payload = {
     generatedAt: nowIso,
     count: enriched.length,
     archivedCount: archive.length,
-    cities,
+    places,
     sources: summarizeSources(enriched, succeededSources),
     events: enriched,
   };

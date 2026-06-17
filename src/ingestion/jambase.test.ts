@@ -31,6 +31,7 @@ describe('normalizeJamBaseEvent', () => {
       title: 'Rosalía',
       category: 'music',
       city: 'New York',
+      state: 'NY',
       borough: 'Manhattan',
       neighborhood: 'West Village',
       venue: 'The Venue',
@@ -44,15 +45,35 @@ describe('normalizeJamBaseEvent', () => {
     });
   });
 
-  it('captures a non-NYC metro (Boston) with a city and no borough', () => {
+  it('captures a non-NYC metro (Boston) with a city + state and no borough', () => {
     const event = normalizeJamBaseEvent({
       ...concert,
-      location: { name: 'Boston Venue', geo: { latitude: 42.3601, longitude: -71.0589 } },
+      location: {
+        name: 'Boston Venue',
+        geo: { latitude: 42.3601, longitude: -71.0589 },
+        address: { addressRegion: { alternateName: 'MA' } },
+      },
     })!;
     expect(event.city).toBe('Boston');
+    expect(event.state).toBe('MA');
     expect(event.borough).toBeUndefined();
     expect(event.neighborhood).toBeUndefined();
     expect(event.venue).toBe('Boston Venue');
+  });
+
+  it('captures a non-metro city + state straight from the venue address', () => {
+    const event = normalizeJamBaseEvent({
+      ...concert,
+      location: {
+        name: 'The Palladium',
+        geo: { latitude: 42.2626, longitude: -71.8023 },
+        address: { addressLocality: 'Worcester', addressRegion: { identifier: 'US-MA', alternateName: 'MA' } },
+      },
+    })!;
+    expect(event.city).toBe('Worcester');
+    expect(event.state).toBe('MA');
+    expect(event.borough).toBeUndefined();
+    expect(event.venue).toBe('The Palladium');
   });
 
   it('maps isAccessibleForFree to isFree', () => {
@@ -69,11 +90,11 @@ describe('normalizeJamBaseEvent', () => {
     ).toBeNull();
   });
 
-  it('drops venues outside the four boroughs (Staten Island)', () => {
+  it('drops an event with no resolvable city (no borough, no address locality)', () => {
     expect(
       normalizeJamBaseEvent({
         ...concert,
-        location: { name: 'SI', geo: { latitude: 40.5795, longitude: -74.1502 } },
+        location: { name: 'Nowhere', geo: { latitude: 40.5795, longitude: -74.1502 } },
       }),
     ).toBeNull();
   });

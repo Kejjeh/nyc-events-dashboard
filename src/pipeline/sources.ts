@@ -552,32 +552,26 @@ export async function fetchSongkick(
   return { source: 'songkick', records };
 }
 
-/** JamBase Data API v3 — deep Northeast concert pull. Requires JAMBASE_API_KEY. */
+/** JamBase Data API v3 — deep concert pull by state. Requires JAMBASE_API_KEY. */
 const JAMBASE_URL = 'https://api.data.jambase.com/v3/events';
-// Northeast metros to capture. The trial key is short-lived, so we pull a deep
-// window across all of them and bank it — carry-forward plus the offline archive
-// preserve every captured show after the key lapses (each ages out as its date
-// passes). The locality resolver does the precise city/borough assignment; the
-// pipeline partitions NYC near-term to the live board and the rest to the archive.
-const JAMBASE_CITIES: { lat: number; lon: number; radiusMi: number }[] = [
-  { lat: 40.7128, lon: -74.006, radiusMi: 20 },  // New York
-  { lat: 39.9526, lon: -75.1652, radiusMi: 25 }, // Philadelphia
-  { lat: 38.9072, lon: -77.0369, radiusMi: 25 }, // Washington DC
-  { lat: 42.3601, lon: -71.0589, radiusMi: 25 }, // Boston
-  { lat: 39.2904, lon: -76.6122, radiusMi: 22 }, // Baltimore
-  { lat: 42.6526, lon: -73.7562, radiusMi: 22 }, // Albany
-  { lat: 41.3083, lon: -72.9279, radiusMi: 20 }, // New Haven
-  { lat: 41.824, lon: -71.4128, radiusMi: 20 },  // Providence
+// Whole-state queries (geoStateIso) across the Northeast Corridor + regional-rail
+// states. The trial key is short-lived, so we pull a deep window across all of
+// them and bank it — carry-forward plus the offline archive preserve every
+// captured show after the key lapses. The normalizer reads city/state from each
+// venue's address, so the entire state is captured, not just a few metros.
+const JAMBASE_STATES = [
+  'US-NY', 'US-NJ', 'US-CT', 'US-RI', 'US-MA', 'US-PA', 'US-MD',
+  'US-DE', 'US-DC', 'US-VA', 'US-NH', 'US-VT', 'US-ME',
 ];
 const JAMBASE_WINDOW_DAYS = 270;
-const JAMBASE_MAX_PAGES = 35; // perPage=100; NYC alone is ~30 pages over this window
+const JAMBASE_MAX_PAGES = 45; // perPage=100; NY alone is ~41 pages over this window
 
 /**
- * Fetches upcoming Northeast concerts from JamBase across several metros.
- * Returns an empty batch without a key. JamBase supplies venue coordinates, so
- * the normalizer resolves city/borough directly. Events are deduped by JamBase
- * id across overlapping metro radii (e.g. DC/Baltimore). A failed page throws so
- * carry-forward keeps the last-good banked superset.
+ * Fetches upcoming concerts from JamBase across the Northeast/rail-corridor
+ * states. Returns an empty batch without a key. Events are deduped by JamBase id
+ * across state borders. A failed page throws so carry-forward keeps the last-good
+ * banked superset. run.ts gates this to scheduled/manual runs (not push) given
+ * the request volume.
  */
 export async function fetchJamBase(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
   if (!apiKey) return { source: 'jambase', records: [] };
@@ -587,13 +581,10 @@ export async function fetchJamBase(apiKey: string | undefined, nowIso: string): 
     new Date(new Date(nowIso).getTime() + JAMBASE_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString(),
   );
   const byId = new Map<string, any>();
-  for (const c of JAMBASE_CITIES) {
+  for (const stateIso of JAMBASE_STATES) {
     for (let page = 1; page <= JAMBASE_MAX_PAGES; page++) {
       const params = new URLSearchParams({
-        geoLatitude: String(c.lat),
-        geoLongitude: String(c.lon),
-        geoRadiusAmount: String(c.radiusMi),
-        geoRadiusUnits: 'mi',
+        geoStateIso: stateIso,
         eventDateFrom: from,
         eventDateTo: to,
         perPage: '100',

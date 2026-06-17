@@ -48,7 +48,11 @@ export function VenueModal({
       ? first.neighborhood
         ? `${first.borough} · ${first.neighborhood}`
         : first.borough
-      : (first.city ?? '')
+      : first.city
+        ? first.state
+          ? `${first.city}, ${first.state}`
+          : first.city
+        : ''
     : '';
   const located = events.find((e) => e.lat != null && e.lon != null);
 

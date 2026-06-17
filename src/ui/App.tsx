@@ -22,6 +22,14 @@ const PAGE_SIZE = 60;
 /** Stable empty array so memo dependencies don't churn before data loads. */
 const EMPTY_EVENTS: Event[] = [];
 
+/** Two-letter state → display name for the location selector. */
+const STATE_NAMES: Record<string, string> = {
+  NY: 'New York', NJ: 'New Jersey', CT: 'Connecticut', RI: 'Rhode Island',
+  MA: 'Massachusetts', PA: 'Pennsylvania', MD: 'Maryland', DE: 'Delaware',
+  DC: 'Washington DC', VA: 'Virginia', NH: 'New Hampshire', VT: 'Vermont', ME: 'Maine',
+};
+const DEFAULT_PLACES = [{ state: 'NY', cities: ['New York'] }];
+
 const BOROUGHS: Borough[] = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx'];
 const DATE_WINDOWS: { key: DateWindow; label: string }[] = [
   { key: 'all', label: 'Any date' },
@@ -100,27 +108,41 @@ export function App() {
   const [selectedVenue, setSelectedVenue] = useState<string | null>(
     () => new URLSearchParams(window.location.search).get('venue'),
   );
-  // Selected city (NYC by default); non-NYC cities live in the lazy-loaded archive.
-  const [city, setCity] = useState<string>(
-    () => new URLSearchParams(window.location.search).get('city') || 'New York',
+  // Selected location: a state (NY default) + a city within it. The NYC default
+  // (NY + New York) uses only the lean live file; everything else lazy-loads the archive.
+  const [stateFilter, setStateFilter] = useState<string>(
+    () => new URLSearchParams(window.location.search).get('state') || 'NY',
   );
+  const [cityFilter, setCityFilter] = useState<string>(() => {
+    const sp = new URLSearchParams(window.location.search);
+    return sp.get('city') || ((sp.get('state') || 'NY') === 'NY' ? 'New York' : 'All');
+  });
 
   const liveEvents = state.status === 'ready' ? state.payload.events : EMPTY_EVENTS;
   const archiveEvents = archive.status === 'ready' ? archive.events : EMPTY_EVENTS;
-  const cities = state.status === 'ready' ? (state.payload.cities ?? ['New York']) : ['New York'];
+  const places = state.status === 'ready' ? (state.payload.places ?? DEFAULT_PLACES) : DEFAULT_PLACES;
+  const stateCities = useMemo(
+    () => places.find((p) => p.state === stateFilter)?.cities ?? [],
+    [places, stateFilter],
+  );
 
-  // Non-NYC cities + "All" live in archive.json — fetch it once, on demand.
+  // Only the NYC default lives entirely in the live file; anything else needs the archive.
+  const isNycDefault = stateFilter === 'NY' && cityFilter === 'New York';
   useEffect(() => {
-    if (city !== 'New York') loadArchive();
-  }, [city, loadArchive]);
+    if (!isNycDefault) loadArchive();
+  }, [isNycDefault, loadArchive]);
 
-  // The event set for the selected city: NYC from the live file, other cities from
-  // the archive, "All" merges both.
+  // The event set for the selected state + city. NYC default = live file only;
+  // otherwise filter the full superset by state and (optionally) city.
   const allEvents = useMemo(() => {
-    if (city === 'New York') return liveEvents;
-    if (city === 'All') return [...liveEvents, ...archiveEvents];
-    return archiveEvents.filter((e) => (e.city ?? 'New York') === city);
-  }, [city, liveEvents, archiveEvents]);
+    if (isNycDefault) return liveEvents;
+    const pool = [...liveEvents, ...archiveEvents];
+    return pool.filter((e) => {
+      if (stateFilter !== 'All' && (e.state ?? 'NY') !== stateFilter) return false;
+      if (cityFilter !== 'All' && (e.city ?? 'New York') !== cityFilter) return false;
+      return true;
+    });
+  }, [isNycDefault, stateFilter, cityFilter, liveEvents, archiveEvents]);
 
   // Auto-request geolocation when the "Nearest" sort is active.
   useEffect(() => {
@@ -133,11 +155,12 @@ export function App() {
     const p = qs ? new URLSearchParams(qs) : new URLSearchParams();
     if (selectedEventId) p.set('event', selectedEventId);
     if (selectedVenue) p.set('venue', selectedVenue);
-    if (city !== 'New York') p.set('city', city);
+    if (stateFilter !== 'NY') p.set('state', stateFilter);
+    if (cityFilter !== (stateFilter === 'NY' ? 'New York' : 'All')) p.set('city', cityFilter);
     const str = p.toString();
     const url = `${window.location.pathname}${str ? `?${str}` : ''}`;
     window.history.replaceState(null, '', url);
-  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId, selectedVenue, city]);
+  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId, selectedVenue, stateFilter, cityFilter]);
 
   // Copy the current (filtered) view's URL so it can be shared with a friend.
   function copyLink() {
@@ -157,9 +180,15 @@ export function App() {
     setNeighborhoods([]);
   }
 
-  // Switching city resets the NYC-only borough/neighborhood sub-filters.
-  function selectCity(next: string) {
-    setCity(next);
+  // Switching location resets the NYC-only borough/neighborhood sub-filters.
+  function selectState(next: string) {
+    setStateFilter(next);
+    setCityFilter(next === 'NY' ? 'New York' : 'All');
+    setBorough('All');
+    setNeighborhoods([]);
+  }
+  function selectCityFilter(next: string) {
+    setCityFilter(next);
     setBorough('All');
     setNeighborhoods([]);
   }
@@ -396,22 +425,29 @@ export function App() {
         </div>
       </header>
 
-      {cities.length > 1 && (
-        <nav className="cities" aria-label="Select city">
-          {[...cities, 'All'].map((c) => (
+      {places.length > 1 && (
+        <nav className="cities" aria-label="Select state">
+          {places.map((p) => (
             <button
-              key={c}
-              className={`city-tab ${city === c ? 'city-tab--active' : ''}`}
-              aria-pressed={city === c}
-              onClick={() => selectCity(c)}
+              key={p.state}
+              className={`city-tab ${stateFilter === p.state ? 'city-tab--active' : ''}`}
+              aria-pressed={stateFilter === p.state}
+              onClick={() => selectState(p.state)}
             >
-              {c === 'All' ? 'All cities' : c}
+              {STATE_NAMES[p.state] ?? p.state}
             </button>
           ))}
+          <button
+            className={`city-tab ${stateFilter === 'All' ? 'city-tab--active' : ''}`}
+            aria-pressed={stateFilter === 'All'}
+            onClick={() => selectState('All')}
+          >
+            All states
+          </button>
         </nav>
       )}
 
-      {city === 'New York' && (
+      {stateFilter === 'NY' && cityFilter === 'New York' && (
         <>
           <nav className="tabs" aria-label="Filter by borough">
             <button
@@ -473,6 +509,36 @@ export function App() {
         </div>
 
         <div className={`toolbar__filters ${filtersOpen ? 'toolbar__filters--open' : ''}`}>
+          {stateFilter !== 'All' && stateCities.length > 1 && (
+            <FilterDropdown
+              label={`City: ${cityFilter === 'All' ? 'All' : cityFilter}`}
+              activeCount={cityFilter !== 'All' ? 1 : 0}
+            >
+              <div className="fdd__options">
+                <label className="fdd__option">
+                  <input
+                    type="radio"
+                    name="cityFilter"
+                    checked={cityFilter === 'All'}
+                    onChange={() => selectCityFilter('All')}
+                  />
+                  All cities in {STATE_NAMES[stateFilter] ?? stateFilter}
+                </label>
+                {stateCities.map((c) => (
+                  <label key={c} className="fdd__option">
+                    <input
+                      type="radio"
+                      name="cityFilter"
+                      checked={cityFilter === c}
+                      onChange={() => selectCityFilter(c)}
+                    />
+                    {c}
+                  </label>
+                ))}
+              </div>
+            </FilterDropdown>
+          )}
+
           <FilterDropdown label="Date" activeCount={dateWindow !== 'all' ? 1 : 0}>
             <div className="fdd__options">
               {DATE_WINDOWS.map((d) => (
@@ -524,7 +590,7 @@ export function App() {
             </div>
           </FilterDropdown>
 
-          {city === 'New York' && sourcesInData.length > 1 && (
+          {stateFilter === 'NY' && cityFilter === 'New York' && sourcesInData.length > 1 && (
             <FilterDropdown label="Source" activeCount={sources.length}>
               <div className="fdd__options">
                 <label className="fdd__option">
@@ -658,13 +724,13 @@ export function App() {
         {state.status === 'error' && (
           <p className="notice notice--error">Couldn't load events ({state.message}).</p>
         )}
-        {state.status === 'ready' && city !== 'New York' && archive.status === 'loading' && (
-          <p className="notice">Loading {city === 'All' ? 'all' : city} events…</p>
+        {state.status === 'ready' && !isNycDefault && archive.status === 'loading' && (
+          <p className="notice">Loading events…</p>
         )}
-        {state.status === 'ready' && city !== 'New York' && archive.status === 'error' && (
-          <p className="notice notice--error">Couldn't load events for {city}.</p>
+        {state.status === 'ready' && !isNycDefault && archive.status === 'error' && (
+          <p className="notice notice--error">Couldn't load archived events.</p>
         )}
-        {state.status === 'ready' && (city === 'New York' || archive.status === 'ready') && (
+        {state.status === 'ready' && (isNycDefault || archive.status === 'ready') && (
           <>
             <div className="view-bar">
               <p className="results__count">
