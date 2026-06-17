@@ -164,9 +164,44 @@ Two uses: **(a)** geocode venue addresses for the coverage lift; **(b)** attach
 - **Caveat:** **artist-centric** — query by artist name, not "all NYC shows."
   Worth it only if we maintain a watchlist of artists/venues to poll.
 
-### 11. JamBase — evaluation only
-- Free trial then paid. Good structured **festival** data, but treat as
-  evaluation-only unless you decide to pay. Not part of the free plan.
+### 11. JamBase — ACTIVE (⏳ trial, expires ~2026-06-30)
+> ⚠️ **The JamBase key is a 14-day trial** ("no credit card — start now, upgrade
+> anytime"). When it lapses the key goes **inactive**. **Renew or replace
+> `JAMBASE_API_KEY` by ~June 30, 2026**, or JamBase stops adding fresh concerts.
+
+- **API:** `https://api.data.jambase.com/v3/events`, `Authorization: Bearer <key>`.
+  Generous limit (3,600 req/hour), `perPage=100`, **returns venue coordinates**
+  (no geocoding needed). ~2,800 NYC concerts in a 90-day window.
+- **Secret:** `JAMBASE_API_KEY` (a `jbd_trial_…` token — stored in Actions
+  secrets only, never committed). Wired in `sources.ts` (`fetchJamBase`),
+  `assemble.ts`, `run.ts`, `deploy.yml`; normalizer `src/ingestion/jambase.ts`.
+- **Front-loading (how a 14-day key buys ~4 months of coverage):** the pipeline
+  **carries forward events from any source that later fails.** Once the trial
+  dies, every concert already captured stays in the dataset and ages out as its
+  date passes — JamBase just stops *adding* new ones. So we pull a **deep 120-day
+  forward window** (`JAMBASE_WINDOW_DAYS`, up to ~2,500 shows, ~25 paginated
+  calls) on **every run**, banking months of inventory now.
+- **After expiry:** `fetchJamBase` fails each run (logged) and carry-forward keeps
+  re-publishing the banked window (minus past dates). Correctness is fine with no
+  action. To resume fresh concerts, renew the key. To silence the per-run failure
+  log, remove the `jambase` wiring until a new key exists.
+- **Dedup:** `jambase` is in the cross-source dedup set — it overlaps with
+  Ticketmaster/SeatGeek/DICE/Songkick, so duplicates collapse and the net gain is
+  the long tail of smaller venues.
+
+### 12. SerpAPI — Google Events (ACTIVE, persistent free tier)
+- **Plan:** free **250 searches/month — does not expire** (unlike JamBase's trial).
+- **Secret:** `SERPAPI_KEY`. Normalizer `src/ingestion/serpapi.ts`.
+- **Spend:** 3 gap-filling queries/run (comedy, family, food festivals), one
+  search each. **Skipped on `push` events** (`run.ts` checks `GITHUB_EVENT_NAME`)
+  so dev pushes don't burn the quota — only cron + manual dispatch spend it.
+  ≈ 3 × ~60 cron runs = **~180/month**, under the 250 cap.
+- **Geo:** address-only, so `serpapi` is a geocodeable source; the geocode stage
+  resolves coordinates + neighborhood.
+
+> Full operational detail for the active keyed sources lives alongside this file's
+> intent in the per-source sections above; secrets are managed with
+> `gh secret set <NAME> --body "<value>"`.
 
 ---
 

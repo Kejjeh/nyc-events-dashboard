@@ -46,6 +46,7 @@ const SOURCE_LABELS: Record<string, string> = {
   bpl: 'Brooklyn Public Library',
   seatgeek: 'SeatGeek',
   songkick: 'Songkick',
+  jambase: 'JamBase',
   serpapi: 'Google Events',
   eventbrite: 'Eventbrite',
   'resident-advisor': 'Resident Advisor',

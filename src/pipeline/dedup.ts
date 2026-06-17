@@ -10,6 +10,7 @@ const TICKETING_SOURCES = new Set([
   'resident-advisor',
   'songkick',
   'serpapi',
+  'jambase',
 ]);
 
 function normalizeStr(s: string): string {

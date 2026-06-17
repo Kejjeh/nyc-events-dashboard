@@ -542,6 +542,55 @@ export async function fetchSongkick(
   return { source: 'songkick', records };
 }
 
+/** JamBase Data API v3 — deep NYC concert pull. Requires JAMBASE_API_KEY. */
+const JAMBASE_URL = 'https://api.data.jambase.com/v3/events';
+const JAMBASE_RADIUS_MI = 20; // from a center that, after the borough-polygon trim, covers all four
+// Front-load a deep forward window. The trial key is time-limited, but every
+// concert captured here is preserved by carry-forward once the key expires
+// (aging out naturally as each date passes), so a deep pull banks months of
+// coverage from a short-lived key. Rate limit is generous (3600/hour), so the
+// pagination cost is cheap.
+const JAMBASE_WINDOW_DAYS = 120;
+const JAMBASE_MAX_PAGES = 25; // perPage=100 → up to ~2500 shows
+
+/**
+ * Fetches upcoming NYC concerts from JamBase. Returns an empty batch without a
+ * key. JamBase supplies venue coordinates, so the normalizer resolves borough
+ * directly. A failed page throws so carry-forward keeps last-good data — which
+ * is exactly what preserves the banked window after the trial key lapses.
+ */
+export async function fetchJamBase(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
+  if (!apiKey) return { source: 'jambase', records: [] };
+
+  const from = nycDateOf(nowIso);
+  const to = nycDateOf(
+    new Date(new Date(nowIso).getTime() + JAMBASE_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString(),
+  );
+  const records: any[] = [];
+  for (let page = 1; page <= JAMBASE_MAX_PAGES; page++) {
+    const params = new URLSearchParams({
+      geoLatitude: '40.70',
+      geoLongitude: '-73.95',
+      geoRadiusAmount: String(JAMBASE_RADIUS_MI),
+      geoRadiusUnits: 'mi',
+      eventDateFrom: from,
+      eventDateTo: to,
+      perPage: '100',
+      page: String(page),
+    });
+    const res = await fetchWithRetry(`${JAMBASE_URL}?${params}`, {
+      headers: { Authorization: `Bearer ${apiKey}`, Accept: 'application/json' },
+    });
+    if (!res.ok) throw new Error(`JamBase fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+    const events = body?.events ?? [];
+    records.push(...events);
+    const totalPages = body?.pagination?.totalPages ?? page;
+    if (events.length === 0 || page >= totalPages) break;
+  }
+  return { source: 'jambase', records };
+}
+
 /** SerpAPI Google-Events engine — gap-filling NYC events. Requires SERPAPI_KEY. */
 const SERPAPI_URL = 'https://serpapi.com/search.json';
 // One search each (free tier = 250/month). Chosen to fill gaps our concert- and
