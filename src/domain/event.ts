@@ -17,7 +17,10 @@ export interface Event {
   id: string;
   title: string;
   category: Category;
-  borough: Borough;
+  /** City/metro the event is in (e.g. "New York", "Boston"). Absent = "New York". */
+  city?: string;
+  /** NYC borough — only set for New York City events. */
+  borough?: Borough;
   /** Neighborhood within the borough, when resolvable (e.g. "Harlem", "Bushwick"). */
   neighborhood?: string;
   venue: string;

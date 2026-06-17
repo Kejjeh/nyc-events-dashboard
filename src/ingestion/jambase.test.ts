@@ -30,6 +30,7 @@ describe('normalizeJamBaseEvent', () => {
       id: 'jambase:15345592',
       title: 'Rosalía',
       category: 'music',
+      city: 'New York',
       borough: 'Manhattan',
       neighborhood: 'West Village',
       venue: 'The Venue',
@@ -41,6 +42,17 @@ describe('normalizeJamBaseEvent', () => {
       lat: 40.7308,
       lon: -74.0027,
     });
+  });
+
+  it('captures a non-NYC metro (Boston) with a city and no borough', () => {
+    const event = normalizeJamBaseEvent({
+      ...concert,
+      location: { name: 'Boston Venue', geo: { latitude: 42.3601, longitude: -71.0589 } },
+    })!;
+    expect(event.city).toBe('Boston');
+    expect(event.borough).toBeUndefined();
+    expect(event.neighborhood).toBeUndefined();
+    expect(event.venue).toBe('Boston Venue');
   });
 
   it('maps isAccessibleForFree to isFree', () => {

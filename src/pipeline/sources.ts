@@ -552,22 +552,32 @@ export async function fetchSongkick(
   return { source: 'songkick', records };
 }
 
-/** JamBase Data API v3 — deep NYC concert pull. Requires JAMBASE_API_KEY. */
+/** JamBase Data API v3 — deep Northeast concert pull. Requires JAMBASE_API_KEY. */
 const JAMBASE_URL = 'https://api.data.jambase.com/v3/events';
-const JAMBASE_RADIUS_MI = 20; // from a center that, after the borough-polygon trim, covers all four
-// Front-load a deep forward window. The trial key is time-limited, but every
-// concert captured here is preserved by carry-forward once the key expires
-// (aging out naturally as each date passes), so a deep pull banks months of
-// coverage from a short-lived key. Rate limit is generous (3600/hour), so the
-// pagination cost is cheap.
-const JAMBASE_WINDOW_DAYS = 120;
-const JAMBASE_MAX_PAGES = 25; // perPage=100 → up to ~2500 shows
+// Northeast metros to capture. The trial key is short-lived, so we pull a deep
+// window across all of them and bank it — carry-forward plus the offline archive
+// preserve every captured show after the key lapses (each ages out as its date
+// passes). The locality resolver does the precise city/borough assignment; the
+// pipeline partitions NYC near-term to the live board and the rest to the archive.
+const JAMBASE_CITIES: { lat: number; lon: number; radiusMi: number }[] = [
+  { lat: 40.7128, lon: -74.006, radiusMi: 20 },  // New York
+  { lat: 39.9526, lon: -75.1652, radiusMi: 25 }, // Philadelphia
+  { lat: 38.9072, lon: -77.0369, radiusMi: 25 }, // Washington DC
+  { lat: 42.3601, lon: -71.0589, radiusMi: 25 }, // Boston
+  { lat: 39.2904, lon: -76.6122, radiusMi: 22 }, // Baltimore
+  { lat: 42.6526, lon: -73.7562, radiusMi: 22 }, // Albany
+  { lat: 41.3083, lon: -72.9279, radiusMi: 20 }, // New Haven
+  { lat: 41.824, lon: -71.4128, radiusMi: 20 },  // Providence
+];
+const JAMBASE_WINDOW_DAYS = 270;
+const JAMBASE_MAX_PAGES = 35; // perPage=100; NYC alone is ~30 pages over this window
 
 /**
- * Fetches upcoming NYC concerts from JamBase. Returns an empty batch without a
- * key. JamBase supplies venue coordinates, so the normalizer resolves borough
- * directly. A failed page throws so carry-forward keeps last-good data — which
- * is exactly what preserves the banked window after the trial key lapses.
+ * Fetches upcoming Northeast concerts from JamBase across several metros.
+ * Returns an empty batch without a key. JamBase supplies venue coordinates, so
+ * the normalizer resolves city/borough directly. Events are deduped by JamBase
+ * id across overlapping metro radii (e.g. DC/Baltimore). A failed page throws so
+ * carry-forward keeps the last-good banked superset.
  */
 export async function fetchJamBase(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
   if (!apiKey) return { source: 'jambase', records: [] };
@@ -576,29 +586,31 @@ export async function fetchJamBase(apiKey: string | undefined, nowIso: string): 
   const to = nycDateOf(
     new Date(new Date(nowIso).getTime() + JAMBASE_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString(),
   );
-  const records: any[] = [];
-  for (let page = 1; page <= JAMBASE_MAX_PAGES; page++) {
-    const params = new URLSearchParams({
-      geoLatitude: '40.70',
-      geoLongitude: '-73.95',
-      geoRadiusAmount: String(JAMBASE_RADIUS_MI),
-      geoRadiusUnits: 'mi',
-      eventDateFrom: from,
-      eventDateTo: to,
-      perPage: '100',
-      page: String(page),
-    });
-    const res = await fetchWithRetry(`${JAMBASE_URL}?${params}`, {
-      headers: { Authorization: `Bearer ${apiKey}`, Accept: 'application/json' },
-    });
-    if (!res.ok) throw new Error(`JamBase fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
-    const events = body?.events ?? [];
-    records.push(...events);
-    const totalPages = body?.pagination?.totalPages ?? page;
-    if (events.length === 0 || page >= totalPages) break;
+  const byId = new Map<string, any>();
+  for (const c of JAMBASE_CITIES) {
+    for (let page = 1; page <= JAMBASE_MAX_PAGES; page++) {
+      const params = new URLSearchParams({
+        geoLatitude: String(c.lat),
+        geoLongitude: String(c.lon),
+        geoRadiusAmount: String(c.radiusMi),
+        geoRadiusUnits: 'mi',
+        eventDateFrom: from,
+        eventDateTo: to,
+        perPage: '100',
+        page: String(page),
+      });
+      const res = await fetchWithRetry(`${JAMBASE_URL}?${params}`, {
+        headers: { Authorization: `Bearer ${apiKey}`, Accept: 'application/json' },
+      });
+      if (!res.ok) throw new Error(`JamBase fetch failed: HTTP ${res.status}`);
+      const body = (await res.json()) as any;
+      const events = body?.events ?? [];
+      for (const e of events) if (e?.identifier) byId.set(e.identifier, e);
+      const totalPages = body?.pagination?.totalPages ?? page;
+      if (events.length === 0 || page >= totalPages) break;
+    }
   }
-  return { source: 'jambase', records };
+  return { source: 'jambase', records: [...byId.values()] };
 }
 
 /** SerpAPI Google-Events engine — gap-filling NYC events. Requires SERPAPI_KEY. */

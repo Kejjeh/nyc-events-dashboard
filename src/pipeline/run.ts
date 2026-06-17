@@ -5,6 +5,7 @@ import type { Event } from '../domain/event';
 import { assembleEvents, type RawBatch } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import { deduplicateEvents } from './dedup';
+import { partitionEvents } from './partition';
 import { summarizeSources } from './sourceSummary';
 import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
 import { enrichWithWeather } from './weatherEnrich';
@@ -31,12 +32,13 @@ import {
 } from './sources';
 
 const OUTPUT_PATH = 'public/data/events.json';
+const ARCHIVE_PATH = 'public/data/archive.json';
 
-/** Reads the previously-published events, or [] if there is no prior file. */
-async function readPreviousEvents(): Promise<Event[]> {
-  if (!existsSync(OUTPUT_PATH)) return [];
+/** Reads previously-published events from a data file, or [] if absent/unreadable. */
+async function readPreviousEvents(path: string): Promise<Event[]> {
+  if (!existsSync(path)) return [];
   try {
-    const payload = JSON.parse(await readFile(OUTPUT_PATH, 'utf8'));
+    const payload = JSON.parse(await readFile(path, 'utf8'));
     return Array.isArray(payload.events) ? payload.events : [];
   } catch {
     return [];
@@ -92,36 +94,47 @@ async function main(): Promise<void> {
   const succeededSources = batches.map((b) => b.source);
   const fresh = assembleEvents(batches);
 
-  // Carry forward last-good events for any source that failed this run, so a
-  // single source's flakiness doesn't make its events blink out of the dashboard.
-  const previous = await readPreviousEvents();
-  const withCarry = carryForwardEvents(fresh, previous, succeededSources, nowIso);
+  // Carry forward last-good events for any source that failed this run, over the
+  // FULL superset (live board + offline archive) so banked far-future / other-city
+  // events survive a lapsed source (e.g. the JamBase trial) even though only NYC
+  // near-term is displayed.
+  const previousLive = await readPreviousEvents(OUTPUT_PATH);
+  const previousArchive = await readPreviousEvents(ARCHIVE_PATH);
+  const previousAll = [...previousLive, ...previousArchive];
+  const withCarry = carryForwardEvents(fresh, previousAll, succeededSources, nowIso);
 
   const carried = withCarry.length - fresh.length;
   if (carried > 0) {
     const succeeded = new Set<string>(succeededSources);
-    const downSources = [...new Set(previous.map((e) => e.source))].filter((s) => !succeeded.has(s));
+    const downSources = [...new Set(previousAll.map((e) => e.source))].filter((s) => !succeeded.has(s));
     console.warn(`Carried forward ${carried} events from down source(s): ${downSources.join(', ')}`);
   }
 
   // Collapse cross-source duplicates (same show on Ticketmaster + SeatGeek, etc.)
-  const events = deduplicateEvents(withCarry);
-  const dedupRemoved = withCarry.length - events.length;
+  const superset = deduplicateEvents(withCarry);
+  const dedupRemoved = withCarry.length - superset.length;
   if (dedupRemoved > 0) console.log(`  dedup: collapsed ${dedupRemoved} cross-source duplicates`);
 
   // Never replace a good dataset with nothing: if every source failed and there
-  // was nothing to carry forward, keep the existing file rather than blanking it.
-  if (events.length === 0 && existsSync(OUTPUT_PATH)) {
+  // was nothing to carry forward, keep the existing files rather than blanking them.
+  if (superset.length === 0 && existsSync(OUTPUT_PATH)) {
     console.warn('No events produced and nothing to carry forward — keeping existing data.');
     return;
   }
 
-  // Geocode venue addresses for events without coordinates so they appear on the
-  // map and get proper neighborhoods. No-op without a key; subsequent runs skip
-  // any venue already geocoded (lat/lon carries forward).
-  const withCoords = await enrichWithGeocode(events, process.env.GOOGLE_MAPS_API_KEY);
+  // Split into the live board (live cities, near-term) and the offline archive
+  // (deep future + other cities). Enrichment is expensive and NYC-focused, so it
+  // only runs over the live set; archive events keep whatever their normalizer
+  // produced (JamBase already ships coordinates + images) until they promote.
+  const { live, archive } = partitionEvents(superset, nowIso);
+  console.log(`  partition: ${live.length} live, ${archive.length} archived`);
+
+  // Geocode venue addresses for live events without coordinates so they appear on
+  // the map and get proper neighborhoods. No-op without a key; subsequent runs
+  // skip any venue already geocoded (lat/lon carries forward).
+  const withCoords = await enrichWithGeocode(live, process.env.GOOGLE_MAPS_API_KEY);
   if (process.env.GOOGLE_MAPS_API_KEY) {
-    const geocoded = withCoords.filter((e) => e.lat != null).length - events.filter((e) => e.lat != null).length;
+    const geocoded = withCoords.filter((e) => e.lat != null).length - live.filter((e) => e.lat != null).length;
     if (geocoded > 0) console.log(`  geocode: +${geocoded} venues resolved`);
   }
 
@@ -150,7 +163,7 @@ async function main(): Promise<void> {
     process.env.SPOTIFY_CLIENT_ID,
     process.env.SPOTIFY_CLIENT_SECRET,
   );
-  const enriched = await enrichWithSpotify(withWeather, token, previous);
+  const enriched = await enrichWithSpotify(withWeather, token, previousLive);
   if (token) {
     console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
   }
@@ -158,13 +171,20 @@ async function main(): Promise<void> {
   const payload = {
     generatedAt: nowIso,
     count: enriched.length,
+    archivedCount: archive.length,
     sources: summarizeSources(enriched, succeededSources),
     events: enriched,
   };
 
   await mkdir(dirname(OUTPUT_PATH), { recursive: true });
   await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n');
-  console.log(`Wrote ${events.length} events to ${OUTPUT_PATH}`);
+  await writeFile(
+    ARCHIVE_PATH,
+    JSON.stringify({ generatedAt: nowIso, count: archive.length, events: archive }, null, 2) + '\n',
+  );
+  console.log(
+    `Wrote ${enriched.length} live events to ${OUTPUT_PATH} + ${archive.length} archived to ${ARCHIVE_PATH}`,
+  );
 }
 
 main().catch((err) => {

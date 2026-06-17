@@ -56,7 +56,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/events.json public/data/neighborhood-cache.json
+          git add public/data/events.json public/data/archive.json public/data/neighborhood-cache.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
@@ -66,11 +66,13 @@ jobs:
             git push || {
               git fetch origin main
               cp public/data/events.json /tmp/events_fresh.json
+              cp public/data/archive.json /tmp/archive_fresh.json
               cp public/data/neighborhood-cache.json /tmp/cache_fresh.json
               git reset --hard origin/main
               cp /tmp/events_fresh.json public/data/events.json
+              cp /tmp/archive_fresh.json public/data/archive.json
               cp /tmp/cache_fresh.json public/data/neighborhood-cache.json
-              git add public/data/events.json public/data/neighborhood-cache.json
+              git add public/data/events.json public/data/archive.json public/data/neighborhood-cache.json
               git commit -m "chore: refresh events data [skip ci]"
               git push
             }

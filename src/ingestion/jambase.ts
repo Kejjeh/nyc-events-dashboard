@@ -1,5 +1,5 @@
 import type { Event } from '../domain/event';
-import { boroughFromLatLng } from './borough';
+import { localityFromLatLng } from './locality';
 import { neighborhoodFromLatLng } from './neighborhood';
 
 /**
@@ -20,9 +20,11 @@ export function normalizeJamBaseEvent(raw: any): Event | null {
   const lon = Number(loc?.geo?.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
 
-  const borough = boroughFromLatLng(lat, lon);
-  if (!borough) return null;
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  const place = localityFromLatLng(lat, lon);
+  if (!place) return null;
+  const neighborhood = place.borough
+    ? (neighborhoodFromLatLng(lat, lon, place.borough) ?? undefined)
+    : undefined;
 
   const startRaw = typeof raw?.startDate === 'string' ? raw.startDate : '';
   if (!startRaw) return null;
@@ -39,7 +41,8 @@ export function normalizeJamBaseEvent(raw: any): Event | null {
     id,
     title,
     category: 'music',
-    borough,
+    city: place.city,
+    ...(place.borough && { borough: place.borough }),
     ...(neighborhood && { neighborhood }),
     venue: (typeof loc?.name === 'string' && loc.name) || 'Venue',
     start,

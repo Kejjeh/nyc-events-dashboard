@@ -84,7 +84,7 @@ export function sortEvents(
       return sorted.sort((a, b) => a.start.localeCompare(b.start));
     case 'borough':
       return sorted.sort(
-        (a, b) => a.borough.localeCompare(b.borough) || a.start.localeCompare(b.start),
+        (a, b) => (a.borough ?? '').localeCompare(b.borough ?? '') || a.start.localeCompare(b.start),
       );
     case 'category':
       return sorted.sort(
