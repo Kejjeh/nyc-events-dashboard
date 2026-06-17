@@ -33,7 +33,7 @@ const CATEGORIES: readonly string[] = [
   'music', 'comedy', 'theater', 'film', 'food',
   'sports', 'kids', 'museum', 'social', 'other',
 ];
-const SORTS: readonly string[] = ['soonest', 'borough', 'category'];
+const SORTS: readonly string[] = ['soonest', 'borough', 'category', 'nearest'];
 const NAMED_WINDOWS: readonly string[] = ['all', 'today', 'weekend', 'week'];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 

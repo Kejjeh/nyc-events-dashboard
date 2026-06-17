@@ -3,10 +3,14 @@ import { useEffect, useRef, useState } from 'react';
 export function FilterDropdown({
   label,
   activeCount = 0,
+  align = 'left',
   children,
 }: {
   label: string;
   activeCount?: number;
+  /** Which edge to anchor the panel to. Use 'right' for right-most triggers so
+   *  the panel doesn't clip off the viewport edge at narrow widths. */
+  align?: 'left' | 'right';
   children: React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
@@ -43,7 +47,11 @@ export function FilterDropdown({
         </span>
       </button>
       {open && (
-        <div className="fdd__panel" role="dialog" aria-label={`${label} filter`}>
+        <div
+          className={`fdd__panel ${align === 'right' ? 'fdd__panel--right' : ''}`}
+          role="dialog"
+          aria-label={`${label} filter`}
+        >
           {children}
         </div>
       )}

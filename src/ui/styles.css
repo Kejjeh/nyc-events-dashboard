@@ -674,8 +674,22 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
   padding: 6px 0;
   min-width: 190px;
+  /* Never wider than the viewport, so a panel near the right edge can't force
+     horizontal scroll at narrow (tablet/split) widths. */
+  max-width: min(340px, calc(100vw - 24px));
   max-height: 340px;
   overflow-y: auto;
+}
+/* Right-anchor for the right-most trigger (Searches) so its wider panel opens
+   inward instead of clipping off the viewport's right edge — but only once the
+   filter row is a single line and Searches is genuinely right-most. Below that
+   the row wraps and Searches drifts left, where the default left anchor is
+   correct (right-anchoring there would push the panel off the left edge). */
+@media (min-width: 730px) {
+  .fdd__panel--right {
+    left: auto;
+    right: 0;
+  }
 }
 .fdd__options {
   display: flex;
@@ -1075,4 +1089,212 @@ body {
 }
 .maplibregl-popup-tip {
   border-top-color: var(--border) !important;
+}
+
+/* ---------- Clickable venue (opens venue page) ---------- */
+.card__venue--link {
+  position: relative; /* lift above the card's stretched link */
+  z-index: 1;
+  display: inline-block;
+  max-width: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 4px 0 0;
+  font: inherit;
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 2px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.card__venue--link:hover {
+  color: var(--text);
+  text-decoration-color: var(--accent);
+}
+.modal__venue--link {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.15s;
+}
+.modal__venue--link:hover {
+  color: var(--accent);
+}
+
+/* ---------- Venue modal (events at one venue) ---------- */
+.venue-modal .modal__body {
+  padding-top: 28px;
+}
+.venue-list {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.venue-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s, background 0.15s;
+}
+.venue-row:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+.venue-row__date {
+  flex: 0 0 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.venue-row__day {
+  font-weight: 700;
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+.venue-row__time {
+  color: var(--text-dim);
+  font-size: 0.7rem;
+  margin-top: 2px;
+}
+.venue-row__main {
+  flex: 1;
+  min-width: 0;
+}
+.venue-row__title {
+  display: block;
+  font-weight: 600;
+  font-size: 0.92rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.venue-row__heart {
+  color: #ff6b9d;
+  margin-right: 4px;
+}
+.venue-row__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+.venue-row__arrow {
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+/* ---------- Saved searches dropdown ---------- */
+.fdd__searches {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  padding: 4px;
+}
+.fdd__empty {
+  margin: 4px 8px 8px;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+.saved-search-list {
+  list-style: none;
+  margin: 0 0 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.saved-search {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+}
+.saved-search__apply {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.12s;
+}
+.saved-search__apply:hover {
+  background: var(--surface-2);
+}
+.saved-search__name {
+  font-weight: 600;
+  font-size: 0.86rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.saved-search__count {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+}
+.saved-search__new {
+  color: var(--accent);
+  font-weight: 700;
+}
+.saved-search__remove {
+  flex-shrink: 0;
+  width: 28px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.12s, background 0.12s;
+}
+.saved-search__remove:hover {
+  color: #ff6b6b;
+  background: var(--surface-2);
+}
+.saved-search__add {
+  margin-top: 4px;
+  padding: 9px 10px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: none;
+  color: var(--text-dim);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.saved-search__add:hover {
+  color: var(--text);
+  border-color: var(--accent);
 }

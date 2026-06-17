@@ -1,15 +1,17 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Borough, Category } from '../domain/event';
 import { useEvents } from './useEvents';
 import { useTheme } from './useTheme';
 import { useBookmarks } from './useBookmarks';
 import { useGeolocation } from './useGeolocation';
+import { useSavedSearches, type SavedSearch } from './useSavedSearches';
 import { filterEvents, sortEvents, type SortKey } from './filters';
 import type { DateWindow } from './dateWindow';
-import { parseFilters, serializeFilters } from './urlState';
+import { parseFilters, serializeFilters, type FilterState } from './urlState';
 import { sourceLabel } from './format';
 import { EventCard } from './EventCard';
 import { EventModal } from './EventModal';
+import { VenueModal } from './VenueModal';
 import { MapView } from './MapView';
 import { FilterDropdown } from './FilterDropdown';
 
@@ -24,6 +26,12 @@ const DATE_WINDOWS: { key: DateWindow; label: string }[] = [
   { key: 'week', label: 'Next 7 days' },
 ];
 const PICKED_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+/** A picked date that has already passed is meaningless — treat it as "any date"
+ *  so a shared link or saved search never hydrates into a silently-empty board. */
+function effectiveWindow(dw: DateWindow, today: string): DateWindow {
+  return PICKED_DATE_RE.test(dw) && dw < today ? 'all' : dw;
+}
 const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'music', label: 'Music' },
   { key: 'comedy', label: 'Comedy' },
@@ -54,6 +62,7 @@ export function App() {
   const { theme, toggle } = useTheme();
   const { saved, toggle: toggleSave } = useBookmarks();
   const { geo, request: requestGeo } = useGeolocation();
+  const { searches, save: saveSearch, remove: removeSearch, markSeen } = useSavedSearches();
 
   // Today's date in NYC, used to evaluate the date-window filter.
   const today = useMemo(
@@ -73,9 +82,7 @@ export function App() {
   const [sort, setSort] = useState<SortKey>(init.sort);
   // A shared link can carry a picked date that has since passed — fall back to
   // "Any date" rather than hydrate into a silently-empty board.
-  const [dateWindow, setDateWindow] = useState<DateWindow>(
-    PICKED_DATE_RE.test(init.dateWindow) && init.dateWindow < today ? 'all' : init.dateWindow,
-  );
+  const [dateWindow, setDateWindow] = useState<DateWindow>(effectiveWindow(init.dateWindow, today));
   const [savedOnly, setSavedOnly] = useState(false);
   const [copied, setCopied] = useState(false);
   const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
@@ -83,6 +90,10 @@ export function App() {
   // Selected event id drives the detail modal; also synced into ?event= URL param.
   const [selectedEventId, setSelectedEventId] = useState<string | null>(
     () => new URLSearchParams(window.location.search).get('event'),
+  );
+  // Selected venue name drives the venue "page" modal; synced into ?venue=.
+  const [selectedVenue, setSelectedVenue] = useState<string | null>(
+    () => new URLSearchParams(window.location.search).get('venue'),
   );
 
   const allEvents = state.status === 'ready' ? state.payload.events : [];
@@ -97,10 +108,11 @@ export function App() {
     const qs = serializeFilters({ borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow });
     const p = qs ? new URLSearchParams(qs) : new URLSearchParams();
     if (selectedEventId) p.set('event', selectedEventId);
+    if (selectedVenue) p.set('venue', selectedVenue);
     const str = p.toString();
     const url = `${window.location.pathname}${str ? `?${str}` : ''}`;
     window.history.replaceState(null, '', url);
-  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId]);
+  }, [borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, selectedEventId, selectedVenue]);
 
   // Copy the current (filtered) view's URL so it can be shared with a friend.
   function copyLink() {
@@ -146,23 +158,35 @@ export function App() {
     return [...set].sort();
   }, [allEvents, borough, categories, freeOnly, search, dateWindow, today, neighborhoods, sources]);
 
-  const userCoords = geo.status === 'ok' ? { lat: geo.lat, lon: geo.lon } : undefined;
+  // Memoized so its identity is stable across renders; otherwise a fresh object
+  // literal each render would defeat the `visible` memo and re-sort every time.
+  const userCoords = useMemo(
+    () => (geo.status === 'ok' ? { lat: geo.lat, lon: geo.lon } : undefined),
+    [geo],
+  );
+
+  // Events matching the current filter criteria (no savedOnly, no sort). This is
+  // the set a saved search captures, so it's computed once and reused below.
+  const filtered = useMemo(
+    () =>
+      filterEvents(allEvents, {
+        borough: borough === 'All' ? undefined : borough,
+        neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
+        sources: sources.length > 0 ? sources : undefined,
+        categories: categories.length > 0 ? categories : undefined,
+        freeOnly,
+        maxPrice: maxPrice > 0 ? maxPrice : undefined,
+        search,
+        dateWindow,
+        today,
+      }),
+    [allEvents, borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, dateWindow, today],
+  );
 
   const visible = useMemo(() => {
-    let results = filterEvents(allEvents, {
-      borough: borough === 'All' ? undefined : borough,
-      neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
-      sources: sources.length > 0 ? sources : undefined,
-      categories: categories.length > 0 ? categories : undefined,
-      freeOnly,
-      maxPrice: maxPrice > 0 ? maxPrice : undefined,
-      search,
-      dateWindow,
-      today,
-    });
-    if (savedOnly) results = results.filter((e) => saved.has(e.id));
+    const results = savedOnly ? filtered.filter((e) => saved.has(e.id)) : filtered;
     return sortEvents(results, sort, userCoords);
-  }, [allEvents, borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, today, savedOnly, saved, userCoords]);
+  }, [filtered, savedOnly, saved, sort, userCoords]);
 
   // Render incrementally; reset to the first page whenever the result set changes.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -176,6 +200,115 @@ export function App() {
     () => (selectedEventId ? (allEvents.find((e) => e.id === selectedEventId) ?? null) : null),
     [selectedEventId, allEvents],
   );
+
+  // All upcoming events at the selected venue, soonest first (drives VenueModal).
+  const venueEvents = useMemo(
+    () =>
+      selectedVenue
+        ? sortEvents(
+            allEvents.filter((e) => e.venue === selectedVenue),
+            'soonest',
+          )
+        : [],
+    [selectedVenue, allEvents],
+  );
+
+  // For each saved search, which event ids currently match and how many are new
+  // (matching but not yet seen). Recomputed whenever the dataset changes.
+  const searchStatus = useMemo(() => {
+    const map = new Map<string, { matchIds: string[]; newCount: number }>();
+    for (const s of searches) {
+      const fs = parseFilters(s.qs);
+      const matchIds = filterEvents(allEvents, {
+        borough: fs.borough === 'All' ? undefined : fs.borough,
+        neighborhoods: fs.neighborhoods.length > 0 ? fs.neighborhoods : undefined,
+        sources: fs.sources.length > 0 ? fs.sources : undefined,
+        categories: fs.categories.length > 0 ? fs.categories : undefined,
+        freeOnly: fs.freeOnly,
+        maxPrice: fs.maxPrice > 0 ? fs.maxPrice : undefined,
+        search: fs.search,
+        dateWindow: effectiveWindow(fs.dateWindow, today),
+        today,
+      }).map((e) => e.id);
+      const seen = new Set(s.seenIds);
+      map.set(s.id, { matchIds, newCount: matchIds.filter((id) => !seen.has(id)).length });
+    }
+    return map;
+  }, [searches, allEvents, today]);
+
+  const totalNew = useMemo(
+    () => [...searchStatus.values()].reduce((sum, s) => sum + s.newCount, 0),
+    [searchStatus],
+  );
+
+  // Fire a single browser notification per load when saved searches have new
+  // matches and the user has granted permission. Guarded so it runs once.
+  const notifiedRef = useRef(false);
+  useEffect(() => {
+    if (notifiedRef.current || state.status !== 'ready' || totalNew === 0) return;
+    if (typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
+    notifiedRef.current = true;
+    try {
+      new Notification('NYC Events', {
+        body: `${totalNew} new event${totalNew === 1 ? '' : 's'} match your saved searches.`,
+      });
+    } catch {
+      // Some browsers throw unless invoked from a service worker — non-fatal.
+    }
+  }, [state.status, totalNew]);
+
+  // A shared ?venue= link whose venue has no upcoming events (all passed) should
+  // fall back to the board rather than leave a dead modal reference around.
+  useEffect(() => {
+    if (selectedVenue && state.status === 'ready' && venueEvents.length === 0) {
+      setSelectedVenue(null);
+    }
+  }, [selectedVenue, state.status, venueEvents.length]);
+
+  // Symmetric cleanup for a stale ?event= id that resolves to no loaded event
+  // (e.g. a shared link to an event that has since passed), so the orphaned
+  // param doesn't linger in the URL behind the venue board.
+  useEffect(() => {
+    if (selectedEventId && state.status === 'ready' && !selectedEvent) {
+      setSelectedEventId(null);
+    }
+  }, [selectedEventId, state.status, selectedEvent]);
+
+  // Apply a saved search's filters to the live state and mark its matches seen.
+  function applySearch(s: SavedSearch) {
+    const fs: FilterState = parseFilters(s.qs);
+    setBorough(fs.borough);
+    setNeighborhoods(fs.neighborhoods);
+    setSources(fs.sources);
+    setCategories(fs.categories);
+    setFreeOnly(fs.freeOnly);
+    setMaxPrice(fs.maxPrice);
+    setSearch(fs.search);
+    setSort(fs.sort);
+    setDateWindow(effectiveWindow(fs.dateWindow, today));
+    setSavedOnly(false);
+    setFiltersOpen(false);
+    markSeen(s.id, searchStatus.get(s.id)?.matchIds ?? []);
+  }
+
+  // Capture the current filters as a named saved search.
+  function saveCurrentSearch() {
+    const name = window.prompt('Name this search (e.g. "Free jazz in Brooklyn"):');
+    if (!name?.trim()) return;
+    const qs = serializeFilters({
+      borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow,
+    });
+    saveSearch(name.trim(), qs, filtered.map((e) => e.id));
+    // First save is a good moment to ask for notification permission (optional).
+    if (typeof Notification !== 'undefined' && Notification.permission === 'default') {
+      Notification.requestPermission().catch(() => {});
+    }
+  }
+
+  function openVenue(name: string) {
+    setSelectedEventId(null);
+    setSelectedVenue(name);
+  }
 
   const shown = visible.slice(0, visibleCount);
 
@@ -415,6 +548,50 @@ export function App() {
             </div>
           </FilterDropdown>
 
+          <FilterDropdown label="🔔 Searches" activeCount={totalNew} align="right">
+            <div className="fdd__searches">
+              {searches.length === 0 ? (
+                <p className="fdd__empty">
+                  No saved searches yet. Filter the board the way you like, then save it to track new
+                  matching events.
+                </p>
+              ) : (
+                <ul className="saved-search-list">
+                  {searches.map((s) => {
+                    const st = searchStatus.get(s.id);
+                    const n = st?.newCount ?? 0;
+                    return (
+                      <li key={s.id} className="saved-search">
+                        <button
+                          className="saved-search__apply"
+                          onClick={() => applySearch(s)}
+                          title="Apply this search"
+                        >
+                          <span className="saved-search__name">{s.name}</span>
+                          <span className="saved-search__count">
+                            {st?.matchIds.length ?? 0} events
+                            {n > 0 && <span className="saved-search__new"> · {n} new</span>}
+                          </span>
+                        </button>
+                        <button
+                          className="saved-search__remove"
+                          onClick={() => removeSearch(s.id)}
+                          aria-label={`Delete saved search ${s.name}`}
+                          title="Delete"
+                        >
+                          ×
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+              <button className="saved-search__add" onClick={saveCurrentSearch}>
+                ＋ Save current filters
+              </button>
+            </div>
+          </FilterDropdown>
+
           <button
             className={`chip-btn ${savedOnly ? 'chip-btn--active chip-btn--heart' : 'chip-btn--heart'}`}
             aria-pressed={savedOnly}
@@ -469,6 +646,7 @@ export function App() {
                       saved={saved.has(event.id)}
                       onToggleSave={() => toggleSave(event.id)}
                       onExpand={() => setSelectedEventId(event.id)}
+                      onOpenVenue={() => openVenue(event.venue)}
                     />
                   ))}
                 </div>
@@ -556,6 +734,20 @@ export function App() {
           saved={saved.has(selectedEvent.id)}
           onClose={() => setSelectedEventId(null)}
           onToggleSave={() => toggleSave(selectedEvent.id)}
+          onOpenVenue={() => openVenue(selectedEvent.venue)}
+        />
+      )}
+
+      {selectedVenue && !selectedEvent && venueEvents.length > 0 && (
+        <VenueModal
+          venue={selectedVenue}
+          events={venueEvents}
+          saved={saved}
+          onClose={() => setSelectedVenue(null)}
+          onSelectEvent={(id) => {
+            setSelectedVenue(null);
+            setSelectedEventId(id);
+          }}
         />
       )}
     </div>

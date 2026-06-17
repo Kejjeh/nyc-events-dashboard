@@ -39,11 +39,13 @@ export function EventCard({
   saved,
   onToggleSave,
   onExpand,
+  onOpenVenue,
 }: {
   event: Event;
   saved: boolean;
   onToggleSave: () => void;
   onExpand: () => void;
+  onOpenVenue: () => void;
 }) {
   const icsName = `${event.id.replace(/[^a-z0-9]+/gi, '-')}.ics`;
   return (
@@ -86,7 +88,17 @@ export function EventCard({
             {event.title}
           </a>
         </h3>
-        <p className="card__venue">{event.venue}</p>
+        {event.venue ? (
+          <button
+            className="card__venue card__venue--link"
+            onClick={(e) => { e.preventDefault(); e.stopPropagation(); onOpenVenue(); }}
+            title={`See all events at ${event.venue}`}
+          >
+            {event.venue}
+          </button>
+        ) : (
+          <p className="card__venue">{event.venue}</p>
+        )}
         <div className="card__meta">
           <span className={`price ${event.isFree ? 'price--free' : ''}`}>{formatPrice(event)}</span>
           <span className="card__source">{sourceLabel(event.source)}</span>

@@ -20,6 +20,8 @@ const RETRYABLE_STATUS = new Set([403, 429, 500, 502, 503, 504]);
  *  instead of stalling the whole pipeline forever. */
 const REQUEST_TIMEOUT_MS = 20000;
 
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 /** Fetch with a per-attempt timeout and bounded exponential-backoff retries. */
 function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
   return withRetry(
@@ -305,6 +307,40 @@ export async function fetchCityParks(nowIso: string): Promise<RawBatch> {
   return { source: 'cityparks', records };
 }
 
+/** Prospect Park Alliance events via the WordPress "The Events Calendar" REST API. */
+const PROSPECTPARK_URL = 'https://www.prospectpark.org/wp-json/tribe/events/v1/events';
+const PROSPECTPARK_MAX_PAGES = 6;
+
+/**
+ * Fetches upcoming Prospect Park Alliance events (Celebrate Brooklyn!, nature
+ * walks, kids programming). Same Tribe REST shape as City Parks; the origin sits
+ * behind Cloudflare and serves a managed challenge to bare requests, so the
+ * fuller browser header set (Accept-Language + Referer) is sent — identical to
+ * the City Parks fetch — to land real JSON.
+ */
+export async function fetchProspectPark(nowIso: string): Promise<RawBatch> {
+  const headers = {
+    'User-Agent': BROWSER_UA,
+    Accept: 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.9',
+    Referer: 'https://www.prospectpark.org/events/',
+  };
+  const startDate = nycDateOf(nowIso);
+  const records: any[] = [];
+
+  for (let page = 1; page <= PROSPECTPARK_MAX_PAGES; page++) {
+    const params = new URLSearchParams({ per_page: '50', page: String(page), start_date: startDate });
+    const res = await fetchWithRetry(`${PROSPECTPARK_URL}?${params}`, { headers });
+    if (!res.ok) throw new Error(`Prospect Park fetch failed: HTTP ${res.status}`);
+    const body = (await res.json()) as any;
+    const events = body?.events ?? [];
+    records.push(...events);
+    const total = body?.total ?? records.length;
+    if (events.length === 0 || records.length >= total) break;
+  }
+  return { source: 'prospectpark', records };
+}
+
 /** Brooklyn Public Library events (Drupal JSON:API). */
 const BPL_URL = 'https://www.bklynlibrary.org/jsonapi/node/event';
 const BPL_MAX_PAGES = 8; // 50/page — enough headroom for the full upcoming window
@@ -493,12 +529,39 @@ export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBa
 }
 
 /**
- * Eventbrite NYC browse — scrapes the public event listing page and extracts
+ * Eventbrite NYC browse — scrapes the public event listing pages and extracts
  * the embedded `"events":[...]` array from the server-rendered HTML. No API
  * key required; the events are the same ones shown on eventbrite.com.
+ *
+ * A single browse lane plateaus quickly (each deeper page repeats earlier
+ * results), so we sweep several lanes — one per borough plus a handful of
+ * city-wide category lanes — and dedup by event id into one batch. Each lane
+ * surfaces a different slice of the catalog, multiplying coverage far beyond
+ * what paging the generic front page alone would yield.
  */
-const EVENTBRITE_BROWSE_URL = 'https://www.eventbrite.com/d/ny--new-york/events/';
-const EVENTBRITE_MAX_PAGES = 10; // 10 events/page → up to 100 events
+const EVENTBRITE_BASE = 'https://www.eventbrite.com/d';
+const EVENTBRITE_LANES: string[] = [
+  // Per-borough, all categories.
+  'ny--new-york/events',
+  'ny--brooklyn/events',
+  'ny--queens/events',
+  'ny--bronx/events',
+  // City-wide category lanes deepen coverage for our main taxonomy buckets.
+  'ny--new-york/music--events',
+  'ny--new-york/food-and-drink--events',
+  'ny--new-york/arts--events',
+  'ny--new-york/film-and-media--events',
+  'ny--new-york/sports-and-fitness--events',
+  'ny--new-york/family-and-education--events',
+];
+const EVENTBRITE_MAX_PAGES = 8; // up to 8 pages per lane (breaks early when dry)
+// Require most lanes to succeed. A more-degraded run is a partial catalog, not an
+// authoritative refresh, so we treat it as a failure (below) and let carry-forward
+// restore last-good Eventbrite data instead of publishing a fraction of it.
+const EVENTBRITE_MIN_LANES = 7;
+// Gentle pacing between same-host requests to avoid tripping Eventbrite's 429s
+// during the sequential sweep.
+const EVENTBRITE_REQ_DELAY_MS = 250;
 
 /**
  * Extracts top-level JSON objects from the best `"events":[...]` array
@@ -551,26 +614,24 @@ function parseEventbriteHtml(html: string): any[] {
 }
 
 /**
- * Fetches upcoming NYC events from Eventbrite's public browse pages. The
- * v3 API's /events/search/ endpoint is unavailable on the free tier, so we
- * scrape the server-rendered HTML instead (same data, no API key needed).
+ * Pages one Eventbrite browse lane, appending newly-seen events to `records`.
+ * Breaks as soon as a page yields no events we haven't already collected (the
+ * lane has gone dry / started repeating). Returns the number of fresh events.
  */
-export async function fetchEventbrite(nowIso: string): Promise<RawBatch> {
-  const headers = {
-    'User-Agent': BROWSER_UA,
-    Accept: 'text/html',
-    'Accept-Language': 'en-US,en;q=0.9',
-  };
-
-  const seen = new Set<string>();
-  const records: any[] = [];
-
+async function scrapeEventbriteLane(
+  lanePath: string,
+  headers: Record<string, string>,
+  seen: Set<string>,
+  records: any[],
+): Promise<number> {
+  const base = `${EVENTBRITE_BASE}/${lanePath}/`;
+  let added = 0;
   for (let page = 1; page <= EVENTBRITE_MAX_PAGES; page++) {
-    const url = page === 1 ? EVENTBRITE_BROWSE_URL : `${EVENTBRITE_BROWSE_URL}?page=${page}`;
+    if (page > 1) await sleep(EVENTBRITE_REQ_DELAY_MS);
+    const url = page === 1 ? base : `${base}?page=${page}`;
     const res = await fetchWithRetry(url, { headers });
-    if (!res.ok) throw new Error(`Eventbrite browse fetch failed: HTTP ${res.status}`);
-    const html = await res.text();
-    const events = parseEventbriteHtml(html);
+    if (!res.ok) throw new Error(`Eventbrite lane ${lanePath} failed: HTTP ${res.status}`);
+    const events = parseEventbriteHtml(await res.text());
     if (events.length === 0) break;
 
     let fresh = 0;
@@ -582,7 +643,64 @@ export async function fetchEventbrite(nowIso: string): Promise<RawBatch> {
         fresh++;
       }
     }
+    added += fresh;
     if (fresh === 0) break; // Reached repeat content — no new events this page.
+  }
+  return added;
+}
+
+/**
+ * Fetches upcoming NYC events from Eventbrite's public browse pages. The
+ * v3 API's /events/search/ endpoint is unavailable on the free tier, so we
+ * scrape the server-rendered HTML instead (same data, no API key needed).
+ *
+ * Each lane (borough or category) is swept independently and deduped into a
+ * single batch. A single bad lane is tolerated, but a run where too many lanes
+ * failed — or where every lane parsed to zero (markup drift) — is treated as a
+ * source failure so carry-forward restores last-good data rather than
+ * publishing a partial or empty catalog as if it were authoritative.
+ */
+export async function fetchEventbrite(_nowIso: string): Promise<RawBatch> {
+  const headers = {
+    'User-Agent': BROWSER_UA,
+    Accept: 'text/html',
+    'Accept-Language': 'en-US,en;q=0.9',
+  };
+
+  const seen = new Set<string>();
+  const records: any[] = [];
+  const laneCounts: string[] = [];
+  const failedLanes: string[] = [];
+
+  for (const lane of EVENTBRITE_LANES) {
+    try {
+      const added = await scrapeEventbriteLane(lane, headers, seen, records);
+      laneCounts.push(`${lane}:${added}`);
+    } catch {
+      // A single bad lane (e.g. a category slug that 404s) shouldn't sink the
+      // whole source on its own; we account for it in the thresholds below.
+      failedLanes.push(lane);
+    }
+    await sleep(EVENTBRITE_REQ_DELAY_MS);
+  }
+
+  const lanesOk = laneCounts.length;
+  console.log(
+    `  eventbrite: ${lanesOk}/${EVENTBRITE_LANES.length} lanes ok` +
+      (failedLanes.length ? `, failed=[${failedLanes.join(', ')}]` : '') +
+      `, counts=[${laneCounts.join(', ')}]`,
+  );
+
+  // Every lane parsed to zero events. Either a wholesale outage or a markup
+  // change that moved the embedded JSON — fail loud so carry-forward republishes
+  // last-good Eventbrite data instead of blanking the source.
+  if (records.length === 0) {
+    throw new Error('Eventbrite: every lane parsed to zero events (outage or markup drift)');
+  }
+  // Too many lanes failed: what survived is a partial catalog, not an
+  // authoritative refresh. Fail so carry-forward preserves the dropped events.
+  if (lanesOk < EVENTBRITE_MIN_LANES) {
+    throw new Error(`Eventbrite: only ${lanesOk}/${EVENTBRITE_LANES.length} lanes succeeded`);
   }
   return { source: 'eventbrite', records };
 }

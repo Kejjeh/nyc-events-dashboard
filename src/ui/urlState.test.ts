@@ -63,4 +63,9 @@ describe('urlState', () => {
     const state: FilterState = { ...DEFAULT_FILTERS, sources: ['dice', 'nyc-parks'] };
     expect(parseFilters(serializeFilters(state))).toEqual(state);
   });
+
+  it('round-trips the "nearest" sort (so saved searches keep it)', () => {
+    const state: FilterState = { ...DEFAULT_FILTERS, sort: 'nearest' };
+    expect(parseFilters(serializeFilters(state)).sort).toBe('nearest');
+  });
 });

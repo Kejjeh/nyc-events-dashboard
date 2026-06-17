@@ -14,11 +14,13 @@ export function EventModal({
   saved,
   onClose,
   onToggleSave,
+  onOpenVenue,
 }: {
   event: Event;
   saved: boolean;
   onClose: () => void;
   onToggleSave: () => void;
+  onOpenVenue: () => void;
 }) {
   const [linkCopied, setLinkCopied] = useState(false);
 
@@ -80,7 +82,17 @@ export function EventModal({
           </div>
 
           <h2 className="modal__title">{event.title}</h2>
-          <p className="modal__venue">{event.venue}</p>
+          {event.venue ? (
+            <button
+              className="modal__venue modal__venue--link"
+              onClick={onOpenVenue}
+              aria-label={`See all events at ${event.venue}`}
+            >
+              {event.venue} <span aria-hidden="true">›</span>
+            </button>
+          ) : (
+            <p className="modal__venue">{event.venue}</p>
+          )}
 
           <p className="modal__when">
             <span>{formatDay(event.start)}</span>
