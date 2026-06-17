@@ -36,14 +36,25 @@ export function normalizeTicketmasterEvent(raw: any): Event | null {
   const venue = raw._embedded?.venues?.[0];
   if (!venue) return null;
 
-  // Prefer venue coordinates: they cover all four boroughs and yield a
-  // neighborhood. Fall back to the venue city text, and drop anything that
-  // doesn't resolve to one of our four boroughs.
   const lat = parseFloat(venue.location?.latitude);
   const lon = parseFloat(venue.location?.longitude);
+
+  // NYC stays borough-precise (coords → borough + neighborhood); other states and
+  // cities come straight from the TM venue, so Ticketmaster covers the whole
+  // region. After JamBase's trial lapses, this is the permanent multi-state source.
   const borough = boroughFromLatLng(lat, lon) ?? CITY_BOROUGH[venue.city?.name];
-  if (!borough) return null;
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  let city: string;
+  let state: string | undefined;
+  let neighborhood: string | undefined;
+  if (borough) {
+    city = 'New York';
+    state = 'NY';
+    neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  } else {
+    city = typeof venue.city?.name === 'string' ? venue.city.name.trim() : '';
+    state = typeof venue.state?.stateCode === 'string' ? venue.state.stateCode : undefined;
+  }
+  if (!city) return null;
 
   const price = raw.priceRanges?.[0];
 
@@ -51,7 +62,9 @@ export function normalizeTicketmasterEvent(raw: any): Event | null {
     id: `ticketmaster:${raw.id}`,
     title: raw.name,
     category: categoryFor(raw.classifications?.[0]),
-    borough,
+    city,
+    ...(state && { state }),
+    ...(borough && { borough }),
     ...(neighborhood && { neighborhood }),
     venue: venue.name,
     // Ticketmaster returns UTC; convert to ET-local so all sources are uniform.

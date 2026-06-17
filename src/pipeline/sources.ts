@@ -908,29 +908,44 @@ export async function fetchResidentAdvisor(nowIso: string): Promise<RawBatch> {
   return { source: 'resident-advisor', records };
 }
 
+/** Ticketmaster's permanent multi-state engine: free, ~5k/day, every NE/rail state. */
+const TICKETMASTER_STATES = [
+  'NY', 'NJ', 'CT', 'RI', 'MA', 'PA', 'MD', 'DE', 'DC', 'VA', 'NH', 'VT', 'ME',
+];
+// TM caps deep paging at (page+1)*size <= 1000, so up to 5 pages of 200 per state.
+const TICKETMASTER_MAX_PAGES = 5;
+
 /**
- * Fetches upcoming NYC events from Ticketmaster. Requires TICKETMASTER_API_KEY;
- * returns an empty batch when the key is absent so the pipeline still runs.
+ * Fetches upcoming events from Ticketmaster across the Northeast / rail-corridor
+ * states. Requires TICKETMASTER_API_KEY; returns an empty batch without it. The
+ * normalizer reads city/state from each venue (NYC stays borough-precise), so the
+ * whole region is captured. This is the permanent multi-state source that keeps
+ * coverage fresh after the JamBase trial lapses. Deduped by id across states.
  */
-export async function fetchTicketmaster(apiKey: string | undefined): Promise<RawBatch> {
-  if (!apiKey) {
-    return { source: 'ticketmaster', records: [] };
-  }
+export async function fetchTicketmaster(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
+  if (!apiKey) return { source: 'ticketmaster', records: [] };
 
-  const params = new URLSearchParams({
-    apikey: apiKey,
-    // All four boroughs (Brooklyn/Bronx/Queens venues use their own city name,
-    // not "New York"); the normalizer drops anything outside them by coordinates.
-    city: 'New York,Brooklyn,Bronx,Queens',
-    sort: 'date,asc',
-    size: '200',
-  });
-
-  const res = await fetchWithRetry(`${TICKETMASTER_URL}?${params}`);
-  if (!res.ok) {
-    throw new Error(`Ticketmaster fetch failed: HTTP ${res.status}`);
+  const startDateTime = `${nowIso.slice(0, 19)}Z`;
+  const byId = new Map<string, any>();
+  for (const stateCode of TICKETMASTER_STATES) {
+    for (let page = 0; page < TICKETMASTER_MAX_PAGES; page++) {
+      const params = new URLSearchParams({
+        apikey: apiKey,
+        countryCode: 'US',
+        stateCode,
+        startDateTime,
+        sort: 'date,asc',
+        size: '200',
+        page: String(page),
+      });
+      const res = await fetchWithRetry(`${TICKETMASTER_URL}?${params}`);
+      if (!res.ok) throw new Error(`Ticketmaster fetch failed: HTTP ${res.status}`);
+      const body = (await res.json()) as any;
+      const events = body?._embedded?.events ?? [];
+      for (const e of events) if (e?.id) byId.set(e.id, e);
+      const totalPages = body?.page?.totalPages ?? 1;
+      if (events.length === 0 || page + 1 >= Math.min(totalPages, TICKETMASTER_MAX_PAGES)) break;
+    }
   }
-  const body = (await res.json()) as any;
-  const records = body?._embedded?.events ?? [];
-  return { source: 'ticketmaster', records };
+  return { source: 'ticketmaster', records: [...byId.values()] };
 }

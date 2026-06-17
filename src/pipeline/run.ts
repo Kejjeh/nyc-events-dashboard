@@ -67,7 +67,7 @@ async function main(): Promise<void> {
   // skipped entirely (absent from succeededSources) so carry-forward keeps its
   // last-good events. A local run (no GITHUB_EVENT_NAME) is treated as eligible.
   const onPush = process.env.GITHUB_EVENT_NAME === 'push';
-  if (onPush) console.log('  (push run: skipping high-volume SerpAPI + JamBase; carrying their events forward)');
+  if (onPush) console.log('  (push run: skipping high-volume Ticketmaster + SerpAPI + JamBase; carrying their events forward)');
 
   const batches = (
     await Promise.all([
@@ -81,7 +81,6 @@ async function main(): Promise<void> {
       settle('todaytix', fetchTodayTix(nowIso)),
       settle('cityparks', fetchCityParks(nowIso)),
       settle('bpl', fetchBpl(nowIso)),
-      settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY)),
       settle('seatgeek', fetchSeatGeek(process.env.SEATGEEK_CLIENT_ID)),
       settle('songkick', fetchSongkick(process.env.SONGKICK_API_KEY, nowIso)),
       settle('eventbrite', fetchEventbrite(nowIso)),
@@ -89,6 +88,7 @@ async function main(): Promise<void> {
       ...(onPush
         ? []
         : [
+            settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY, nowIso)),
             settle('serpapi', fetchSerpApi(process.env.SERPAPI_KEY, nowIso)),
             settle('jambase', fetchJamBase(process.env.JAMBASE_API_KEY, nowIso)),
           ]),

@@ -27,6 +27,8 @@ describe('normalizeTicketmasterEvent', () => {
       id: 'ticketmaster:vvG1zZ9abc',
       title: 'New York Knicks vs Boston Celtics',
       category: 'sports',
+      city: 'New York',
+      state: 'NY',
       borough: 'Manhattan',
       venue: 'Madison Square Garden',
       start: '2026-06-20T19:00:00', // 23:00 UTC -> 19:00 ET, bare local
@@ -52,6 +54,22 @@ describe('normalizeTicketmasterEvent', () => {
     };
 
     expect(normalizeTicketmasterEvent(raw)!.category).toBe('music');
+  });
+
+  it('captures a non-NYC venue with city + state from the TM venue (Boston)', () => {
+    const event = normalizeTicketmasterEvent({
+      id: 'vvBoston1',
+      name: 'Concert at TD Garden',
+      url: 'https://www.ticketmaster.com/event/vvBoston1',
+      dates: { start: { dateTime: '2026-07-01T23:00:00Z' } },
+      classifications: [{ segment: { name: 'Music' } }],
+      _embedded: {
+        venues: [{ name: 'TD Garden', city: { name: 'Boston' }, state: { stateCode: 'MA' } }],
+      },
+    })!;
+    expect(event.city).toBe('Boston');
+    expect(event.state).toBe('MA');
+    expect(event.borough).toBeUndefined();
   });
 
   it('classifies a Barclays Center event as Brooklyn', () => {
