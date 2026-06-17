@@ -22,6 +22,16 @@ const REQUEST_TIMEOUT_MS = 20000;
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
+/**
+ * Socrata (NYC Open Data) requests get a much higher rate limit when an app
+ * token is attached, which keeps the shared anonymous throttle from tripping the
+ * Open Data / Greenmarket sources under load. No-op when the token isn't set.
+ */
+function socrataHeaders(): Record<string, string> {
+  const token = process.env.SOCRATA_APP_TOKEN;
+  return token ? { 'X-App-Token': token } : {};
+}
+
 /** Fetch with a per-attempt timeout and bounded exponential-backoff retries. */
 function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
   return withRetry(
@@ -390,7 +400,7 @@ const GREENMARKET_DATASET_URL = 'https://data.cityofnewyork.us/resource/8vwk-6iz
  * year is resolved dynamically rather than hardcoded.
  */
 export async function fetchGreenmarket(nowIso: string): Promise<RawBatch> {
-  const headers = { 'User-Agent': BROWSER_UA };
+  const headers = { 'User-Agent': BROWSER_UA, ...socrataHeaders() };
 
   const yearRes = await fetchWithRetry(
     `${GREENMARKET_DATASET_URL}?${new URLSearchParams({ $select: 'max(year)' })}`,
@@ -452,7 +462,7 @@ export async function fetchNycOpenData(nowIso: string): Promise<RawBatch> {
     $limit: '10000',
   });
 
-  const res = await fetchWithRetry(`${NYC_DATASET_URL}?${params}`);
+  const res = await fetchWithRetry(`${NYC_DATASET_URL}?${params}`, { headers: socrataHeaders() });
   if (!res.ok) {
     throw new Error(`NYC Open Data fetch failed: HTTP ${res.status}`);
   }

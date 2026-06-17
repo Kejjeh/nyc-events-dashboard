@@ -44,6 +44,7 @@ jobs:
           SONGKICK_API_KEY: ${{ secrets.SONGKICK_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           JAMBASE_API_KEY: ${{ secrets.JAMBASE_API_KEY }}
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
