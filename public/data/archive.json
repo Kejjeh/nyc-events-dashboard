@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-17T18:02:08.153Z",
-  "count": 4240,
+  "generatedAt": "2026-06-17T18:38:10.164Z",
+  "count": 4241,
   "events": [
     {
       "id": "jambase:16055840",
@@ -57743,6 +57743,18 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 39.2896,
       "lon": -76.6073
+    },
+    {
+      "id": "todaytix:47070",
+      "title": "Kilgallen",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Theater at St. Jean's",
+      "start": "2026-11-28T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/kilgallen",
+      "source": "todaytix"
     },
     {
       "id": "jambase:16379350",
