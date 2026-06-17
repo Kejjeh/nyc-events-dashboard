@@ -307,40 +307,6 @@ export async function fetchCityParks(nowIso: string): Promise<RawBatch> {
   return { source: 'cityparks', records };
 }
 
-/** Prospect Park Alliance events via the WordPress "The Events Calendar" REST API. */
-const PROSPECTPARK_URL = 'https://www.prospectpark.org/wp-json/tribe/events/v1/events';
-const PROSPECTPARK_MAX_PAGES = 6;
-
-/**
- * Fetches upcoming Prospect Park Alliance events (Celebrate Brooklyn!, nature
- * walks, kids programming). Same Tribe REST shape as City Parks; the origin sits
- * behind Cloudflare and serves a managed challenge to bare requests, so the
- * fuller browser header set (Accept-Language + Referer) is sent — identical to
- * the City Parks fetch — to land real JSON.
- */
-export async function fetchProspectPark(nowIso: string): Promise<RawBatch> {
-  const headers = {
-    'User-Agent': BROWSER_UA,
-    Accept: 'application/json, text/plain, */*',
-    'Accept-Language': 'en-US,en;q=0.9',
-    Referer: 'https://www.prospectpark.org/events/',
-  };
-  const startDate = nycDateOf(nowIso);
-  const records: any[] = [];
-
-  for (let page = 1; page <= PROSPECTPARK_MAX_PAGES; page++) {
-    const params = new URLSearchParams({ per_page: '50', page: String(page), start_date: startDate });
-    const res = await fetchWithRetry(`${PROSPECTPARK_URL}?${params}`, { headers });
-    if (!res.ok) throw new Error(`Prospect Park fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
-    const events = body?.events ?? [];
-    records.push(...events);
-    const total = body?.total ?? records.length;
-    if (events.length === 0 || records.length >= total) break;
-  }
-  return { source: 'prospectpark', records };
-}
-
 /** Brooklyn Public Library events (Drupal JSON:API). */
 const BPL_URL = 'https://www.bklynlibrary.org/jsonapi/node/event';
 const BPL_MAX_PAGES = 8; // 50/page — enough headroom for the full upcoming window
@@ -526,6 +492,54 @@ export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBa
     if (events.length === 0 || records.length >= total) break;
   }
   return { source: 'seatgeek', records };
+}
+
+/** Songkick concerts API — upcoming shows near NYC. Requires SONGKICK_API_KEY. */
+const SONGKICK_URL = 'https://api.songkick.com/api/3.0/events.json';
+const SONGKICK_GEO = 'geo:40.7308,-73.9973'; // NYC center; borough polygon filters precisely
+const SONGKICK_MAX_PAGES = 5; // 50/page → up to 250 shows
+const SONGKICK_WINDOW_DAYS = 45;
+
+/**
+ * Fetches upcoming concerts near NYC from Songkick's events API. Requires
+ * SONGKICK_API_KEY (read from the environment / GitHub Actions secret — never
+ * committed); returns an empty batch when the key is absent so the pipeline
+ * still runs. The geo search spills slightly past the city line, so the
+ * normalizer's borough polygon trims it to NYC proper.
+ */
+export async function fetchSongkick(
+  apiKey: string | undefined,
+  nowIso: string,
+): Promise<RawBatch> {
+  if (!apiKey) return { source: 'songkick', records: [] };
+
+  const minDate = nycDateOf(nowIso);
+  const maxDate = nycDateOf(
+    new Date(new Date(nowIso).getTime() + SONGKICK_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString(),
+  );
+  const records: any[] = [];
+
+  for (let page = 1; page <= SONGKICK_MAX_PAGES; page++) {
+    const params = new URLSearchParams({
+      apikey: apiKey,
+      location: SONGKICK_GEO,
+      min_date: minDate,
+      max_date: maxDate,
+      per_page: '50',
+      page: String(page),
+    });
+    const res = await fetchWithRetry(`${SONGKICK_URL}?${params}`, {
+      headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
+    });
+    if (!res.ok) throw new Error(`Songkick fetch failed: HTTP ${res.status}`);
+    const rp = ((await res.json()) as any)?.resultsPage;
+    const event = rp?.results?.event ?? [];
+    const list = Array.isArray(event) ? event : [event];
+    records.push(...list);
+    const total = rp?.totalEntries ?? records.length;
+    if (list.length === 0 || records.length >= total) break;
+  }
+  return { source: 'songkick', records };
 }
 
 /**

@@ -43,9 +43,9 @@ const SOURCE_LABELS: Record<string, string> = {
   'nyc-greenmarket': 'GrowNYC Greenmarket',
   todaytix: 'TodayTix',
   cityparks: 'City Parks Foundation',
-  prospectpark: 'Prospect Park',
   bpl: 'Brooklyn Public Library',
   seatgeek: 'SeatGeek',
+  songkick: 'Songkick',
   eventbrite: 'Eventbrite',
   'resident-advisor': 'Resident Advisor',
 };

@@ -9,9 +9,9 @@ import { normalizeSmorgasburgEvent } from '../ingestion/smorgasburg';
 import { normalizeGreenmarketEvent } from '../ingestion/nycGreenmarket';
 import { normalizeTodayTixShow } from '../ingestion/todaytix';
 import { normalizeCityParksEvent } from '../ingestion/cityParks';
-import { normalizeProspectParkEvent } from '../ingestion/prospectPark';
 import { normalizeBplEvent } from '../ingestion/bpl';
 import { normalizeSeatGeekEvent } from '../ingestion/seatgeek';
+import { normalizeSongkickEvent } from '../ingestion/songkick';
 import { normalizeEventbriteEvent } from '../ingestion/eventbrite';
 import { normalizeResidentAdvisorEvent } from '../ingestion/residentAdvisor';
 
@@ -26,9 +26,9 @@ export type SourceName =
   | 'nyc-greenmarket'
   | 'todaytix'
   | 'cityparks'
-  | 'prospectpark'
   | 'bpl'
   | 'seatgeek'
+  | 'songkick'
   | 'eventbrite'
   | 'resident-advisor';
 
@@ -49,9 +49,9 @@ const NORMALIZERS: Record<SourceName, (raw: any) => Event | null> = {
   'nyc-greenmarket': normalizeGreenmarketEvent,
   todaytix: normalizeTodayTixShow,
   cityparks: normalizeCityParksEvent,
-  prospectpark: normalizeProspectParkEvent,
   bpl: normalizeBplEvent,
   seatgeek: normalizeSeatGeekEvent,
+  songkick: normalizeSongkickEvent,
   eventbrite: normalizeEventbriteEvent,
   'resident-advisor': normalizeResidentAdvisorEvent,
 };
