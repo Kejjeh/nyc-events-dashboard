@@ -171,7 +171,7 @@ export function EventCard({
           <div className="card__alt-links">
             <span className="card__cal-label">Also on</span>
             {event.altTicketLinks.map((link) => (
-              <a key={link.source} className="cal-btn" href={link.url} target="_blank" rel="noreferrer">
+              <a key={link.url} className="cal-btn" href={link.url} target="_blank" rel="noreferrer">
                 {sourceLabel(link.source)}
               </a>
             ))}

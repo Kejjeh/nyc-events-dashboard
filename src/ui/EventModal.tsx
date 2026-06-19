@@ -155,7 +155,7 @@ export function EventModal({
           {event.altTicketLinks && event.altTicketLinks.length > 0 && (
             <div className="modal__alt-links">
               {event.altTicketLinks.map((link) => (
-                <a key={link.source} className="modal-btn" href={link.url} target="_blank" rel="noreferrer">
+                <a key={link.url} className="modal-btn" href={link.url} target="_blank" rel="noreferrer">
                   Also on {sourceLabel(link.source)} ↗
                 </a>
               ))}

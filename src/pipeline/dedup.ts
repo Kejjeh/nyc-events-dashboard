@@ -62,8 +62,11 @@ export function deduplicateEvents(events: Event[]): Event[] {
       continue;
     }
     const [canonical, ...rest] = [...group].sort((a, b) => richness(b) - richness(a));
+    // One alt link per source, and never the canonical's own source — both keep
+    // the UI's key={link.source} unique and the "Also on" row meaningful.
+    const seenSources = new Set<string>([canonical.source]);
     const altTicketLinks = rest
-      .filter((e) => e.url)
+      .filter((e) => e.url && !seenSources.has(e.source) && seenSources.add(e.source))
       .map((e) => ({ source: e.source, url: e.url }));
 
     deduped.push({ ...canonical, ...(altTicketLinks.length > 0 && { altTicketLinks }) });
