@@ -1,6 +1,5 @@
 import type { Borough, Event } from '../domain/event';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 import { nycDateOf } from './datetime';
 
 const GREENMARKET_URL = 'https://www.grownyc.org/greenmarket';
@@ -141,9 +140,8 @@ export function greenmarketDescriptors(
   for (const row of rows) {
     const lat = parseFloat(row.latitude);
     const lon = parseFloat(row.longitude);
-    const borough = boroughFromLatLng(lat, lon);
-    if (!borough) continue;
-    const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+    const loc = nycLocationFromLatLng(lat, lon);
+    if (!loc) continue;
     const days = new Set(parseMarketDays(row.daysoperation ?? ''));
     if (days.size === 0) continue;
     const hours = parseMarketHours(row.hoursoperations ?? '');
@@ -165,8 +163,7 @@ export function greenmarketDescriptors(
       ) {
         out.push({
           marketname: row.marketname,
-          borough,
-          ...(neighborhood && { neighborhood }),
+          ...loc,
           date: toDateStr(cursor),
           startTime: hours.start,
           ...(hours.end && { endTime: hours.end }),

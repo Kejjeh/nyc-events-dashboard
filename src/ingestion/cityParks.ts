@@ -1,6 +1,5 @@
 import type { Borough, Category, Event } from '../domain/event';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 const BOROUGH_NAMES: Record<string, Borough> = {
   manhattan: 'Manhattan',
@@ -41,9 +40,8 @@ export function normalizeCityParksEvent(raw: any): Event | null {
   const venue = raw.venue ?? {};
   const lat = parseFloat(venue.geo_lat);
   const lon = parseFloat(venue.geo_lng);
-  const borough = boroughFromLatLng(lat, lon) ?? boroughFromName(venue.city, venue.venue);
-  if (!borough) return null;
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough);
+  const loc = nycLocationFromLatLng(lat, lon, boroughFromName(venue.city, venue.venue));
+  if (!loc) return null;
 
   const categories: string[] = (raw.categories ?? []).map((c: any) => c?.name ?? '');
   const title: string = decodeEntities(raw.title ?? '');
@@ -65,8 +63,7 @@ export function normalizeCityParksEvent(raw: any): Event | null {
     id: `cityparks:${raw.id}`,
     title: decodeEntities(raw.title),
     category,
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...loc,
     venue: venue.venue,
     start: raw.start_date.replace(' ', 'T'),
     ...(typeof raw.end_date === 'string' && { end: raw.end_date.replace(' ', 'T') }),

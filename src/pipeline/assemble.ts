@@ -1,4 +1,5 @@
 import type { Event } from '../domain/event';
+import { hasIsoStart } from './eventValidity';
 import { normalizeTicketmasterEvent } from '../ingestion/ticketmaster';
 import { normalizeNycOpenDataEvent } from '../ingestion/nycOpenData';
 import { normalizeParksEvent } from '../ingestion/nycParks';
@@ -80,9 +81,9 @@ export function assembleEvents(batches: RawBatch[]): Event[] {
         // A single malformed record must never sink the whole refresh.
         continue;
       }
-      // Require a real ISO date prefix (not just length) so a malformed start
-      // like "nullT19:30:00" from any source is dropped rather than published.
-      if (event && typeof event.start === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(event.start)) {
+      // Drop adapter-rejected records and any whose start fails the Event
+      // contract (a malformed "nullT19:30:00" must never be published).
+      if (event && hasIsoStart(event)) {
         byId.set(event.id, event);
       }
     }

@@ -7,10 +7,14 @@ import { carryForwardEvents } from './carryForward';
 import { deduplicateEvents } from './dedup';
 import { partitionEvents, eventCity, eventState } from './partition';
 import { summarizeSources } from './sourceSummary';
-import { enrichWithSpotify, getSpotifyToken } from './spotifyEnrich';
-import { enrichWithWeather } from './weatherEnrich';
-import { enrichWithGeocode } from './geocodeEnrich';
-import { enrichWithNeighborhoods } from './neighborhoodEnrich';
+import { getSpotifyToken } from './spotifyEnrich';
+import {
+  runEnrichmentChain,
+  liveEnrichmentStages,
+  archiveEnrichmentStages,
+  type EnrichmentContext,
+  type StageReport,
+} from './enrichmentChain';
 import {
   fetchBpl,
   fetchCityParks,
@@ -133,58 +137,33 @@ async function main(): Promise<void> {
   const { live, archive } = partitionEvents(superset, nowIso);
   console.log(`  partition: ${live.length} live, ${archive.length} archived`);
 
-  // Geocode venue addresses for live events without coordinates so they appear on
-  // the map and get proper neighborhoods. No-op without a key; subsequent runs
-  // skip any venue already geocoded (lat/lon carries forward).
-  const withCoords = await enrichWithGeocode(live, process.env.GOOGLE_MAPS_API_KEY);
-  if (process.env.GOOGLE_MAPS_API_KEY) {
-    const geocoded = withCoords.filter((e) => e.lat != null).length - live.filter((e) => e.lat != null).length;
-    if (geocoded > 0) console.log(`  geocode: +${geocoded} venues resolved`);
-  }
-
-  // Replace NTA census neighborhood names with community-recognized names from
-  // Google Maps reverse geocoding. Results are cached in neighborhood-cache.json
-  // so each unique lat/lon is only ever looked up once across all pipeline runs.
-  const withNeighborhoods = await enrichWithNeighborhoods(withCoords, process.env.GOOGLE_MAPS_API_KEY);
-  if (process.env.GOOGLE_MAPS_API_KEY) {
-    const overridden = withNeighborhoods.filter(
-      (e, i) => e.neighborhood !== withCoords[i].neighborhood,
-    ).length;
-    if (overridden > 0) console.log(`  neighborhoods: ${overridden} events updated with Google Maps names`);
-  }
-
-  // Attach near-term weather forecast to outdoor events (parks, markets) within
-  // the next 5 days. Stale weather is stripped on events now outside the window.
-  const withWeather = await enrichWithWeather(withNeighborhoods, process.env.OPENWEATHER_API_KEY);
-  if (process.env.OPENWEATHER_API_KEY) {
-    const weatherCount = withWeather.filter((e) => e.weather).length;
-    if (weatherCount > 0) console.log(`  weather: ${weatherCount} outdoor events have a forecast`);
-  }
-
-  // Enrich music events with a Spotify artist image/link (no-op without creds);
-  // seed from the previous file so recurring artists aren't re-searched.
-  const token = await getSpotifyToken(
+  // The Spotify token needs credentials, not events, so fetch it up front and
+  // hand the whole enrichment chain its context. The chain owns stage ordering
+  // (geocode → neighborhood → weather → spotify) and the skip-on-push cost
+  // policy; run.ts just supplies inputs and logs what each stage changed.
+  const spotifyToken = await getSpotifyToken(
     process.env.SPOTIFY_CLIENT_ID,
     process.env.SPOTIFY_CLIENT_SECRET,
   );
-  const enriched = await enrichWithSpotify(withWeather, token, previousLive);
-  if (token) {
-    console.log(`  spotify: ${enriched.filter((e) => e.image).length} music events have an image`);
-  }
+  const enrichCtx: EnrichmentContext = {
+    googleMapsKey: process.env.GOOGLE_MAPS_API_KEY,
+    openWeatherKey: process.env.OPENWEATHER_API_KEY,
+    spotifyToken,
+    previousLive,
+    onPush,
+  };
+  const logStage = (scope: string) => (r: StageReport) => {
+    if (r.skipped) console.log(`  ${scope} ${r.name}: skipped (push run)`);
+    else if (r.changed > 0) console.log(`  ${scope} ${r.name}: ${r.changed} events updated`);
+  };
 
-  // Resolve neighborhoods for archived (other-city) events too, so the city →
-  // neighborhood drill works beyond NYC. This is thousands of reverse-geocodes the
-  // first time, so it's skipped on push runs — the shared cache is populated by
-  // cron/manual runs and carried forward to keep pushes fast.
-  let archiveOut = archive;
-  if (!onPush) {
-    archiveOut = await enrichWithNeighborhoods(archive, process.env.GOOGLE_MAPS_API_KEY);
-    if (process.env.GOOGLE_MAPS_API_KEY) {
-      console.log(
-        `  archive neighborhoods: ${archiveOut.filter((e) => e.neighborhood).length} of ${archiveOut.length} placed`,
-      );
-    }
-  }
+  const enriched = await runEnrichmentChain(live, liveEnrichmentStages, enrichCtx, logStage('live'));
+  const archiveOut = await runEnrichmentChain(
+    archive,
+    archiveEnrichmentStages,
+    enrichCtx,
+    logStage('archive'),
+  );
 
   // State → cities present across the superset, so the UI's location selector
   // knows what's available without loading the archive. NY first; cities sorted.

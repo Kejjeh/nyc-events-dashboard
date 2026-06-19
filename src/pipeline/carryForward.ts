@@ -1,10 +1,6 @@
 import type { Event } from '../domain/event';
 import { nycDateOf } from '../ingestion/datetime';
-
-/** True when an event has a usable ISO start we can compare and sort on. */
-function hasValidStart(event: Event): boolean {
-  return typeof event.start === 'string' && event.start.length >= 10;
-}
+import { hasIsoStart } from './eventValidity';
 
 /**
  * Merges a freshly-fetched event set with the previous published set so that a
@@ -35,6 +31,6 @@ export function carryForwardEvents(
   const carried = previous.filter((event) => !succeeded.has(event.source));
 
   return [...fresh, ...carried]
-    .filter((event) => hasValidStart(event) && event.start.slice(0, 10) >= today)
+    .filter((event) => hasIsoStart(event) && event.start.slice(0, 10) >= today)
     .sort((a, b) => a.start.localeCompare(b.start));
 }

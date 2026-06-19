@@ -1,7 +1,6 @@
 import type { Event } from '../domain/event';
 import { utcToNycLocal, nycDateOf } from './datetime';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 /** Smorgasburg runs every weekend, April–October. */
 const SEASON_START_MONTH = 4; // April
@@ -80,8 +79,8 @@ function normalizeMarket(raw: MarketDescriptor): Event {
 /** Normalizes a Squarespace special-event record; null when unplaceable or undated. */
 function normalizeSpecial(raw: any): Event | null {
   const loc = raw.location ?? {};
-  const borough = boroughFromLatLng(loc.markerLat, loc.markerLng);
-  if (!borough) {
+  const nyc = nycLocationFromLatLng(loc.markerLat, loc.markerLng);
+  if (!nyc) {
     return null;
   }
   // A draft/malformed feed item can lack a valid startDate — drop rather than crash.
@@ -90,13 +89,11 @@ function normalizeSpecial(raw: any): Event | null {
     return null;
   }
   const endMs = raw.endDate != null ? new Date(raw.endDate).getTime() : NaN;
-  const neighborhood = neighborhoodFromLatLng(loc.markerLat, loc.markerLng, borough);
   return {
     id: `smorgasburg:event:${raw.fullUrl}`,
     title: raw.title,
     category: 'food',
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...nyc,
     venue: loc.addressTitle || loc.addressLine1 || 'Smorgasburg',
     start: utcToNycLocal(new Date(startMs).toISOString()),
     ...(Number.isFinite(endMs) && { end: utcToNycLocal(new Date(endMs).toISOString()) }),

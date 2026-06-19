@@ -1,7 +1,6 @@
 import type { Category, Event } from '../domain/event';
 import { combineDateTime } from './datetime';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 /**
  * Parks category labels grouped into our taxonomy. An item carries several
@@ -69,18 +68,16 @@ function categoryForParks(categories: string): Category {
  */
 export function normalizeParksEvent(raw: any): Event | null {
   const [lat, lon] = (raw.coordinates ?? '').split(',').map((n: string) => parseFloat(n.trim()));
-  const borough = boroughFromLatLng(lat, lon);
-  if (!borough) {
+  const loc = nycLocationFromLatLng(lat, lon);
+  if (!loc) {
     return null;
   }
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough);
 
   return {
     id: `nyc-parks:${raw.guid}`,
     title: raw.title,
     category: categoryForParks(raw.categories),
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...loc,
     venue: raw.location,
     start: combineDateTime(raw.startdate, raw.starttime),
     end: combineDateTime(raw.enddate, raw.endtime),

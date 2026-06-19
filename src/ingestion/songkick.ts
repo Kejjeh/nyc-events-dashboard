@@ -1,6 +1,5 @@
 import type { Event } from '../domain/event';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 import { utcToNycLocal } from './datetime';
 
 /** Headliner names, falling back to Songkick's displayName minus its trailing date. */
@@ -32,9 +31,8 @@ export function normalizeSongkickEvent(raw: any): Event | null {
   const lng = typeof venue.lng === 'number' ? venue.lng : typeof loc.lng === 'number' ? loc.lng : NaN;
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
 
-  const borough = boroughFromLatLng(lat, lng);
-  if (!borough) return null;
-  const neighborhood = neighborhoodFromLatLng(lat, lng, borough) ?? undefined;
+  const nyc = nycLocationFromLatLng(lat, lng);
+  if (!nyc) return null;
 
   const start = raw?.start ?? {};
   let startIso: string;
@@ -55,8 +53,7 @@ export function normalizeSongkickEvent(raw: any): Event | null {
     id: `songkick:${raw.id}`,
     title,
     category: 'music',
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...nyc,
     venue: (typeof venue.displayName === 'string' && venue.displayName) || 'Venue',
     start: startIso,
     isFree: false,

@@ -1,7 +1,6 @@
 import type { Category, Event } from '../domain/event';
 import { utcToNycLocal } from './datetime';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 /**
  * Maps a DICE primary-filter tag value to our taxonomy. Each event self-tags via
@@ -39,11 +38,10 @@ export function normalizeDiceEvent(raw: any): Event | null {
   // DICE labels every NYC venue city 'New York', so borough must come from the
   // venue's coordinates, not its address/city.
   const location = raw.venues?.[0]?.location;
-  const borough = location ? boroughFromLatLng(location.lat, location.lng) : null;
-  if (!borough) {
+  const loc = location ? nycLocationFromLatLng(location.lat, location.lng) : null;
+  if (!loc) {
     return null;
   }
-  const neighborhood = neighborhoodFromLatLng(location.lat, location.lng, borough);
 
   // Prices are in cents: single-price uses amount, multi-tier uses amount_from.
   const price = raw.price ?? {};
@@ -55,8 +53,7 @@ export function normalizeDiceEvent(raw: any): Event | null {
     id: `dice:${raw.id}`,
     title: raw.name,
     category: categoryForTags(raw.tags_types),
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...loc,
     venue: raw.venues[0].name,
     start: utcToNycLocal(raw.dates.event_start_date),
     ...(raw.dates.event_end_date && { end: utcToNycLocal(raw.dates.event_end_date) }),

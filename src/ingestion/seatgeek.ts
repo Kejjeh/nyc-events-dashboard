@@ -1,6 +1,5 @@
 import type { Category, Event } from '../domain/event';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 const TYPE_CATEGORY: Partial<Record<string, Category>> = {
   concert: 'music',
@@ -25,10 +24,8 @@ export function normalizeSeatGeekEvent(raw: any): Event | null {
   const lon = venue?.location?.lon as number | undefined;
   if (lat == null || lon == null || Number.isNaN(lat) || Number.isNaN(lon)) return null;
 
-  const borough = boroughFromLatLng(lat, lon);
-  if (!borough) return null;
-
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  const loc = nycLocationFromLatLng(lat, lon);
+  if (!loc) return null;
 
   const lowestPrice = raw.stats?.lowest_price as number | null | undefined;
   const highestPrice = raw.stats?.highest_price as number | null | undefined;
@@ -37,8 +34,7 @@ export function normalizeSeatGeekEvent(raw: any): Event | null {
     id: `seatgeek:${raw.id}`,
     title: raw.title,
     category: TYPE_CATEGORY[raw.type as string] ?? 'other',
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...loc,
     venue: venue.name,
     start: dateTime,
     // Null/missing price means unknown, not free — only explicit $0 is free.

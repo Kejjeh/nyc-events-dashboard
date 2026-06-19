@@ -4,21 +4,10 @@ import { parseSmallsCalendar } from '../ingestion/smallslive';
 import { smorgasburgMarketDescriptors } from '../ingestion/smorgasburg';
 import { greenmarketDescriptors } from '../ingestion/nycGreenmarket';
 import { nycDateOf } from '../ingestion/datetime';
-import { withRetry } from './retry';
+import { fetchJson, fetchText, fetchWithRetry } from './http';
 
 const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
-
-/**
- * Transient statuses worth retrying. NYC Parks (CloudFront origin/WAF) returns a
- * sporadic 403 on cache-miss that a retry recovers; Socrata returns transient
- * 503s. A non-retryable status (e.g. 404) is returned as-is for the caller.
- */
-const RETRYABLE_STATUS = new Set([403, 429, 500, 502, 503, 504]);
-
-/** Per-attempt request timeout so a hung connection becomes a retryable error
- *  instead of stalling the whole pipeline forever. */
-const REQUEST_TIMEOUT_MS = 20000;
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -30,22 +19,6 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 function socrataHeaders(): Record<string, string> {
   const token = process.env.SOCRATA_APP_TOKEN;
   return token ? { 'X-App-Token': token } : {};
-}
-
-/** Fetch with a per-attempt timeout and bounded exponential-backoff retries. */
-function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
-  return withRetry(
-    async () => {
-      // A fresh timeout signal per attempt; AbortError rejects (and retries)
-      // rather than hanging if the server accepts but never responds.
-      const res = await fetch(url, { ...init, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
-      if (RETRYABLE_STATUS.has(res.status)) {
-        throw new Error(`transient HTTP ${res.status}`);
-      }
-      return res;
-    },
-    { retries: 3, baseDelayMs: 1000 },
-  );
 }
 
 /** NYC Open Data — "NYC Permitted Event Information – Current" (Socrata dataset bkfu-528j). */
@@ -72,13 +45,9 @@ export async function fetchSmalls(nowIso: string): Promise<RawBatch> {
 
   for (let page = 1; page <= SMALLS_MAX_PAGES; page++) {
     const url = `${SMALLS_AJAX_URL}?page=${page}&venue=all&starting_date=${startingDate}`;
-    const res = await fetchWithRetry(url, {
+    const body = (await fetchJson(url, {
       headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
-    });
-    if (!res.ok) {
-      throw new Error(`SmallsLIVE fetch failed: HTTP ${res.status}`);
-    }
-    const body = (await res.json()) as { template?: string; page_range?: number[] };
+    }, 'SmallsLIVE')) as { template?: string; page_range?: number[] };
     const pageRecords = parseSmallsCalendar(body.template ?? '');
     // A substantial template that parses to nothing means the markup changed —
     // fail loudly so carry-forward keeps the last-good data instead of wiping it.
@@ -101,7 +70,7 @@ export async function fetchSmalls(nowIso: string): Promise<RawBatch> {
  * parsed records match the keys the Parks normalizer expects.
  */
 export async function fetchParks(): Promise<RawBatch> {
-  const res = await fetchWithRetry(PARKS_RSS_URL, {
+  const xml = await fetchText(PARKS_RSS_URL, {
     headers: {
       // nycgovparks.org sits behind CloudFront; on a cache-miss the origin/WAF
       // sporadically 403s datacenter IPs. fetchWithRetry recovers by landing on
@@ -110,11 +79,7 @@ export async function fetchParks(): Promise<RawBatch> {
       Accept: 'application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
       'Accept-Language': 'en-US,en;q=0.9',
     },
-  });
-  if (!res.ok) {
-    throw new Error(`NYC Parks RSS fetch failed: HTTP ${res.status}`);
-  }
-  const xml = await res.text();
+  }, 'NYC Parks RSS');
   const parser = new XMLParser({
     removeNSPrefix: true,
     parseTagValue: false, // keep all values as strings (guid, coordinates, etc.)
@@ -306,9 +271,7 @@ export async function fetchCityParks(nowIso: string): Promise<RawBatch> {
 
   for (let page = 1; page <= CITYPARKS_MAX_PAGES; page++) {
     const params = new URLSearchParams({ per_page: '50', page: String(page), start_date: startDate });
-    const res = await fetchWithRetry(`${CITYPARKS_URL}?${params}`, { headers });
-    if (!res.ok) throw new Error(`City Parks fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
+    const body = (await fetchJson(`${CITYPARKS_URL}?${params}`, { headers }, 'City Parks')) as any;
     const events = body?.events ?? [];
     records.push(...events);
     const total = body?.total ?? records.length;
@@ -342,11 +305,9 @@ export async function fetchBpl(nowIso: string): Promise<RawBatch> {
   let next: string | null = `${BPL_URL}?${params}`;
 
   for (let page = 0; next && page < BPL_MAX_PAGES; page++) {
-    const res = await fetchWithRetry(next, {
+    const body = (await fetchJson(next, {
       headers: { 'User-Agent': BROWSER_UA, Accept: 'application/vnd.api+json' },
-    });
-    if (!res.ok) throw new Error(`BPL fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
+    }, 'BPL')) as any;
 
     for (const inc of body?.included ?? []) {
       const name = inc?.attributes?.name ?? inc?.attributes?.title;
@@ -371,11 +332,10 @@ const TODAYTIX_URL =
  * date so the normalizer can clamp run-window shows to "now playing".
  */
 export async function fetchTodayTix(nowIso: string): Promise<RawBatch> {
-  const res = await fetchWithRetry(TODAYTIX_URL, {
+  const body = (await fetchJson(TODAYTIX_URL, {
     headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
-  });
-  if (!res.ok) throw new Error(`TodayTix fetch failed: HTTP ${res.status}`);
-  const shows = ((await res.json()) as any)?.data ?? [];
+  }, 'TodayTix')) as any;
+  const shows = body?.data ?? [];
   if (!Array.isArray(shows) || shows.length === 0) {
     throw new Error('TodayTix: zero shows parsed');
   }
@@ -402,20 +362,19 @@ const GREENMARKET_DATASET_URL = 'https://data.cityofnewyork.us/resource/8vwk-6iz
 export async function fetchGreenmarket(nowIso: string): Promise<RawBatch> {
   const headers = { 'User-Agent': BROWSER_UA, ...socrataHeaders() };
 
-  const yearRes = await fetchWithRetry(
+  const yearRows = (await fetchJson(
     `${GREENMARKET_DATASET_URL}?${new URLSearchParams({ $select: 'max(year)' })}`,
     { headers },
-  );
-  if (!yearRes.ok) throw new Error(`Greenmarket year fetch failed: HTTP ${yearRes.status}`);
-  const latestYear = ((await yearRes.json()) as any[])?.[0]?.max_year;
+    'Greenmarket year',
+  )) as any[];
+  const latestYear = yearRows?.[0]?.max_year;
   if (!latestYear) throw new Error('Greenmarket: could not determine latest year');
 
-  const rowsRes = await fetchWithRetry(
+  const rows = (await fetchJson(
     `${GREENMARKET_DATASET_URL}?${new URLSearchParams({ $where: `year='${latestYear}'`, $limit: '500' })}`,
     { headers },
-  );
-  if (!rowsRes.ok) throw new Error(`Greenmarket rows fetch failed: HTTP ${rowsRes.status}`);
-  const rows = (await rowsRes.json()) as any[];
+    'Greenmarket rows',
+  )) as any[];
 
   return { source: 'nyc-greenmarket', records: greenmarketDescriptors(rows, nowIso) };
 }
@@ -462,11 +421,7 @@ export async function fetchNycOpenData(nowIso: string): Promise<RawBatch> {
     $limit: '10000',
   });
 
-  const res = await fetchWithRetry(`${NYC_DATASET_URL}?${params}`, { headers: socrataHeaders() });
-  if (!res.ok) {
-    throw new Error(`NYC Open Data fetch failed: HTTP ${res.status}`);
-  }
-  const records = (await res.json()) as any[];
+  const records = (await fetchJson(`${NYC_DATASET_URL}?${params}`, { headers: socrataHeaders() }, 'NYC Open Data')) as any[];
   return { source: 'nyc-open-data', records };
 }
 
@@ -493,9 +448,7 @@ export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBa
       page: String(page),
       sort: 'datetime_local.asc',
     });
-    const res = await fetchWithRetry(`${SEATGEEK_URL}?${params}`);
-    if (!res.ok) throw new Error(`SeatGeek fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
+    const body = (await fetchJson(`${SEATGEEK_URL}?${params}`, undefined, 'SeatGeek')) as any;
     const events = body?.events ?? [];
     records.push(...events);
     const total = body?.meta?.total ?? records.length;
@@ -538,11 +491,10 @@ export async function fetchSongkick(
       per_page: '50',
       page: String(page),
     });
-    const res = await fetchWithRetry(`${SONGKICK_URL}?${params}`, {
+    const body = (await fetchJson(`${SONGKICK_URL}?${params}`, {
       headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' },
-    });
-    if (!res.ok) throw new Error(`Songkick fetch failed: HTTP ${res.status}`);
-    const rp = ((await res.json()) as any)?.resultsPage;
+    }, 'Songkick')) as any;
+    const rp = body?.resultsPage;
     const event = rp?.results?.event ?? [];
     const list = Array.isArray(event) ? event : [event];
     records.push(...list);
@@ -590,11 +542,9 @@ export async function fetchJamBase(apiKey: string | undefined, nowIso: string): 
         perPage: '100',
         page: String(page),
       });
-      const res = await fetchWithRetry(`${JAMBASE_URL}?${params}`, {
+      const body = (await fetchJson(`${JAMBASE_URL}?${params}`, {
         headers: { Authorization: `Bearer ${apiKey}`, Accept: 'application/json' },
-      });
-      if (!res.ok) throw new Error(`JamBase fetch failed: HTTP ${res.status}`);
-      const body = (await res.json()) as any;
+      }, 'JamBase')) as any;
       const events = body?.events ?? [];
       for (const e of events) if (e?.identifier) byId.set(e.identifier, e);
       const totalPages = body?.pagination?.totalPages ?? page;
@@ -636,9 +586,8 @@ export async function fetchSerpApi(apiKey: string | undefined, nowIso: string): 
       gl: 'us',
       api_key: apiKey,
     });
-    const res = await fetchWithRetry(`${SERPAPI_URL}?${params}`, { headers: { Accept: 'application/json' } });
-    if (!res.ok) throw new Error(`SerpAPI fetch failed: HTTP ${res.status}`);
-    const events = ((await res.json()) as any)?.events_results ?? [];
+    const body = (await fetchJson(`${SERPAPI_URL}?${params}`, { headers: { Accept: 'application/json' } }, 'SerpAPI')) as any;
+    const events = body?.events_results ?? [];
     for (const e of events) {
       const key = `${e?.title ?? ''}|${(e?.address ?? []).join(',')}`;
       if (e?.title && !seen.has(key)) {
@@ -882,7 +831,7 @@ export async function fetchResidentAdvisor(nowIso: string): Promise<RawBatch> {
 
   const records: any[] = [];
   for (let page = 1; page <= RA_MAX_PAGES; page++) {
-    const res = await fetchWithRetry(RA_GRAPHQL_URL, {
+    const body = (await fetchJson(RA_GRAPHQL_URL, {
       method: 'POST',
       headers,
       body: JSON.stringify({
@@ -897,9 +846,7 @@ export async function fetchResidentAdvisor(nowIso: string): Promise<RawBatch> {
           page,
         },
       }),
-    });
-    if (!res.ok) throw new Error(`Resident Advisor fetch failed: HTTP ${res.status}`);
-    const body = (await res.json()) as any;
+    }, 'Resident Advisor')) as any;
     const listings = body?.data?.eventListings?.data ?? [];
     records.push(...listings);
     const total = body?.data?.eventListings?.totalResults ?? 0;
@@ -938,9 +885,7 @@ export async function fetchTicketmaster(apiKey: string | undefined, nowIso: stri
         size: '200',
         page: String(page),
       });
-      const res = await fetchWithRetry(`${TICKETMASTER_URL}?${params}`);
-      if (!res.ok) throw new Error(`Ticketmaster fetch failed: HTTP ${res.status}`);
-      const body = (await res.json()) as any;
+      const body = (await fetchJson(`${TICKETMASTER_URL}?${params}`, undefined, 'Ticketmaster')) as any;
       const events = body?._embedded?.events ?? [];
       for (const e of events) if (e?.id) byId.set(e.id, e);
       const totalPages = body?.page?.totalPages ?? 1;

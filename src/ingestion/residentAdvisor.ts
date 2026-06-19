@@ -1,7 +1,6 @@
 import type { Event } from '../domain/event';
 import { utcToNycLocal } from './datetime';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 export function normalizeResidentAdvisorEvent(raw: any): Event | null {
   // Each raw item is an eventListing; the actual event fields are nested.
@@ -14,10 +13,8 @@ export function normalizeResidentAdvisorEvent(raw: any): Event | null {
   const lon = parseFloat(venue?.location?.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
 
-  const borough = boroughFromLatLng(lat, lon);
-  if (!borough) return null;
-
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  const loc = nycLocationFromLatLng(lat, lon);
+  if (!loc) return null;
 
   // RA returns UTC timestamps (Z suffix); convert to NYC local.
   const start = utcToNycLocal(startTime);
@@ -30,8 +27,7 @@ export function normalizeResidentAdvisorEvent(raw: any): Event | null {
     id: `ra:${event.id}`,
     title: event.title ?? '',
     category: 'music',
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...loc,
     venue: venue?.name ?? '',
     start,
     ...(end && { end }),

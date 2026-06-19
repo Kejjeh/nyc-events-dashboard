@@ -1,6 +1,5 @@
 import type { Category, Event } from '../domain/event';
-import { boroughFromLatLng } from './borough';
-import { neighborhoodFromLatLng } from './neighborhood';
+import { nycLocationFromLatLng } from './nycLocation';
 
 // Eventbrite category IDs (from EventbriteCategory/<id> tags in web-scraped data).
 const CATEGORY_MAP: Record<string, Category> = {
@@ -26,10 +25,8 @@ export function normalizeEventbriteEvent(raw: any): Event | null {
   const lon = parseFloat(venue?.address?.longitude);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
 
-  const borough = boroughFromLatLng(lat, lon);
-  if (!borough) return null;
-
-  const neighborhood = neighborhoodFromLatLng(lat, lon, borough) ?? undefined;
+  const loc = nycLocationFromLatLng(lat, lon);
+  if (!loc) return null;
 
   const catTag = (raw.tags ?? []).find(
     (t: any) => typeof t?.tag === 'string' && t.tag.startsWith('EventbriteCategory/'),
@@ -51,8 +48,7 @@ export function normalizeEventbriteEvent(raw: any): Event | null {
     id: `eventbrite:${id}`,
     title: raw.name ?? '',
     category,
-    borough,
-    ...(neighborhood && { neighborhood }),
+    ...loc,
     venue: venue?.name ?? '',
     start,
     ...(end && { end }),
