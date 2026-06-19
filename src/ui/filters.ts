@@ -1,5 +1,6 @@
 import type { Borough, Category, Event } from '../domain/event';
-import { isInDateWindow, type DateWindow } from './dateWindow';
+import { isInDateWindow, effectiveWindow, type DateWindow } from './dateWindow';
+import type { FilterState } from './urlState';
 
 export interface FilterCriteria {
   borough?: Borough;
@@ -20,6 +21,25 @@ export interface FilterCriteria {
 }
 
 export type SortKey = 'soonest' | 'borough' | 'category' | 'nearest';
+
+/**
+ * Translates the stored filter state into runtime filter criteria — the shape
+ * shift (drop 'All', null-empty arrays, collapse an expired picked date, inject
+ * today) that every `filterEvents` call site used to re-type inline.
+ */
+export function toCriteria(state: FilterState, today: string): FilterCriteria {
+  return {
+    borough: state.borough === 'All' ? undefined : state.borough,
+    neighborhoods: state.neighborhoods.length > 0 ? state.neighborhoods : undefined,
+    sources: state.sources.length > 0 ? state.sources : undefined,
+    categories: state.categories.length > 0 ? state.categories : undefined,
+    freeOnly: state.freeOnly,
+    maxPrice: state.maxPrice > 0 ? state.maxPrice : undefined,
+    search: state.search,
+    dateWindow: effectiveWindow(state.dateWindow, today),
+    today,
+  };
+}
 
 /** Filters events by borough, category, free-only, date window, and a title/venue search. */
 export function filterEvents(events: Event[], criteria: FilterCriteria): Event[] {

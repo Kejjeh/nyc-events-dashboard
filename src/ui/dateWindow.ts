@@ -10,6 +10,15 @@ export type DateWindow = 'all' | 'today' | 'weekend' | 'week' | (string & {});
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
+/**
+ * A picked calendar date that has already passed is meaningless as a filter, so
+ * collapse it to 'all' — a shared link or saved search never hydrates into a
+ * silently-empty board. Named windows and future dates pass through unchanged.
+ */
+export function effectiveWindow(window: DateWindow, todayIso: string): DateWindow {
+  return DATE_RE.test(window) && window < todayIso ? 'all' : window;
+}
+
 /** Date math on plain YYYY-MM-DD strings, done in UTC to avoid tz drift. */
 function addDays(iso: string, n: number): string {
   const d = new Date(`${iso}T00:00:00Z`);

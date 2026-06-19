@@ -6,9 +6,19 @@ import { useTheme } from './useTheme';
 import { useBookmarks } from './useBookmarks';
 import { useGeolocation } from './useGeolocation';
 import { useSavedSearches, type SavedSearch } from './useSavedSearches';
-import { filterEvents, sortEvents, type SortKey } from './filters';
-import type { DateWindow } from './dateWindow';
+import { filterEvents, sortEvents, toCriteria, type SortKey } from './filters';
+import { effectiveWindow, type DateWindow } from './dateWindow';
 import { parseFilters, serializeFilters, type FilterState } from './urlState';
+import { matchesFor } from './savedSearchMatching';
+import { useFilters } from './useFilters';
+import {
+  selectBorough as applyBorough,
+  selectCity as applyCity,
+  selectState as applyState,
+  toggleNeighborhood as applyToggleHood,
+  defaultCityFor,
+  type LocationSelection,
+} from './filterSelection';
 import { sourceLabel } from './format';
 import { EventCard } from './EventCard';
 import { EventModal } from './EventModal';
@@ -40,12 +50,6 @@ const DATE_WINDOWS: { key: DateWindow; label: string }[] = [
   { key: 'week', label: 'Next 7 days' },
 ];
 const PICKED_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
-
-/** A picked date that has already passed is meaningless — treat it as "any date"
- *  so a shared link or saved search never hydrates into a silently-empty board. */
-function effectiveWindow(dw: DateWindow, today: string): DateWindow {
-  return PICKED_DATE_RE.test(dw) && dw < today ? 'all' : dw;
-}
 const CATEGORIES: { key: Category; label: string }[] = [
   { key: 'music', label: 'Music' },
   { key: 'comedy', label: 'Comedy' },
@@ -87,17 +91,17 @@ export function App() {
 
   // Hydrate initial filters from the shareable URL (parsed once).
   const [init] = useState(() => parseFilters(window.location.search));
-  const [borough, setBorough] = useState<Borough | 'All'>(init.borough);
-  const [neighborhoods, setNeighborhoods] = useState<string[]>(init.neighborhoods);
-  const [sources, setSources] = useState<string[]>(init.sources);
-  const [categories, setCategories] = useState<Category[]>(init.categories);
-  const [freeOnly, setFreeOnly] = useState(init.freeOnly);
-  const [maxPrice, setMaxPrice] = useState(init.maxPrice);
-  const [search, setSearch] = useState(init.search);
-  const [sort, setSort] = useState<SortKey>(init.sort);
-  // A shared link can carry a picked date that has since passed — fall back to
-  // "Any date" rather than hydrate into a silently-empty board.
-  const [dateWindow, setDateWindow] = useState<DateWindow>(effectiveWindow(init.dateWindow, today));
+  // The non-location filter axis (location lives in `selection` below). A shared
+  // link's expired picked date is collapsed to "all" inside the hook.
+  const {
+    sources, setSources,
+    categories, setCategories,
+    freeOnly, setFreeOnly,
+    maxPrice, setMaxPrice,
+    search, setSearch,
+    sort, setSort,
+    dateWindow, setDateWindow,
+  } = useFilters(init, today);
   const [savedOnly, setSavedOnly] = useState(false);
   const [copied, setCopied] = useState(false);
   const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
@@ -110,15 +114,22 @@ export function App() {
   const [selectedVenue, setSelectedVenue] = useState<string | null>(
     () => new URLSearchParams(window.location.search).get('venue'),
   );
-  // Selected location: a state (NY default) + a city within it. The NYC default
-  // (NY + New York) uses only the lean live file; everything else lazy-loads the archive.
-  const [stateFilter, setStateFilter] = useState<string>(
-    () => new URLSearchParams(window.location.search).get('state') || 'NY',
-  );
-  const [cityFilter, setCityFilter] = useState<string>(() => {
+  // The interdependent location axis (state → city → borough → neighborhood) is
+  // a single piece of state so its cross-field invariants (which selection clears
+  // which) live in filterSelection, not in scattered setX/setY handlers here. The
+  // NYC default (NY + New York) uses only the lean live file; everything else
+  // lazy-loads the archive.
+  const [selection, setSelection] = useState<LocationSelection>(() => {
     const sp = new URLSearchParams(window.location.search);
-    return sp.get('city') || ((sp.get('state') || 'NY') === 'NY' ? 'New York' : 'All');
+    const stateFilter = sp.get('state') || 'NY';
+    return {
+      stateFilter,
+      cityFilter: sp.get('city') || defaultCityFor(stateFilter),
+      borough: init.borough,
+      neighborhoods: init.neighborhoods,
+    };
   });
+  const { stateFilter, cityFilter, borough, neighborhoods } = selection;
 
   const liveEvents = state.status === 'ready' ? state.payload.events : EMPTY_EVENTS;
   const archiveEvents = archive.status === 'ready' ? archive.events : EMPTY_EVENTS;
@@ -185,24 +196,23 @@ export function App() {
       .catch(() => {});
   }
 
-  // Switching borough must clear the neighborhood in the same render, or the
-  // stale neighborhood briefly filters the new borough to an empty set.
+  // All four location handlers delegate to filterSelection's pure transitions,
+  // which own the "which selection clears which" invariants and apply them in a
+  // single state update (so no stale sub-filter flashes an empty board).
   function selectBorough(next: Borough | 'All') {
-    setBorough(next);
-    setNeighborhoods([]);
+    setSelection((s) => applyBorough(s, next));
   }
-
-  // Switching location resets the NYC-only borough/neighborhood sub-filters.
   function selectState(next: string) {
-    setStateFilter(next);
-    setCityFilter(next === 'NY' ? 'New York' : 'All');
-    setBorough('All');
-    setNeighborhoods([]);
+    setSelection((s) => applyState(s, next));
   }
   function selectCityFilter(next: string) {
-    setCityFilter(next);
-    setBorough('All');
-    setNeighborhoods([]);
+    setSelection((s) => applyCity(s, next));
+  }
+  function toggleHood(n: string) {
+    setSelection((s) => applyToggleHood(s, n));
+  }
+  function clearHoods() {
+    setSelection((s) => ({ ...s, neighborhoods: [] }));
   }
 
   function toggleCategory(key: Category) {
@@ -253,18 +263,14 @@ export function App() {
   // the set a saved search captures, so it's computed once and reused below.
   const filtered = useMemo(
     () =>
-      filterEvents(allEvents, {
-        borough: borough === 'All' ? undefined : borough,
-        neighborhoods: neighborhoods.length > 0 ? neighborhoods : undefined,
-        sources: sources.length > 0 ? sources : undefined,
-        categories: categories.length > 0 ? categories : undefined,
-        freeOnly,
-        maxPrice: maxPrice > 0 ? maxPrice : undefined,
-        search,
-        dateWindow,
-        today,
-      }),
-    [allEvents, borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, dateWindow, today],
+      filterEvents(
+        allEvents,
+        toCriteria(
+          { borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow },
+          today,
+        ),
+      ),
+    [allEvents, borough, neighborhoods, sources, categories, freeOnly, maxPrice, search, sort, dateWindow, today],
   );
 
   const visible = useMemo(() => {
@@ -299,26 +305,10 @@ export function App() {
 
   // For each saved search, which event ids currently match and how many are new
   // (matching but not yet seen). Recomputed whenever the dataset changes.
-  const searchStatus = useMemo(() => {
-    const map = new Map<string, { matchIds: string[]; newCount: number }>();
-    for (const s of searches) {
-      const fs = parseFilters(s.qs);
-      const matchIds = filterEvents(allEvents, {
-        borough: fs.borough === 'All' ? undefined : fs.borough,
-        neighborhoods: fs.neighborhoods.length > 0 ? fs.neighborhoods : undefined,
-        sources: fs.sources.length > 0 ? fs.sources : undefined,
-        categories: fs.categories.length > 0 ? fs.categories : undefined,
-        freeOnly: fs.freeOnly,
-        maxPrice: fs.maxPrice > 0 ? fs.maxPrice : undefined,
-        search: fs.search,
-        dateWindow: effectiveWindow(fs.dateWindow, today),
-        today,
-      }).map((e) => e.id);
-      const seen = new Set(s.seenIds);
-      map.set(s.id, { matchIds, newCount: matchIds.filter((id) => !seen.has(id)).length });
-    }
-    return map;
-  }, [searches, allEvents, today]);
+  const searchStatus = useMemo(
+    () => matchesFor(searches, allEvents, today),
+    [searches, allEvents, today],
+  );
 
   const totalNew = useMemo(
     () => [...searchStatus.values()].reduce((sum, s) => sum + s.newCount, 0),
@@ -361,8 +351,7 @@ export function App() {
   // Apply a saved search's filters to the live state and mark its matches seen.
   function applySearch(s: SavedSearch) {
     const fs: FilterState = parseFilters(s.qs);
-    setBorough(fs.borough);
-    setNeighborhoods(fs.neighborhoods);
+    setSelection((s) => ({ ...s, borough: fs.borough, neighborhoods: fs.neighborhoods }));
     setSources(fs.sources);
     setCategories(fs.categories);
     setFreeOnly(fs.freeOnly);
@@ -519,7 +508,7 @@ export function App() {
               <button
                 className={`hood ${neighborhoods.length === 0 ? 'hood--active' : ''}`}
                 aria-pressed={neighborhoods.length === 0}
-                onClick={() => setNeighborhoods([])}
+                onClick={clearHoods}
               >
                 All {borough}
               </button>
@@ -528,11 +517,7 @@ export function App() {
                   key={n}
                   className={`hood ${neighborhoods.includes(n) ? 'hood--active' : ''}`}
                   aria-pressed={neighborhoods.includes(n)}
-                  onClick={() =>
-                    setNeighborhoods((prev) =>
-                      prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n],
-                    )
-                  }
+                  onClick={() => toggleHood(n)}
                 >
                   {n}
                 </button>
@@ -547,7 +532,7 @@ export function App() {
           <button
             className={`hood ${neighborhoods.length === 0 ? 'hood--active' : ''}`}
             aria-pressed={neighborhoods.length === 0}
-            onClick={() => setNeighborhoods([])}
+            onClick={clearHoods}
           >
             All {cityFilter}
           </button>
@@ -556,11 +541,7 @@ export function App() {
               key={n}
               className={`hood ${neighborhoods.includes(n) ? 'hood--active' : ''}`}
               aria-pressed={neighborhoods.includes(n)}
-              onClick={() =>
-                setNeighborhoods((prev) =>
-                  prev.includes(n) ? prev.filter((x) => x !== n) : [...prev, n],
-                )
-              }
+              onClick={() => toggleHood(n)}
             >
               {n}
             </button>

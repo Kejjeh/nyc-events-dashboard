@@ -1,6 +1,39 @@
 import { describe, it, expect } from 'vitest';
-import { filterEvents, sortEvents } from './filters';
+import { filterEvents, sortEvents, toCriteria } from './filters';
+import { DEFAULT_FILTERS } from './urlState';
 import type { Event } from '../domain/event';
+
+describe('toCriteria', () => {
+  it("drops borough 'All' and injects today", () => {
+    const c = toCriteria({ ...DEFAULT_FILTERS, borough: 'All' }, '2026-08-01');
+    expect(c.borough).toBeUndefined();
+    expect(c.today).toBe('2026-08-01');
+  });
+
+  it('nulls empty multi-select arrays so they impose no filter', () => {
+    const c = toCriteria(
+      { ...DEFAULT_FILTERS, neighborhoods: [], sources: [], categories: [] },
+      '2026-08-01',
+    );
+    expect(c.neighborhoods).toBeUndefined();
+    expect(c.sources).toBeUndefined();
+    expect(c.categories).toBeUndefined();
+  });
+
+  it('collapses an expired picked date to "all"', () => {
+    const c = toCriteria({ ...DEFAULT_FILTERS, dateWindow: '2020-01-01' }, '2026-08-01');
+    expect(c.dateWindow).toBe('all');
+  });
+
+  it('keeps a populated borough and future picked date', () => {
+    const c = toCriteria(
+      { ...DEFAULT_FILTERS, borough: 'Brooklyn', dateWindow: '2026-09-01' },
+      '2026-08-01',
+    );
+    expect(c.borough).toBe('Brooklyn');
+    expect(c.dateWindow).toBe('2026-09-01');
+  });
+});
 
 function ev(overrides: Partial<Event>): Event {
   return {
