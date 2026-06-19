@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-19T13:58:28.080Z",
-  "count": 5839,
-  "archivedCount": 15794,
+  "generatedAt": "2026-06-19T17:52:26.289Z",
+  "count": 5843,
+  "archivedCount": 15793,
   "places": [
     {
       "state": "NY",
       "cities": [
         {
           "name": "New York",
-          "count": 6189
+          "count": 6192
         },
         {
           "name": "Buffalo",
@@ -2400,11 +2400,11 @@
     {
       "source": "ticketmaster",
       "count": 546,
-      "fresh": true
+      "fresh": false
     },
     {
       "source": "smallslive",
-      "count": 339,
+      "count": 340,
       "fresh": true
     },
     {
@@ -2429,7 +2429,7 @@
     },
     {
       "source": "todaytix",
-      "count": 140,
+      "count": 142,
       "fresh": true
     },
     {
@@ -2444,13 +2444,13 @@
     },
     {
       "source": "resident-advisor",
-      "count": 79,
+      "count": 80,
       "fresh": true
     },
     {
       "source": "serpapi",
       "count": 22,
-      "fresh": true
+      "fresh": false
     },
     {
       "source": "smorgasburg",
@@ -3087,26 +3087,6 @@
       "lon": -73.982597351074
     },
     {
-      "id": "seatgeek:18166174",
-      "title": "The Gazillion Bubble Show - New York",
-      "category": "kids",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 2",
-      "start": "2026-06-19T11:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-19-11-am/18166174",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-19-2-pm/18166161"
-        }
-      ]
-    },
-    {
       "id": "ra:2419897",
       "title": "DOUBLEHEADER: Apache x Nico de Andrea",
       "category": "music",
@@ -3338,26 +3318,6 @@
       "lon": -73.947303771973
     },
     {
-      "id": "seatgeek:17958099",
-      "title": "Harry Potter and The Cursed Child - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyric Theatre - New York",
-      "start": "2026-06-19T13:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-19-1-pm/17958099",
-      "source": "seatgeek",
-      "lat": 40.7565,
-      "lon": -73.9878,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-19-7-pm/17958104"
-        }
-      ]
-    },
-    {
       "id": "ra:2440953",
       "title": "The HiFi presents Sunset Sessions: Dim Kelly",
       "category": "music",
@@ -3531,6 +3491,20 @@
       "lon": -73.966003417969
     },
     {
+      "id": "seatgeek:18166161",
+      "title": "The Gazillion Bubble Show - New York",
+      "category": "kids",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 2",
+      "start": "2026-06-19T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-19-2-pm/18166161",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
       "id": "ticketmaster:LvZ18QNvdX0s4kYZEDvZb",
       "title": "Interactive Juneteenth Celebration + Style Wars Screening",
       "category": "other",
@@ -3572,13 +3546,7 @@
       "end": "2026-06-19T18:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket",
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "source": "nyc-greenmarket"
     },
     {
       "id": "nyc-parks:2180325",
@@ -3593,13 +3561,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-al-quinones-playground",
       "source": "nyc-parks",
       "lat": 40.815412778979,
-      "lon": -73.901274625272,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.901274625272
     },
     {
       "id": "nyc-parks:2180406",
@@ -3614,13 +3576,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-st-james-playground",
       "source": "nyc-parks",
       "lat": 40.866019354534,
-      "lon": -73.898195624351,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.898195624351
     },
     {
       "id": "nyc-parks:2180416",
@@ -3635,13 +3591,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-williamsbridge-oval-playground-west",
       "source": "nyc-parks",
       "lat": 40.877219084337,
-      "lon": -73.878661870956,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.878661870956
     },
     {
       "id": "nyc-parks:2180464",
@@ -3656,13 +3606,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-st-marys-park-west",
       "source": "nyc-parks",
       "lat": 40.812814939192,
-      "lon": -73.913262844086,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.913262844086
     },
     {
       "id": "nyc-parks:2180649",
@@ -3677,13 +3621,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-willis-playground",
       "source": "nyc-parks",
       "lat": 40.811308668047,
-      "lon": -73.922477979305,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.922477979305
     },
     {
       "id": "nyc-parks:2180768",
@@ -3698,13 +3636,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-spuyten-duyvil-playground",
       "source": "nyc-parks",
       "lat": 40.887225893575,
-      "lon": -73.916396338164,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.916396338164
     },
     {
       "id": "nyc-parks:2182464",
@@ -3719,13 +3651,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/juneteenth-celebration-at-unity-park",
       "source": "nyc-parks",
       "lat": 40.809250358117,
-      "lon": -73.942673603319,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.942673603319
     },
     {
       "id": "nyc-parks:2182848",
@@ -3740,13 +3666,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-loreto-playground",
       "source": "nyc-parks",
       "lat": 40.848901753402,
-      "lon": -73.851939344896,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.851939344896
     },
     {
       "id": "nyc-parks:2182900",
@@ -3761,13 +3681,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-hunts-point-playground",
       "source": "nyc-parks",
       "lat": 40.814040812484,
-      "lon": -73.886041879654,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.886041879654
     },
     {
       "id": "nyc-parks:2182903",
@@ -3782,13 +3696,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/kids-in-motion-ben-abrams-playground",
       "source": "nyc-parks",
       "lat": 40.854499816895,
-      "lon": -73.870101928711,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.870101928711
     },
     {
       "id": "dice:6a0f149b1cd9130001cbb703",
@@ -3944,13 +3852,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/paint-sip-at-the-garden",
       "source": "nyc-parks",
       "lat": 40.596986346584,
-      "lon": -73.768686624391,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.768686624391
     },
     {
       "id": "nyc-parks:2190741",
@@ -3965,13 +3867,7 @@
       "url": "http://www.nycgovparks.org/events/2026/06/19/juneteenth-celebration",
       "source": "nyc-parks",
       "lat": 40.891143798828125,
-      "lon": -73.8948974609375,
-      "weather": {
-        "icon": "04d",
-        "temp": 73,
-        "description": "overcast clouds",
-        "dt": 1781881200000
-      }
+      "lon": -73.8948974609375
     },
     {
       "id": "dice:69e68da3a85d0800014b2471",
@@ -4221,17 +4117,7 @@
       "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-19-5-pm/18012800",
       "source": "seatgeek",
       "lat": 40.758,
-      "lon": -73.9875,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-19-7-30-pm/18257842"
-        },
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-19-8-30-pm/18012802"
-        }
-      ]
+      "lon": -73.9875
     },
     {
       "id": "ticketmaster:16YZk8VPbZA8dA67",
@@ -4389,7 +4275,7 @@
       "neighborhood": "Lincoln Square",
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4410,7 +4296,7 @@
       "lon": -73.9419066,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4431,7 +4317,7 @@
       "lon": -73.9609146118164,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4452,7 +4338,7 @@
       "lon": -73.965400695801,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4473,7 +4359,7 @@
       "lon": -73.948640763759,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4494,7 +4380,7 @@
       "lon": -73.987603574991,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4920,7 +4806,7 @@
       "lon": -73.965441942215,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -4941,7 +4827,7 @@
       "lon": -73.978996276855,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -5051,7 +4937,7 @@
       "lon": -73.983734458685,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -5072,7 +4958,7 @@
       "lon": -73.96148121357,
       "weather": {
         "icon": "04d",
-        "temp": 75,
+        "temp": 80,
         "description": "overcast clouds",
         "dt": 1781892000000
       }
@@ -5242,6 +5128,20 @@
       "lon": -74.003963
     },
     {
+      "id": "seatgeek:17876149",
+      "title": "Dog Day Afternoon - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "August Wilson Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-19-7-pm/17876149",
+      "source": "seatgeek",
+      "lat": 40.7629,
+      "lon": -73.9837
+    },
+    {
       "id": "seatgeek:18143536",
       "title": "Ragtime - New York",
       "category": "other",
@@ -5270,34 +5170,6 @@
       "lon": -73.9836
     },
     {
-      "id": "seatgeek:17876149",
-      "title": "Dog Day Afternoon - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "August Wilson Theatre",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-19-7-pm/17876149",
-      "source": "seatgeek",
-      "lat": 40.7629,
-      "lon": -73.9837
-    },
-    {
-      "id": "seatgeek:18015987",
-      "title": "The Play That Goes Wrong - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 4",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-19-7-pm/18015987",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:18184597",
       "title": "Hernan Cattaneo",
       "category": "music",
@@ -5310,12 +5182,6 @@
       "source": "seatgeek",
       "lat": 40.7613,
       "lon": -74.0016,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketweb.com/event/hernn-cattneo-circle-line-cruises-tickets/14845443?REFERRAL_ID=tmfeed"
-        }
-      ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb9d5247ab3acbbfcef48fe532",
       "spotifyUrl": "https://open.spotify.com/artist/4mpJaw5y17CIN08qqe8EfB"
     },
@@ -5348,6 +5214,20 @@
       "lon": -73.9874
     },
     {
+      "id": "seatgeek:17958104",
+      "title": "Harry Potter and The Cursed Child - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyric Theatre - New York",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-19-7-pm/17958104",
+      "source": "seatgeek",
+      "lat": 40.7565,
+      "lon": -73.9878
+    },
+    {
       "id": "seatgeek:17874745",
       "title": "Stranger Things: The First Shadow - New York",
       "category": "other",
@@ -5362,18 +5242,18 @@
       "lon": -73.9855
     },
     {
-      "id": "seatgeek:18012554",
-      "title": "Schmigadoon! - New York",
+      "id": "seatgeek:18015987",
+      "title": "The Play That Goes Wrong - New York",
       "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Nederlander Theatre - NY",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 4",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-06-19-7-pm/18012554",
+      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-19-7-pm/18015987",
       "source": "seatgeek",
-      "lat": 40.7557,
-      "lon": -73.9882
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:17945037",
@@ -5418,46 +5298,61 @@
       "lon": -73.9857
     },
     {
-      "id": "seatgeek:17965672",
-      "title": "Giant - New York",
+      "id": "seatgeek:18012554",
+      "title": "Schmigadoon! - New York",
       "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Music Box Theatre - NY",
+      "venue": "Nederlander Theatre - NY",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/giant-tickets/theater/2026-06-19-7-pm/17965672",
+      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-06-19-7-pm/18012554",
       "source": "seatgeek",
-      "lat": 40.7588,
-      "lon": -73.9874
+      "lat": 40.7557,
+      "lon": -73.9882
     },
     {
-      "id": "seatgeek:18047873",
-      "title": "Death Becomes Her - New York",
+      "id": "seatgeek:17420187",
+      "title": "Little Shop of Horrors - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Westside Theatre Upstairs",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-19-7-pm/17420187",
+      "source": "seatgeek",
+      "lat": 40.7593,
+      "lon": -73.9927
+    },
+    {
+      "id": "seatgeek:18169504",
+      "title": "Every Brilliant Thing starring Mariska Hargitay - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Lunt-Fontanne Theatre",
+      "venue": "Hudson Theatre - New York",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-19-7-pm/18047873",
+      "url": "https://seatgeek.com/every-brilliant-thing-tickets/broadway/2026-06-19-7-pm/18169504",
       "source": "seatgeek",
-      "lat": 40.759,
-      "lon": -73.986
+      "lat": 40.7569,
+      "lon": -73.9848
     },
     {
-      "id": "seatgeek:18014484",
-      "title": "Hadestown - New York",
-      "category": "other",
+      "id": "seatgeek:18154943",
+      "title": "Yung Bleu",
+      "category": "music",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
+      "neighborhood": "Gramercy",
+      "venue": "Gramercy Theatre",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-19-7-pm/18014484",
+      "url": "https://seatgeek.com/yung-bleu-tickets/new-york-new-york-gramercy-theatre-2026-06-19-7-pm/concert/18154943",
       "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
+      "lat": 40.738,
+      "lon": -73.9829,
+      "image": "https://www.jambase.com/wp-content/uploads/2023/06/yung-bleu-1480x832.png"
     },
     {
       "id": "seatgeek:18009757",
@@ -5475,67 +5370,32 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/vundabar-1480x832.png"
     },
     {
-      "id": "seatgeek:18154943",
-      "title": "Yung Bleu",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Gramercy",
-      "venue": "Gramercy Theatre",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/yung-bleu-tickets/new-york-new-york-gramercy-theatre-2026-06-19-7-pm/concert/18154943",
-      "source": "seatgeek",
-      "lat": 40.738,
-      "lon": -73.9829,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/yung-bleu-new-york-new-york-06-19-2026/event/0000647AD82FF6E4"
-        }
-      ],
-      "image": "https://www.jambase.com/wp-content/uploads/2023/06/yung-bleu-1480x832.png"
-    },
-    {
-      "id": "seatgeek:18069721",
-      "title": "Heathers - New York",
+      "id": "seatgeek:17965672",
+      "title": "Giant - New York",
       "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Music Box Theatre - NY",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-19-7-pm/18069721",
+      "url": "https://seatgeek.com/giant-tickets/theater/2026-06-19-7-pm/17965672",
       "source": "seatgeek",
-      "lat": 40.7628,
+      "lat": 40.7588,
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:18081453",
-      "title": "Death of a Salesman - New York",
+      "id": "seatgeek:18014484",
+      "title": "Hadestown - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Winter Garden Theatre",
+      "venue": "Walter Kerr Theatre",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-19-7-pm/18081453",
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-19-7-pm/18014484",
       "source": "seatgeek",
-      "lat": 40.7617,
-      "lon": -73.9837
-    },
-    {
-      "id": "seatgeek:17420187",
-      "title": "Little Shop of Horrors - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Westside Theatre Upstairs",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-19-7-pm/17420187",
-      "source": "seatgeek",
-      "lat": 40.7593,
-      "lon": -73.9927
+      "lat": 40.7605,
+      "lon": -73.9857
     },
     {
       "id": "seatgeek:17992451",
@@ -5552,18 +5412,18 @@
       "lon": -73.9873
     },
     {
-      "id": "seatgeek:18169504",
-      "title": "Every Brilliant Thing starring Mariska Hargitay - New York",
-      "category": "other",
+      "id": "seatgeek:18069721",
+      "title": "Heathers - New York",
+      "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Hudson Theatre - New York",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/every-brilliant-thing-tickets/broadway/2026-06-19-7-pm/18169504",
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-19-7-pm/18069721",
       "source": "seatgeek",
-      "lat": 40.7569,
-      "lon": -73.9848
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:17945784",
@@ -5578,6 +5438,34 @@
       "source": "seatgeek",
       "lat": 40.7589,
       "lon": -73.9846
+    },
+    {
+      "id": "seatgeek:18081453",
+      "title": "Death of a Salesman - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Winter Garden Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-19-7-pm/18081453",
+      "source": "seatgeek",
+      "lat": 40.7617,
+      "lon": -73.9837
+    },
+    {
+      "id": "seatgeek:18047873",
+      "title": "Death Becomes Her - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lunt-Fontanne Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-19-7-pm/18047873",
+      "source": "seatgeek",
+      "lat": 40.759,
+      "lon": -73.986
     },
     {
       "id": "seatgeek:18229586",
@@ -5600,46 +5488,18 @@
       ]
     },
     {
-      "id": "seatgeek:18048022",
-      "title": "Just In Time - New York",
+      "id": "seatgeek:17808394",
+      "title": "The Great Gatsby - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Circle In The Square Theatre",
+      "venue": "Broadway Theatre - New York",
       "start": "2026-06-19T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/just-in-time-tickets/broadway/2026-06-19-7-pm/18048022",
+      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-19-7-pm/17808394",
       "source": "seatgeek",
-      "lat": 40.7623,
-      "lon": -73.9852
-    },
-    {
-      "id": "seatgeek:17896964",
-      "title": "Wicked - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Gershwin Theatre",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-19-7-pm/17896964",
-      "source": "seatgeek",
-      "lat": 40.7624,
-      "lon": -73.9851
-    },
-    {
-      "id": "seatgeek:18063365",
-      "title": "Moulin Rouge! The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Al Hirschfeld Theatre",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-19-7-pm/18063365",
-      "source": "seatgeek",
-      "lat": 40.7594,
-      "lon": -73.9891
+      "lat": 40.7632,
+      "lon": -73.9829
     },
     {
       "id": "seatgeek:18022744",
@@ -5657,20 +5517,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/daisy-grenade-1480x832.png"
     },
     {
-      "id": "seatgeek:17808394",
-      "title": "The Great Gatsby - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Broadway Theatre - New York",
-      "start": "2026-06-19T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-19-7-pm/17808394",
-      "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9829
-    },
-    {
       "id": "seatgeek:18029960",
       "title": "The Fear of 13 - New York",
       "category": "other",
@@ -5683,6 +5529,48 @@
       "source": "seatgeek",
       "lat": 40.7592,
       "lon": -73.983
+    },
+    {
+      "id": "seatgeek:17896964",
+      "title": "Wicked - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Gershwin Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-19-7-pm/17896964",
+      "source": "seatgeek",
+      "lat": 40.7624,
+      "lon": -73.9851
+    },
+    {
+      "id": "seatgeek:18048022",
+      "title": "Just In Time - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Circle In The Square Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/just-in-time-tickets/broadway/2026-06-19-7-pm/18048022",
+      "source": "seatgeek",
+      "lat": 40.7623,
+      "lon": -73.9852
+    },
+    {
+      "id": "seatgeek:18063365",
+      "title": "Moulin Rouge! The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Al Hirschfeld Theatre",
+      "start": "2026-06-19T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-19-7-pm/18063365",
+      "source": "seatgeek",
+      "lat": 40.7594,
+      "lon": -73.9891
     },
     {
       "id": "ra:2424937",
@@ -6828,51 +6716,6 @@
       "lon": -73.901176
     },
     {
-      "id": "todaytix:28808",
-      "title": "Singfeld! A Musical About Nothing",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Jerry Orbach Theatre",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
-      "source": "todaytix",
-      "lat": 40.7614902,
-      "lon": -73.98455659999999,
-      "neighborhood": "Theater District"
-    },
-    {
-      "id": "todaytix:39089",
-      "title": "New York Comedy Club (East Village)",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Comedy Club (East Village)",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 27,
-      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
-      "source": "todaytix",
-      "lat": 40.7266204,
-      "lon": -73.9897826,
-      "neighborhood": "Bowery"
-    },
-    {
-      "id": "todaytix:24562",
-      "title": "Speakeasy Magick ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Overlook Bar",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 215,
-      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
-      "source": "todaytix",
-      "lat": 40.743083,
-      "lon": -73.99065220000001,
-      "neighborhood": "Flatiron District"
-    },
-    {
       "id": "todaytix:7062",
       "title": "Chamber Magic",
       "category": "theater",
@@ -6903,6 +6746,21 @@
       "neighborhood": "Hell's Kitchen"
     },
     {
+      "id": "todaytix:28808",
+      "title": "Singfeld! A Musical About Nothing",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Jerry Orbach Theatre",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/singfeld-a-musical-about-nothing",
+      "source": "todaytix",
+      "lat": 40.7614902,
+      "lon": -73.98455659999999,
+      "neighborhood": "Theater District"
+    },
+    {
       "id": "todaytix:41318",
       "title": "Swan Lake",
       "category": "theater",
@@ -6916,6 +6774,36 @@
       "lat": 40.7727076,
       "lon": -73.9839082,
       "neighborhood": "Lincoln Square"
+    },
+    {
+      "id": "todaytix:24562",
+      "title": "Speakeasy Magick ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Overlook Bar",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 215,
+      "url": "https://www.todaytix.com/nyc/shows/speakeasy-magick",
+      "source": "todaytix",
+      "lat": 40.743083,
+      "lon": -73.99065220000001,
+      "neighborhood": "Flatiron District"
+    },
+    {
+      "id": "todaytix:39089",
+      "title": "New York Comedy Club (East Village)",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Comedy Club (East Village)",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 27,
+      "url": "https://www.todaytix.com/nyc/shows/new-york-comedy-club-east-village",
+      "source": "todaytix",
+      "lat": 40.7266204,
+      "lon": -73.9897826,
+      "neighborhood": "Bowery"
     },
     {
       "id": "todaytix:41648",
@@ -6933,36 +6821,6 @@
       "neighborhood": "Central Park West Historic District"
     },
     {
-      "id": "todaytix:44703",
-      "title": "Jerome",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 57,
-      "url": "https://www.todaytix.com/nyc/shows/jerome",
-      "source": "todaytix",
-      "lat": 40.7585888,
-      "lon": -73.99364969999999,
-      "neighborhood": "Hell's Kitchen"
-    },
-    {
-      "id": "todaytix:46093",
-      "title": "Pied à Terre",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Anne L. Bernstein Theater",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/pied-a-terre",
-      "source": "todaytix",
-      "lat": 40.76144,
-      "lon": -73.9844686,
-      "neighborhood": "Theater District"
-    },
-    {
       "id": "todaytix:44532",
       "title": "Encores! La Cage Aux Folles",
       "category": "theater",
@@ -6978,19 +6836,19 @@
       "neighborhood": "Midtown-Times Square"
     },
     {
-      "id": "todaytix:46557",
-      "title": "Paradise Club Presents: Salvage City Supper Club",
+      "id": "todaytix:44703",
+      "title": "Jerome",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Paradise Club",
+      "venue": "Playwrights Horizons",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 105.88,
-      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "priceMin": 57,
+      "url": "https://www.todaytix.com/nyc/shows/jerome",
       "source": "todaytix",
-      "lat": 40.75927009999999,
-      "lon": -73.984144,
-      "neighborhood": "Theater District"
+      "lat": 40.7585888,
+      "lon": -73.99364969999999,
+      "neighborhood": "Hell's Kitchen"
     },
     {
       "id": "todaytix:46879",
@@ -7005,21 +6863,6 @@
       "source": "todaytix",
       "lat": 40.7566746,
       "lon": -73.9874169,
-      "neighborhood": "Theater District"
-    },
-    {
-      "id": "todaytix:46799",
-      "title": "A Walk on the Moon",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 39,
-      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
-      "source": "todaytix",
-      "lat": 40.7579008,
-      "lon": -73.9829934,
       "neighborhood": "Theater District"
     },
     {
@@ -7053,6 +6896,51 @@
       "neighborhood": "Hell's Kitchen"
     },
     {
+      "id": "todaytix:46093",
+      "title": "Pied à Terre",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Anne L. Bernstein Theater",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/pied-a-terre",
+      "source": "todaytix",
+      "lat": 40.76144,
+      "lon": -73.9844686,
+      "neighborhood": "Theater District"
+    },
+    {
+      "id": "todaytix:46799",
+      "title": "A Walk on the Moon",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 39,
+      "url": "https://www.todaytix.com/nyc/shows/a-walk-on-the-moon",
+      "source": "todaytix",
+      "lat": 40.7579008,
+      "lon": -73.9829934,
+      "neighborhood": "Theater District"
+    },
+    {
+      "id": "todaytix:46557",
+      "title": "Paradise Club Presents: Salvage City Supper Club",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Paradise Club",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 105.88,
+      "url": "https://www.todaytix.com/nyc/shows/paradise-club-presents-salvage-city-supper-club",
+      "source": "todaytix",
+      "lat": 40.75927009999999,
+      "lon": -73.984144,
+      "neighborhood": "Theater District"
+    },
+    {
       "id": "todaytix:47123",
       "title": "Dad Don't Read This",
       "category": "theater",
@@ -7080,6 +6968,51 @@
       "source": "todaytix",
       "lat": 40.7607422,
       "lon": -73.99750279999999,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:43651",
+      "title": "LOS SOLES TRUNCOS",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
+      "source": "todaytix",
+      "lat": 40.7416921,
+      "lon": -73.98257819999999,
+      "neighborhood": "Rose Hill"
+    },
+    {
+      "id": "todaytix:42035",
+      "title": "I'm Almost There",
+      "category": "theater",
+      "borough": "Brooklyn",
+      "venue": "BAM Fisher (Fishman Space)",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 31,
+      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
+      "source": "todaytix",
+      "lat": 40.68603,
+      "lon": -73.977822,
+      "neighborhood": "Fort Greene"
+    },
+    {
+      "id": "todaytix:42261",
+      "title": "Heathers The Musical",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
+      "source": "todaytix",
+      "lat": 40.7627974,
+      "lon": -73.9876474,
       "neighborhood": "Hell's Kitchen"
     },
     {
@@ -7113,49 +7046,19 @@
       "neighborhood": "Theater District"
     },
     {
-      "id": "todaytix:42035",
-      "title": "I'm Almost There",
-      "category": "theater",
-      "borough": "Brooklyn",
-      "venue": "BAM Fisher (Fishman Space)",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 31,
-      "url": "https://www.todaytix.com/nyc/shows/im-almost-there",
-      "source": "todaytix",
-      "lat": 40.68603,
-      "lon": -73.977822,
-      "neighborhood": "Fort Greene"
-    },
-    {
-      "id": "todaytix:42261",
-      "title": "Heathers The Musical",
+      "id": "todaytix:46480",
+      "title": "Henry VI: A Trilogy in Two Parts",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "New World Stages",
+      "venue": "The Public Theater",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/heathers-the-musical",
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
       "source": "todaytix",
-      "lat": 40.7627974,
-      "lon": -73.9876474,
-      "neighborhood": "Hell's Kitchen"
-    },
-    {
-      "id": "todaytix:45703",
-      "title": "Dirty Books",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Bated Breath Theater",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 44,
-      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
-      "source": "todaytix",
-      "lat": 40.7370267,
-      "lon": -73.9954078,
-      "neighborhood": "Midtown Manhattan"
+      "lat": 40.7290672,
+      "lon": -73.99190329999999,
+      "neighborhood": "NoHo"
     },
     {
       "id": "todaytix:46871",
@@ -7188,21 +7091,6 @@
       "neighborhood": "Midtown South"
     },
     {
-      "id": "todaytix:46852",
-      "title": "And Then The Rodeo Burned Down",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Ars Nova",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 64,
-      "url": "https://www.todaytix.com/nyc/shows/and-then-the-rodeo-burned-down",
-      "source": "todaytix",
-      "lat": 40.7675858,
-      "lon": -73.9905833,
-      "neighborhood": "Hell's Kitchen"
-    },
-    {
       "id": "todaytix:46956",
       "title": "NT Live: Les Liaisons Dangereuses",
       "category": "theater",
@@ -7218,46 +7106,18 @@
       "neighborhood": "Upper West Side"
     },
     {
-      "id": "todaytix:46480",
-      "title": "Henry VI: A Trilogy in Two Parts",
+      "id": "todaytix:46963",
+      "title": "Standard Lottery - Romeo & Juliet: Free Shakespeare in the Park",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "The Public Theater",
+      "venue": "Shakespeare in the Park at The Delacorte Theater",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/henry-vi-a-trilogy-in-two-parts",
+      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
       "source": "todaytix",
-      "lat": 40.7290672,
-      "lon": -73.99190329999999,
-      "neighborhood": "NoHo"
-    },
-    {
-      "id": "todaytix:46772",
-      "title": "THE CIRCUIT: An Immersive Silent Disco Ballet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Superfine, Dumbo",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 73,
-      "url": "https://www.todaytix.com/nyc/shows/the-circuit-an-immersive-silent-disco-ballet",
-      "source": "todaytix"
-    },
-    {
-      "id": "todaytix:43651",
-      "title": "LOS SOLES TRUNCOS",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/los-soles-truncos",
-      "source": "todaytix",
-      "lat": 40.7416921,
-      "lon": -73.98257819999999,
-      "neighborhood": "Rose Hill"
+      "lat": 40.7802033,
+      "lon": -73.96879419999999,
+      "neighborhood": "Central Park"
     },
     {
       "id": "todaytix:46638",
@@ -7275,18 +7135,34 @@
       "neighborhood": "Midtown East"
     },
     {
-      "id": "todaytix:46963",
-      "title": "Standard Lottery - Romeo & Juliet: Free Shakespeare in the Park",
+      "id": "todaytix:45703",
+      "title": "Dirty Books",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Shakespeare in the Park at The Delacorte Theater",
+      "venue": "Bated Breath Theater",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/standard-lottery-free-shakespeare-in-the-parks-romeo-and-juliet",
+      "priceMin": 44,
+      "url": "https://www.todaytix.com/nyc/shows/dirty-books",
       "source": "todaytix",
-      "lat": 40.7802033,
-      "lon": -73.96879419999999,
-      "neighborhood": "Central Park"
+      "lat": 40.7370267,
+      "lon": -73.9954078,
+      "neighborhood": "Midtown Manhattan"
+    },
+    {
+      "id": "todaytix:46852",
+      "title": "And Then The Rodeo Burned Down",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Ars Nova",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 64,
+      "url": "https://www.todaytix.com/nyc/shows/and-then-the-rodeo-burned-down",
+      "source": "todaytix",
+      "lat": 40.7675858,
+      "lon": -73.9905833,
+      "neighborhood": "Hell's Kitchen"
     },
     {
       "id": "todaytix:13514",
@@ -7298,21 +7174,6 @@
       "isFree": false,
       "priceMin": 57,
       "url": "https://www.todaytix.com/nyc",
-      "source": "todaytix",
-      "lat": 40.7627974,
-      "lon": -73.9876474,
-      "neighborhood": "Hell's Kitchen"
-    },
-    {
-      "id": "todaytix:24867",
-      "title": "Katsura Sunshine's Rakugo",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 25,
-      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
       "source": "todaytix",
       "lat": 40.7627974,
       "lon": -73.9876474,
@@ -7347,6 +7208,36 @@
       "lat": 40.7627974,
       "lon": -73.9876474,
       "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:24867",
+      "title": "Katsura Sunshine's Rakugo",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 25,
+      "url": "https://www.todaytix.com/nyc/shows/katsura-sunshines-rakugo",
+      "source": "todaytix",
+      "lat": 40.7627974,
+      "lon": -73.9876474,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:46500",
+      "title": "VIDA",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/vida",
+      "source": "todaytix",
+      "lat": 40.7416921,
+      "lon": -73.98257819999999,
+      "neighborhood": "Rose Hill"
     },
     {
       "id": "todaytix:46071",
@@ -7390,21 +7281,6 @@
       "neighborhood": "Central Park"
     },
     {
-      "id": "todaytix:46500",
-      "title": "VIDA",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/vida",
-      "source": "todaytix",
-      "lat": 40.7416921,
-      "lon": -73.98257819999999,
-      "neighborhood": "Rose Hill"
-    },
-    {
       "id": "todaytix:1299",
       "title": "Perfect Crime",
       "category": "theater",
@@ -7415,12 +7291,6 @@
       "priceMin": 43,
       "url": "https://www.todaytix.com/nyc",
       "source": "todaytix",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/perfect-crime-new-york-new-york-06-19-2026/event/3000648E83711A5A"
-        }
-      ],
       "lat": 40.7614902,
       "lon": -73.98455659999999,
       "neighborhood": "Theater District"
@@ -7440,21 +7310,6 @@
       "neighborhood": "West Harlem"
     },
     {
-      "id": "todaytix:44388",
-      "title": "The 25th Annual Putnam County Spelling Bee",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New World Stages",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 60,
-      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
-      "source": "todaytix",
-      "lat": 40.7627974,
-      "lon": -73.9876474,
-      "neighborhood": "Hell's Kitchen"
-    },
-    {
       "id": "todaytix:44721",
       "title": "||: Girls :||: Chance :||: Music :||",
       "category": "theater",
@@ -7468,51 +7323,6 @@
       "lat": 40.73480259999999,
       "lon": -73.98876489999999,
       "neighborhood": "Union Square"
-    },
-    {
-      "id": "todaytix:45756",
-      "title": "Girl, Interrupted ",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Public Theater",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 129,
-      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
-      "source": "todaytix",
-      "lat": 40.7290672,
-      "lon": -73.99190329999999,
-      "neighborhood": "NoHo"
-    },
-    {
-      "id": "todaytix:45907",
-      "title": "MÁS SABE EL SAULO POR VIEJO...",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Repertorio Español / Spanish Theatre Repertory",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 53,
-      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
-      "source": "todaytix",
-      "lat": 40.7416921,
-      "lon": -73.98257819999999,
-      "neighborhood": "Rose Hill"
-    },
-    {
-      "id": "todaytix:44354",
-      "title": "Drunk Romeo & Juliet",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Ruby Theatre",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 37,
-      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
-      "source": "todaytix",
-      "lat": 40.7526648,
-      "lon": -73.9841332,
-      "neighborhood": "Midtown-Times Square"
     },
     {
       "id": "todaytix:44745",
@@ -7530,6 +7340,21 @@
       "neighborhood": "Midtown West"
     },
     {
+      "id": "todaytix:39635",
+      "title": "La Llamada",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Repertorio Español / Spanish Theatre Repertory",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 43,
+      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
+      "source": "todaytix",
+      "lat": 40.7416921,
+      "lon": -73.98257819999999,
+      "neighborhood": "Rose Hill"
+    },
+    {
       "id": "todaytix:32431",
       "title": "New York Comedy Club (Midtown)",
       "category": "theater",
@@ -7545,15 +7370,60 @@
       "neighborhood": "Chelsea"
     },
     {
-      "id": "todaytix:39635",
-      "title": "La Llamada",
+      "id": "todaytix:45756",
+      "title": "Girl, Interrupted ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Public Theater",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 129,
+      "url": "https://www.todaytix.com/nyc/shows/girl-interrupted",
+      "source": "todaytix",
+      "lat": 40.7290672,
+      "lon": -73.99190329999999,
+      "neighborhood": "NoHo"
+    },
+    {
+      "id": "todaytix:44354",
+      "title": "Drunk Romeo & Juliet",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Ruby Theatre",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 37,
+      "url": "https://www.todaytix.com/nyc/shows/drunk-romeo-and-juliet",
+      "source": "todaytix",
+      "lat": 40.7526648,
+      "lon": -73.9841332,
+      "neighborhood": "Midtown-Times Square"
+    },
+    {
+      "id": "todaytix:44388",
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New World Stages",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 60,
+      "url": "https://www.todaytix.com/nyc/shows/the-25th-annual-putnam-county-spelling-bee",
+      "source": "todaytix",
+      "lat": 40.7627974,
+      "lon": -73.9876474,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:45907",
+      "title": "MÁS SABE EL SAULO POR VIEJO...",
       "category": "theater",
       "borough": "Manhattan",
       "venue": "Repertorio Español / Spanish Theatre Repertory",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 43,
-      "url": "https://www.todaytix.com/nyc/shows/la-llamada",
+      "priceMin": 53,
+      "url": "https://www.todaytix.com/nyc/shows/mas-sabe-el-saulo-por-viejo",
       "source": "todaytix",
       "lat": 40.7416921,
       "lon": -73.98257819999999,
@@ -7590,21 +7460,6 @@
       "neighborhood": "Lincoln Square"
     },
     {
-      "id": "todaytix:44748",
-      "title": "Well, I'll Let You Go",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Studio Seaview",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 70,
-      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
-      "source": "todaytix",
-      "lat": 40.758199,
-      "lon": -73.989679,
-      "neighborhood": "Midtown South"
-    },
-    {
       "id": "todaytix:44687",
       "title": "Morgan Bassichis: Can I Be Frank?",
       "category": "theater",
@@ -7620,19 +7475,19 @@
       "neighborhood": "Hudson Square"
     },
     {
-      "id": "todaytix:46839",
-      "title": "SMALL",
+      "id": "todaytix:44748",
+      "title": "Well, I'll Let You Go",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
+      "venue": "Studio Seaview",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/small",
+      "priceMin": 90,
+      "url": "https://www.todaytix.com/nyc/shows/well-ill-let-you-go",
       "source": "todaytix",
-      "lat": 40.7591765,
-      "lon": -73.99504859999999,
-      "neighborhood": "Hell's Kitchen"
+      "lat": 40.758199,
+      "lon": -73.989679,
+      "neighborhood": "Midtown South"
     },
     {
       "id": "todaytix:46642",
@@ -7650,40 +7505,19 @@
       "neighborhood": "Theater District"
     },
     {
-      "id": "todaytix:46870",
-      "title": "David Copperfield",
+      "id": "todaytix:46427",
+      "title": "Silverback Mountain",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "59E59 Theaters Theater A",
+      "venue": "AMT Theater",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 67,
-      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
+      "priceMin": 48,
+      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
       "source": "todaytix",
-      "lat": 40.7634421,
-      "lon": -73.9704993,
-      "neighborhood": "Lenox Hill"
-    },
-    {
-      "id": "todaytix:46992",
-      "title": "Are You Now or Have You Ever Been",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York City Center",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "priceMin": 70,
-      "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
-      "source": "todaytix",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ikp"
-        }
-      ],
-      "lat": 40.76394459999999,
-      "lon": -73.97944009999999,
-      "neighborhood": "Midtown-Times Square"
+      "lat": 40.7598616,
+      "lon": -73.9906014,
+      "neighborhood": "Midtown South"
     },
     {
       "id": "todaytix:46912",
@@ -7715,19 +7549,49 @@
       "neighborhood": "Central Park"
     },
     {
-      "id": "todaytix:46427",
-      "title": "Silverback Mountain",
+      "id": "todaytix:46839",
+      "title": "SMALL",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "AMT Theater",
+      "venue": "Pershing Square Signature Center",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 48,
-      "url": "https://www.todaytix.com/nyc/shows/silverback-mountain",
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/small",
       "source": "todaytix",
-      "lat": 40.7598616,
-      "lon": -73.9906014,
-      "neighborhood": "Midtown South"
+      "lat": 40.7591765,
+      "lon": -73.99504859999999,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:46870",
+      "title": "David Copperfield",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "59E59 Theaters Theater A",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 67,
+      "url": "https://www.todaytix.com/nyc/shows/david-copperfield",
+      "source": "todaytix",
+      "lat": 40.7634421,
+      "lon": -73.9704993,
+      "neighborhood": "Lenox Hill"
+    },
+    {
+      "id": "todaytix:46992",
+      "title": "Are You Now or Have You Ever Been",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York City Center",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "priceMin": 70,
+      "url": "https://www.todaytix.com/nyc/shows/are-you-now-or-have-you-ever-been",
+      "source": "todaytix",
+      "lat": 40.76394459999999,
+      "lon": -73.97944009999999,
+      "neighborhood": "Midtown-Times Square"
     },
     {
       "id": "todaytix:47157",
@@ -7737,26 +7601,12 @@
       "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "priceMin": 33,
+      "priceMin": 41,
       "url": "https://www.todaytix.com/nyc/shows/power-network",
       "source": "todaytix",
       "lat": 40.7651249,
       "lon": -73.9799185,
       "neighborhood": "Midtown West"
-    },
-    {
-      "id": "todaytix:46809",
-      "title": "The Heart",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-heart",
-      "source": "todaytix",
-      "lat": 40.7579008,
-      "lon": -73.9829934,
-      "neighborhood": "Theater District"
     },
     {
       "id": "todaytix:46893",
@@ -7773,6 +7623,20 @@
       "neighborhood": "NoHo"
     },
     {
+      "id": "todaytix:46809",
+      "title": "The Heart",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-heart",
+      "source": "todaytix",
+      "lat": 40.7579008,
+      "lon": -73.9829934,
+      "neighborhood": "Theater District"
+    },
+    {
       "id": "todaytix:47096",
       "title": "the ripple, the wave that carried me home",
       "category": "theater",
@@ -7784,6 +7648,20 @@
       "source": "todaytix",
       "lat": 40.7585888,
       "lon": -73.99364969999999,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:47254",
+      "title": "What's Eating Gilbert Grape",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Newman Mills Theatre at the Robert W. Wilson MCC Theatre Space",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/whats-eating-gilbert-grape",
+      "source": "todaytix",
+      "lat": 40.7665361,
+      "lon": -73.99152269999999,
       "neighborhood": "Hell's Kitchen"
     },
     {
@@ -7854,6 +7732,20 @@
       "neighborhood": "East Village"
     },
     {
+      "id": "todaytix:47098",
+      "title": "Untitled New Work by Monica Bill Barnes and Robbie Saenz de Viteri ",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Playwrights Horizons",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/untitled-new-work-by-monica-bill-barnes-and-robbie-saenz-de-viteri",
+      "source": "todaytix",
+      "lat": 40.7585888,
+      "lon": -73.99364969999999,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
       "id": "todaytix:45879",
       "title": "The Winter's Tale",
       "category": "theater",
@@ -7868,18 +7760,32 @@
       "neighborhood": "Central Park"
     },
     {
-      "id": "todaytix:47098",
-      "title": "Untitled New Work by Monica Bill Barnes and Robbie Saenz de Viteri ",
+      "id": "todaytix:44328",
+      "title": "My Joy Is Heavy",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
+      "venue": "New York Theatre Workshop",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/untitled-new-work-by-monica-bill-barnes-and-robbie-saenz-de-viteri",
+      "url": "https://www.todaytix.com/nyc/shows/my-joy-is-heavy",
       "source": "todaytix",
-      "lat": 40.7585888,
-      "lon": -73.99364969999999,
-      "neighborhood": "Hell's Kitchen"
+      "lat": 40.7265905,
+      "lon": -73.99012669999999,
+      "neighborhood": "Bowery"
+    },
+    {
+      "id": "todaytix:46616",
+      "title": "In Honor of Jean-Michel Basquiat",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/in-honor-of-jean-michel-basquiat",
+      "source": "todaytix",
+      "lat": 40.7265905,
+      "lon": -73.99012669999999,
+      "neighborhood": "Bowery"
     },
     {
       "id": "todaytix:46814",
@@ -7908,20 +7814,6 @@
       "lat": 40.7579008,
       "lon": -73.9829934,
       "neighborhood": "Theater District"
-    },
-    {
-      "id": "todaytix:46616",
-      "title": "In Honor of Jean-Michel Basquiat",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/in-honor-of-jean-michel-basquiat",
-      "source": "todaytix",
-      "lat": 40.7265905,
-      "lon": -73.99012669999999,
-      "neighborhood": "Bowery"
     },
     {
       "id": "todaytix:47083",
@@ -8019,34 +7911,6 @@
       "neighborhood": "Hell's Kitchen"
     },
     {
-      "id": "todaytix:46797",
-      "title": "Eisa's Mixtape",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Pershing Square Signature Center",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
-      "source": "todaytix",
-      "lat": 40.7591765,
-      "lon": -73.99504859999999,
-      "neighborhood": "Hell's Kitchen"
-    },
-    {
-      "id": "todaytix:46615",
-      "title": "Wild Rose",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "New York Theatre Workshop",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
-      "source": "todaytix",
-      "lat": 40.7265905,
-      "lon": -73.99012669999999,
-      "neighborhood": "Bowery"
-    },
-    {
       "id": "todaytix:46309",
       "title": "Imitation of Life",
       "category": "theater",
@@ -8059,6 +7923,20 @@
       "lat": 40.7534533,
       "lon": -74.002813,
       "neighborhood": "Chelsea"
+    },
+    {
+      "id": "todaytix:46797",
+      "title": "Eisa's Mixtape",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Pershing Square Signature Center",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/eisas-mixtape",
+      "source": "todaytix",
+      "lat": 40.7591765,
+      "lon": -73.99504859999999,
+      "neighborhood": "Hell's Kitchen"
     },
     {
       "id": "todaytix:47085",
@@ -8103,6 +7981,20 @@
       "neighborhood": "Hell's Kitchen"
     },
     {
+      "id": "todaytix:46615",
+      "title": "Wild Rose",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "New York Theatre Workshop",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wild-rose",
+      "source": "todaytix",
+      "lat": 40.7265905,
+      "lon": -73.99012669999999,
+      "neighborhood": "Bowery"
+    },
+    {
       "id": "todaytix:47188",
       "title": "The Conversation",
       "category": "theater",
@@ -8115,20 +8007,6 @@
       "lat": 40.7293234,
       "lon": -73.9922112,
       "neighborhood": "NoHo"
-    },
-    {
-      "id": "todaytix:41054",
-      "title": "This Is My Favorite Song",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Playwrights Horizons",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/this-is-my-favorite-song",
-      "source": "todaytix",
-      "lat": 40.7585888,
-      "lon": -73.99364969999999,
-      "neighborhood": "Hell's Kitchen"
     },
     {
       "id": "todaytix:45922",
@@ -8145,32 +8023,18 @@
       "neighborhood": "Hell's Kitchen"
     },
     {
-      "id": "todaytix:46993",
-      "title": "Wonder! A Woman Keeps a Secret",
+      "id": "todaytix:41054",
+      "title": "This Is My Favorite Song",
       "category": "theater",
       "borough": "Manhattan",
-      "venue": "Classic Stage Company",
+      "venue": "Playwrights Horizons",
       "start": "2026-06-19T19:30:00",
       "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
+      "url": "https://www.todaytix.com/nyc/shows/this-is-my-favorite-song",
       "source": "todaytix",
-      "lat": 40.732713,
-      "lon": -73.9883255,
-      "neighborhood": "East Village"
-    },
-    {
-      "id": "todaytix:46810",
-      "title": "The Grief Eater Near North Bender",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.todaytix.com/nyc/shows/the-grief-eater-near-north-bender",
-      "source": "todaytix",
-      "lat": 40.7579008,
-      "lon": -73.9829934,
-      "neighborhood": "Theater District"
+      "lat": 40.7585888,
+      "lon": -73.99364969999999,
+      "neighborhood": "Hell's Kitchen"
     },
     {
       "id": "todaytix:46796",
@@ -8185,6 +8049,20 @@
       "lat": 40.7591765,
       "lon": -73.99504859999999,
       "neighborhood": "Hell's Kitchen"
+    },
+    {
+      "id": "todaytix:46810",
+      "title": "The Grief Eater Near North Bender",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Laura Pels Theatre at the Harold and Miriam Steinberg Center for Theatre",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-grief-eater-near-north-bender",
+      "source": "todaytix",
+      "lat": 40.7579008,
+      "lon": -73.9829934,
+      "neighborhood": "Theater District"
     },
     {
       "id": "todaytix:46794",
@@ -8215,6 +8093,34 @@
       "neighborhood": "NoHo"
     },
     {
+      "id": "todaytix:46993",
+      "title": "Wonder! A Woman Keeps a Secret",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Classic Stage Company",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/wonder-a-woman-keeps-a-secret",
+      "source": "todaytix",
+      "lat": 40.732713,
+      "lon": -73.9883255,
+      "neighborhood": "East Village"
+    },
+    {
+      "id": "todaytix:47255",
+      "title": "The Heart Sellers",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Susan & Ronald Frankel Theater at the Robert W. Wilson MCC Theatre Space - NYC",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/the-heart-sellers",
+      "source": "todaytix",
+      "lat": 40.7665361,
+      "lon": -73.99152269999999,
+      "neighborhood": "Hell's Kitchen"
+    },
+    {
       "id": "seatgeek:17567670",
       "title": "New York Philharmonic - Disney's Encanto In Concert",
       "category": "other",
@@ -8241,20 +8147,6 @@
       "source": "seatgeek",
       "lat": 40.6827,
       "lon": -73.9753
-    },
-    {
-      "id": "seatgeek:17992453",
-      "title": "American Ballet Theatre - Swan Lake",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Upper West Side-Lincoln Square",
-      "venue": "Metropolitan Opera House",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/american-ballet-theatre-tickets/dance/2026-06-19-7-30-pm/17992453",
-      "source": "seatgeek",
-      "lat": 40.7742,
-      "lon": -73.9843
     },
     {
       "id": "seatgeek:18261939",
@@ -8284,6 +8176,20 @@
       "source": "seatgeek",
       "lat": 40.7639,
       "lon": -73.9794
+    },
+    {
+      "id": "seatgeek:17992453",
+      "title": "American Ballet Theatre - Swan Lake",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Upper West Side-Lincoln Square",
+      "venue": "Metropolitan Opera House",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/american-ballet-theatre-tickets/dance/2026-06-19-7-30-pm/17992453",
+      "source": "seatgeek",
+      "lat": 40.7742,
+      "lon": -73.9843
     },
     {
       "id": "jambase:15464897",
@@ -8351,20 +8257,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18175951",
-      "title": "Josiah & The Bonnevilles",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "East Village",
-      "venue": "Webster Hall",
-      "start": "2026-06-19T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/josiah-the-bonnevilles-tickets/new-york-new-york-webster-hall-2026-06-19-7-30-pm/concert/18175951",
-      "source": "seatgeek",
-      "lat": 40.7318,
-      "lon": -73.9892
-    },
-    {
       "id": "seatgeek:18226673",
       "title": "Celebrity Autobiography - New York",
       "category": "other",
@@ -8377,6 +8269,20 @@
       "source": "seatgeek",
       "lat": 40.7579,
       "lon": -73.9875
+    },
+    {
+      "id": "seatgeek:18175951",
+      "title": "Josiah & The Bonnevilles",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "East Village",
+      "venue": "Webster Hall",
+      "start": "2026-06-19T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/josiah-the-bonnevilles-tickets/new-york-new-york-webster-hall-2026-06-19-7-30-pm/concert/18175951",
+      "source": "seatgeek",
+      "lat": 40.7318,
+      "lon": -73.9892
     },
     {
       "id": "seatgeek:17717878",
@@ -8781,10 +8687,6 @@
       "lon": -73.996696,
       "altTicketLinks": [
         {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xAQ_"
-        },
-        {
           "source": "todaytix",
           "url": "https://www.todaytix.com/nyc/shows/drunk-shakespeare-nyc"
         }
@@ -8857,20 +8759,6 @@
       "spotifyUrl": "https://open.spotify.com/artist/4d6dDvAt5jdSDAhH33UabE"
     },
     {
-      "id": "seatgeek:17874059",
-      "title": "Richard O'Brien's Rocky Horror Show - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Studio 54",
-      "start": "2026-06-19T20:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-06-19-8-pm/17874059",
-      "source": "seatgeek",
-      "lat": 40.7644,
-      "lon": -73.9838
-    },
-    {
       "id": "seatgeek:18123330",
       "title": "Living Colour",
       "category": "music",
@@ -8884,6 +8772,20 @@
       "lat": 40.757,
       "lon": -73.9863,
       "image": "https://www.jambase.com/wp-content/uploads/2017/10/livingcolour-travisshinn-crop-3-1480x832.jpg"
+    },
+    {
+      "id": "seatgeek:17874059",
+      "title": "Richard O'Brien's Rocky Horror Show - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Studio 54",
+      "start": "2026-06-19T20:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-06-19-8-pm/17874059",
+      "source": "seatgeek",
+      "lat": 40.7644,
+      "lon": -73.9838
     },
     {
       "id": "seatgeek:18299636",
@@ -8925,20 +8827,6 @@
       ]
     },
     {
-      "id": "seatgeek:18028201",
-      "title": "Chicago - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Ambassador Theatre - New York",
-      "start": "2026-06-19T20:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-19-8-pm/18028201",
-      "source": "seatgeek",
-      "lat": 40.7613,
-      "lon": -73.985
-    },
-    {
       "id": "jambase:15602312",
       "title": "The Bad Plus",
       "category": "music",
@@ -8960,6 +8848,20 @@
           "url": "https://seatgeek.com/the-bad-plus-tickets/new-york-new-york-sony-hall-2026-06-19-8-pm/concert/18051158"
         }
       ]
+    },
+    {
+      "id": "seatgeek:18028201",
+      "title": "Chicago - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Ambassador Theatre - New York",
+      "start": "2026-06-19T20:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-19-8-pm/18028201",
+      "source": "seatgeek",
+      "lat": 40.7613,
+      "lon": -73.985
     },
     {
       "id": "seatgeek:18182259",
@@ -8987,13 +8889,7 @@
       "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-19-8-pm/17923676",
       "source": "seatgeek",
       "lat": 40.7527,
-      "lon": -73.9841,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-19-10-pm/17923683"
-        }
-      ]
+      "lon": -73.9841
     },
     {
       "id": "seatgeek:18185722",
@@ -9445,8 +9341,8 @@
       "lon": -73.931822240353,
       "weather": {
         "icon": "04d",
-        "temp": 80,
-        "description": "broken clouds",
+        "temp": 81,
+        "description": "overcast clouds",
         "dt": 1781902800000
       }
     },
@@ -9462,13 +9358,7 @@
       "url": "https://seatgeek.com/friends-the-musical-parody-tickets/theater/2026-06-19-8-30-pm/18129965",
       "source": "seatgeek",
       "lat": 40.7615,
-      "lon": -73.9845,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/friends-the-musical-parody-new-york-new-york-new-york-06-19-2026/event/3000646D985038EF"
-        }
-      ]
+      "lon": -73.9845
     },
     {
       "id": "ticketmaster:G5vVZ_1TPYyie",
@@ -9819,7 +9709,7 @@
       "start": "2026-06-19T22:00:00",
       "end": "2026-06-20T04:00:00",
       "isFree": false,
-      "priceMin": 33.02,
+      "priceMin": 38.16,
       "url": "https://dice.fm/event/k6dxe8-ship-wrek-with-twin-diplomacy-jengi-b2b-n2n-19th-jun-knockdown-center-new-york-tickets",
       "source": "dice",
       "lat": 40.71496339999999,
@@ -10421,20 +10311,6 @@
       "lon": -74.0022
     },
     {
-      "id": "seatgeek:18241187",
-      "title": "Markus Schulz (21+)",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Chelsea",
-      "venue": "Marquee New York",
-      "start": "2026-06-19T23:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/markus-schulz-tickets/new-york-new-york-marquee-new-york-2026-06-19-11-pm/concert/18241187",
-      "source": "seatgeek",
-      "lat": 40.75,
-      "lon": -74.0028
-    },
-    {
       "id": "seatgeek:18241258",
       "title": "Sick Individuals (21+)",
       "category": "music",
@@ -10447,6 +10323,20 @@
       "source": "seatgeek",
       "lat": 40.75492,
       "lon": -73.98581
+    },
+    {
+      "id": "seatgeek:18241187",
+      "title": "Markus Schulz (21+)",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Chelsea",
+      "venue": "Marquee New York",
+      "start": "2026-06-19T23:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/markus-schulz-tickets/new-york-new-york-marquee-new-york-2026-06-19-11-pm/concert/18241187",
+      "source": "seatgeek",
+      "lat": 40.75,
+      "lon": -74.0028
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70vuU",
@@ -10597,7 +10487,7 @@
       "lon": -73.8975101,
       "weather": {
         "icon": "04d",
-        "temp": 76,
+        "temp": 77,
         "description": "broken clouds",
         "dt": 1781913600000
       }
@@ -10667,6 +10557,21 @@
       "source": "resident-advisor",
       "lat": 40.650211,
       "lon": -74.02349
+    },
+    {
+      "id": "ra:2467352",
+      "title": "Secret Oasis",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Randalls Island",
+      "venue": "Randall's Island",
+      "start": "2026-06-20T06:00:00",
+      "end": "2026-06-20T22:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2467352",
+      "source": "resident-advisor",
+      "lat": 40.795813,
+      "lon": -73.922517
     },
     {
       "id": "nyc-greenmarket:4th-ave-sunset-park-greenmarket:2026-06-20",
@@ -13712,13 +13617,7 @@
       "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-20-11-am/18166166",
       "source": "seatgeek",
       "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-20-2-pm/18166164"
-        }
-      ]
+      "lon": -73.9874
     },
     {
       "id": "ra:2435510",
@@ -13733,8 +13632,7 @@
       "url": "https://ra.co/events/2435510",
       "source": "resident-advisor",
       "lat": 40.656402,
-      "lon": -74.008198,
-      "spotifyUrl": "https://open.spotify.com/artist/6Skm8TMvZc0Nm9F3DbAsm8"
+      "lon": -74.008198
     },
     {
       "id": "ra:2443544",
@@ -14672,13 +14570,7 @@
       "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-20-1-pm/17733279",
       "source": "seatgeek",
       "lat": 40.7632,
-      "lon": -73.9845,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-20-7-pm/17733282"
-        }
-      ]
+      "lon": -73.9845
     },
     {
       "id": "seatgeek:17891126",
@@ -14692,13 +14584,7 @@
       "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-20-1-pm/17891126",
       "source": "seatgeek",
       "lat": 40.7584,
-      "lon": -73.9855,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-20-7-pm/17891128"
-        }
-      ]
+      "lon": -73.9855
     },
     {
       "id": "seatgeek:17851175",
@@ -14712,13 +14598,7 @@
       "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-20-1-pm/17851175",
       "source": "seatgeek",
       "lat": 40.7592,
-      "lon": -73.9866,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-20-7-pm/17851185"
-        }
-      ]
+      "lon": -73.9866
     },
     {
       "id": "seatgeek:18243086",
@@ -14732,13 +14612,7 @@
       "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-20-1-pm/18243086",
       "source": "seatgeek",
       "lat": 40.729,
-      "lon": -73.9922,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-20-7-pm/18308395"
-        }
-      ]
+      "lon": -73.9922
     },
     {
       "id": "seatgeek:17876151",
@@ -14752,13 +14626,7 @@
       "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-20-1-pm/17876151",
       "source": "seatgeek",
       "lat": 40.7629,
-      "lon": -73.9837,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-20-7-pm/17876153"
-        }
-      ]
+      "lon": -73.9837
     },
     {
       "id": "ra:2396677",
@@ -15491,6 +15359,62 @@
       "lon": -73.96298
     },
     {
+      "id": "seatgeek:18182268",
+      "title": "Perfect Crime - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "The Theater Center",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-06-20-2-pm/18182268",
+      "source": "seatgeek",
+      "lat": 40.7615,
+      "lon": -73.9845
+    },
+    {
+      "id": "seatgeek:18061835",
+      "title": "La Cage Aux Folles - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "New York City Center",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/la-cage-aux-folles-tickets/broadway/2026-06-20-2-pm/18061835",
+      "source": "seatgeek",
+      "lat": 40.7639,
+      "lon": -73.9794
+    },
+    {
+      "id": "seatgeek:17945837",
+      "title": "The Lost Boys - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-06-20-2-pm/17945837",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9846
+    },
+    {
+      "id": "seatgeek:17530708",
+      "title": "Little Shop of Horrors - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Westside Theatre Upstairs",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-20-2-pm/17530708",
+      "source": "seatgeek",
+      "lat": 40.7593,
+      "lon": -73.9927
+    },
+    {
       "id": "seatgeek:17567672",
       "title": "New York Philharmonic - Disney's Encanto In Concert",
       "category": "other",
@@ -15505,26 +15429,6 @@
       "lon": -73.9831
     },
     {
-      "id": "seatgeek:17716111",
-      "title": "Maybe Happy Ending - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Belasco Theatre - NY",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-20-2-pm/17716111",
-      "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9836,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-20-7-pm/17716103"
-        }
-      ]
-    },
-    {
       "id": "seatgeek:17917291",
       "title": "Buena Vista Social Club - The Musical - New York",
       "category": "other",
@@ -15536,93 +15440,21 @@
       "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-06-20-2-pm/17917291",
       "source": "seatgeek",
       "lat": 40.7587,
-      "lon": -73.9873,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-06-20-7-30-pm/17917304"
-        }
-      ]
+      "lon": -73.9873
     },
     {
-      "id": "seatgeek:17945837",
-      "title": "The Lost Boys - New York",
+      "id": "seatgeek:17716111",
+      "title": "Maybe Happy Ending - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
+      "venue": "Belasco Theatre - NY",
       "start": "2026-06-20T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-06-20-2-pm/17945837",
+      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-06-20-2-pm/17716111",
       "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-06-20-8-pm/17945842"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:17530708",
-      "title": "Little Shop of Horrors - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Westside Theatre Upstairs",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-20-2-pm/17530708",
-      "source": "seatgeek",
-      "lat": 40.7593,
-      "lon": -73.9927,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-20-8-pm/17530709"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18061835",
-      "title": "La Cage Aux Folles - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "New York City Center",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/la-cage-aux-folles-tickets/broadway/2026-06-20-2-pm/18061835",
-      "source": "seatgeek",
-      "lat": 40.7639,
-      "lon": -73.9794,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/la-cage-aux-folles-tickets/broadway/2026-06-20-7-30-pm/18061836"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18182268",
-      "title": "Perfect Crime - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "The Theater Center",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-06-20-2-pm/18182268",
-      "source": "seatgeek",
-      "lat": 40.7615,
-      "lon": -73.9845,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-06-20-8-pm/18182266"
-        }
-      ]
+      "lat": 40.7563,
+      "lon": -73.9836
     },
     {
       "id": "seatgeek:18081462",
@@ -15636,33 +15468,7 @@
       "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-20-2-pm/18081462",
       "source": "seatgeek",
       "lat": 40.7617,
-      "lon": -73.9837,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-20-8-pm/18081463"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:17945038",
-      "title": "Joe Turner's Come and Gone - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Barrymore Theatre - New York",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-20-2-pm/17945038",
-      "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9862,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-20-7-pm/17945041"
-        }
-      ]
+      "lon": -73.9837
     },
     {
       "id": "seatgeek:17957914",
@@ -15676,13 +15482,7 @@
       "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-06-20-2-pm/17957914",
       "source": "seatgeek",
       "lat": 40.7611,
-      "lon": -73.9857,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-06-20-7-pm/17957916"
-        }
-      ]
+      "lon": -73.9857
     },
     {
       "id": "seatgeek:17738296",
@@ -15696,13 +15496,21 @@
       "url": "https://seatgeek.com/aladdin-tickets/theater/2026-06-20-2-pm/17738296",
       "source": "seatgeek",
       "lat": 40.7563,
-      "lon": -73.9877,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/aladdin-tickets/theater/2026-06-20-8-pm/17738297"
-        }
-      ]
+      "lon": -73.9877
+    },
+    {
+      "id": "seatgeek:17945038",
+      "title": "Joe Turner's Come and Gone - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Barrymore Theatre - New York",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-20-2-pm/17945038",
+      "source": "seatgeek",
+      "lat": 40.7602,
+      "lon": -73.9862
     },
     {
       "id": "seatgeek:18145765",
@@ -15716,33 +15524,21 @@
       "url": "https://seatgeek.com/gotta-dance-1-tickets/theater/2026-06-20-2-pm/18145765",
       "source": "seatgeek",
       "lat": 40.7587,
-      "lon": -73.9939,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/gotta-dance-tickets/dance/2026-06-20-7-30-pm/18222391"
-        }
-      ]
+      "lon": -73.9939
     },
     {
-      "id": "seatgeek:18241734",
-      "title": "The Balusters - New York",
-      "category": "theater",
+      "id": "seatgeek:18185728",
+      "title": "Jamie Allan's Amaze - New York",
+      "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Samuel J. Friedman Theatre",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 5",
       "start": "2026-06-20T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-balusters-tickets/theater/2026-06-20-2-pm/18241734",
+      "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-06-20-2-pm/18185728",
       "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9868,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-balusters-tickets/theater/2026-06-20-7-pm/18241738"
-        }
-      ]
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:17808464",
@@ -15756,13 +15552,21 @@
       "url": "https://seatgeek.com/the-outsiders-1-tickets/broadway/2026-06-20-2-pm/17808464",
       "source": "seatgeek",
       "lat": 40.7586,
-      "lon": -73.9878,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-outsiders-1-tickets/broadway/2026-06-20-8-pm/17969658"
-        }
-      ]
+      "lon": -73.9878
+    },
+    {
+      "id": "seatgeek:17740696",
+      "title": "The Lion King - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Minskoff Theatre",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-20-2-pm/17740696",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9862
     },
     {
       "id": "seatgeek:18027995",
@@ -15776,13 +15580,7 @@
       "url": "https://seatgeek.com/just-in-time-tickets/broadway/2026-06-20-2-pm/18027995",
       "source": "seatgeek",
       "lat": 40.7623,
-      "lon": -73.9852,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/just-in-time-tickets/broadway/2026-06-20-8-pm/18028010"
-        }
-      ]
+      "lon": -73.9852
     },
     {
       "id": "seatgeek:17979065",
@@ -15796,33 +15594,7 @@
       "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-06-20-2-pm/17979065",
       "source": "seatgeek",
       "lat": 40.7589,
-      "lon": -73.9878,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-06-20-7-30-pm/18047938"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18011552",
-      "title": "Death Becomes Her - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lunt-Fontanne Theatre",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-20-2-pm/18011552",
-      "source": "seatgeek",
-      "lat": 40.759,
-      "lon": -73.986,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-20-8-pm/18047882"
-        }
-      ]
+      "lon": -73.9878
     },
     {
       "id": "seatgeek:18029962",
@@ -15839,26 +15611,6 @@
       "lon": -73.983
     },
     {
-      "id": "seatgeek:17740696",
-      "title": "The Lion King - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-20-2-pm/17740696",
-      "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9862,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-20-8-pm/17740683"
-        }
-      ]
-    },
-    {
       "id": "seatgeek:17896965",
       "title": "Wicked - New York",
       "category": "other",
@@ -15870,33 +15622,35 @@
       "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-20-2-pm/17896965",
       "source": "seatgeek",
       "lat": 40.7624,
-      "lon": -73.9851,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/wicked-tickets/broadway/2026-06-20-8-pm/17881493"
-        }
-      ]
+      "lon": -73.9851
     },
     {
-      "id": "seatgeek:18185728",
-      "title": "Jamie Allan's Amaze - New York",
-      "category": "other",
+      "id": "seatgeek:18241734",
+      "title": "The Balusters - New York",
+      "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 5",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Samuel J. Friedman Theatre",
       "start": "2026-06-20T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-06-20-2-pm/18185728",
+      "url": "https://seatgeek.com/the-balusters-tickets/theater/2026-06-20-2-pm/18241734",
       "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-06-20-8-pm/18185730"
-        }
-      ]
+      "lat": 40.7602,
+      "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:18011552",
+      "title": "Death Becomes Her - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lunt-Fontanne Theatre",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/death-becomes-her-tickets/broadway/2026-06-20-2-pm/18011552",
+      "source": "seatgeek",
+      "lat": 40.759,
+      "lon": -73.986
     },
     {
       "id": "seatgeek:18251434",
@@ -15924,53 +15678,7 @@
       "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-20-2-pm/18229587",
       "source": "seatgeek",
       "lat": 40.7334,
-      "lon": -74.0058,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/kenrex-tickets/theater/2026-06-20-7-pm/18229591"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18143533",
-      "title": "Ragtime - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Upper West Side-Lincoln Square",
-      "venue": "Lincoln Center Theater - Vivian Beaumont",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/ragtime-tickets/broadway/2026-06-20-2-pm/18143533",
-      "source": "seatgeek",
-      "lat": 40.7736,
-      "lon": -73.984,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/ragtime-tickets/broadway/2026-06-20-8-pm/18143543"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:17992461",
-      "title": "American Ballet Theatre - Swan Lake",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Upper West Side-Lincoln Square",
-      "venue": "Metropolitan Opera House",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/american-ballet-theatre-tickets/dance/2026-06-20-2-pm/17992461",
-      "source": "seatgeek",
-      "lat": 40.7742,
-      "lon": -73.9843,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/american-ballet-theatre-tickets/dance/2026-06-20-7-30-pm/17992466"
-        }
-      ]
+      "lon": -74.0058
     },
     {
       "id": "seatgeek:17841621",
@@ -15984,33 +15692,21 @@
       "url": "https://seatgeek.com/giant-tickets/theater/2026-06-20-2-pm/17841621",
       "source": "seatgeek",
       "lat": 40.7588,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/giant-tickets/theater/2026-06-20-8-pm/17841627"
-        }
-      ]
+      "lon": -73.9874
     },
     {
-      "id": "seatgeek:17717879",
-      "title": "Two Strangers (Carry a Cake Across New York) - New York",
+      "id": "seatgeek:17992461",
+      "title": "American Ballet Theatre - Swan Lake",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Longacre Theatre",
+      "neighborhood": "Upper West Side-Lincoln Square",
+      "venue": "Metropolitan Opera House",
       "start": "2026-06-20T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-20-2-pm/17717879",
+      "url": "https://seatgeek.com/american-ballet-theatre-tickets/dance/2026-06-20-2-pm/17992461",
       "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-20-7-30-pm/17717881"
-        }
-      ]
+      "lat": 40.7742,
+      "lon": -73.9843
     },
     {
       "id": "seatgeek:17989941",
@@ -16024,13 +15720,119 @@
       "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-06-20-2-pm/17989941",
       "source": "seatgeek",
       "lat": 40.7557,
-      "lon": -73.9882,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-06-20-7-30-pm/17989963"
-        }
-      ]
+      "lon": -73.9882
+    },
+    {
+      "id": "seatgeek:17717879",
+      "title": "Two Strangers (Carry a Cake Across New York) - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Longacre Theatre",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-20-2-pm/17717879",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
+    },
+    {
+      "id": "seatgeek:18143533",
+      "title": "Ragtime - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Upper West Side-Lincoln Square",
+      "venue": "Lincoln Center Theater - Vivian Beaumont",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/ragtime-tickets/broadway/2026-06-20-2-pm/18143533",
+      "source": "seatgeek",
+      "lat": 40.7736,
+      "lon": -73.984
+    },
+    {
+      "id": "seatgeek:18069733",
+      "title": "Heathers - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-20-2-pm/18069733",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18054793",
+      "title": "The 25th Annual Putnam County Spelling Bee - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 3",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-06-20-2-pm/18054793",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18014483",
+      "title": "Hadestown - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Walter Kerr Theatre",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-20-2-pm/18014483",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
+    },
+    {
+      "id": "seatgeek:18041552",
+      "title": "& Juliet - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Stephen Sondheim Theatre - New York",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-20-2-pm/18041552",
+      "source": "seatgeek",
+      "lat": 40.7559,
+      "lon": -73.9849
+    },
+    {
+      "id": "seatgeek:17808397",
+      "title": "The Great Gatsby - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Broadway Theatre - New York",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-20-2-pm/17808397",
+      "source": "seatgeek",
+      "lat": 40.7632,
+      "lon": -73.9829
+    },
+    {
+      "id": "seatgeek:18015994",
+      "title": "The Play That Goes Wrong - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 4",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-20-2-pm/18015994",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:17958105",
@@ -16047,46 +15849,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18014483",
-      "title": "Hadestown - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-20-2-pm/18014483",
-      "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-20-8-pm/18014488"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18015994",
-      "title": "The Play That Goes Wrong - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 4",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-20-2-pm/18015994",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-20-8-pm/18015997"
-        }
-      ]
-    },
-    {
       "id": "seatgeek:17972257",
       "title": "Proof with Ayo Edebiri and Don Cheadle",
       "category": "other",
@@ -16098,73 +15860,7 @@
       "url": "https://seatgeek.com/proof-tickets/broadway/2026-06-20-2-pm/17972257",
       "source": "seatgeek",
       "lat": 40.7583,
-      "lon": -73.9863,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/proof-tickets/broadway/2026-06-20-8-pm/17972258"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18069733",
-      "title": "Heathers - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-20-2-pm/18069733",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-20-7-30-pm/18069734"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18054793",
-      "title": "The 25th Annual Putnam County Spelling Bee - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 3",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-06-20-2-pm/18054793",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-06-20-7-30-pm/18054798"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:17808397",
-      "title": "The Great Gatsby - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Broadway Theatre - New York",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-20-2-pm/17808397",
-      "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9829,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-06-20-8-pm/17808409"
-        }
-      ]
+      "lon": -73.9863
     },
     {
       "id": "seatgeek:17833938",
@@ -16178,65 +15874,7 @@
       "url": "https://seatgeek.com/cats-the-jellicle-ball-tickets/broadway/2026-06-20-2-pm/17833938",
       "source": "seatgeek",
       "lat": 40.7582,
-      "lon": -73.9876,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/cats-the-jellicle-ball-new-york-new-york-06-20-2026/event/Z1r9uZruZqGZ17Jeab"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q4k_"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/cats-the-jellicle-ball-new-york-new-york-06-20-2026/event/Z1r9uZruZqGZ17Jea-"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q4F-"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18109448",
-      "title": "Chess The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Imperial Theatre - NY",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-20-2-pm/18109448",
-      "source": "seatgeek",
-      "lat": 40.7588,
-      "lon": -73.9873,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-20-7-30-pm/18109450"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18041552",
-      "title": "& Juliet - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Stephen Sondheim Theatre - New York",
-      "start": "2026-06-20T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-20-2-pm/18041552",
-      "source": "seatgeek",
-      "lat": 40.7559,
-      "lon": -73.9849,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-20-8-pm/18041553"
-        }
-      ]
+      "lon": -73.9876
     },
     {
       "id": "seatgeek:18063367",
@@ -16250,13 +15888,21 @@
       "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-20-2-pm/18063367",
       "source": "seatgeek",
       "lat": 40.7594,
-      "lon": -73.9891,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/moulin-rouge-the-musical-tickets/broadway/2026-06-20-8-pm/18063369"
-        }
-      ]
+      "lon": -73.9891
+    },
+    {
+      "id": "seatgeek:18109448",
+      "title": "Chess The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Imperial Theatre - NY",
+      "start": "2026-06-20T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chess-the-musical-tickets/broadway/2026-06-20-2-pm/18109448",
+      "source": "seatgeek",
+      "lat": 40.7588,
+      "lon": -73.9873
     },
     {
       "id": "ra:2434458",
@@ -17613,13 +17259,7 @@
       "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-20-2-30-pm/18028200",
       "source": "seatgeek",
       "lat": 40.7613,
-      "lon": -73.985,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-20-8-pm/18028202"
-        }
-      ]
+      "lon": -73.985
     },
     {
       "id": "ticketmaster:Z1r9uZruZqGZ17J6p6",
@@ -17864,17 +17504,7 @@
       "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-20-3-pm/17923684",
       "source": "seatgeek",
       "lat": 40.7527,
-      "lon": -73.9841,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-20-5-pm/17923686"
-        },
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-20-7-pm/17923687"
-        }
-      ]
+      "lon": -73.9841
     },
     {
       "id": "seatgeek:18012803",
@@ -17888,13 +17518,7 @@
       "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-20-3-pm/18012803",
       "source": "seatgeek",
       "lat": 40.758,
-      "lon": -73.9875,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-20-8-pm/18012806"
-        }
-      ]
+      "lon": -73.9875
     },
     {
       "id": "seatgeek:18093218",
@@ -17908,17 +17532,7 @@
       "url": "https://seatgeek.com/reggae-fest-1-tickets/new-york-new-york-the-rooftop-at-pier-17-2026-06-20-3-pm/music-festival/18093218",
       "source": "seatgeek",
       "lat": 40.7063,
-      "lon": -74.0038,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.axs.com/events/1345401/reggae-fest-blaze-tickets?skin=therooftopatpier17"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-KOE"
-        }
-      ]
+      "lon": -74.0038
     },
     {
       "id": "seatgeek:17891634",
@@ -17932,13 +17546,7 @@
       "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-06-20-3-pm/17891634",
       "source": "seatgeek",
       "lat": 40.7602,
-      "lon": -73.9868,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-06-20-8-pm/17891636"
-        }
-      ]
+      "lon": -73.9868
     },
     {
       "id": "ra:2448471",
@@ -18070,10 +17678,6 @@
         {
           "source": "seatgeek",
           "url": "https://seatgeek.com/well-ill-let-you-go-tickets/theater/2026-06-20-8-pm/18229612"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sfa"
         }
       ]
     },
@@ -18173,13 +17777,7 @@
       "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-06-20-3-30-pm/17874060",
       "source": "seatgeek",
       "lat": 40.7644,
-      "lon": -73.9838,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-06-20-9-pm/17874062"
-        }
-      ]
+      "lon": -73.9838
     },
     {
       "id": "seatgeek:18107243",
@@ -18193,13 +17791,7 @@
       "url": "https://seatgeek.com/jimmy-pardo-tickets/comedy/2026-06-20-3-30-pm/18107243",
       "source": "seatgeek",
       "lat": 40.6735,
-      "lon": -73.9916,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/jimmy-pardo-brooklyn-new-york-06-20-2026/event/30006463BA9C5FA2"
-        }
-      ]
+      "lon": -73.9916
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7qVv4",
@@ -18248,7 +17840,7 @@
       "start": "2026-06-20T16:00:00",
       "end": "2026-06-21T04:00:00",
       "isFree": false,
-      "priceMin": 67.98,
+      "priceMin": 45.32,
       "url": "https://dice.fm/event/l8de5p-resolute-presents-theo-parrish-extended-set-20th-jun-location-tba-new-york-city-brooklyn-brooklyn-tickets",
       "source": "dice",
       "lat": 40.72862,
@@ -18428,13 +18020,7 @@
       "url": "https://seatgeek.com/oh-mary-tickets/broadway/2026-06-20-5-pm/17980425",
       "source": "seatgeek",
       "lat": 40.7577,
-      "lon": -73.9846,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/oh-mary-tickets/broadway/2026-06-20-8-30-pm/17747730"
-        }
-      ]
+      "lon": -73.9846
     },
     {
       "id": "seatgeek:18169505",
@@ -18448,13 +18034,7 @@
       "url": "https://seatgeek.com/every-brilliant-thing-tickets/broadway/2026-06-20-5-pm/18169505",
       "source": "seatgeek",
       "lat": 40.7569,
-      "lon": -73.9848,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/every-brilliant-thing-tickets/broadway/2026-06-20-8-30-pm/18169507"
-        }
-      ]
+      "lon": -73.9848
     },
     {
       "id": "seatgeek:18226676",
@@ -18468,13 +18048,7 @@
       "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-20-5-pm/18226676",
       "source": "seatgeek",
       "lat": 40.7579,
-      "lon": -73.9875,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-20-9-pm/18226678"
-        }
-      ]
+      "lon": -73.9875
     },
     {
       "id": "ra:2404105",
@@ -19495,10 +19069,6 @@
         {
           "source": "seatgeek",
           "url": "https://seatgeek.com/vacations-tickets/brooklyn-new-york-warsaw-2026-06-20-7-pm/concert/18317648"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/vacations-brooklyn-new-york-06-20-2026/event/000064CF96958466"
         }
       ]
     },
@@ -20053,7 +19623,7 @@
       "start": "2026-06-20T19:30:00",
       "end": "2026-06-20T22:00:00",
       "isFree": false,
-      "priceMin": 20.09,
+      "priceMin": 26.78,
       "url": "https://dice.fm/event/6daxo3-studi-ho-ghibli-20th-jun-cmon-everybody-new-york-tickets",
       "source": "dice",
       "lat": 40.6883003,
@@ -20716,13 +20286,7 @@
       "url": "https://seatgeek.com/friends-the-musical-parody-tickets/theater/2026-06-20-8-30-pm/18129923",
       "source": "seatgeek",
       "lat": 40.7615,
-      "lon": -73.9845,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/friends-the-musical-parody-new-york-new-york-new-york-06-20-2026/event/3000646D985438FC"
-        }
-      ]
+      "lon": -73.9845
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfAEbV",
@@ -22459,13 +22023,7 @@
       "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-06-21-12-pm/18185731",
       "source": "seatgeek",
       "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-06-21-3-pm/18185735"
-        }
-      ]
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18166168",
@@ -22479,13 +22037,7 @@
       "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-21-12-pm/18166168",
       "source": "seatgeek",
       "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-06-21-3-pm/18166173"
-        }
-      ]
+      "lon": -73.9874
     },
     {
       "id": "ticketmaster:G5vVZ_1TJdycd",
@@ -22884,26 +22436,6 @@
       }
     },
     {
-      "id": "seatgeek:17874661",
-      "title": "Stranger Things: The First Shadow - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Marquis Theatre - New York",
-      "start": "2026-06-21T13:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-21-1-pm/17874661",
-      "source": "seatgeek",
-      "lat": 40.7584,
-      "lon": -73.9855,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-21-7-pm/17895808"
-        }
-      ]
-    },
-    {
       "id": "seatgeek:17738298",
       "title": "Aladdin - New York",
       "category": "theater",
@@ -22915,73 +22447,21 @@
       "url": "https://seatgeek.com/aladdin-tickets/theater/2026-06-21-1-pm/17738298",
       "source": "seatgeek",
       "lat": 40.7563,
-      "lon": -73.9877,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/aladdin-tickets/theater/2026-06-21-6-30-pm/17738299"
-        }
-      ]
+      "lon": -73.9877
     },
     {
-      "id": "seatgeek:18041558",
-      "title": "& Juliet - New York",
+      "id": "seatgeek:17874661",
+      "title": "Stranger Things: The First Shadow - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Stephen Sondheim Theatre - New York",
+      "venue": "Marquis Theatre - New York",
       "start": "2026-06-21T13:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-21-1-pm/18041558",
+      "url": "https://seatgeek.com/stranger-things-the-first-shadow-tickets/broadway/2026-06-21-1-pm/17874661",
       "source": "seatgeek",
-      "lat": 40.7559,
-      "lon": -73.9849,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-21-6-30-pm/18041559"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:17740684",
-      "title": "The Lion King - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
-      "start": "2026-06-21T13:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-21-1-pm/17740684",
-      "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9862,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-21-6-30-pm/17740689"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:17851166",
-      "title": "Hamilton - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Richard Rodgers Theatre",
-      "start": "2026-06-21T13:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-21-1-pm/17851166",
-      "source": "seatgeek",
-      "lat": 40.7592,
-      "lon": -73.9866,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-21-7-pm/17851168"
-        }
-      ]
+      "lat": 40.7584,
+      "lon": -73.9855
     },
     {
       "id": "seatgeek:17733283",
@@ -22995,13 +22475,49 @@
       "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-21-1-pm/17733283",
       "source": "seatgeek",
       "lat": 40.7632,
-      "lon": -73.9845,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-06-21-7-pm/17733284"
-        }
-      ]
+      "lon": -73.9845
+    },
+    {
+      "id": "seatgeek:17740684",
+      "title": "The Lion King - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Minskoff Theatre",
+      "start": "2026-06-21T13:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-06-21-1-pm/17740684",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9862
+    },
+    {
+      "id": "seatgeek:18041558",
+      "title": "& Juliet - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Stephen Sondheim Theatre - New York",
+      "start": "2026-06-21T13:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-06-21-1-pm/18041558",
+      "source": "seatgeek",
+      "lat": 40.7559,
+      "lon": -73.9849
+    },
+    {
+      "id": "seatgeek:17851166",
+      "title": "Hamilton - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Richard Rodgers Theatre",
+      "start": "2026-06-21T13:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-06-21-1-pm/17851166",
+      "source": "seatgeek",
+      "lat": 40.7592,
+      "lon": -73.9866
     },
     {
       "id": "seatgeek:18243085",
@@ -23015,13 +22531,7 @@
       "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-21-1-pm/18243085",
       "source": "seatgeek",
       "lat": 40.729,
-      "lon": -73.9922,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/girl-interrupted-tickets/theater/2026-06-21-7-pm/18243088"
-        }
-      ]
+      "lon": -73.9922
     },
     {
       "id": "seatgeek:18129967",
@@ -23399,25 +22909,7 @@
       "url": "https://seatgeek.com/cats-the-jellicle-ball-tickets/broadway/2026-06-21-1-30-pm/17833943",
       "source": "seatgeek",
       "lat": 40.7582,
-      "lon": -73.9876,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/cats-the-jellicle-ball-new-york-new-york-06-21-2026/event/Z1r9uZruZqGZ17Jea4"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q4kK"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/cats-the-jellicle-ball-new-york-new-york-06-21-2026/event/Z1r9uZruZqGZ17JeaN"
-        },
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q4Fp"
-        }
-      ]
+      "lon": -73.9876
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfqdjS",
@@ -23583,13 +23075,7 @@
       "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-21-2-pm/18226680",
       "source": "seatgeek",
       "lat": 40.7579,
-      "lon": -73.9875,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/celebrity-autobiography-tickets/broadway/2026-06-21-6-pm/18226683"
-        }
-      ]
+      "lon": -73.9875
     },
     {
       "id": "seatgeek:17716150",
@@ -23606,20 +23092,6 @@
       "lon": -73.9836
     },
     {
-      "id": "seatgeek:17530710",
-      "title": "Little Shop of Horrors - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Westside Theatre Upstairs",
-      "start": "2026-06-21T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-21-2-pm/17530710",
-      "source": "seatgeek",
-      "lat": 40.7593,
-      "lon": -73.9927
-    },
-    {
       "id": "seatgeek:17567676",
       "title": "New York Philharmonic - Disney's Encanto In Concert",
       "category": "other",
@@ -23634,46 +23106,18 @@
       "lon": -73.9831
     },
     {
-      "id": "seatgeek:17957918",
-      "title": "The Book of Mormon - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Eugene O'Neill Theatre",
-      "start": "2026-06-21T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-06-21-2-pm/17957918",
-      "source": "seatgeek",
-      "lat": 40.7611,
-      "lon": -73.9857
-    },
-    {
-      "id": "seatgeek:17876154",
-      "title": "Dog Day Afternoon - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "August Wilson Theatre",
-      "start": "2026-06-21T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-21-2-pm/17876154",
-      "source": "seatgeek",
-      "lat": 40.7629,
-      "lon": -73.9837
-    },
-    {
-      "id": "seatgeek:18069729",
-      "title": "Heathers - New York",
+      "id": "seatgeek:17530710",
+      "title": "Little Shop of Horrors - New York",
       "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
+      "venue": "Westside Theatre Upstairs",
       "start": "2026-06-21T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-21-2-pm/18069729",
+      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-06-21-2-pm/17530710",
       "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
+      "lat": 40.7593,
+      "lon": -73.9927
     },
     {
       "id": "seatgeek:18241735",
@@ -23690,32 +23134,46 @@
       "lon": -73.9868
     },
     {
-      "id": "seatgeek:17945042",
-      "title": "Joe Turner's Come and Gone - New York",
+      "id": "seatgeek:17876154",
+      "title": "Dog Day Afternoon - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Barrymore Theatre - New York",
+      "venue": "August Wilson Theatre",
       "start": "2026-06-21T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-21-2-pm/17945042",
+      "url": "https://seatgeek.com/dog-day-afternoon-tickets/broadway/2026-06-21-2-pm/17876154",
       "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9862
+      "lat": 40.7629,
+      "lon": -73.9837
     },
     {
-      "id": "seatgeek:17972275",
-      "title": "Proof with Ayo Edebiri and Don Cheadle",
+      "id": "seatgeek:17957918",
+      "title": "The Book of Mormon - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Booth Theatre - New York",
+      "venue": "Eugene O'Neill Theatre",
       "start": "2026-06-21T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/proof-tickets/broadway/2026-06-21-2-pm/17972275",
+      "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-06-21-2-pm/17957918",
       "source": "seatgeek",
-      "lat": 40.7583,
-      "lon": -73.9863
+      "lat": 40.7611,
+      "lon": -73.9857
+    },
+    {
+      "id": "seatgeek:18069729",
+      "title": "Heathers - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
+      "start": "2026-06-21T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/heathers-tickets/theater/2026-06-21-2-pm/18069729",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18182272",
@@ -23732,6 +23190,20 @@
       "lon": -73.9845
     },
     {
+      "id": "seatgeek:17945042",
+      "title": "Joe Turner's Come and Gone - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Barrymore Theatre - New York",
+      "start": "2026-06-21T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/joe-turners-come-and-gone-tickets/broadway/2026-06-21-2-pm/17945042",
+      "source": "seatgeek",
+      "lat": 40.7602,
+      "lon": -73.9862
+    },
+    {
       "id": "seatgeek:18027927",
       "title": "Just In Time - New York",
       "category": "other",
@@ -23746,6 +23218,20 @@
       "lon": -73.9852
     },
     {
+      "id": "seatgeek:17972275",
+      "title": "Proof with Ayo Edebiri and Don Cheadle",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Booth Theatre - New York",
+      "start": "2026-06-21T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/proof-tickets/broadway/2026-06-21-2-pm/17972275",
+      "source": "seatgeek",
+      "lat": 40.7583,
+      "lon": -73.9863
+    },
+    {
       "id": "seatgeek:18061837",
       "title": "La Cage Aux Folles - New York",
       "category": "other",
@@ -23757,13 +23243,7 @@
       "url": "https://seatgeek.com/la-cage-aux-folles-tickets/broadway/2026-06-21-2-pm/18061837",
       "source": "seatgeek",
       "lat": 40.7639,
-      "lon": -73.9794,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/la-cage-aux-folles-tickets/broadway/2026-06-21-7-pm/18061839"
-        }
-      ]
+      "lon": -73.9794
     },
     {
       "id": "seatgeek:18109452",
@@ -23780,44 +23260,18 @@
       "lon": -73.9873
     },
     {
-      "id": "seatgeek:17891640",
-      "title": "Six the Musical - New York",
+      "id": "seatgeek:18048739",
+      "title": "Chicago - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Lena Horne Theatre",
+      "venue": "Ambassador Theatre - New York",
       "start": "2026-06-21T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-06-21-2-pm/17891640",
+      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-21-2-pm/18048739",
       "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9868,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-06-21-7-pm/17844154"
-        }
-      ]
-    },
-    {
-      "id": "seatgeek:18054788",
-      "title": "The 25th Annual Putnam County Spelling Bee - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 3",
-      "start": "2026-06-21T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-06-21-2-pm/18054788",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-06-21-7-pm/18054783"
-        }
-      ]
+      "lat": 40.7613,
+      "lon": -73.985
     },
     {
       "id": "seatgeek:17979033",
@@ -23834,18 +23288,32 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18048739",
-      "title": "Chicago - The Musical - New York",
+      "id": "seatgeek:18054788",
+      "title": "The 25th Annual Putnam County Spelling Bee - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 3",
+      "start": "2026-06-21T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-06-21-2-pm/18054788",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:17891640",
+      "title": "Six the Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Ambassador Theatre - New York",
+      "venue": "Lena Horne Theatre",
       "start": "2026-06-21T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-06-21-2-pm/18048739",
+      "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-06-21-2-pm/17891640",
       "source": "seatgeek",
-      "lat": 40.7613,
-      "lon": -73.985
+      "lat": 40.7602,
+      "lon": -73.9868
     },
     {
       "id": "ticketmaster:1AdZZ_FGkBd-vnv",
@@ -24467,6 +23935,34 @@
       "lon": -73.9829
     },
     {
+      "id": "seatgeek:18081497",
+      "title": "Death of a Salesman - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Winter Garden Theatre",
+      "start": "2026-06-21T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-21-3-pm/18081497",
+      "source": "seatgeek",
+      "lat": 40.7617,
+      "lon": -73.9837
+    },
+    {
+      "id": "seatgeek:18029968",
+      "title": "The Fear of 13 - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "James Earl Jones Theatre",
+      "start": "2026-06-21T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-fear-of-13-tickets/broadway/2026-06-21-3-pm/18029968",
+      "source": "seatgeek",
+      "lat": 40.7592,
+      "lon": -73.983
+    },
+    {
       "id": "seatgeek:18312784",
       "title": "The Lost Boys - New York",
       "category": "other",
@@ -24509,34 +24005,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18029968",
-      "title": "The Fear of 13 - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "James Earl Jones Theatre",
-      "start": "2026-06-21T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-fear-of-13-tickets/broadway/2026-06-21-3-pm/18029968",
-      "source": "seatgeek",
-      "lat": 40.7592,
-      "lon": -73.983
-    },
-    {
-      "id": "seatgeek:18081497",
-      "title": "Death of a Salesman - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Winter Garden Theatre",
-      "start": "2026-06-21T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/death-of-a-salesman-tickets/broadway/2026-06-21-3-pm/18081497",
-      "source": "seatgeek",
-      "lat": 40.7617,
-      "lon": -73.9837
-    },
-    {
       "id": "seatgeek:18145768",
       "title": "Gotta Dance! - New York",
       "category": "theater",
@@ -24549,20 +24017,6 @@
       "source": "seatgeek",
       "lat": 40.7587,
       "lon": -73.9939
-    },
-    {
-      "id": "seatgeek:18015985",
-      "title": "The Play That Goes Wrong - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 4",
-      "start": "2026-06-21T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-21-3-pm/18015985",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
     },
     {
       "id": "seatgeek:18229593",
@@ -24579,6 +24033,34 @@
       "lon": -74.0058
     },
     {
+      "id": "seatgeek:17717882",
+      "title": "Two Strangers (Carry a Cake Across New York) - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Longacre Theatre",
+      "start": "2026-06-21T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-21-3-pm/17717882",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
+    },
+    {
+      "id": "seatgeek:18015985",
+      "title": "The Play That Goes Wrong - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 4",
+      "start": "2026-06-21T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-06-21-3-pm/18015985",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
       "id": "seatgeek:18011635",
       "title": "Death Becomes Her - New York",
       "category": "other",
@@ -24593,15 +24075,29 @@
       "lon": -73.986
     },
     {
-      "id": "seatgeek:17717882",
-      "title": "Two Strangers (Carry a Cake Across New York) - New York",
+      "id": "seatgeek:17958109",
+      "title": "Harry Potter and The Cursed Child - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyric Theatre - New York",
+      "start": "2026-06-21T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-21-3-pm/17958109",
+      "source": "seatgeek",
+      "lat": 40.7565,
+      "lon": -73.9878
+    },
+    {
+      "id": "seatgeek:18014489",
+      "title": "Hadestown - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Longacre Theatre",
+      "venue": "Walter Kerr Theatre",
       "start": "2026-06-21T15:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/two-strangers-carry-a-cake-across-new-york-tickets/broadway/2026-06-21-3-pm/17717882",
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-21-3-pm/18014489",
       "source": "seatgeek",
       "lat": 40.7605,
       "lon": -73.9857
@@ -24635,32 +24131,18 @@
       "lon": -73.984
     },
     {
-      "id": "seatgeek:18014489",
-      "title": "Hadestown - New York",
+      "id": "seatgeek:18012808",
+      "title": "Titanique - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
+      "venue": "St. James Theatre",
       "start": "2026-06-21T15:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-06-21-3-pm/18014489",
+      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-21-3-pm/18012808",
       "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
-    },
-    {
-      "id": "seatgeek:17958109",
-      "title": "Harry Potter and The Cursed Child - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyric Theatre - New York",
-      "start": "2026-06-21T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-06-21-3-pm/17958109",
-      "source": "seatgeek",
-      "lat": 40.7565,
-      "lon": -73.9878
+      "lat": 40.758,
+      "lon": -73.9875
     },
     {
       "id": "seatgeek:18169511",
@@ -24675,20 +24157,6 @@
       "source": "seatgeek",
       "lat": 40.7569,
       "lon": -73.9848
-    },
-    {
-      "id": "seatgeek:18012808",
-      "title": "Titanique - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "St. James Theatre",
-      "start": "2026-06-21T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-06-21-3-pm/18012808",
-      "source": "seatgeek",
-      "lat": 40.758,
-      "lon": -73.9875
     },
     {
       "id": "seatgeek:17967294",
@@ -25283,13 +24751,7 @@
       "url": "https://seatgeek.com/friends-the-musical-parody-tickets/theater/2026-06-21-3-30-pm/18129998",
       "source": "seatgeek",
       "lat": 40.7615,
-      "lon": -73.9845,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/friends-the-musical-parody-new-york-new-york-new-york-06-21-2026/event/3000646D9859390E"
-        }
-      ]
+      "lon": -73.9845
     },
     {
       "id": "eventbrite:1232172614459",
@@ -25438,13 +24900,7 @@
       "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-21-5-pm/17923689",
       "source": "seatgeek",
       "lat": 40.7527,
-      "lon": -73.9841,
-      "altTicketLinks": [
-        {
-          "source": "seatgeek",
-          "url": "https://seatgeek.com/drunk-romeo-juliet-tickets/theater/2026-06-21-7-pm/17923690"
-        }
-      ]
+      "lon": -73.9841
     },
     {
       "id": "seatgeek:18063371",
@@ -29621,8 +29077,7 @@
       "url": "https://www.smallslive.com/events/32860-jon-davis-trio/",
       "source": "smallslive",
       "lat": 40.7346,
-      "lon": -74.001924,
-      "spotifyUrl": "https://open.spotify.com/artist/41tkKllYhtZFpkE1YZU1xs"
+      "lon": -74.001924
     },
     {
       "id": "smallslive:32743",
@@ -34601,8 +34056,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "nyc-parks:2189779",
@@ -35020,8 +34474,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afk_Pf",
@@ -36735,10 +36188,10 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "02d",
-        "temp": 68,
-        "description": "few clouds",
-        "dt": 1782302400000
+        "icon": "04d",
+        "temp": 78,
+        "description": "broken clouds",
+        "dt": 1782313200000
       }
     },
     {
@@ -36756,10 +36209,10 @@
       "lat": 40.793319915217,
       "lon": -73.933819293976,
       "weather": {
-        "icon": "02d",
-        "temp": 68,
-        "description": "few clouds",
-        "dt": 1782302400000
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
       }
     },
     {
@@ -36777,10 +36230,10 @@
       "lat": 40.799301147461,
       "lon": -73.966003417969,
       "weather": {
-        "icon": "02d",
-        "temp": 68,
-        "description": "few clouds",
-        "dt": 1782302400000
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
       }
     },
     {
@@ -37536,7 +36989,13 @@
       "end": "2026-06-24T17:30:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
+      "source": "nyc-greenmarket",
+      "weather": {
+        "icon": "04d",
+        "temp": 78,
+        "description": "broken clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2174263",
@@ -37551,7 +37010,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/queens-recreation-summer-sports-experience",
       "source": "nyc-parks",
       "lat": 40.757327055021,
-      "lon": -73.932821512222
+      "lon": -73.932821512222,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2180446",
@@ -37566,7 +37031,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-al-quinones-playground",
       "source": "nyc-parks",
       "lat": 40.815412778979,
-      "lon": -73.901274625272
+      "lon": -73.901274625272,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2180492",
@@ -37581,7 +37052,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-willis-playground",
       "source": "nyc-parks",
       "lat": 40.811308668047,
-      "lon": -73.922477979305
+      "lon": -73.922477979305,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2180523",
@@ -37596,7 +37073,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-spuyten-duyvil-playground",
       "source": "nyc-parks",
       "lat": 40.887225893575,
-      "lon": -73.916396338164
+      "lon": -73.916396338164,
+      "weather": {
+        "icon": "02d",
+        "temp": 79,
+        "description": "few clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2180530",
@@ -37611,7 +37094,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-st-marys-park-west",
       "source": "nyc-parks",
       "lat": 40.812814939192,
-      "lon": -73.913262844086
+      "lon": -73.913262844086,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2180583",
@@ -37626,7 +37115,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-st-james-playground",
       "source": "nyc-parks",
       "lat": 40.866019354534,
-      "lon": -73.898195624351
+      "lon": -73.898195624351,
+      "weather": {
+        "icon": "02d",
+        "temp": 79,
+        "description": "few clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2180692",
@@ -37641,7 +37136,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-williamsbridge-oval-playground-west",
       "source": "nyc-parks",
       "lat": 40.877219084337,
-      "lon": -73.878661870956
+      "lon": -73.878661870956,
+      "weather": {
+        "icon": "02d",
+        "temp": 79,
+        "description": "few clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2182822",
@@ -37656,7 +37157,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-ben-abrams-playground",
       "source": "nyc-parks",
       "lat": 40.854499816895,
-      "lon": -73.870101928711
+      "lon": -73.870101928711,
+      "weather": {
+        "icon": "02d",
+        "temp": 79,
+        "description": "few clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2182863",
@@ -37671,7 +37178,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-loreto-playground",
       "source": "nyc-parks",
       "lat": 40.848901753402,
-      "lon": -73.851939344896
+      "lon": -73.851939344896,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2182864",
@@ -37686,7 +37199,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/kids-in-motion-hunts-point-playground",
       "source": "nyc-parks",
       "lat": 40.814040812484,
-      "lon": -73.886041879654
+      "lon": -73.886041879654,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2189868",
@@ -37701,7 +37220,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/art-in-the-park",
       "source": "nyc-parks",
       "lat": 40.730795465087,
-      "lon": -73.996735811234
+      "lon": -73.996735811234,
+      "weather": {
+        "icon": "04d",
+        "temp": 78,
+        "description": "broken clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "ticketmaster:G5vVZ_1TJ7_c9",
@@ -37732,7 +37257,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/arts-culture-and-fun-presents-nature-painting-workshop",
       "source": "nyc-parks",
       "lat": 40.824217938064,
-      "lon": -73.942486521164
+      "lon": -73.942486521164,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2182962",
@@ -37747,7 +37278,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/healing-through-movement",
       "source": "nyc-parks",
       "lat": 40.804781530286,
-      "lon": -73.922479271889
+      "lon": -73.922479271889,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "jambase:16199098",
@@ -37779,7 +37316,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/intensati",
       "source": "nyc-parks",
       "lat": 40.701185916345,
-      "lon": -73.841875076294
+      "lon": -73.841875076294,
+      "weather": {
+        "icon": "04d",
+        "temp": 77,
+        "description": "broken clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "nyc-parks:2179635",
@@ -37794,7 +37337,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/sound-bath-w-stephanie-for-yogasole",
       "source": "nyc-parks",
       "lat": 40.6482048,
-      "lon": -73.9773563
+      "lon": -73.9773563,
+      "weather": {
+        "icon": "04d",
+        "temp": 75,
+        "description": "broken clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfAEaV",
@@ -37844,7 +37393,13 @@
       "url": "http://www.nycgovparks.org/events/2026/06/24/bodyweight-circuit-training",
       "source": "nyc-parks",
       "lat": 40.813846588135,
-      "lon": -73.956886291504
+      "lon": -73.956886291504,
+      "weather": {
+        "icon": "03d",
+        "temp": 79,
+        "description": "scattered clouds",
+        "dt": 1782313200000
+      }
     },
     {
       "id": "smallslive:32891",
@@ -39131,8 +38686,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "dice:6a187e6f9296bb0001bd7da0",
@@ -39363,8 +38917,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "dice:6a26f809864f380001f123d8",
@@ -41400,8 +40953,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "nyc-parks:2169241",
@@ -41601,8 +41153,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "dice:6a0f154a24c2620001ac33a1",
@@ -43624,8 +43175,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "cityparks:19763",
@@ -43960,8 +43510,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "jambase:16087877",
@@ -47020,8 +46569,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "jambase:15550000",
@@ -47306,8 +46854,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "jambase:16072303",
@@ -48146,6 +47693,21 @@
       "lon": -73.9380384
     },
     {
+      "id": "smallslive:32916",
+      "title": "No Afternoon Session Today",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "West Village",
+      "venue": "Smalls Jazz Club",
+      "start": "2026-06-28T14:00:00",
+      "end": "2026-06-28T17:15:00",
+      "isFree": false,
+      "url": "https://www.smallslive.com/events/32916-no-afternoon-session-today/",
+      "source": "smallslive",
+      "lat": 40.7343873,
+      "lon": -74.002765
+    },
+    {
       "id": "nyc-parks:2153671",
       "title": "Jazz in the Park at Ralph Ellison",
       "category": "music",
@@ -48645,8 +48207,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "dice:6a2f5a403806650001d50ed9",
@@ -48809,8 +48370,7 @@
       "url": "https://vv.squadup.com/artists/terell-stafford-quintet",
       "source": "village-vanguard",
       "lat": 40.7360334,
-      "lon": -74.0016548,
-      "spotifyUrl": "https://open.spotify.com/artist/6e2ycfOOnYZgitFC1dNyhc"
+      "lon": -74.0016548
     },
     {
       "id": "jambase:16276447",
@@ -49252,8 +48812,7 @@
       "url": "https://www.smallslive.com/events/32749-dan-weiss-trio/",
       "source": "smallslive",
       "lat": 40.7343873,
-      "lon": -74.002765,
-      "spotifyUrl": "https://open.spotify.com/artist/30cq7trXBYEc1OycJYtS7m"
+      "lon": -74.002765
     },
     {
       "id": "nyc-parks:2110977",
@@ -89092,21 +88651,6 @@
       "lon": -74
     },
     {
-      "id": "todaytix:47079",
-      "title": "Truly, Howard Hughes",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "Theater at St. Jean",
-      "start": "2026-09-09T19:30:00",
-      "isFree": false,
-      "priceMin": 58,
-      "url": "https://www.todaytix.com/nyc/shows/truly-howard-hughes",
-      "source": "todaytix",
-      "lat": 40.7728207,
-      "lon": -73.9601084,
-      "neighborhood": "Lenox Hill"
-    },
-    {
       "id": "jambase:15532426",
       "title": "Harry Styles",
       "category": "music",
@@ -93855,6 +93399,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 40.6823,
       "lon": -73.9864
+    },
+    {
+      "id": "todaytix:47253",
+      "title": "ANON – a tempest at our kitchen table",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "The Newman Mills Theatre at the Robert W. Wilson MCC Theatre Space",
+      "start": "2026-09-25T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/anon-a-tempest-at-our-kitchen-table",
+      "source": "todaytix",
+      "lat": 40.7665361,
+      "lon": -73.99152269999999,
+      "neighborhood": "Hell's Kitchen"
     },
     {
       "id": "jambase:16449037",
