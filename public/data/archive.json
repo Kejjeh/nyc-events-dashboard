@@ -1,66 +1,7 @@
 {
-  "generatedAt": "2026-08-03T13:32:30.642Z",
-  "count": 11504,
+  "generatedAt": "2026-08-03T23:58:41.800Z",
+  "count": 11522,
   "events": [
-    {
-      "id": "ticketmaster:k7vGF_A1Ee1-x",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-08-03T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-08-03-2026/event/00006452A708A862",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:LvZ18Q04Im2rMJvJAckEw",
-      "title": "The Sports Museum Tour & Boston Bruins Heritage Hall",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sports Museum",
-      "start": "2026-08-03T11:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-sports-museum-tour-boston-bruins-heritage-hall-tickets-ZX6BMQ?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.36606,
-      "lon": -71.060956,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:LvZ18QOX44rb4EZZv-AQ9",
-      "title": "TD Garden Arena Tour",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "TD Garden",
-      "start": "2026-08-03T11:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/td-garden-arena-tour-tickets-6XPN17?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.365841,
-      "lon": -71.060724,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:17AOv0G61xIjInE",
-      "title": "Pittsburgh Steelers Training Camp",
-      "category": "sports",
-      "city": "Latrobe",
-      "state": "PA",
-      "venue": "St Vincent College",
-      "start": "2026-08-03T11:20:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/pittsburgh-steelers-training-camp-latrobe-pennsylvania-08-03-2026/event/160064A8A8728AA7",
-      "source": "ticketmaster",
-      "lat": 40.2927589,
-      "lon": -79.404842
-    },
     {
       "id": "jambase:16328489",
       "title": "Donavon Frankenreiter",
@@ -75,20 +16,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2017/04/donavon-frankenreiter-donavon-frankenreiter-0d1185ff-f51a-4d85-b518-9fe0bc6ffb62_169921_TABLET_LANDSCAPE_16_9-1480x832.jpg",
       "lat": 41.0442,
       "lon": -71.9501
-    },
-    {
-      "id": "ticketmaster:LvZ18Qq8r9VwalYZvxZjz",
-      "title": "Bangor State Fair",
-      "category": "other",
-      "city": "Bangor",
-      "state": "ME",
-      "venue": "Cross Insurance Center",
-      "start": "2026-08-03T16:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/bangor-state-fair-tickets-YFCV5L?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 44.78812225,
-      "lon": -68.77827846
     },
     {
       "id": "jambase:16340087",
@@ -113,38 +40,6 @@
       "neighborhood": "North Beach Haven"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfaNu0",
-      "title": "Song of the Sea (2014)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-08-03T17:15:00",
-      "isFree": false,
-      "priceMin": 7.45,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/song-of-the-sea-2014-williams-center-cinema-tickets/14263364",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfaNG0",
-      "title": "Flow (2024)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-08-03T17:30:00",
-      "isFree": false,
-      "priceMin": 7.45,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/flow-2024-williams-center-cinema-tickets/14263324",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
       "id": "jambase:16526599",
       "title": "Flying Boxcar",
       "category": "music",
@@ -158,21 +53,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/03/flying-boxcar_1946x1018_jb_cropped-1480x832.jpg",
       "lat": 42.845,
       "lon": -77.2153
-    },
-    {
-      "id": "ticketmaster:1AvfZbUGkDOF1UL",
-      "title": "The Return Of The Carnival Of Sins: Mötley Crüe",
-      "category": "music",
-      "city": "Bristow",
-      "state": "VA",
-      "venue": "Jiffy Lube Live",
-      "start": "2026-08-03T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-return-of-the-carnival-of-bristow-virginia-08-03-2026/event/1500636EE020AD9F",
-      "source": "ticketmaster",
-      "lat": 38.7861199,
-      "lon": -77.587777,
-      "neighborhood": "Bristow"
     },
     {
       "id": "jambase:16295916",
@@ -223,21 +103,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7Q8_N",
-      "title": "Philadelphia Phillies vs. Washington Nationals",
-      "category": "sports",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Citizens Bank Park",
-      "start": "2026-08-03T18:40:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8_N",
-      "source": "ticketmaster",
-      "lat": 39.910999,
-      "lon": -75.153397,
-      "neighborhood": "South Philadelphia East"
-    },
-    {
       "id": "jambase:15312083",
       "title": "Train",
       "category": "music",
@@ -257,67 +122,6 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r_bz"
         }
       ]
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_uEdEeli",
-      "title": "Train",
-      "category": "music",
-      "city": "Bethlehem",
-      "state": "PA",
-      "venue": "Musikfest - Wind Creek Steel Stage Patio",
-      "start": "2026-08-03T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/train-bethlehem-pennsylvania-08-03-2026/event/020064D9C39C2AEC",
-      "source": "ticketmaster",
-      "lat": 40.61506,
-      "lon": -75.3693
-    },
-    {
-      "id": "ticketmaster:1A4ZkofGkdAELuf",
-      "title": "The Dear Hunter - The Road to Sunya Tour 2026",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Nevermore Hall",
-      "start": "2026-08-03T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-dear-hunter-the-road-to-baltimore-maryland-08-03-2026/event/15006454C59DF354",
-      "source": "ticketmaster",
-      "lat": 39.290443,
-      "lon": -76.612333,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfP68d",
-      "title": "ROLLING QUARTZ [MY TURN] 2026 TOUR in Washington, D.C.",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Karma DC Live Music Venue",
-      "start": "2026-08-03T19:00:00",
-      "isFree": false,
-      "priceMin": 36.29,
-      "priceMax": 246.41,
-      "url": "https://www.ticketweb.com/event/rolling-quartz-my-turn-2026-karma-dc-live-music-venue-tickets/14947403",
-      "source": "ticketmaster",
-      "lat": 38.9188956,
-      "lon": -76.9736085,
-      "neighborhood": "Northeast Washington"
-    },
-    {
-      "id": "ticketmaster:vv1AvZk3kGkdfwoNh",
-      "title": "An Evening With David Sedaris",
-      "category": "theater",
-      "city": "Bar Harbor",
-      "state": "ME",
-      "venue": "1932 Criterion Theatre",
-      "start": "2026-08-03T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/an-evening-with-david-sedaris-bar-harbor-maine-08-03-2026/event/01006486D4C918DB",
-      "source": "ticketmaster",
-      "lat": 44.389808,
-      "lon": -68.206145,
-      "neighborhood": "Bar Harbor"
     },
     {
       "id": "jambase:16515110",
@@ -435,99 +239,6 @@
       "lon": -70.7631
     },
     {
-      "id": "ticketmaster:k7vGFbz6FJhCw",
-      "title": "Tori Amos: In Times of Dragons Tour",
-      "category": "music",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "Landmark Theatre",
-      "start": "2026-08-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/tori-amos-in-times-of-dragons-syracuse-new-york-08-03-2026/event/00006381C899B3B2",
-      "source": "ticketmaster",
-      "lat": 43.04745359,
-      "lon": -76.15251285,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Af0PvS",
-      "title": "Craig Gass (Family Guy, Howard Stern) & Chris Kael (Five Finger Death Punch) stand up and live podcast taping of Beardo & Weirdo",
-      "category": "comedy",
-      "city": "Wantagh",
-      "state": "NY",
-      "venue": "Mulcahy's",
-      "start": "2026-08-03T19:30:00",
-      "isFree": false,
-      "priceMin": 25.51,
-      "priceMax": 36.31,
-      "url": "https://www.ticketweb.com/event/craig-gass-family-guy-howard-mulcahys-tickets/14925073",
-      "source": "ticketmaster",
-      "lat": 40.6723969,
-      "lon": -73.50999100000001
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfPord",
-      "title": "Grateful Upstate Toodeloo",
-      "category": "music",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "Funk 'n Waffles",
-      "start": "2026-08-03T19:30:00",
-      "isFree": false,
-      "priceMin": 13.07,
-      "priceMax": 13.07,
-      "url": "https://www.ticketweb.com/event/grateful-upstate-toodeloo-funk-n-waffles-tickets/14951783",
-      "source": "ticketmaster",
-      "lat": 43.048366,
-      "lon": -76.153423,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7xZ79",
-      "title": "Hairspray",
-      "category": "theater",
-      "city": "Dennis",
-      "state": "MA",
-      "venue": "Cape Playhouse",
-      "start": "2026-08-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ79",
-      "source": "ticketmaster",
-      "lat": 41.7328,
-      "lon": -70.193001,
-      "neighborhood": "Dennis"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7-7Zo",
-      "title": "The Black Keys",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Stage AE",
-      "start": "2026-08-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-7Zo",
-      "source": "ticketmaster",
-      "lat": 40.448101,
-      "lon": -79.990898,
-      "neighborhood": "Strip District"
-    },
-    {
-      "id": "ticketmaster:16vfZ_6k8G7tAdr",
-      "title": "Graham Nash - Live on Tour 2026",
-      "category": "music",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-08-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/graham-nash-live-on-tour-2026-alexandria-virginia-08-03-2026/event/1500647190A450DE",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
-    },
-    {
       "id": "jambase:15512883",
       "title": "Tori Amos",
       "category": "music",
@@ -592,31 +303,17 @@
       "neighborhood": "Brattleboro"
     },
     {
-      "id": "ticketmaster:k7vGF_7CMYF0Y",
-      "title": "5 Seconds of Summer: EVERYONE'S A STAR! World Tour",
-      "category": "music",
-      "city": "Darien Center",
-      "state": "NY",
-      "venue": "Darien Lake Amphitheater",
-      "start": "2026-08-03T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/5-seconds-of-summer-everyones-a-darien-center-new-york-08-03-2026/event/00006443B7C08930",
-      "source": "ticketmaster",
-      "lat": 42.91319987,
-      "lon": -78.38933898
-    },
-    {
       "id": "ticketmaster:rZ7HnEZ1Af0E7K",
-      "title": "Dobbs’ Dead Days Between Celebration ft. Members of Goose, Dogs in a Pile, & more",
+      "title": "Dobbs’ Dead: $25 TICKETS AVAILABLE AT THE HOMESTEAD BOX OFFICE AT 7:00PM.",
       "category": "music",
       "city": "Morristown",
       "state": "NJ",
       "venue": "The Homestead",
       "start": "2026-08-03T20:00:00",
-      "isFree": false,
-      "priceMin": 25.98,
-      "priceMax": 25.98,
-      "url": "https://www.ticketweb.com/event/dobbs-dead-days-between-celebration-the-homestead-tickets/14927113",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/dobbs-dead-25-tickets-available-the-homestead-tickets/14927113",
       "source": "ticketmaster",
       "lat": 40.7949024,
       "lon": 74.4806335
@@ -2242,7 +1939,7 @@
       "start": "2026-08-04T20:00:00",
       "isFree": false,
       "priceMin": 58.67,
-      "priceMax": 111.2,
+      "priceMax": 58.67,
       "url": "https://www.ticketweb.com/event/digable-planets-blowout-comb-30th-mr-smalls-theatre-tickets/14941023",
       "source": "ticketmaster",
       "lat": 40.480891,
@@ -3135,6 +2832,23 @@
       "neighborhood": "Eastside"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z87d",
+      "title": "Boots at the Brewery | Line Dancing",
+      "category": "music",
+      "city": "Syracuse",
+      "state": "NY",
+      "venue": "Middle Ages Music Hall",
+      "start": "2026-08-05T18:00:00",
+      "isFree": false,
+      "priceMin": 12.88,
+      "priceMax": 25.46,
+      "url": "https://www.ticketweb.com/event/boots-at-the-brewery-middle-ages-music-hall-tickets/15010103",
+      "source": "ticketmaster",
+      "lat": 43.051315720388,
+      "lon": -76.16164963558,
+      "neighborhood": "Westside"
+    },
+    {
       "id": "jambase:16526388",
       "title": "Deadgrass",
       "category": "music",
@@ -4019,6 +3733,22 @@
       "lat": 40.2567,
       "lon": -76.8803,
       "neighborhood": "Downtown Harrisburg"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfaNof",
+      "title": "Flow (2024) *CUG Film Society Meetup*",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-08-05T19:20:00",
+      "isFree": false,
+      "priceMin": 7.45,
+      "priceMax": 15.69,
+      "url": "https://www.ticketweb.com/event/flow-2024-cug-film-society-williams-center-cinema-tickets/14263454",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:1Ae0Z_6GkDm4-gF",
@@ -5290,6 +5020,20 @@
       "source": "ticketmaster",
       "lat": 40.220001,
       "lon": -74.000947
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfdGkd19HYd",
+      "title": "Spider-Man: Brand New Day - The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-08-06T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/spiderman-brand-new-day-the-imax-atlantic-city-new-jersey-08-06-2026/event/02006503CA5FCC03",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfFvF0",
@@ -8468,6 +8212,20 @@
       "lon": -75.199363
     },
     {
+      "id": "ticketmaster:vvG1FZ_29f71GX",
+      "title": "Spider-Man: Brand New Day - The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-08-07T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/spiderman-brand-new-day-the-imax-atlantic-city-new-jersey-08-07-2026/event/020064F5D410A33E",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:vvG1FZ_CxqpQbd",
       "title": "SCC Youth Theatre Program presents \"101 Dalmatians KIDS\"",
       "category": "theater",
@@ -9104,6 +8862,20 @@
       "neighborhood": "Mid Island"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZFAF",
+      "title": "Ian Bagg",
+      "category": "theater",
+      "city": "Albany",
+      "state": "NY",
+      "venue": "Funny Bone Comedy Club - Albany",
+      "start": "2026-08-07T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZFAF",
+      "source": "ticketmaster",
+      "lat": 42.683399,
+      "lon": -73.851898
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Afk3A7",
       "title": "ANIME NIGHT w/s/g Super Thrash Bros",
       "category": "music",
@@ -9163,20 +8935,6 @@
       "source": "ticketmaster",
       "lat": 40.195099,
       "lon": -74.744797
-    },
-    {
-      "id": "ticketmaster:k7vGF_FM8v-eV",
-      "title": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-      "category": "music",
-      "city": "East Rutherford",
-      "state": "NJ",
-      "venue": "MetLife Stadium",
-      "start": "2026-08-07T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-east-rutherford-new-jersey-08-07-2026/event/0000648DD00610B4",
-      "source": "ticketmaster",
-      "lat": 40.81359,
-      "lon": -74.074493
     },
     {
       "id": "jambase:16536700",
@@ -9690,6 +9448,40 @@
       "lat": 37.437302,
       "lon": -77.662201,
       "neighborhood": "Brandermill"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Z83K",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-07T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010493",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaFK",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-07T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009213",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afxd8d",
@@ -11008,6 +10800,20 @@
       "lon": -73.97511
     },
     {
+      "id": "ticketmaster:k7vGF_FM8v-eV",
+      "title": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+      "category": "music",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "venue": "MetLife Stadium",
+      "start": "2026-08-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-east-rutherford-new-jersey-08-07-2026/event/0000648DD00610B4",
+      "source": "ticketmaster",
+      "lat": 40.81359,
+      "lon": -74.074493
+    },
+    {
       "id": "ticketmaster:vv11FZ_67kxdvY",
       "title": "CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR",
       "category": "comedy",
@@ -11115,6 +10921,21 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3qE"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PNx3",
+      "title": "El Fantasma Y Su Equipo Armado (21 and Over)",
+      "category": "music",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Strand Theatre-RI",
+      "start": "2026-08-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNx3",
+      "source": "ticketmaster",
+      "lat": 41.8204,
+      "lon": -71.412804,
+      "neighborhood": "Downtown Providence"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PSGZ",
@@ -13300,6 +13121,20 @@
       "lon": -75.199363
     },
     {
+      "id": "ticketmaster:vvG1FZ_29f6Qul",
+      "title": "Spider-Man: Brand New Day - The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-08-08T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/spiderman-brand-new-day-the-imax-atlantic-city-new-jersey-08-08-2026/event/020064F5D41DA36B",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:vv1AvZkC8GkdGVGSF",
       "title": "Premier Lacrosse League",
       "category": "sports",
@@ -13313,6 +13148,40 @@
       "lat": 42.3658812,
       "lon": -71.1261804,
       "neighborhood": "Lower Allston"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8pd",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-08T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010583",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaaN",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-08T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009263",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:17GZv0G6CL_zEeV",
@@ -13788,7 +13657,7 @@
     },
     {
       "id": "ticketmaster:1Ae0Z_kGkSRHsCw",
-      "title": "Home By 10 - a Dance Party for Adults Block Party Edition",
+      "title": "Home By 10 - a Dance Party for Adults",
       "category": "music",
       "city": "Buffalo",
       "state": "NY",
@@ -14033,6 +13902,20 @@
       "source": "ticketmaster",
       "lat": 41.1968,
       "lon": -74.069603
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PV8s",
+      "title": "Ian Bagg",
+      "category": "theater",
+      "city": "Albany",
+      "state": "NY",
+      "venue": "Funny Bone Comedy Club - Albany",
+      "start": "2026-08-08T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PV8s",
+      "source": "ticketmaster",
+      "lat": 42.683399,
+      "lon": -73.851898
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfrA3d",
@@ -14405,20 +14288,6 @@
       "lon": -74.06804
     },
     {
-      "id": "ticketmaster:k7vGF_FM8w-57",
-      "title": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-      "category": "music",
-      "city": "East Rutherford",
-      "state": "NJ",
-      "venue": "MetLife Stadium",
-      "start": "2026-08-08T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-east-rutherford-new-jersey-08-08-2026/event/0000648DD0CA12C4",
-      "source": "ticketmaster",
-      "lat": 40.81359,
-      "lon": -74.074493
-    },
-    {
       "id": "ticketmaster:rZ7HnEZ1AfFN70",
       "title": "RAVE RUMBLE: KAYA! & TRISTANK",
       "category": "other",
@@ -14541,16 +14410,16 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afq4ZK",
-      "title": "Cheater Slicks, Puke Pisstols, Lupo Citta",
+      "title": "Cheater Slicks, Lupo Citta, Puke Pisstols",
       "category": "music",
       "city": "Cambridge",
       "state": "MA",
       "venue": "Middle East - Upstairs",
       "start": "2026-08-08T19:00:00",
       "isFree": false,
-      "priceMin": 22.12,
-      "priceMax": 22.12,
-      "url": "https://www.ticketweb.com/event/cheater-slicks-puke-pisstols-lupo-middle-east-upstairs-tickets/14755013",
+      "priceMin": 22.64,
+      "priceMax": 22.64,
+      "url": "https://www.ticketweb.com/event/cheater-slicks-lupo-citta-puke-middle-east-upstairs-tickets/14755013",
       "source": "ticketmaster",
       "lat": 42.36422,
       "lon": -71.10133,
@@ -15380,6 +15249,21 @@
       "lon": -77.4907
     },
     {
+      "id": "ticketmaster:k7vGFbzTcglXB",
+      "title": "Jeff Dunham & Gabriel Iglesias",
+      "category": "comedy",
+      "city": "Bethel",
+      "state": "NY",
+      "venue": "Bethel Woods Center for the Arts",
+      "start": "2026-08-08T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jeff-dunham-gabriel-iglesias-bethel-new-york-08-08-2026/event/0000638FEDD6BFBA",
+      "source": "ticketmaster",
+      "lat": 41.69688884,
+      "lon": -74.8779738,
+      "neighborhood": "Bethel"
+    },
+    {
       "id": "ticketmaster:G5vVZ_AkXFfs-",
       "title": "Early Elton Trio featuring Jeff Kazee, John Conte and Rich Pagano",
       "category": "music",
@@ -15729,6 +15613,41 @@
       ]
     },
     {
+      "id": "jambase:16538869",
+      "title": "Stella Blues Band",
+      "category": "music",
+      "city": "Port Chester",
+      "state": "NY",
+      "venue": "Garcia’s at The Capitol Theatre",
+      "start": "2026-08-08T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/stella-blues-band-garcias-at-the-capitol-theatre-20260808",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2021/01/stella-blueys-band_5319x2784_jb_cropped-1480x832.jpg",
+      "lat": 41.0014,
+      "lon": -73.6655,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/stella-blues-band-port-chester-new-york-08-08-2026/event/1D0064CFF123C9AC"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:LvZ18QOjYkLwI_ZvGLzgX",
+      "title": "Emily Ann Roberts",
+      "category": "other",
+      "city": "Schenectady",
+      "state": "NY",
+      "venue": "Frog Alley Brewing Co.",
+      "start": "2026-08-08T20:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/emily-ann-roberts-tickets-6VXK7T?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 42.81499,
+      "lon": -73.94628
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7OYqv",
       "title": "Buddy Guy",
       "category": "music",
@@ -15762,6 +15681,20 @@
           "url": "https://www.ticketmaster.com/todd-rundgren-englewood-new-jersey-08-08-2026/event/000064A4D5F3CDC4"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:k7vGF_FM8w-57",
+      "title": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+      "category": "music",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "venue": "MetLife Stadium",
+      "start": "2026-08-08T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-east-rutherford-new-jersey-08-08-2026/event/0000648DD0CA12C4",
+      "source": "ticketmaster",
+      "lat": 40.81359,
+      "lon": -74.074493
     },
     {
       "id": "ticketmaster:k7vGF_FixaQ_1",
@@ -16335,21 +16268,6 @@
       "lat": 42.8937,
       "lon": -78.8754,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16538869",
-      "title": "Stella Blues Band",
-      "category": "music",
-      "city": "Port Chester",
-      "state": "NY",
-      "venue": "Garcia’s at The Capitol Theatre",
-      "start": "2026-08-08T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/stella-blues-band-garcias-at-the-capitol-theatre-20260808",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/01/stella-blueys-band_5319x2784_jb_cropped-1480x832.jpg",
-      "lat": 41.0014,
-      "lon": -73.6655
     },
     {
       "id": "jambase:15102211",
@@ -17463,6 +17381,40 @@
       "neighborhood": "Town Center"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8bS",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-09T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010633",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZauK",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-09T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009353",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vv1AvZk3pGkeEeOWK",
       "title": "Big Lick Comic Con - Sunday",
       "category": "other",
@@ -17596,6 +17548,20 @@
       "source": "ticketmaster",
       "lat": 40.688895,
       "lon": -75.199363
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_29f1QCr",
+      "title": "Spider-Man: Brand New Day - The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-08-09T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/spiderman-brand-new-day-the-imax-atlantic-city-new-jersey-08-09-2026/event/020064F5D429A39E",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:vv177ZbSGkifgyoK",
@@ -19786,6 +19752,23 @@
       "neighborhood": "North Philadelphia"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4ZajN",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-10T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009723",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vvG17Z_1DghwY-",
       "title": "Local Artist Series: Sharon Jones",
       "category": "music",
@@ -20592,7 +20575,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af-Yfd",
-      "title": "EASY HONEY",
+      "title": "Easy Honey, Margot Sinclair",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -20601,7 +20584,7 @@
       "isFree": false,
       "priceMin": 19.49,
       "priceMax": 19.49,
-      "url": "https://www.ticketweb.com/event/easy-honey-nikki-lopez-philly-tickets/14870503",
+      "url": "https://www.ticketweb.com/event/easy-honey-margot-sinclair-nikki-lopez-philly-tickets/14870503",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -20694,6 +20677,23 @@
       "lat": 38.9062,
       "lon": -77.294899,
       "neighborhood": "Hunter Mill District"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaOK",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-11T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009813",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "jambase:15987630",
@@ -21602,6 +21602,20 @@
       "lon": -74.06804
     },
     {
+      "id": "ticketmaster:vvG1FZ_29fun22",
+      "title": "Spider-Man: Brand New Day - The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-08-12T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/spiderman-brand-new-day-the-imax-atlantic-city-new-jersey-08-12-2026/event/020064F5D436A3CF",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:vvG1FZ_GxogaA-",
       "title": "Marty Supreme",
       "category": "film",
@@ -22090,6 +22104,40 @@
       "lat": 38.9062,
       "lon": -77.294899,
       "neighborhood": "Hunter Mill District"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaaK",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-12T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009253",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Zaqd",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-12T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009743",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "jambase:16436829",
@@ -23035,6 +23083,20 @@
       "lon": -74.06804
     },
     {
+      "id": "ticketmaster:vvG1FZ_29f8B83",
+      "title": "Spider-Man: Brand New Day - The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-08-13T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/spiderman-brand-new-day-the-imax-atlantic-city-new-jersey-08-13-2026/event/020064F5D443A412",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7xZZ3",
       "title": "Mean Girls",
       "category": "theater",
@@ -23732,7 +23794,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfP8eK",
-      "title": "That Handsome Devil",
+      "title": "That Handsome Devil, Boris and the Joy ",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -23741,7 +23803,7 @@
       "isFree": false,
       "priceMin": 26.15,
       "priceMax": 26.15,
-      "url": "https://www.ticketweb.com/event/that-handsome-devil-nikki-lopez-philly-tickets/14950093",
+      "url": "https://www.ticketweb.com/event/that-handsome-devil-boris-and-nikki-lopez-philly-tickets/14950093",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -23840,6 +23902,40 @@
       "source": "ticketmaster",
       "lat": 37.683899,
       "lon": -77.557999
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaFS",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-13T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009233",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaqS",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-13T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009773",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:vv177Z_kGkm0cror",
@@ -24234,6 +24330,22 @@
       "lat": 41.766499,
       "lon": -72.673103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfJppd",
+      "title": "Son of the White Mare (1981) *CUG Film Society Meetup*",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-08-13T19:15:00",
+      "isFree": false,
+      "priceMin": 7.45,
+      "priceMax": 15.69,
+      "url": "https://www.ticketweb.com/event/son-of-the-white-mare-williams-center-cinema-tickets/14996583",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZauZ",
@@ -26033,8 +26145,8 @@
       "venue": "Sonia",
       "start": "2026-08-14T19:00:00",
       "isFree": false,
-      "priceMin": 16.22,
-      "priceMax": 18.28,
+      "priceMin": 22.64,
+      "priceMax": 22.64,
       "url": "https://www.ticketweb.com/event/leedz-edutainment-and-smokehouse-media-sonia-tickets/14975023",
       "source": "ticketmaster",
       "lat": 42.363501,
@@ -26209,6 +26321,40 @@
       "source": "ticketmaster",
       "lat": 37.615799,
       "lon": -77.636398
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Z84S",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-14T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010573",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Za1K",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-14T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009293",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "jambase:16250723",
@@ -29353,6 +29499,40 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-keA"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8fd",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-15T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010503",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZafS",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-15T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009533",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7xZZ4",
@@ -33276,6 +33456,40 @@
       "lon": -79.404842
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8jK",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-16T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010713",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Za8S",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-16T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009433",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:LvZ18Q04t95U1zA8jWPj2",
       "title": "The Sports Museum Tour & Boston Bruins Heritage Hall",
       "category": "sports",
@@ -35368,6 +35582,23 @@
       "neighborhood": "Queen Village"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaON",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-17T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009823",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vvG17Z_Cl0U2se",
       "title": "Local Artist Series: The Dan Fallon Band",
       "category": "music",
@@ -36221,6 +36452,23 @@
       "lat": 38.904202,
       "lon": -77.031502,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Zard",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-18T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009783",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "jambase:15934009",
@@ -37615,6 +37863,40 @@
       "neighborhood": "Northeast Washington"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaGd",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-19T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009303",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaqK",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-19T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009753",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vv1AvZkobGkdCfaAp",
       "title": "Ilana Glazer Live!",
       "category": "comedy",
@@ -37796,9 +38078,25 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfaE_f",
+      "title": "Wallace & Gromit: The Classic Shorts (1989) *CUG Film Society Meetup*",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-08-19T19:15:00",
+      "isFree": false,
+      "priceMin": 7.45,
+      "priceMax": 15.69,
+      "url": "https://www.ticketweb.com/event/wallace-gromit-the-classic-williams-center-cinema-tickets/14267654",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7-tbO",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -39327,6 +39625,40 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Za8d",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-20T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009403",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZajS",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-20T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009733",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vv1A8v0uEGAuX7Mp",
       "title": "The Fray - Summer of Light Tour with Dashboard Confessional",
       "category": "music",
@@ -39710,7 +40042,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tb_",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -41944,6 +42276,40 @@
       "lon": -77.636398
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8bN",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-21T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010623",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaCK",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-21T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009393",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfxduN",
       "title": "Nirvani - A Nirvana Tribute Experience",
       "category": "music",
@@ -42464,7 +42830,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tbb",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -44386,6 +44752,21 @@
       "lon": -71.0714
     },
     {
+      "id": "ticketmaster:vvG17Z_2H6_WZi",
+      "title": "Breakaway Mass 2026 Official After Party ft. it's murph ( 21+ )",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Big Night Live",
+      "start": "2026-08-21T22:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/breakaway-mass-2026-official-after-party-boston-massachusetts-08-21-2026/event/010064FF0767D02C",
+      "source": "ticketmaster",
+      "lat": 42.365977,
+      "lon": -71.0617,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:1718v0G6u0RJvaZ",
       "title": "DJ Klutch",
       "category": "music",
@@ -44640,6 +45021,40 @@
       "lon": -77.005205
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8qK",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-22T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010753",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Zafd",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-22T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009503",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "jambase:16230980",
       "title": "The Mavericks",
       "category": "music",
@@ -44671,7 +45086,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tbp",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -44960,6 +45375,22 @@
       "priceMin": 13.63,
       "priceMax": 15.69,
       "url": "https://www.ticketweb.com/event/blood-tea-and-red-string-williams-center-cinema-tickets/14996593",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfaVaf",
+      "title": "The Wolf House (2018)",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-08-22T17:30:00",
+      "isFree": false,
+      "priceMin": 13.63,
+      "priceMax": 15.69,
+      "url": "https://www.ticketweb.com/event/the-wolf-house-2018-williams-center-cinema-tickets/14274254",
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
@@ -47820,6 +48251,21 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:vvG17Z_2HFyckU",
+      "title": "Breakaway Mass 2026 Official After Party ft. Crankdat ( 21+ )",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Big Night Live",
+      "start": "2026-08-22T22:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/breakaway-mass-2026-official-after-party-boston-massachusetts-08-22-2026/event/010064FF08E6D1B6",
+      "source": "ticketmaster",
+      "lat": 42.365977,
+      "lon": -71.0617,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:vvG17Z_2UqSLpB",
       "title": "Different Font",
       "category": "music",
@@ -48024,9 +48470,9 @@
       "state": "DC",
       "venue": "Hard Rock Cafe-Washington DC",
       "start": "2026-08-23T10:00:00",
-      "isFree": false,
-      "priceMin": 70.45,
-      "priceMax": 70.45,
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
       "url": "https://www.ticketweb.com/event/hard-rock-grand-prix-show-hard-rock-cafe-washington-dc-tickets/14270984",
       "source": "ticketmaster",
       "lat": 38.89637,
@@ -48062,6 +48508,40 @@
       "lat": 42.365841,
       "lon": -71.060724,
       "neighborhood": "West End"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8jN",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-23T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010723",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Za8N",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-23T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009423",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:LvZ18Q04t95o-LLFZTGnY",
@@ -48326,7 +48806,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tbf",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -50313,6 +50793,23 @@
       "lon": -76.201897
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaOd",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-24T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009803",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vvG17Z_CSpOgiO",
       "title": "Local Artist Series: Misty Blues Band",
       "category": "music",
@@ -51163,6 +51660,23 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaqN",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-25T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009763",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:vv177Z_6GknfqjzP",
       "title": "Nitro Circus 2.0",
       "category": "sports",
@@ -51904,6 +52418,22 @@
       "neighborhood": "South Ellicott"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfaVu7",
+      "title": "The Wolf House (2018)",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-08-26T17:30:00",
+      "isFree": false,
+      "priceMin": 13.63,
+      "priceMax": 15.69,
+      "url": "https://www.ticketweb.com/event/the-wolf-house-2018-williams-center-cinema-tickets/14274344",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfaVvf",
       "title": "Fantastic Planet (1973)",
       "category": "other",
@@ -52379,6 +52909,40 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Za3d",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-26T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009483",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZarK",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-26T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009793",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "jambase:15540302",
       "title": "Luke Bryan",
       "category": "music",
@@ -52609,7 +53173,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tbK",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -53389,7 +53953,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tb3",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -54017,6 +54581,20 @@
       "neighborhood": "Queen Village"
     },
     {
+      "id": "ticketmaster:vv1AeZkfeGkesWbjk",
+      "title": "Local Art Live!",
+      "category": "music",
+      "city": "Lititz",
+      "state": "PA",
+      "venue": "Mickey's Black Box",
+      "start": "2026-08-27T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/local-art-live-lititz-pennsylvania-08-27-2026/event/02006502B1F58706",
+      "source": "ticketmaster",
+      "lat": 40.17542,
+      "lon": -76.31327
+    },
+    {
       "id": "jambase:16311822",
       "title": "Keyshia Cole",
       "category": "music",
@@ -54095,6 +54673,40 @@
       "source": "ticketmaster",
       "lat": 37.295601,
       "lon": -80.1166
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Za4d",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-27T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009543",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZaOS",
+      "title": "Circus Vazquez: NFCR Fundraising (Monday-Thursday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-27T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-monday-tysons-ii-tickets/15009833",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:vv177Z_aGkBoTjFn",
@@ -54402,6 +55014,22 @@
       "source": "ticketmaster",
       "lat": 37.586102,
       "lon": -77.4907
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfaSxf",
+      "title": "Memoir of a Snail (2024) *CUG Film Society Meetup*",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-08-27T19:15:00",
+      "isFree": false,
+      "priceMin": 13.63,
+      "priceMax": 15.69,
+      "url": "https://www.ticketweb.com/event/memoir-of-a-snail-2024-williams-center-cinema-tickets/14273894",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:G5vVZ_aUTKBAB",
@@ -56168,7 +56796,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfJvvN",
-      "title": "Mad Caddies with The Supervillians and special guests tba",
+      "title": "Mad Caddies with The Supervillians, Brendan Kelly of The Lawrence Arms and Hub City Stompers",
       "category": "music",
       "city": "Rutherford",
       "state": "NJ",
@@ -56496,6 +57124,40 @@
       "lat": 38.9062,
       "lon": -77.294899,
       "neighborhood": "Hunter Mill District"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8_S",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-28T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010673",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZauS",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-28T19:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009373",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
     },
     {
       "id": "ticketmaster:vv177Z_aGkB_KWml",
@@ -56973,7 +57635,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tb8",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -59060,9 +59722,43 @@
       "lon": -77.005205
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8_d",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-29T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010643",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4ZauN",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-29T13:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009363",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7-tba",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -59215,6 +59911,21 @@
       "lat": 41.7328,
       "lon": -70.193001,
       "neighborhood": "Dennis"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_2vHAJpM",
+      "title": "Penn State Invitational Day 1",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "Rec Hall",
+      "start": "2026-08-29T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/penn-state-invitational-day-1-university-park-pennsylvania-08-29-2026/event/020064F07C1665B7",
+      "source": "ticketmaster",
+      "lat": 40.796046,
+      "lon": -77.869234,
+      "neighborhood": "University Park"
     },
     {
       "id": "jambase:16237004",
@@ -62873,6 +63584,40 @@
       "neighborhood": "West End"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8qN",
+      "title": "Circus Vazquez: NFCR Fundraising (Friday-Sunday)",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-30T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 39.05,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-nfcr-fundraising-friday-tysons-ii-tickets/15010763",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Zaod",
+      "title": "Circus Vazquez - Tysons, VA",
+      "category": "theater",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Tysons II",
+      "start": "2026-08-30T11:00:00",
+      "isFree": false,
+      "priceMin": 23.1,
+      "priceMax": 80.75,
+      "url": "https://www.ticketweb.com/event/circus-vazquez-tysons-tysons-ii-tickets/15009443",
+      "source": "ticketmaster",
+      "lat": 38.921196,
+      "lon": -77.224349,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:LvZ18QPypmWuyf9x9PeKR",
       "title": "The Sports Museum Tour & Boston Bruins Heritage Hall",
       "category": "sports",
@@ -63136,7 +63881,7 @@
     {
       "id": "ticketmaster:Z7r9jZ1A7-tb6",
       "title": "All The Devils Are Here",
-      "category": "other",
+      "category": "theater",
       "city": "Princeton",
       "state": "NJ",
       "venue": "Berlind Theatre",
@@ -63791,16 +64536,16 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af0o8N",
-      "title": "REZN, Lockstep",
+      "title": "REZN, Lockstep, Slow Quit",
       "category": "music",
       "city": "Cambridge",
       "state": "MA",
       "venue": "Middle East - Upstairs",
       "start": "2026-08-30T19:00:00",
       "isFree": false,
-      "priceMin": 27.27,
-      "priceMax": 27.27,
-      "url": "https://www.ticketweb.com/event/rezn-lockstep-middle-east-upstairs-tickets/14911423",
+      "priceMin": 27.79,
+      "priceMax": 27.79,
+      "url": "https://www.ticketweb.com/event/rezn-lockstep-slow-quit-middle-east-upstairs-tickets/14911423",
       "source": "ticketmaster",
       "lat": 42.36422,
       "lon": -71.10133,
@@ -74254,6 +74999,21 @@
       "neighborhood": "Mashantucket"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af0Ned",
+      "title": "Adderall XR",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Zuzu",
+      "start": "2026-09-06T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/adderall-xr-middle-east-zuzu-tickets/14923083",
+      "source": "ticketmaster",
+      "lat": 42.36374167151,
+      "lon": -71.10074879726,
+      "neighborhood": "Central Square"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfFwv0",
       "title": "A. Petrov",
       "category": "music",
@@ -74364,6 +75124,21 @@
       "lat": 40.73340555,
       "lon": -74.17121214,
       "neighborhood": "Central Ward"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7JFvx",
+      "title": "Alok",
+      "category": "music",
+      "city": "Manchester",
+      "state": "CT",
+      "venue": "Funny Bone Comedy Club - Hartford",
+      "start": "2026-09-06T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFvx",
+      "source": "ticketmaster",
+      "lat": 41.8008,
+      "lon": -72.5159,
+      "neighborhood": "Robertson"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7Psfg",
@@ -81293,7 +82068,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af0dvS",
-      "title": "Dirty Sound Magnnet w/ Gran Moreno",
+      "title": "Dirty Sound Magnet w/ Gran Moreno",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -81302,7 +82077,7 @@
       "isFree": false,
       "priceMin": 19.49,
       "priceMax": 19.49,
-      "url": "https://www.ticketweb.com/event/dirty-sound-magnnet-w-gran-nikki-lopez-philly-tickets/14903073",
+      "url": "https://www.ticketweb.com/event/dirty-sound-magnet-w-gran-nikki-lopez-philly-tickets/14903073",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -83965,6 +84740,23 @@
       "lon": -71.109255
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Z8ed",
+      "title": "Tilt , Ordinary People",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Nikki Lopez Philly",
+      "start": "2026-09-12T18:00:00",
+      "isFree": false,
+      "priceMin": 13.34,
+      "priceMax": 13.34,
+      "url": "https://www.ticketweb.com/event/tilt-ordinary-people-nikki-lopez-philly-tickets/15010083",
+      "source": "ticketmaster",
+      "lat": 39.941327,
+      "lon": -75.1478724,
+      "neighborhood": "Queen Village"
+    },
+    {
       "id": "ticketmaster:vv1AeZk8MGkd1BCk6",
       "title": "Altoona Curve vs. Akron RubberDucks",
       "category": "sports",
@@ -84476,6 +85268,21 @@
       "lat": 39.969938,
       "lon": -75.160278,
       "neighborhood": "North Philadelphia"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_2vHiUQ8",
+      "title": "Penn State Women's Volleyball vs Ohio University",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "Rec Hall",
+      "start": "2026-09-12T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/penn-state-womens-volleyball-vs-ohio-university-park-pennsylvania-09-12-2026/event/020064F07CB36690",
+      "source": "ticketmaster",
+      "lat": 40.796046,
+      "lon": -77.869234,
+      "neighborhood": "University Park"
     },
     {
       "id": "ticketmaster:vvG1FZ_CBwbTQp",
@@ -89852,6 +90659,21 @@
       "neighborhood": "Queen Village"
     },
     {
+      "id": "ticketmaster:vvG1FZ_2vW2Jr8",
+      "title": "Penn State Women's Volleyball vs Villanova",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "Rec Hall",
+      "start": "2026-09-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/penn-state-womens-volleyball-vs-villanova-university-park-pennsylvania-09-15-2026/event/020064F07D3E6790",
+      "source": "ticketmaster",
+      "lat": 40.796046,
+      "lon": -77.869234,
+      "neighborhood": "University Park"
+    },
+    {
       "id": "jambase:16450248",
       "title": "The Home Team",
       "category": "music",
@@ -94913,6 +95735,21 @@
       "lon": -80.058873
     },
     {
+      "id": "ticketmaster:vvG1FZ_2vWNkO4",
+      "title": "Penn State Women's Volleyball vs South Florida",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "Rec Hall",
+      "start": "2026-09-18T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/penn-state-womens-volleyball-vs-south-university-park-pennsylvania-09-18-2026/event/020064F07D8C6815",
+      "source": "ticketmaster",
+      "lat": 40.796046,
+      "lon": -77.869234,
+      "neighborhood": "University Park"
+    },
+    {
       "id": "ticketmaster:1A4Zk3aGkd_ailp",
       "title": "Toby's Dinner Theatre Presents: Summer - The Donna Summer Musical",
       "category": "theater",
@@ -98545,6 +99382,21 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Afj8AN",
+      "title": "KONG",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-09-18T22:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/kong-middle-east-cornerbakery-tickets/14710163",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7xZoz",
       "title": "Oskar med K (18 and Over)",
       "category": "music",
@@ -98744,6 +99596,38 @@
       "lon": -77.4644
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfF-xf",
+      "title": "Michael Prentky's sad boy:ADD:apocalypse album release",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Scullers Jazz Club",
+      "start": "2026-09-19T07:00:00",
+      "isFree": false,
+      "priceMin": 36.85,
+      "priceMax": 59.75,
+      "url": "https://www.ticketweb.com/event/michael-prentkys-sad-boyaddapocalypse-album-scullers-jazz-club-tickets/14221894",
+      "source": "ticketmaster",
+      "lat": 42.362857,
+      "lon": -71.118134,
+      "neighborhood": "Lower Allston"
+    },
+    {
+      "id": "ticketmaster:vvG17Z_GiZVlB-",
+      "title": "Causeway Card Show",
+      "category": "other",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Big Night Live",
+      "start": "2026-09-19T08:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/causeway-card-show-boston-massachusetts-09-19-2026/event/010064CB00D2BEA1",
+      "source": "ticketmaster",
+      "lat": 42.365977,
+      "lon": -71.0617,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Af7t_f",
       "title": "Day Out With Thomas (TM), Thomas & Friends",
       "category": "other",
@@ -98935,6 +99819,21 @@
       "neighborhood": "Behind the Rocks"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-Mb_",
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "category": "theater",
+      "city": "Dennis",
+      "state": "MA",
+      "venue": "Cape Playhouse",
+      "start": "2026-09-19T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mb_",
+      "source": "ticketmaster",
+      "lat": 41.7328,
+      "lon": -70.193001,
+      "neighborhood": "Dennis"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7-Vbt",
       "title": "The Lion King (Touring)",
       "category": "theater",
@@ -99023,6 +99922,21 @@
       "neighborhood": "Regency"
     },
     {
+      "id": "ticketmaster:vv1AvZkoyGkdNVuW2",
+      "title": "Undertale - The Determination Symphony World Tour",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Boch Center Wang Theatre",
+      "start": "2026-09-19T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/undertale-the-determination-symphony-world-tour-boston-massachusetts-09-19-2026/event/01006479E3D0DF4F",
+      "source": "ticketmaster",
+      "lat": 42.3499769,
+      "lon": -71.0652677,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7r4vJ",
       "title": "Zach Bryan w/ Alabama Shakes",
       "category": "music",
@@ -99083,6 +99997,21 @@
       "lon": -75.5306
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-y7-",
+      "title": "UMass Minutemen Football vs. Stonehill Skyhawks Football",
+      "category": "sports",
+      "city": "Amherst",
+      "state": "MA",
+      "venue": "Warren P. McGuirk Alumni Stadium",
+      "start": "2026-09-19T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-y7-",
+      "source": "ticketmaster",
+      "lat": 42.375198,
+      "lon": -72.521202,
+      "neighborhood": "Amherst Center"
+    },
+    {
       "id": "jambase:16115063",
       "title": "Old Crow Medicine Show",
       "category": "music",
@@ -99112,6 +100041,21 @@
       "lat": 40.7165,
       "lon": -74.0332,
       "neighborhood": "Colgate Center"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7QAGY",
+      "title": "Worcester Red Sox vs. Durham Bulls",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Polar Park",
+      "start": "2026-09-19T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QAGY",
+      "source": "ticketmaster",
+      "lat": 42.246498,
+      "lon": -71.809402,
+      "neighborhood": "South Worcester"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7QF4w",
@@ -99365,6 +100309,21 @@
       "source": "ticketmaster",
       "lat": 40.522461,
       "lon": -75.032685
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70U0V",
+      "title": "Dying Fetus w/ Sanguisugabogg",
+      "category": "music",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Palladium-MA",
+      "start": "2026-09-19T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U0V",
+      "source": "ticketmaster",
+      "lat": 42.2617,
+      "lon": -71.801498,
+      "neighborhood": "Central Business District"
     },
     {
       "id": "ticketmaster:17AOv0G65za_Wr8",
@@ -99627,6 +100586,70 @@
       "lat": 41.318298,
       "lon": -72.926399,
       "neighborhood": "Dixwell"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70t8A",
+      "title": "Ashley Cooke w/ Timmy McKeever",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Royale Boston",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t8A",
+      "source": "ticketmaster",
+      "lat": 42.349602,
+      "lon": -71.075302,
+      "neighborhood": "Prudential / St. Botolph"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfPPaN",
+      "title": "overtonight",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Downstairs",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 27.27,
+      "priceMax": 27.27,
+      "url": "https://www.ticketweb.com/event/overtonight-middle-east-downstairs-tickets/14965263",
+      "source": "ticketmaster",
+      "lat": 42.36422,
+      "lon": -71.10133,
+      "neighborhood": "Central Square"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfaxGV",
+      "title": "George Coleman",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Regattabar",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 41.79,
+      "priceMax": 53.43,
+      "url": "https://www.ticketweb.com/event/george-coleman-regattabar-tickets/14262334",
+      "source": "ticketmaster",
+      "lat": 42.37249,
+      "lon": -71.12302,
+      "neighborhood": "Harvard Square"
+    },
+    {
+      "id": "ticketmaster:vv177Z_6GkTGCbUp",
+      "title": "Tyler Ballgame",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Brighton Music Hall presented by Citizens",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tyler-ballgame-boston-massachusetts-09-19-2026/event/0100647FCC398D96",
+      "source": "ticketmaster",
+      "lat": 42.3528999,
+      "lon": -71.1326128,
+      "neighborhood": "Commonwealth"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7Pd4_",
@@ -115399,6 +116422,21 @@
       "neighborhood": "Downtown Mall"
     },
     {
+      "id": "ticketmaster:G5vVZ_2lS-LvO",
+      "title": "KELS",
+      "category": "music",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Cabaret",
+      "start": "2026-09-27T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/kels-uncasville-connecticut-09-27-2026/event/1D0064FAF385F060",
+      "source": "ticketmaster",
+      "lat": 41.4915974,
+      "lon": -72.0914563,
+      "neighborhood": "Uncasville"
+    },
+    {
       "id": "jambase:16310087",
       "title": "Don Omar",
       "category": "music",
@@ -118781,6 +119819,22 @@
       "lon": -74.00071097
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4Za7S",
+      "title": "Damag3 with special guests Film and Gender, Paloe and Conor Cristi",
+      "category": "music",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Black Box - Rutherford",
+      "start": "2026-10-01T19:00:00",
+      "isFree": false,
+      "priceMin": 26.46,
+      "priceMax": 26.46,
+      "url": "https://www.ticketweb.com/event/damag3-with-special-guests-film-williams-center-black-tickets/15009133",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
+    },
+    {
       "id": "ticketmaster:vvG1FZ_2eoxtsZ",
       "title": "New Jersey Devils vs. Philadelphia Flyers",
       "category": "sports",
@@ -122118,6 +123172,21 @@
       "lon": -74.420138
     },
     {
+      "id": "ticketmaster:17A8v0G62p2jAhg",
+      "title": "Battle of the Real HU presented by Events DC",
+      "category": "sports",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Audi Field",
+      "start": "2026-10-03T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/battle-of-the-real-hu-presented-washington-district-of-columbia-10-03-2026/event/150064F58F7056F5",
+      "source": "ticketmaster",
+      "lat": 38.867998,
+      "lon": -77.013642,
+      "neighborhood": "Southwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7P0eA",
       "title": "Drunk Shakespeare: Drunk Dracula (21+ Event)",
       "category": "theater",
@@ -122750,20 +123819,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:LvZ18QJwW2i5EqzJbl7qV",
-      "title": "R&B ONLY LIVE - Madison, WI",
-      "category": "other",
-      "city": "Montclair",
-      "state": "NJ",
-      "venue": "The Wellmont Theater",
-      "start": "2026-10-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/r-b-only-live-madison-wi-tickets-HWF03S?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.8124988,
-      "lon": -74.2165153
-    },
-    {
       "id": "ticketmaster:1A4ZkuNGkdwruQ0",
       "title": "Maria Bamford",
       "category": "comedy",
@@ -122999,6 +124054,20 @@
       "source": "ticketmaster",
       "lat": 40.4618,
       "lon": -74.344902
+    },
+    {
+      "id": "ticketmaster:k7vGF_2iSJdDg",
+      "title": "Yacht Lobsters",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Wonder Bar",
+      "start": "2026-10-03T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/yacht-lobsters-asbury-park-new-jersey-10-03-2026/event/000064FB33983EF5",
+      "source": "ticketmaster",
+      "lat": 40.22328639,
+      "lon": -73.99950139
     },
     {
       "id": "jambase:16215061",
@@ -125024,6 +126093,21 @@
       "neighborhood": "Uncasville"
     },
     {
+      "id": "ticketmaster:17A8v0G62S0Im0C",
+      "title": "SCHOOLBOY Q - 10 Years of Blank Face LP",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2026-10-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/schoolboy-q-10-years-of-blank-silver-spring-maryland-10-04-2026/event/150064FCE4A2E90E",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
+    },
+    {
       "id": "ticketmaster:17A8v0G61QJpcCB",
       "title": "Everything Everything - Get To Heaven, 10th Anniversary, North America",
       "category": "music",
@@ -126990,6 +128074,21 @@
       "neighborhood": "Downtown Roanoke"
     },
     {
+      "id": "ticketmaster:17A8v0G62mo0A66",
+      "title": "Kylie Cantrall Presents: The Valley Girl Problems Tour",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2026-10-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/kylie-cantrall-presents-the-valley-girl-silver-spring-maryland-10-07-2026/event/150064FB919051C7",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
+    },
+    {
       "id": "ticketmaster:vvG1FZ_CM5Sw8C",
       "title": "North Mississippi Allstars",
       "category": "music",
@@ -127032,6 +128131,20 @@
       "lat": 38.03066678,
       "lon": -78.48125473,
       "neighborhood": "Downtown Mall"
+    },
+    {
+      "id": "ticketmaster:vvG17Z_2R3gq4t",
+      "title": "VSU Homecoming Concert 2026",
+      "category": "music",
+      "city": "Petersburg",
+      "state": "VA",
+      "venue": "VSU Multi-Purpose Center",
+      "start": "2026-10-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/vsu-homecoming-concert-2026-petersburg-virginia-10-07-2026/event/010064FBD2D5D569",
+      "source": "ticketmaster",
+      "lat": 37.2279279,
+      "lon": -77.4019267
     },
     {
       "id": "ticketmaster:vvG17Z_2Q7sBpA",
@@ -127401,6 +128514,20 @@
       "source": "ticketmaster",
       "lat": 38.8330513,
       "lon": -77.3098503
+    },
+    {
+      "id": "ticketmaster:vvG17Z_2RiwgSd",
+      "title": "NPHC Step Show",
+      "category": "other",
+      "city": "Petersburg",
+      "state": "VA",
+      "venue": "VSU Multi-Purpose Center",
+      "start": "2026-10-08T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/nphc-step-show-petersburg-virginia-10-08-2026/event/010064FBECCB5CC3",
+      "source": "ticketmaster",
+      "lat": 37.2279279,
+      "lon": -77.4019267
     },
     {
       "id": "ticketmaster:vvG17Z_CQIgHoD",
@@ -129725,20 +130852,6 @@
       "lat": 43.6531,
       "lon": -70.2667,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:LvZ18QJSkukRCSNURRHtX",
-      "title": "R&B ONLY LIVE - San Antonio, TX",
-      "category": "other",
-      "city": "Montclair",
-      "state": "NJ",
-      "venue": "The Wellmont Theater",
-      "start": "2026-10-09T20:30:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/r-b-only-live-san-antonio-tx-tickets-DVP18N?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.8124988,
-      "lon": -74.2165153
     },
     {
       "id": "ticketmaster:17A8v0G61EPFipT",
@@ -137810,120 +138923,6 @@
       "lon": -74.147614
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7JpPS",
-      "title": "Cradle of Filth w/ Moonspell",
-      "category": "music",
-      "city": "Sayreville",
-      "state": "NJ",
-      "venue": "Starland Ballroom",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JpPS",
-      "source": "ticketmaster",
-      "lat": 40.4618,
-      "lon": -74.344902
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7PNFU",
-      "title": "The Rascals",
-      "category": "music",
-      "city": "Collingswood",
-      "state": "NJ",
-      "venue": "Scottish Rite Auditorium-NJ",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNFU",
-      "source": "ticketmaster",
-      "lat": 39.915199,
-      "lon": -75.061501
-    },
-    {
-      "id": "ticketmaster:k7vGF_2eB14LY",
-      "title": "Joe Grushecky & the Houserockers",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Wonder Bar",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/joe-grushecky-the-houserockers-asbury-park-new-jersey-10-17-2026/event/000064F0BA2957F0",
-      "source": "ticketmaster",
-      "lat": 40.22328639,
-      "lon": -73.99950139
-    },
-    {
-      "id": "ticketmaster:k7vGF_GlAqUiR",
-      "title": "An Evening With John Cusack (featuring Screening Of High Fidelity)",
-      "category": "other",
-      "city": "Englewood",
-      "state": "NJ",
-      "venue": "Bergen Performing Arts Center",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/an-evening-with-john-cusack-featuring-englewood-new-jersey-10-17-2026/event/000064CAC5776B2F",
-      "source": "ticketmaster",
-      "lat": 40.895358,
-      "lon": -73.97511
-    },
-    {
-      "id": "ticketmaster:k7vGF_a6_R-19",
-      "title": "ALL THEM WITCHES: 21 Shows / 21 Days",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Stone Pony",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/all-them-witches-21-shows-21-asbury-park-new-jersey-10-17-2026/event/00006491D9BE1297",
-      "source": "ticketmaster",
-      "lat": 40.220001,
-      "lon": -74.00071097
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfFz0f",
-      "title": "Ladies Of The 80's Night Out!",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Black Box - Rutherford",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "priceMin": 13.63,
-      "priceMax": 53.24,
-      "url": "https://www.ticketweb.com/event/ladies-of-the-80s-night-williams-center-black-tickets/14238914",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:vv17FZ_aGkwSsGb3",
-      "title": "The Wildwoods Oldies Spectacular Concert",
-      "category": "music",
-      "city": "Wildwood",
-      "state": "NJ",
-      "venue": "Wildwoods Convention Center",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-wildwoods-oldies-spectacular-concert-wildwood-new-jersey-10-17-2026/event/0200649CB3C4C612",
-      "source": "ticketmaster",
-      "lat": 38.981637,
-      "lon": -74.816809
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_GSKKnq7",
-      "title": "Daughtry - 20 Years Unplugged Tour",
-      "category": "music",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Ovation Hall at Ocean Casino Resort ",
-      "start": "2026-10-17T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlantic-city-new-jersey-10-17-2026/event/020064CCD34EA744",
-      "source": "ticketmaster",
-      "lat": 39.36167649,
-      "lon": -74.41345315
-    },
-    {
       "id": "ticketmaster:G5vVZ_khnAa4B",
       "title": "KATHLEEN MADIGAN: FLYING CATS & MARCHING ARMADILLOS TOUR",
       "category": "comedy",
@@ -138385,34 +139384,6 @@
       "neighborhood": "The Fan District"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7roA0",
-      "title": "New York Red Bulls vs. Toronto FC",
-      "category": "sports",
-      "city": "Harrison",
-      "state": "NJ",
-      "venue": "Sports Illustrated Stadium",
-      "start": "2026-10-17T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7roA0",
-      "source": "ticketmaster",
-      "lat": 40.744202,
-      "lon": -74.151703
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_uMUrz90",
-      "title": "The Lalas",
-      "category": "theater",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Music Box at the Borgata",
-      "start": "2026-10-17T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-lalas-atlantic-city-new-jersey-10-17-2026/event/020064DDF67B85E4",
-      "source": "ticketmaster",
-      "lat": 39.376797,
-      "lon": -74.435366
-    },
-    {
       "id": "ticketmaster:17A8v0G6GKdUq3q",
       "title": "Lotus Land - The American RUSH Tribute",
       "category": "music",
@@ -138683,65 +139654,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 44.4663,
       "lon": -73.1679
-    },
-    {
-      "id": "ticketmaster:G5vVZ_Clu-3_7",
-      "title": "Jerry's Middle Finger",
-      "category": "music",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "The Vogel at Count Basie Center for the Arts",
-      "start": "2026-10-17T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jerrys-middle-finger-red-bank-new-jersey-10-17-2026/event/1D0064EACD852644",
-      "source": "ticketmaster",
-      "lat": 40.349071,
-      "lon": -74.07022
-    },
-    {
-      "id": "ticketmaster:k7vGF_5mNlGfR",
-      "title": "Is Brooklyn in the House?: Dodge Poetry Festival",
-      "category": "other",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "New Jersey Performing Arts Center",
-      "start": "2026-10-17T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/is-brooklyn-in-the-house-dodge-newark-new-jersey-10-17-2026/event/000064BBA3ACC52F",
-      "source": "ticketmaster",
-      "lat": 40.739502,
-      "lon": -74.16809,
-      "neighborhood": "Central Ward"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfatPV",
-      "title": "Bobby Collins LIVE",
-      "category": "comedy",
-      "city": "Princeton",
-      "state": "NJ",
-      "venue": "Hyatt Regency Princeton",
-      "start": "2026-10-17T20:00:00",
-      "isFree": false,
-      "priceMin": 44.04,
-      "priceMax": 69.69,
-      "url": "https://www.ticketweb.com/event/bobby-collins-live-hyatt-regency-princeton-tickets/14269974",
-      "source": "ticketmaster",
-      "lat": 40.323929,
-      "lon": -74.644334
-    },
-    {
-      "id": "ticketmaster:vv17FZ_kGkDKTRfz",
-      "title": "Dance Now Atlantic City",
-      "category": "music",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Live at Etess Arena",
-      "start": "2026-10-17T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dance-now-atlantic-city-atlantic-city-new-jersey-10-17-2026/event/0200646ED3FEF538",
-      "source": "ticketmaster",
-      "lat": 39.361334,
-      "lon": -74.422049
     },
     {
       "id": "ticketmaster:G5vVZ_uI6SZXj",
@@ -140156,6 +141068,20 @@
       "lat": 38.839787,
       "lon": -77.061339,
       "neighborhood": "Potomac West"
+    },
+    {
+      "id": "ticketmaster:vv1AvZkfdGkdulU43",
+      "title": "Broadway Buffet- The Wiz",
+      "category": "other",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Performing Arts Theatre",
+      "start": "2026-10-18T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/broadway-buffet-the-wiz-roanoke-virginia-10-18-2026/event/01006503CDAF6552",
+      "source": "ticketmaster",
+      "lat": 37.27907,
+      "lon": -79.935701
     },
     {
       "id": "jambase:16463872",
@@ -142645,6 +143571,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:17A8v0G62HfDkgQ",
+      "title": "Aziz Ansari: Hypothetical Tour",
+      "category": "comedy",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Warner Theatre",
+      "start": "2026-10-22T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/aziz-ansari-hypothetical-tour-washington-district-of-columbia-10-22-2026/event/150064FF14EC6D5A",
+      "source": "ticketmaster",
+      "lat": 38.8961209,
+      "lon": -77.0296101,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:17A8v0G6uDPxbaj",
       "title": "Tiana Major9 - November Scorpio Tour",
       "category": "music",
@@ -143094,6 +144035,23 @@
       "source": "ticketmaster",
       "lat": 38.9174,
       "lon": -77.028992,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4Zv0S",
+      "title": "Abbie Gamboa - Have You Ever Looked Around Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Howard Theatre",
+      "start": "2026-10-22T20:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/abbie-gamboa-have-howard-theatre-tickets/15001933",
+      "source": "ticketmaster",
+      "lat": 38.9153136,
+      "lon": -77.0210937,
       "neighborhood": "Northwest Washington"
     },
     {
@@ -149479,6 +150437,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A70z79",
+      "title": "Jeff Allen",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "CT",
+      "venue": "Funny Bone Comedy Club - Hartford",
+      "start": "2026-10-29T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70z79",
+      "source": "ticketmaster",
+      "lat": 41.8008,
+      "lon": -72.5159,
+      "neighborhood": "Robertson"
+    },
+    {
       "id": "ticketmaster:17A8v0G65pyt1fo",
       "title": "Hawthorne Heights - 20th anniversary of If Only You Were Lonely",
       "category": "music",
@@ -149522,6 +150495,21 @@
       "lat": 38.904202,
       "lon": -77.031502,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZa8F",
+      "title": "Hudson Westbrook",
+      "category": "music",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Virginia Credit Union LIVE!",
+      "start": "2026-10-29T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa8F",
+      "source": "ticketmaster",
+      "lat": 37.5807,
+      "lon": -77.419296,
+      "neighborhood": "North Side"
     },
     {
       "id": "jambase:15987554",
@@ -149791,6 +150779,20 @@
       "lat": 41.8235,
       "lon": -71.4182,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_2mOm98C",
+      "title": "Rumours of Fleetwood Mac",
+      "category": "music",
+      "city": "Wallingford",
+      "state": "CT",
+      "venue": "Toyota Oakdale Theatre",
+      "start": "2026-10-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rumours-of-fleetwood-mac-wallingford-connecticut-10-29-2026/event/1D0064FBA0B9740E",
+      "source": "ticketmaster",
+      "lat": 41.4486599,
+      "lon": -72.846188
     },
     {
       "id": "jambase:16485330",
@@ -152273,6 +153275,18 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:1718v0G62MafZm3",
+      "title": "SAVING ABLE PERFORMING AT THE HALFTIME SPORTS AND MUSIC VENUE",
+      "category": "other",
+      "city": "Newark",
+      "state": "DE",
+      "venue": "Halftime Sports Bar",
+      "start": "2026-11-01T17:30:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/saving-able-performing-at-the-halftime-sports-bar-tickets/14999303?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster"
+    },
+    {
       "id": "jambase:15732493",
       "title": "Mariza",
       "category": "music",
@@ -154303,6 +155317,20 @@
       "neighborhood": "Hampton Beach"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A70xAa",
+      "title": "Hovvdy w/ Christian Lee Hutson",
+      "category": "music",
+      "city": "Hamden",
+      "state": "CT",
+      "venue": "Space Ballroom",
+      "start": "2026-11-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70xAa",
+      "source": "ticketmaster",
+      "lat": 41.372002,
+      "lon": -72.941803
+    },
+    {
       "id": "ticketmaster:17A8v0G61f9OzLK",
       "title": "Pod Save America: LIVE from DC",
       "category": "other",
@@ -156122,6 +157150,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:G5vVZ_2AzBNBp",
+      "title": "Paul Anka",
+      "category": "music",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Premier Theater at Foxwoods Resort Casino",
+      "start": "2026-11-07T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/paul-anka-mashantucket-connecticut-11-07-2026/event/1D0064F178EA3E96",
+      "source": "ticketmaster",
+      "lat": 41.4783608,
+      "lon": -71.9630872,
+      "neighborhood": "Mashantucket"
+    },
+    {
       "id": "ticketmaster:G5vVZ_5ljEq5Y",
       "title": "DeRay Davis",
       "category": "comedy",
@@ -156511,6 +157554,20 @@
       "lat": 41.318298,
       "lon": -72.926399,
       "neighborhood": "Dixwell"
+    },
+    {
+      "id": "ticketmaster:17A8v0G62hv82Cb",
+      "title": "Motown in Your Town",
+      "category": "music",
+      "city": "Hagerstown",
+      "state": "MD",
+      "venue": "The Maryland Theatre",
+      "start": "2026-11-07T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/motown-in-your-town-hagerstown-maryland-11-07-2026/event/150064F6C140F398",
+      "source": "ticketmaster",
+      "lat": 39.641428,
+      "lon": -77.72091
     },
     {
       "id": "jambase:16231552",
@@ -161772,6 +162829,20 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:G5viZ_2U_KaLr",
+      "title": "Wynonna Judd - The Hard Truth Tour",
+      "category": "music",
+      "city": "Bristol",
+      "state": "VA",
+      "venue": "Hard Rock Live Bristol",
+      "start": "2026-11-14T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/wynonna-judd-the-hard-truth-tour-bristol-virginia-11-14-2026/event/1B0064FD994C97DE",
+      "source": "ticketmaster",
+      "lat": 36.59902833,
+      "lon": -82.21946726
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfPN8K",
       "title": "Eyes of the Nile",
       "category": "music",
@@ -162224,20 +163295,6 @@
       "source": "ticketmaster",
       "lat": 41.4486599,
       "lon": -72.846188
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P4FA",
-      "title": "John Legend",
-      "category": "music",
-      "city": "Ridgefield",
-      "state": "CT",
-      "venue": "Ridgefield Playhouse",
-      "start": "2026-11-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P4FA",
-      "source": "ticketmaster",
-      "lat": 41.3064,
-      "lon": -73.502403
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7-87_",
@@ -164725,50 +165782,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:1A4Zk3fGkeSNzdq",
-      "title": "Judy Collins - Sweet Judy Blue Eyes: Farewell Tour",
-      "category": "music",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-18T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/judy-collins-sweet-judy-blue-eyes-alexandria-virginia-11-18-2026/event/15006494B38F80DD",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZAQA",
-      "title": "Love Actually in Concert",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Carpenter Theatre at Dominion Energy Center",
-      "start": "2026-11-18T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAQA",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_2NxMthU",
-      "title": "Jesse Cook: Forever Live",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Attucks Theatre",
-      "start": "2026-11-18T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jesse-cook-forever-live-norfolk-virginia-11-18-2026/event/010064F8E2DE96F6",
-      "source": "ticketmaster",
-      "lat": 36.8565876,
-      "lon": -76.2790052
-    },
-    {
       "id": "jambase:16527615",
       "title": "Greensky Bluegrass",
       "category": "music",
@@ -164880,21 +165893,6 @@
         }
       ],
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_GnMGl9G",
-      "title": "Tiny Habits",
-      "category": "music",
-      "city": "Charlottesville",
-      "state": "VA",
-      "venue": "Jefferson Theater",
-      "start": "2026-11-18T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/tiny-habits-charlottesville-virginia-11-18-2026/event/010064CAB732B5CC",
-      "source": "ticketmaster",
-      "lat": 38.03066678,
-      "lon": -78.48125473,
-      "neighborhood": "Downtown Mall"
     },
     {
       "id": "jambase:16430909",
@@ -165052,20 +166050,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70Ub0",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-19T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ub0",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
     },
     {
       "id": "jambase:16394602",
@@ -165729,6 +166713,21 @@
       "neighborhood": "North Philadelphia"
     },
     {
+      "id": "ticketmaster:17A8v0G62TOoHHg",
+      "title": "Ilana Glazer Live!",
+      "category": "comedy",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Lincoln Theatre",
+      "start": "2026-11-20T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ilana-glazer-live-washington-district-of-columbia-11-20-2026/event/150064FFE047CF35",
+      "source": "ticketmaster",
+      "lat": 38.9174,
+      "lon": -77.028992,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "jambase:16432566",
       "title": "Punchline",
       "category": "music",
@@ -165887,34 +166886,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:17A8v0G6CJzKIGT",
-      "title": "for KING + COUNTRY: A Drummer Boy Christmas",
-      "category": "music",
-      "city": "Fairfax",
-      "state": "VA",
-      "venue": "EagleBank Arena",
-      "start": "2026-11-20T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/for-king-country-a-drummer-boy-fairfax-virginia-11-20-2026/event/150064E9B84E833F",
-      "source": "ticketmaster",
-      "lat": 38.8330513,
-      "lon": -77.3098503
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7OJaw",
-      "title": "Marcus D Wiley",
-      "category": "other",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Funny Bone Comedy Club - Richmond",
-      "start": "2026-11-20T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OJaw",
-      "source": "ticketmaster",
-      "lat": 37.615799,
-      "lon": -77.636398
-    },
-    {
       "id": "jambase:16026109",
       "title": "Kylie Morgan",
       "category": "music",
@@ -166067,21 +167038,6 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A700P7",
-      "title": "Norfolk Admirals vs. Trenton Ironhawks",
-      "category": "sports",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Scope Arena",
-      "start": "2026-11-20T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700P7",
-      "source": "ticketmaster",
-      "lat": 36.8517,
-      "lon": -76.2873,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "ticketmaster:1A4ZkuNGkdv5Bxq",
       "title": "The NINETEEN 62 at CFG Bank Arena - Doja Cat",
       "category": "other",
@@ -166140,35 +167096,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6GKrpRYS",
-      "title": "Trae Crowder",
-      "category": "comedy",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-20T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/trae-crowder-alexandria-virginia-11-20-2026/event/150064C4DE5AFC33",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70UbP",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-20T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UbP",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
     },
     {
       "id": "jambase:16511294",
@@ -166238,6 +167165,21 @@
       "lat": 38.8921,
       "lon": -77.0241,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_2SsLmvx",
+      "title": "Shaggy with The Original Wailers",
+      "category": "music",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Premier Theater at Foxwoods Resort Casino",
+      "start": "2026-11-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/shaggy-with-the-original-wailers-mashantucket-connecticut-11-20-2026/event/1D0064FCF17EE062",
+      "source": "ticketmaster",
+      "lat": 41.4783608,
+      "lon": -71.9630872,
+      "neighborhood": "Mashantucket"
     },
     {
       "id": "ticketmaster:G5vVZ_6TJ-aPZ",
@@ -166400,64 +167342,6 @@
       "lat": 38.9153136,
       "lon": -77.0210937,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1A4Zk3pGkd1HQYz",
-      "title": "Full Moon Fever: A Tom Petty Tribute",
-      "category": "music",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/full-moon-fever-a-tom-petty-tysons-virginia-11-20-2026/event/15006496CAF1AC38",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
-      "id": "ticketmaster:G5viZ_CnB9iya",
-      "title": "Keb' Mo'",
-      "category": "music",
-      "city": "Bristol",
-      "state": "VA",
-      "venue": "Hard Rock Live Bristol",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/keb-mo-bristol-virginia-11-20-2026/event/1B0064EABA5ECE49",
-      "source": "ticketmaster",
-      "lat": 36.59902833,
-      "lon": -82.21946726
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7071F",
-      "title": "Streetlight Manifesto w/ Hot Rod Circuit",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The National",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7071F",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vv177ZbyGkXwUnwL",
-      "title": "Jim Henson's Labyrinth: In Concert 40th Anniversary",
-      "category": "film",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Performing Arts Theatre",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jim-hensons-labyrinth-in-concert-40th-roanoke-virginia-11-20-2026/event/0100639FB2DAAC9F",
-      "source": "ticketmaster",
-      "lat": 37.27907,
-      "lon": -79.935701
     },
     {
       "id": "jambase:16524170",
@@ -166748,19 +167632,19 @@
       "neighborhood": "Center City East"
     },
     {
-      "id": "ticketmaster:17A8v0G6u6vdcEq",
-      "title": "Ilana Glazer Live!",
-      "category": "comedy",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Lincoln Theatre",
+      "id": "ticketmaster:vvG17Z_2REUVCi",
+      "title": "Def Leppard's Journey: Featuring Keith Carmichael",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "Aura",
       "start": "2026-11-20T21:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/ilana-glazer-live-washington-district-of-columbia-11-20-2026/event/150064D1C10ED9DD",
+      "url": "https://www.ticketmaster.com/def-leppards-journey-featuring-keith-carmichael-portland-maine-11-20-2026/event/010064FBE7DB43AC",
       "source": "ticketmaster",
-      "lat": 38.9174,
-      "lon": -77.028992,
-      "neighborhood": "Northwest Washington"
+      "lat": 43.656551,
+      "lon": -70.258943,
+      "neighborhood": "Downtown"
     },
     {
       "id": "jambase:16383310",
@@ -166782,35 +167666,6 @@
           "url": "https://www.ticketmaster.com/night-ranger-danville-virginia-11-20-2026/event/010064B3D8DB6C20"
         }
       ]
-    },
-    {
-      "id": "ticketmaster:vvG17Z_G6_VjrK",
-      "title": "Night Ranger | Official Caesars Ticket + Hotel Packages",
-      "category": "music",
-      "city": "Danville",
-      "state": "VA",
-      "venue": "The Pantheon at Caesars Virginia",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://travel.ticketmaster.com/en-US/package-forward/113285036?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_NightRanger1120",
-      "source": "ticketmaster",
-      "lat": 36.57134941,
-      "lon": -79.42809252
-    },
-    {
-      "id": "ticketmaster:vvG17Z_2REUVCi",
-      "title": "Def Leppard's Journey: Featuring Keith Carmichael",
-      "category": "music",
-      "city": "Portland",
-      "state": "ME",
-      "venue": "Aura",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/def-leppards-journey-featuring-keith-carmichael-portland-maine-11-20-2026/event/010064FBE7DB43AC",
-      "source": "ticketmaster",
-      "lat": 43.656551,
-      "lon": -70.258943,
-      "neighborhood": "Downtown"
     },
     {
       "id": "jambase:15836180",
@@ -166941,20 +167796,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A70UbE",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-21T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UbE",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7P0Aw",
       "title": "Drunk Shakespeare: A Drunk Christmas Carol (21+ Event)",
       "category": "theater",
@@ -167031,20 +167872,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7OJaS",
-      "title": "Marcus D Wiley",
-      "category": "other",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Funny Bone Comedy Club - Richmond",
-      "start": "2026-11-21T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OJaS",
-      "source": "ticketmaster",
-      "lat": 37.615799,
-      "lon": -77.636398
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7Ptk6",
       "title": "Matt McCusker",
       "category": "other",
@@ -167110,21 +167937,6 @@
         }
       ],
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:vv177Z_FGknPYGQg",
-      "title": "Zach Williams With Cochren & Co. And Christian Hohn: Revival Nights",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "The Dome by Rutter Mills",
-      "start": "2026-11-21T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/zach-williams-with-cochren-co-and-virginia-beach-virginia-11-21-2026/event/0100648AA5C0C6B5",
-      "source": "ticketmaster",
-      "lat": 36.84749,
-      "lon": -75.97898,
-      "neighborhood": "North Virginia Beach"
     },
     {
       "id": "jambase:15984243",
@@ -167298,50 +168110,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:17A8v0G6GKrURSb",
-      "title": "Trae Crowder",
-      "category": "comedy",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-21T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/trae-crowder-alexandria-virginia-11-21-2026/event/150064C4DEDAFCD8",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7-Io9",
-      "title": "Jim Henson's Labyrinth: In Concert",
-      "category": "film",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Carpenter Theatre at Dominion Energy Center",
-      "start": "2026-11-21T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Io9",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_urnqCJT",
-      "title": "Mannheim Steamroller Christmas",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Sandler Center For The Performing Arts",
-      "start": "2026-11-21T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/mannheim-steamroller-christmas-virginia-beach-virginia-11-21-2026/event/010064D7AA74E9BF",
-      "source": "ticketmaster",
-      "lat": 36.8009643,
-      "lon": -76.1210594
-    },
-    {
       "id": "jambase:16417788",
       "title": "Goose",
       "category": "music",
@@ -167454,62 +168222,19 @@
       "lon": -77.003002
     },
     {
-      "id": "ticketmaster:17A8v0G6CHpg97-",
-      "title": "Danger Bird - Bringing You The Music of Neil Young",
+      "id": "ticketmaster:vv1A8v0-OGA5t1YW",
+      "title": "Mitchell Tenpenny: Speed Of Light Tour",
       "category": "music",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "The Vault at Capital One Hall",
+      "city": "Hampton Beach",
+      "state": "NH",
+      "venue": "Hampton Beach Casino Ballroom",
       "start": "2026-11-21T20:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/danger-bird-bringing-you-the-music-tysons-virginia-11-21-2026/event/150064EF16D57121",
+      "url": "https://www.ticketmaster.com/mitchell-tenpenny-speed-of-light-tour-hampton-beach-new-hampshire-11-21-2026/event/010064860BA4AC3D",
       "source": "ticketmaster",
-      "lat": 38.92561,
-      "lon": -77.21158,
-      "neighborhood": "West McLean"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P0bz",
-      "title": "Gabriel Iglesias: The 1976 Tour",
-      "category": "theater",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Chartway Arena at Ted Constant Convocation Center",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bz",
-      "source": "ticketmaster",
-      "lat": 36.887299,
-      "lon": -76.303001,
-      "neighborhood": "Lamberts Point"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_26-mA-Z",
-      "title": "THE STRAY CATS | Official Caesars Ticket + Hotel Packages",
-      "category": "music",
-      "city": "Danville",
-      "state": "VA",
-      "venue": "The Pantheon at Caesars Virginia",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://travel.ticketmaster.com/en-US/event/141020369/pf?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_TheStrayCats1121",
-      "source": "ticketmaster",
-      "lat": 36.57134941,
-      "lon": -79.42809252
-    },
-    {
-      "id": "ticketmaster:vvG17Z_COeAkwR",
-      "title": "THE STRAY CATS",
-      "category": "music",
-      "city": "Danville",
-      "state": "VA",
-      "venue": "The Pantheon at Caesars Virginia",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-stray-cats-danville-virginia-11-21-2026/event/010064E802146CAF",
-      "source": "ticketmaster",
-      "lat": 36.57134941,
-      "lon": -79.42809252
+      "lat": 42.90703,
+      "lon": -70.811438,
+      "neighborhood": "Hampton Beach"
     },
     {
       "id": "jambase:16525955",
@@ -167532,36 +168257,6 @@
           "url": "https://www.ticketmaster.com/carbon-leaf-charlottesville-virginia-11-21-2026/event/010064CCE065D254"
         }
       ]
-    },
-    {
-      "id": "ticketmaster:vvG17Z_uKZhJaA",
-      "title": "Colby Acuff",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Elevation 27",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/colby-acuff-virginia-beach-virginia-11-21-2026/event/010064D4C06E6245",
-      "source": "ticketmaster",
-      "lat": 36.8493416,
-      "lon": -76.0194075,
-      "neighborhood": "North Virginia Beach"
-    },
-    {
-      "id": "ticketmaster:vv1A8v0-OGA5t1YW",
-      "title": "Mitchell Tenpenny: Speed Of Light Tour",
-      "category": "music",
-      "city": "Hampton Beach",
-      "state": "NH",
-      "venue": "Hampton Beach Casino Ballroom",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/mitchell-tenpenny-speed-of-light-tour-hampton-beach-new-hampshire-11-21-2026/event/010064860BA4AC3D",
-      "source": "ticketmaster",
-      "lat": 42.90703,
-      "lon": -70.811438,
-      "neighborhood": "Hampton Beach"
     },
     {
       "id": "jambase:16116918",
@@ -167969,20 +168664,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A70UbI",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-22T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UbI",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
-    },
-    {
       "id": "jambase:16322014",
       "title": "Herman’s Hermits",
       "category": "music",
@@ -168087,21 +168768,6 @@
       ]
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7PK7f",
-      "title": "Wage War w/ We Came As Romans",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "The Norva",
-      "start": "2026-11-22T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK7f",
-      "source": "ticketmaster",
-      "lat": 36.8517,
-      "lon": -76.2873,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "jambase:16210193",
       "title": "Judy Collins",
       "category": "music",
@@ -168191,21 +168857,6 @@
       "source": "ticketmaster",
       "lat": 38.991501,
       "lon": -76.532501
-    },
-    {
-      "id": "ticketmaster:17A8v0G6GwNTipx",
-      "title": "Marshall Crenshaw with Sarah Borges & Eric Ambel",
-      "category": "music",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-22T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/marshall-crenshaw-with-sarah-borges-eric-alexandria-virginia-11-22-2026/event/150064CCA3FEC5A2",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
     },
     {
       "id": "jambase:16323849",
@@ -168300,21 +168951,6 @@
       "lat": 38.9974,
       "lon": -77.0276,
       "neighborhood": "Downtown Silver Spring"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7x8vV",
-      "title": "Kurt Vile & The Violators w/ Twisted Teens",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The National",
-      "start": "2026-11-23T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8vV",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
     },
     {
       "id": "jambase:14990162",
@@ -168412,20 +169048,6 @@
       "neighborhood": "Charles Village"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A70Ubt",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-24T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubt",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
-    },
-    {
       "id": "ticketmaster:17A8v0G6u6JfKii",
       "title": "Tiny Habits - The Keepers Tour",
       "category": "music",
@@ -168456,21 +169078,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:1A4Zk3aGkdnNcHO",
-      "title": "Nurse Blake: But Did You Die? Comedy Tour",
-      "category": "comedy",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-11-24T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/nurse-blake-but-did-you-die-tysons-virginia-11-24-2026/event/15006489EA8EDF20",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
       "id": "ticketmaster:Z1r9uZrrZCuZ1AvPkvE",
       "title": "Hell's Kitchen",
       "category": "theater",
@@ -168484,35 +169091,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P-8J",
-      "title": "Pouya w/ Fat Nick",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "The Norva",
-      "start": "2026-11-24T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-8J",
-      "source": "ticketmaster",
-      "lat": 36.8517,
-      "lon": -76.2873,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_53cLeSN",
-      "title": "The Bodyguard",
-      "category": "theater",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Performing Arts Theatre",
-      "start": "2026-11-24T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-bodyguard-roanoke-virginia-11-24-2026/event/010064B4AD7C2CE3",
-      "source": "ticketmaster",
-      "lat": 37.27907,
-      "lon": -79.935701
     },
     {
       "id": "jambase:15840739",
@@ -168545,21 +169123,6 @@
       "lat": 36.8502,
       "lon": -76.2895,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_5Q_uDnY",
-      "title": "10 Years of 6LACK Tour",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "The Dome by Rutter Mills",
-      "start": "2026-11-24T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/10-years-of-6lack-tour-virginia-beach-virginia-11-24-2026/event/010064B69937BAB0",
-      "source": "ticketmaster",
-      "lat": 36.84749,
-      "lon": -75.97898,
-      "neighborhood": "North Virginia Beach"
     },
     {
       "id": "jambase:16523763",
@@ -168608,34 +169171,6 @@
       "lat": 42.3638,
       "lon": -71.1013,
       "neighborhood": "Cambridgeport"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70Ubs",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-25T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubs",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
-    },
-    {
-      "id": "ticketmaster:vv177Z_FGkUN7iB_",
-      "title": "NUTCRACKER! Magical Christmas Ballet",
-      "category": "theater",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Sandler Center For The Performing Arts",
-      "start": "2026-11-25T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-virginia-beach-virginia-11-25-2026/event/0100648DA312CE99",
-      "source": "ticketmaster",
-      "lat": 36.8009643,
-      "lon": -76.1210594
     },
     {
       "id": "jambase:16391876",
@@ -168812,8 +169347,8 @@
     },
     {
       "id": "ticketmaster:17A8v0G6CJ207DN",
-      "title": "A Charlie Brown Christmas - Live on Stage!",
-      "category": "theater",
+      "title": "A Charlie Brown Christmas - Live On Stage!",
+      "category": "music",
       "city": "Washington",
       "state": "DC",
       "venue": "Lincoln Theatre",
@@ -168857,21 +169392,6 @@
       "lon": -75.29
     },
     {
-      "id": "ticketmaster:vvG17Z_5lJBGZl",
-      "title": "DJ Gabe Niles 250th Dance Party: Disco & Beyond (Ages 21 & Up)",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Elevation 27",
-      "start": "2026-11-25T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dj-gabe-niles-250th-dance-party-virginia-beach-virginia-11-25-2026/event/010064BAE6E8C02B",
-      "source": "ticketmaster",
-      "lat": 36.8493416,
-      "lon": -76.0194075,
-      "neighborhood": "North Virginia Beach"
-    },
-    {
       "id": "ticketmaster:Z1r9uZrrZCuZ1AvPaq7",
       "title": "Hell's Kitchen",
       "category": "theater",
@@ -168885,50 +169405,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:17A8v0G613jKIY1",
-      "title": "Be Like Blippi Tour - Photo Experience ",
-      "category": "other",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-11-27T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/be-like-blippi-tour-photo-experience-tysons-virginia-11-27-2026/event/150064A49C4E8C0A",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
-      "id": "ticketmaster:17A8v0G616ljsHL",
-      "title": "Be Like Blippi! Tour!",
-      "category": "theater",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-11-27T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/be-like-blippi-tour-tysons-virginia-11-27-2026/event/150064A1EB731F1F",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70Ubw",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-27T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubw",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PUq4",
@@ -169109,36 +169585,6 @@
       "lat": 39.9799,
       "lon": -75.1584,
       "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A700Pk",
-      "title": "Norfolk Admirals vs. Greensboro Gargoyles",
-      "category": "sports",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Scope Arena",
-      "start": "2026-11-27T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700Pk",
-      "source": "ticketmaster",
-      "lat": 36.8517,
-      "lon": -76.2873,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6uBYMACu",
-      "title": "The Seldom Scene",
-      "category": "music",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-27T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-seldom-scene-alexandria-virginia-11-27-2026/event/150064DEB0DC538D",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
     },
     {
       "id": "ticketmaster:164Zko9e6ZACkudG",
@@ -169329,34 +169775,6 @@
       "lon": -75.8303
     },
     {
-      "id": "ticketmaster:vvG17Z_2OkEHvS",
-      "title": "Derek Hough | Official Caesars Ticket + Hotel Packages",
-      "category": "theater",
-      "city": "Danville",
-      "state": "VA",
-      "venue": "The Pantheon at Caesars Virginia",
-      "start": "2026-11-27T21:00:00",
-      "isFree": false,
-      "url": "https://travel.ticketmaster.com/en-US/event/142392901/pf?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_DerekHough1127",
-      "source": "ticketmaster",
-      "lat": 36.57134941,
-      "lon": -79.42809252
-    },
-    {
-      "id": "ticketmaster:vvG17Z_2kSpAEo",
-      "title": "Derek Hough Dance For The Holidays",
-      "category": "theater",
-      "city": "Danville",
-      "state": "VA",
-      "venue": "The Pantheon at Caesars Virginia",
-      "start": "2026-11-27T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/derek-hough-dance-for-the-holidays-danville-virginia-11-27-2026/event/010064F1B35859D1",
-      "source": "ticketmaster",
-      "lat": 36.57134941,
-      "lon": -79.42809252
-    },
-    {
       "id": "jambase:15561781",
       "title": "DJ Panda",
       "category": "music",
@@ -169432,20 +169850,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70Ubg",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-28T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubg",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
     },
     {
       "id": "jambase:16324648",
@@ -169527,21 +169931,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/punchline-1480x832.png",
       "lat": 40.4646,
       "lon": -80.059
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70foY",
-      "title": "Justin Silva",
-      "category": "other",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Funny Bone Comedy Club - Virginia Beach",
-      "start": "2026-11-28T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70foY",
-      "source": "ticketmaster",
-      "lat": 36.837601,
-      "lon": -76.151001,
-      "neighborhood": "Northwest"
     },
     {
       "id": "ticketmaster:17A8v0G65pSTaMk",
@@ -169682,36 +170071,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A700PF",
-      "title": "Norfolk Admirals vs. Greensboro Gargoyles",
-      "category": "sports",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Scope Arena",
-      "start": "2026-11-28T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700PF",
-      "source": "ticketmaster",
-      "lat": 36.8517,
-      "lon": -76.2873,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6uBVePj-",
-      "title": "The Manhattans Featuring Gerald Alston",
-      "category": "music",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-28T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-manhattans-featuring-gerald-alston-alexandria-virginia-11-28-2026/event/150064DEB40A5721",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
-    },
-    {
       "id": "jambase:16379350",
       "title": "DragonForce",
       "category": "music",
@@ -169801,20 +170160,6 @@
       "lon": -75.550253
     },
     {
-      "id": "ticketmaster:G5viZ_CTFP2Ib",
-      "title": "Derek Hough Dance For The Holidays",
-      "category": "theater",
-      "city": "Bristol",
-      "state": "VA",
-      "venue": "Hard Rock Live Bristol",
-      "start": "2026-11-28T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/derek-hough-dance-for-the-holidays-bristol-virginia-11-28-2026/event/1B0064EFC894FA18",
-      "source": "ticketmaster",
-      "lat": 36.59902833,
-      "lon": -82.21946726
-    },
-    {
       "id": "jambase:16334658",
       "title": "J. Roddy Walston",
       "category": "music",
@@ -169835,20 +170180,6 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gGJ"
         }
       ]
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7PJf_",
-      "title": "Little Ozzy - Ages 18+",
-      "category": "music",
-      "city": "Winchester",
-      "state": "VA",
-      "venue": "Backseat Events",
-      "start": "2026-11-28T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJf_",
-      "source": "ticketmaster",
-      "lat": 39.2201,
-      "lon": -78.161301
     },
     {
       "id": "jambase:15714319",
@@ -170019,21 +170350,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:1AvfZ_6GkMW0GFZ",
-      "title": "NUTCRACKER! Magical Christmas Ballet",
-      "category": "theater",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-11-29T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-tysons-virginia-11-29-2026/event/1500647DFD90C200",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7JFbf",
       "title": "Hartford Wolfpack vs. Springfield Thunderbirds",
       "category": "sports",
@@ -170047,20 +170363,6 @@
       "lat": 41.768353,
       "lon": -72.676384,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70UbU",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-29T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UbU",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
     },
     {
       "id": "jambase:16324641",
@@ -171245,6 +171547,21 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_2BVGbeD",
+      "title": "David Archuleta",
+      "category": "music",
+      "city": "New Haven",
+      "state": "CT",
+      "venue": "Toad's Place",
+      "start": "2026-12-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.etix.com/ticket/p/73549497/david-archuletathe-warm-me-up-holiday-tour-new-haven-toads-place-of-new-haven",
+      "source": "ticketmaster",
+      "lat": 41.311648,
+      "lon": -72.9293225,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:1kA8v0-zGAGG0LG",
@@ -172562,51 +172879,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:17A8v0G6CTBFwMH",
-      "title": "The Washington Ballet's Nutcracker",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Warner Theatre",
-      "start": "2026-12-09T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-washington-ballets-nutcracker-washington-district-of-columbia-12-09-2026/event/150064EFFA232DFC",
-      "source": "ticketmaster",
-      "lat": 38.8961209,
-      "lon": -77.0296101,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6Gnz8hGw",
-      "title": "Squirrel Nut Zippers Christmas Caravan Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2026-12-09T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/squirrel-nut-zippers-christmas-caravan-tour-washington-district-of-columbia-12-09-2026/event/150064CAB841B332",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P0Fd",
-      "title": "Drunk Shakespeare: A Drunk Christmas Carol (21+ Event)",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Sage",
-      "start": "2026-12-09T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0Fd",
-      "source": "ticketmaster",
-      "lat": 38.904202,
-      "lon": -77.031502,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A70SvO",
       "title": "Bouncing Souls",
       "category": "music",
@@ -172692,21 +172964,6 @@
       "source": "ticketmaster",
       "lat": 39.641428,
       "lon": -77.72091
-    },
-    {
-      "id": "ticketmaster:Z1r9uZrrZCuZ1AvJvAo",
-      "title": "Waitress",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The National Theatre",
-      "start": "2026-12-09T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/waitress-washington-district-of-columbia-12-09-2026/event/Z1r9uZrrZCuZ1AvJvAo",
-      "source": "ticketmaster",
-      "lat": 38.89626652,
-      "lon": -77.03053035,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "jambase:16111880",
@@ -174506,6 +174763,21 @@
       "neighborhood": "University Of Maryland"
     },
     {
+      "id": "ticketmaster:G5vVZ_2kbQFJ5",
+      "title": "The Canine Stars Stunt Dog Show",
+      "category": "other",
+      "city": "Stamford",
+      "state": "CT",
+      "venue": "Palace Theatre Stamford",
+      "start": "2026-12-19T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-canine-stars-stunt-dog-show-stamford-connecticut-12-19-2026/event/1D0064F19868898B",
+      "source": "ticketmaster",
+      "lat": 41.0507831,
+      "lon": -73.5395426,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:G5vVZ_aDOGB7m",
       "title": "Mark Normand",
       "category": "comedy",
@@ -174534,6 +174806,21 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_29IhA6_",
+      "title": "Foxwoods Fight Night: Bare Knuckle Boxing",
+      "category": "sports",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Premier Theater at Foxwoods Resort Casino",
+      "start": "2026-12-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/foxwoods-fight-night-bare-knuckle-boxing-mashantucket-connecticut-12-19-2026/event/1D0064F5E86C51D9",
+      "source": "ticketmaster",
+      "lat": 41.4783608,
+      "lon": -71.9630872,
+      "neighborhood": "Mashantucket"
     },
     {
       "id": "jambase:16495244",
@@ -175553,6 +175840,21 @@
       "lon": -73.9873
     },
     {
+      "id": "ticketmaster:G5vVZ_CBKOJGJ",
+      "title": "Bubblemania!",
+      "category": "theater",
+      "city": "Stamford",
+      "state": "CT",
+      "venue": "Palace Theatre Stamford",
+      "start": "2027-01-03T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/bubblemania-stamford-connecticut-01-03-2027/event/1D0064EE93826326",
+      "source": "ticketmaster",
+      "lat": 41.0507831,
+      "lon": -73.5395426,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A700Oz",
       "title": "Maine Mariners vs. Worcester Railers",
       "category": "sports",
@@ -175566,6 +175868,21 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:17A8v0G6CTpwC62",
+      "title": "The Sound of Music (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-01-05T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-touring-baltimore-maryland-01-05-2027/event/150064EFD6C8E1CF",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZKqy",
@@ -175583,6 +175900,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:17A8v0G6CTpSm6O",
+      "title": "The Sound of Music (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-01-06T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-touring-baltimore-maryland-01-06-2027/event/150064EFD6CEE1E0",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
       "id": "ticketmaster:vvG17Z_26n8zhl",
       "title": "Disney On Ice presents Find Your Hero",
       "category": "other",
@@ -175596,6 +175928,21 @@
       "lat": 42.9860461,
       "lon": -71.4630832,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:17A8v0G6CTpVm6R",
+      "title": "The Sound of Music (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-01-07T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-touring-baltimore-maryland-01-07-2027/event/150064EFD6D2E1EF",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PUq9",
@@ -175656,6 +176003,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:17A8v0G6CTpgX6V",
+      "title": "The Sound of Music (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-01-08T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-touring-baltimore-maryland-01-08-2027/event/150064EFD6D7E1F4",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
       "id": "jambase:16339791",
       "title": "The Dave Matthews Tribute Band",
       "category": "music",
@@ -175699,6 +176061,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:17A8v0G6CTpMC6H",
+      "title": "The Sound of Music (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-01-09T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-touring-baltimore-maryland-01-09-2027/event/150064EFD6DCE1FC",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PUqb",
@@ -175813,6 +176190,21 @@
       "lat": 42.9860461,
       "lon": -71.4630832,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:17A8v0G6CTpyrF4",
+      "title": "The Sound of Music (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-01-10T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-touring-baltimore-maryland-01-10-2027/event/150064EFD6E5E215",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "todaytix:13427",
