@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T09:00:49.528Z",
-  "count": 3933,
-  "archivedCount": 9844,
+  "generatedAt": "2026-09-03T14:46:39.373Z",
+  "count": 3928,
+  "archivedCount": 9843,
   "places": [
     {
       "state": "NY",
       "cities": [
         {
           "name": "New York",
-          "count": 3970
+          "count": 3967
         },
         {
           "name": "Buffalo",
@@ -28,7 +28,7 @@
         },
         {
           "name": "Rochester",
-          "count": 38
+          "count": 39
         },
         {
           "name": "Woodstock",
@@ -51,12 +51,12 @@
           "count": 15
         },
         {
-          "name": "Bethel",
+          "name": "Pawling",
           "count": 14
         },
         {
-          "name": "Pawling",
-          "count": 14
+          "name": "Bethel",
+          "count": 13
         },
         {
           "name": "Homer",
@@ -492,11 +492,11 @@
         },
         {
           "name": "Cambridge",
-          "count": 198
+          "count": 199
         },
         {
           "name": "Worcester",
-          "count": 91
+          "count": 92
         },
         {
           "name": "Northampton",
@@ -563,6 +563,10 @@
           "count": 7
         },
         {
+          "name": "Lynn",
+          "count": 7
+        },
+        {
           "name": "Barnstable",
           "count": 6
         },
@@ -572,10 +576,6 @@
         },
         {
           "name": "Florence",
-          "count": 5
-        },
-        {
-          "name": "Lynn",
           "count": 5
         },
         {
@@ -932,43 +932,43 @@
       "cities": [
         {
           "name": "Atlantic City",
-          "count": 221
+          "count": 230
         },
         {
           "name": "Red Bank",
-          "count": 136
+          "count": 132
         },
         {
           "name": "Newark",
-          "count": 109
+          "count": 106
         },
         {
           "name": "Rutherford",
-          "count": 97
-        },
-        {
-          "name": "Asbury Park",
           "count": 95
         },
         {
+          "name": "Asbury Park",
+          "count": 93
+        },
+        {
           "name": "Princeton",
-          "count": 38
-        },
-        {
-          "name": "Sayreville",
-          "count": 34
-        },
-        {
-          "name": "Englewood",
-          "count": 33
+          "count": 37
         },
         {
           "name": "East Rutherford",
           "count": 32
         },
         {
+          "name": "Sayreville",
+          "count": 32
+        },
+        {
+          "name": "Englewood",
+          "count": 32
+        },
+        {
           "name": "Morristown",
-          "count": 27
+          "count": 26
         },
         {
           "name": "Frenchtown",
@@ -980,7 +980,7 @@
         },
         {
           "name": "Montclair",
-          "count": 22
+          "count": 20
         },
         {
           "name": "Holmdel",
@@ -999,12 +999,12 @@
           "count": 13
         },
         {
-          "name": "New Brunswick",
+          "name": "Elizabeth",
           "count": 12
         },
         {
-          "name": "Elizabeth",
-          "count": 11
+          "name": "New Brunswick",
+          "count": 12
         },
         {
           "name": "Camden",
@@ -1035,10 +1035,6 @@
           "count": 6
         },
         {
-          "name": "Edison",
-          "count": 5
-        },
-        {
           "name": "Augusta",
           "count": 4
         },
@@ -1056,6 +1052,10 @@
         },
         {
           "name": "Union City",
+          "count": 3
+        },
+        {
+          "name": "Edison",
           "count": 3
         },
         {
@@ -1133,11 +1133,11 @@
       "cities": [
         {
           "name": "Philadelphia",
-          "count": 814
+          "count": 810
         },
         {
           "name": "Pittsburgh",
-          "count": 251
+          "count": 252
         },
         {
           "name": "Reading",
@@ -1161,7 +1161,7 @@
         },
         {
           "name": "Lancaster",
-          "count": 30
+          "count": 31
         },
         {
           "name": "State College",
@@ -1188,6 +1188,10 @@
           "count": 15
         },
         {
+          "name": "University Park",
+          "count": 15
+        },
+        {
           "name": "Wilkes-Barre",
           "count": 14
         },
@@ -1196,8 +1200,8 @@
           "count": 14
         },
         {
-          "name": "University Park",
-          "count": 13
+          "name": "Ardmore",
+          "count": 12
         },
         {
           "name": "Wilkes Barre",
@@ -1213,10 +1217,6 @@
         },
         {
           "name": "Warrendale",
-          "count": 11
-        },
-        {
-          "name": "Ardmore",
           "count": 11
         },
         {
@@ -1313,6 +1313,10 @@
         },
         {
           "name": "Moon Township",
+          "count": 2
+        },
+        {
+          "name": "Lewisburg",
           "count": 2
         },
         {
@@ -1475,7 +1479,7 @@
         },
         {
           "name": "Bristol",
-          "count": 18
+          "count": 19
         },
         {
           "name": "Lynchburg",
@@ -1526,10 +1530,6 @@
           "count": 6
         },
         {
-          "name": "New Kent",
-          "count": 5
-        },
-        {
           "name": "Hopewell",
           "count": 5
         },
@@ -1543,6 +1543,10 @@
         },
         {
           "name": "Woodstock",
+          "count": 4
+        },
+        {
+          "name": "New Kent",
           "count": 4
         },
         {
@@ -1676,7 +1680,7 @@
   "sources": [
     {
       "source": "nyc-open-data",
-      "count": 1063,
+      "count": 1060,
       "fresh": true
     },
     {
@@ -1691,8 +1695,8 @@
     },
     {
       "source": "ticketmaster",
-      "count": 392,
-      "fresh": false
+      "count": 391,
+      "fresh": true
     },
     {
       "source": "bpl",
@@ -1706,12 +1710,12 @@
     },
     {
       "source": "todaytix",
-      "count": 173,
+      "count": 174,
       "fresh": true
     },
     {
       "source": "resident-advisor",
-      "count": 96,
+      "count": 94,
       "fresh": true
     },
     {
@@ -1885,13 +1889,7 @@
       "end": "2026-09-03T14:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket",
-      "weather": {
-        "icon": "10n",
-        "temp": 70,
-        "description": "light rain",
-        "dt": 1788426000000
-      }
+      "source": "nyc-greenmarket"
     },
     {
       "id": "nyc-greenmarket:far-rock-farm-stand:2026-09-03",
@@ -1904,13 +1902,7 @@
       "end": "2026-09-03T14:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket",
-      "weather": {
-        "icon": "10n",
-        "temp": 70,
-        "description": "light rain",
-        "dt": 1788426000000
-      }
+      "source": "nyc-greenmarket"
     },
     {
       "id": "nyc-greenmarket:queens-county-farm-museum-farm-stand:2026-09-03",
@@ -1923,13 +1915,7 @@
       "end": "2026-09-03T16:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket",
-      "weather": {
-        "icon": "10n",
-        "temp": 70,
-        "description": "light rain",
-        "dt": 1788426000000
-      }
+      "source": "nyc-greenmarket"
     },
     {
       "id": "cityparks:21576",
@@ -1944,13 +1930,7 @@
       "source": "cityparks",
       "lat": 40.7432847,
       "lon": -73.8549518,
-      "neighborhood": "Corona",
-      "weather": {
-        "icon": "04d",
-        "temp": 70,
-        "description": "overcast clouds",
-        "dt": 1788436800000
-      }
+      "neighborhood": "Corona"
     },
     {
       "id": "bpl:828657",
@@ -2055,54 +2035,6 @@
       "neighborhood": "Prospect Park"
     },
     {
-      "id": "ticketmaster:LvZ18Q-9tbOh8sZZvyVrD",
-      "title": "DAYDREAM | Air Becomes Art - Balloon Museum",
-      "category": "other",
-      "city": "New York",
-      "state": "NY",
-      "borough": "Manhattan",
-      "neighborhood": "Seaport",
-      "venue": "Balloon Museum NYC",
-      "start": "2026-09-03T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-tickets-Y5HV92?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.70623961,
-      "lon": -74.00227716
-    },
-    {
-      "id": "ticketmaster:LvZ18Qk4nbbEibYZvnO2u",
-      "title": "Banksy Museum - Flexiticket",
-      "category": "theater",
-      "city": "New York",
-      "state": "NY",
-      "borough": "Manhattan",
-      "neighborhood": "SoHo-Little Italy-Hudson Square",
-      "venue": "Banksy Museum New York",
-      "start": "2026-09-03T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/banksy-museum-flexiticket-tickets-F7XJ8T?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.7196025,
-      "lon": -74.00135811
-    },
-    {
-      "id": "ticketmaster:LvZ18QrTdtviDfOZvhDgy",
-      "title": "The Banksy Museum New York!",
-      "category": "theater",
-      "city": "New York",
-      "state": "NY",
-      "borough": "Manhattan",
-      "neighborhood": "SoHo-Little Italy-Hudson Square",
-      "venue": "Banksy Museum New York",
-      "start": "2026-09-03T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-banksy-museum-new-york-tickets-5PKNY0?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.7196025,
-      "lon": -74.00135811
-    },
-    {
       "id": "bpl:838335",
       "title": "The Cycle Alliance's Period Pantry at Brooklyn Heights!",
       "category": "other",
@@ -2191,18 +2123,6 @@
       "lat": 40.6710672,
       "lon": -73.98142279999999,
       "neighborhood": "Park Slope"
-    },
-    {
-      "id": "nyc-open-data:918940:2026-09-03T10:30:00.000",
-      "title": "Celebration",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Fort Tryon Park: Linden Terrace",
-      "start": "2026-09-03T10:30:00.000",
-      "end": "2026-09-03T13:00:00.000",
-      "isFree": true,
-      "url": "https://www.nyc.gov/site/cecm/about/events.page",
-      "source": "nyc-open-data"
     },
     {
       "id": "bpl:843069",
@@ -2414,6 +2334,22 @@
       "lon": -73.84503492
     },
     {
+      "id": "ticketmaster:LvZ18Q-9tbOh8sZZvyVrT",
+      "title": "DAYDREAM | Air Becomes Art - Balloon Museum",
+      "category": "other",
+      "city": "New York",
+      "state": "NY",
+      "borough": "Manhattan",
+      "neighborhood": "Seaport",
+      "venue": "Balloon Museum NYC",
+      "start": "2026-09-03T11:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/daydream-air-becomes-art-balloon-museum-tickets-Y5HV92?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 40.70623961,
+      "lon": -74.00227716
+    },
+    {
       "id": "ticketmaster:LvZ18QbKlF_lmuOZvOKEC",
       "title": "Museum of Chinese in America General Admission",
       "category": "other",
@@ -2428,6 +2364,22 @@
       "source": "ticketmaster",
       "lat": 40.71953297,
       "lon": -73.99902914
+    },
+    {
+      "id": "ticketmaster:LvZ18QrTdtviDfOZvhDgD",
+      "title": "The Banksy Museum New York!",
+      "category": "theater",
+      "city": "New York",
+      "state": "NY",
+      "borough": "Manhattan",
+      "neighborhood": "SoHo-Little Italy-Hudson Square",
+      "venue": "Banksy Museum New York",
+      "start": "2026-09-03T11:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/the-banksy-museum-new-york-tickets-5PKNY0?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 40.7196025,
+      "lon": -74.00135811
     },
     {
       "id": "ticketmaster:Z1r9uZruZqGZ17J__E",
@@ -2567,18 +2519,6 @@
       "lon": -73.97519
     },
     {
-      "id": "nyc-open-data:954026:2026-09-03T12:00:00.000",
-      "title": "Kickball",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Jacob H. Schiff Playground: Softball-01",
-      "start": "2026-09-03T12:00:00.000",
-      "end": "2026-09-03T15:00:00.000",
-      "isFree": true,
-      "url": "https://www.nyc.gov/site/cecm/about/events.page",
-      "source": "nyc-open-data"
-    },
-    {
       "id": "bpl:839970",
       "title": "DUMBO Writes",
       "category": "other",
@@ -2592,18 +2532,6 @@
       "lat": 40.6983024,
       "lon": -73.9888524,
       "neighborhood": "Downtown Brooklyn"
-    },
-    {
-      "id": "nyc-open-data:921142:2026-09-03T12:30:00.000",
-      "title": "Celebration",
-      "category": "other",
-      "borough": "Manhattan",
-      "venue": "Central Park: Cop Cot",
-      "start": "2026-09-03T12:30:00.000",
-      "end": "2026-09-03T14:30:00.000",
-      "isFree": true,
-      "url": "https://www.nyc.gov/site/cecm/about/events.page",
-      "source": "nyc-open-data"
     },
     {
       "id": "bpl:829705",
@@ -2895,13 +2823,7 @@
       "end": "2026-09-03T17:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket",
-      "weather": {
-        "icon": "04d",
-        "temp": 72,
-        "description": "overcast clouds",
-        "dt": 1788447600000
-      }
+      "source": "nyc-greenmarket"
     },
     {
       "id": "bpl:830517",
@@ -3107,13 +3029,7 @@
       "end": "2026-09-03T18:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket",
-      "weather": {
-        "icon": "04d",
-        "temp": 72,
-        "description": "overcast clouds",
-        "dt": 1788447600000
-      }
+      "source": "nyc-greenmarket"
     },
     {
       "id": "bpl:832375",
@@ -3544,8 +3460,8 @@
       "isFree": true,
       "url": "https://www.bklynlibrary.org/calendar/movies-library-miracle-leonard-auditorium-20260903-0330pm",
       "source": "bpl",
-      "lat": 40.7135869,
-      "lon": -73.9478783,
+      "lat": 40.7170435,
+      "lon": -73.9481921,
       "neighborhood": "Williamsburg"
     },
     {
@@ -3592,8 +3508,8 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04d",
-        "temp": 72,
-        "description": "overcast clouds",
+        "temp": 76,
+        "description": "broken clouds",
         "dt": 1788447600000
       }
     },
@@ -4276,6 +4192,38 @@
       "spotifyUrl": "https://open.spotify.com/artist/6Ty5Wm7casX1aEERMbAQ6h"
     },
     {
+      "id": "ra:2499328",
+      "title": "Sylvan Esso (DJ set), Tama Gucci, Swaya, Taboh, Din",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "East Williamsburg",
+      "venue": "Elsewhere",
+      "start": "2026-09-03T18:00:00",
+      "end": "2026-09-03T23:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2499328",
+      "source": "resident-advisor",
+      "lat": 40.70967,
+      "lon": -73.923279
+    },
+    {
+      "id": "ra:2500407",
+      "title": "Archivio presents mink, Pablo Romero & Daniel Dutts",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "East Williamsburg",
+      "venue": "Signal",
+      "start": "2026-09-03T18:00:00",
+      "end": "2026-09-04T00:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2500407",
+      "source": "resident-advisor",
+      "lat": 40.71005,
+      "lon": -73.933575,
+      "image": "https://i.scdn.co/image/ab67616d0000b27358d8fe4c29f3ab1b64b20124",
+      "spotifyUrl": "https://open.spotify.com/artist/51UrtbtG6lrMCqjX1m0ZAg"
+    },
+    {
       "id": "ra:2501018",
       "title": "Maritek: 4 Year Anniversary with ALTA, Coyado, DJ Sadboy, Dj Warning, J. Córdova",
       "category": "music",
@@ -4381,38 +4329,6 @@
       "source": "resident-advisor",
       "lat": 40.741077,
       "lon": -74.008285
-    },
-    {
-      "id": "ra:2499328",
-      "title": "Sylvan Esso (DJ set), Tama Gucci, Swaya, Taboh, Din",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "East Williamsburg",
-      "venue": "Elsewhere",
-      "start": "2026-09-03T18:00:00",
-      "end": "2026-09-03T23:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2499328",
-      "source": "resident-advisor",
-      "lat": 40.70967,
-      "lon": -73.923279
-    },
-    {
-      "id": "ra:2500407",
-      "title": "Archivio presents mink, Pablo Romero & Daniel Dutts",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "East Williamsburg",
-      "venue": "Signal",
-      "start": "2026-09-03T18:00:00",
-      "end": "2026-09-04T00:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2500407",
-      "source": "resident-advisor",
-      "lat": 40.71005,
-      "lon": -73.933575,
-      "image": "https://i.scdn.co/image/ab67616d0000b27358d8fe4c29f3ab1b64b20124",
-      "spotifyUrl": "https://open.spotify.com/artist/51UrtbtG6lrMCqjX1m0ZAg"
     },
     {
       "id": "ticketmaster:k7vGF_2TwRzG4",
@@ -4554,48 +4470,6 @@
       "neighborhood": "Prospect Park"
     },
     {
-      "id": "seatgeek:18258235",
-      "title": "Richard O'Brien's Rocky Horror Show - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown West",
-      "venue": "Studio 54 - New York",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-09-03-7-pm/18258235",
-      "source": "seatgeek",
-      "lat": 40.764313,
-      "lon": -73.9838
-    },
-    {
-      "id": "seatgeek:18028183",
-      "title": "Chicago - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Ambassador Theatre - New York",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-09-03-7-pm/18028183",
-      "source": "seatgeek",
-      "lat": 40.7613,
-      "lon": -73.985
-    },
-    {
-      "id": "seatgeek:17917333",
-      "title": "Buena Vista Social Club - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Gerald Schoenfeld Theatre",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-09-03-7-pm/17917333",
-      "source": "seatgeek",
-      "lat": 40.7587,
-      "lon": -73.9873
-    },
-    {
       "id": "seatgeek:17420310",
       "title": "Little Shop of Horrors - New York",
       "category": "theater",
@@ -4608,20 +4482,6 @@
       "source": "seatgeek",
       "lat": 40.7593,
       "lon": -73.9927
-    },
-    {
-      "id": "seatgeek:18155660",
-      "title": "& Juliet - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Stephen Sondheim Theatre - New York",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-09-03-7-pm/18155660",
-      "source": "seatgeek",
-      "lat": 40.7559,
-      "lon": -73.9849
     },
     {
       "id": "seatgeek:18007456",
@@ -4652,6 +4512,20 @@
       "lon": -73.9829
     },
     {
+      "id": "seatgeek:18155660",
+      "title": "& Juliet - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Stephen Sondheim Theatre - New York",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-09-03-7-pm/18155660",
+      "source": "seatgeek",
+      "lat": 40.7559,
+      "lon": -73.9849
+    },
+    {
       "id": "seatgeek:17808299",
       "title": "The Outsiders - New York",
       "category": "other",
@@ -4680,48 +4554,46 @@
       "lon": -73.8288
     },
     {
-      "id": "seatgeek:18332504",
-      "title": "Monolord",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "East Williamsburg",
-      "venue": "Elsewhere - Brooklyn",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/monolord-tickets/brooklyn-new-york-elsewhere-brooklyn-2026-09-03-7-pm/concert/18332504",
-      "source": "seatgeek",
-      "lat": 40.7093,
-      "lon": -73.9232,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb24869a3439f3bd854a9623f9",
-      "spotifyUrl": "https://open.spotify.com/artist/3X0a18Q9nluwuFYv5hB5cm"
-    },
-    {
-      "id": "seatgeek:17989901",
-      "title": "Schmigadoon! - New York",
-      "category": "theater",
+      "id": "seatgeek:17917333",
+      "title": "Buena Vista Social Club - The Musical - New York",
+      "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Nederlander Theatre - NY",
+      "venue": "Gerald Schoenfeld Theatre",
       "start": "2026-09-03T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-03-7-pm/17989901",
+      "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-09-03-7-pm/17917333",
       "source": "seatgeek",
-      "lat": 40.7557,
-      "lon": -73.9882
+      "lat": 40.7587,
+      "lon": -73.9873
     },
     {
-      "id": "seatgeek:17958275",
-      "title": "Harry Potter and The Cursed Child - New York",
+      "id": "seatgeek:18258235",
+      "title": "Richard O'Brien's Rocky Horror Show - New York",
       "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyric Theatre - New York",
+      "neighborhood": "Midtown West",
+      "venue": "Studio 54 - New York",
       "start": "2026-09-03T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-09-03-7-pm/17958275",
+      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-09-03-7-pm/18258235",
       "source": "seatgeek",
-      "lat": 40.7565,
-      "lon": -73.9878
+      "lat": 40.764313,
+      "lon": -73.9838
+    },
+    {
+      "id": "seatgeek:18028183",
+      "title": "Chicago - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Ambassador Theatre - New York",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/chicago-the-musical-tickets/broadway/2026-09-03-7-pm/18028183",
+      "source": "seatgeek",
+      "lat": 40.7613,
+      "lon": -73.985
     },
     {
       "id": "seatgeek:17851254",
@@ -4738,6 +4610,20 @@
       "lon": -73.9866
     },
     {
+      "id": "seatgeek:17958275",
+      "title": "Harry Potter and The Cursed Child - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lyric Theatre - New York",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-09-03-7-pm/17958275",
+      "source": "seatgeek",
+      "lat": 40.7565,
+      "lon": -73.9878
+    },
+    {
       "id": "seatgeek:17898704",
       "title": "Wicked - New York",
       "category": "other",
@@ -4752,18 +4638,20 @@
       "lon": -73.9851
     },
     {
-      "id": "seatgeek:18083039",
-      "title": "Six the Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lena Horne Theatre",
+      "id": "seatgeek:18332504",
+      "title": "Monolord",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "East Williamsburg",
+      "venue": "Elsewhere - Brooklyn",
       "start": "2026-09-03T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-09-03-7-pm/18083039",
+      "url": "https://seatgeek.com/monolord-tickets/brooklyn-new-york-elsewhere-brooklyn-2026-09-03-7-pm/concert/18332504",
       "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9868
+      "lat": 40.7093,
+      "lon": -73.9232,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb24869a3439f3bd854a9623f9",
+      "spotifyUrl": "https://open.spotify.com/artist/3X0a18Q9nluwuFYv5hB5cm"
     },
     {
       "id": "seatgeek:18339155",
@@ -4780,6 +4668,48 @@
       "lon": -73.98838,
       "image": "https://i.scdn.co/image/ab6761610000e5ebbfac44317de9cbd41bad9f64",
       "spotifyUrl": "https://open.spotify.com/artist/0SL3lfuoRP67mrvkdnwIMA"
+    },
+    {
+      "id": "seatgeek:18083039",
+      "title": "Six the Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lena Horne Theatre",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-09-03-7-pm/18083039",
+      "source": "seatgeek",
+      "lat": 40.7602,
+      "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:17989901",
+      "title": "Schmigadoon! - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Nederlander Theatre - NY",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-03-7-pm/17989901",
+      "source": "seatgeek",
+      "lat": 40.7557,
+      "lon": -73.9882
+    },
+    {
+      "id": "seatgeek:18014654",
+      "title": "Hadestown - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Walter Kerr Theatre",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-09-03-7-pm/18014654",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
     },
     {
       "id": "seatgeek:17923919",
@@ -4815,22 +4745,12 @@
         {
           "source": "seatgeek",
           "url": "https://seatgeek.com/biird-tickets/new-york-new-york-bowery-ballroom-2026-09-03-7-pm/concert/18261761"
+        },
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/biird-new-york-new-york-09-03-2026/event/00006486A53C6F9F"
         }
       ]
-    },
-    {
-      "id": "seatgeek:18014654",
-      "title": "Hadestown - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-09-03-7-pm/18014654",
-      "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
     },
     {
       "id": "seatgeek:18128035",
@@ -4861,20 +4781,6 @@
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:18048990",
-      "title": "The Play That Goes Wrong - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 4",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-09-03-7-pm/18048990",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:18048009",
       "title": "Just In Time - New York",
       "category": "other",
@@ -4889,60 +4795,18 @@
       "lon": -73.9852
     },
     {
-      "id": "seatgeek:18312914",
-      "title": "The Lost Boys - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-09-03-7-pm/18312914",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
-    },
-    {
-      "id": "seatgeek:18262771",
-      "title": "The Lion King - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-09-03-7-pm/18262771",
-      "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9862
-    },
-    {
-      "id": "seatgeek:18245458",
-      "title": "Paranormal Activity - New York",
+      "id": "seatgeek:18048990",
+      "title": "The Play That Goes Wrong - New York",
       "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "August Wilson Theatre",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 4",
       "start": "2026-09-03T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/paranormal-activity-1-tickets/theater/2026-09-03-7-pm/18245458",
+      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-09-03-7-pm/18048990",
       "source": "seatgeek",
-      "lat": 40.7629,
-      "lon": -73.9837
-    },
-    {
-      "id": "seatgeek:18052900",
-      "title": "Operation Mincemeat - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "John Golden Theatre",
-      "start": "2026-09-03T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-09-03-7-pm/18052900",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9878
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18260362",
@@ -4973,6 +4837,34 @@
       "lon": -73.9836
     },
     {
+      "id": "seatgeek:18052900",
+      "title": "Operation Mincemeat - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "John Golden Theatre",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/operation-mincemeat-tickets/theater/2026-09-03-7-pm/18052900",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9878
+    },
+    {
+      "id": "seatgeek:18312914",
+      "title": "The Lost Boys - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-09-03-7-pm/18312914",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9846
+    },
+    {
       "id": "seatgeek:18037494",
       "title": "MJ - The Musical - New York",
       "category": "other",
@@ -4985,6 +4877,34 @@
       "source": "seatgeek",
       "lat": 40.7632,
       "lon": -73.9845
+    },
+    {
+      "id": "seatgeek:18262771",
+      "title": "The Lion King - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Minskoff Theatre",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-09-03-7-pm/18262771",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9862
+    },
+    {
+      "id": "seatgeek:18245458",
+      "title": "Paranormal Activity - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "August Wilson Theatre",
+      "start": "2026-09-03T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/paranormal-activity-1-tickets/theater/2026-09-03-7-pm/18245458",
+      "source": "seatgeek",
+      "lat": 40.7629,
+      "lon": -73.9837
     },
     {
       "id": "seatgeek:17807621",
@@ -6999,6 +6919,34 @@
       "neighborhood": "Union Square"
     },
     {
+      "id": "seatgeek:18400138",
+      "title": "100% Eat Live! (21+)",
+      "category": "other",
+      "borough": "Brooklyn",
+      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+      "venue": "The Bell House",
+      "start": "2026-09-03T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/100-eat-live-tickets/entertainment/2026-09-03-7-30-pm/18400138",
+      "source": "seatgeek",
+      "lat": 40.6735,
+      "lon": -73.9916
+    },
+    {
+      "id": "seatgeek:18257977",
+      "title": "Titanique - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "St. James Theatre",
+      "start": "2026-09-03T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-03-7-30-pm/18257977",
+      "source": "seatgeek",
+      "lat": 40.758,
+      "lon": -73.9875
+    },
+    {
       "id": "seatgeek:18332976",
       "title": "Henry Moodie (16+)",
       "category": "music",
@@ -7010,7 +6958,13 @@
       "url": "https://seatgeek.com/henry-moodie-tickets/new-york-new-york-racket-nyc-2026-09-03-7-30-pm/concert/18332976",
       "source": "seatgeek",
       "lat": 40.7402,
-      "lon": -73.9869
+      "lon": -73.9869,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PsOV"
+        }
+      ]
     },
     {
       "id": "seatgeek:18091411",
@@ -7041,34 +6995,6 @@
       "lon": -73.9753,
       "image": "https://i.scdn.co/image/ab6761610000e5eb03c084aeb145ac1a0515a89f",
       "spotifyUrl": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX"
-    },
-    {
-      "id": "seatgeek:18400138",
-      "title": "100% Eat Live! (21+)",
-      "category": "other",
-      "borough": "Brooklyn",
-      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
-      "venue": "The Bell House",
-      "start": "2026-09-03T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/100-eat-live-tickets/entertainment/2026-09-03-7-30-pm/18400138",
-      "source": "seatgeek",
-      "lat": 40.6735,
-      "lon": -73.9916
-    },
-    {
-      "id": "seatgeek:18257977",
-      "title": "Titanique - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "St. James Theatre",
-      "start": "2026-09-03T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-03-7-30-pm/18257977",
-      "source": "seatgeek",
-      "lat": 40.758,
-      "lon": -73.9875
     },
     {
       "id": "seatgeek:18240476",
@@ -7688,7 +7614,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7707,7 +7633,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7726,7 +7652,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7745,7 +7671,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7764,7 +7690,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7783,7 +7709,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7802,7 +7728,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7821,7 +7747,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7840,7 +7766,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7859,7 +7785,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7878,7 +7804,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7913,7 +7839,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -7932,7 +7858,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "10n",
-        "temp": 71,
+        "temp": 70,
         "description": "light rain",
         "dt": 1788512400000
       }
@@ -8186,9 +8112,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04d",
-        "temp": 72,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1788523200000
       }
     },
@@ -8205,9 +8131,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04d",
-        "temp": 72,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1788523200000
       }
     },
@@ -8226,9 +8152,9 @@
       "lon": -73.8648268,
       "neighborhood": "Van Nest",
       "weather": {
-        "icon": "04d",
-        "temp": 72,
-        "description": "overcast clouds",
+        "icon": "10d",
+        "temp": 71,
+        "description": "light rain",
         "dt": 1788523200000
       }
     },
@@ -8397,20 +8323,6 @@
       "lon": -73.8288
     },
     {
-      "id": "seatgeek:17836990",
-      "title": "US Open Grounds Admission: Men's Third Round/Women's Third Round",
-      "category": "other",
-      "borough": "Queens",
-      "neighborhood": "Corona",
-      "venue": "Billie Jean King National Tennis Center",
-      "start": "2026-09-04T11:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/us-open-tennis-grounds-admission-only-tickets/tennis/2026-09-04-11-am/17836990",
-      "source": "seatgeek",
-      "lat": 40.7504,
-      "lon": -73.8457
-    },
-    {
       "id": "seatgeek:18006481",
       "title": "US Open Tennis - Session 11 (Louis Armstrong)",
       "category": "other",
@@ -8423,6 +8335,20 @@
       "source": "seatgeek",
       "lat": 40.7258,
       "lon": -73.8288
+    },
+    {
+      "id": "seatgeek:17836990",
+      "title": "US Open Grounds Admission: Men's Third Round/Women's Third Round",
+      "category": "other",
+      "borough": "Queens",
+      "neighborhood": "Corona",
+      "venue": "Billie Jean King National Tennis Center",
+      "start": "2026-09-04T11:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/us-open-tennis-grounds-admission-only-tickets/tennis/2026-09-04-11-am/17836990",
+      "source": "seatgeek",
+      "lat": 40.7504,
+      "lon": -73.8457
     },
     {
       "id": "ra:2523624",
@@ -9045,8 +8971,8 @@
       "isFree": true,
       "url": "https://www.bklynlibrary.org/calendar/table-read-leonard-leonard-auditorium-20260904-0230pm",
       "source": "bpl",
-      "lat": 40.7135869,
-      "lon": -73.9478783,
+      "lat": 40.7170435,
+      "lon": -73.9481921,
       "neighborhood": "Williamsburg"
     },
     {
@@ -9062,9 +8988,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03d",
-        "temp": 80,
-        "description": "scattered clouds",
+        "icon": "04d",
+        "temp": 79,
+        "description": "broken clouds",
         "dt": 1788534000000
       }
     },
@@ -9389,8 +9315,8 @@
       "isFree": true,
       "url": "https://www.bklynlibrary.org/calendar/teen-time-craft-and-game-leonard-auditorium-20260904-0330pm",
       "source": "bpl",
-      "lat": 40.7135869,
-      "lon": -73.9478783,
+      "lat": 40.7170435,
+      "lon": -73.9481921,
       "neighborhood": "Williamsburg"
     },
     {
@@ -9559,21 +9485,6 @@
       "lon": -74.004748
     },
     {
-      "id": "ra:2527022",
-      "title": "Mommy Husband, Tom UAP, and Sexier Than all night",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Bushwick",
-      "venue": "Rebecca's",
-      "start": "2026-09-04T16:00:00",
-      "end": "2026-09-05T00:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2527022",
-      "source": "resident-advisor",
-      "lat": 40.698201,
-      "lon": -73.934243
-    },
-    {
       "id": "ra:2497867",
       "title": "Underworld presents Crazy, Crazy",
       "category": "music",
@@ -9588,6 +9499,21 @@
       "lat": 40.715679,
       "lon": -73.914379,
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/underworld-1480x832.png"
+    },
+    {
+      "id": "ra:2527022",
+      "title": "***UNDER THE J*** with Mommy Husband, Tom UAP, and Sexier Than all night",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Bushwick",
+      "venue": "Rebecca's",
+      "start": "2026-09-04T16:00:00",
+      "end": "2026-09-05T00:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2527022",
+      "source": "resident-advisor",
+      "lat": 40.698201,
+      "lon": -73.934243
     },
     {
       "id": "nyc-open-data:958120:2026-09-04T16:00:00.000",
@@ -9833,6 +9759,21 @@
       "lon": -73.902307
     },
     {
+      "id": "ra:2499961",
+      "title": "Residency Night: livwutang invites SCRATCHCLART & The Large",
+      "category": "music",
+      "borough": "Queens",
+      "neighborhood": "Glendale",
+      "venue": "Nowadays",
+      "start": "2026-09-04T18:00:00",
+      "end": "2026-09-05T02:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2499961",
+      "source": "resident-advisor",
+      "lat": 40.692462,
+      "lon": -73.901536
+    },
+    {
       "id": "ra:2504360",
       "title": "Treats Per Minute",
       "category": "music",
@@ -9998,21 +9939,6 @@
       "source": "resident-advisor",
       "lat": 40.75,
       "lon": -73.99
-    },
-    {
-      "id": "ra:2492879",
-      "title": "BARRIO BOUNCE, A Budots & SEA Club Night",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Bushwick",
-      "venue": "Mood Ring",
-      "start": "2026-09-04T18:00:00",
-      "end": "2026-09-05T00:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2492879",
-      "source": "resident-advisor",
-      "lat": 40.697726,
-      "lon": -73.926908
     },
     {
       "id": "ra:2493086",
@@ -10235,32 +10161,102 @@
       "lon": -73.988403
     },
     {
-      "id": "seatgeek:17958278",
-      "title": "Harry Potter and The Cursed Child - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Lyric Theatre - New York",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-09-04-7-pm/17958278",
-      "source": "seatgeek",
-      "lat": 40.7565,
-      "lon": -73.9878
-    },
-    {
-      "id": "seatgeek:17917341",
-      "title": "Buena Vista Social Club - The Musical - New York",
+      "id": "seatgeek:17851207",
+      "title": "Hamilton - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Gerald Schoenfeld Theatre",
+      "venue": "Richard Rodgers Theatre",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-09-04-7-pm/17917341",
+      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-09-04-7-pm/17851207",
       "source": "seatgeek",
-      "lat": 40.7587,
-      "lon": -73.9873
+      "lat": 40.7592,
+      "lon": -73.9866
+    },
+    {
+      "id": "seatgeek:18408140",
+      "title": "Jamie Allan's Amaze - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 5",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-09-04-7-pm/18408140",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18260521",
+      "title": "Aladdin - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "New Amsterdam Theatre",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/aladdin-tickets/theater/2026-09-04-7-pm/18260521",
+      "source": "seatgeek",
+      "lat": 40.7563,
+      "lon": -73.9877
+    },
+    {
+      "id": "seatgeek:17808292",
+      "title": "The Outsiders - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Bernard B. Jacobs Theatre",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-outsiders-1-tickets/broadway/2026-09-04-7-pm/17808292",
+      "source": "seatgeek",
+      "lat": 40.7586,
+      "lon": -73.9878
+    },
+    {
+      "id": "seatgeek:18083044",
+      "title": "Six the Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Lena Horne Theatre",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-09-04-7-pm/18083044",
+      "source": "seatgeek",
+      "lat": 40.7602,
+      "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:18096121",
+      "title": "Maybe Happy Ending - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Belasco Theatre - NY",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-09-04-7-pm/18096121",
+      "source": "seatgeek",
+      "lat": 40.7563,
+      "lon": -73.9836
+    },
+    {
+      "id": "seatgeek:18069690",
+      "title": "Heathers - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/heathers-tickets/broadway/2026-09-04-7-pm/18069690",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "jambase:16313052",
@@ -10286,144 +10282,32 @@
       ]
     },
     {
-      "id": "seatgeek:18408140",
-      "title": "Jamie Allan's Amaze - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 5",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-09-04-7-pm/18408140",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
-      "id": "seatgeek:18083044",
-      "title": "Six the Musical - New York",
+      "id": "seatgeek:17917341",
+      "title": "Buena Vista Social Club - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Lena Horne Theatre",
+      "venue": "Gerald Schoenfeld Theatre",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/six-the-musical-tickets/broadway/2026-09-04-7-pm/18083044",
+      "url": "https://seatgeek.com/buena-vista-social-club-the-musical-tickets/broadway/2026-09-04-7-pm/17917341",
       "source": "seatgeek",
-      "lat": 40.7602,
-      "lon": -73.9868
+      "lat": 40.7587,
+      "lon": -73.9873
     },
     {
-      "id": "seatgeek:18069690",
-      "title": "Heathers - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/broadway/2026-09-04-7-pm/18069690",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
-      "id": "seatgeek:18260521",
-      "title": "Aladdin - New York",
+      "id": "seatgeek:17958278",
+      "title": "Harry Potter and The Cursed Child - New York",
       "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "New Amsterdam Theatre",
+      "venue": "Lyric Theatre - New York",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/aladdin-tickets/theater/2026-09-04-7-pm/18260521",
+      "url": "https://seatgeek.com/harry-potter-and-the-cursed-child-tickets/theater/2026-09-04-7-pm/17958278",
       "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9877
-    },
-    {
-      "id": "seatgeek:18096121",
-      "title": "Maybe Happy Ending - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Belasco Theatre - NY",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-09-04-7-pm/18096121",
-      "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9836
-    },
-    {
-      "id": "seatgeek:17851207",
-      "title": "Hamilton - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Richard Rodgers Theatre",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hamilton-tickets/broadway/2026-09-04-7-pm/17851207",
-      "source": "seatgeek",
-      "lat": 40.7592,
-      "lon": -73.9866
-    },
-    {
-      "id": "seatgeek:17808292",
-      "title": "The Outsiders - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Bernard B. Jacobs Theatre",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-outsiders-1-tickets/broadway/2026-09-04-7-pm/17808292",
-      "source": "seatgeek",
-      "lat": 40.7586,
+      "lat": 40.7565,
       "lon": -73.9878
-    },
-    {
-      "id": "seatgeek:17530727",
-      "title": "Little Shop of Horrors - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "Westside Theatre Upstairs",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-09-04-7-pm/17530727",
-      "source": "seatgeek",
-      "lat": 40.7593,
-      "lon": -73.9927
-    },
-    {
-      "id": "seatgeek:18258237",
-      "title": "Richard O'Brien's Rocky Horror Show - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown West",
-      "venue": "Studio 54 - New York",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-09-04-7-pm/18258237",
-      "source": "seatgeek",
-      "lat": 40.764313,
-      "lon": -73.9838
-    },
-    {
-      "id": "seatgeek:18128036",
-      "title": "The Book of Mormon - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Eugene O'Neill Theatre",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-09-04-7-pm/18128036",
-      "source": "seatgeek",
-      "lat": 40.7611,
-      "lon": -73.9857
     },
     {
       "id": "seatgeek:18054766",
@@ -10440,32 +10324,46 @@
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:18262738",
-      "title": "The Lion King - New York",
+      "id": "seatgeek:18128036",
+      "title": "The Book of Mormon - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Minskoff Theatre",
+      "venue": "Eugene O'Neill Theatre",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-09-04-7-pm/18262738",
+      "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-09-04-7-pm/18128036",
       "source": "seatgeek",
-      "lat": 40.7579,
-      "lon": -73.9862
+      "lat": 40.7611,
+      "lon": -73.9857
     },
     {
-      "id": "seatgeek:18006482",
-      "title": "US Open Tennis - Session 12 (Louis Armstrong)",
-      "category": "other",
-      "borough": "Queens",
-      "neighborhood": "Kew Gardens Hills",
-      "venue": "Louis Armstrong Stadium",
+      "id": "seatgeek:18258237",
+      "title": "Richard O'Brien's Rocky Horror Show - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown West",
+      "venue": "Studio 54 - New York",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/us-open-tennis-tickets/tennis/2026-09-04-7-pm/18006482",
+      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-09-04-7-pm/18258237",
       "source": "seatgeek",
-      "lat": 40.7258,
-      "lon": -73.8288
+      "lat": 40.764313,
+      "lon": -73.9838
+    },
+    {
+      "id": "seatgeek:17530727",
+      "title": "Little Shop of Horrors - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "Westside Theatre Upstairs",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/little-shop-of-horrors-tickets/theater/2026-09-04-7-pm/17530727",
+      "source": "seatgeek",
+      "lat": 40.7593,
+      "lon": -73.9927
     },
     {
       "id": "seatgeek:18037495",
@@ -10482,6 +10380,20 @@
       "lon": -73.9845
     },
     {
+      "id": "seatgeek:18262738",
+      "title": "The Lion King - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Minskoff Theatre",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lion-king-tickets/broadway/2026-09-04-7-pm/18262738",
+      "source": "seatgeek",
+      "lat": 40.7579,
+      "lon": -73.9862
+    },
+    {
       "id": "seatgeek:17807626",
       "title": "US Open Tennis - Session 12",
       "category": "other",
@@ -10494,6 +10406,20 @@
       "source": "seatgeek",
       "lat": 40.7529,
       "lon": -73.8508
+    },
+    {
+      "id": "seatgeek:18006482",
+      "title": "US Open Tennis - Session 12 (Louis Armstrong)",
+      "category": "other",
+      "borough": "Queens",
+      "neighborhood": "Kew Gardens Hills",
+      "venue": "Louis Armstrong Stadium",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/us-open-tennis-tickets/tennis/2026-09-04-7-pm/18006482",
+      "source": "seatgeek",
+      "lat": 40.7258,
+      "lon": -73.8288
     },
     {
       "id": "seatgeek:18027962",
@@ -10524,6 +10450,20 @@
       "lon": -73.9829
     },
     {
+      "id": "seatgeek:18014653",
+      "title": "Hadestown - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Walter Kerr Theatre",
+      "start": "2026-09-04T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-09-04-7-pm/18014653",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
+    },
+    {
       "id": "seatgeek:18048984",
       "title": "The Play That Goes Wrong - New York",
       "category": "theater",
@@ -10538,18 +10478,18 @@
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:18014653",
-      "title": "Hadestown - New York",
-      "category": "other",
+      "id": "seatgeek:17989942",
+      "title": "Schmigadoon! - New York",
+      "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
+      "venue": "Nederlander Theatre - NY",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-09-04-7-pm/18014653",
+      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-04-7-pm/17989942",
       "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
+      "lat": 40.7557,
+      "lon": -73.9882
     },
     {
       "id": "seatgeek:17898666",
@@ -10566,20 +10506,6 @@
       "lon": -73.9851
     },
     {
-      "id": "seatgeek:18312915",
-      "title": "The Lost Boys - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-09-04T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-09-04-7-pm/18312915",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
-    },
-    {
       "id": "seatgeek:18007451",
       "title": "Stranger Things: The First Shadow - New York",
       "category": "other",
@@ -10594,18 +10520,18 @@
       "lon": -73.9855
     },
     {
-      "id": "seatgeek:17989942",
-      "title": "Schmigadoon! - New York",
-      "category": "theater",
+      "id": "seatgeek:18312915",
+      "title": "The Lost Boys - New York",
+      "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Nederlander Theatre - NY",
+      "venue": "Palace Theatre - New York",
       "start": "2026-09-04T19:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-04-7-pm/17989942",
+      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-09-04-7-pm/18312915",
       "source": "seatgeek",
-      "lat": 40.7557,
-      "lon": -73.9882
+      "lat": 40.7589,
+      "lon": -73.9846
     },
     {
       "id": "ra:2415388",
@@ -11565,20 +11491,6 @@
       "neighborhood": "Central Park"
     },
     {
-      "id": "seatgeek:18257978",
-      "title": "Titanique - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "St. James Theatre",
-      "start": "2026-09-04T19:30:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-04-7-30-pm/18257978",
-      "source": "seatgeek",
-      "lat": 40.758,
-      "lon": -73.9875
-    },
-    {
       "id": "seatgeek:18091373",
       "title": "Two Strangers (Carry a Cake Across New York) - New York",
       "category": "other",
@@ -11605,6 +11517,20 @@
       "source": "seatgeek",
       "lat": 40.8296,
       "lon": -73.9262
+    },
+    {
+      "id": "seatgeek:18257978",
+      "title": "Titanique - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "St. James Theatre",
+      "start": "2026-09-04T19:30:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-04-7-30-pm/18257978",
+      "source": "seatgeek",
+      "lat": 40.758,
+      "lon": -73.9875
     },
     {
       "id": "seatgeek:18334665",
@@ -11894,21 +11820,6 @@
       "lon": -73.947016
     },
     {
-      "id": "seatgeek:18247361",
-      "title": "Princess Nokia with Yaya Bey",
-      "category": "music",
-      "borough": "Bronx",
-      "neighborhood": "West Bronx",
-      "venue": "Lehman Center For The Performing Arts",
-      "start": "2026-09-04T20:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/princess-nokia-tickets/bronx-new-york-lehman-center-for-the-performing-arts-2026-09-04-8-pm/concert/18247361",
-      "source": "seatgeek",
-      "lat": 40.8749,
-      "lon": -73.8932,
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/princess-nokia-1480x832.png"
-    },
-    {
       "id": "seatgeek:18528248",
       "title": "Matt Sturniolo",
       "category": "comedy",
@@ -11951,6 +11862,21 @@
       "lon": -73.9837
     },
     {
+      "id": "seatgeek:18081628",
+      "title": "Robyn with Yaeji",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Park Slope",
+      "venue": "Barclays Center",
+      "start": "2026-09-04T20:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/robyn-tickets/brooklyn-new-york-barclays-center-2026-09-04-8-pm/concert/18081628",
+      "source": "seatgeek",
+      "lat": 40.6827,
+      "lon": -73.9753,
+      "image": "https://www.jambase.com/wp-content/uploads/2026/01/robyn-press-january-2026-1480x832.jpg"
+    },
+    {
       "id": "seatgeek:18027091",
       "title": "Harry Styles with Jamie XX",
       "category": "music",
@@ -11966,19 +11892,19 @@
       "image": "https://www.jambase.com/wp-content/uploads/2026/01/harry-styles-press-2026-1480x832.jpg"
     },
     {
-      "id": "seatgeek:18081628",
-      "title": "Robyn with Yaeji",
+      "id": "seatgeek:18247361",
+      "title": "Princess Nokia with Yaya Bey",
       "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Park Slope",
-      "venue": "Barclays Center",
+      "borough": "Bronx",
+      "neighborhood": "West Bronx",
+      "venue": "Lehman Center For The Performing Arts",
       "start": "2026-09-04T20:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/robyn-tickets/brooklyn-new-york-barclays-center-2026-09-04-8-pm/concert/18081628",
+      "url": "https://seatgeek.com/princess-nokia-tickets/bronx-new-york-lehman-center-for-the-performing-arts-2026-09-04-8-pm/concert/18247361",
       "source": "seatgeek",
-      "lat": 40.6827,
-      "lon": -73.9753,
-      "image": "https://www.jambase.com/wp-content/uploads/2026/01/robyn-press-january-2026-1480x832.jpg"
+      "lat": 40.8749,
+      "lon": -73.8932,
+      "image": "https://www.jambase.com/wp-content/uploads/2023/01/princess-nokia-1480x832.png"
     },
     {
       "id": "seatgeek:18028196",
@@ -11995,20 +11921,6 @@
       "lon": -73.985
     },
     {
-      "id": "seatgeek:18411403",
-      "title": "Perfect Crime - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "The Theater Center",
-      "start": "2026-09-04T20:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-09-04-8-pm/18411403",
-      "source": "seatgeek",
-      "lat": 40.7615,
-      "lon": -73.9845
-    },
-    {
       "id": "seatgeek:18415868",
       "title": "Luis Angel \"El Flaco\"",
       "category": "music",
@@ -12021,8 +11933,28 @@
       "source": "seatgeek",
       "lat": 40.7576,
       "lon": -73.9858,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/luis-angel-el-flaco-new-york-city-new-york-09-04-2026/event/000064FCA62DF97D"
+        }
+      ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb0ed2b09ddab42adcfca99da2",
       "spotifyUrl": "https://open.spotify.com/artist/4kJ2OBSNasUA4yOT5NCfCl"
+    },
+    {
+      "id": "seatgeek:18411403",
+      "title": "Perfect Crime - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "The Theater Center",
+      "start": "2026-09-04T20:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-09-04-8-pm/18411403",
+      "source": "seatgeek",
+      "lat": 40.7615,
+      "lon": -73.9845
     },
     {
       "id": "jambase:16303850",
@@ -12275,7 +12207,13 @@
       "url": "https://seatgeek.com/friends-the-musical-parody-tickets/theater/2026-09-04-8-30-pm/18411393",
       "source": "seatgeek",
       "lat": 40.7615,
-      "lon": -73.9845
+      "lon": -73.9845,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/friends-the-musical-parody-new-york-new-york-new-york-09-04-2026/event/300064F7946D3804"
+        }
+      ]
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfFN_0",
@@ -12503,9 +12441,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12522,9 +12460,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12541,9 +12479,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12560,9 +12498,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12579,9 +12517,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12598,9 +12536,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12617,9 +12555,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12636,9 +12574,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12655,9 +12593,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12674,9 +12612,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12693,9 +12631,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12712,9 +12650,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12731,9 +12669,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12750,9 +12688,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12769,9 +12707,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12788,9 +12726,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12807,9 +12745,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12826,9 +12764,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12881,9 +12819,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12900,9 +12838,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12919,9 +12857,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12938,9 +12876,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12957,9 +12895,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12976,9 +12914,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -12995,9 +12933,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13014,9 +12952,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13035,9 +12973,9 @@
       "lon": -73.9441579,
       "neighborhood": "Bedford-Stuyvesant",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13056,9 +12994,9 @@
       "lon": -73.9441579,
       "neighborhood": "Bedford-Stuyvesant",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13077,9 +13015,9 @@
       "lon": -73.8549518,
       "neighborhood": "Corona",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13200,9 +13138,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13219,9 +13157,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13238,9 +13176,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13257,9 +13195,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13276,9 +13214,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13295,9 +13233,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13314,9 +13252,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04n",
+        "icon": "02n",
         "temp": 72,
-        "description": "overcast clouds",
+        "description": "few clouds",
         "dt": 1788598800000
       }
     },
@@ -13334,21 +13272,6 @@
       "lat": 40.6414876,
       "lon": -73.9593998,
       "neighborhood": "Flatbush"
-    },
-    {
-      "id": "ra:2500036",
-      "title": "SanDia: Season Finale with Bendito, Donis, Jeremy Giros, Yvonne Turner",
-      "category": "music",
-      "borough": "Queens",
-      "neighborhood": "Glendale",
-      "venue": "Nowadays",
-      "start": "2026-09-05T10:00:00",
-      "end": "2026-09-05T16:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2500036",
-      "source": "resident-advisor",
-      "lat": 40.692462,
-      "lon": -73.901536
     },
     {
       "id": "ticketmaster:LvZ18Qk4nbbEibYZvnO22",
@@ -13455,9 +13378,9 @@
       "url": "https://www.smorgasburg.com/",
       "source": "smorgasburg",
       "weather": {
-        "icon": "04d",
+        "icon": "01d",
         "temp": 72,
-        "description": "broken clouds",
+        "description": "clear sky",
         "dt": 1788609600000
       }
     },
@@ -13474,9 +13397,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "04d",
+        "icon": "01d",
         "temp": 72,
-        "description": "broken clouds",
+        "description": "clear sky",
         "dt": 1788609600000
       }
     },
@@ -13495,9 +13418,9 @@
       "lon": -73.98219379999999,
       "neighborhood": "Lincoln Square",
       "weather": {
-        "icon": "03d",
-        "temp": 71,
-        "description": "scattered clouds",
+        "icon": "01d",
+        "temp": 72,
+        "description": "clear sky",
         "dt": 1788609600000
       }
     },
@@ -13545,20 +13468,6 @@
       "lon": -73.9874
     },
     {
-      "id": "seatgeek:17836991",
-      "title": "US Open Grounds Admission: Men's Third Round/Women's Third Round",
-      "category": "other",
-      "borough": "Queens",
-      "neighborhood": "Corona",
-      "venue": "Billie Jean King National Tennis Center",
-      "start": "2026-09-05T11:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/us-open-tennis-grounds-admission-only-tickets/tennis/2026-09-05-11-am/17836991",
-      "source": "seatgeek",
-      "lat": 40.7504,
-      "lon": -73.8457
-    },
-    {
       "id": "seatgeek:18100561",
       "title": "US Open Tennis - Day Session 13 (Grandstand Only)",
       "category": "other",
@@ -13571,6 +13480,20 @@
       "source": "seatgeek",
       "lat": 40.7258,
       "lon": -73.8288
+    },
+    {
+      "id": "seatgeek:17836991",
+      "title": "US Open Grounds Admission: Men's Third Round/Women's Third Round",
+      "category": "other",
+      "borough": "Queens",
+      "neighborhood": "Corona",
+      "venue": "Billie Jean King National Tennis Center",
+      "start": "2026-09-05T11:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/us-open-tennis-grounds-admission-only-tickets/tennis/2026-09-05-11-am/17836991",
+      "source": "seatgeek",
+      "lat": 40.7504,
+      "lon": -73.8457
     },
     {
       "id": "ticketmaster:G5vVZ_kUDSkSu",
@@ -14070,6 +13993,23 @@
       "lon": -73.99
     },
     {
+      "id": "ra:2522110",
+      "title": "WE TAKE MANHATTAN AT SUNSET",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Meatpacking District",
+      "venue": "Le Bain",
+      "start": "2026-09-05T13:00:00",
+      "end": "2026-09-05T18:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2522110",
+      "source": "resident-advisor",
+      "lat": 40.741077,
+      "lon": -74.008285,
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbf1986748af0c58943033dbf",
+      "spotifyUrl": "https://open.spotify.com/artist/7quE6j26chtIQ2iDvKf0Qo"
+    },
+    {
       "id": "ticketmaster:Z1r9uZrrZbpZ1Av-6ao",
       "title": "Stranger Things: The First Shadow",
       "category": "theater",
@@ -14296,46 +14236,18 @@
       "lon": -73.9833
     },
     {
-      "id": "seatgeek:18054737",
-      "title": "The 25th Annual Putnam County Spelling Bee - New York",
+      "id": "seatgeek:18069698",
+      "title": "Heathers - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 3",
+      "venue": "New World Stages - Stage 1",
       "start": "2026-09-05T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-09-05-2-pm/18054737",
+      "url": "https://seatgeek.com/heathers-tickets/broadway/2026-09-05-2-pm/18069698",
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
-    },
-    {
-      "id": "seatgeek:17808484",
-      "title": "The Great Gatsby - The Musical - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Broadway Theatre - New York",
-      "start": "2026-09-05T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-09-05-2-pm/17808484",
-      "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9829
-    },
-    {
-      "id": "seatgeek:17989859",
-      "title": "Schmigadoon! - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Nederlander Theatre - NY",
-      "start": "2026-09-05T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-05-2-pm/17989859",
-      "source": "seatgeek",
-      "lat": 40.7557,
-      "lon": -73.9882
     },
     {
       "id": "seatgeek:18262724",
@@ -14352,18 +14264,46 @@
       "lon": -73.9862
     },
     {
-      "id": "seatgeek:18069698",
-      "title": "Heathers - The Musical - New York",
+      "id": "seatgeek:17808484",
+      "title": "The Great Gatsby - The Musical - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Broadway Theatre - New York",
+      "start": "2026-09-05T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-great-gatsby-the-musical-tickets/broadway/2026-09-05-2-pm/17808484",
+      "source": "seatgeek",
+      "lat": 40.7632,
+      "lon": -73.9829
+    },
+    {
+      "id": "seatgeek:18054737",
+      "title": "The 25th Annual Putnam County Spelling Bee - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
+      "venue": "New World Stages - Stage 3",
       "start": "2026-09-05T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/broadway/2026-09-05-2-pm/18069698",
+      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-09-05-2-pm/18054737",
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:17989859",
+      "title": "Schmigadoon! - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Nederlander Theatre - NY",
+      "start": "2026-09-05T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-05-2-pm/17989859",
+      "source": "seatgeek",
+      "lat": 40.7557,
+      "lon": -73.9882
     },
     {
       "id": "seatgeek:17420171",
@@ -14380,18 +14320,18 @@
       "lon": -73.9927
     },
     {
-      "id": "seatgeek:18155661",
-      "title": "& Juliet - New York",
+      "id": "seatgeek:17898632",
+      "title": "Wicked - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Stephen Sondheim Theatre - New York",
+      "venue": "Gershwin Theatre",
       "start": "2026-09-05T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-09-05-2-pm/18155661",
+      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-09-05-2-pm/17898632",
       "source": "seatgeek",
-      "lat": 40.7559,
-      "lon": -73.9849
+      "lat": 40.7624,
+      "lon": -73.9851
     },
     {
       "id": "seatgeek:18260523",
@@ -14408,18 +14348,18 @@
       "lon": -73.9877
     },
     {
-      "id": "seatgeek:18037497",
-      "title": "MJ - The Musical - New York",
+      "id": "seatgeek:18155661",
+      "title": "& Juliet - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Neil Simon Theatre",
+      "venue": "Stephen Sondheim Theatre - New York",
       "start": "2026-09-05T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-09-05-2-pm/18037497",
+      "url": "https://seatgeek.com/juliet-tickets/broadway/2026-09-05-2-pm/18155661",
       "source": "seatgeek",
-      "lat": 40.7632,
-      "lon": -73.9845
+      "lat": 40.7559,
+      "lon": -73.9849
     },
     {
       "id": "seatgeek:17808304",
@@ -14436,18 +14376,18 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:17898632",
-      "title": "Wicked - New York",
+      "id": "seatgeek:18037497",
+      "title": "MJ - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Gershwin Theatre",
+      "venue": "Neil Simon Theatre",
       "start": "2026-09-05T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-09-05-2-pm/17898632",
+      "url": "https://seatgeek.com/mj-the-musical-tickets/broadway/2026-09-05-2-pm/18037497",
       "source": "seatgeek",
-      "lat": 40.7624,
-      "lon": -73.9851
+      "lat": 40.7632,
+      "lon": -73.9845
     },
     {
       "id": "seatgeek:18222372",
@@ -14464,20 +14404,6 @@
       "lon": -73.9939
     },
     {
-      "id": "seatgeek:18048993",
-      "title": "The Play That Goes Wrong - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 4",
-      "start": "2026-09-05T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-09-05-2-pm/18048993",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:18408143",
       "title": "Jamie Allan's Amaze - New York",
       "category": "other",
@@ -14490,20 +14416,6 @@
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
-    },
-    {
-      "id": "seatgeek:18245468",
-      "title": "Paranormal Activity - New York",
-      "category": "theater",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "August Wilson Theatre",
-      "start": "2026-09-05T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/paranormal-activity-1-tickets/theater/2026-09-05-2-pm/18245468",
-      "source": "seatgeek",
-      "lat": 40.7629,
-      "lon": -73.9837
     },
     {
       "id": "seatgeek:18411450",
@@ -14520,6 +14432,20 @@
       "lon": -73.9845
     },
     {
+      "id": "seatgeek:18096108",
+      "title": "Maybe Happy Ending - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Belasco Theatre - NY",
+      "start": "2026-09-05T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-09-05-2-pm/18096108",
+      "source": "seatgeek",
+      "lat": 40.7563,
+      "lon": -73.9836
+    },
+    {
       "id": "seatgeek:17917339",
       "title": "Buena Vista Social Club - The Musical - New York",
       "category": "other",
@@ -14534,18 +14460,32 @@
       "lon": -73.9873
     },
     {
-      "id": "seatgeek:18096108",
-      "title": "Maybe Happy Ending - New York",
-      "category": "other",
+      "id": "seatgeek:18245468",
+      "title": "Paranormal Activity - New York",
+      "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Belasco Theatre - NY",
+      "venue": "August Wilson Theatre",
       "start": "2026-09-05T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-09-05-2-pm/18096108",
+      "url": "https://seatgeek.com/paranormal-activity-1-tickets/theater/2026-09-05-2-pm/18245468",
       "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9836
+      "lat": 40.7629,
+      "lon": -73.9837
+    },
+    {
+      "id": "seatgeek:18048993",
+      "title": "The Play That Goes Wrong - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 4",
+      "start": "2026-09-05T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-play-that-goes-wrong-tickets/theater/2026-09-05-2-pm/18048993",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18128039",
@@ -14576,34 +14516,6 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18014660",
-      "title": "Hadestown - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Walter Kerr Theatre",
-      "start": "2026-09-05T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-09-05-2-pm/18014660",
-      "source": "seatgeek",
-      "lat": 40.7605,
-      "lon": -73.9857
-    },
-    {
-      "id": "seatgeek:18312918",
-      "title": "The Lost Boys - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Palace Theatre - New York",
-      "start": "2026-09-05T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-09-05-2-pm/18312918",
-      "source": "seatgeek",
-      "lat": 40.7589,
-      "lon": -73.9846
-    },
-    {
       "id": "seatgeek:18091382",
       "title": "Two Strangers (Carry a Cake Across New York) - New York",
       "category": "other",
@@ -14632,6 +14544,20 @@
       "lon": -73.9878
     },
     {
+      "id": "seatgeek:18312918",
+      "title": "The Lost Boys - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Palace Theatre - New York",
+      "start": "2026-09-05T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-lost-boys-tickets/broadway/2026-09-05-2-pm/18312918",
+      "source": "seatgeek",
+      "lat": 40.7589,
+      "lon": -73.9846
+    },
+    {
       "id": "seatgeek:18027984",
       "title": "Just In Time - New York",
       "category": "other",
@@ -14644,6 +14570,20 @@
       "source": "seatgeek",
       "lat": 40.7623,
       "lon": -73.9852
+    },
+    {
+      "id": "seatgeek:18014660",
+      "title": "Hadestown - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Walter Kerr Theatre",
+      "start": "2026-09-05T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/hadestown-tickets/broadway/2026-09-05-2-pm/18014660",
+      "source": "seatgeek",
+      "lat": 40.7605,
+      "lon": -73.9857
     },
     {
       "id": "ra:2434494",
@@ -15390,18 +15330,18 @@
       }
     },
     {
-      "id": "seatgeek:18257979",
-      "title": "Titanique - New York",
-      "category": "other",
+      "id": "seatgeek:17923929",
+      "title": "Drunk Romeo & Juliet - New York",
+      "category": "theater",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "St. James Theatre",
+      "venue": "The Ruby Theatre",
       "start": "2026-09-05T15:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-05-3-pm/18257979",
+      "url": "https://seatgeek.com/drunk-romeo-and-juliet-tickets/theater/2026-09-05-3-pm/17923929",
       "source": "seatgeek",
-      "lat": 40.758,
-      "lon": -73.9875
+      "lat": 40.7527,
+      "lon": -73.9841
     },
     {
       "id": "seatgeek:18258238",
@@ -15418,18 +15358,18 @@
       "lon": -73.9838
     },
     {
-      "id": "seatgeek:17923929",
-      "title": "Drunk Romeo & Juliet - New York",
-      "category": "theater",
+      "id": "seatgeek:18257979",
+      "title": "Titanique - New York",
+      "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "The Ruby Theatre",
+      "venue": "St. James Theatre",
       "start": "2026-09-05T15:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/drunk-romeo-and-juliet-tickets/theater/2026-09-05-3-pm/17923929",
+      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-05-3-pm/18257979",
       "source": "seatgeek",
-      "lat": 40.7527,
-      "lon": -73.9841
+      "lat": 40.758,
+      "lon": -73.9875
     },
     {
       "id": "seatgeek:18083045",
@@ -15672,6 +15612,21 @@
       "end": "2026-09-05T23:30:00",
       "isFree": false,
       "url": "https://ra.co/events/2511421",
+      "source": "resident-advisor",
+      "lat": 40.705479,
+      "lon": -74.004748
+    },
+    {
+      "id": "ra:2519454",
+      "title": "Brazil Independence Funk & Reggaeton Party Watermark Beach",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Financial District",
+      "venue": "Watermark",
+      "start": "2026-09-05T17:00:00",
+      "end": "2026-09-05T23:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2519454",
       "source": "resident-advisor",
       "lat": 40.705479,
       "lon": -74.004748
@@ -15963,36 +15918,6 @@
       "lon": -74
     },
     {
-      "id": "ra:2499140",
-      "title": "THE Y2K Parrty at the Legendary Mehanata NYC - 18",
-      "category": "music",
-      "borough": "Manhattan",
-      "neighborhood": "Lower East Side",
-      "venue": "Mehanata Bar",
-      "start": "2026-09-05T18:00:00",
-      "end": "2026-09-06T00:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2499140",
-      "source": "resident-advisor",
-      "lat": 40.719444,
-      "lon": -73.988794
-    },
-    {
-      "id": "ra:2499989",
-      "title": "Shock Value Nonstop: B0YG1RL, DILUVIA, DICAP, Juliana Huxtable, Sewa Choki, TYGAPAW, Via App",
-      "category": "music",
-      "borough": "Queens",
-      "neighborhood": "Glendale",
-      "venue": "Nowadays",
-      "start": "2026-09-05T18:00:00",
-      "end": "2026-09-06T11:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2499989",
-      "source": "resident-advisor",
-      "lat": 40.692462,
-      "lon": -73.901536
-    },
-    {
       "id": "ra:2504283",
       "title": "Fango, Tim Sweeney, gabby cocco (all night)",
       "category": "music",
@@ -16095,7 +16020,9 @@
       "url": "https://ra.co/events/2518483",
       "source": "resident-advisor",
       "lat": 40.700486,
-      "lon": -73.925855
+      "lon": -73.925855,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6fc199be7cd34e840383bc19",
+      "spotifyUrl": "https://open.spotify.com/artist/5hHyalHR6NJWcXRxJlGvE4"
     },
     {
       "id": "ra:2519051",
@@ -16111,6 +16038,21 @@
       "source": "resident-advisor",
       "lat": 40.733348,
       "lon": -74.002264
+    },
+    {
+      "id": "ra:2522107",
+      "title": "Tony Humphries' Residency",
+      "category": "music",
+      "borough": "Manhattan",
+      "neighborhood": "Meatpacking District",
+      "venue": "Le Bain",
+      "start": "2026-09-05T18:00:00",
+      "end": "2026-09-06T00:00:00",
+      "isFree": false,
+      "url": "https://ra.co/events/2522107",
+      "source": "resident-advisor",
+      "lat": 40.741077,
+      "lon": -74.008285
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7q3bt",
@@ -16186,7 +16128,9 @@
       "url": "https://ra.co/events/2508377",
       "source": "resident-advisor",
       "lat": 40.723071,
-      "lon": -73.992029
+      "lon": -73.992029,
+      "image": "https://i.scdn.co/image/23550180853c491ef1045de19f4ebbbbcddb5c22",
+      "spotifyUrl": "https://open.spotify.com/artist/5a1rzsZSGBEkn2mZ4CfJET"
     },
     {
       "id": "ticketmaster:17GZv0G62r4oSJ4",
@@ -16336,21 +16280,6 @@
       "lon": -73.99
     },
     {
-      "id": "ra:2507284",
-      "title": "Matisa, Iñigo Vontier / Tomás Urquieta, Josh Steers / Justin Miller",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
-      "venue": "public records",
-      "start": "2026-09-05T19:00:00",
-      "end": "2026-09-06T00:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2507284",
-      "source": "resident-advisor",
-      "lat": 40.682261,
-      "lon": -73.986378
-    },
-    {
       "id": "ra:2507606",
       "title": "Ethos Special",
       "category": "music",
@@ -16406,21 +16335,6 @@
       "end": "2026-09-06T00:00:00",
       "isFree": false,
       "url": "https://ra.co/events/2514769",
-      "source": "resident-advisor",
-      "lat": 40.710864,
-      "lon": -73.936579
-    },
-    {
-      "id": "ra:2515155",
-      "title": "REGGAETON OPEN BAR (21+)",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "East Williamsburg",
-      "venue": "The Meadows",
-      "start": "2026-09-05T19:00:00",
-      "end": "2026-09-06T00:00:00",
-      "isFree": false,
-      "url": "https://ra.co/events/2515155",
       "source": "resident-advisor",
       "lat": 40.710864,
       "lon": -73.936579
@@ -16887,7 +16801,13 @@
       "url": "https://seatgeek.com/friends-the-musical-parody-tickets/theater/2026-09-05-8-30-pm/18411379",
       "source": "seatgeek",
       "lat": 40.7615,
-      "lon": -73.9845
+      "lon": -73.9845,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/friends-the-musical-parody-new-york-new-york-new-york-09-05-2026/event/300064F79472380A"
+        }
+      ]
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4Zd4K",
@@ -17067,9 +16987,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17086,9 +17006,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17105,9 +17025,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17124,9 +17044,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17143,9 +17063,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17162,9 +17082,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17181,9 +17101,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17200,9 +17120,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17231,9 +17151,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17250,9 +17170,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17269,9 +17189,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17288,9 +17208,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17307,9 +17227,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17326,9 +17246,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17345,9 +17265,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17364,9 +17284,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17383,9 +17303,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17470,9 +17390,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17489,9 +17409,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17508,9 +17428,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17619,9 +17539,9 @@
       "url": "https://www.grownyc.org/greenmarket",
       "source": "nyc-greenmarket",
       "weather": {
-        "icon": "03n",
-        "temp": 67,
-        "description": "scattered clouds",
+        "icon": "02n",
+        "temp": 66,
+        "description": "few clouds",
         "dt": 1788685200000
       }
     },
@@ -17657,7 +17577,7 @@
       "source": "smorgasburg",
       "weather": {
         "icon": "03d",
-        "temp": 66,
+        "temp": 65,
         "description": "scattered clouds",
         "dt": 1788696000000
       }
@@ -17853,20 +17773,6 @@
       "lon": -73.8448469
     },
     {
-      "id": "seatgeek:18166195",
-      "title": "The Gazillion Bubble Show - New York",
-      "category": "kids",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 2",
-      "start": "2026-09-06T12:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-09-06-12-pm/18166195",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
-    },
-    {
       "id": "seatgeek:18408144",
       "title": "Jamie Allan's Amaze - New York",
       "category": "other",
@@ -17876,6 +17782,20 @@
       "start": "2026-09-06T12:00:00",
       "isFree": false,
       "url": "https://seatgeek.com/jamie-allan-s-amaze-tickets/entertainment/2026-09-06-12-pm/18408144",
+      "source": "seatgeek",
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18166195",
+      "title": "The Gazillion Bubble Show - New York",
+      "category": "kids",
+      "borough": "Manhattan",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 2",
+      "start": "2026-09-06T12:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/the-gazillion-bubble-show-tickets/family/2026-09-06-12-pm/18166195",
       "source": "seatgeek",
       "lat": 40.7628,
       "lon": -73.9874
@@ -17989,20 +17909,6 @@
       "source": "nyc-open-data"
     },
     {
-      "id": "seatgeek:18096099",
-      "title": "Maybe Happy Ending - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Belasco Theatre - NY",
-      "start": "2026-09-06T13:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-09-06-1-pm/18096099",
-      "source": "seatgeek",
-      "lat": 40.7563,
-      "lon": -73.9836
-    },
-    {
       "id": "seatgeek:18155670",
       "title": "& Juliet - New York",
       "category": "other",
@@ -18015,6 +17921,20 @@
       "source": "seatgeek",
       "lat": 40.7559,
       "lon": -73.9849
+    },
+    {
+      "id": "seatgeek:18096099",
+      "title": "Maybe Happy Ending - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Belasco Theatre - NY",
+      "start": "2026-09-06T13:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/maybe-happy-ending-tickets/broadway/2026-09-06-1-pm/18096099",
+      "source": "seatgeek",
+      "lat": 40.7563,
+      "lon": -73.9836
     },
     {
       "id": "seatgeek:17958282",
@@ -18487,18 +18407,32 @@
       "neighborhood": "Flushing"
     },
     {
-      "id": "seatgeek:18257983",
-      "title": "Titanique - New York",
+      "id": "seatgeek:18054754",
+      "title": "The 25th Annual Putnam County Spelling Bee - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "St. James Theatre",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 3",
       "start": "2026-09-06T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-06-2-pm/18257983",
+      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-09-06-2-pm/18054754",
       "source": "seatgeek",
-      "lat": 40.758,
-      "lon": -73.9875
+      "lat": 40.7628,
+      "lon": -73.9874
+    },
+    {
+      "id": "seatgeek:18258245",
+      "title": "Richard O'Brien's Rocky Horror Show - New York",
+      "category": "theater",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown West",
+      "venue": "Studio 54 - New York",
+      "start": "2026-09-06T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-09-06-2-pm/18258245",
+      "source": "seatgeek",
+      "lat": 40.764313,
+      "lon": -73.9838
     },
     {
       "id": "seatgeek:18048985",
@@ -18529,18 +18463,18 @@
       "lon": -73.9857
     },
     {
-      "id": "seatgeek:17989921",
-      "title": "Schmigadoon! - New York",
-      "category": "theater",
+      "id": "seatgeek:18257983",
+      "title": "Titanique - New York",
+      "category": "other",
       "borough": "Manhattan",
       "neighborhood": "Midtown-Times Square",
-      "venue": "Nederlander Theatre - NY",
+      "venue": "St. James Theatre",
       "start": "2026-09-06T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-06-2-pm/17989921",
+      "url": "https://seatgeek.com/titanique-tickets/broadway/2026-09-06-2-pm/18257983",
       "source": "seatgeek",
-      "lat": 40.7557,
-      "lon": -73.9882
+      "lat": 40.758,
+      "lon": -73.9875
     },
     {
       "id": "seatgeek:18245508",
@@ -18557,32 +18491,18 @@
       "lon": -73.9837
     },
     {
-      "id": "seatgeek:18258245",
-      "title": "Richard O'Brien's Rocky Horror Show - New York",
+      "id": "seatgeek:17989921",
+      "title": "Schmigadoon! - New York",
       "category": "theater",
       "borough": "Manhattan",
-      "neighborhood": "Midtown West",
-      "venue": "Studio 54 - New York",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Nederlander Theatre - NY",
       "start": "2026-09-06T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/richard-o-brien-s-rocky-horror-show-tickets/theater/2026-09-06-2-pm/18258245",
+      "url": "https://seatgeek.com/schmigadoon-tickets/theater/2026-09-06-2-pm/17989921",
       "source": "seatgeek",
-      "lat": 40.764313,
-      "lon": -73.9838
-    },
-    {
-      "id": "seatgeek:18054754",
-      "title": "The 25th Annual Putnam County Spelling Bee - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 3",
-      "start": "2026-09-06T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-25th-annual-putnam-county-spelling-bee-tickets/broadway/2026-09-06-2-pm/18054754",
-      "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
+      "lat": 40.7557,
+      "lon": -73.9882
     },
     {
       "id": "seatgeek:17524977",
@@ -18599,20 +18519,6 @@
       "lon": -73.9927
     },
     {
-      "id": "seatgeek:18128043",
-      "title": "The Book of Mormon - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Eugene O'Neill Theatre",
-      "start": "2026-09-06T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-09-06-2-pm/18128043",
-      "source": "seatgeek",
-      "lat": 40.7611,
-      "lon": -73.9857
-    },
-    {
       "id": "seatgeek:17808273",
       "title": "The Outsiders - New York",
       "category": "other",
@@ -18627,18 +18533,18 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:18069681",
-      "title": "Heathers - The Musical - New York",
+      "id": "seatgeek:18128043",
+      "title": "The Book of Mormon - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Hell's Kitchen",
-      "venue": "New World Stages - Stage 1",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Eugene O'Neill Theatre",
       "start": "2026-09-06T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/heathers-tickets/broadway/2026-09-06-2-pm/18069681",
+      "url": "https://seatgeek.com/the-book-of-mormon-tickets/broadway/2026-09-06-2-pm/18128043",
       "source": "seatgeek",
-      "lat": 40.7628,
-      "lon": -73.9874
+      "lat": 40.7611,
+      "lon": -73.9857
     },
     {
       "id": "seatgeek:18052886",
@@ -18655,18 +18561,18 @@
       "lon": -73.9878
     },
     {
-      "id": "seatgeek:17898663",
-      "title": "Wicked - New York",
+      "id": "seatgeek:18069681",
+      "title": "Heathers - The Musical - New York",
       "category": "other",
       "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "Gershwin Theatre",
+      "neighborhood": "Hell's Kitchen",
+      "venue": "New World Stages - Stage 1",
       "start": "2026-09-06T14:00:00",
       "isFree": false,
-      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-09-06-2-pm/17898663",
+      "url": "https://seatgeek.com/heathers-tickets/broadway/2026-09-06-2-pm/18069681",
       "source": "seatgeek",
-      "lat": 40.7624,
-      "lon": -73.9851
+      "lat": 40.7628,
+      "lon": -73.9874
     },
     {
       "id": "seatgeek:18312919",
@@ -18697,6 +18603,20 @@
       "lon": -73.985
     },
     {
+      "id": "seatgeek:17898663",
+      "title": "Wicked - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "Gershwin Theatre",
+      "start": "2026-09-06T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/wicked-tickets/broadway/2026-09-06-2-pm/17898663",
+      "source": "seatgeek",
+      "lat": 40.7624,
+      "lon": -73.9851
+    },
+    {
       "id": "seatgeek:18027890",
       "title": "Just In Time - New York",
       "category": "other",
@@ -18709,20 +18629,6 @@
       "source": "seatgeek",
       "lat": 40.7623,
       "lon": -73.9852
-    },
-    {
-      "id": "seatgeek:17854681",
-      "title": "Frederick Keys at Brooklyn Cyclones",
-      "category": "other",
-      "borough": "Brooklyn",
-      "neighborhood": "Coney Island",
-      "venue": "Maimonides Park",
-      "start": "2026-09-06T14:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/brooklyn-cyclones-tickets/minor-league-baseball/2026-09-06-2-pm/17854681",
-      "source": "seatgeek",
-      "lat": 40.5748,
-      "lon": -73.9844
     },
     {
       "id": "seatgeek:17808386",
@@ -18751,6 +18657,20 @@
       "source": "seatgeek",
       "lat": 40.7602,
       "lon": -73.9868
+    },
+    {
+      "id": "seatgeek:17854681",
+      "title": "Frederick Keys at Brooklyn Cyclones",
+      "category": "other",
+      "borough": "Brooklyn",
+      "neighborhood": "Coney Island",
+      "venue": "Maimonides Park",
+      "start": "2026-09-06T14:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/brooklyn-cyclones-tickets/minor-league-baseball/2026-09-06-2-pm/17854681",
+      "source": "seatgeek",
+      "lat": 40.5748,
+      "lon": -73.9844
     },
     {
       "id": "ticketmaster:Z1r9uZrrZbpZ1Av-Aq0",
@@ -19329,20 +19249,6 @@
       "lon": -73.9857
     },
     {
-      "id": "seatgeek:18411383",
-      "title": "Perfect Crime - New York",
-      "category": "other",
-      "borough": "Manhattan",
-      "neighborhood": "Midtown-Times Square",
-      "venue": "The Theater Center",
-      "start": "2026-09-06T15:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-09-06-3-pm/18411383",
-      "source": "seatgeek",
-      "lat": 40.7615,
-      "lon": -73.9845
-    },
-    {
       "id": "seatgeek:18047662",
       "title": "Buena Vista Social Club - The Musical - New York",
       "category": "other",
@@ -19355,6 +19261,20 @@
       "source": "seatgeek",
       "lat": 40.7587,
       "lon": -73.9873
+    },
+    {
+      "id": "seatgeek:18411383",
+      "title": "Perfect Crime - New York",
+      "category": "other",
+      "borough": "Manhattan",
+      "neighborhood": "Midtown-Times Square",
+      "venue": "The Theater Center",
+      "start": "2026-09-06T15:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/perfect-crime-tickets/broadway/2026-09-06-3-pm/18411383",
+      "source": "seatgeek",
+      "lat": 40.7615,
+      "lon": -73.9845
     },
     {
       "id": "seatgeek:18332863",
@@ -19585,7 +19505,13 @@
       "url": "https://seatgeek.com/friends-the-musical-parody-tickets/theater/2026-09-06-3-30-pm/18411387",
       "source": "seatgeek",
       "lat": 40.7615,
-      "lon": -73.9845
+      "lon": -73.9845,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/friends-the-musical-parody-new-york-new-york-new-york-09-06-2026/event/300064F794773812"
+        }
+      ]
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afkfef",
@@ -19653,7 +19579,9 @@
       "url": "https://seatgeek.com/raulin-rodriguez-tickets/new-york-new-york-patio-at-radio-hotel-2026-09-06-5-pm/concert/18400052",
       "source": "seatgeek",
       "lat": 40.848087,
-      "lon": -73.93132
+      "lon": -73.93132,
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7aa84074b5212c38ff9d8e2",
+      "spotifyUrl": "https://open.spotify.com/artist/5rvaaWutd0gsbc2iMNo9k5"
     },
     {
       "id": "seatgeek:17923935",
@@ -19715,7 +19643,9 @@
       "url": "https://www.ticketmaster.com/beoga-new-york-new-york-09-06-2026/event/000064A7ABEBE4AA",
       "source": "ticketmaster",
       "lat": 40.722036,
-      "lon": -73.986806
+      "lon": -73.986806,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3ecb52d56385107d1932bdf4",
+      "spotifyUrl": "https://open.spotify.com/artist/659fOqEHzm3jL8AeWuOwXO"
     },
     {
       "id": "ticketmaster:k7vGF_2NjY99S",
@@ -19778,7 +19708,9 @@
       "url": "https://www.ticketweb.com/event/monica-ramey-birdland-jazz-club-tickets/14881823",
       "source": "ticketmaster",
       "lat": 40.7590167,
-      "lon": -73.9896861
+      "lon": -73.9896861,
+      "image": "https://i.scdn.co/image/1a72bee53e1a23c9bfe34656685ba7729a09e1d3",
+      "spotifyUrl": "https://open.spotify.com/artist/4YLgfkxC8TsUcgcvUNrUXE"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZfeb",
@@ -19814,6 +19746,20 @@
       "lon": -73.8301
     },
     {
+      "id": "seatgeek:18325660",
+      "title": "King's X (18+)",
+      "category": "music",
+      "borough": "Brooklyn",
+      "neighborhood": "Williamsburg",
+      "venue": "Brooklyn Bowl - NY",
+      "start": "2026-09-06T19:00:00",
+      "isFree": false,
+      "url": "https://seatgeek.com/king-s-x-tickets/brooklyn-new-york-brooklyn-bowl-ny-2026-09-06-7-pm/concert/18325660",
+      "source": "seatgeek",
+      "lat": 40.7219,
+      "lon": -73.9574
+    },
+    {
       "id": "seatgeek:18394259",
       "title": "Florida International Panthers at St. John's Red Storm Mens Soccer",
       "category": "other",
@@ -19840,20 +19786,6 @@
       "source": "seatgeek",
       "lat": 40.7529,
       "lon": -73.8508
-    },
-    {
-      "id": "seatgeek:18325660",
-      "title": "King's X (18+)",
-      "category": "music",
-      "borough": "Brooklyn",
-      "neighborhood": "Williamsburg",
-      "venue": "Brooklyn Bowl - NY",
-      "start": "2026-09-06T19:00:00",
-      "isFree": false,
-      "url": "https://seatgeek.com/king-s-x-tickets/brooklyn-new-york-brooklyn-bowl-ny-2026-09-06-7-pm/concert/18325660",
-      "source": "seatgeek",
-      "lat": 40.7219,
-      "lon": -73.9574
     },
     {
       "id": "ticketmaster:1AYZkfkGkei5f47",
@@ -19917,7 +19849,9 @@
       "url": "https://www.ticketmaster.com/kings-x-brooklyn-new-york-09-06-2026/event/000064D2D0EF13A7",
       "source": "ticketmaster",
       "lat": 40.721926,
-      "lon": -73.957346
+      "lon": -73.957346,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4cb902bdb2eb8eb00165d53f",
+      "spotifyUrl": "https://open.spotify.com/artist/3tn79LMMIdIT1T0TXumjaH"
     },
     {
       "id": "ticketmaster:k7vGF_ub6eTAN",
@@ -20037,7 +19971,9 @@
       "url": "https://seatgeek.com/don-toliver-tickets/brooklyn-new-york-barclays-center-2026-09-06-7-30-pm/concert/18326951",
       "source": "seatgeek",
       "lat": 40.6827,
-      "lon": -73.9753
+      "lon": -73.9753,
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc52b798deb89eb8414a51b7b",
+      "spotifyUrl": "https://open.spotify.com/artist/4Gso3d4CscCijv0lmajZWs"
     },
     {
       "id": "ticketmaster:17GZv0G6GwEbQ5A",
@@ -20123,7 +20059,9 @@
       "url": "https://www.ticketweb.com/event/the-annie-dukes-iridescent-bowery-palace-tickets/14213454",
       "source": "ticketmaster",
       "lat": 40.7257,
-      "lon": -73.991673
+      "lon": -73.991673,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9818c992f3ce1fc7e1817132",
+      "spotifyUrl": "https://open.spotify.com/artist/6Bxq83SK7yMbSVR1Rtl3dd"
     },
     {
       "id": "jambase:16425894",
@@ -20226,7 +20164,9 @@
       "url": "https://www.ticketweb.com/event/insyt-night-club-101-tickets/15010033",
       "source": "ticketmaster",
       "lat": 40.725911,
-      "lon": -73.984043
+      "lon": -73.984043,
+      "image": "https://i.scdn.co/image/ab6761610000e5eba0739da1450bae22fc2fb5ea",
+      "spotifyUrl": "https://open.spotify.com/artist/6zXrh1uRnN78Wz55OMYV3O"
     },
     {
       "id": "jambase:16094524",
@@ -20292,7 +20232,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "01n",
-        "temp": 64,
+        "temp": 65,
         "description": "clear sky",
         "dt": 1788771600000
       }
@@ -20359,7 +20299,7 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "01d",
-        "temp": 65,
+        "temp": 66,
         "description": "clear sky",
         "dt": 1788782400000
       }
@@ -20506,8 +20446,8 @@
       "lon": -73.9894,
       "altTicketLinks": [
         {
-          "source": "jambase",
-          "url": "https://www.jambase.com/show/vince-giordano-and-the-nighthawks-birdland-theater-20260907-2"
+          "source": "ticketmaster",
+          "url": "https://www.ticketweb.com/event/vince-giordano-and-the-nighthawks-birdland-theater-tickets/14881123"
         }
       ]
     },
@@ -20563,9 +20503,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20582,9 +20522,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20601,9 +20541,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20620,9 +20560,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20639,9 +20579,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20658,9 +20598,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20677,9 +20617,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20696,9 +20636,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20715,9 +20655,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20734,9 +20674,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20753,9 +20693,9 @@
       "source": "nyc-greenmarket",
       "weather": {
         "icon": "04n",
-        "temp": 70,
-        "description": "broken clouds",
-        "dt": 1788847200000
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
       }
     },
     {
@@ -20769,7 +20709,13 @@
       "end": "2026-09-08T14:00:00",
       "isFree": true,
       "url": "https://www.grownyc.org/greenmarket",
-      "source": "nyc-greenmarket"
+      "source": "nyc-greenmarket",
+      "weather": {
+        "icon": "04n",
+        "temp": 68,
+        "description": "overcast clouds",
+        "dt": 1788858000000
+      }
     },
     {
       "id": "cityparks:21337",
@@ -20784,7 +20730,13 @@
       "source": "cityparks",
       "lat": 40.7685167,
       "lon": -73.98219379999999,
-      "neighborhood": "Lincoln Square"
+      "neighborhood": "Lincoln Square",
+      "weather": {
+        "icon": "04n",
+        "temp": 67,
+        "description": "overcast clouds",
+        "dt": 1788858000000
+      }
     },
     {
       "id": "bpl:839893",
@@ -41215,6 +41167,20 @@
       "lat": 40.7416921,
       "lon": -73.98257819999999,
       "neighborhood": "Rose Hill"
+    },
+    {
+      "id": "todaytix:47725",
+      "title": "Ewa Dziarnowska: This resting, patience",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "NYU Skirball",
+      "start": "2026-10-01T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/ewa-dziarnowska-this-resting-patience",
+      "source": "todaytix",
+      "lat": 40.7297963,
+      "lon": -73.9977487,
+      "neighborhood": "South Village"
     },
     {
       "id": "jambase:14642763",

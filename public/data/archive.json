@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T09:00:49.528Z",
-  "count": 9844,
+  "generatedAt": "2026-09-03T14:46:39.373Z",
+  "count": 9843,
   "events": [
     {
       "id": "jambase:15927339",
@@ -16,64 +16,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2026/03/front-porch-fest-1480x832.png",
       "lat": 36.6248,
       "lon": -80.3334
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZOaE",
-      "title": "New York State Fair",
-      "category": "other",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "New York State Fair",
-      "start": "2026-09-03T09:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOaE",
-      "source": "ticketmaster",
-      "lat": 43.084499,
-      "lon": -76.247002
-    },
-    {
-      "id": "ticketmaster:vv177Z_kGkm4OhGh",
-      "title": "Colonial Downs Live Racing",
-      "category": "sports",
-      "city": "New Kent",
-      "state": "VA",
-      "venue": "Colonial Downs",
-      "start": "2026-09-03T09:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/colonial-downs-live-racing-new-kent-virginia-09-03-2026/event/0100646B9581B31B",
-      "source": "ticketmaster",
-      "lat": 37.487093,
-      "lon": -77.005205
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1EJ1J4",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-09-03T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-09-03-2026/event/00006452A798A995",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:1ApZkfoGkePRJa8",
-      "title": "PPG Paints Arena Tours",
-      "category": "other",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "PPG Paints Arena",
-      "start": "2026-09-03T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/ppg-paints-arena-tours-pittsburgh-pennsylvania-09-03-2026/event/16006511A5BE6250",
-      "source": "ticketmaster",
-      "lat": 40.4388401,
-      "lon": -79.9908551,
-      "neighborhood": "Uptown"
     },
     {
       "id": "ticketmaster:k7vGF_1bE3eut",
@@ -216,6 +158,21 @@
       "lat": 42.36606,
       "lon": -71.060956,
       "neighborhood": "West End"
+    },
+    {
+      "id": "ticketmaster:1ApZkfoGkePmUaF",
+      "title": "PPG Paints Arena Tours",
+      "category": "other",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "venue": "PPG Paints Arena",
+      "start": "2026-09-03T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ppg-paints-arena-tours-pittsburgh-pennsylvania-09-03-2026/event/16006511A5BB6248",
+      "source": "ticketmaster",
+      "lat": 40.4388401,
+      "lon": -79.9908551,
+      "neighborhood": "Uptown"
     },
     {
       "id": "ticketmaster:vvG17ZbReIV40L",
@@ -6290,6 +6247,20 @@
       "lon": -80.216159
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-tvd",
+      "title": "Bucknell Bison Football vs. Villanova Wildcats Football",
+      "category": "sports",
+      "city": "Lewisburg",
+      "state": "PA",
+      "venue": "Christy Mathewson - Memorial Stadium",
+      "start": "2026-09-05T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-tvd",
+      "source": "ticketmaster",
+      "lat": 40.988499,
+      "lon": -76.978699
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7jd4e",
       "title": "Harrisburg Senators vs. Altoona Curve",
       "category": "sports",
@@ -11986,6 +11957,21 @@
       "lon": -72.5684
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7jJfK",
+      "title": "Rochester Red Wings vs. Scranton Wilkes-Barre RailRiders",
+      "category": "sports",
+      "city": "Rochester",
+      "state": "NY",
+      "venue": "ESL Ballpark",
+      "start": "2026-09-07T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jJfK",
+      "source": "ticketmaster",
+      "lat": 43.153999,
+      "lon": -77.624702,
+      "neighborhood": "Susan B. Anthony"
+    },
+    {
       "id": "ticketmaster:vvG1FZ_13EhcPN",
       "title": "J & J Demolition Derby",
       "category": "other",
@@ -12046,6 +12032,22 @@
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfFejf",
+      "title": "FREE SHOW - HALF PAST DEAD",
+      "category": "music",
+      "city": "Syracuse",
+      "state": "NY",
+      "venue": "The Great New York State Fair",
+      "start": "2026-09-07T18:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/free-show-half-the-great-new-york-state-tickets/14202714",
+      "source": "ticketmaster",
+      "lat": 43.0711416,
+      "lon": -76.2146879
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4Z4-K",
@@ -14450,6 +14452,21 @@
       "neighborhood": "North Philadelphia"
     },
     {
+      "id": "ticketmaster:1A4ZkowGkeTanal",
+      "title": "Myles Smith - My Mess, My Heart, My Life Tour",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Pier Six Pavilion",
+      "start": "2026-09-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/myles-smith-my-mess-my-heart-baltimore-maryland-09-09-2026/event/15006472BF26A26B",
+      "source": "ticketmaster",
+      "lat": 39.284033,
+      "lon": -76.604426,
+      "neighborhood": "Inner Harbor"
+    },
+    {
       "id": "ticketmaster:LvZ18QJS_q7z14GLrv7f8",
       "title": "Do Portugal Circus - Hyattsville, MD",
       "category": "other",
@@ -14838,21 +14855,6 @@
       "lat": 39.96477,
       "lon": -75.134457,
       "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:1A4ZkowGkeTanal",
-      "title": "Myles Smith - My Mess, My Heart, My Life Tour",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Pier Six Pavilion",
-      "start": "2026-09-09T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/myles-smith-my-mess-my-heart-baltimore-maryland-09-09-2026/event/15006472BF26A26B",
-      "source": "ticketmaster",
-      "lat": 39.284033,
-      "lon": -76.604426,
-      "neighborhood": "Inner Harbor"
     },
     {
       "id": "ticketmaster:1A4ZkooGkeSGh1p",
@@ -16873,20 +16875,6 @@
       "lat": 40.428909,
       "lon": -79.986635,
       "neighborhood": "South Side Flats"
-    },
-    {
-      "id": "ticketmaster:vv1AeZkosGkdKvW-R",
-      "title": "OMAR COURTZ - POR SI MAÑANA NO ESTOY USA TOUR",
-      "category": "music",
-      "city": "Reading",
-      "state": "PA",
-      "venue": "The Santander Arena ",
-      "start": "2026-09-10T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/omar-courtz-por-si-manana-no-reading-pennsylvania-09-10-2026/event/02006471D307D86F",
-      "source": "ticketmaster",
-      "lat": 40.3351466,
-      "lon": -75.92302063
     },
     {
       "id": "jambase:16274719",
@@ -19881,21 +19869,6 @@
       "source": "ticketmaster",
       "lat": 41.32352,
       "lon": -74.80013
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CTM45Bd",
-      "title": "Dinner Package - Crickets & Cicadas - Not a Concert Ticket",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-09-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-crickets-cicadas-not-a-philadelphia-pennsylvania-09-11-2026/event/020064EFF754BE83",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
     },
     {
       "id": "ticketmaster:vvG1FZ_CqZBklf",
@@ -23530,21 +23503,6 @@
       "source": "ticketmaster",
       "lat": 39.96477,
       "lon": -75.134457,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_2ZK9zm7",
-      "title": "Dinner Package - Xavier Wulf - Not a Concert Ticket",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-09-12T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-xavier-wulf-not-a-philadelphia-pennsylvania-09-12-2026/event/020064F0135F8B84",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
       "neighborhood": "North Philadelphia"
     },
     {
@@ -31645,6 +31603,20 @@
       "lon": -74.10333
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdAublP",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-17T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-17-2026/event/02006522C5358AE5",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Af0S4N",
       "title": "Linsy Clark",
       "category": "music",
@@ -33090,6 +33062,20 @@
       "lon": -75.6869693
     },
     {
+      "id": "ticketmaster:vv1AeZkosGkdKvW-R",
+      "title": "OMAR COURTZ - POR SI MAÑANA NO ESTOY USA TOUR",
+      "category": "music",
+      "city": "Reading",
+      "state": "PA",
+      "venue": "The Santander Arena ",
+      "start": "2026-09-17T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/omar-courtz-por-si-manana-no-reading-pennsylvania-09-17-2026/event/02006471D307D86F",
+      "source": "ticketmaster",
+      "lat": 40.3351466,
+      "lon": -75.92302063
+    },
+    {
       "id": "jambase:16328455",
       "title": "Trampled by Turtles",
       "category": "music",
@@ -33913,6 +33899,20 @@
       "lat": 38.892101,
       "lon": -77.022301,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdA2biF",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-18T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-18-2026/event/02006522C53D8B08",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7r4vz",
@@ -38060,21 +38060,6 @@
       "neighborhood": "North Philadelphia"
     },
     {
-      "id": "ticketmaster:vvG1FZ_CThqpy4",
-      "title": "Dinner Package - Punchis! Punchis! Banda Rave - Not a Ticket (18+)",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-09-18T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-punchis-punchis-banda-rave-philadelphia-pennsylvania-09-18-2026/event/020064EFDB756E55",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "ticketmaster:17A8v0G613sj1Xz",
       "title": "Gareth Emery: LSR/CITY",
       "category": "music",
@@ -38685,6 +38670,20 @@
       "neighborhood": "Regency"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdA3zco",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-19T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-19-2026/event/02006522C54B8B51",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:vv1AvZkoyGkdNVuW2",
       "title": "Undertale - The Determination Symphony World Tour",
       "category": "music",
@@ -38698,6 +38697,20 @@
       "lat": 42.3499769,
       "lon": -71.0652677,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-tv7",
+      "title": "Bucknell Bison Football vs. Pennsylvania Quakers Football",
+      "category": "sports",
+      "city": "Lewisburg",
+      "state": "PA",
+      "venue": "Christy Mathewson - Memorial Stadium",
+      "start": "2026-09-19T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-tv7",
+      "source": "ticketmaster",
+      "lat": 40.988499,
+      "lon": -76.978699
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7r4vJ",
@@ -38895,21 +38908,6 @@
       "lat": 39.9014,
       "lon": -75.1676,
       "neighborhood": "South Philadelphia East"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CTMihXK",
-      "title": "Dinner Package - Earlybirds Club - Not a Concert Ticket (21+)",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-09-19T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-earlybirds-club-not-a-philadelphia-pennsylvania-09-19-2026/event/020064EFF7B1BF93",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
     },
     {
       "id": "ticketmaster:vvG1FZ_CU7DpKp",
@@ -42897,6 +42895,20 @@
       "source": "ticketmaster",
       "lat": 40.584999,
       "lon": -74.229698
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdApbRp",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-20T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-20-2026/event/02006522C5598BD6",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70pk7",
@@ -47696,6 +47708,20 @@
       "neighborhood": "Fairview"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdA_IYM",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-23T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-23-2026/event/02006522C5668C37",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1A4vFGS",
       "title": "Badlands (1973)",
       "category": "other",
@@ -49527,6 +49553,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdAqFw5",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-24T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-24-2026/event/02006522C5748C8B",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:vv1AeZkGpGkdKldqD",
       "title": "Aloha From Vegas: The Ultimate Elvis Tribute",
       "category": "music",
@@ -49785,6 +49825,20 @@
       "source": "ticketmaster",
       "lat": 40.80969,
       "lon": -74.06804
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdALbwN",
+      "title": "Avengers Endgame: Encore: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/avengers-endgame-encore-the-imax-experience-atlantic-city-new-jersey-09-24-2026/event/02006522C57D8CA3",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:vvG1FZ_1RoarsI",
@@ -51498,21 +51552,6 @@
       "lon": -75.359982
     },
     {
-      "id": "ticketmaster:vvG1FZ_CTMc5Xq",
-      "title": "Dinner Package - Jose Madero - Not a Concert Ticket",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-09-24T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-jose-madero-not-a-philadelphia-pennsylvania-09-24-2026/event/020064EFF7B4BF9D",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "ticketmaster:vvG1FZ_u7vXliN",
       "title": "Jose Madero - USA Tour 2026",
       "category": "music",
@@ -52304,6 +52343,20 @@
       "lon": -75.066704
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdAOIwV",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-25T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-25-2026/event/02006522C5828CB4",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:17A8v0G61kgGnSl",
       "title": "All Things Go Music Festival - Friday",
       "category": "music",
@@ -52317,6 +52370,20 @@
       "lat": 39.209019,
       "lon": -76.862583,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdA-zwT",
+      "title": "Avengers Endgame: Encore: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-25T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/avengers-endgame-encore-the-imax-experience-atlantic-city-new-jersey-09-25-2026/event/02006522C5878CBF",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:vvG1FZ_uNqRL4F",
@@ -54651,6 +54718,20 @@
       "lon": -72.467102
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAv9oM",
+      "title": "Dalvin La Melodia",
+      "category": "other",
+      "city": "Lynn",
+      "state": "MA",
+      "venue": "Lynn Auditorium",
+      "start": "2026-09-25T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9oM",
+      "source": "ticketmaster",
+      "lat": 42.461102,
+      "lon": -70.946999
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1A4Z0AK",
       "title": "Boogie Chillin' & The Housetones",
       "category": "music",
@@ -55042,21 +55123,6 @@
       "source": "ticketmaster",
       "lat": 39.851086,
       "lon": -75.348032
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CTMcDXg",
-      "title": "Dinner Package - Nitzer Ebb - Not a Concert Ticket",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-09-25T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-nitzer-ebb-not-a-philadelphia-pennsylvania-09-25-2026/event/020064EFF7B7BFB5",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
     },
     {
       "id": "ticketmaster:vvG1FZ_uDZD3A_",
@@ -56552,6 +56618,20 @@
       "neighborhood": "Fairview"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdA0FSb",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-26T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-26-2026/event/02006522C5908CD8",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:G5vVZ_21RgW9o",
       "title": "Taste of the Mediterranean",
       "category": "other",
@@ -56743,6 +56823,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/sister-hazel-1480x832.png",
       "lat": 44.1894,
       "lon": -70.2348
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdAPFSR",
+      "title": "Avengers Endgame: Encore: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-26T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/avengers-endgame-encore-the-imax-experience-atlantic-city-new-jersey-09-26-2026/event/02006522C5948CEF",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:vv1AvZkfKGkd0GLC-",
@@ -59021,6 +59115,20 @@
       "neighborhood": "Brighton"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ4PZ",
+      "title": "Dalvin La Melodia",
+      "category": "other",
+      "city": "Lynn",
+      "state": "MA",
+      "venue": "Lynn Auditorium",
+      "start": "2026-09-26T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ4PZ",
+      "source": "ticketmaster",
+      "lat": 42.461102,
+      "lon": -70.946999
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvkFN",
       "title": "Sasha Velour: Travesty",
       "category": "theater",
@@ -59164,27 +59272,6 @@
       "source": "ticketmaster",
       "lat": 40.4803657,
       "lon": -79.9748313
-    },
-    {
-      "id": "jambase:16384315",
-      "title": "Way Dynamic",
-      "category": "music",
-      "city": "Millvale",
-      "state": "PA",
-      "venue": "The Funhouse at Mr. Smalls",
-      "start": "2026-09-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/way-dynamic-the-funhouse-at-mr-smalls-20260926",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.4809,
-      "lon": -79.9723,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/way-dynamic-millvale-pennsylvania-09-26-2026/event/160064B5AA729365"
-        }
-      ]
     },
     {
       "id": "ticketmaster:17GZv0G62VJJhfm",
@@ -59615,6 +59702,27 @@
       "source": "ticketmaster",
       "lat": 44.445999,
       "lon": -73.172501
+    },
+    {
+      "id": "jambase:16384315",
+      "title": "Way Dynamic",
+      "category": "music",
+      "city": "Millvale",
+      "state": "PA",
+      "venue": "The Funhouse at Mr. Smalls",
+      "start": "2026-09-26T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/way-dynamic-the-funhouse-at-mr-smalls-20260926",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+      "lat": 40.4809,
+      "lon": -79.9723,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/way-dynamic-millvale-pennsylvania-09-26-2026/event/160064B5AA729365"
+        }
+      ]
     },
     {
       "id": "jambase:16231368",
@@ -60612,6 +60720,23 @@
       "lon": -71.069057
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfGvOV",
+      "title": "Parlour Magic",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Nikki Lopez Philly",
+      "start": "2026-09-26T22:00:00",
+      "isFree": false,
+      "priceMin": 19.49,
+      "priceMax": 19.49,
+      "url": "https://www.ticketweb.com/event/parlour-magic-nikki-lopez-philly-tickets/14301834",
+      "source": "ticketmaster",
+      "lat": 39.941327,
+      "lon": -75.1478724,
+      "neighborhood": "Queen Village"
+    },
+    {
       "id": "ticketmaster:17A8v0G6G3_cF5S",
       "title": "Gorgon City",
       "category": "music",
@@ -61036,6 +61161,20 @@
       "neighborhood": "Fairview"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdAEbVp",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-27T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-27-2026/event/02006522C59D8D16",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "jambase:15741298",
       "title": "Tommy James & The Shondells",
       "category": "music",
@@ -61233,6 +61372,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2017/04/switchfoot-switchfoot-1235b079-1c9b-41d9-a814-2c636a5836a4_101221_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
       "lat": 42.4998,
       "lon": -77.1884
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdAIIVN",
+      "title": "Avengers Endgame: Encore: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-27T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/avengers-endgame-encore-the-imax-experience-atlantic-city-new-jersey-09-27-2026/event/02006522C5A28D23",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:vvG1FZ_G_eoB6r",
@@ -66078,6 +66231,20 @@
       "neighborhood": "Fairview"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdAlbgK",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-30T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-09-30-2026/event/02006522C5AD8D53",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZ37x",
       "title": "Ragtime",
       "category": "theater",
@@ -66104,6 +66271,20 @@
       "source": "ticketmaster",
       "lat": 38.7673,
       "lon": -75.285797
+    },
+    {
+      "id": "ticketmaster:vv1AeZkfxGkdAiIgX",
+      "title": "Avengers Endgame: Encore: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-09-30T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/avengers-endgame-encore-the-imax-experience-atlantic-city-new-jersey-09-30-2026/event/02006522C5B28D7E",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PvAt",
@@ -67833,6 +68014,20 @@
       "neighborhood": "Center City West"
     },
     {
+      "id": "ticketmaster:vv1AeZkfxGkdAmzUq",
+      "title": "Resident Evil: The IMAX Experience",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-10-01T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/resident-evil-the-imax-experience-atlantic-city-new-jersey-10-01-2026/event/02006522C5BB8D9D",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZ37P",
       "title": "Ragtime",
       "category": "theater",
@@ -69273,21 +69468,6 @@
       "source": "ticketmaster",
       "lat": 39.96477,
       "lon": -75.134457,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CTMmlTA",
-      "title": "Dinner Package - Frog - Not a Concert Ticket",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-10-01T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-frog-not-a-concert-philadelphia-pennsylvania-10-01-2026/event/020064EFF7BABFC5",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
       "neighborhood": "North Philadelphia"
     },
     {
@@ -71972,21 +72152,6 @@
       "source": "ticketmaster",
       "lat": 40.17542,
       "lon": -76.31327
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CTLO90n",
-      "title": "Dinner Package - The Mountain Jam Band - Not a Concert Ticket (21+)",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-10-02T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-the-mountain-jam-band-philadelphia-pennsylvania-10-02-2026/event/020064EFDF81792A",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
     },
     {
       "id": "ticketmaster:vvG1FZ_CTLrE0K",
@@ -75341,21 +75506,6 @@
       ]
     },
     {
-      "id": "ticketmaster:vvG1FZ_CTMRhTf",
-      "title": "Dinner Package - Everything Everything - Not a Concert Ticket",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-10-03T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dinner-package-everything-everything-not-a-philadelphia-pennsylvania-10-03-2026/event/020064EFF7BDBFD4",
-      "source": "ticketmaster",
-      "lat": 39.965473,
-      "lon": -75.134829,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "ticketmaster:vvG1FZ_G3NVjIA",
       "title": "Towa Bird",
       "category": "music",
@@ -76787,14 +76937,14 @@
     },
     {
       "id": "ticketmaster:164Zkf_jVZA8de7F",
-      "title": "Fortas Chamber Music Concerts Presents Jennifer Koh: Bach And Beyond",
+      "title": "MOVED TO HAMMER AUDITORIUM: Jennifer Koh: Bach And Beyond",
       "category": "music",
       "city": "Washington",
       "state": "DC",
       "venue": "Flagg Building Atrium",
       "start": "2026-10-04T15:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/fortas-chamber-music-concerts-presents-jennifer-washington-district-of-columbia-10-04-2026/event/15006519734F2137",
+      "url": "https://www.ticketmaster.com/moved-to-hammer-auditorium-jennifer-koh-washington-district-of-columbia-10-04-2026/event/15006519734F2137",
       "source": "ticketmaster",
       "lat": 38.8959,
       "lon": 77.03977,
@@ -81967,6 +82117,21 @@
       "neighborhood": "Downtown Mall"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af0UeK",
+      "title": "Network Wednesdays w/ PilzBury",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-10-07T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/network-wednesdays-w-pilzbury-middle-east-cornerbakery-tickets/14936093",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfZOqV",
       "title": "The Ooze",
       "category": "music",
@@ -83316,6 +83481,20 @@
       "neighborhood": "North Philadelphia"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ4O6",
+      "title": "KRS-One - Ages 21+",
+      "category": "music",
+      "city": "Ardmore",
+      "state": "PA",
+      "venue": "Ardmore Music Hall",
+      "start": "2026-10-08T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ4O6",
+      "source": "ticketmaster",
+      "lat": 40.002102,
+      "lon": -75.299202
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfqzZS",
       "title": "Mo Lowda & The Humble w/ special guest Surf Hat",
       "category": "music",
@@ -84384,6 +84563,58 @@
       "lon": -79.914301
     },
     {
+      "id": "ticketmaster:vv17FZ_8GkUnFdCY",
+      "title": "Alabama Live In Concert",
+      "category": "music",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "Bryce Jordan Center",
+      "start": "2026-10-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/alabama-live-in-concert-university-park-pennsylvania-10-09-2026/event/0200650DAA2033B0",
+      "source": "ticketmaster",
+      "lat": 40.8086435,
+      "lon": -77.8558448,
+      "neighborhood": "University Park"
+    },
+    {
+      "id": "jambase:16263224",
+      "title": "Basement",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "The Fillmore Philadelphia",
+      "start": "2026-10-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/basement-the-fillmore-philadelphia-20261009",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2015/06/basement-press-may-2026-1480x832.jpg",
+      "lat": 39.9656,
+      "lon": -75.1351,
+      "neighborhood": "North Philadelphia",
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/basement-philadelphia-pennsylvania-10-09-2026/event/0200649ED9066B3E"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster:vv1AeZk3vGkesjieB",
+      "title": "BERT KREISCHER: PERMISSION TO PARTY",
+      "category": "comedy",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "The Met Presented by Highmark",
+      "start": "2026-10-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/bert-kreischer-permission-to-party-philadelphia-pennsylvania-10-09-2026/event/02006481B172C0BA",
+      "source": "ticketmaster",
+      "lat": 39.969938,
+      "lon": -75.160278,
+      "neighborhood": "North Philadelphia"
+    },
+    {
       "id": "ticketmaster:17A8v0G6uLaF_bZ",
       "title": "Felix And Fingers Dueling Pianos",
       "category": "music",
@@ -84687,22 +84918,6 @@
       "lon": -76.2007
     },
     {
-      "id": "jambase:16263224",
-      "title": "Basement",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Fillmore Philadelphia",
-      "start": "2026-10-09T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/basement-the-fillmore-philadelphia-20261009",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/basement-press-may-2026-1480x832.jpg",
-      "lat": 39.9656,
-      "lon": -75.1351,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "jambase:16355120",
       "title": "Pat Barrett",
       "category": "music",
@@ -84951,6 +85166,80 @@
       "source": "ticketmaster",
       "lat": 42.419637,
       "lon": -71.109255
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-ffy",
+      "title": "Philadelphia Ballet w/ Stars and Stripes Forever",
+      "category": "other",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Academy of Music - PA",
+      "start": "2026-10-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-ffy",
+      "source": "ticketmaster",
+      "lat": 39.953098,
+      "lon": -75.1651,
+      "neighborhood": "Center City West"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70sAI",
+      "title": "Vitamin String Quartet w/ Girl Named Tom",
+      "category": "music",
+      "city": "Lancaster",
+      "state": "PA",
+      "venue": "American Music Theatre",
+      "start": "2026-10-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70sAI",
+      "source": "ticketmaster",
+      "lat": 40.0158,
+      "lon": -76.245201
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_2eZbkUH",
+      "title": "Penn State Women's Volleyball vs Northwestern",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "Rec Hall",
+      "start": "2026-10-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/penn-state-womens-volleyball-vs-northwestern-university-park-pennsylvania-10-09-2026/event/020064F080606DBC",
+      "source": "ticketmaster",
+      "lat": 40.796046,
+      "lon": -77.869234,
+      "neighborhood": "University Park"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_5Sbp6qK",
+      "title": "Cipha Sounds",
+      "category": "comedy",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Punch Line Philly",
+      "start": "2026-10-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cipha-sounds-philadelphia-pennsylvania-10-09-2026/event/020064BCD8587753",
+      "source": "ticketmaster",
+      "lat": 39.965819,
+      "lon": -75.134752,
+      "neighborhood": "North Philadelphia"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_G2NeFKW",
+      "title": "Walnut Street Theatre's THE ADDAMS FAMILY: The Musical",
+      "category": "theater",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Walnut Street Theatre",
+      "start": "2026-10-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/walnut-street-theatres-the-addams-family-philadelphia-pennsylvania-10-09-2026/event/020064C3E30884FD",
+      "source": "ticketmaster",
+      "lat": 39.9482621,
+      "lon": -75.1555148,
+      "neighborhood": "Center City East"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70ZC9",
@@ -85314,6 +85603,21 @@
           "url": "https://www.ticketmaster.com/playing-dead-salisbury-massachusetts-10-09-2026/event/010064631B81193E"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:1AvbZ_kGksDWdi5",
+      "title": "CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR",
+      "category": "comedy",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "venue": "Citizens Live at The Wylie",
+      "start": "2026-10-09T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-pittsburgh-pennsylvania-10-09-2026/event/1600646C7BF43B0B",
+      "source": "ticketmaster",
+      "lat": 40.44217,
+      "lon": -79.98994,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:17A8v0G65R-wunc",
@@ -92119,6 +92423,21 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "ticketmaster:164ZkfxepZAG7C28",
+      "title": "Fortas Chamber Music Concerts: Davóne Tines: Recital No 1: MASS",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Hammer Auditorium",
+      "start": "2026-10-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/fortas-chamber-music-concerts-davone-tines-washington-district-of-columbia-10-14-2026/event/15006522096B3DEF",
+      "source": "ticketmaster",
+      "lat": 38.8958299,
+      "lon": -77.040225,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:17A8v0G62ZVbm11",
       "title": "Washington Capitals vs. Montreal Canadiens",
       "category": "sports",
@@ -94673,6 +94992,20 @@
       "lon": -74.06804
     },
     {
+      "id": "ticketmaster:k7vGF_3104whp",
+      "title": "FRONT ROW CENTER",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Wonder Bar",
+      "start": "2026-10-16T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/front-row-center-asbury-park-new-jersey-10-16-2026/event/00006522A45726D6",
+      "source": "ticketmaster",
+      "lat": 40.22328639,
+      "lon": -73.99950139
+    },
+    {
       "id": "ticketmaster:k7vGF_5RdMotI",
       "title": "Daniel Donato's Cosmic Country",
       "category": "music",
@@ -94775,6 +95108,23 @@
       "lat": 42.362857,
       "lon": -71.118134,
       "neighborhood": "Lower Allston"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfGvr7",
+      "title": "All Night Boogie Band & Troy Mercy",
+      "category": "music",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Off The Rails Outdoors",
+      "start": "2026-10-16T19:00:00",
+      "isFree": false,
+      "priceMin": 25.35,
+      "priceMax": 56.25,
+      "url": "https://www.ticketweb.com/event/all-night-boogie-band-off-the-rails-outdoors-tickets/14301784",
+      "source": "ticketmaster",
+      "lat": 42.2666,
+      "lon": -71.79923,
+      "neighborhood": "Central Business District"
     },
     {
       "id": "ticketmaster:vvG17Z_1hhrKOS",
@@ -97971,6 +98321,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 44.4663,
       "lon": -73.1679
+    },
+    {
+      "id": "ticketmaster:G5vVZ_3uRgeRy",
+      "title": "Not That Innocent - 2000s Dance Party",
+      "category": "music",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "venue": "Dream Live at American Dream",
+      "start": "2026-10-17T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/not-that-innocent-2000s-dance-party-east-rutherford-new-jersey-10-17-2026/event/1D0065236FD42BF9",
+      "source": "ticketmaster",
+      "lat": 40.80969,
+      "lon": -74.06804
     },
     {
       "id": "ticketmaster:G5vVZ_Clu-3_7",
@@ -119469,6 +119833,20 @@
       ]
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAv9oz",
+      "title": "Dalvin La Melodia",
+      "category": "other",
+      "city": "Elizabeth",
+      "state": "NJ",
+      "venue": "Ritz Theatre - NJ",
+      "start": "2026-11-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9oz",
+      "source": "ticketmaster",
+      "lat": 40.670898,
+      "lon": -74.179001
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Af1aQf",
       "title": "Original Last Comic Standing Winner DAT PHAN",
       "category": "comedy",
@@ -129823,14 +130201,14 @@
     },
     {
       "id": "ticketmaster:16vfZ_oPzG7Hw8-",
-      "title": "Fortas Chamber Music Concerts Presents PUBLIQuartet:  RhythmNation",
+      "title": "MOVED TO HAMMER AUDITORIUM: PUBLIQuartet:  RhythmNation",
       "category": "music",
       "city": "Washington",
       "state": "DC",
       "venue": "Flagg Building Atrium",
       "start": "2026-11-15T15:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/fortas-chamber-music-concerts-presents-publiquartet-washington-district-of-columbia-11-15-2026/event/1500651978F32421",
+      "url": "https://www.ticketmaster.com/moved-to-hammer-auditorium-publiquartet-rhythmnation-washington-district-of-columbia-11-15-2026/event/1500651978F32421",
       "source": "ticketmaster",
       "lat": 38.8959,
       "lon": 77.03977,
@@ -133014,35 +133392,6 @@
       "lon": -74.499199
     },
     {
-      "id": "ticketmaster:k7vGF_1B4cDPN",
-      "title": "Robby Hoffman",
-      "category": "comedy",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "New Jersey Performing Arts Center",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/robby-hoffman-newark-new-jersey-11-19-2026/event/000064AE95B7B963",
-      "source": "ticketmaster",
-      "lat": 40.739502,
-      "lon": -74.16809,
-      "neighborhood": "Central Ward"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_29_Phlg",
-      "title": "Dark Star Orchestra",
-      "category": "music",
-      "city": "Montclair",
-      "state": "NJ",
-      "venue": "The Wellmont Theater",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dark-star-orchestra-montclair-new-jersey-11-19-2026/event/020064F5D995BAF5",
-      "source": "ticketmaster",
-      "lat": 40.8124988,
-      "lon": -74.2165153
-    },
-    {
       "id": "jambase:16024051",
       "title": "Metallica",
       "category": "music",
@@ -133378,20 +133727,6 @@
       "neighborhood": "North Philadelphia"
     },
     {
-      "id": "ticketmaster:k7vGF_5zQT0Kj",
-      "title": "Punchline \"37 Everywhere\" 20th Anniversary -  21+ Event",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Wonder Bar",
-      "start": "2026-11-20T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/punchline-37-everywhere-20th-anniversary-21-asbury-park-new-jersey-11-20-2026/event/000064BE1AFE44DC",
-      "source": "ticketmaster",
-      "lat": 40.22328639,
-      "lon": -73.99950139
-    },
-    {
       "id": "ticketmaster:17A8v0G62TOoHHg",
       "title": "Ilana Glazer Live!",
       "category": "comedy",
@@ -133498,66 +133833,6 @@
       "lat": 39.9656,
       "lon": -75.1351,
       "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7PK7a",
-      "title": "Whitechapel w/ Chelsea Grin",
-      "category": "music",
-      "city": "Sayreville",
-      "state": "NJ",
-      "venue": "Starland Ballroom",
-      "start": "2026-11-20T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK7a",
-      "source": "ticketmaster",
-      "lat": 40.4618,
-      "lon": -74.344902
-    },
-    {
-      "id": "ticketmaster:k7vGF_o7HhXSU",
-      "title": "Start Making Sense 'Talking Heads Tribute'",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Stone Pony",
-      "start": "2026-11-20T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/start-making-sense-talking-heads-tribute-asbury-park-new-jersey-11-20-2026/event/000065113C6FECF6",
-      "source": "ticketmaster",
-      "lat": 40.220001,
-      "lon": -74.00071097
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1A4ZpZK",
-      "title": "Crystal Ship - Tribute To The Doors with special guests Who's Next -The Ultimate Who Tribute Show",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Rivoli Theater - Rutherford",
-      "start": "2026-11-20T19:00:00",
-      "isFree": false,
-      "priceMin": 32.64,
-      "priceMax": 48.09,
-      "url": "https://www.ticketweb.com/event/crystal-ship-tribute-williams-center-rivoli-tickets/15016013",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1A4vkCK",
-      "title": "Kyler Sane with special guests Father Before Me, Johnny Knollwood and the Church of Mad Love, The Record Keeper and Joe Billy",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - CUG Cantina - Rutherford",
-      "start": "2026-11-20T19:00:00",
-      "isFree": false,
-      "priceMin": 15.69,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/kyler-sane-with-special-guests-williams-center-cug-tickets/15046393",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
     },
     {
       "id": "ticketmaster:G5vVZ_uJRCMBM",
@@ -133910,49 +134185,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:G5vVZ_2kc0hGE",
-      "title": "10,000 Maniacs",
-      "category": "music",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "Hackensack Meridian Health Theatre at the Count Basie Center ",
-      "start": "2026-11-20T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/10000-maniacs-red-bank-new-jersey-11-20-2026/event/1D0064F1AD91B327",
-      "source": "ticketmaster",
-      "lat": 40.349071,
-      "lon": -74.07022
-    },
-    {
-      "id": "ticketmaster:G5vVZ_2wMUbHF",
-      "title": "Masood Boomgaard",
-      "category": "comedy",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "The Vogel at Count Basie Center for the Arts",
-      "start": "2026-11-20T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/masood-boomgaard-red-bank-new-jersey-11-20-2026/event/1D0064FCB7D98F08",
-      "source": "ticketmaster",
-      "lat": 40.349071,
-      "lon": -74.07022
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7x6q0",
-      "title": "Stir - Play w/ Stir",
-      "category": "other",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "Two River Theater",
-      "start": "2026-11-20T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x6q0",
-      "source": "ticketmaster",
-      "lat": 40.360901,
-      "lon": -74.079002,
-      "neighborhood": "Fairview"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvAka",
       "title": "Annie (Touring)",
       "category": "theater",
@@ -134153,91 +134385,6 @@
       "lat": 38.8921,
       "lon": -77.0241,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7PNaz",
-      "title": "Three Dog Night",
-      "category": "music",
-      "city": "Morristown",
-      "state": "NJ",
-      "venue": "Mayo Performing Arts Center",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNaz",
-      "source": "ticketmaster",
-      "lat": 40.785702,
-      "lon": -74.499199
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZkAM",
-      "title": "Yaelokre w/ Ben Caplan",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "Asbury Lanes",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZkAM",
-      "source": "ticketmaster",
-      "lat": 40.249199,
-      "lon": -74.052101
-    },
-    {
-      "id": "ticketmaster:k7vGF_u7p0WKU",
-      "title": "Matt McCusker: The Healing Frequency Tour",
-      "category": "comedy",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "New Jersey Performing Arts Center",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/matt-mccusker-the-healing-frequency-tour-newark-new-jersey-11-20-2026/event/000064D11693D4F6",
-      "source": "ticketmaster",
-      "lat": 40.739502,
-      "lon": -74.16809,
-      "neighborhood": "Central Ward"
-    },
-    {
-      "id": "ticketmaster:vv17FZ_8GkI24B4f",
-      "title": "Gwen Stefani",
-      "category": "music",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Borgata Event Center",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/gwen-stefani-atlantic-city-new-jersey-11-20-2026/event/0200650A0F57A554",
-      "source": "ticketmaster",
-      "lat": 39.376797,
-      "lon": -74.435366
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_29qIisS",
-      "title": "Dark Star Orchestra",
-      "category": "music",
-      "city": "Montclair",
-      "state": "NJ",
-      "venue": "The Wellmont Theater",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dark-star-orchestra-montclair-new-jersey-11-20-2026/event/020064F5DDA2CC73",
-      "source": "ticketmaster",
-      "lat": 40.8124988,
-      "lon": -74.2165153
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CEoYk6w",
-      "title": "Jefferson Starship Runaway Again Tour 2026",
-      "category": "music",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Live at Etess Arena",
-      "start": "2026-11-20T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jefferson-starship-runaway-again-tour-2026-atlantic-city-new-jersey-11-20-2026/event/020064E9D1C061F2",
-      "source": "ticketmaster",
-      "lat": 39.361334,
-      "lon": -74.422049
     },
     {
       "id": "ticketmaster:G5vVZ_2SsLmvx",
@@ -134778,76 +134925,6 @@
       "neighborhood": "Center City East"
     },
     {
-      "id": "ticketmaster:vv17FZ_8GkD_VPDv",
-      "title": "Love Actually Live | Official Caesars Ticket + Hotel Packages",
-      "category": "film",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Caesars Atlantic City",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://travel.ticketmaster.com/en-US/event/162433752/pf?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_LoveActuallyInConcert1120",
-      "source": "ticketmaster",
-      "lat": 39.35689,
-      "lon": -74.435721
-    },
-    {
-      "id": "ticketmaster:vv1AeZk3bGkdqWXqF",
-      "title": "Jo Koy Live",
-      "category": "comedy",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Ovation Hall at Ocean Casino Resort ",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jo-koy-live-atlantic-city-new-jersey-11-20-2026/event/02006498DDF7E748",
-      "source": "ticketmaster",
-      "lat": 39.36167649,
-      "lon": -74.41345315
-    },
-    {
-      "id": "ticketmaster:vv1AeZkfdGkdRSKCD",
-      "title": "Love Actually In Concert",
-      "category": "film",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Caesars Atlantic City",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/love-actually-in-concert-atlantic-city-new-jersey-11-20-2026/event/02006503EFCD33BB",
-      "source": "ticketmaster",
-      "lat": 39.35689,
-      "lon": -74.435721
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_Cln99f4",
-      "title": "Mark Normand | Offical Caesars Ticket + Hotel Packages",
-      "category": "comedy",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Tropicana Showroom at Tropicana Atlantic City",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://travel.ticketmaster.com/en-US/event/139694719/pf?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_MarkNormand1120",
-      "source": "ticketmaster",
-      "lat": 39.352585,
-      "lon": -74.444893
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_u08VTfa",
-      "title": "Mark Normand",
-      "category": "comedy",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Tropicana Showroom at Tropicana Atlantic City",
-      "start": "2026-11-20T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/mark-normand-atlantic-city-new-jersey-11-20-2026/event/020064D910D3F509",
-      "source": "ticketmaster",
-      "lat": 39.352585,
-      "lon": -74.444893
-    },
-    {
       "id": "jambase:16383310",
       "title": "Night Ranger",
       "category": "music",
@@ -134950,34 +135027,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:LvZ18Q8cR40QD7YxFLYTk",
-      "title": "Collect-A-Con (New Jersey 2)",
-      "category": "other",
-      "city": "Edison",
-      "state": "NJ",
-      "venue": "New Jersey Convention & Expo Center",
-      "start": "2026-11-21T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/collect-a-con-new-jersey-2-tickets-CK5907?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 40.4989942,
-      "lon": -74.347017
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7OJjp",
-      "title": "Collect-A-Con",
-      "category": "other",
-      "city": "Edison",
-      "state": "NJ",
-      "venue": "New Jersey Convention & Exposition Center",
-      "start": "2026-11-21T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OJjp",
-      "source": "ticketmaster",
-      "lat": 40.513901,
-      "lon": -74.347397
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A70yj8",
       "title": "Laurie Berkner",
       "category": "theater",
@@ -135070,49 +135119,6 @@
       "source": "ticketmaster",
       "lat": 44.884701,
       "lon": -68.723099
-    },
-    {
-      "id": "ticketmaster:G5vVZ_oow6xEb",
-      "title": "Cirque Musica Holiday Wonderland",
-      "category": "theater",
-      "city": "East Rutherford",
-      "state": "NJ",
-      "venue": "Dream Live at American Dream",
-      "start": "2026-11-21T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/cirque-musica-holiday-wonderland-east-rutherford-new-jersey-11-21-2026/event/1D006514721E29D8",
-      "source": "ticketmaster",
-      "lat": 40.80969,
-      "lon": -74.06804
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7x6qP",
-      "title": "Stir - Play w/ Stir",
-      "category": "other",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "Two River Theater",
-      "start": "2026-11-21T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x6qP",
-      "source": "ticketmaster",
-      "lat": 40.360901,
-      "lon": -74.079002,
-      "neighborhood": "Fairview"
-    },
-    {
-      "id": "ticketmaster:k7vGF_2ppzcvT",
-      "title": "Daniel In The Lion's Den",
-      "category": "theater",
-      "city": "Englewood",
-      "state": "NJ",
-      "venue": "Bergen Performing Arts Center",
-      "start": "2026-11-21T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/daniel-in-the-lions-den-englewood-new-jersey-11-21-2026/event/000064F596E2D07F",
-      "source": "ticketmaster",
-      "lat": 40.895358,
-      "lon": -73.97511
     },
     {
       "id": "ticketmaster:G5vVZ_8mNGpOh",
@@ -135248,21 +135254,6 @@
       "neighborhood": "Green Valley"
     },
     {
-      "id": "ticketmaster:k7vGF_53xN5Xa",
-      "title": "Charles Lloyd Quartet",
-      "category": "music",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "New Jersey Performing Arts Center",
-      "start": "2026-11-21T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/charles-lloyd-quartet-newark-new-jersey-11-21-2026/event/000064B4A28CBF89",
-      "source": "ticketmaster",
-      "lat": 40.739502,
-      "lon": -74.16809,
-      "neighborhood": "Central Ward"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7P0Aw",
       "title": "Drunk Shakespeare: A Drunk Christmas Carol (21+ Event)",
       "category": "theater",
@@ -135338,20 +135329,6 @@
       "lon": -73.25247127
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAZ8bb",
-      "title": "Goldfinger w/ Mustard Plug",
-      "category": "music",
-      "city": "Sayreville",
-      "state": "NJ",
-      "venue": "Starland Ballroom",
-      "start": "2026-11-21T17:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ8bb",
-      "source": "ticketmaster",
-      "lat": 40.4618,
-      "lon": -74.344902
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7JFp_",
       "title": "Hartford Wolfpack vs. Milwaukee Admirals",
       "category": "sports",
@@ -135394,20 +135371,6 @@
       "source": "ticketmaster",
       "lat": 37.615799,
       "lon": -77.636398
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZMPO",
-      "title": "Princeton Tigers Hockey vs. Air Force Academy Falcons Hockey",
-      "category": "sports",
-      "city": "Princeton",
-      "state": "NJ",
-      "venue": "Hobey Baker Rink",
-      "start": "2026-11-21T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMPO",
-      "source": "ticketmaster",
-      "lat": 40.352402,
-      "lon": -74.6595
     },
     {
       "id": "ticketmaster:1a4Zkf-0_o3Zeu1",
@@ -139028,6 +138991,20 @@
       "source": "ticketmaster",
       "lat": 39.741126,
       "lon": -75.550253
+    },
+    {
+      "id": "ticketmaster:G5viZ_CTFP2Ib",
+      "title": "Derek Hough Dance For The Holidays",
+      "category": "theater",
+      "city": "Bristol",
+      "state": "VA",
+      "venue": "Hard Rock Live Bristol",
+      "start": "2026-11-28T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/derek-hough-dance-for-the-holidays-bristol-virginia-11-28-2026/event/1B0064EFC894FA18",
+      "source": "ticketmaster",
+      "lat": 36.59902833,
+      "lon": -82.21946726
     },
     {
       "id": "ticketmaster:vv1AvZkfdGkduCpCc",
@@ -144338,21 +144315,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7P0F3",
-      "title": "Drunk Shakespeare: A Drunk Christmas Carol (21+ Event)",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Sage",
-      "start": "2026-12-13T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0F3",
-      "source": "ticketmaster",
-      "lat": 38.904202,
-      "lon": -77.031502,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:vvG17Z_CBBrM88",
       "title": "Providence Bruins vs. Rochester Americans",
       "category": "sports",
@@ -147896,6 +147858,17 @@
       "lon": -76.1789
     },
     {
+      "id": "todaytix:47765",
+      "title": "Cullberg / Faye Driscoll: flesh chariot, chariot of flesh",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "NYU Skirball",
+      "start": "2027-02-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/cullberg-faye-driscoll-flesh-chariot-chariot-of-flesh",
+      "source": "todaytix"
+    },
+    {
       "id": "ticketmaster:G5vVZ_uJRaEyT",
       "title": "Sacred Heart Pioneers Men's Ice Hockey vs. RIT Tigers Hockey",
       "category": "sports",
@@ -149898,6 +149871,17 @@
       "start": "2027-03-18T19:30:00",
       "isFree": false,
       "url": "https://www.todaytix.com/nyc/shows/old-actress",
+      "source": "todaytix"
+    },
+    {
+      "id": "todaytix:47758",
+      "title": "Angélica Liddell: Seppuku",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "NYU Skirball",
+      "start": "2027-03-18T19:30:00",
+      "isFree": false,
+      "url": "https://www.todaytix.com/nyc/shows/angelica-liddell-seppuku",
       "source": "todaytix"
     },
     {
