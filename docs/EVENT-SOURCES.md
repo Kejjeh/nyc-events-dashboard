@@ -1,5 +1,12 @@
 # NYC event data sources
 
+> ⚠️ **Partially stale (written mid-June 2026).** The "Currently integrated"
+> table below lists 10 sources; 17 actually ship (see `src/pipeline/run.ts`), and
+> Ticketmaster/BPL/Eventbrite/SeatGeek/Songkick/SerpAPI/JamBase statuses have
+> moved on. The CI-blocked reachability tables, "Adding a source", and
+> "Neighborhood coverage" sections remain accurate. Current source health:
+> `HANDOFF.md`.
+
 A working map of where this dashboard gets events, plus free APIs worth signing up
 for to expand coverage — including which "walled" sites (museums, libraries,
 concert halls) have an official API that gets around their bot protection, and

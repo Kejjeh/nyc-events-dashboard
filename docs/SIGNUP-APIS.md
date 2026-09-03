@@ -1,5 +1,9 @@
 # Free APIs to add — setup handoff
 
+> ⚠️ **Superseded by `API-PLAN.md`** (which folds in verified corrections).
+> Kept for history only — several items described as "to build" here shipped
+> long ago. Do not work from this file.
+
 Free-only shortlist of APIs that would improve the NYC Events Dashboard, ordered
 by impact. Written so another agent (or you) can set each one up without extra
 context. Everything here is **free to sign up for** (a couple need a billing
