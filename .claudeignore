@@ -1,0 +1,12 @@
+# Files that must never be pulled into an agent's context wholesale.
+# Generated data (rewritten by every pipeline run) and bundled geo polygons.
+# Inspect them with a sampling command instead — see CLAUDE.md "Gotchas".
+public/data/events.json
+public/data/archive.json
+public/data/neighborhood-cache.json
+src/ingestion/data/neighborhood-polygons.json
+src/ingestion/data/borough-polygons.json
+package-lock.json
+dist/
+node_modules/
+.codegraph/

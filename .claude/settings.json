@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./public/data/events.json)",
+      "Read(./public/data/archive.json)",
+      "Read(./public/data/neighborhood-cache.json)",
+      "Read(./src/ingestion/data/neighborhood-polygons.json)",
+      "Read(./src/ingestion/data/borough-polygons.json)",
+      "Read(./package-lock.json)",
+      "Read(./dist/**)"
+    ]
+  }
+}
