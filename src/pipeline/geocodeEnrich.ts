@@ -3,7 +3,8 @@ import { boroughFromLatLng } from '../ingestion/borough';
 import { neighborhoodFromLatLng } from '../ingestion/neighborhood';
 
 // Sources whose venue names are stable, descriptive, and geocodeable.
-const GEOCODEABLE_SOURCES = new Set(['bpl', 'smallslive', 'village-vanguard', 'todaytix', 'cityparks', 'serpapi']);
+// dice joined when its browse payload dropped venue coordinates (~Aug 2026).
+const GEOCODEABLE_SOURCES = new Set(['bpl', 'smallslive', 'village-vanguard', 'todaytix', 'cityparks', 'serpapi', 'dice']);
 
 type GeocodeFn = (query: string, key: string) => Promise<{ lat: number; lon: number } | null>;
 

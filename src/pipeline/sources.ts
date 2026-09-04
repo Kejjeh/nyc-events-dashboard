@@ -233,7 +233,10 @@ export async function fetchDice(): Promise<RawBatch> {
         failures.push(`${filter}: HTTP ${res.status}`);
       } else {
         for (const event of (((await res.json()) as any)?.pageProps?.events ?? []) as any[]) {
-          if (event?.id) byId.set(event.id, event);
+          // The payload no longer self-tags (tags_types is gone), so stamp the
+          // filter the event was found under — the normalizer maps it to a
+          // category. Last filter wins for events under several, as before.
+          if (event?.id) byId.set(event.id, { ...event, browse_filter: filter });
         }
       }
     } catch (err) {
