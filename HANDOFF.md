@@ -36,11 +36,12 @@ Check current source health any time with:
    month abbreviations ("Sept. 3, 2026"); parser only accepted full names.
    Worked in June/July (spelled out), broke Aug 1. `parseDateHeader` now
    accepts both. Verify next cron shows `smallslive` fresh.
-3. ~~dice broken~~ **FIXED 2026-09-04** (likely): the 11-filter parallel burst
-   tripped DICE throttling (intermittent locally, consistent from CI). Now
-   sequential with 250ms gaps + per-filter error detail in the failure message.
-   If CI still fails, the log now says which filter and why (HTTP status vs
-   timeout) — a datacenter-IP block would show as 403s on every filter.
+3. ~~dice broken~~ **FIXED 2026-09-04, confirmed in CI** (173 fresh in prod).
+   Two stacked breaks: (a) the 11-filter parallel burst tripped DICE
+   throttling — now sequential with 250ms gaps + per-filter error detail;
+   (b) the browse payload dropped venues[].location / tags_types / perm_name —
+   normalizer now parses borough from the address zip, takes category from the
+   stamped browse filter, and dice joined GEOCODEABLE_SOURCES for coords.
 4. **Failing in CI only** (absent from prod `sources`; work locally):
    nyc-parks (RSS; 1294 records locally — likely datacenter-IP 403),
    eventbrite (10 lanes, mostly 0 counts locally too — markup drift),
@@ -66,11 +67,9 @@ Check current source health any time with:
 ## Next steps (each ≈ one Sonnet session unless marked Opus)
 
 **P0 — restore data coverage**
-- ~~Fix smallslive parser~~ DONE 2026-09-04 (357 records locally).
-- ~~Fix dice fetcher~~ DONE 2026-09-04 (186 records locally) — after the next
-  cron run, confirm `smallslive` and `dice` appear `fresh: true` in the prod
-  payload (use the health one-liner above). If dice still fails from CI, read
-  the workflow log's per-filter detail before touching code again.
+- ~~Fix smallslive parser~~ DONE 2026-09-04, confirmed in prod (357 fresh).
+- ~~Fix dice fetcher + normalizer~~ DONE 2026-09-04, confirmed in prod
+  (173 fresh after dedup).
 - Diagnose songkick zero (bug 1). Log/inspect the raw response; fix or, if the
   key is dead, document that in this file and remove noise. Accept: either
   events > 0 or a written root cause here.
