@@ -142,6 +142,64 @@ describe('parseSmallsCalendar', () => {
     ]);
   });
 
+  it('parses Django-abbreviated month headers ("Sept. 3, 2026")', () => {
+    // Since ~Aug 2026 the site renders Django-style month names: March–July are
+    // spelled out, the rest abbreviate with a period (Jan., Feb., Aug., Sept.,
+    // Oct., Nov., Dec.). Slice mirrors the live markup of 2026-09-04.
+    const template = `
+    <div class="flex-column day-list">
+        <div class="title1" data-date="Sept. 3, 2026">
+            Thu Sep 03
+        </div>
+        <div class="venue-group" style="margin-top: 40px;">
+            <div class="jazzcultural-color text2">
+                Jazzcultural
+            </div>
+            <div class="flex-column day-event">
+                <a href="/events/33759-afternoon-jam-in-the-cafe/">
+                    <div class="text-grey text2">
+                        2:00 PM - 6:00 PM
+                    </div>
+                    <div class="text2 day_event_title">
+                        Afternoon Jam in the Cafe
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="title1" data-date="Aug. 14, 2027"> Sat Aug 14 </div>
+        <div class="venue-group">
+            <div class="smalls-color text2"> Smalls </div>
+            <div class="flex-column day-event">
+                <a href="/events/40001-some-quartet/">
+                    <div class="text-grey text2"> 7:00 PM &amp; 9:00 PM </div>
+                    <div class="text2 day_event_title"> Some Quartet </div>
+                </a>
+            </div>
+        </div>
+    </div>`;
+
+    expect(parseSmallsCalendar(template)).toEqual([
+      {
+        id: '33759',
+        title: 'Afternoon Jam in the Cafe',
+        venue: 'Jazzcultural',
+        date: '2026-09-03',
+        startTime: '2:00 PM',
+        endTime: '6:00 PM',
+        url: 'https://www.smallslive.com/events/33759-afternoon-jam-in-the-cafe/',
+      },
+      {
+        id: '40001',
+        title: 'Some Quartet',
+        venue: 'Smalls',
+        date: '2027-08-14',
+        startTime: '7:00 PM',
+        endTime: undefined,
+        url: 'https://www.smallslive.com/events/40001-some-quartet/',
+      },
+    ]);
+  });
+
   it('feeds straight into the normalizer', () => {
     const [first] = parseSmallsCalendar(TEMPLATE);
     expect(normalizeSmallsEvent(first)).toMatchObject({

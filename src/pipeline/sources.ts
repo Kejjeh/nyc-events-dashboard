@@ -194,6 +194,7 @@ const DICE_FILTERS = [
   'music/dj',
   'music/party',
 ];
+const DICE_FILTER_DELAY_MS = 250;
 
 /**
  * Fetches NYC events from DICE.fm across several browse filters. The browse page
@@ -218,30 +219,33 @@ export async function fetchDice(): Promise<RawBatch> {
     throw new Error('DICE: no buildId in __NEXT_DATA__');
   }
 
-  const pages = await Promise.all(
-    DICE_FILTERS.map(async (filter) => {
-      try {
-        const res = await fetchWithRetry(
-          `https://dice.fm/_next/data/${buildId}/en/browse/${DICE_NYC_SLUG}/${filter}.json`,
-          { headers: { ...headers, Accept: 'application/json' } },
-        );
-        if (!res.ok) return { failed: true, events: [] as any[] };
-        return { failed: false, events: (((await res.json()) as any)?.pageProps?.events ?? []) as any[] };
-      } catch {
-        return { failed: true, events: [] as any[] };
+  // Fetch filters one at a time with a small gap — an 11-request parallel burst
+  // trips DICE's throttling (intermittently locally, consistently from CI).
+  const failures: string[] = [];
+  const byId = new Map<string, any>();
+  for (const filter of DICE_FILTERS) {
+    try {
+      const res = await fetchWithRetry(
+        `https://dice.fm/_next/data/${buildId}/en/browse/${DICE_NYC_SLUG}/${filter}.json`,
+        { headers: { ...headers, Accept: 'application/json' } },
+      );
+      if (!res.ok) {
+        failures.push(`${filter}: HTTP ${res.status}`);
+      } else {
+        for (const event of (((await res.json()) as any)?.pageProps?.events ?? []) as any[]) {
+          if (event?.id) byId.set(event.id, event);
+        }
       }
-    }),
-  );
+    } catch (err) {
+      failures.push(`${filter}: ${(err as Error).message}`);
+    }
+    await sleep(DICE_FILTER_DELAY_MS);
+  }
 
   // If any filter failed (after retries), fail the whole source so carry-forward
   // preserves that category's last-good data instead of silently dropping it.
-  if (pages.some((p) => p.failed)) {
-    throw new Error('DICE: one or more browse filters failed to fetch');
-  }
-
-  const byId = new Map<string, any>();
-  for (const event of pages.flatMap((p) => p.events)) {
-    if (event?.id) byId.set(event.id, event);
+  if (failures.length > 0) {
+    throw new Error(`DICE: browse filter(s) failed — ${failures.join('; ')}`);
   }
   const records = [...byId.values()];
   if (records.length === 0) {

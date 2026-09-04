@@ -14,11 +14,14 @@ export interface SmallsRecord {
 const MONTHS: Record<string, string> = {
   January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
   July: '07', August: '08', September: '09', October: '10', November: '11', December: '12',
+  // Django-style abbreviations: the site spells out March–July but renders the
+  // rest as "Jan.", "Aug.", "Sept.", etc. (period stripped by the regex below).
+  Jan: '01', Feb: '02', Aug: '08', Sept: '09', Oct: '10', Nov: '11', Dec: '12',
 };
 
-/** "June 14, 2026" -> "2026-06-14" (null if unrecognized). */
+/** "June 14, 2026" or "Sept. 3, 2026" -> "2026-06-14" (null if unrecognized). */
 function parseDateHeader(text: string): string | null {
-  const m = text.trim().match(/^(\w+)\s+(\d{1,2}),\s+(\d{4})$/);
+  const m = text.trim().match(/^([A-Za-z]+)\.?\s+(\d{1,2}),\s+(\d{4})$/);
   const month = m && MONTHS[m[1]];
   return m && month ? `${m[3]}-${month}-${m[2].padStart(2, '0')}` : null;
 }
