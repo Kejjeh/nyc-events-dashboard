@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T06:03:29.334Z",
-  "count": 9775,
+  "generatedAt": "2026-09-04T14:36:25.375Z",
+  "count": 9781,
   "events": [
     {
       "id": "jambase:16505231",
@@ -80,51 +80,6 @@
       "lat": 43.6503,
       "lon": -70.2914,
       "neighborhood": "Thompsons Point"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZOaI",
-      "title": "New York State Fair",
-      "category": "other",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "New York State Fair",
-      "start": "2026-09-04T09:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOaI",
-      "source": "ticketmaster",
-      "lat": 43.084499,
-      "lon": -76.247002
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1EE1JP",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-09-04T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-09-04-2026/event/00006452A79CA9A5",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Af1A07",
-      "title": "OOIKA Pop-Up",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Williams Center Lounge",
-      "start": "2026-09-04T10:00:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
-      "url": "https://www.ticketweb.com/event/ooika-pop-up-williams-center-williams-tickets/14285904",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
     },
     {
       "id": "ticketmaster:k7vGF_1bEKeuD",
@@ -11122,6 +11077,20 @@
       "neighborhood": "Downtown Mall"
     },
     {
+      "id": "ticketmaster:vvG1GZ_2xn3sUU",
+      "title": "Tue. 9/8/2026 - Highmark Stadium Tours",
+      "category": "other",
+      "city": "Orchard Park",
+      "state": "NY",
+      "venue": "Highmark Stadium",
+      "start": "2026-09-08T20:00:00",
+      "isFree": false,
+      "url": "https://am.ticketmaster.com/bsec/buy",
+      "source": "ticketmaster",
+      "lat": 42.77389,
+      "lon": -78.78694
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7JAZg",
       "title": "Two Runner (21+ Event)",
       "category": "other",
@@ -11364,6 +11333,21 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ONQ6"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:k7vGF_A1Ec1EU",
+      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
+      "category": "theater",
+      "city": "Bethel",
+      "state": "NY",
+      "venue": "The Museum at Bethel Woods",
+      "start": "2026-09-09T10:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-09-09-2026/event/00006452A7B4A9F6",
+      "source": "ticketmaster",
+      "lat": 41.69631204,
+      "lon": -74.87754464,
+      "neighborhood": "Bethel"
     },
     {
       "id": "ticketmaster:1A4Zk3aGkd0nWN8",
@@ -34353,12 +34337,12 @@
       "category": "music",
       "city": "Millvale",
       "state": "PA",
-      "venue": "Mr Smalls Theatre",
+      "venue": "The Funhouse @ Mr Smalls",
       "start": "2026-09-18T20:00:00",
       "isFree": false,
       "priceMin": 32.42,
       "priceMax": 32.42,
-      "url": "https://www.ticketweb.com/event/margaret-glaspy-anna-tivel-mr-smalls-theatre-tickets/14955583",
+      "url": "https://www.ticketweb.com/event/margaret-glaspy-anna-tivel-the-funhouse-mr-smalls-tickets/14955583",
       "source": "ticketmaster",
       "lat": 40.480891,
       "lon": -79.972349
@@ -59393,6 +59377,20 @@
       "lon": -79.914301
     },
     {
+      "id": "ticketmaster:vv1AOvPF_GAucXad",
+      "title": "Hershey Bears vs. Wilkes Barre Scranton Penguins",
+      "category": "sports",
+      "city": "Hershey",
+      "state": "PA",
+      "venue": "GIANT Center",
+      "start": "2026-09-27T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/hershey-bears-vs-wilkes-barre-scranton-hershey-pennsylvania-09-27-2026/event/020065219DB7E243",
+      "source": "ticketmaster",
+      "lat": 40.285717,
+      "lon": -76.6758748
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7Q8az",
       "title": "Boston Red Sox vs. Chicago Cubs",
       "category": "sports",
@@ -66134,6 +66132,21 @@
       "lat": 42.36374167151,
       "lon": -71.10074879726,
       "neighborhood": "Central Square"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfxpoS",
+      "title": "Kev G Mor",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-10-01T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/kev-g-mor-middle-east-cornerbakery-tickets/14896473",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZyj-",
@@ -95685,6 +95698,36 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-NFM",
+      "title": "Operation Mincemeat (Touring)",
+      "category": "other",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Emerson Colonial Theatre",
+      "start": "2026-10-17T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NFM",
+      "source": "ticketmaster",
+      "lat": 42.349602,
+      "lon": -71.075302,
+      "neighborhood": "Prudential / St. Botolph"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAv7PZ",
+      "title": "To Kill a Mockingbird (Touring)",
+      "category": "theater",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Huntington Theatre",
+      "start": "2026-10-17T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7PZ",
+      "source": "ticketmaster",
+      "lat": 42.341,
+      "lon": -71.094803,
+      "neighborhood": "Fenway–Kenmore"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZt_f",
       "title": "Merrily We Roll Along (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
       "category": "theater",
@@ -117212,6 +117255,21 @@
       "neighborhood": "Green Valley"
     },
     {
+      "id": "ticketmaster:vv16vZkf-k_ZAuG8ud",
+      "title": "Whiskey Glasses: Morgan Wallen Tribute",
+      "category": "music",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Elevation 27",
+      "start": "2026-11-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/whiskey-glasses-morgan-wallen-tribute-virginia-beach-virginia-11-05-2026/event/01006521199CBFC2",
+      "source": "ticketmaster",
+      "lat": 36.8493416,
+      "lon": -76.0194075,
+      "neighborhood": "North Virginia Beach"
+    },
+    {
       "id": "ticketmaster:vv177Z_8GkV5MtS2",
       "title": "Bumpin Uglies",
       "category": "music",
@@ -125315,6 +125373,21 @@
       "lon": -74.6595
     },
     {
+      "id": "ticketmaster:k7v17_3k8G7MEBV",
+      "title": "NJMEA All State Jazz Band & NJMEA All-State Jazz Choir",
+      "category": "music",
+      "city": "Newark",
+      "state": "NJ",
+      "venue": "New Jersey Performing Arts Center",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/njmea-all-state-jazz-band-njmea-newark-new-jersey-11-13-2026/event/0000652190DE7EB4",
+      "source": "ticketmaster",
+      "lat": 40.739502,
+      "lon": -74.16809,
+      "neighborhood": "Central Ward"
+    },
+    {
       "id": "ticketmaster:k7vGF_85pvEuv",
       "title": "Joe Baracata Band 25th Anniversary Show",
       "category": "music",
@@ -129037,6 +129110,21 @@
       "source": "ticketmaster",
       "lat": 40.857882,
       "lon": -74.147614
+    },
+    {
+      "id": "ticketmaster:k7v17_3k3G7lIKl",
+      "title": "NJMEA All-State Mixed Chorus and Orchestra",
+      "category": "music",
+      "city": "Newark",
+      "state": "NJ",
+      "venue": "New Jersey Performing Arts Center",
+      "start": "2026-11-15T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/njmea-allstate-mixed-chorus-and-orchestra-newark-new-jersey-11-15-2026/event/0000652192AE84EB",
+      "source": "ticketmaster",
+      "lat": 40.739502,
+      "lon": -74.16809,
+      "neighborhood": "Central Ward"
     },
     {
       "id": "ticketmaster:1718v0G65FaYvVF",
@@ -133037,20 +133125,6 @@
       "lon": -74.07022
     },
     {
-      "id": "ticketmaster:G5vVZ_2wMUbHF",
-      "title": "Masood Boomgaard",
-      "category": "comedy",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "The Vogel at Count Basie Center for the Arts",
-      "start": "2026-11-20T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/masood-boomgaard-red-bank-new-jersey-11-20-2026/event/1D0064FCB7D98F08",
-      "source": "ticketmaster",
-      "lat": 40.349071,
-      "lon": -74.07022
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvAka",
       "title": "Annie (Touring)",
       "category": "theater",
@@ -134628,6 +134702,21 @@
       "lat": 38.8976,
       "lon": -77.0211,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_35t4JZd",
+      "title": "Tommy James and the Shondells",
+      "category": "music",
+      "city": "Stamford",
+      "state": "CT",
+      "venue": "Palace Theatre Stamford",
+      "start": "2026-11-21T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tommy-james-and-the-shondells-stamford-connecticut-11-21-2026/event/1D006522E9566003",
+      "source": "ticketmaster",
+      "lat": 41.0507831,
+      "lon": -73.5395426,
+      "neighborhood": "Downtown"
     },
     {
       "id": "jambase:16024039",
