@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T16:40:26.822Z",
-  "count": 9217,
+  "generatedAt": "2026-09-15T01:02:44.939Z",
+  "count": 9275,
   "events": [
     {
       "id": "jambase:16151278",
@@ -19,67 +19,6 @@
       "neighborhood": "Central Lawrenceville"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1A4vAbS",
-      "title": "The Piano Teacher (2001)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-09-14T17:00:00",
-      "isFree": false,
-      "priceMin": 13.63,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/the-piano-teacher-2001-williams-center-cinema-tickets/15045633",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1A4vA4S",
-      "title": "Benny's Video (1992)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-09-14T17:15:00",
-      "isFree": false,
-      "priceMin": 13.63,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/bennys-video-1992-williams-center-cinema-tickets/15045573",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:vvG17Z_CV7iQQq",
-      "title": "Kiss 108 presents Lisa's Book Club with Jodi Picoult ( 21+ )",
-      "category": "other",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Big Night Live",
-      "start": "2026-09-14T17:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/kiss-108-presents-lisas-book-club-boston-massachusetts-09-14-2026/event/010064ED04B1A69D",
-      "source": "ticketmaster",
-      "lat": 42.365977,
-      "lon": -71.0617,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:G5vVZ_dUsp0JG",
-      "title": "Staind: Break The Cycle 25th Anniversary Tour",
-      "category": "music",
-      "city": "Wantagh",
-      "state": "NY",
-      "venue": "Northwell at Jones Beach Theater",
-      "start": "2026-09-14T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-wantagh-new-york-09-14-2026/event/1D00643DB15A498C",
-      "source": "ticketmaster",
-      "lat": 40.6014755,
-      "lon": -73.5023618
-    },
-    {
       "id": "jambase:15598488",
       "title": "Staind",
       "category": "music",
@@ -93,21 +32,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/staind-1480x832.png",
       "lat": 40.6015,
       "lon": -73.5024
-    },
-    {
-      "id": "ticketmaster:17A8v0G61Nb1LuT",
-      "title": "Arrows in Action - I Think We've Toured Here Before",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-09-14T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/arrows-in-action-i-think-weve-washington-district-of-columbia-09-14-2026/event/150064A8D829F37F",
-      "source": "ticketmaster",
-      "lat": 38.91819,
-      "lon": -77.02241,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "jambase:16263960",
@@ -146,126 +70,6 @@
           "url": "https://www.ticketweb.com/event/the-callous-daoboys-rec-room-tickets/14981933?REFERRAL_ID=tmfeed"
         }
       ]
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1A4Z4xK",
-      "title": "Flip Circus: NFCR Fundraising (Monday-Thursday)",
-      "category": "other",
-      "city": "Cherry Hill Township",
-      "state": "NJ",
-      "venue": "Flip Circus - Cherry Hill Mall",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "priceMin": 23.1,
-      "priceMax": 39.05,
-      "url": "https://www.ticketweb.com/event/flip-circus-nfcr-fundraising-monday-flip-circus-cherry-tickets/15015893",
-      "source": "ticketmaster",
-      "lat": 39.9391582,
-      "lon": -75.0281232,
-      "neighborhood": "Cherry Hill Mall"
-    },
-    {
-      "id": "ticketmaster:vv1AvZkofGkdn1GWJ",
-      "title": "MELANIE C: World Tour (18+)",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Paradise Rock Club presented by Citizens",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/melanie-c-world-tour-18-boston-massachusetts-09-14-2026/event/01006454EA28CF66",
-      "source": "ticketmaster",
-      "lat": 42.3518332,
-      "lon": -71.1195379,
-      "neighborhood": "Allston"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_5SFBQio",
-      "title": "French Police",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Brighton Music Hall presented by Citizens",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/french-police-boston-massachusetts-09-14-2026/event/010064BCC8E9AB11",
-      "source": "ticketmaster",
-      "lat": 42.3528999,
-      "lon": -71.1326128,
-      "neighborhood": "Commonwealth"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CRvTE5P",
-      "title": "Punch Line Philly Open Mic Night",
-      "category": "comedy",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Punch Line Philly Callback Bar",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/punch-line-philly-open-mic-night-philadelphia-pennsylvania-09-14-2026/event/020064EBC1FE72E5",
-      "source": "ticketmaster",
-      "lat": 39.96545508,
-      "lon": -75.1352,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_GF0eY-E",
-      "title": "Chad Gray: 30 Years of Madnesss",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Theatre of Living Arts",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/chad-gray-30-years-of-madnesss-philadelphia-pennsylvania-09-14-2026/event/020064C2240B0867",
-      "source": "ticketmaster",
-      "lat": 39.941305,
-      "lon": -75.148678,
-      "neighborhood": "Queen Village"
-    },
-    {
-      "id": "ticketmaster:1A4Zkf_GkdoRIE-",
-      "title": "Nai Palm (Of Hiatus Kaiyote)",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Union Stage",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.unionstagepresents.com/shows/nai-palm-14-sep",
-      "source": "ticketmaster",
-      "lat": 38.878689,
-      "lon": -77.024097,
-      "neighborhood": "Southwest Waterfront"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_1pv26jR",
-      "title": "\"The Hayley Williams Show\"",
-      "category": "music",
-      "city": "Gilford",
-      "state": "NH",
-      "venue": "BankNH Pavilion",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-hayley-williams-show-gilford-new-hampshire-09-14-2026/event/010064A5813C772F",
-      "source": "ticketmaster",
-      "lat": 43.580124,
-      "lon": -71.412946
-    },
-    {
-      "id": "ticketmaster:vvG17Z_2Uxpsoo",
-      "title": "Local Artist Series: Foreside Funk",
-      "category": "music",
-      "city": "Portsmouth",
-      "state": "NH",
-      "venue": "Jimmy's Jazz and Blues Club",
-      "start": "2026-09-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/local-artist-series-foreside-funk-portsmouth-new-hampshire-09-14-2026/event/010064FDA25B1451",
-      "source": "ticketmaster",
-      "lat": 43.07634404,
-      "lon": -70.76009881
     },
     {
       "id": "jambase:16436847",
@@ -426,110 +230,6 @@
       "lon": -71.413
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1A4Zp8N",
-      "title": "Special Characters",
-      "category": "music",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "Funk 'n Waffles",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "priceMin": 13.07,
-      "priceMax": 13.07,
-      "url": "https://www.ticketweb.com/event/special-characters-funk-n-waffles-tickets/15016423",
-      "source": "ticketmaster",
-      "lat": 43.048366,
-      "lon": -76.153423,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vv1AvZku4GkdlAODH",
-      "title": "RUSH: Fifty Something",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "TD Garden",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/rush-fifty-something-boston-massachusetts-09-14-2026/event/01006355EB160EFC",
-      "source": "ticketmaster",
-      "lat": 42.365841,
-      "lon": -71.060724,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_GTrqtWd",
-      "title": "Troy Hawke",
-      "category": "comedy",
-      "city": "Somerville",
-      "state": "MA",
-      "venue": "Crystal Ballroom at Somerville Theatre",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/troy-hawke-somerville-massachusetts-09-14-2026/event/010064CFDE769F43",
-      "source": "ticketmaster",
-      "lat": 42.396646,
-      "lon": -71.123041,
-      "neighborhood": "Davis Square"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7Joqp",
-      "title": "The Rasmus w/ Saint Agnes",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Union Transfer",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Joqp",
-      "source": "ticketmaster",
-      "lat": 39.964001,
-      "lon": -75.147697,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7xk43",
-      "title": "Pat Metheny",
-      "category": "music",
-      "city": "York",
-      "state": "PA",
-      "venue": "Appell Center for the Performing Arts",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xk43",
-      "source": "ticketmaster",
-      "lat": 39.960999,
-      "lon": -76.728302
-    },
-    {
-      "id": "ticketmaster:LvZ18QJS_q7z14GLrv7fK",
-      "title": "Do Portugal Circus - Hyattsville, MD",
-      "category": "other",
-      "city": "Landover Hills",
-      "state": "MD",
-      "venue": "Capital Plaza Mall",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/do-portugal-circus-hyattsville-md-tickets-WM9L6R?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 38.9451062,
-      "lon": -76.8991005
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_1Qh2BHr",
-      "title": "Mom Jeans",
-      "category": "music",
-      "city": "Wilmington",
-      "state": "DE",
-      "venue": "The Queen",
-      "start": "2026-09-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/mom-jeans-wilmington-delaware-09-14-2026/event/020064A69B3FAF1E",
-      "source": "ticketmaster",
-      "lat": 39.741126,
-      "lon": -75.550253
-    },
-    {
       "id": "jambase:15096231",
       "title": "RUSH",
       "category": "music",
@@ -612,95 +312,6 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70bfK"
         }
       ]
-    },
-    {
-      "id": "ticketmaster:vvG1GZ_2xnfsM3",
-      "title": "Mon. 9/14/2026 - Highmark Stadium Tours",
-      "category": "other",
-      "city": "Orchard Park",
-      "state": "NY",
-      "venue": "Highmark Stadium",
-      "start": "2026-09-14T20:00:00",
-      "isFree": false,
-      "url": "https://am.ticketmaster.com/bsec/buy",
-      "source": "ticketmaster",
-      "lat": 42.77389,
-      "lon": -78.78694
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70M--",
-      "title": "ADELA",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Royale Boston",
-      "start": "2026-09-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70M--",
-      "source": "ticketmaster",
-      "lat": 42.349602,
-      "lon": -71.075302,
-      "neighborhood": "Prudential / St. Botolph"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7OxC_",
-      "title": "Aldous Harding (18 and Over)",
-      "category": "music",
-      "city": "Cambridge",
-      "state": "MA",
-      "venue": "The Sinclair Music Hall",
-      "start": "2026-09-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OxC_",
-      "source": "ticketmaster",
-      "lat": 42.380199,
-      "lon": -71.134697,
-      "neighborhood": "West Cambridge"
-    },
-    {
-      "id": "ticketmaster:17GZv0G6ukWCdzJ",
-      "title": "Rod Wave: Don't Look Down Tour",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Xfinity Mobile Arena",
-      "start": "2026-09-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-philadelphia-pennsylvania-09-14-2026/event/300064D1BD383E26",
-      "source": "ticketmaster",
-      "lat": 39.904551,
-      "lon": -75.1736273,
-      "neighborhood": "South Philadelphia East"
-    },
-    {
-      "id": "ticketmaster:1AYZkfKGkdLE_du",
-      "title": "Suites - Rod Wave: Don't Look Down Tour",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Xfinity Mobile Arena",
-      "start": "2026-09-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/suites-rod-wave-dont-look-down-philadelphia-pennsylvania-09-14-2026/event/30006513DF9D90CD",
-      "source": "ticketmaster",
-      "lat": 39.904551,
-      "lon": -75.1736273,
-      "neighborhood": "South Philadelphia East"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_G3iGWlh",
-      "title": "CHXRRY - The Ego Tour",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Foundry",
-      "start": "2026-09-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/chxrry-the-ego-tour-philadelphia-pennsylvania-09-14-2026/event/020064C4AC33DADB",
-      "source": "ticketmaster",
-      "lat": 39.96477,
-      "lon": -75.134457,
-      "neighborhood": "North Philadelphia"
     },
     {
       "id": "jambase:15479371",
@@ -796,21 +407,6 @@
       "lat": 38.8788,
       "lon": -77.024,
       "neighborhood": "Southwest Waterfront"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6uDA4Jqp",
-      "title": "Danny Elfman",
-      "category": "music",
-      "city": "Silver Spring",
-      "state": "MD",
-      "venue": "The Fillmore Silver Spring",
-      "start": "2026-09-14T20:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/danny-elfman-silver-spring-maryland-09-14-2026/event/150064DEC5566756",
-      "source": "ticketmaster",
-      "lat": 38.99734055,
-      "lon": -77.02746183,
-      "neighborhood": "Downtown Silver Spring"
     },
     {
       "id": "ticketmaster:k7vGF_A1ESntd",
@@ -3046,6 +2642,21 @@
       "neighborhood": "Central Waterfront"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7OFOA",
+      "title": "Hartford Athletic vs. Sporting Club Jacksonville",
+      "category": "sports",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Trinity Health Stadium",
+      "start": "2026-09-16T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFOA",
+      "source": "ticketmaster",
+      "lat": 41.748402,
+      "lon": -72.6959,
+      "neighborhood": "Behind the Rocks"
+    },
+    {
       "id": "jambase:15598586",
       "title": "Staind",
       "category": "music",
@@ -3379,14 +2990,14 @@
       "category": "music",
       "city": "Baltimore",
       "state": "MD",
-      "venue": "Baltimore Soundstage",
+      "venue": "Nevermore Hall",
       "start": "2026-09-16T19:00:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/the-bouncing-souls-born-to-be-baltimore-maryland-09-16-2026/event/1500648DD009BAB1",
       "source": "ticketmaster",
-      "lat": 39.28763705,
-      "lon": -76.60719037,
-      "neighborhood": "Inner Harbor"
+      "lat": 39.290443,
+      "lon": -76.612333,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:17A8v0G6CBj9EpT",
@@ -7582,6 +7193,21 @@
       "lon": -78.78694
     },
     {
+      "id": "ticketmaster:17A8v0G6uxw6a3u",
+      "title": "Zack Fox",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Nevermore Hall",
+      "start": "2026-09-17T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/zack-fox-baltimore-maryland-09-17-2026/event/150064D8B21C948D",
+      "source": "ticketmaster",
+      "lat": 39.290443,
+      "lon": -76.612333,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Afjd_K",
       "title": "The People's Karaoke",
       "category": "other",
@@ -7595,21 +7221,6 @@
       "lat": 42.363809,
       "lon": -71.101423,
       "neighborhood": "Cambridgeport"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6uxw6a3u",
-      "title": "Zack Fox",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Nevermore Hall",
-      "start": "2026-09-17T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/zack-fox-baltimore-maryland-09-17-2026/event/150064D8B21C948D",
-      "source": "ticketmaster",
-      "lat": 39.290443,
-      "lon": -76.612333,
-      "neighborhood": "Downtown"
     },
     {
       "id": "jambase:16385838",
@@ -10744,8 +10355,8 @@
       "venue": "The Funhouse @ Mr Smalls",
       "start": "2026-09-18T20:00:00",
       "isFree": false,
-      "priceMin": 32.42,
-      "priceMax": 32.42,
+      "priceMin": 32.52,
+      "priceMax": 32.52,
       "url": "https://www.ticketweb.com/event/margaret-glaspy-anna-tivel-the-funhouse-mr-smalls-tickets/14955583",
       "source": "ticketmaster",
       "lat": 40.480891,
@@ -14179,6 +13790,118 @@
       "lon": -77.416
     },
     {
+      "id": "ticketmaster:k7vGF_GkiAupO",
+      "title": "Whitney Cummings: Big Baby Tour",
+      "category": "comedy",
+      "city": "Syracuse",
+      "state": "NY",
+      "venue": "The Oncenter Carrier Theater",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/whitney-cummings-big-baby-tour-syracuse-new-york-09-19-2026/event/000064C1AC14D5A0",
+      "source": "ticketmaster",
+      "lat": 43.04488381,
+      "lon": -76.14808559,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfFFQf",
+      "title": "Pop Evil",
+      "category": "music",
+      "city": "Syracuse",
+      "state": "NY",
+      "venue": "The Song & Dance",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 32.11,
+      "priceMax": 32.11,
+      "url": "https://www.ticketweb.com/event/pop-evil-the-song-dance-tickets/14208694",
+      "source": "ticketmaster",
+      "lat": 43.0474234,
+      "lon": -76.1518037,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfFe17",
+      "title": "Nassau County Sheriff's Emerald Society Presents: Shilelagh Law",
+      "category": "music",
+      "city": "Wantagh",
+      "state": "NY",
+      "venue": "Mulcahy's",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 93.99,
+      "priceMax": 93.99,
+      "url": "https://www.ticketweb.com/event/nassau-county-sheriffs-emerald-society-mulcahys-tickets/14202284",
+      "source": "ticketmaster",
+      "lat": 40.6723969,
+      "lon": -73.50999100000001
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfFeG0",
+      "title": "Nassau County Emerald Society Presents: Shilelagh Law",
+      "category": "music",
+      "city": "Wantagh",
+      "state": "NY",
+      "venue": "Mulcahy's",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 93.99,
+      "priceMax": 93.99,
+      "url": "https://www.ticketweb.com/event/nassau-county-emerald-society-presents-mulcahys-tickets/14202324",
+      "source": "ticketmaster",
+      "lat": 40.6723969,
+      "lon": -73.50999100000001
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfFek7",
+      "title": "Port Authority Police Emerald Society",
+      "category": "music",
+      "city": "Wantagh",
+      "state": "NY",
+      "venue": "Mulcahy's",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 93.99,
+      "priceMax": 93.99,
+      "url": "https://www.ticketweb.com/event/port-authority-police-emerald-society-mulcahys-tickets/14202184",
+      "source": "ticketmaster",
+      "lat": 40.6723969,
+      "lon": -73.50999100000001
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfJ6JK",
+      "title": "Shilelagh Law",
+      "category": "music",
+      "city": "Wantagh",
+      "state": "NY",
+      "venue": "Mulcahy's",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 20.39,
+      "priceMax": 20.39,
+      "url": "https://www.ticketweb.com/event/shilelagh-law-mulcahys-tickets/14987993",
+      "source": "ticketmaster",
+      "lat": 40.6723969,
+      "lon": -73.50999100000001
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfJ6fd",
+      "title": "NYPD Emerald Society Presents: Shilelagh Law",
+      "category": "music",
+      "city": "Wantagh",
+      "state": "NY",
+      "venue": "Mulcahy's",
+      "start": "2026-09-19T19:00:00",
+      "isFree": false,
+      "priceMin": 93.99,
+      "priceMax": 93.99,
+      "url": "https://www.ticketweb.com/event/nypd-emerald-society-presents-shilelagh-mulcahys-tickets/14987503",
+      "source": "ticketmaster",
+      "lat": 40.6723969,
+      "lon": -73.50999100000001
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvNPd",
       "title": "Raq Baby",
       "category": "other",
@@ -14437,8 +14160,8 @@
       "venue": "Mr Smalls Theatre",
       "start": "2026-09-19T19:00:00",
       "isFree": false,
-      "priceMin": 47.34,
-      "priceMax": 47.34,
+      "priceMin": 47.44,
+      "priceMax": 47.44,
       "url": "https://www.ticketweb.com/event/frank-turner-the-sleeping-mr-smalls-theatre-tickets/14908823",
       "source": "ticketmaster",
       "lat": 40.480891,
@@ -14991,6 +14714,48 @@
       "image": "https://www.jambase.com/wp-content/uploads/2025/07/whitney-press-july-2025-1480x832.jpg",
       "lat": 43.08,
       "lon": -70.7652
+    },
+    {
+      "id": "ticketmaster:17GZv0G6CFW_tKL",
+      "title": "Comedian Tim Meadows",
+      "category": "comedy",
+      "city": "Middletown",
+      "state": "NY",
+      "venue": "The Paramount Theatre (Middletown, NY)",
+      "start": "2026-09-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/comedian-tim-meadows-middletown-new-york-09-19-2026/event/300064E23D6694DF",
+      "source": "ticketmaster",
+      "lat": 41.44454,
+      "lon": -74.42094
+    },
+    {
+      "id": "ticketmaster:G5vVZ_AlmuFFi",
+      "title": "The Capitol Theatre Centennial Celebration Ft. Pink Talking Fish",
+      "category": "music",
+      "city": "Port Chester",
+      "state": "NY",
+      "venue": "The Capitol Theatre",
+      "start": "2026-09-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-capitol-theatre-centennial-celebration-ft-port-chester-new-york-09-19-2026/event/1D00645AEE34822C",
+      "source": "ticketmaster",
+      "lat": 41.0013461,
+      "lon": -73.6654488
+    },
+    {
+      "id": "ticketmaster:k7vGF_aNZfRIt",
+      "title": "Blackberry Smoke: 25th Anniversary Tour 2026",
+      "category": "music",
+      "city": "Kingston",
+      "state": "NY",
+      "venue": "Ulster Performing Arts Center",
+      "start": "2026-09-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/blackberry-smoke-25th-anniversary-tour-2026-kingston-new-york-09-19-2026/event/00006498C052FA29",
+      "source": "ticketmaster",
+      "lat": 41.929119,
+      "lon": -74.004568
     },
     {
       "id": "ticketmaster:G5vVZ_63LD0al",
@@ -15557,6 +15322,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 44.4663,
       "lon": -73.1679
+    },
+    {
+      "id": "ticketmaster:1AdZZ_aGkmY4fzl",
+      "title": "LP - All Is Not Lost Tour",
+      "category": "music",
+      "city": "Albany",
+      "state": "NY",
+      "venue": "Empire Live",
+      "start": "2026-09-19T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-albany-new-york-09-19-2026/event/3000649BB0554E2B",
+      "source": "ticketmaster",
+      "lat": 42.65288,
+      "lon": -73.75036,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:G5vVZ_6Kpz94X",
@@ -18090,14 +17870,14 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfGpb0",
-      "title": "A Jam I Traffic",
+      "title": "A Jam In Traffic - A Music Exhibition of Dora Simone",
       "category": "music",
       "city": "Cambridge",
       "state": "MA",
       "venue": "Middle East - Corner/Bakery",
       "start": "2026-09-20T17:00:00",
       "isFree": false,
-      "url": "https://www.ticketweb.com/event/a-jam-i-traffic-middle-east-cornerbakery-tickets/14316624",
+      "url": "https://www.ticketweb.com/event/a-jam-in-traffic-middle-east-cornerbakery-tickets/14316624",
       "source": "ticketmaster",
       "lat": 42.363809,
       "lon": -71.101423,
@@ -20403,8 +20183,8 @@
       "venue": "Mr Smalls Theatre",
       "start": "2026-09-21T20:00:00",
       "isFree": false,
-      "priceMin": 36.54,
-      "priceMax": 36.54,
+      "priceMin": 36.64,
+      "priceMax": 36.64,
       "url": "https://www.ticketweb.com/event/nation-of-language-anika-mr-smalls-theatre-tickets/14757733",
       "source": "ticketmaster",
       "lat": 40.480891,
@@ -20779,7 +20559,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4ZYxK",
-      "title": "He Is Legend ",
+      "title": "He Is Legend , Skullpresser, ShyGodwin",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -20788,7 +20568,7 @@
       "isFree": false,
       "priceMin": 31.55,
       "priceMax": 31.55,
-      "url": "https://www.ticketweb.com/event/he-is-legend-nikki-lopez-philly-tickets/15030893",
+      "url": "https://www.ticketweb.com/event/he-is-legend-skullpresser-nikki-lopez-philly-tickets/15030893",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -28050,6 +27830,21 @@
       "neighborhood": "West End/West Side"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7OFOk",
+      "title": "Hartford Athletic vs. Louisville City FC",
+      "category": "sports",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Trinity Health Stadium",
+      "start": "2026-09-25T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFOk",
+      "source": "ticketmaster",
+      "lat": 41.748402,
+      "lon": -72.6959,
+      "neighborhood": "Behind the Rocks"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7-O1F",
       "title": "Kamelot",
       "category": "music",
@@ -32206,6 +32001,36 @@
       "lat": 39.904551,
       "lon": -75.1736273,
       "neighborhood": "South Philadelphia East"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_1PDi4Nc",
+      "title": "Penn State Football vs. Wisconsin",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "West Shore Home Field at Beaver Stadium",
+      "start": "2026-09-26T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/penn-state-football-vs-wisconsin-university-park-pennsylvania-09-26-2026/event/020064A97BB158ED",
+      "source": "ticketmaster",
+      "lat": 40.8101829,
+      "lon": -77.862127,
+      "neighborhood": "University Park"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_1Tub3u0",
+      "title": "Football Parking - Wisconsin",
+      "category": "sports",
+      "city": "University Park",
+      "state": "PA",
+      "venue": "West Shore Home Field at Beaver Stadium",
+      "start": "2026-09-26T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/football-parking-wisconsin-university-park-pennsylvania-09-26-2026/event/020064AFCD612364",
+      "source": "ticketmaster",
+      "lat": 40.8101829,
+      "lon": -77.862127,
+      "neighborhood": "University Park"
     },
     {
       "id": "ticketmaster:vvG1FZ_5w0FWQM",
@@ -43669,15 +43494,15 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4Za7S",
-      "title": "Damag3 with special guests Film and Gender, Paloe and Conor Cristi",
+      "title": "Damag3 with special guests Film and Gender, Paloe, Conor Cristi and Good Teal & NOIR BENNY",
       "category": "music",
       "city": "Rutherford",
       "state": "NJ",
       "venue": "Williams Center - Black Box - Rutherford",
       "start": "2026-10-01T19:00:00",
       "isFree": false,
-      "priceMin": 26.46,
-      "priceMax": 26.46,
+      "priceMin": 28.46,
+      "priceMax": 28.46,
       "url": "https://www.ticketweb.com/event/damag3-with-special-guests-film-williams-center-black-tickets/15009133",
       "source": "ticketmaster",
       "lat": 40.82711,
@@ -45901,6 +45726,21 @@
       "lat": 39.354905,
       "lon": -74.438391,
       "neighborhood": "Ducktown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtoA",
+      "title": "Holy Cross Crusaders Hockey vs. Maine Black Bears Hockey",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Hart Recreation Center",
+      "start": "2026-10-02T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtoA",
+      "source": "ticketmaster",
+      "lat": 42.246498,
+      "lon": -71.809402,
+      "neighborhood": "South Worcester"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af-pJd",
@@ -48684,14 +48524,14 @@
     },
     {
       "id": "ticketmaster:1Ae0Z_3GkMXE-CP",
-      "title": "Anaya",
+      "title": "Esther Anaya",
       "category": "music",
       "city": "Atlantic City",
       "state": "NJ",
       "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
       "start": "2026-10-02T23:00:00",
       "isFree": false,
-      "url": "https://www.ticketweb.com/event/anaya-ocean-casino-resort-tickets/14318404?REFERRAL_ID=tmfeed",
+      "url": "https://www.ticketweb.com/event/esther-anaya-ocean-casino-resort-tickets/14318404?REFERRAL_ID=tmfeed",
       "source": "ticketmaster",
       "lat": 39.362536,
       "lon": -74.413699
@@ -52712,6 +52552,21 @@
       "lon": -74.172699
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvYP8",
+      "title": "Hartford Athletic vs. Louisville City FC",
+      "category": "sports",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Trinity Health Stadium",
+      "start": "2026-10-04T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYP8",
+      "source": "ticketmaster",
+      "lat": 41.748402,
+      "lon": -72.6959,
+      "neighborhood": "Behind the Rocks"
+    },
+    {
       "id": "ticketmaster:vvG1FZ_CXU8mnJ",
       "title": "Hershey Bears vs. Charlotte Checkers",
       "category": "sports",
@@ -55154,6 +55009,27 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "jambase:16470269",
+      "title": "40 Fingers",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-10-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/40-fingers-rams-head-on-stage-20261005",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+      "lat": 38.9784,
+      "lon": -76.4949,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pb7o"
+        }
+      ]
+    },
+    {
       "id": "jambase:16115953",
       "title": "Bayonne",
       "category": "music",
@@ -55216,21 +55092,6 @@
       "lat": 39.2896,
       "lon": -76.6073,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16470269",
-      "title": "40 Fingers",
-      "category": "music",
-      "city": "Annapolis",
-      "state": "MD",
-      "venue": "Rams Head On Stage",
-      "start": "2026-10-05T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/40-fingers-rams-head-on-stage-20261005",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9784,
-      "lon": -76.4949
     },
     {
       "id": "jambase:16546620",
@@ -59920,6 +59781,21 @@
       "start": "2026-10-09T17:00:00",
       "isFree": false,
       "url": "https://www.ticketweb.com/event/owen-daniel-friends-middle-east-cornerbakery-tickets/14291344",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfP87S",
+      "title": "Yeti Eyes",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-10-09T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/yeti-eyes-middle-east-cornerbakery-tickets/14950133",
       "source": "ticketmaster",
       "lat": 42.363809,
       "lon": -71.101423,
@@ -66135,22 +66011,6 @@
       "neighborhood": "Ewing and Carroll"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfPaod",
-      "title": "INDIGENOUS PEOPLES DAY BRUNCH",
-      "category": "other",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Cafe - Atlantic City",
-      "start": "2026-10-11T10:00:00",
-      "isFree": false,
-      "priceMin": 18.98,
-      "priceMax": 35.46,
-      "url": "https://www.ticketweb.com/event/indigenous-peoples-day-brunch-hard-rock-cafe-tickets/14949443",
-      "source": "ticketmaster",
-      "lat": 39.358715,
-      "lon": -74.420528
-    },
-    {
       "id": "ticketmaster:1A4Zk3aGkdtqqMt",
       "title": "Toby's Dinner Theatre Presents: Summer - The Donna Summer Musical",
       "category": "theater",
@@ -66737,6 +66597,20 @@
       "source": "ticketmaster",
       "lat": 40.285717,
       "lon": -76.6758748
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvJP8",
+      "title": "The Carole King and James Taylor Story",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-10-11T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJP8",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "ticketmaster:17A8v0G62ZV9X1d",
@@ -68223,22 +68097,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2025/05/philly-music-fest-1480x832.png",
       "lat": 40.0076,
       "lon": -75.29
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfPaoK",
-      "title": "INDIGENOUS PEOPLES DAY BRUNCH",
-      "category": "other",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Cafe - Atlantic City",
-      "start": "2026-10-12T10:00:00",
-      "isFree": false,
-      "priceMin": 18.98,
-      "priceMax": 35.46,
-      "url": "https://www.ticketweb.com/event/indigenous-peoples-day-brunch-hard-rock-cafe-tickets/14949453",
-      "source": "ticketmaster",
-      "lat": 39.358715,
-      "lon": -74.420528
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvNAN",
@@ -70163,6 +70021,21 @@
       "source": "ticketmaster",
       "lat": 40.22328639,
       "lon": -73.99950139
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvYP3",
+      "title": "Hartford Athletic vs. Charleston Battery",
+      "category": "sports",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Trinity Health Stadium",
+      "start": "2026-10-14T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYP3",
+      "source": "ticketmaster",
+      "lat": 41.748402,
+      "lon": -72.6959,
+      "neighborhood": "Behind the Rocks"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7-NFS",
@@ -74502,6 +74375,20 @@
       "neighborhood": "Metro Center"
     },
     {
+      "id": "ticketmaster:vv1A8vPFyGA5dWlw",
+      "title": "Opening Night vs Fayetteville Marksmen",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-10-16T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/opening-night-vs-fayetteville-marksmen-roanoke-virginia-10-16-2026/event/010065239B0FDAF2",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvP7o",
       "title": "UMass Lowell River Hawks Hockey vs. Arizona State Sun Devils Hockey",
       "category": "sports",
@@ -76867,6 +76754,21 @@
       "lon": -76.978699
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkVC6uiW",
+      "title": "GLOW Block Party: The Chainsmokers",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Pennsylvania Avenue",
+      "start": "2026-10-17T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/glow-block-party-the-chainsmokers-washington-district-of-columbia-10-17-2026/event/1500652D0E1CDB3D",
+      "source": "ticketmaster",
+      "lat": 38.89331,
+      "lon": -77.02195,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7P07f",
       "title": "Drunk Shakespeare: Drunk Dracula (21+ Event)",
       "category": "theater",
@@ -77430,6 +77332,21 @@
       "lon": -73.25247127
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7OFOF",
+      "title": "Hartford Athletic vs. Brooklyn FC",
+      "category": "sports",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Trinity Health Stadium",
+      "start": "2026-10-17T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFOF",
+      "source": "ticketmaster",
+      "lat": 41.748402,
+      "lon": -72.6959,
+      "neighborhood": "Behind the Rocks"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1A4Z0pd",
       "title": "Knumears w/ Catalyst & Loveletter",
       "category": "music",
@@ -77489,6 +77406,21 @@
       "source": "ticketmaster",
       "lat": 42.6996,
       "lon": -73.093597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtok",
+      "title": "Holy Cross Crusaders Hockey vs. Army Black Knights Hockey",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Hart Recreation Center",
+      "start": "2026-10-17T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtok",
+      "source": "ticketmaster",
+      "lat": 42.246498,
+      "lon": -71.809402,
+      "neighborhood": "South Worcester"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4ZebS",
@@ -78434,6 +78366,21 @@
       ]
     },
     {
+      "id": "ticketmaster:vv177Z_3Gkm1qaQP",
+      "title": "Emoween: A Still Not Okay Tour",
+      "category": "music",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Elevation 27",
+      "start": "2026-10-17T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/emoween-a-still-not-okay-tour-virginia-beach-virginia-10-17-2026/event/0100652B8A7496A5",
+      "source": "ticketmaster",
+      "lat": 36.8493416,
+      "lon": -76.0194075,
+      "neighborhood": "North Virginia Beach"
+    },
+    {
       "id": "jambase:16108286",
       "title": "The Story So Far",
       "category": "music",
@@ -79226,21 +79173,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:vv177Z_3Gkm1qaQP",
-      "title": "Emoween: A Still Not Okay Tour",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Elevation 27",
-      "start": "2026-10-17T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/emoween-a-still-not-okay-tour-virginia-beach-virginia-10-17-2026/event/0100652B8A7496A5",
-      "source": "ticketmaster",
-      "lat": 36.8493416,
-      "lon": -76.0194075,
-      "neighborhood": "North Virginia Beach"
-    },
-    {
       "id": "ticketmaster:vv1AvZkuPGkdlj23H",
       "title": "Benjamin Tod & Lost Dog Street Band",
       "category": "music",
@@ -80009,6 +79941,21 @@
       "neighborhood": "Southwest Waterfront"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZFkd",
+      "title": "Vietnamese Show (21+)",
+      "category": "other",
+      "city": "Bensalem",
+      "state": "PA",
+      "venue": "Xcite Center",
+      "start": "2026-10-17T22:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZFkd",
+      "source": "ticketmaster",
+      "lat": 40.1068,
+      "lon": -74.937897,
+      "neighborhood": "Bensalem"
+    },
+    {
       "id": "ticketmaster:1Ae0Z_3GkMWqoGl",
       "title": "Block & Crown",
       "category": "music",
@@ -80051,6 +79998,36 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:1AvbZ_eGkDp1xlF",
+      "title": "Ringling Bros. and Barnum & Bailey with Special Guest Bello Nock",
+      "category": "theater",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "venue": "PPG Paints Arena",
+      "start": "2026-10-18T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-with-pittsburgh-pennsylvania-10-18-2026/event/1600642ED62A2AC8",
+      "source": "ticketmaster",
+      "lat": 40.4388401,
+      "lon": -79.9908551,
+      "neighborhood": "Uptown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70M37",
+      "title": "Pittsburgh Panthers Womens Volleyball vs. Miami Hurricanes Womens Volleyball",
+      "category": "sports",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "venue": "Victory Heights Arena",
+      "start": "2026-10-18T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70M37",
+      "source": "ticketmaster",
+      "lat": 40.4417,
+      "lon": -79.956299,
+      "neighborhood": "Central Oakland"
     },
     {
       "id": "ticketmaster:17A8v0G616xFL0X",
@@ -80155,6 +80132,21 @@
       "source": "ticketmaster",
       "lat": 42.090918,
       "lon": -71.264321
+    },
+    {
+      "id": "ticketmaster:vv17FZ_kGkUpenQH",
+      "title": "Philadelphia Eagles vs. Carolina Panthers",
+      "category": "sports",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Lincoln Financial Field",
+      "start": "2026-10-18T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/philadelphia-eagles-vs-carolina-panthers-philadelphia-pennsylvania-10-18-2026/event/0200646D960AA6BC",
+      "source": "ticketmaster",
+      "lat": 39.900706,
+      "lon": -75.167406,
+      "neighborhood": "South Philadelphia East"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70xjO",
@@ -80348,6 +80340,21 @@
       "lat": 42.26436,
       "lon": -71.798487,
       "neighborhood": "Central Business District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvto6",
+      "title": "Holy Cross Crusaders Hockey vs. Army Black Knights Hockey",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Hart Recreation Center",
+      "start": "2026-10-18T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvto6",
+      "source": "ticketmaster",
+      "lat": 42.246498,
+      "lon": -71.809402,
+      "neighborhood": "South Worcester"
     },
     {
       "id": "jambase:16340299",
@@ -83977,6 +83984,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ6P_",
+      "title": "James Austin Johnson",
+      "category": "other",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-10-21T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6P_",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:17A8v0G6GYx-uta",
       "title": "Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks ",
       "category": "music",
@@ -85281,6 +85302,20 @@
       "neighborhood": "Central Business District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PVkd",
+      "title": "Gregg Karukas",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-10-22T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVkd",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:17A8v0G619llZUk",
       "title": "KATSEYE: THE WILDWORLD TOUR",
       "category": "music",
@@ -86191,6 +86226,21 @@
       "lat": 42.394402,
       "lon": -71.216904,
       "neighborhood": "North Waltham"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtoF",
+      "title": "Holy Cross Crusaders Hockey vs. Sacred Heart Pioneers Hockey",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Hart Recreation Center",
+      "start": "2026-10-23T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtoF",
+      "source": "ticketmaster",
+      "lat": 42.246498,
+      "lon": -71.809402,
+      "neighborhood": "South Worcester"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4ZfbK",
@@ -89339,6 +89389,21 @@
       "lon": -74.10333
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7OFOa",
+      "title": "Hartford Athletic vs. Rhode Island FC",
+      "category": "sports",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Trinity Health Stadium",
+      "start": "2026-10-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFOa",
+      "source": "ticketmaster",
+      "lat": 41.748402,
+      "lon": -72.6959,
+      "neighborhood": "Behind the Rocks"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7x_4t",
       "title": "Insane Clown Posse",
       "category": "music",
@@ -89875,6 +89940,20 @@
       "lat": 36.8520889,
       "lon": -76.2861351,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv1AvZkftGkdm3Mvv",
+      "title": "Howl-O-Ween vs Athens Rock Lobsters",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-10-24T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/howloween-vs-athens-rock-lobsters-roanoke-virginia-10-24-2026/event/01006529EE4B7041",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70K8Y",
@@ -94369,6 +94448,21 @@
       "neighborhood": "Regency"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PIPk",
+      "title": "Built To Spill w/ Quasi",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "The Sinclair Music Hall",
+      "start": "2026-10-27T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIPk",
+      "source": "ticketmaster",
+      "lat": 42.380199,
+      "lon": -71.134697,
+      "neighborhood": "West Cambridge"
+    },
+    {
       "id": "jambase:16524059",
       "title": "Built to Spill",
       "category": "music",
@@ -94383,6 +94477,21 @@
       "lat": 42.3741,
       "lon": -71.1208,
       "neighborhood": "Harvard Square"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfOkOS",
+      "title": "Oh Kee Pa Orchestra",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Zuzu",
+      "start": "2026-10-27T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/oh-kee-pa-orchestra-middle-east-zuzu-tickets/14806833",
+      "source": "ticketmaster",
+      "lat": 42.36374167151,
+      "lon": -71.10074879726,
+      "neighborhood": "Central Square"
     },
     {
       "id": "jambase:15980051",
@@ -95712,6 +95821,20 @@
       "source": "ticketmaster",
       "lat": 43.248001,
       "lon": -71.5112
+    },
+    {
+      "id": "ticketmaster:vv177Z_3Gkz2X9HS",
+      "title": "Mathis Picard",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-10-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/mathis-picard-portsmouth-new-hampshire-10-29-2026/event/0100652E0FF97F33",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
     },
     {
       "id": "jambase:16334374",
@@ -98344,6 +98467,20 @@
       "neighborhood": "Phoebus"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvsve",
+      "title": "Dartmouth Big Green Hockey vs. Alaska-Fairbanks Nanooks Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-10-31T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsve",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "jambase:16210909",
       "title": "Baby Bugs",
       "category": "music",
@@ -98695,6 +98832,23 @@
       "lat": 41.0507831,
       "lon": -73.5395426,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfG94V",
+      "title": "DJ Meredith : YOU. CAN. DANCE. TOUR",
+      "category": "music",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Fete Music Hall",
+      "start": "2026-10-31T20:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/dj-meredith-you-can-fete-music-hall-tickets/14317574",
+      "source": "ticketmaster",
+      "lat": 41.8158981,
+      "lon": -71.4431044,
+      "neighborhood": "Olneyville"
     },
     {
       "id": "ticketmaster:vvG1FZ_uqP_3zq",
@@ -99445,6 +99599,20 @@
       "neighborhood": "West McLean"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvoOs",
+      "title": "Dartmouth Big Green Hockey vs. Alaska-Fairbanks Nanooks Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-11-01T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOs",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "ticketmaster:17A8v0G62ZVqC1m",
       "title": "Washington Capitals vs. Minnesota Wild",
       "category": "sports",
@@ -100026,6 +100194,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2017/03/choir-choir-choir-press-1480x832.jpg",
       "lat": 36.8568,
       "lon": -76.2789
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvejS",
+      "title": "Eric Gales w/ Dennis Chambers",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-11-01T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvejS",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvvJ4",
@@ -101382,6 +101564,27 @@
       "lon": -77.003002
     },
     {
+      "id": "jambase:16524923",
+      "title": "Gaelic Storm",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-11-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/gaelic-storm-rams-head-on-stage-20261104",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2017/04/gaelic-storm-gaelic-storm-3786f60f-5774-4894-b8f1-0bc8c9adea02_97301_TABLET_LANDSCAPE_16_9-1480x832.jpg",
+      "lat": 38.9784,
+      "lon": -76.4949,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYZ0"
+        }
+      ]
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZbfw",
       "title": "Paige Fish",
       "category": "other",
@@ -101532,21 +101735,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/05/rawayana-1480x832.png",
       "lat": 38.7964,
       "lon": -77.0082
-    },
-    {
-      "id": "jambase:16524923",
-      "title": "Gaelic Storm",
-      "category": "music",
-      "city": "Annapolis",
-      "state": "MD",
-      "venue": "Rams Head On Stage",
-      "start": "2026-11-04T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/gaelic-storm-rams-head-on-stage-20261104",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/gaelic-storm-gaelic-storm-3786f60f-5774-4894-b8f1-0bc8c9adea02_97301_TABLET_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 38.9784,
-      "lon": -76.4949
     },
     {
       "id": "jambase:16524102",
@@ -102274,6 +102462,27 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "jambase:16524934",
+      "title": "Gaelic Storm",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-11-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/gaelic-storm-rams-head-on-stage-20261105",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2017/04/gaelic-storm-gaelic-storm-3786f60f-5774-4894-b8f1-0bc8c9adea02_97301_TABLET_LANDSCAPE_16_9-1480x832.jpg",
+      "lat": 38.9784,
+      "lon": -76.4949,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYZP"
+        }
+      ]
+    },
+    {
       "id": "ticketmaster:17A8v0G61f9OzLK",
       "title": "Pod Save America: LIVE from DC",
       "category": "other",
@@ -102484,21 +102693,6 @@
       "lat": 39.9614,
       "lon": -75.1575,
       "neighborhood": "Center City"
-    },
-    {
-      "id": "jambase:16524934",
-      "title": "Gaelic Storm",
-      "category": "music",
-      "city": "Annapolis",
-      "state": "MD",
-      "venue": "Rams Head On Stage",
-      "start": "2026-11-05T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/gaelic-storm-rams-head-on-stage-20261105",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/gaelic-storm-gaelic-storm-3786f60f-5774-4894-b8f1-0bc8c9adea02_97301_TABLET_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 38.9784,
-      "lon": -76.4949
     },
     {
       "id": "jambase:16469373",
@@ -102987,6 +103181,20 @@
       ]
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvsvd",
+      "title": "Dartmouth Big Green Hockey vs. Yale Bulldogs Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-11-06T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsvd",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "ticketmaster:vv177Z_oGkmllsW-",
       "title": "Maine Celtics vs. Westchester Knicks",
       "category": "sports",
@@ -103265,6 +103473,20 @@
       "lat": 36.8517,
       "lon": -76.2873,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv177Z_3GklCJHM8",
+      "title": "Stick it to Cancer Night vs. Pensacola Ice Flyers",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-11-06T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/stick-it-to-cancer-night-vs-roanoke-virginia-11-06-2026/event/0100652ACE9BCDD0",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
     },
     {
       "id": "ticketmaster:G5vVZ_7b8FIk3",
@@ -105312,6 +105534,20 @@
       "lon": -71.5112
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvoOw",
+      "title": "Dartmouth Big Green Hockey vs. Brown University Bears Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-11-07T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOw",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "jambase:15940400",
       "title": "Fruit Bats",
       "category": "music",
@@ -105529,6 +105765,20 @@
       "lat": 36.8517,
       "lon": -76.2873,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv177Z_3Gkl2AHXM",
+      "title": "Small Dawg Races vs. Pensacola Ice Flyers",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-11-07T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/small-dawg-races-vs-pensacola-ice-roanoke-virginia-11-07-2026/event/0100652ACF17CFB7",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af1aj7",
@@ -105876,6 +106126,20 @@
       "source": "ticketmaster",
       "lat": 38.791707,
       "lon": -77.003002
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZbbF",
+      "title": "Euge Groove",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-11-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbF",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "ticketmaster:1A4Zkf-Gkd1-lBn",
@@ -110926,6 +111190,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPf",
+      "title": "Brown University Bears Hockey vs. Cornell Big Red Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPf",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:1718v0G6CMAwsfp",
       "title": "Flaw Performing At the Halftime Sports and Music Venue In Newark Delaw",
       "category": "music",
@@ -111218,6 +111497,20 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:vv177Z_3Gkloeqin",
+      "title": "Roanoke Rail Yard Dawgs vs. Athens Rock Lobsters",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-11-13T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/roanoke-rail-yard-dawgs-vs-athens-roanoke-virginia-11-13-2026/event/0100652AD109DB2A",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
     },
     {
       "id": "ticketmaster:G5vVZ_aLmxROK",
@@ -112865,6 +113158,21 @@
       "neighborhood": "Jewelry District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtP4",
+      "title": "Brown University Bears Hockey vs. Colgate University Raiders Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2026-11-14T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtP4",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:1AdZZ_oGklj5EUd",
       "title": "Delaware Blue Coats vs. Maine Celtics",
       "category": "sports",
@@ -113524,6 +113832,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/01/pokey-lafarge-1673030825-1480x832.png",
       "lat": 44.2305,
       "lon": -69.0966
+    },
+    {
+      "id": "ticketmaster:vv177Z_3Gkl32mAs",
+      "title": "Military Night vs. Athens Rock Lobsters",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-11-14T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/military-night-vs-athens-rock-lobsters-roanoke-virginia-11-14-2026/event/0100652AD23EE171",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZKqU",
@@ -120947,6 +121269,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:vv177Z_3Gkzo5I8c",
+      "title": "Quinn Sullivan",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-11-21T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/quinn-sullivan-portsmouth-new-hampshire-11-21-2026/event/0100652E112E842D",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
+    },
+    {
       "id": "ticketmaster:vv177Z_oGkShVA7y",
       "title": "Warren Miller's Days Off",
       "category": "film",
@@ -121203,6 +121539,27 @@
       "lat": 39.288494,
       "lon": -76.6187,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "jambase:16525697",
+      "title": "Marshall Crenshaw",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-11-21T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/marshall-crenshaw-rams-head-on-stage-20261121",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2017/04/marshall-crenshaw-marshall-crenshaw-76b1a73c-5a19-4c1a-bf0a-13b5124480ba_289551_TABLET_LANDSCAPE_16_9-1480x832.jpg",
+      "lat": 38.9784,
+      "lon": -76.4949,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSvs"
+        }
+      ]
     },
     {
       "id": "ticketmaster:1A4Zkf9GkdhuLun",
@@ -121622,21 +121979,6 @@
       "lat": 40.2539,
       "lon": -76.8691,
       "neighborhood": "Downtown Harrisburg"
-    },
-    {
-      "id": "jambase:16525697",
-      "title": "Marshall Crenshaw",
-      "category": "music",
-      "city": "Annapolis",
-      "state": "MD",
-      "venue": "Rams Head On Stage",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/marshall-crenshaw-rams-head-on-stage-20261121",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/marshall-crenshaw-marshall-crenshaw-76b1a73c-5a19-4c1a-bf0a-13b5124480ba_289551_TABLET_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 38.9784,
-      "lon": -76.4949
     },
     {
       "id": "jambase:16325713",
@@ -122417,6 +122759,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:vv177Z_3Gkzr7l48",
+      "title": "The Brit Pack - British Invasion and More ",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-11-22T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-brit-pack-british-invasion-and-portsmouth-new-hampshire-11-22-2026/event/0100652E1E12B550",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
+    },
+    {
       "id": "jambase:16323849",
       "title": "Sweet Pill",
       "category": "music",
@@ -122783,6 +123139,21 @@
       "lat": 41.821899,
       "lon": -71.419701,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtPp",
+      "title": "Brown University Bears Hockey vs. Northeastern Huskies Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2026-11-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPp",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7P0AM",
@@ -123218,6 +123589,20 @@
       "neighborhood": "Bayside"
     },
     {
+      "id": "ticketmaster:vv177Z_3GklK8CQk",
+      "title": "Fall Food Drive & Friendsgiving vs. Knoxville Ice Bears",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-11-25T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/fall-food-drive-friendsgiving-vs-knoxville-roanoke-virginia-11-25-2026/event/0100652AD340E686",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
+    },
+    {
       "id": "ticketmaster:G5vVZ_1rcL9KT",
       "title": "Blue Oyster Cult",
       "category": "music",
@@ -123320,6 +123705,20 @@
       "lat": 38.843102,
       "lon": -77.0896,
       "neighborhood": "Green Valley"
+    },
+    {
+      "id": "ticketmaster:vv177Z_3GkzL3lPY",
+      "title": "Tim Theriault ",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-11-25T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tim-theriault-portsmouth-new-hampshire-11-25-2026/event/0100652E1F4AB970",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
     },
     {
       "id": "jambase:16263466",
@@ -123455,22 +123854,6 @@
       "lat": 41.4915974,
       "lon": -72.0914563,
       "neighborhood": "Uncasville"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfPafK",
-      "title": "THANKSGIVING WEEKEND BRUNCH",
-      "category": "other",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Cafe - Atlantic City",
-      "start": "2026-11-27T10:00:00",
-      "isFree": false,
-      "priceMin": 18.98,
-      "priceMax": 35.46,
-      "url": "https://www.ticketweb.com/event/thanksgiving-weekend-brunch-hard-rock-cafe-tickets/14949513",
-      "source": "ticketmaster",
-      "lat": 39.358715,
-      "lon": -74.420528
     },
     {
       "id": "ticketmaster:vvG1FZ_2eoSySJ",
@@ -123954,6 +124337,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:vv177Z_3GklL3dPK",
+      "title": "Mighty Dawgs Night vs. Fayetteville Marksmen",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-11-27T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/mighty-dawgs-night-vs-fayetteville-marksmen-roanoke-virginia-11-27-2026/event/0100652ADF483953",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7JfQ8",
       "title": "A Christmas Carol",
       "category": "other",
@@ -124403,22 +124800,6 @@
       "lat": 42.3531,
       "lon": -71.0474,
       "neighborhood": "D Street / West Broadway"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfPafN",
-      "title": "THANKSGIVING WEEKEND BRUNCH",
-      "category": "other",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Cafe - Atlantic City",
-      "start": "2026-11-28T10:00:00",
-      "isFree": false,
-      "priceMin": 18.98,
-      "priceMax": 35.46,
-      "url": "https://www.ticketweb.com/event/thanksgiving-weekend-brunch-hard-rock-cafe-tickets/14949523",
-      "source": "ticketmaster",
-      "lat": 39.358715,
-      "lon": -74.420528
     },
     {
       "id": "ticketmaster:G5vVZ_2ddLigp",
@@ -125491,22 +125872,6 @@
       "lon": -70.9758
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfPafS",
-      "title": "THANKSGIVING WEEKEND BRUNCH",
-      "category": "other",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "Hard Rock Cafe - Atlantic City",
-      "start": "2026-11-29T10:00:00",
-      "isFree": false,
-      "priceMin": 18.98,
-      "priceMax": 35.46,
-      "url": "https://www.ticketweb.com/event/thanksgiving-weekend-brunch-hard-rock-cafe-tickets/14949533",
-      "source": "ticketmaster",
-      "lat": 39.358715,
-      "lon": -74.420528
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvbZY",
       "title": "A Christmas Carol",
       "category": "other",
@@ -125699,6 +126064,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvoOI",
+      "title": "Dartmouth Big Green Hockey vs. Northeastern Huskies Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-11-29T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOI",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A70IfM",
       "title": "Trenton Ironhawks vs. Reading Royals",
       "category": "sports",
@@ -125817,6 +126196,20 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZUjA",
+      "title": "Matteo Bocelli",
+      "category": "music",
+      "city": "Collingswood",
+      "state": "NJ",
+      "venue": "Scottish Rite Auditorium-NJ",
+      "start": "2026-11-29T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUjA",
+      "source": "ticketmaster",
+      "lat": 39.915199,
+      "lon": -75.061501
+    },
+    {
       "id": "ticketmaster:1A4Zkf6GkdQnj9h",
       "title": "Static Dress",
       "category": "music",
@@ -125846,6 +126239,21 @@
       "lat": 42.3471,
       "lon": -71.0944,
       "neighborhood": "West Fens"
+    },
+    {
+      "id": "ticketmaster:vv17FZ_8GkD393l0",
+      "title": "Rock The Bells Festival 2026",
+      "category": "music",
+      "city": "Newark",
+      "state": "NJ",
+      "venue": "Prudential Center",
+      "start": "2026-11-29T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rock-the-bells-festival-2026-newark-new-jersey-11-29-2026/event/0200650ED25D2AE4",
+      "source": "ticketmaster",
+      "lat": 40.73340555,
+      "lon": -74.17121214,
+      "neighborhood": "Central Ward"
     },
     {
       "id": "ticketmaster:G5vVZ_CBIstep",
@@ -126090,6 +126498,22 @@
       "neighborhood": "North Philadelphia"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4vAQK",
+      "title": "Steven Curtis Chapman: The Music of Christmas Tour - Hawthorne, NJ",
+      "category": "music",
+      "city": "Hawthorne",
+      "state": "NJ",
+      "venue": "Hawthorne Gospel Church ",
+      "start": "2026-12-01T19:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/steven-curtis-chapman-the-music-hawthorne-gospel-church-tickets/15045693",
+      "source": "ticketmaster",
+      "lat": 40.9766367,
+      "lon": -74.1589046
+    },
+    {
       "id": "ticketmaster:G5vVZ_CjynV1f",
       "title": "A Charlie Brown Christmas - Live On Stage!",
       "category": "music",
@@ -126102,6 +126526,21 @@
       "source": "ticketmaster",
       "lat": 41.4486599,
       "lon": -72.846188
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtP9",
+      "title": "Brown University Bears Hockey vs. Sacred Heart Pioneers Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2026-12-01T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtP9",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
     },
     {
       "id": "ticketmaster:17A8v0G62ZUdC9w",
@@ -126194,6 +126633,35 @@
       "lat": 42.3471,
       "lon": -71.0944,
       "neighborhood": "West Fens"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_CNR6RLs",
+      "title": "THE STRAY CATS",
+      "category": "music",
+      "city": "Red Bank",
+      "state": "NJ",
+      "venue": "Hackensack Meridian Health Theatre at the Count Basie Center ",
+      "start": "2026-12-01T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-stray-cats-red-bank-new-jersey-12-01-2026/event/1D0064E8EF1EF7F1",
+      "source": "ticketmaster",
+      "lat": 40.349071,
+      "lon": -74.07022
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_2eoUtSz",
+      "title": "New Jersey Devils vs. San Jose Sharks",
+      "category": "sports",
+      "city": "Newark",
+      "state": "NJ",
+      "venue": "Prudential Center",
+      "start": "2026-12-01T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/new-jersey-devils-vs-san-jose-newark-new-jersey-12-01-2026/event/020064F091DA9CF8",
+      "source": "ticketmaster",
+      "lat": 40.73340555,
+      "lon": -74.17121214,
+      "neighborhood": "Central Ward"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PtFI",
@@ -126700,6 +127168,34 @@
       "source": "ticketmaster",
       "lat": 36.7393,
       "lon": -82.009201
+    },
+    {
+      "id": "ticketmaster:vv17FZbsGkSv6d7Z",
+      "title": "Uptown - A Very Motown Christmas",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Tropicana Showroom at Tropicana Atlantic City",
+      "start": "2026-12-03T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/uptown-a-very-motown-christmas-atlantic-city-new-jersey-12-03-2026/event/0200631CC11C3100",
+      "source": "ticketmaster",
+      "lat": 39.352585,
+      "lon": -74.444893
+    },
+    {
+      "id": "ticketmaster:vv1AeZkuPGkdspXdp",
+      "title": "Uptown | Official Caesars Ticket + Hotel Packages",
+      "category": "other",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Tropicana Showroom at Tropicana Atlantic City",
+      "start": "2026-12-03T15:30:00",
+      "isFree": false,
+      "url": "https://travel.ticketmaster.com/event/10362070?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_UptownMotownChristmas",
+      "source": "ticketmaster",
+      "lat": 39.352585,
+      "lon": -74.444893
     },
     {
       "id": "jambase:16255996",
@@ -127802,6 +128298,20 @@
       "source": "ticketmaster",
       "lat": 39.439301,
       "lon": -77.342796
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZbGv",
+      "title": "Jon McLaughlin",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbGv",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4Z_4S",
@@ -129137,6 +129647,21 @@
       "lon": -82.009201
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPb",
+      "title": "Brown University Bears Hockey vs. Stonehill Skyhawks Mens Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2026-12-06T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPb",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:G5vVZ_295yTpq",
       "title": "K-POP Superstars Live!",
       "category": "music",
@@ -129329,6 +129854,20 @@
       "source": "ticketmaster",
       "lat": 36.8565876,
       "lon": -76.2790052
+    },
+    {
+      "id": "ticketmaster:vv177Z_3GkzOJlgY",
+      "title": "Grace Kelly",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-12-06T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/grace-kelly-portsmouth-new-hampshire-12-06-2026/event/0100652E209ABD70",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
     },
     {
       "id": "ticketmaster:1A4Zkf7Gkd5ZbB_",
@@ -129724,6 +130263,20 @@
       "lon": -71.448799
     },
     {
+      "id": "ticketmaster:vv177Z_3Gkz-UG6s",
+      "title": "David Benoit Christmas Tribute to Charlie Brown with Courtney Fortune ",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-12-08T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/david-benoit-christmas-tribute-to-charlie-portsmouth-new-hampshire-12-08-2026/event/0100652E21D8C1F1",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
+    },
+    {
       "id": "jambase:15840688",
       "title": "Mufasa Verde",
       "category": "music",
@@ -129826,6 +130379,20 @@
       "source": "ticketmaster",
       "lat": 38.798398,
       "lon": -77.178967
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZ3AN",
+      "title": "Mickey Guyton",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-09T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3AN",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZKqM",
@@ -130052,6 +130619,20 @@
       "neighborhood": "North Virginia Beach"
     },
     {
+      "id": "ticketmaster:vv177Z_3GkzNcHq9",
+      "title": "Albert Cummings",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-12-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/albert-cummings-portsmouth-new-hampshire-12-09-2026/event/0100652E23B7C757",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
+    },
+    {
       "id": "ticketmaster:vv1AvZkftGkesRNpm",
       "title": "Cirque Dreams Holidaze (Touring)",
       "category": "theater",
@@ -130221,6 +130802,20 @@
       "lat": 43.6555,
       "lon": -70.2591,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvoOE",
+      "title": "Dartmouth Big Green Hockey vs. Stonehill Skyhawks Mens Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-12-10T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOE",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:17A8v0G6CTSEwey",
@@ -130472,6 +131067,20 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/03/dave-koz_1200x628_jb_cropped-1480x832.png",
       "lat": 39.9393,
       "lon": -75.2724
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jd-A",
+      "title": "Rachael and Vilray w/ Taylor Ashton",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-10T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jd-A",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZNFy",
@@ -131329,6 +131938,20 @@
       "neighborhood": "Central Ward"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZZoy",
+      "title": "Carbon Leaf",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-11T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZZoy",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAv9rb",
       "title": "Shotguns N Roses: A Guns N??? Rose Tribute - Ages 21+",
       "category": "other",
@@ -131822,6 +132445,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:vv177Z_3GkzPpjRd",
+      "title": "Kandace Springs",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-12-12T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/kandace-springs-portsmouth-new-hampshire-12-12-2026/event/0100652E2559CBC3",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
+    },
+    {
       "id": "ticketmaster:vv177Z_oGkmls-TA",
       "title": "Maine Celtics vs. Greensboro Swarm",
       "category": "sports",
@@ -131911,6 +132548,20 @@
       "lat": 36.8517,
       "lon": -76.2873,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv177Z_3GklLzSgp",
+      "title": "Rumble in the Rink vs. Knoxville Ice Bears",
+      "category": "sports",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Coliseum",
+      "start": "2026-12-12T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rumble-in-the-rink-vs-knoxville-roanoke-virginia-12-12-2026/event/0100652ADFE33D56",
+      "source": "ticketmaster",
+      "lat": 37.279913,
+      "lon": -79.936475
     },
     {
       "id": "ticketmaster:G5vVZ_5h2BbfS",
@@ -132039,34 +132690,6 @@
       "start": "2026-12-12T20:00:00",
       "isFree": false,
       "url": "https://travel.ticketmaster.com/en-US/event/176869319/pf?_uid=01e06df2-8b31-4246-b25c-04d738f89509&utm_source=Caesars_TM&utm_medium=TM_ADP_ChrisIsaak1212",
-      "source": "ticketmaster",
-      "lat": 36.57134941,
-      "lon": -79.42809252
-    },
-    {
-      "id": "ticketmaster:vv1A8v0fOGA53s52",
-      "title": "A Jazzy Christmas Show feat. Marion Meadows-Brian Simpson-Althea Rene",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Attucks Theatre",
-      "start": "2026-12-12T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/a-jazzy-christmas-show-feat-marion-norfolk-virginia-12-12-2026/event/010064520B4B12CF",
-      "source": "ticketmaster",
-      "lat": 36.8565876,
-      "lon": -76.2790052
-    },
-    {
-      "id": "ticketmaster:vv1AvZkfNGkd_12a8",
-      "title": "Chris Isaak: On Tour For The Holidays",
-      "category": "music",
-      "city": "Danville",
-      "state": "VA",
-      "venue": "The Pantheon at Caesars Virginia",
-      "start": "2026-12-12T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/chris-isaak-on-tour-for-the-danville-virginia-12-12-2026/event/01006523D928F250",
       "source": "ticketmaster",
       "lat": 36.57134941,
       "lon": -79.42809252
@@ -132242,21 +132865,6 @@
       "neighborhood": "Northeast Washington"
     },
     {
-      "id": "ticketmaster:vvG17Z_CrWBx_8",
-      "title": "Disney On Ice presents Magic in the Stars",
-      "category": "other",
-      "city": "Hampton",
-      "state": "VA",
-      "venue": "Hampton Coliseum",
-      "start": "2026-12-13T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/disney-on-ice-presents-magic-in-hampton-virginia-12-13-2026/event/010064E7BDEA2650",
-      "source": "ticketmaster",
-      "lat": 37.0340879,
-      "lon": -76.380428,
-      "neighborhood": "Coliseum Central"
-    },
-    {
       "id": "ticketmaster:vvG17Z_uJ8QQEZ",
       "title": "Disney On Ice presents Magic of Family",
       "category": "other",
@@ -132421,36 +133029,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:17A8v0G65aUk3fI",
-      "title": "The Nutcracker - Virginia National Ballet",
-      "category": "theater",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-12-13T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-nutcracker-virginia-national-ballet-tysons-virginia-12-13-2026/event/150064B276192528",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAvbO6",
-      "title": "Richmond Ballet w/ The Nutcracker",
-      "category": "theater",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Carpenter Theatre at Dominion Energy Center",
-      "start": "2026-12-13T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvbO6",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAZzbg",
       "title": "The Nutcracker w/ Eastern Connecticut Ballet",
       "category": "other",
@@ -132568,50 +133146,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAZNa6",
-      "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2026-12-13T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZNa6",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZPfS",
-      "title": "All The World's a Stage",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2026-12-13T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPfS",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:vv177Z_8Gkna_kqj",
-      "title": "Ballet Virginia : The Nutcracker",
-      "category": "theater",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Sandler Center For The Performing Arts",
-      "start": "2026-12-13T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/ballet-virginia-the-nutcracker-virginia-beach-virginia-12-13-2026/event/0100650A8964675C",
-      "source": "ticketmaster",
-      "lat": 36.8009643,
-      "lon": -76.1210594
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7PgFP",
       "title": "A Christmas Carol",
       "category": "other",
@@ -132627,21 +133161,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:vv177Z_oGkSenGtJ",
-      "title": "Hampton Roads Philharmonic: Winter Classics & Holiday Favorites",
-      "category": "theater",
-      "city": "Hampton",
-      "state": "VA",
-      "venue": "American Theatre",
-      "start": "2026-12-13T14:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/hampton-roads-philharmonic-winter-classics-holiday-hampton-virginia-12-13-2026/event/0100651CC2A8CA66",
-      "source": "ticketmaster",
-      "lat": 37.0170608,
-      "lon": -76.320344,
-      "neighborhood": "Phoebus"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7P0F3",
       "title": "Drunk Shakespeare: A Drunk Christmas Carol (21+ Event)",
       "category": "theater",
@@ -132655,6 +133174,20 @@
       "lat": 38.904202,
       "lon": -77.031502,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvoOS",
+      "title": "Dartmouth Big Green Hockey vs. New Hampshire Wildcats Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-12-13T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOS",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:vvG17Z_CBBrM88",
@@ -132851,6 +133384,20 @@
       "lat": 41.3064,
       "lon": -72.9293,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvsv7",
+      "title": "Dartmouth Big Green Hockey vs. Holy Cross Crusaders Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2026-12-15T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsv7",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:17A8v0G6CTB5xz9",
@@ -133137,6 +133684,20 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:vv177Z_3GkzE0q7D",
+      "title": "Cherish The Ladies Celtic Christmas",
+      "category": "theater",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-12-16T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cherish-the-ladies-celtic-christmas-portsmouth-new-hampshire-12-16-2026/event/0100652E2791D13B",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
     },
     {
       "id": "jambase:16211036",
@@ -134496,6 +135057,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A70xjs",
+      "title": "A Christmas Carol",
+      "category": "other",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Ford's Theatre",
+      "start": "2026-12-21T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70xjs",
+      "source": "ticketmaster",
+      "lat": 38.892101,
+      "lon": -77.022301,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "jambase:16526422",
       "title": "Low Lily",
       "category": "music",
@@ -135420,6 +135996,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtP_",
+      "title": "Brown University Bears Hockey vs. Dartmouth Big Green Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-01T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtP_",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZS_b",
       "title": "Kitchen Dwellers",
       "category": "music",
@@ -135462,6 +136053,21 @@
       "lat": 43.6558863,
       "lon": -70.2770997,
       "neighborhood": "Valley Street"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtPO",
+      "title": "Brown University Bears Hockey vs. Harvard Crimson Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-02T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPO",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A700OM",
@@ -135537,6 +136143,21 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtP-",
+      "title": "Brown University Bears Hockey vs. Army Black Knights Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtP-",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
     },
     {
       "id": "ticketmaster:17A8v0G6CTpwC62",
@@ -135686,6 +136307,20 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvsvA",
+      "title": "Dartmouth Big Green Hockey vs. Princeton Tigers Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-01-08T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsvA",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "ticketmaster:vvG17Z_26n3zj8",
       "title": "Disney On Ice presents Find Your Hero",
       "category": "other",
@@ -135833,6 +136468,20 @@
       "lon": -73.25247127
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvsvk",
+      "title": "Dartmouth Big Green Hockey vs. Quinnipiac Bobcats Mens Ice Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-01-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsvk",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "jambase:16432951",
       "title": "Johnny A.",
       "category": "music",
@@ -135938,18 +136587,6 @@
       "neighborhood": "Downtown Providence"
     },
     {
-      "id": "dice:6a97a330b45d1e00017ce749",
-      "title": "Free Chess Night at Alphaville",
-      "category": "social",
-      "borough": "Brooklyn",
-      "venue": "ALPHAVILLE",
-      "start": "2027-01-13T19:00:00",
-      "end": "2027-01-13T23:00:00",
-      "isFree": true,
-      "url": "https://dice.fm/event/6a97a330b45d1e00017ce749",
-      "source": "dice"
-    },
-    {
       "id": "ticketmaster:vv177Z_oGkmlqozs",
       "title": "Maine Celtics vs. Laketown Squadron",
       "category": "sports",
@@ -135963,18 +136600,6 @@
       "lat": 43.6558863,
       "lon": -70.2770997,
       "neighborhood": "Valley Street"
-    },
-    {
-      "id": "todaytix:47751",
-      "title": "Minor Theater: Pity Whore",
-      "category": "theater",
-      "borough": "Manhattan",
-      "venue": "NYU Skirball",
-      "start": "2027-01-13T19:30:00",
-      "isFree": false,
-      "priceMin": 66,
-      "url": "https://www.todaytix.com/nyc/shows/minor-theater-pity-whore",
-      "source": "todaytix"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PUq_",
@@ -136021,6 +136646,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPx",
+      "title": "Brown University Bears Hockey vs. Union College Garnet Chargers Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPx",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:1AdZZ_oGklhD6V3",
       "title": "Delaware Blue Coats vs. Long Island Nets",
       "category": "sports",
@@ -136033,6 +136673,20 @@
       "source": "ticketmaster",
       "lat": 39.72778,
       "lon": -75.554397
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvoOY",
+      "title": "Dartmouth Big Green Hockey vs. St. Lawrence Saints Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-01-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOY",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:vv177Z_oGkmlroyG",
@@ -136125,6 +136779,21 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPN",
+      "title": "Brown University Bears Hockey vs. Rensselaer Polytechnic Engineers Mens Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-16T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPN",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A700-Z",
       "title": "Maine Mariners vs. Norfolk Admirals",
       "category": "sports",
@@ -136183,6 +136852,20 @@
       "lat": 39.288494,
       "lon": -76.6187,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvoOg",
+      "title": "Dartmouth Big Green Hockey vs. Clarkson Golden Knights Mens Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-01-16T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOg",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:vv177Z_8GkMTnAcY",
@@ -136486,6 +137169,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtP0",
+      "title": "Brown University Bears Hockey vs. Quinnipiac Bobcats Mens Ice Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-22T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtP0",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvNko",
       "title": "Lucas Zelnick",
       "category": "other",
@@ -136664,6 +137362,21 @@
       "lat": 41.491536,
       "lon": -72.090539,
       "neighborhood": "Uncasville"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtPP",
+      "title": "Brown University Bears Hockey vs. Princeton Tigers Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-23T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPP",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
     },
     {
       "id": "ticketmaster:G5vVZ_o5Lg7dF",
@@ -137150,6 +137863,21 @@
       "neighborhood": "Bayside"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPw",
+      "title": "Brown University Bears Hockey vs. Princeton Tigers Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-01-30T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPw",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:vv177ZbYGkUu8-C2",
       "title": "Grand Funk Railroad",
       "category": "music",
@@ -137162,6 +137890,21 @@
       "source": "ticketmaster",
       "lat": 41.892518,
       "lon": -71.437762
+    },
+    {
+      "id": "ticketmaster:1A4ZkftGkdVU2R1",
+      "title": "DJ Meredith Marks - YOU. CAN. DANCE. Tour",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2027-01-30T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dj-meredith-marks-you-can-dance-silver-spring-maryland-01-30-2027/event/15006529F4D8FBCA",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
     },
     {
       "id": "jambase:14876036",
@@ -137420,6 +138163,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPJ",
+      "title": "Brown University Bears Hockey vs. Yale Bulldogs Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-02-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPJ",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
       "id": "ticketmaster:vv1A8vPvoGACzunV",
       "title": "Monster Jam",
       "category": "sports",
@@ -137433,6 +138191,20 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvsv6",
+      "title": "Dartmouth Big Green Hockey vs. Harvard Crimson Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-02-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsv6",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:Z7r9jZ1A700-A",
@@ -137822,6 +138594,20 @@
       "lon": -75.554397
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvsvF",
+      "title": "Dartmouth Big Green Hockey vs. Rensselaer Polytechnic Engineers Mens Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-02-12T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsvF",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "jambase:16200901",
       "title": "Olivia Rodrigo",
       "category": "music",
@@ -137923,6 +138709,20 @@
       "source": "ticketmaster",
       "lat": 39.72778,
       "lon": -75.554397
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvoOV",
+      "title": "Dartmouth Big Green Hockey vs. Union College Garnet Chargers Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-02-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOV",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "ticketmaster:G5vVZ_Am_JVCF",
@@ -138144,6 +138944,35 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvtPE",
+      "title": "Brown University Bears Hockey vs. St. Lawrence Saints Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-02-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPE",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvsva",
+      "title": "Dartmouth Big Green Hockey vs. Cornell Big Red Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-02-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsva",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
+    },
+    {
       "id": "jambase:16232217",
       "title": "Olivia Rodrigo",
       "category": "music",
@@ -138176,6 +139005,35 @@
       "image": "https://www.jambase.com/wp-content/uploads/2023/03/die-spitz-1480x832.png",
       "lat": 40.7194,
       "lon": -73.941
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvtPI",
+      "title": "Brown University Bears Hockey vs. Clarkson Golden Knights Mens Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Meehan Auditorium",
+      "start": "2027-02-20T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvtPI",
+      "source": "ticketmaster",
+      "lat": 41.823799,
+      "lon": -71.400902,
+      "neighborhood": "College Hill"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvoOt",
+      "title": "Dartmouth Big Green Hockey vs. Colgate University Raiders Hockey",
+      "category": "sports",
+      "city": "Hanover",
+      "state": "NH",
+      "venue": "Rupert C. Thompson Arena",
+      "start": "2027-02-20T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoOt",
+      "source": "ticketmaster",
+      "lat": 43.725601,
+      "lon": -72.236801
     },
     {
       "id": "jambase:16244410",
