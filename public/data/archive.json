@@ -1,811 +1,7 @@
 {
-  "generatedAt": "2026-09-17T00:57:05.448Z",
-  "count": 9342,
+  "generatedAt": "2026-09-17T15:21:24.822Z",
+  "count": 9369,
   "events": [
-    {
-      "id": "jambase:16545587",
-      "title": "Brian Fallon",
-      "category": "music",
-      "city": "Millvale",
-      "state": "PA",
-      "venue": "Mr. Smalls Theatre",
-      "start": "2026-09-16T00:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/brian-fallon-mr-smalls-theatre-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/06/brian-fallon-press-june-2026-1480x832.jpg",
-      "lat": 40.4807,
-      "lon": -79.9723
-    },
-    {
-      "id": "jambase:15598586",
-      "title": "Staind",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "NJ",
-      "venue": "Freedom Mortgage Pavilion",
-      "start": "2026-09-16T18:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/staind-freedom-mortgage-pavilion-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/staind-1480x832.png",
-      "lat": 39.9417,
-      "lon": -75.1279,
-      "neighborhood": "Central Waterfront"
-    },
-    {
-      "id": "jambase:16472572",
-      "title": "Mari Froes",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-09-16T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/mari-froes-the-atlantis-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/06/mari-froes-1480x832.png",
-      "lat": 38.9182,
-      "lon": -77.0236,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/mari-froes-washington-district-of-columbia-09-16-2026/event/150064BD91C88833"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16380557",
-      "title": "Roxette",
-      "category": "music",
-      "city": "Providence",
-      "state": "MA",
-      "venue": "Xfinity Center",
-      "start": "2026-09-16T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/roxette-xfinity-center-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/06/roxette-1480x832.png",
-      "lat": 41.9944,
-      "lon": -71.2106
-    },
-    {
-      "id": "jambase:16346661",
-      "title": "Whitney",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 Club",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/whitney-930-club-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/07/whitney-press-july-2025-1480x832.jpg",
-      "lat": 38.9179,
-      "lon": -77.0237,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/whitney-washington-district-of-columbia-09-16-2026/event/15006324DD0E6ADD"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16527973",
-      "title": "YHWH Nailgun",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Sonia",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/yhwh-nailgun-sonia-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/05/yhwh-nailgun-1480x832.png",
-      "lat": 42.3635,
-      "lon": -71.1016,
-      "neighborhood": "Cambridgeport",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketweb.com/event/yhwh-nailgun-sonia-tickets/14975593"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16295191",
-      "title": "Frank Turner",
-      "category": "music",
-      "city": "Buffalo",
-      "state": "NY",
-      "venue": "Town Ballroom",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/frank-turner-town-ballroom-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/frank-turner-sleeping-sould-featured-1480x832.png",
-      "lat": 42.8928,
-      "lon": -78.8717,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:15849026",
-      "title": "Zebra",
-      "category": "music",
-      "city": "Pawling",
-      "state": "NY",
-      "venue": "Daryl’s House Restaurant & Music Club",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/zebra-daryls-house-restaurant-music-club-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/04/zebra-1480x832.png",
-      "lat": 41.5792,
-      "lon": -73.5887
-    },
-    {
-      "id": "jambase:16485580",
-      "title": "Suzy Bogguss",
-      "category": "music",
-      "city": "Millville",
-      "state": "NJ",
-      "venue": "The Levoy Theatre",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/suzy-bogguss-the-levoy-theatre-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/07/suzy-bogguss-1480x832.png",
-      "lat": 39.3323,
-      "lon": -74.9928
-    },
-    {
-      "id": "jambase:15964067",
-      "title": "Choir! Choir! Choir!",
-      "category": "music",
-      "city": "Fairfield",
-      "state": "CT",
-      "venue": "Sacred Heart University Community Theatre",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/choir-choir-choir-sacred-heart-university-community-theatre-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/03/choir-choir-choir-press-1480x832.jpg",
-      "lat": 41.1415,
-      "lon": -73.2568
-    },
-    {
-      "id": "jambase:15963209",
-      "title": "Celtic Thunder",
-      "category": "music",
-      "city": "Springfield",
-      "state": "MA",
-      "venue": "Hope Center for the Arts",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/celtic-thunder-hope-center-for-the-arts-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/celtic-thunder-celtic-thunder-82a06c54-f164-4a99-af14-aa5fcbc668e4_91801_TABLET_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 42.1028,
-      "lon": -72.5929,
-      "neighborhood": "Metro Center"
-    },
-    {
-      "id": "jambase:16491932",
-      "title": "Bettye LaVette",
-      "category": "music",
-      "city": "Northampton",
-      "state": "MA",
-      "venue": "Iron Horse Music Hall",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/bettye-lavette-iron-horse-music-hall-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/bettye-lavette-bettye-lavette-071f18e3-0272-4f42-85fc-d190fcb45d04_283691_RETINA_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 42.3189,
-      "lon": -72.6317
-    },
-    {
-      "id": "jambase:16172088",
-      "title": "Icon For Hire",
-      "category": "music",
-      "city": "Lititz",
-      "state": "PA",
-      "venue": "Mickey’s Black Box",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/icon-for-hire-lauren-babic-mickeys-black-box-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/icon-for-hire-ticketmaster-ram-1480x832.jpg",
-      "lat": 40.1751,
-      "lon": -76.3134
-    },
-    {
-      "id": "jambase:15959806",
-      "title": "Rufus Wainwright",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "City Winery Philadelphia",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/rufus-wainwright-city-winery-philadelphia-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/rufus-wainwright-ticketmaster-ram-1480x832.jpg",
-      "lat": 39.9525,
-      "lon": -75.1584,
-      "neighborhood": "Center City East"
-    },
-    {
-      "id": "jambase:16477139",
-      "title": "Volumes",
-      "category": "music",
-      "city": "New Kensington",
-      "state": "PA",
-      "venue": "Preserving Underground",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/volumes-preserving-underground-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.5683,
-      "lon": -79.7667,
-      "neighborhood": "Downtown New Kensington"
-    },
-    {
-      "id": "jambase:16072037",
-      "title": "The Bouncing Souls",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Baltimore Soundstage",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-bouncing-souls-baltimore-soundstage-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/the-bouncing-souls-the-bouncing-souls-9b6bc2a8-87d5-4dc5-b16e-9ed1a03d770e_9361_RETINA_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 39.2876,
-      "lon": -76.6068,
-      "neighborhood": "Inner Harbor"
-    },
-    {
-      "id": "jambase:15983548",
-      "title": "PRESIDENT",
-      "category": "music",
-      "city": "Washington",
-      "state": "MD",
-      "venue": "The Fillmore Silver Spring",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/president-the-fillmore-silver-spring-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/03/president-2026-press-1480x832.jpg",
-      "lat": 38.9974,
-      "lon": -77.0276,
-      "neighborhood": "Downtown Silver Spring"
-    },
-    {
-      "id": "jambase:16396997",
-      "title": "Gurriers",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Ottobar",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/gurriers-ottobar-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 39.3188,
-      "lon": -76.6197,
-      "neighborhood": "Charles Village"
-    },
-    {
-      "id": "jambase:16278635",
-      "title": "Cardinals",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Songbyrd Music House",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/cardinals-songbyrd-music-house-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9102,
-      "lon": -76.9965,
-      "neighborhood": "Northeast Washington"
-    },
-    {
-      "id": "jambase:15669243",
-      "title": "Phil Wickham",
-      "category": "music",
-      "city": "Washington",
-      "state": "VA",
-      "venue": "EagleBank Arena",
-      "start": "2026-09-16T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/phil-wickham-eaglebank-arena-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/phil-wickham-1480x832.png",
-      "lat": 38.8267,
-      "lon": -77.3098
-    },
-    {
-      "id": "jambase:15718250",
-      "title": "Circa Survive",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Fillmore Philadelphia",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/circa-survive-the-fillmore-philadelphia-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/02/circa-survive-1480x832.png",
-      "lat": 39.9656,
-      "lon": -75.1351,
-      "neighborhood": "North Philadelphia",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/circa-survive-philadelphia-pennsylvania-09-16-2026/event/02006458B1275B59"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16328444",
-      "title": "Trampled by Turtles",
-      "category": "music",
-      "city": "Ithaca",
-      "state": "NY",
-      "venue": "The State Theatre of Ithaca",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/trampled-by-turtles-the-state-theatre-of-ithaca-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/04/trampled-by-turtles-press-2026-1480x832.jpg",
-      "lat": 42.4396,
-      "lon": -76.4991,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:15362952",
-      "title": "HammerFall",
-      "category": "music",
-      "city": "Worcester",
-      "state": "MA",
-      "venue": "The Palladium Upstairs",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/hammerfall-the-palladium-upstairs-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/hammerfall-hammerfall-194687b2-b7b7-4dde-bf54-e46244a1c0f9_257331_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 42.2667,
-      "lon": -71.8007,
-      "neighborhood": "Central Business District"
-    },
-    {
-      "id": "jambase:15963154",
-      "title": "Guster",
-      "category": "music",
-      "city": "Kennett Square",
-      "state": "PA",
-      "venue": "Longwood Gardens",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/guster-longwood-gardens-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/11/Guster-Press-Image-Crop-1480x832.jpg",
-      "lat": 39.8688,
-      "lon": -75.6745
-    },
-    {
-      "id": "jambase:16120100",
-      "title": "Sparta",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Cambridge Hall at W.O.W.",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/sparta-cambridge-hall-at-w-o-w-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/03/sparta-1480x832.png",
-      "lat": 39.9708,
-      "lon": -75.1585,
-      "neighborhood": "West Poplar"
-    },
-    {
-      "id": "jambase:16547317",
-      "title": "Shoshana Bean",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Miller Theater at Kimmel Center",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/shoshana-bean-miller-theater-at-kimmel-center-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 39.9476,
-      "lon": -75.1648,
-      "neighborhood": "Rittenhouse Square"
-    },
-    {
-      "id": "jambase:15961986",
-      "title": "Cheekface",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Black Cat",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/cheekface-black-cat-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/06/cheekface-press-1480x832.jpg",
-      "lat": 38.9144,
-      "lon": -77.032,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:15928838",
-      "title": "Wu-Tang Clan",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Veterans United Home Loans Amphitheater at Virginia Beach",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/wu-tang-clan-veterans-united-home-loans-amphitheater-at-virginia-beach-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/wu-tang-clan-ticketmaster-ram-1480x832.jpg",
-      "lat": 36.7687,
-      "lon": -76.102
-    },
-    {
-      "id": "jambase:15929096",
-      "title": "TLC",
-      "category": "music",
-      "city": "Bristow",
-      "state": "VA",
-      "venue": "Jiffy Lube Live",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/tlc-jiffy-lube-live-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/tlc-press-1480x832.jpg",
-      "lat": 38.7861,
-      "lon": -77.5878,
-      "neighborhood": "Bristow"
-    },
-    {
-      "id": "jambase:16529027",
-      "title": "ZZ Top",
-      "category": "music",
-      "city": "Newport News",
-      "state": "VA",
-      "venue": "Ferguson Center For The Arts",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/zz-top-ferguson-center-for-the-arts-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/05/zz-top-live-2025-steinfeldt-1480x832.jpg",
-      "lat": 37.0619,
-      "lon": -76.4904,
-      "neighborhood": "Riverside"
-    },
-    {
-      "id": "jambase:16135512",
-      "title": "Alela Diane",
-      "category": "music",
-      "city": "Burlington",
-      "state": "VT",
-      "venue": "Higher Ground (Showcase Lounge)",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/alela-diane-higher-ground-showcase-lounge-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/alela-diane-alela-diane-f96372db-87f8-424a-b124-2482722590e0_244061_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 44.4663,
-      "lon": -73.1679
-    },
-    {
-      "id": "jambase:16547396",
-      "title": "Mikaela Davis",
-      "category": "music",
-      "city": "Burlington",
-      "state": "VT",
-      "venue": "Foam Brewers",
-      "start": "2026-09-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/mikaela-davis-foam-brewers-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/mikaela-davis-2026-press-bobbi_rich-1480x832.jpg",
-      "lat": 44.4791,
-      "lon": -73.22
-    },
-    {
-      "id": "jambase:16392647",
-      "title": "Elephant Stone",
-      "category": "music",
-      "city": "Rochester",
-      "state": "NY",
-      "venue": "Bug Jar",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/elephant-stone-bug-jar-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 43.1502,
-      "lon": -77.6004,
-      "neighborhood": "Pearl-Meigs-Monroe"
-    },
-    {
-      "id": "jambase:16538430",
-      "title": "Perennial",
-      "category": "music",
-      "city": "New Haven",
-      "state": "CT",
-      "venue": "Space Ballroom",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/perennial-space-ballroom-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 41.3532,
-      "lon": -72.925
-    },
-    {
-      "id": "jambase:16267426",
-      "title": "Damien Jurado",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sinclair",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/damien-jurado-the-sinclair-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/05/damien-jurado-1480x832.png",
-      "lat": 42.3741,
-      "lon": -71.1208,
-      "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "jambase:15909736",
-      "title": "Angine de Poitrine",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Underground Arts",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/angine-de-poitrine-underground-arts-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/02/angine-de-poitrine-constantin-monfilliette-1480x832.jpg",
-      "lat": 39.9589,
-      "lon": -75.161,
-      "neighborhood": "Center City"
-    },
-    {
-      "id": "jambase:16268288",
-      "title": "Jervis Campbell",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Ardmore Music Hall",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/jervis-campbell-ardmore-music-hall-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/jervis-campbell-1480x832.png",
-      "lat": 40.0076,
-      "lon": -75.29
-    },
-    {
-      "id": "jambase:16074277",
-      "title": "Nation of Language",
-      "category": "music",
-      "city": "Millersville",
-      "state": "PA",
-      "venue": "Phantom Power",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/nation-of-language-phantom-power-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/nation-of-language-1480x832.png",
-      "lat": 39.9974,
-      "lon": -76.36
-    },
-    {
-      "id": "jambase:16032798",
-      "title": "Culture Wars",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Foundry at The Fillmore",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/culture-wars-the-foundry-at-the-fillmore-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 39.9656,
-      "lon": -75.1351,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "jambase:15551396",
-      "title": "Leonid & Friends",
-      "category": "music",
-      "city": "Warrendale",
-      "state": "PA",
-      "venue": "Jergel’s Rhythm Grille",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/leonid-and-friends-jergels-rhythm-grille-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/04/leonid-friends-photo02-1480x832.jpg",
-      "lat": 40.6548,
-      "lon": -80.0818
-    },
-    {
-      "id": "jambase:15743326",
-      "title": "Soda Blonde",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Johnny Brenda’s",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/soda-blonde-johnny-brendas-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 39.9688,
-      "lon": -75.1344,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "jambase:16436587",
-      "title": "9Million",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Bottlerocket Social Hall",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/9million-bottlerocket-social-hall-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.4211,
-      "lon": -79.9922,
-      "neighborhood": "Allentown"
-    },
-    {
-      "id": "jambase:16323762",
-      "title": "Robert Cray Band",
-      "category": "music",
-      "city": "Annapolis",
-      "state": "MD",
-      "venue": "Rams Head On Stage",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/robert-cray-band-rams-head-on-stage-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/robert-cray-band-robert-cray-band-3d5b0bbb-27e7-483d-9b17-8ea1053edfb0_36021_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 38.9784,
-      "lon": -76.4949
-    },
-    {
-      "id": "jambase:16027078",
-      "title": "Tyler Ballgame",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "DC9",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/tyler-ballgame-dc9-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/04/tyler-ballgame-press-2025-4-1480x832.jpg",
-      "lat": 38.8921,
-      "lon": -77.0241,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16063994",
-      "title": "Ron Pope",
-      "category": "music",
-      "city": "Rocky Mount",
-      "state": "VA",
-      "venue": "Harvester Performance Center",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/ron-pope-harvester-performance-center-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/ron-pope-ticketmaster-ram-1480x832.jpg",
-      "lat": 36.9966,
-      "lon": -79.8921
-    },
-    {
-      "id": "jambase:16436185",
-      "title": "Horse Feathers",
-      "category": "music",
-      "city": "Charlottesville",
-      "state": "VA",
-      "venue": "The Southern",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/horse-feathers-the-southern-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.0306,
-      "lon": -78.4816,
-      "neighborhood": "Downtown Mall"
-    },
-    {
-      "id": "jambase:16032516",
-      "title": "John Craigie",
-      "category": "music",
-      "city": "Burlington",
-      "state": "VT",
-      "venue": "Higher Ground (Ballroom)",
-      "start": "2026-09-16T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/john-craigie-higher-ground-ballroom-20260916",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/12/john-craigie-nov-2025-press-carly-montgomery--1480x832.jpg",
-      "lat": 44.4663,
-      "lon": -73.1679
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfG987",
-      "title": "Battlemode",
-      "category": "music",
-      "city": "Cambridge",
-      "state": "MA",
-      "venue": "Middle East - Zuzu",
-      "start": "2026-09-16T21:00:00",
-      "isFree": false,
-      "priceMin": 1.3,
-      "priceMax": 1.3,
-      "url": "https://www.ticketweb.com/event/battlemode-middle-east-zuzu-tickets/14317404",
-      "source": "ticketmaster",
-      "lat": 42.36374167151,
-      "lon": -71.10074879726,
-      "neighborhood": "Central Square"
-    },
-    {
-      "id": "ticketmaster:vv1kFZ_F1fG7T6xX",
-      "title": "Culture Wars",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Foundry",
-      "start": "2026-09-16T21:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/culture-wars-philadelphia-pennsylvania-09-16-2026/event/0200648294FC78BE",
-      "source": "ticketmaster",
-      "lat": 39.96477,
-      "lon": -75.134457,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:vv177Z_3Gkljewrl",
-      "title": "Omar Courtz",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Grand (Boston)",
-      "start": "2026-09-16T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/omar-courtz-boston-massachusetts-09-16-2026/event/0100652ADC0B27AB",
-      "source": "ticketmaster",
-      "lat": 42.35330048,
-      "lon": -71.04747991,
-      "neighborhood": "D Street / West Broadway"
-    },
     {
       "id": "jambase:16268010",
       "title": "Roger Daltrey",
@@ -837,30 +33,15 @@
       "lon": -76.8753
     },
     {
-      "id": "ticketmaster:k7vGF_A1EgBtq",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-09-17T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-09-17-2026/event/00006452A7D7AA5D",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:1ApZkfoGkePwUaI",
+      "id": "ticketmaster:1ApZkfoGkePsUax",
       "title": "PPG Paints Arena Tours",
       "category": "other",
       "city": "Pittsburgh",
       "state": "PA",
       "venue": "PPG Paints Arena",
-      "start": "2026-09-17T10:00:00",
+      "start": "2026-09-17T12:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/ppg-paints-arena-tours-pittsburgh-pennsylvania-09-17-2026/event/16006511A5CB6268",
+      "url": "https://www.ticketmaster.com/ppg-paints-arena-tours-pittsburgh-pennsylvania-09-17-2026/event/16006511A5C76262",
       "source": "ticketmaster",
       "lat": 40.4388401,
       "lon": -79.9908551,
@@ -2039,21 +1220,6 @@
       "lat": 42.856098,
       "lon": -78.864403,
       "neighborhood": "First Ward"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZVjx",
-      "title": "Charles Wesley Godwin w/ Lily Fitts",
-      "category": "music",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "Westcott Theatre",
-      "start": "2026-09-17T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZVjx",
-      "source": "ticketmaster",
-      "lat": 43.0355,
-      "lon": -76.126701,
-      "neighborhood": "Eastside"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvFGU",
@@ -8822,6 +7988,20 @@
       "neighborhood": "West End"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-ffe",
+      "title": "Delaware Blue Hens Football vs. Coastal Carolina Chanticleers Football",
+      "category": "sports",
+      "city": "Newark",
+      "state": "DE",
+      "venue": "Delaware Stadium",
+      "start": "2026-09-19T11:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-ffe",
+      "source": "ticketmaster",
+      "lat": 39.714401,
+      "lon": -75.7397
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfJ_jS",
       "title": "Brunch: Dave Vargo",
       "category": "music",
@@ -8865,6 +8045,20 @@
       "lat": 42.36422,
       "lon": -71.10133,
       "neighborhood": "Central Square"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-Foe",
+      "title": "Lehigh Mountain Hawks Football vs. Dartmouth Big Green Football",
+      "category": "sports",
+      "city": "Bethlehem",
+      "state": "PA",
+      "venue": "Goodman Stadium",
+      "start": "2026-09-19T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Foe",
+      "source": "ticketmaster",
+      "lat": 40.586201,
+      "lon": -75.372002
     },
     {
       "id": "ticketmaster:vv17FZ_aGkSmV0-D",
@@ -8955,6 +8149,20 @@
       "source": "ticketmaster",
       "lat": 41.906502,
       "lon": -71.524399
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70gr6",
+      "title": "Mercyhurst Lakers Football vs. Glenville State Pioneers Football",
+      "category": "sports",
+      "city": "Erie",
+      "state": "PA",
+      "venue": "Saxon Stadium",
+      "start": "2026-09-19T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gr6",
+      "source": "ticketmaster",
+      "lat": 42.108398,
+      "lon": -80.050201
     },
     {
       "id": "ticketmaster:1A4ZkCAGkdvvBIf",
@@ -9132,6 +8340,21 @@
       "neighborhood": "Dennis"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7OobM",
+      "title": "Boston College Eagles Football vs. Maine Black Bears Football",
+      "category": "sports",
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "venue": "Alumni Stadium",
+      "start": "2026-09-19T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OobM",
+      "source": "ticketmaster",
+      "lat": 42.316299,
+      "lon": -71.160301,
+      "neighborhood": "Chestnut Hill"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7-Vbt",
       "title": "The Lion King (Touring)",
       "category": "theater",
@@ -9278,6 +8501,20 @@
       "source": "ticketmaster",
       "lat": 44.47721999,
       "lon": -73.22227904
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-3OM",
+      "title": "Stony Brook Seawolves Football vs. Rhode Island Rams Football",
+      "category": "sports",
+      "city": "Stony Brook",
+      "state": "NY",
+      "venue": "Kenneth P. LaValle Stadium",
+      "start": "2026-09-19T14:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3OM",
+      "source": "ticketmaster",
+      "lat": 40.9035,
+      "lon": -73.126999
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZUQv",
@@ -9439,6 +8676,21 @@
       "lon": 0
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7rA_s",
+      "title": "Rutgers Scarlet Knights Football vs. USC Trojans Football",
+      "category": "sports",
+      "city": "Piscataway",
+      "state": "NJ",
+      "venue": "SHI Stadium",
+      "start": "2026-09-19T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rA_s",
+      "source": "ticketmaster",
+      "lat": 40.546501,
+      "lon": -74.462898,
+      "neighborhood": "Society Hill"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7-y7-",
       "title": "UMass Minutemen Football vs. Stonehill Skyhawks Football",
       "category": "sports",
@@ -9452,6 +8704,21 @@
       "lat": 42.375198,
       "lon": -72.521202,
       "neighborhood": "Amherst Center"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-O0O",
+      "title": "Richmond Spiders Football vs. Georgetown Hoyas Football",
+      "category": "sports",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Robins Stadium",
+      "start": "2026-09-19T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O0O",
+      "source": "ticketmaster",
+      "lat": 37.577499,
+      "lon": -77.534698,
+      "neighborhood": "Three Chopt"
     },
     {
       "id": "jambase:16115063",
@@ -9481,6 +8748,36 @@
       "source": "ticketmaster",
       "lat": 40.518858,
       "lon": -80.150278
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70kPw",
+      "title": "Liberty University Flames Football vs. Ball State Cardinals Football",
+      "category": "sports",
+      "city": "Lynchburg",
+      "state": "VA",
+      "venue": "Williams Stadium",
+      "start": "2026-09-19T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPw",
+      "source": "ticketmaster",
+      "lat": 37.351601,
+      "lon": -79.217102,
+      "neighborhood": "Windsor Hills"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Obfo",
+      "title": "Norfolk State Spartans Football vs. Hampton Pirates Football",
+      "category": "sports",
+      "city": "Norfolk",
+      "state": "VA",
+      "venue": "William Price Stadium",
+      "start": "2026-09-19T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Obfo",
+      "source": "ticketmaster",
+      "lat": 36.8577,
+      "lon": -76.266701,
+      "neighborhood": "Bruce's Park"
     },
     {
       "id": "jambase:16135995",
@@ -11322,6 +10619,20 @@
       "source": "ticketmaster",
       "lat": 40.337856,
       "lon": -75.926357
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7qE-4",
+      "title": "Maryland Terrapins Football vs. Virginia Tech Hokies Football",
+      "category": "sports",
+      "city": "College Park",
+      "state": "MD",
+      "venue": "SECU Stadium",
+      "start": "2026-09-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qE-4",
+      "source": "ticketmaster",
+      "lat": 38.992001,
+      "lon": -76.952797
     },
     {
       "id": "ticketmaster:1A4ZkCKGkdaSQFv",
@@ -13476,6 +12787,21 @@
       "source": "ticketmaster",
       "lat": 42.35044,
       "lon": -71.06602,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1AtZkfsGkdpxsdF",
+      "title": "SPACE 92",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Royale Boston",
+      "start": "2026-09-19T22:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/space-92-royale-boston-tickets/14327984?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 42.3497559,
+      "lon": -71.0653165,
       "neighborhood": "Downtown"
     },
     {
@@ -24302,6 +23628,23 @@
       "neighborhood": "Cambridgeport"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfGEPf",
+      "title": "Liturgy, Guppy",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Upstairs",
+      "start": "2026-09-25T17:00:00",
+      "isFree": false,
+      "priceMin": 24.7,
+      "priceMax": 24.7,
+      "url": "https://www.ticketweb.com/event/liturgy-guppy-middle-east-upstairs-tickets/14327954",
+      "source": "ticketmaster",
+      "lat": 42.36422,
+      "lon": -71.10133,
+      "neighborhood": "Central Square"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfxppK",
       "title": "Kev G Mor",
       "category": "music",
@@ -28778,6 +28121,21 @@
       "lat": 38.892101,
       "lon": -77.022301,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-O0-",
+      "title": "Richmond Spiders Football vs. Furman Paladins Football",
+      "category": "sports",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Robins Stadium",
+      "start": "2026-09-26T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O0-",
+      "source": "ticketmaster",
+      "lat": 37.577499,
+      "lon": -77.534698,
+      "neighborhood": "Three Chopt"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7-tOI",
@@ -56933,21 +56291,6 @@
       "neighborhood": "Cambridgeport"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfP87S",
-      "title": "Yeti Eyes",
-      "category": "music",
-      "city": "Cambridge",
-      "state": "MA",
-      "venue": "Middle East - Corner/Bakery",
-      "start": "2026-10-09T17:00:00",
-      "isFree": false,
-      "url": "https://www.ticketweb.com/event/yeti-eyes-middle-east-cornerbakery-tickets/14950133",
-      "source": "ticketmaster",
-      "lat": 42.363809,
-      "lon": -71.101423,
-      "neighborhood": "Cambridgeport"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7P0e4",
       "title": "Drunk Shakespeare: Drunk Dracula (21+ Event)",
       "category": "theater",
@@ -72002,21 +71345,6 @@
       "neighborhood": "Center City West"
     },
     {
-      "id": "ticketmaster:vvG1FZ_Cl-I0Au",
-      "title": "The Bald and the Beautiful LIVE: Very Bald, Very Beautiful",
-      "category": "comedy",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Met Presented by Highmark",
-      "start": "2026-10-16T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-bald-and-the-beautiful-live-philadelphia-pennsylvania-10-16-2026/event/020064EAE1A2414D",
-      "source": "ticketmaster",
-      "lat": 39.969938,
-      "lon": -75.160278,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "ticketmaster:vvG1FZ_GCoN_AE",
       "title": "Wind Walkers - The \"I Don't Belong Here\" Tour",
       "category": "music",
@@ -80507,6 +79835,51 @@
       "neighborhood": "Center City East"
     },
     {
+      "id": "ticketmaster:vv17FZ_FGknIiBH-",
+      "title": "JPEGMAFIA: the Experimental Rap Tour",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "The Fillmore Philadelphia",
+      "start": "2026-10-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jpegmafia-the-experimental-rap-tour-philadelphia-pennsylvania-10-20-2026/event/0200648AA8B3AF21",
+      "source": "ticketmaster",
+      "lat": 39.965803,
+      "lon": -75.134686,
+      "neighborhood": "North Philadelphia"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_ChMzpa1",
+      "title": "Yard Sale Girls LIVE!",
+      "category": "comedy",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Punch Line Philly",
+      "start": "2026-10-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/yard-sale-girls-live-philadelphia-pennsylvania-10-20-2026/event/020064E6F7E1624A",
+      "source": "ticketmaster",
+      "lat": 39.965819,
+      "lon": -75.134752,
+      "neighborhood": "North Philadelphia"
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_G2NJIQ3",
+      "title": "Walnut Street Theatre's THE ADDAMS FAMILY: The Musical",
+      "category": "theater",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Walnut Street Theatre",
+      "start": "2026-10-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/walnut-street-theatres-the-addams-family-philadelphia-pennsylvania-10-20-2026/event/020064C3E39A8692",
+      "source": "ticketmaster",
+      "lat": 39.9482621,
+      "lon": -75.1555148,
+      "neighborhood": "Center City East"
+    },
+    {
       "id": "ticketmaster:17A8v0G6CJimMok",
       "title": "Candlebox - Can't Quit You Tour, Fall 2026",
       "category": "music",
@@ -83282,6 +82655,21 @@
       "lat": 41.0507831,
       "lon": -73.5395426,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvffF",
+      "title": "ROA",
+      "category": "other",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Strand Theatre-RI",
+      "start": "2026-10-22T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvffF",
+      "source": "ticketmaster",
+      "lat": 41.8204,
+      "lon": -71.412804,
+      "neighborhood": "Downtown Providence"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PK40",
@@ -86950,6 +86338,21 @@
       "lat": 39.290215,
       "lon": -76.620956,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-O0x",
+      "title": "Richmond Spiders Football vs. Colgate University Raiders Football",
+      "category": "sports",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Robins Stadium",
+      "start": "2026-10-24T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O0x",
+      "source": "ticketmaster",
+      "lat": 37.577499,
+      "lon": -77.534698,
+      "neighborhood": "Three Chopt"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7O816",
@@ -92810,6 +92213,21 @@
       "neighborhood": "Cambridgeport"
     },
     {
+      "id": "ticketmaster:vvG17Z_uUEcXK_",
+      "title": "Candlebox - Can't Quit You Tour, Fall 2026",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Citizens House of Blues Boston",
+      "start": "2026-10-28T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/candlebox-cant-quit-you-tour-fall-boston-massachusetts-10-28-2026/event/010064DDA7B7E4D9",
+      "source": "ticketmaster",
+      "lat": 42.3471841,
+      "lon": -71.0957036,
+      "neighborhood": "West Fens"
+    },
+    {
       "id": "ticketmaster:17A8v0G6u1EmyzG",
       "title": "The Hails",
       "category": "music",
@@ -96018,6 +95436,21 @@
       "neighborhood": "Downtown Mall"
     },
     {
+      "id": "ticketmaster:vv177Z_3GkBNilCL",
+      "title": "Effin",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2026-10-30T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/effin-portland-maine-10-30-2026/event/0100652EA3B2B39F",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:17A8v0G6CJWCbnb",
       "title": "Bassvictim",
       "category": "music",
@@ -97584,6 +97017,20 @@
       "lat": 42.3566,
       "lon": -71.1439,
       "neighborhood": "Brighton"
+    },
+    {
+      "id": "ticketmaster:16e0Z_KZyG7tveA",
+      "title": "Joel Corry",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
+      "start": "2026-10-31T23:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/joel-corry-ocean-casino-resort-tickets/14326144?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 39.362536,
+      "lon": -74.413699
     },
     {
       "id": "ticketmaster:17A8v0G6uUJKpdL",
@@ -101110,6 +100557,21 @@
       "lon": -72.913803
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToVlmt",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-06T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-06-2026/event/1500652FD1D2BBA9",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:15842012",
       "title": "Slack Family Bluegrass Band",
       "category": "music",
@@ -103492,6 +102954,21 @@
       "lon": -73.25247127
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTbOHJ_",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-07-2026/event/1500652FD883C999",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:1718v0G6uRwDsKI",
       "title": "12 Stones Performing At the Halftime Music and Sports Bar In Newark De",
       "category": "music",
@@ -105016,6 +104493,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTjWWot",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-08T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-08-2026/event/1500652FDCF7D469",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7P6-x",
       "title": "Chris Perondi's Stunt Dog Experience - 11am Relaxed Performance",
       "category": "theater",
@@ -106446,6 +105938,21 @@
       "lon": -74.10333
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTog5mm",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-10T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-10-2026/event/1500652FD1D4BBAE",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZp73",
       "title": "Honey Revenge x Dead Poet Society",
       "category": "music",
@@ -107274,6 +106781,21 @@
       "source": "ticketmaster",
       "lat": 40.195099,
       "lon": -74.744797
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT4ujG3",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-11T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-11-2026/event/1500652FD535C312",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7x6qK",
@@ -108283,6 +107805,21 @@
       "lat": 42.3637,
       "lon": -71.1015,
       "neighborhood": "Cambridgeport"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToU5mS",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-12T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-12-2026/event/1500652FD1D8BBB3",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:vv177Z_oGkIko30k",
@@ -109380,6 +108917,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2020/10/aaron-lee-tasjan-press-2020-1480x832.jpg",
       "lat": 42.0425,
       "lon": -74.1181
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToUlmg",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-13T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-13-2026/event/1500652FD1DABBB5",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "jambase:16019741",
@@ -111386,6 +110938,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-O0N",
+      "title": "Richmond Spiders Football vs. Lehigh Mountain Hawks Football",
+      "category": "sports",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Robins Stadium",
+      "start": "2026-11-14T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O0N",
+      "source": "ticketmaster",
+      "lat": 37.577499,
+      "lon": -77.534698,
+      "neighborhood": "Three Chopt"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A70Ub_",
       "title": "Elf the Musical",
       "category": "other",
@@ -111592,6 +111159,21 @@
       "lat": 41.823799,
       "lon": -71.400902,
       "neighborhood": "College Hill"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTb-jJL",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-14T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-14-2026/event/1500652FD885C99F",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:1AdZZ_oGklj5EUd",
@@ -113263,6 +112845,21 @@
       "neighborhood": "Ewing and Carroll"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTjXqoz",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-15T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-15-2026/event/1500652FDCF9D478",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7JaPx",
       "title": "Atlantic City Punk Rock Flea Market - Holiday Edition",
       "category": "other",
@@ -114795,6 +114392,21 @@
       "lon": -82.009201
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToM5mX",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-17-2026/event/1500652FD1DCBBBE",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:16509630",
       "title": "Lenny Pearce",
       "category": "music",
@@ -115458,6 +115070,21 @@
       "lat": 43.658,
       "lon": -70.2567,
       "neighborhood": "Old Port"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT4uHGp",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-18T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-18-2026/event/1500652FD537C316",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70UbN",
@@ -116347,6 +115974,21 @@
       "neighborhood": "Maynard"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToMDRu",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-19-2026/event/1500652FD1DFBBCD",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:16509636",
       "title": "Lenny Pearce",
       "category": "music",
@@ -117208,6 +116850,21 @@
       "source": "ticketmaster",
       "lat": 40.22328639,
       "lon": -73.99950139
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTozhR2",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-20T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-20-2026/event/1500652FD1E1BBCF",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:17A8v0G62TOoHHg",
@@ -118918,6 +118575,21 @@
       "lon": -73.267998
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-O00",
+      "title": "Richmond Spiders Football vs. William and Mary Tribe Football",
+      "category": "sports",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Robins Stadium",
+      "start": "2026-11-21T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O00",
+      "source": "ticketmaster",
+      "lat": 37.577499,
+      "lon": -77.534698,
+      "neighborhood": "Three Chopt"
+    },
+    {
       "id": "ticketmaster:17A8v0G6GpL1ziD",
       "title": "LENNY PEARCE  -  TODDLER RAVE WORLD TOUR",
       "category": "music",
@@ -119291,6 +118963,21 @@
       "lat": 41.768353,
       "lon": -72.676384,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTb-HJ-",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-21T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-21-2026/event/1500652FD887C9A1",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:17A8v0G6CXDghx6",
@@ -120584,6 +120271,21 @@
       "lon": -74.347397
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTjXcoX",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-22T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-22-2026/event/1500652FDCFAD47E",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:k7vGF_5QG69vc",
       "title": "Wallace Roney, Jr. Quartet: Dorthaan's Place",
       "category": "music",
@@ -121605,6 +121307,21 @@
       "neighborhood": "Uncasville"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTozDR4",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-24T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-24-2026/event/1500652FD1E3BBD5",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:17A8v0G6u6JfKii",
       "title": "Tiny Habits - The Keepers Tour",
       "category": "music",
@@ -121907,6 +121624,21 @@
       "lat": 42.3638,
       "lon": -71.1013,
       "neighborhood": "Cambridgeport"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT4CGGL",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-25T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-25-2026/event/1500652FD538C31F",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZOuJ",
@@ -122217,6 +121949,21 @@
       "neighborhood": "Green Valley"
     },
     {
+      "id": "ticketmaster:vv177Z_3GkXk09A_",
+      "title": "Thankful Dead ft. Thankful Dead Allstars & Mama Tried",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "Jefferson Theater",
+      "start": "2026-11-25T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/thankful-dead-ft-thankful-dead-allstars-charlottesville-virginia-11-25-2026/event/0100652F86917159",
+      "source": "ticketmaster",
+      "lat": 38.03066678,
+      "lon": -78.48125473,
+      "neighborhood": "Downtown Mall"
+    },
+    {
       "id": "ticketmaster:vv177Z_3GkzL3lPY",
       "title": "Tim Theriault ",
       "category": "music",
@@ -122378,6 +122125,21 @@
       "lat": 41.4915974,
       "lon": -72.0914563,
       "neighborhood": "Uncasville"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToyDRq",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-26T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-26-2026/event/1500652FD1E7BBDD",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:vvG1FZ_2eoSySJ",
@@ -122629,6 +122391,21 @@
       "source": "ticketmaster",
       "lat": 40.68834,
       "lon": -75.19987
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToB5Rx",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-27T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-27-2026/event/1500652FD1E8BBE2",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:1AdZZ_oGkljGEUk",
@@ -123630,6 +123407,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTbxjJJ",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-28T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-28-2026/event/1500652FD889C9A6",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:15845998",
       "title": "Punchline",
       "category": "music",
@@ -124455,6 +124247,21 @@
       "lon": -70.9758
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTjTu3d",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-11-29T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-29-2026/event/1500652FDCFCD483",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvbZY",
       "title": "A Christmas Carol",
       "category": "other",
@@ -125056,6 +124863,21 @@
       "lon": -82.009201
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToBlRE",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-01T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-01-2026/event/1500652FD1EABBE7",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:17A8v0G65mj5GQz",
       "title": "Hank Azaria and the EZ Street Band ? A Springsteen Celebration",
       "category": "music",
@@ -125453,6 +125275,21 @@
       "neighborhood": "Cambridgeport"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT4CiGn",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-02T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-02-2026/event/1500652FD53AC32A",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvAFe",
       "title": "Annie (Touring)",
       "category": "theater",
@@ -125836,6 +125673,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2017/02/august-burns-red-august-burns-red-e35f8b55-9a9a-4acb-a2af-20f8cc4c84c8_201371_TABLET_LANDSCAPE_16_9-1480x832.jpg",
       "lat": 40.0371,
       "lon": -76.3054
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToDDRM",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-03T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-03-2026/event/1500652FD1EFBBF7",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:G5vVZ_oG84rSR",
@@ -126428,6 +126280,21 @@
       "lon": -75.19987
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToHhRH",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-04T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-04-2026/event/1500652FD1F1BBFC",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:15842015",
       "title": "Slack Family Bluegrass Band",
       "category": "music",
@@ -126994,20 +126861,6 @@
       "lat": 38.9182,
       "lon": -77.0236,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZ3jS",
-      "title": "Shaun Cassidy - Unwrapped",
-      "category": "music",
-      "city": "Collingswood",
-      "state": "NJ",
-      "venue": "Scottish Rite Auditorium-NJ",
-      "start": "2026-12-04T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3jS",
-      "source": "ticketmaster",
-      "lat": 39.915199,
-      "lon": -75.061501
     },
     {
       "id": "ticketmaster:G5vVZ_23Rkz6e",
@@ -127599,6 +127452,21 @@
       "lon": -73.25247127
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTbxHJi",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-05T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-05-2026/event/1500652FD88BC9AC",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:G5vVZ_okDE6_s",
       "title": "Nut / Cracked",
       "category": "theater",
@@ -128179,6 +128047,21 @@
       "lat": 38.9154,
       "lon": -77.0211,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTjTc3G",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-06T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-06-2026/event/1500652FDCFED48C",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvbZ_",
@@ -128922,6 +128805,21 @@
       "lon": -77.178967
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToHlYZ",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-08T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-08-2026/event/1500652FD1F2BC00",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:16169650",
       "title": "GWAR",
       "category": "music",
@@ -129180,6 +129078,21 @@
       "lat": 40.443,
       "lon": -80,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT42GGc",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-09T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-09-2026/event/1500652FD53CC32D",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvAF8",
@@ -129660,6 +129573,21 @@
       "source": "ticketmaster",
       "lat": 38.798398,
       "lon": -77.178967
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToWlY6",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-10T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-10-2026/event/1500652FD1F6BC07",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:vvG17Z_uJ65zmI",
@@ -130157,6 +130085,21 @@
       "source": "ticketmaster",
       "lat": 38.798398,
       "lon": -77.178967
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToX5Ya",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-11T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-11-2026/event/1500652FD1F8BC09",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:vvG17Z_uJ6ubRZ",
@@ -131380,6 +131323,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTbNGJm",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-12T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-12-2026/event/1500652FD88CC9AE",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:1A4Zkf7GkdOCQYf",
       "title": "Lexus Global Lacrosse Games: Men's Semifinals Doubleheader",
       "category": "sports",
@@ -131585,6 +131543,21 @@
       "source": "ticketmaster",
       "lat": 0,
       "lon": 0
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAv60s",
+      "title": "Less Than Jake ??? Northeast to Nowhere 2026",
+      "category": "music",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Strand Theatre-RI",
+      "start": "2026-12-12T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60s",
+      "source": "ticketmaster",
+      "lat": 41.8204,
+      "lon": -71.412804,
+      "neighborhood": "Downtown Providence"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7Q3AA",
@@ -131942,6 +131915,21 @@
       "lat": 38.91984858,
       "lon": -76.97281793,
       "neighborhood": "Northeast Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTqZu3p",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-13T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-13-2026/event/1500652FDD00D496",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:vvG17Z_CrWBx_8",
@@ -132388,20 +132376,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:vvG17Z_2QWi2dc",
-      "title": "SWVB - The Nutcracker",
-      "category": "theater",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Performing Arts Theatre",
-      "start": "2026-12-13T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/swvb-the-nutcracker-roanoke-virginia-12-13-2026/event/010064F6BDB0F0ED",
-      "source": "ticketmaster",
-      "lat": 37.27907,
-      "lon": -79.935701
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvoOS",
       "title": "Dartmouth Big Green Hockey vs. New Hampshire Wildcats Hockey",
       "category": "sports",
@@ -132626,6 +132600,21 @@
       "lon": -75.550253
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToXhYK",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-15T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-15-2026/event/1500652FD1F9BC13",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvsv7",
       "title": "Dartmouth Big Green Hockey vs. Holy Cross Crusaders Hockey",
       "category": "sports",
@@ -132759,6 +132748,21 @@
       "lat": 37.5617,
       "lon": -77.4716,
       "neighborhood": "Museum District"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT42iGz",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-16T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-16-2026/event/1500652FD53EC338",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvAFb",
@@ -133060,6 +133064,21 @@
       "neighborhood": "Maynard"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkToThYj",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-17-2026/event/1500652FD1FDBC1C",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PtvJ",
       "title": "The Nutcracker",
       "category": "other",
@@ -133268,6 +133287,21 @@
       "lat": 38.904202,
       "lon": -77.031502,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkToTDYJ",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-18T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-18-2026/event/1500652FD1FFBC26",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PtvY",
@@ -133877,6 +133911,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTbNiJY",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-19-2026/event/1500652FD88EC9B0",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A700Os",
       "title": "Maine Mariners vs. Reading Royals",
       "category": "sports",
@@ -134129,6 +134178,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 42.3942,
       "lon": -71.0714
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTqZq3O",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-20T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-20-2026/event/1500652FDD01D4A0",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:17A8v0G6ueTO_s2",
@@ -134489,6 +134553,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT3ZhYn",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-22T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-22-2026/event/1500652FD201BC2A",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:vv1AvZkfbGkd3-bVm",
       "title": "Stella Cole",
       "category": "music",
@@ -134579,6 +134658,21 @@
       "lat": 42.3638,
       "lon": -71.1013,
       "neighborhood": "Cambridgeport"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT48GuZ",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-23T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-23-2026/event/1500652FD540C340",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvbZy",
@@ -134728,6 +134822,21 @@
       "lon": -72.386497
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT3vhYV",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-24T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-24-2026/event/1500652FD205BC34",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "jambase:15561729",
       "title": "Jerome’s Pace",
       "category": "music",
@@ -134742,6 +134851,21 @@
       "lat": 42.3638,
       "lon": -71.1013,
       "neighborhood": "Cambridgeport"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT3vlYz",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-25T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-25-2026/event/1500652FD206BC38",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "jambase:15561775",
@@ -134819,6 +134943,21 @@
       "lon": -72.386497
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTb0GJM",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-26T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-26-2026/event/1500652FD890C9B7",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PgFx",
       "title": "A Christmas Carol",
       "category": "other",
@@ -134846,6 +134985,21 @@
       "source": "ticketmaster",
       "lat": 38.991501,
       "lon": -76.532501
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTqZW3I",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-27T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-27-2026/event/1500652FDD03D4A8",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:vvG17Z_u1WZU99",
@@ -135109,6 +135263,21 @@
       "lon": -73.25247127
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT3e5YH",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-29T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-29-2026/event/1500652FD208BC3C",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:1AdZZ_oGklj8EUj",
       "title": "Delaware Blue Coats vs. Wisconsin Herd",
       "category": "sports",
@@ -135167,6 +135336,21 @@
       "lat": 38.91,
       "lon": -77.0095,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT48iud",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-30T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-30-2026/event/1500652FD542C343",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAv_ft",
@@ -135245,6 +135429,21 @@
       "lat": 42.4317,
       "lon": -71.4536,
       "neighborhood": "Maynard"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT3eDsa",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2026-12-31T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-12-31-2026/event/1500652FD20BBC49",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A700OU",
@@ -135366,6 +135565,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT3dhsK",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-01T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-01-2027/event/1500652FD20DBC53",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvtP_",
       "title": "Brown University Bears Hockey vs. Dartmouth Big Green Hockey",
       "category": "sports",
@@ -135440,6 +135654,21 @@
       "neighborhood": "College Hill"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTb0iJy",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-02T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-02-2027/event/1500652FD892C9B9",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A700OM",
       "title": "Maine Mariners vs. Worcester Railers",
       "category": "sports",
@@ -135453,6 +135682,21 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTqvq3R",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-03T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-03-2027/event/1500652FDD05D4AF",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZxv-",
@@ -135515,6 +135759,21 @@
       "neighborhood": "Bayside"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT3dDs_",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-05T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-05-2027/event/1500652FD20FBC59",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvtP-",
       "title": "Brown University Bears Hockey vs. Army Black Knights Hockey",
       "category": "sports",
@@ -135545,6 +135804,21 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkT48Huo",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-06T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-06-2027/event/1500652FD543C351",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZKqy",
       "title": "Hartford Wolfpack vs. Hershey Bears",
       "category": "sports",
@@ -135573,6 +135847,21 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT37ls0",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-07-2027/event/1500652FD212BC64",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:1AdZZ_oGklhzMSU",
@@ -135631,6 +135920,21 @@
       "source": "ticketmaster",
       "lat": 41.426701,
       "lon": -72.913803
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkT3A5si",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-08T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-08-2027/event/1500652FD214BC6C",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:G5vVZ_uJRFEyU",
@@ -135838,6 +136142,21 @@
       "lon": -73.25247127
     },
     {
+      "id": "ticketmaster:1AvfZ_3GkTbPGJH",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-09T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-09-2027/event/1500652FD894C9BC",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvsvk",
       "title": "Dartmouth Big Green Hockey vs. Quinnipiac Bobcats Mens Ice Hockey",
       "category": "sports",
@@ -135895,6 +136214,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
       "lat": 40.0076,
       "lon": -75.29
+    },
+    {
+      "id": "ticketmaster:1AvfZ_3GkTqvW3w",
+      "title": "Toby's Dinner Theatre Presents: White Christmas",
+      "category": "theater",
+      "city": "Columbia",
+      "state": "MD",
+      "venue": "Toby's Dinner Theatre Columbia",
+      "start": "2027-01-10T10:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-01-10-2027/event/1500652FDD07D4B2",
+      "source": "ticketmaster",
+      "lat": 39.2095143,
+      "lon": -76.8582823,
+      "neighborhood": "Town Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7Pp8o",
@@ -137229,6 +137563,20 @@
       "lat": 39.363445,
       "lon": -76.610418,
       "neighborhood": "Rosebank"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvZ1d",
+      "title": "Jessica Kirson",
+      "category": "theater",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Maryland Hall for the Creative Arts",
+      "start": "2027-01-28T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZ1d",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
     },
     {
       "id": "jambase:16501552",
