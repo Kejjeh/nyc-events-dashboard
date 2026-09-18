@@ -1,4 +1,4 @@
-# HANDOFF — state of play (2026-09-03)
+# HANDOFF — state of play (2026-09-18)
 
 Read `CLAUDE.md` first. This file is the current status; update it as you work.
 
@@ -6,27 +6,31 @@ Read `CLAUDE.md` first. This file is the current status; update it as you work.
 
 - Full pipeline → static JSON → React PWA → GitHub Pages flow, unattended since
   June 19. The cron is alive: `origin/main` gets a data commit twice daily
-  (verified: last refresh 2026-09-03 00:48 UTC; local main was 151 data commits
-  behind — always `git pull`).
-- `npm run check`: typecheck + 330 tests, all green. `npm run build` green.
-- Healthy sources in production (from the 2026-09-03 payload's `sources` array):
-  nyc-open-data (1068), nyc-greenmarket (717), ticketmaster (397), bpl (239),
-  seatgeek (216), todaytix (177), resident-advisor (94), village-vanguard (64),
-  smorgasburg (16).
-- Live board 3,924 events; archive 9,882 across 13 states (JamBase/Ticketmaster
-  multi-state banking).
+  (verified: last refresh 2026-09-18 00:52 UTC — always `git pull`).
+- `npm run check`: typecheck + 373 tests, all green. `npm run build` green.
+- Healthy sources in production (from the 2026-09-18 payload's `sources` array):
+  nyc-open-data (745), nyc-greenmarket (717), smallslive (403), ticketmaster (394),
+  todaytix (195), seatgeek (195), dice (165), cityparks (91),
+  resident-advisor (82), village-vanguard (54), smorgasburg (13).
+- Live board 3,778 events; archive 9,364 (JamBase/Ticketmaster multi-state
+  banking). jambase carries 724 banked events on an expired key.
 
 ## In progress
 
-Nothing mid-flight. Last dev work (Jun 19) was refactoring commits
-(`refactor: deepen pipeline seams`, `deepen UI filter seams`) — complete and
-merged. The repo is at a clean stopping point; pick from Next steps.
+Nothing mid-flight. Last dev work (2026-09-18) was the P1 carry-forward
+durability fix, below — complete. The repo is at a clean stopping point; pick
+from Next steps.
 
 ## Known bugs / broken sources
 
 Check current source health any time with:
 `node -e "const j=require('./public/data/events.json');console.log(j.generatedAt);console.table(j.sources)"`
-(`fresh:false` = failing, events carried; absent = failing with nothing left; 0 + `fresh:true` = silent parser break.)
+Each row now carries a `status`: `ok` (fetched; `count: 0` here is a genuine zero
+or a silent parser break — the dangerous one), `missing-key` (never asked),
+`skipped` (cost-gated push run), `error` (fetch failed). `fresh` is true only for
+`ok`. Since 2026-09-18 every wired source gets a row, so a source that is down
+*and* has nothing banked is visible as `count: 0` instead of vanishing from the
+list — the footer is correspondingly longer on a bad run.
 
 1. **songkick: 0 events, `fresh: true`** — fetch succeeds, zero events survive.
    Either the key/approval is bad (API returns empty) or the normalizer drops
@@ -42,17 +46,28 @@ Check current source health any time with:
    (b) the browse payload dropped venues[].location / tags_types / perm_name —
    normalizer now parses borough from the address zip, takes category from the
    stamped browse filter, and dice joined GEOCODEABLE_SOURCES for coords.
-4. **Failing in CI only** (absent from prod `sources`; work locally):
+4. **Failing in CI only** (`status: 'error'` in prod `sources`; work locally):
    nyc-parks (RSS; 1294 records locally — likely datacenter-IP 403),
    eventbrite (10 lanes, mostly 0 counts locally too — markup drift),
    serpapi (needs key; check quota/key validity in repo secrets).
-5. **jambase `fresh: false`** — trial key expired ~Jun 30 as planned; 887
-   banked events decaying as dates pass. Decision needed: renew/replace key, or
-   remove the wiring to silence per-run failures (see docs/API-PLAN.md §11).
-6. **cityparks `fresh: false`** — was working; 49 carried events. Investigate.
-7. **Keyless `build:data` wipes banked events in the working tree** — see
-   CLAUDE.md warning. Root cause: missing-key fetchers return empty batches and
-   count as succeeded (docs/DECISIONS.md #9).
+   bpl also fell out of the 2026-09-18 payload (239 events on 2026-09-03, absent
+   now) — new, worth a look alongside the others.
+5. **jambase `fresh: false`** — trial key expired ~Jun 30 as planned; 724
+   banked events (2026-09-18) decaying as dates pass. Decision needed:
+   renew/replace key, or remove the wiring to silence per-run failures (see
+   docs/API-PLAN.md §11). Owner has ruled out renewal for now.
+6. ~~cityparks `fresh: false`~~ — recovered on its own; fresh with 91 events in
+   the 2026-09-18 payload. No action; re-check if it lapses again.
+7. ~~Keyless `build:data` wipes banked events~~ **FIXED 2026-09-18.** Root cause:
+   missing-key fetchers returned empty batches, which counted as a successful
+   fetch, so carry-forward treated the source as authoritative and dropped its
+   bank. Now every fetch settles into one of four outcomes — `ok`, `missing-key`,
+   `skipped`, `error` (`src/pipeline/sourceOutcome.ts`) — and only `ok` is
+   authoritative. Measured offline against the real 2026-09-18 bank (13,142
+   banked events, no keys, no network): **before 2,345 events / archive 20;
+   after 12,894 events / archive 9,293**, the rest being normal expiry + dedup.
+   A source that fetches and genuinely returns zero is unchanged: still
+   authoritative, still `count: 0, fresh: true`.
 8. **MapView** (`src/ui/MapView.tsx`): (a) line ~80 `'circle-color':
    'var(--accent, #6366f1)'` — MapLibre paint props aren't CSS, `var()` is
    invalid; (b) center hardcoded to NYC, never re-fits when you pick Boston/
@@ -75,17 +90,19 @@ Check current source health any time with:
   events > 0 or a written root cause here.
 
 **P1 — durability**
-- (Opus) Make missing-key fetchers count as failed so carry-forward protects
-  banked events (bugs 4/7): make them throw (matches API-PLAN.md) OR exclude
-  empty keyless batches from `succeededSources` in `run.ts`. Must not break the
-  "source succeeded with genuinely zero events" case. Accept: keyless local
-  `build:data` leaves archive.json's event count within normal decay of its
-  previous value; new unit test covers it.
+- ~~(Opus) Make missing-key fetchers count as failed~~ **DONE 2026-09-18** — see
+  bug 7 above. Landed: `sourceOutcome.ts` (the four-state vocabulary),
+  `runPipeline.ts` (orchestration lifted out of `run.ts` behind injectable seams
+  so it can be tested offline), `runPipeline.test.ts` (15 integration fixtures
+  driving the real assemble/carry-forward/dedup/partition path), plus
+  `sourceOutcome.test.ts`. 373 tests green.
 - Investigate cityparks + eventbrite failures (bugs 4/6). Accept: root cause
   written here, fix if it's a parser/URL change.
 - JamBase decision (bug 5): ask the repo owner whether to renew. If no key is
-  coming, remove jambase from the `settle()` list to stop failure noise (keep
-  normalizer + tests; carry-forward keeps banked events either way).
+  coming, remove jambase from the `collectSources()` list to stop the per-run
+  noise (keep normalizer + tests; carry-forward keeps banked events either way).
+  Not urgent now: a lapsed key reads as `missing-key`, which is honest and
+  non-destructive.
 
 **P2 — quality**
 - MapView fixes (bug 8): real hex color, `fitBounds` to current filtered

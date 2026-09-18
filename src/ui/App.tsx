@@ -19,7 +19,7 @@ import {
   defaultCityFor,
   type LocationSelection,
 } from './filterSelection';
-import { sourceLabel } from './format';
+import { sourceHealthTitle, sourceLabel } from './format';
 import { EventCard } from './EventCard';
 import { EventModal } from './EventModal';
 import { VenueModal } from './VenueModal';
@@ -818,11 +818,7 @@ export function App() {
               <span
                 key={s.source}
                 className={`src ${s.fresh ? '' : 'src--stale'}`}
-                title={
-                  s.fresh
-                    ? 'Refreshed this run'
-                    : 'Carried forward — this source was unavailable at the last refresh'
-                }
+                title={sourceHealthTitle(s)}
               >
                 {sourceLabel(s.source)} <span className="src__count">{s.count.toLocaleString()}</span>
                 {!s.fresh && ' ⚠'}
