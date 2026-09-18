@@ -32,10 +32,14 @@ or a silent parser break — the dangerous one), `missing-key` (never asked),
 *and* has nothing banked is visible as `count: 0` instead of vanishing from the
 list — the footer is correspondingly longer on a bad run.
 
-1. **songkick: 0 events, `fresh: true`** — fetch succeeds, zero events survive.
-   Either the key/approval is bad (API returns empty) or the normalizer drops
-   everything. Repro: run the node one-liner above. Fix in
-   `src/pipeline/sources.ts` `fetchSongkick` / `src/ingestion/songkick.ts`.
+1. **songkick: 0 events** — ROOT CAUSE FOUND 2026-09-18, from the CI job log:
+   the "Refresh events data" step prints `SONGKICK_API_KEY:` **blank** where every
+   other secret prints `***`. The repo secret is unset or empty, so Songkick is
+   never called; the fetcher's missing-key path returned an empty batch, which the
+   old code counted as `fresh: true`. Nothing is wrong with the normalizer. Once
+   PR #1 lands the row will read `status: 'missing-key'`. Owner action: set
+   `SONGKICK_API_KEY` in Actions secrets if an approved key exists (open question
+   below), or drop songkick from `collectSources()` to end the noise.
 2. ~~smallslive broken~~ **FIXED 2026-09-04**: the site renders Django-style
    month abbreviations ("Sept. 3, 2026"); parser only accepted full names.
    Worked in June/July (spelled out), broke Aug 1. `parseDateHeader` now
@@ -46,12 +50,27 @@ list — the footer is correspondingly longer on a bad run.
    (b) the browse payload dropped venues[].location / tags_types / perm_name —
    normalizer now parses borough from the address zip, takes category from the
    stamped browse filter, and dice joined GEOCODEABLE_SOURCES for coords.
-4. **Failing in CI only** (`status: 'error'` in prod `sources`; work locally):
-   nyc-parks (RSS; 1294 records locally — likely datacenter-IP 403),
-   eventbrite (10 lanes, mostly 0 counts locally too — markup drift),
-   serpapi (needs key; check quota/key validity in repo secrets).
-   bpl also fell out of the 2026-09-18 payload (239 events on 2026-09-03, absent
-   now) — new, worth a look alongside the others.
+4. **Failing in CI** (`status: 'error'` in prod `sources`). Exact statuses from
+   the 2026-09-18 00:52 UTC job log, so nobody has to guess:
+   - **bpl — HTTP 403 on every attempt since 2026-09-11** (INVESTIGATED
+     2026-09-18). Fresh with 258 events in the 00:38 UTC run that day; `FAILED —
+     transient HTTP 403` in the 14:40 UTC run and in all 13 runs since; the bank
+     decayed 258 → 155 → 87 → 40 → 36 → gone by 09-15 (library programs are
+     near-term, so expiry is fast). Each failure takes ~7.7 s = four immediate
+     403s across the 1+2+4 s backoff, i.e. the server answers instantly with a
+     block, not a timeout or a flaky origin. That signature, on a Drupal site,
+     points to a WAF/bot-protection rule that now rejects GitHub Actions IPs;
+     nothing in this repo changed around 09-11. Not confirmed from a residential
+     IP — one manual `curl` of `BPL_URL` from a laptop settles it: 200 there means
+     a CI-IP block (not fixable in code; needs a different network path or a
+     different endpoint), 403 there means the JSON:API itself is gone. The
+     "transient" wording was the retry layer's per-attempt message leaking
+     through; fixed in `http.ts` ("HTTP 403 on all 4 attempts").
+   - nyc-parks — HTTP 405 (RSS; 1294 records locally, so a CI-IP block).
+   - eventbrite — every lane parses to zero (markup drift; 0 locally too).
+   - serpapi — HTTP 400 with the key set (`***` in the log): a bad request, so
+     check the key's validity/quota on the SerpAPI account, not the code.
+   - jambase — HTTP 401 (expired trial; see bug 5).
 5. **jambase `fresh: false`** — trial key expired ~Jun 30 as planned; 724
    banked events (2026-09-18) decaying as dates pass. Decision needed:
    renew/replace key, or remove the wiring to silence per-run failures (see
@@ -93,9 +112,11 @@ list — the footer is correspondingly longer on a bad run.
 - ~~Fix smallslive parser~~ DONE 2026-09-04, confirmed in prod (357 fresh).
 - ~~Fix dice fetcher + normalizer~~ DONE 2026-09-04, confirmed in prod
   (173 fresh after dedup).
-- Diagnose songkick zero (bug 1). Log/inspect the raw response; fix or, if the
-  key is dead, document that in this file and remove noise. Accept: either
-  events > 0 or a written root cause here.
+- ~~Diagnose songkick zero (bug 1)~~ **DONE 2026-09-18** — root cause written
+  in bug 1 (the secret is blank in CI). Remaining decision is the owner's.
+- bpl (bug 4): one manual curl from a residential IP to tell "CI blocked" from
+  "endpoint gone"; then either find another path to the JSON:API or retire the
+  source. Its bank is already gone, so there is nothing to protect meanwhile.
 
 **P1 — durability**
 - ~~(Opus) Make missing-key fetchers count as failed~~ **DONE 2026-09-18** — see
@@ -129,7 +150,8 @@ list — the footer is correspondingly longer on a bad run.
 ## Open questions (for the repo owner)
 
 - Renew/replace JAMBASE_API_KEY (paid?) or retire the source?
-- Songkick: was the API application ever approved / is the key valid?
+- Songkick: was the API application ever approved / is the key valid? (The
+  Actions secret is currently blank — see bug 1.)
 - A June architecture review (prior session, not in repo) picked a "Candidate 1"
   refactor direction; only the "deepen seams" commits landed. What was the rest,
   and is it still wanted?
