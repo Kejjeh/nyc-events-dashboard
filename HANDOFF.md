@@ -7,7 +7,7 @@ Read `CLAUDE.md` first. This file is the current status; update it as you work.
 - Full pipeline → static JSON → React PWA → GitHub Pages flow, unattended since
   June 19. The cron is alive: `origin/main` gets a data commit twice daily
   (verified: last refresh 2026-09-18 00:52 UTC — always `git pull`).
-- `npm run check`: typecheck + 373 tests, all green. `npm run build` green.
+- `npm run check`: typecheck + 402 tests, all green. `npm run build` green.
 - Healthy sources in production (from the 2026-09-18 payload's `sources` array):
   nyc-open-data (745), nyc-greenmarket (717), smallslive (403), ticketmaster (394),
   todaytix (195), seatgeek (195), dice (165), cityparks (91),
@@ -68,14 +68,22 @@ list — the footer is correspondingly longer on a bad run.
    after 12,894 events / archive 9,293**, the rest being normal expiry + dedup.
    A source that fetches and genuinely returns zero is unchanged: still
    authoritative, still `count: 0, fresh: true`.
-8. **MapView** (`src/ui/MapView.tsx`): (a) line ~80 `'circle-color':
-   'var(--accent, #6366f1)'` — MapLibre paint props aren't CSS, `var()` is
-   invalid; (b) center hardcoded to NYC, never re-fits when you pick Boston/
-   Philly, so markers render off-screen; (c) popup `setHTML` interpolates
-   scraped title/venue/url unescaped.
-9. **Source-filter chips render only for NY/New York** (`App.tsx` ~615) but a
-   `?src=` URL param keeps filtering after a city switch with no visible
-   control to clear it.
+8. ~~MapView~~ **FIXED 2026-09-18.** (a) `'circle-color': 'var(--accent,…)'` →
+   a literal `#7c5cff` (MapLibre paint values are GL-evaluated, not CSS).
+   (b) The map now re-fits to the filtered events, but only when the current
+   viewport contains none of them — so a Boston/Philly switch re-frames while an
+   ordinary filter change leaves a user's pan/zoom alone (`mapBounds.ts`).
+   (c) The popup no longer interpolates scraped strings: `popupHtml()` escapes
+   title/venue and links only http(s) URLs, dropping the anchor entirely for
+   anything else (`mapPopup.ts`). Verified against hostile input — an
+   `<img onerror=…>` title, a `</span><script>` venue and a `javascript:` URL
+   now produce only `<strong>`/`<span>` with no event handlers and no link.
+   No CSP change and no external image fetching was introduced.
+9. ~~Source-filter chips render only for NY/New York~~ **FIXED 2026-09-18.**
+   The control now stays on screen whenever a source filter is actually applied,
+   wherever you are, and lists any active source the live board's `sources`
+   array doesn't mention — so a `?src=` param surviving a city switch can always
+   be cleared (`sourceFilterOptions.ts`).
 10. **Comment drift**: `sources.ts` says Resident Advisor "area 43" twice;
     `RA_NYC_AREA_ID = 8`. Verify which is NYC before touching.
 
@@ -105,9 +113,11 @@ list — the footer is correspondingly longer on a bad run.
   non-destructive.
 
 **P2 — quality**
-- MapView fixes (bug 8): real hex color, `fitBounds` to current filtered
-  events, escape popup HTML. Accept: map centers on selected city; no style
-  errors in console.
+- ~~MapView fixes (bug 8)~~ **DONE 2026-09-18** — see bug 8. Landed
+  `mapPopup.ts` + `mapBounds.ts` (+ tests) and `sourceFilterOptions.ts` for
+  bug 9; MapView itself stays a thin wiring layer, per the no-component-tests
+  convention. Worth a human eye on the real map: the fixes are covered by pure
+  tests, but nobody has looked at the rendered result.
 - Add eventbrite + residentAdvisor normalizer tests (the only two sources
   without any) using recorded sample payloads. Accept: both have co-located
   `.test.ts` exercising a real record → Event.
