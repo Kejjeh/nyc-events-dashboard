@@ -1,9 +1,4 @@
-import { existsSync } from 'node:fs';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname } from 'node:path';
-import type { Event, SourceStatus } from '../domain/event';
-import { runPipeline } from './runPipeline';
-import type { PreviousProvenance } from './sourceSummary';
+import { refresh } from './refresh';
 import { settleSource, skippedSource, type SourceOutcome } from './sourceOutcome';
 import { getSpotifyToken } from './spotifyEnrich';
 import {
@@ -25,32 +20,6 @@ import {
   fetchTodayTix,
   fetchVillageVanguard,
 } from './sources';
-
-const OUTPUT_PATH = 'public/data/events.json';
-const ARCHIVE_PATH = 'public/data/archive.json';
-
-interface PreviousPayload {
-  events: Event[];
-  /** Absent when the file is missing, unreadable, or predates source-health rows. */
-  provenance?: PreviousProvenance;
-}
-
-/** Reads a previously-published data file; empty (never a throw) if absent/unreadable. */
-async function readPrevious(path: string): Promise<PreviousPayload> {
-  if (!existsSync(path)) return { events: [] };
-  try {
-    const payload = JSON.parse(await readFile(path, 'utf8'));
-    const events: Event[] = Array.isArray(payload.events) ? payload.events : [];
-    const sources: SourceStatus[] | undefined = Array.isArray(payload.sources) ? payload.sources : undefined;
-    const provenance =
-      sources && typeof payload.generatedAt === 'string'
-        ? { generatedAt: payload.generatedAt, sources }
-        : undefined;
-    return { events, provenance };
-  } catch {
-    return { events: [] };
-  }
-}
 
 // SerpAPI's free tier is 250 searches/month, and Ticketmaster/JamBase are deep
 // multi-state pulls. The pipeline runs on every push (not just the 2x/day cron),
@@ -90,6 +59,11 @@ function collectSources(nowIso: string, onPush: boolean): Promise<SourceOutcome[
   ]);
 }
 
+/**
+ * The composition root: real clock, real env, real fetchers, real files.
+ * Everything else — snapshot validation, the pipeline, the write — is in
+ * `refresh.ts`, which is what the tests drive with a faked filesystem.
+ */
 async function main(): Promise<void> {
   const nowIso = new Date().toISOString();
   console.log(`Refreshing events at ${nowIso}`);
@@ -97,43 +71,21 @@ async function main(): Promise<void> {
   const onPush = process.env.GITHUB_EVENT_NAME === 'push';
   if (onPush) console.log('  (push run: skipping high-volume Ticketmaster + SerpAPI + JamBase; carrying their events forward)');
 
-  const [outcomes, previous, previousArchive] = await Promise.all([
-    collectSources(nowIso, onPush),
-    readPrevious(OUTPUT_PATH),
-    readPrevious(ARCHIVE_PATH),
-  ]);
-
-  // The Spotify token needs credentials, not events, so fetch it up front.
-  const spotifyToken = await getSpotifyToken(
-    process.env.SPOTIFY_CLIENT_ID,
-    process.env.SPOTIFY_CLIENT_SECRET,
-  );
-
-  const result = await runPipeline({
+  await refresh({
     nowIso,
     onPush,
-    outcomes,
-    previousLive: previous.events,
-    previousArchive: previousArchive.events,
-    hasExistingOutput: existsSync(OUTPUT_PATH),
-    previousProvenance: previous.provenance,
-    googleMapsKey: process.env.GOOGLE_MAPS_API_KEY,
-    openWeatherKey: process.env.OPENWEATHER_API_KEY,
-    spotifyToken,
+    collect: collectSources,
+    keys: {
+      googleMaps: process.env.GOOGLE_MAPS_API_KEY,
+      openWeather: process.env.OPENWEATHER_API_KEY,
+      // Needs credentials, not events; fetched once the snapshots have been validated.
+      spotifyToken: () => getSpotifyToken(process.env.SPOTIFY_CLIENT_ID, process.env.SPOTIFY_CLIENT_SECRET),
+    },
     log: {
       info: (m) => console.log(m),
       warn: (m) => console.warn(m),
     },
   });
-
-  if (result.status === 'kept-existing') return;
-
-  await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(OUTPUT_PATH, JSON.stringify(result.live, null, 2) + '\n');
-  await writeFile(ARCHIVE_PATH, JSON.stringify(result.archive, null, 2) + '\n');
-  console.log(
-    `Wrote ${result.live.count} live events to ${OUTPUT_PATH} + ${result.archive.count} archived to ${ARCHIVE_PATH}`,
-  );
 }
 
 main().catch((err) => {

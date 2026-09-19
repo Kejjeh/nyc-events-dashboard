@@ -145,10 +145,13 @@ export async function runPipeline(deps: PipelineDeps): Promise<PipelineResult> {
   const dedupRemoved = withCarry.length - superset.length;
   if (dedupRemoved > 0) log.info(`  dedup: collapsed ${dedupRemoved} cross-source duplicates`);
 
-  // Never replace a good dataset with nothing: if every source failed and there
-  // was nothing to carry forward, keep the existing files rather than blanking them.
-  if (superset.length === 0 && hasExistingOutput) {
-    log.warn('No events produced and nothing to carry forward — keeping existing data.');
+  // Never replace a good dataset with nothing — but only when nothing was
+  // authoritative: every source failed or was never asked, and there was
+  // nothing left to carry. Then the existing files are kept rather than
+  // blanked. If a source DID fetch and the result is still empty, that empty is
+  // the truth (its stale bank must go) and is published like any other run.
+  if (superset.length === 0 && hasExistingOutput && succeededSources.length === 0) {
+    log.warn('No source fetched and nothing to carry forward — keeping existing data.');
     return { status: 'kept-existing' };
   }
 

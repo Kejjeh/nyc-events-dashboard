@@ -496,6 +496,31 @@ describe('runPipeline — existing semantics are preserved', () => {
     expect(result.status).toBe('kept-existing');
   });
 
+  it('keeps the existing files when every source failed and the bank has all expired', async () => {
+    const result = await runPipeline(
+      deps({
+        outcomes: [await settleSource('bpl', Promise.reject(new Error('HTTP 403 on all 4 attempts')))],
+        previousLive: [banked('bpl', '2026-09-10T13:00:00')],
+      }),
+    );
+    expect(result.status).toBe('kept-existing');
+  });
+
+  it('publishes a fresh, genuine zero over a stale bank instead of keeping the stale file', async () => {
+    // bpl fetched fine and found nothing; its one banked event is stale by the
+    // documented policy. The old guard saw "0 events + existing output" and
+    // kept the file, which preserved exactly the event the policy removes.
+    const result = await runPipeline(
+      deps({ outcomes: [okBatch('bpl', [])], previousLive: [banked('bpl', '2026-10-11T18:00:00')] }),
+    );
+
+    expect(result.status).toBe('published');
+    const out = published(result);
+    expect(out.live.events).toEqual([]);
+    expect(out.archive.events).toEqual([]);
+    expect(out.live.sources).toEqual([{ source: 'bpl', count: 0, fresh: true, status: 'ok', asOf: NOW }]);
+  });
+
   it('publishes an empty set on a first-ever run with nothing on disk', async () => {
     const result = await runPipeline(deps({ outcomes: [], hasExistingOutput: false }));
     expect(result.status).toBe('published');

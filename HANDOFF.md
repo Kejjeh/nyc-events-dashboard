@@ -7,7 +7,7 @@ Read `CLAUDE.md` first. This file is the current status; update it as you work.
 - Full pipeline → static JSON → React PWA → GitHub Pages flow, unattended since
   June 19. The cron is alive: `origin/main` gets a data commit twice daily
   (verified: last refresh 2026-09-18 00:52 UTC — always `git pull`).
-- `npm run check`: typecheck + 415 tests, all green. `npm run build` green.
+- `npm run check`: typecheck + 429 tests, all green. `npm run build` green.
 - Healthy sources in production (from the 2026-09-18 payload's `sources` array):
   nyc-open-data (745), nyc-greenmarket (717), smallslive (403), ticketmaster (394),
   todaytix (195), seatgeek (195), dice (165), cityparks (91),
@@ -34,6 +34,19 @@ from Next steps.
   today (ET), 0 gained, every surviving archive id was present before**
   (9,293 of 9,364 retained; the other 71 were expired). 16 of 17 sources
   reported non-fresh; only smorgasburg (static descriptors) was `ok`.
+- Review repairs (bugs 13–14, from Astra's independent review of `7f3c025`):
+  `runPipeline.test.ts` carries the exact probe (one banked bpl event, bpl
+  `ok` with zero records, existing output) and it was red on the old guard;
+  `refresh.test.ts` fakes the filesystem so a corrupt, unreadable (EIO) or
+  wrong-shaped snapshot can be shown to abort before any fetch and before any
+  write. Sandbox, network stubbed: with `archive.json` truncated mid-object the
+  **old** `run.ts` exited 0 and rewrote it with 0 archived events (9,364 lost);
+  the **new** one exits 1 with `SnapshotError: Existing snapshot
+  public/data/archive.json is not valid JSON — refusing to run`, both data
+  files byte-identical (sha256) afterwards and zero network attempts logged.
+  The intact bank still publishes: 3,260 live + 8,965 archived on 2026-09-19 ET
+  (13,142 banked − 917 whose date had passed; all 917 lost events were expired,
+  0 gained — the same identity check as the 09-18 run, one day later).
 - Browser: `scripts/ui-smoke/` (README there) drove the built app in headless
   Chromium at 1280×900 and as an iPhone 13, on a synthetic payload with hostile
   strings, string/out-of-range/half coordinates, an empty search, a
@@ -150,6 +163,27 @@ list — the footer is correspondingly longer on a bad run.
     it was fresh then, and as unknown (no `asOf`) otherwise — e.g. jambase,
     which was already carried before 09-18, shows no date until it next
     fetches.
+13. ~~Never-blank guard kept a stale bank a genuine zero should remove~~
+    **FIXED 2026-09-19** (review finding). The guard fired on "0 events and an
+    existing output file", which cannot tell *every source failed* from *a
+    source fetched fine and the truthful result is empty*. With one banked bpl
+    event and a healthy bpl returning zero records, the run returned
+    `kept-existing` and the stale event stayed on disk — the opposite of the
+    documented policy. The guard now also requires that **no** source was
+    authoritative this run (`succeededSources.length === 0`); a fresh, genuine
+    zero publishes like any other run. Regressions: the probe above (red on the
+    old code), plus the all-failed-and-all-expired case still keeps the files.
+14. ~~A corrupt or unreadable snapshot read as empty, so a healthy source could
+    publish over the bank~~ **FIXED 2026-09-19** (review finding). `run.ts`
+    caught every read/parse error on `events.json`/`archive.json` and returned
+    `[]`, so a truncated archive plus one `ok` source produced a valid payload
+    with the archive gone (reproduced in the sandbox: 9,364 → 0). The read now
+    lives in `src/pipeline/refresh.ts` behind an injectable filesystem seam and
+    **fails closed**: only a file that does not exist counts as a first run; an
+    existing file that cannot be read, is not JSON, has no `events` array or a
+    malformed `sources` array throws `SnapshotError` and nothing is fetched or
+    written. Both snapshots are validated *before* any source is fetched, so a
+    bad file also costs no API quota. `run.ts` is now only env + fetchers.
 
 ## Next steps (each ≈ one Sonnet session unless marked Opus)
 

@@ -13,7 +13,7 @@ main is usually behind). State of play, bugs, and next steps: see `HANDOFF.md`.
 ```bash
 npm ci               # install (Node 22)
 npm run check        # typecheck + full test suite (~10s) — THE verification command
-npm test             # tests only (415 tests, ~3s)
+npm test             # tests only (429 tests, ~3s)
 npm run dev          # dashboard at localhost:5173 (or .claude/launch.json "dashboard")
 npm run build        # production build (expect a >500kB chunk warning — known, ignore)
 npm run build:data   # data pipeline — READ THE WARNING BELOW FIRST
@@ -29,7 +29,8 @@ with `git checkout -- public/data/`.
 
 ## Architecture map (detail: docs/ARCHITECTURE.md)
 
-- `src/pipeline/run.ts` — composition root: reads env, calls the real fetchers, reads/writes `public/data/*.json`.
+- `src/pipeline/run.ts` — composition root: reads env, wires the real fetchers into `refresh()`.
+- `src/pipeline/refresh.ts` — one refresh end to end: validate both snapshots (fail closed on a corrupt/unreadable existing file; only a missing file is a first run), fetch, run the pipeline, write. Filesystem is an injectable seam.
 - `src/pipeline/sources.ts` — every `fetch<Source>()` (HTTP/scrape). 900 lines, no test file.
 - `src/ingestion/<source>.ts` — pure `normalize<Source>Event(raw) => Event | null`, one per source, test-first.
 - `src/pipeline/assemble.ts` — `SourceName` union + `NORMALIZERS` registry; drops bad records.
@@ -54,6 +55,10 @@ with `git checkout -- public/data/`.
 - Enrichers take their network fn as a defaulted last param — the injectable-seam test idiom. Follow it.
 - Component logic goes in pure modules (like `filterSelection.ts`), not component tests — there are none.
 - Fetchers throw on failure (so carry-forward saves the source); normalizers return `null` to drop a record.
+- The never-blank guard in `runPipeline.ts` fires only when *no* source was authoritative. A source that
+  fetched and genuinely found nothing publishes its zero — never re-add "0 events ⇒ keep the file".
+- An existing `public/data/*.json` that cannot be read or parsed is not an empty bank: `readSnapshot`
+  throws and the run writes nothing. Don't catch-and-default it back to `[]`.
 - A keyed fetcher with no credential throws `MissingCredentialsError` — never an empty batch.
   An empty batch means "we asked and there was nothing", and that *does* drop the source's banked events.
 - Every `sources[]` row in `events.json` carries `status` and `asOf` (last successful fetch, carried
