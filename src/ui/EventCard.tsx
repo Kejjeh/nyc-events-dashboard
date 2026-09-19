@@ -1,5 +1,7 @@
 import type { Event } from '../domain/event';
 import { formatDay, formatPrice, formatTime, sourceLabel } from './format';
+import { isPlottable } from './mapBounds';
+import { safeHref } from './mapPopup';
 import { googleCalendarUrl, icsHref } from './calendar';
 
 const TZ = 'America/New_York';
@@ -48,6 +50,14 @@ export function EventCard({
   onOpenVenue: () => void;
 }) {
   const icsName = `${event.id.replace(/[^a-z0-9]+/gi, '-')}.ics`;
+  // Scraped URLs are third-party strings: only http(s) becomes a link.
+  const eventUrl = safeHref(event.url);
+  const spotifyUrl = safeHref(event.spotifyUrl);
+  const image = safeHref(event.image);
+  const altLinks = (event.altTicketLinks ?? []).flatMap((link) => {
+    const url = safeHref(link.url);
+    return url ? [{ source: link.source, url }] : [];
+  });
   return (
     <article className="card" data-category={event.category}>
       {/* Bookmark + expand buttons — z-index above the stretched link */}
@@ -92,9 +102,13 @@ export function EventCard({
           </span>
         </div>
         <h3 className="card__title">
-          <a className="card__link" href={event.url} target="_blank" rel="noreferrer">
-            {event.title}
-          </a>
+          {eventUrl ? (
+            <a className="card__link" href={eventUrl} target="_blank" rel="noreferrer">
+              {event.title}
+            </a>
+          ) : (
+            <span className="card__link">{event.title}</span>
+          )}
         </h3>
         {event.venue ? (
           <button
@@ -144,7 +158,7 @@ export function EventCard({
           >
             iCal
           </a>
-          {event.lat != null && event.lon != null && (
+          {isPlottable(event) && (
             <a
               className="cal-btn"
               href={`https://www.google.com/maps/dir/?api=1&destination=${event.lat},${event.lon}`}
@@ -155,10 +169,10 @@ export function EventCard({
               Directions
             </a>
           )}
-          {event.spotifyUrl && (
+          {spotifyUrl && (
             <a
               className="cal-btn cal-btn--spotify"
-              href={event.spotifyUrl}
+              href={spotifyUrl}
               target="_blank"
               rel="noreferrer"
               aria-label={`Listen to ${event.title} on Spotify`}
@@ -167,10 +181,10 @@ export function EventCard({
             </a>
           )}
         </div>
-        {event.altTicketLinks && event.altTicketLinks.length > 0 && (
+        {altLinks.length > 0 && (
           <div className="card__alt-links">
             <span className="card__cal-label">Also on</span>
-            {event.altTicketLinks.map((link) => (
+            {altLinks.map((link) => (
               <a key={link.url} className="cal-btn" href={link.url} target="_blank" rel="noreferrer">
                 {sourceLabel(link.source)}
               </a>
@@ -179,8 +193,8 @@ export function EventCard({
         )}
       </div>
 
-      {event.image && (
-        <img className="card__art" src={event.image} alt="" loading="lazy" aria-hidden="true" />
+      {image && (
+        <img className="card__art" src={image} alt="" loading="lazy" aria-hidden="true" />
       )}
     </article>
   );

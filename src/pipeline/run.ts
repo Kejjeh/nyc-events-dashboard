@@ -1,20 +1,6 @@
-import { existsSync } from 'node:fs';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname } from 'node:path';
-import type { Event } from '../domain/event';
-import { assembleEvents, type RawBatch } from './assemble';
-import { carryForwardEvents } from './carryForward';
-import { deduplicateEvents } from './dedup';
-import { partitionEvents, eventCity, eventState } from './partition';
-import { summarizeSources } from './sourceSummary';
+import { refresh } from './refresh';
+import { settleSource, skippedSource, type SourceOutcome } from './sourceOutcome';
 import { getSpotifyToken } from './spotifyEnrich';
-import {
-  runEnrichmentChain,
-  liveEnrichmentStages,
-  archiveEnrichmentStages,
-  type EnrichmentContext,
-  type StageReport,
-} from './enrichmentChain';
 import {
   fetchBpl,
   fetchCityParks,
@@ -35,173 +21,71 @@ import {
   fetchVillageVanguard,
 } from './sources';
 
-const OUTPUT_PATH = 'public/data/events.json';
-const ARCHIVE_PATH = 'public/data/archive.json';
+// SerpAPI's free tier is 250 searches/month, and Ticketmaster/JamBase are deep
+// multi-state pulls. The pipeline runs on every push (not just the 2x/day cron),
+// so frequent dev pushes would burn the budget. On push runs these three are
+// skipped — recorded as `skipped`, never as a successful empty fetch — so
+// carry-forward keeps their last-good events and the health footer says why.
+const PUSH_SKIP_REASON = 'not called on push runs (API cost control)';
 
-/** Reads previously-published events from a data file, or [] if absent/unreadable. */
-async function readPreviousEvents(path: string): Promise<Event[]> {
-  if (!existsSync(path)) return [];
-  try {
-    const payload = JSON.parse(await readFile(path, 'utf8'));
-    return Array.isArray(payload.events) ? payload.events : [];
-  } catch {
-    return [];
-  }
+/** Fetches every source and classifies each result; one failure never sinks the run. */
+function collectSources(nowIso: string, onPush: boolean): Promise<SourceOutcome[]> {
+  return Promise.all<SourceOutcome>([
+    settleSource('nyc-open-data', fetchNycOpenData(nowIso)),
+    settleSource('nyc-parks', fetchParks()),
+    settleSource('smallslive', fetchSmalls(nowIso)),
+    settleSource('village-vanguard', fetchVillageVanguard()),
+    settleSource('dice', fetchDice()),
+    settleSource('smorgasburg', fetchSmorgasburg(nowIso)),
+    settleSource('nyc-greenmarket', fetchGreenmarket(nowIso)),
+    settleSource('todaytix', fetchTodayTix(nowIso)),
+    settleSource('cityparks', fetchCityParks(nowIso)),
+    settleSource('bpl', fetchBpl(nowIso)),
+    settleSource('seatgeek', fetchSeatGeek(process.env.SEATGEEK_CLIENT_ID)),
+    settleSource('songkick', fetchSongkick(process.env.SONGKICK_API_KEY, nowIso)),
+    settleSource('eventbrite', fetchEventbrite(nowIso)),
+    settleSource('resident-advisor', fetchResidentAdvisor(nowIso)),
+    ...(onPush
+      ? [
+          skippedSource('ticketmaster', PUSH_SKIP_REASON),
+          skippedSource('serpapi', PUSH_SKIP_REASON),
+          skippedSource('jambase', PUSH_SKIP_REASON),
+        ]
+      : [
+          settleSource('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY, nowIso)),
+          settleSource('serpapi', fetchSerpApi(process.env.SERPAPI_KEY, nowIso)),
+          settleSource('jambase', fetchJamBase(process.env.JAMBASE_API_KEY, nowIso)),
+        ]),
+  ]);
 }
 
-async function settle(label: string, p: Promise<RawBatch>): Promise<RawBatch | null> {
-  try {
-    const batch = await p;
-    console.log(`  ${label}: ${batch.records.length} raw records`);
-    return batch;
-  } catch (err) {
-    // One failing source must not sink the whole refresh.
-    console.error(`  ${label}: FAILED — ${(err as Error).message}`);
-    return null;
-  }
-}
-
+/**
+ * The composition root: real clock, real env, real fetchers, real files.
+ * Everything else — snapshot validation, the pipeline, the write — is in
+ * `refresh.ts`, which is what the tests drive with a faked filesystem.
+ */
 async function main(): Promise<void> {
   const nowIso = new Date().toISOString();
   console.log(`Refreshing events at ${nowIso}`);
 
-  // SerpAPI's free tier is 250 searches/month. The pipeline runs on every push
-  // (not just the 2x/day cron), so frequent dev pushes would burn the budget.
-  // Only spend quota on scheduled cron + manual dispatch; on push runs SerpAPI is
-  // skipped entirely (absent from succeededSources) so carry-forward keeps its
-  // last-good events. A local run (no GITHUB_EVENT_NAME) is treated as eligible.
   const onPush = process.env.GITHUB_EVENT_NAME === 'push';
   if (onPush) console.log('  (push run: skipping high-volume Ticketmaster + SerpAPI + JamBase; carrying their events forward)');
 
-  const batches = (
-    await Promise.all([
-      settle('nyc-open-data', fetchNycOpenData(nowIso)),
-      settle('nyc-parks', fetchParks()),
-      settle('smallslive', fetchSmalls(nowIso)),
-      settle('village-vanguard', fetchVillageVanguard()),
-      settle('dice', fetchDice()),
-      settle('smorgasburg', fetchSmorgasburg(nowIso)),
-      settle('nyc-greenmarket', fetchGreenmarket(nowIso)),
-      settle('todaytix', fetchTodayTix(nowIso)),
-      settle('cityparks', fetchCityParks(nowIso)),
-      settle('bpl', fetchBpl(nowIso)),
-      settle('seatgeek', fetchSeatGeek(process.env.SEATGEEK_CLIENT_ID)),
-      settle('songkick', fetchSongkick(process.env.SONGKICK_API_KEY, nowIso)),
-      settle('eventbrite', fetchEventbrite(nowIso)),
-      settle('resident-advisor', fetchResidentAdvisor(nowIso)),
-      ...(onPush
-        ? []
-        : [
-            settle('ticketmaster', fetchTicketmaster(process.env.TICKETMASTER_API_KEY, nowIso)),
-            settle('serpapi', fetchSerpApi(process.env.SERPAPI_KEY, nowIso)),
-            settle('jambase', fetchJamBase(process.env.JAMBASE_API_KEY, nowIso)),
-          ]),
-    ])
-  ).filter((b): b is RawBatch => b !== null);
-
-  const succeededSources = batches.map((b) => b.source);
-  const fresh = assembleEvents(batches);
-
-  // Carry forward last-good events for any source that failed this run, over the
-  // FULL superset (live board + offline archive) so banked far-future / other-city
-  // events survive a lapsed source (e.g. the JamBase trial) even though only NYC
-  // near-term is displayed.
-  const previousLive = await readPreviousEvents(OUTPUT_PATH);
-  const previousArchive = await readPreviousEvents(ARCHIVE_PATH);
-  const previousAll = [...previousLive, ...previousArchive];
-  const withCarry = carryForwardEvents(fresh, previousAll, succeededSources, nowIso);
-
-  const carried = withCarry.length - fresh.length;
-  if (carried > 0) {
-    const succeeded = new Set<string>(succeededSources);
-    const downSources = [...new Set(previousAll.map((e) => e.source))].filter((s) => !succeeded.has(s));
-    console.warn(`Carried forward ${carried} events from down source(s): ${downSources.join(', ')}`);
-  }
-
-  // Collapse cross-source duplicates (same show on Ticketmaster + SeatGeek, etc.)
-  const superset = deduplicateEvents(withCarry);
-  const dedupRemoved = withCarry.length - superset.length;
-  if (dedupRemoved > 0) console.log(`  dedup: collapsed ${dedupRemoved} cross-source duplicates`);
-
-  // Never replace a good dataset with nothing: if every source failed and there
-  // was nothing to carry forward, keep the existing files rather than blanking them.
-  if (superset.length === 0 && existsSync(OUTPUT_PATH)) {
-    console.warn('No events produced and nothing to carry forward — keeping existing data.');
-    return;
-  }
-
-  // Split into the live board (live cities, near-term) and the offline archive
-  // (deep future + other cities). Enrichment is expensive and NYC-focused, so it
-  // only runs over the live set; archive events keep whatever their normalizer
-  // produced (JamBase already ships coordinates + images) until they promote.
-  const { live, archive } = partitionEvents(superset, nowIso);
-  console.log(`  partition: ${live.length} live, ${archive.length} archived`);
-
-  // The Spotify token needs credentials, not events, so fetch it up front and
-  // hand the whole enrichment chain its context. The chain owns stage ordering
-  // (geocode → neighborhood → weather → spotify) and the skip-on-push cost
-  // policy; run.ts just supplies inputs and logs what each stage changed.
-  const spotifyToken = await getSpotifyToken(
-    process.env.SPOTIFY_CLIENT_ID,
-    process.env.SPOTIFY_CLIENT_SECRET,
-  );
-  const enrichCtx: EnrichmentContext = {
-    googleMapsKey: process.env.GOOGLE_MAPS_API_KEY,
-    openWeatherKey: process.env.OPENWEATHER_API_KEY,
-    spotifyToken,
-    previousLive,
+  await refresh({
+    nowIso,
     onPush,
-  };
-  const logStage = (scope: string) => (r: StageReport) => {
-    if (r.skipped) console.log(`  ${scope} ${r.name}: skipped (push run)`);
-    else if (r.changed > 0) console.log(`  ${scope} ${r.name}: ${r.changed} events updated`);
-  };
-
-  const enriched = await runEnrichmentChain(live, liveEnrichmentStages, enrichCtx, logStage('live'));
-  const archiveOut = await runEnrichmentChain(
-    archive,
-    archiveEnrichmentStages,
-    enrichCtx,
-    logStage('archive'),
-  );
-
-  // State → cities present across the superset, so the UI's location selector
-  // knows what's available without loading the archive. NY first; cities sorted.
-  const byState = new Map<string, Map<string, number>>();
-  for (const e of [...enriched, ...archiveOut]) {
-    const st = eventState(e);
-    const ci = eventCity(e);
-    if (!byState.has(st)) byState.set(st, new Map<string, number>());
-    const m = byState.get(st)!;
-    m.set(ci, (m.get(ci) ?? 0) + 1);
-  }
-  const places = [...byState.entries()]
-    .map(([state, cityMap]) => ({
-      state,
-      cities: [...cityMap.entries()]
-        .map(([name, count]) => ({ name, count }))
-        .sort((a, b) => b.count - a.count),
-    }))
-    .sort((a, b) => (a.state === 'NY' ? -1 : b.state === 'NY' ? 1 : a.state.localeCompare(b.state)));
-
-  const payload = {
-    generatedAt: nowIso,
-    count: enriched.length,
-    archivedCount: archiveOut.length,
-    places,
-    sources: summarizeSources(enriched, succeededSources),
-    events: enriched,
-  };
-
-  await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n');
-  await writeFile(
-    ARCHIVE_PATH,
-    JSON.stringify({ generatedAt: nowIso, count: archiveOut.length, events: archiveOut }, null, 2) + '\n',
-  );
-  console.log(
-    `Wrote ${enriched.length} live events to ${OUTPUT_PATH} + ${archiveOut.length} archived to ${ARCHIVE_PATH}`,
-  );
+    collect: collectSources,
+    keys: {
+      googleMaps: process.env.GOOGLE_MAPS_API_KEY,
+      openWeather: process.env.OPENWEATHER_API_KEY,
+      // Needs credentials, not events; fetched once the snapshots have been validated.
+      spotifyToken: () => getSpotifyToken(process.env.SPOTIFY_CLIENT_ID, process.env.SPOTIFY_CLIENT_SECRET),
+    },
+    log: {
+      info: (m) => console.log(m),
+      warn: (m) => console.warn(m),
+    },
+  });
 }
 
 main().catch((err) => {

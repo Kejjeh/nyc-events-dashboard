@@ -10,21 +10,57 @@ const RETRYABLE_STATUS = new Set([403, 429, 500, 502, 503, 504]);
 /** Per-attempt request timeout so a hung connection becomes a retryable error
  *  instead of stalling the whole pipeline forever. */
 const REQUEST_TIMEOUT_MS = 20000;
+const RETRIES = 3;
 
-/** Fetch with a per-attempt timeout and bounded exponential-backoff retries. */
-export function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
-  return withRetry(
-    async () => {
-      // A fresh timeout signal per attempt; AbortError rejects (and retries)
-      // rather than hanging if the server accepts but never responds.
-      const res = await fetch(url, { ...init, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
-      if (RETRYABLE_STATUS.has(res.status)) {
-        throw new Error(`transient HTTP ${res.status}`);
-      }
-      return res;
-    },
-    { retries: 3, baseDelayMs: 1000 },
-  );
+/** A status worth retrying, carried through withRetry so the final error can name it. */
+class RetryableStatusError extends Error {
+  constructor(readonly status: number) {
+    super(`HTTP ${status} (retryable)`);
+    this.name = 'RetryableStatusError';
+  }
+}
+
+/**
+ * Fetch with a per-attempt timeout and bounded exponential-backoff retries.
+ *
+ * When every attempt fails on a retryable status, the error says so — "HTTP 403
+ * on all 4 attempts" — rather than re-throwing the per-attempt "transient"
+ * wording. BPL sat on a persistent 403 for a week while the run log kept calling
+ * it transient.
+ */
+export async function fetchWithRetry(url: string, init?: RequestInit): Promise<Response> {
+  try {
+    return await withRetry(
+      async () => {
+        // A fresh timeout signal per attempt; AbortError rejects (and retries)
+        // rather than hanging if the server accepts but never responds.
+        const res = await fetch(url, { ...init, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
+        if (RETRYABLE_STATUS.has(res.status)) throw new RetryableStatusError(res.status);
+        return res;
+      },
+      { retries: RETRIES, baseDelayMs: 1000 },
+    );
+  } catch (err) {
+    if (err instanceof RetryableStatusError) {
+      throw new Error(`HTTP ${err.status} on all ${RETRIES + 1} attempts`);
+    }
+    throw err;
+  }
+}
+
+/**
+ * The shared fetch → status-check step: any failure, including one that
+ * survived the retries, carries the source label so the run log names who broke.
+ */
+async function fetchOk(url: string, init: RequestInit | undefined, label: string): Promise<Response> {
+  let res: Response;
+  try {
+    res = await fetchWithRetry(url, init);
+  } catch (err) {
+    throw new Error(`${label} fetch failed: ${(err as Error).message}`);
+  }
+  if (!res.ok) throw new Error(`${label} fetch failed: HTTP ${res.status}`);
+  return res;
 }
 
 /**
@@ -37,8 +73,7 @@ export async function fetchJson<T = any>(
   init: RequestInit | undefined,
   label: string,
 ): Promise<T> {
-  const res = await fetchWithRetry(url, init);
-  if (!res.ok) throw new Error(`${label} fetch failed: HTTP ${res.status}`);
+  const res = await fetchOk(url, init, label);
   return (await res.json()) as T;
 }
 
@@ -48,7 +83,6 @@ export async function fetchText(
   init: RequestInit | undefined,
   label: string,
 ): Promise<string> {
-  const res = await fetchWithRetry(url, init);
-  if (!res.ok) throw new Error(`${label} fetch failed: HTTP ${res.status}`);
+  const res = await fetchOk(url, init, label);
   return res.text();
 }
