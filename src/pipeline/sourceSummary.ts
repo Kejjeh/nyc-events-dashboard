@@ -3,6 +3,12 @@ import type { SourceOutcome } from './sourceOutcome';
 
 export type { SourceStatus };
 
+/** What the previous `events.json` said about its sources, for as-of carry-over. */
+export interface PreviousProvenance {
+  generatedAt: string;
+  sources: SourceStatus[];
+}
+
 /**
  * Summarizes how many events each source contributed and how it fared this run.
  * Sorted by count descending, then name.
@@ -16,8 +22,19 @@ export type { SourceStatus };
  * `fresh` is true only for an authoritative fetch (`health: 'ok'`). A source
  * without a key never reports fresh, so "0 events, fresh" keeps meaning exactly
  * one thing: we asked, and there was nothing there.
+ *
+ * `asOf` is when the source last fetched successfully: `nowIso` for a fresh
+ * row, otherwise whatever the previous payload recorded — so it survives any
+ * number of consecutive down runs and dates the carried data, not the run.
+ * A previous row from before the field existed counts as `generatedAt` old if
+ * it was fresh then, and unknown otherwise.
  */
-export function summarizeSources(events: Event[], outcomes: SourceOutcome[]): SourceStatus[] {
+export function summarizeSources(
+  events: Event[],
+  outcomes: SourceOutcome[],
+  nowIso?: string,
+  previous?: PreviousProvenance,
+): SourceStatus[] {
   const health = new Map<string, SourceOutcome['health']>();
   const counts = new Map<string, number>();
   for (const o of outcomes) {
@@ -26,16 +43,25 @@ export function summarizeSources(events: Event[], outcomes: SourceOutcome[]): So
   }
   for (const e of events) counts.set(e.source, (counts.get(e.source) ?? 0) + 1);
 
+  const previousAsOf = new Map<string, string>();
+  for (const row of previous?.sources ?? []) {
+    const asOf = row.asOf ?? (row.fresh ? previous!.generatedAt : undefined);
+    if (asOf) previousAsOf.set(row.source, asOf);
+  }
+
   return [...counts.entries()]
     .map(([source, count]) => {
       const status = health.get(source);
+      const fresh = status === 'ok';
+      const asOf = fresh ? nowIso : previousAsOf.get(source);
       return {
         source,
         count,
-        fresh: status === 'ok',
+        fresh,
         // Absent for a source with carried events but no outcome this run (its
         // wiring was removed); the UI falls back to the `fresh` flag.
         ...(status ? { status } : {}),
+        ...(asOf ? { asOf } : {}),
       };
     })
     .sort((a, b) => b.count - a.count || a.source.localeCompare(b.source));

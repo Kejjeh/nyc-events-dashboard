@@ -1,8 +1,9 @@
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
-import type { Event } from '../domain/event';
+import type { Event, SourceStatus } from '../domain/event';
 import { runPipeline } from './runPipeline';
+import type { PreviousProvenance } from './sourceSummary';
 import { settleSource, skippedSource, type SourceOutcome } from './sourceOutcome';
 import { getSpotifyToken } from './spotifyEnrich';
 import {
@@ -28,14 +29,26 @@ import {
 const OUTPUT_PATH = 'public/data/events.json';
 const ARCHIVE_PATH = 'public/data/archive.json';
 
-/** Reads previously-published events from a data file, or [] if absent/unreadable. */
-async function readPreviousEvents(path: string): Promise<Event[]> {
-  if (!existsSync(path)) return [];
+interface PreviousPayload {
+  events: Event[];
+  /** Absent when the file is missing, unreadable, or predates source-health rows. */
+  provenance?: PreviousProvenance;
+}
+
+/** Reads a previously-published data file; empty (never a throw) if absent/unreadable. */
+async function readPrevious(path: string): Promise<PreviousPayload> {
+  if (!existsSync(path)) return { events: [] };
   try {
     const payload = JSON.parse(await readFile(path, 'utf8'));
-    return Array.isArray(payload.events) ? payload.events : [];
+    const events: Event[] = Array.isArray(payload.events) ? payload.events : [];
+    const sources: SourceStatus[] | undefined = Array.isArray(payload.sources) ? payload.sources : undefined;
+    const provenance =
+      sources && typeof payload.generatedAt === 'string'
+        ? { generatedAt: payload.generatedAt, sources }
+        : undefined;
+    return { events, provenance };
   } catch {
-    return [];
+    return { events: [] };
   }
 }
 
@@ -84,10 +97,10 @@ async function main(): Promise<void> {
   const onPush = process.env.GITHUB_EVENT_NAME === 'push';
   if (onPush) console.log('  (push run: skipping high-volume Ticketmaster + SerpAPI + JamBase; carrying their events forward)');
 
-  const [outcomes, previousLive, previousArchive] = await Promise.all([
+  const [outcomes, previous, previousArchive] = await Promise.all([
     collectSources(nowIso, onPush),
-    readPreviousEvents(OUTPUT_PATH),
-    readPreviousEvents(ARCHIVE_PATH),
+    readPrevious(OUTPUT_PATH),
+    readPrevious(ARCHIVE_PATH),
   ]);
 
   // The Spotify token needs credentials, not events, so fetch it up front.
@@ -100,9 +113,10 @@ async function main(): Promise<void> {
     nowIso,
     onPush,
     outcomes,
-    previousLive,
-    previousArchive,
+    previousLive: previous.events,
+    previousArchive: previousArchive.events,
     hasExistingOutput: existsSync(OUTPUT_PATH),
+    previousProvenance: previous.provenance,
     googleMapsKey: process.env.GOOGLE_MAPS_API_KEY,
     openWeatherKey: process.env.OPENWEATHER_API_KEY,
     spotifyToken,

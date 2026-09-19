@@ -71,4 +71,11 @@ export interface SourceStatus {
    * existed, so treat `undefined` as "only `fresh` is known".
    */
   status?: SourceHealth;
+  /**
+   * When this source last fetched successfully (ISO). Equals the payload's
+   * `generatedAt` for a fresh row and is older for a carried one, so the UI can
+   * say how old carried data is instead of presenting it as current. Absent
+   * when unknown: the source has not fetched since the field was introduced.
+   */
+  asOf?: string;
 }

@@ -19,7 +19,7 @@ import {
   defaultCityFor,
   type LocationSelection,
 } from './filterSelection';
-import { sourceHealthTitle, sourceLabel } from './format';
+import { carriedSourcesNote, sourceHealthTitle, sourceLabel } from './format';
 import { shouldShowSourceFilter, sourceFilterOptions } from './sourceFilterOptions';
 import { EventCard } from './EventCard';
 import { EventModal } from './EventModal';
@@ -439,6 +439,12 @@ export function App() {
                 hour: 'numeric',
                 minute: '2-digit',
               })}
+              {carriedSourcesNote(state.payload.sources) && (
+                <span className="hero__stamp-note" title="See the source list in the footer">
+                  {' · '}
+                  {carriedSourcesNote(state.payload.sources)}
+                </span>
+              )}
             </p>
           )}
           <button className="share-btn" onClick={copyLink}>

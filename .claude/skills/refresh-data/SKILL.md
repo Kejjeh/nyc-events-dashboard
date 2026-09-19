@@ -11,7 +11,7 @@ description: Run or debug the events data pipeline locally, or check production 
 git fetch origin && git show origin/main:public/data/events.json | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s);console.log(j.generatedAt);console.table(j.sources)})"
 ```
 
-- `fresh: false` → source failed that run; its events are carried forward.
+- `fresh: false` → source did not fetch that run (`status` says why: `missing-key`, `skipped`, `error`); its events are carried forward and `asOf` is when it last did fetch (absent = unknown).
 - Source absent → failing AND no surviving events.
 - `count: 0` with `fresh: true` → silent parser break (worst case).
 

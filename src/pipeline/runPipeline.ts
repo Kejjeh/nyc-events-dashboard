@@ -3,7 +3,7 @@ import { assembleEvents } from './assemble';
 import { carryForwardEvents } from './carryForward';
 import { deduplicateEvents } from './dedup';
 import { partitionEvents, eventCity, eventState } from './partition';
-import { summarizeSources } from './sourceSummary';
+import { summarizeSources, type PreviousProvenance } from './sourceSummary';
 import {
   authoritativeSources,
   fetchedBatches,
@@ -67,6 +67,8 @@ export interface PipelineDeps {
   previousArchive: Event[];
   /** True when a previous `events.json` exists on disk and must not be blanked. */
   hasExistingOutput: boolean;
+  /** The previous `events.json`'s `generatedAt` + `sources`, so carried rows keep their as-of. */
+  previousProvenance?: PreviousProvenance;
   googleMapsKey?: string;
   openWeatherKey?: string;
   spotifyToken?: string | null;
@@ -180,7 +182,7 @@ export async function runPipeline(deps: PipelineDeps): Promise<PipelineResult> {
       count: enriched.length,
       archivedCount: archiveOut.length,
       places: placesOf([...enriched, ...archiveOut]),
-      sources: summarizeSources(enriched, outcomes),
+      sources: summarizeSources(enriched, outcomes, nowIso, deps.previousProvenance),
       events: enriched,
     },
     archive: { generatedAt: nowIso, count: archiveOut.length, events: archiveOut },

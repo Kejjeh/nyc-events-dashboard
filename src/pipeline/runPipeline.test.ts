@@ -1,8 +1,9 @@
-import { describe, it, expect } from 'vitest';
-import type { Event } from '../domain/event';
+import { describe, it, expect, vi } from 'vitest';
+import type { Event, SourceStatus } from '../domain/event';
 import { runPipeline, type PipelineDeps } from './runPipeline';
 import { settleSource, skippedSource, type SourceOutcome } from './sourceOutcome';
 import type { EnrichmentStage } from './enrichmentChain';
+import { fetchJson } from './http';
 import {
   fetchJamBase,
   fetchSeatGeek,
@@ -161,6 +162,141 @@ describe('runPipeline — a run with no API credentials', () => {
 
     expect(result.archive.events).toHaveLength(900);
     expect(result.live.events).toHaveLength(0);
+    // Not just the size: the same events, by identity.
+    expect(new Set(result.archive.events.map((e) => e.id))).toEqual(
+      new Set(previousArchive.map((e) => e.id)),
+    );
+  });
+});
+
+describe('runPipeline — a rate-limited source', () => {
+  it('keeps its banked events when the API answers 429 on every attempt', async () => {
+    // Through the real retry layer: four 429s across the 1+2+4 s backoff, then
+    // the fetcher's rejection is classified by settleSource like any other.
+    const fetchMock = vi.fn(async () => new Response('slow down', { status: 429 }));
+    vi.stubGlobal('fetch', fetchMock);
+    vi.useFakeTimers();
+    let outcome: SourceOutcome;
+    try {
+      const settling = settleSource(
+        'dice',
+        fetchJson('https://dice.test/events', {}, 'DICE').then((records) => ({
+          source: 'dice' as const,
+          records,
+        })),
+      );
+      await vi.runAllTimersAsync();
+      outcome = await settling;
+    } finally {
+      vi.useRealTimers();
+      vi.unstubAllGlobals();
+    }
+    expect(fetchMock).toHaveBeenCalledTimes(4);
+    expect(outcome).toMatchObject({
+      health: 'error',
+      batch: null,
+      detail: 'DICE fetch failed: HTTP 429 on all 4 attempts',
+    });
+
+    const bank = [banked('dice', '2026-10-09T18:00:00'), banked('dice', '2026-11-02T21:00:00')];
+    const result = published(
+      await runPipeline(deps({ outcomes: [outcome, okBatch('bpl', [])], previousLive: bank })),
+    );
+
+    expect(result.live.events.map((e) => e.id)).toEqual(bank.map((e) => e.id));
+    expect(result.carried).toBe(2);
+    expect(result.live.sources).toContainEqual({
+      source: 'dice',
+      count: 2,
+      fresh: false,
+      status: 'error',
+    });
+  });
+});
+
+describe('runPipeline — a carried source says how old its data is', () => {
+  const EARLIER = '2026-09-11T00:38:00.000Z';
+  const MIDDLE = '2026-09-15T12:00:00.000Z';
+  const row = (over: Partial<SourceStatus>): SourceStatus => ({
+    source: 'cityparks',
+    count: 1,
+    fresh: true,
+    status: 'ok',
+    ...over,
+  });
+  const rowsOf = (result: Awaited<ReturnType<typeof runPipeline>>) =>
+    Object.fromEntries(published(result).live.sources.map((s) => [s.source, s]));
+
+  it('stamps a fresh source with this run and a carried one with its last good fetch', async () => {
+    const rows = rowsOf(
+      await runPipeline(
+        deps({
+          outcomes: [
+            okBatch('bpl', [bplRecord(1, '2026-10-02T13:00:00')]),
+            await settleSource('cityparks', Promise.reject(new Error('HTTP 503'))),
+          ],
+          previousLive: [banked('cityparks', '2026-10-11T18:00:00')],
+          previousProvenance: { generatedAt: EARLIER, sources: [row({ asOf: EARLIER })] },
+        }),
+      ),
+    );
+
+    expect(rows.bpl).toMatchObject({ fresh: true, asOf: NOW });
+    expect(rows.cityparks).toMatchObject({ fresh: false, status: 'error', asOf: EARLIER });
+  });
+
+  it('keeps the original as-of across consecutive down runs, not the previous run time', async () => {
+    const rows = rowsOf(
+      await runPipeline(
+        deps({
+          outcomes: [skippedSource('cityparks', 'push run')],
+          previousLive: [banked('cityparks', '2026-10-11T18:00:00')],
+          previousProvenance: {
+            generatedAt: MIDDLE,
+            sources: [row({ fresh: false, status: 'error', asOf: EARLIER })],
+          },
+        }),
+      ),
+    );
+
+    expect(rows.cityparks.asOf).toBe(EARLIER);
+  });
+
+  it('derives the as-of from a payload published before the field existed', async () => {
+    // Old payload: no asOf on any row. A row that was fresh then is as old as
+    // that payload; a row that was already carried has an unknown age.
+    const rows = rowsOf(
+      await runPipeline(
+        deps({
+          outcomes: [
+            await settleSource('cityparks', Promise.reject(new Error('HTTP 503'))),
+            await settleSource('bpl', Promise.reject(new Error('HTTP 403'))),
+          ],
+          previousLive: [banked('cityparks', '2026-10-11T18:00:00'), banked('bpl', '2026-10-11T18:00:00')],
+          previousProvenance: {
+            generatedAt: EARLIER,
+            sources: [row({ fresh: true }), row({ source: 'bpl', fresh: false, status: 'error' })],
+          },
+        }),
+      ),
+    );
+
+    expect(rows.cityparks.asOf).toBe(EARLIER);
+    expect(rows.bpl.asOf).toBeUndefined();
+  });
+
+  it('never carries an as-of into a fresh row', async () => {
+    const rows = rowsOf(
+      await runPipeline(
+        deps({
+          outcomes: [okBatch('cityparks', [])],
+          previousProvenance: { generatedAt: EARLIER, sources: [row({ asOf: EARLIER })] },
+          hasExistingOutput: false,
+        }),
+      ),
+    );
+
+    expect(rows.cityparks).toEqual({ source: 'cityparks', count: 0, fresh: true, status: 'ok', asOf: NOW });
   });
 });
 
@@ -216,6 +352,7 @@ describe('runPipeline — the four source outcomes stay distinct', () => {
       count: 0,
       fresh: true,
       status: 'ok',
+      asOf: NOW,
     });
     expect(result.carried).toBe(0);
   });

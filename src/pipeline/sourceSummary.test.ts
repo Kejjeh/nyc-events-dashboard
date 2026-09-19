@@ -89,4 +89,40 @@ describe('summarizeSources', () => {
   it('returns no rows when there are neither events nor source outcomes', () => {
     expect(summarizeSources([], [])).toEqual([]);
   });
+
+  describe('as-of provenance', () => {
+    const NOW = '2026-09-18T16:00:00.000Z';
+    const EARLIER = '2026-09-11T00:38:00.000Z';
+
+    it('stamps a fresh row with this run', () => {
+      const [dice] = summarizeSources([ev('dice')], [ok('dice')], NOW);
+      expect(dice.asOf).toBe(NOW);
+    });
+
+    it('carries the previous as-of for a row that did not fetch', () => {
+      const [bpl] = summarizeSources([ev('bpl')], [down('bpl', 'error')], NOW, {
+        generatedAt: '2026-09-15T12:00:00.000Z',
+        sources: [{ source: 'bpl', count: 3, fresh: false, status: 'error', asOf: EARLIER }],
+      });
+      expect(bpl.asOf).toBe(EARLIER);
+    });
+
+    it('takes the old payload time when the previous row was fresh but carried no as-of', () => {
+      const [bpl] = summarizeSources([ev('bpl')], [down('bpl', 'error')], NOW, {
+        generatedAt: EARLIER,
+        sources: [{ source: 'bpl', count: 3, fresh: true }],
+      });
+      expect(bpl.asOf).toBe(EARLIER);
+    });
+
+    it('leaves as-of out when nothing is known', () => {
+      const [bpl] = summarizeSources([ev('bpl')], [down('bpl', 'error')], NOW, {
+        generatedAt: EARLIER,
+        sources: [{ source: 'bpl', count: 3, fresh: false }],
+      });
+      expect(bpl).not.toHaveProperty('asOf');
+      const [seatgeek] = summarizeSources([], [down('seatgeek', 'missing-key')], NOW);
+      expect(seatgeek).not.toHaveProperty('asOf');
+    });
+  });
 });
