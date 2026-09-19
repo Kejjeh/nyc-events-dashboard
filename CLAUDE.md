@@ -13,7 +13,7 @@ main is usually behind). State of play, bugs, and next steps: see `HANDOFF.md`.
 ```bash
 npm ci               # install (Node 22)
 npm run check        # typecheck + full test suite (~10s) — THE verification command
-npm test             # tests only (330 tests, ~2s)
+npm test             # tests only (415 tests, ~3s)
 npm run dev          # dashboard at localhost:5173 (or .claude/launch.json "dashboard")
 npm run build        # production build (expect a >500kB chunk warning — known, ignore)
 npm run build:data   # data pipeline — READ THE WARNING BELOW FIRST
@@ -43,6 +43,7 @@ with `git checkout -- public/data/`.
 - `src/ui/App.tsx` — the only stateful component; all logic lives in pure modules + hooks beside it.
 - `src/ui/filters.ts`, `filterSelection.ts`, `urlState.ts` — filtering, location drill-down transitions, URL sync.
 - `.github/workflows/deploy.yml` — test → refresh data → commit data → build → deploy Pages.
+- `scripts/ui-smoke/` — offline headless-Chromium run of the built app on a hostile synthetic payload (README there). Not part of `npm run check`; Playwright is not a project dependency.
 
 ## Conventions
 
@@ -55,6 +56,11 @@ with `git checkout -- public/data/`.
 - Fetchers throw on failure (so carry-forward saves the source); normalizers return `null` to drop a record.
 - A keyed fetcher with no credential throws `MissingCredentialsError` — never an empty batch.
   An empty batch means "we asked and there was nothing", and that *does* drop the source's banked events.
+- Every `sources[]` row in `events.json` carries `status` and `asOf` (last successful fetch, carried
+  from the previous payload when the source didn't fetch). The UI dates carried data from `asOf`
+  and never presents it as current — keep that when touching `sourceSummary.ts` or the hero stamp.
+- Scraped strings reach the DOM only through React text or `escapeHtml`; scraped URLs become
+  links only through `safeHref()` (http(s) only); coordinates are used only when `isPlottable()`.
 
 ## Gotchas
 

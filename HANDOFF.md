@@ -1,4 +1,4 @@
-# HANDOFF — state of play (2026-09-18)
+# HANDOFF — state of play (2026-09-19)
 
 Read `CLAUDE.md` first. This file is the current status; update it as you work.
 
@@ -7,7 +7,7 @@ Read `CLAUDE.md` first. This file is the current status; update it as you work.
 - Full pipeline → static JSON → React PWA → GitHub Pages flow, unattended since
   June 19. The cron is alive: `origin/main` gets a data commit twice daily
   (verified: last refresh 2026-09-18 00:52 UTC — always `git pull`).
-- `npm run check`: typecheck + 402 tests, all green. `npm run build` green.
+- `npm run check`: typecheck + 415 tests, all green. `npm run build` green.
 - Healthy sources in production (from the 2026-09-18 payload's `sources` array):
   nyc-open-data (745), nyc-greenmarket (717), smallslive (403), ticketmaster (394),
   todaytix (195), seatgeek (195), dice (165), cityparks (91),
@@ -17,9 +17,28 @@ Read `CLAUDE.md` first. This file is the current status; update it as you work.
 
 ## In progress
 
-Nothing mid-flight. Last dev work (2026-09-18) was the P1 carry-forward
-durability fix, below — complete. The repo is at a clean stopping point; pick
+Nothing mid-flight. PR #1 (`claude/funny-turing-n08l22`, draft) holds all the
+2026-09-18/19 work below and is waiting on an independent review. Exact
+commits are listed in the PR body. The repo is at a clean stopping point; pick
 from Next steps.
+
+**How the 2026-09-19 slice was verified, so a reviewer can repeat it**
+
+- Pipeline: `runPipeline.test.ts` now has 20 offline fixtures through the real
+  assemble → carry-forward → dedup → partition path, including a 429-on-every-
+  attempt source driven through the real `http.ts` retry layer (fake timers)
+  and a 900-event archive compared **by id** across a keyless run.
+- Sandbox re-run against the real 2026-09-18 00:52 bank (copy of `src/` +
+  `public/data/`, `fetchWithRetry` stubbed to reject, no keys): exit 0;
+  13,142 → 12,894 events; **all 248 dropped events had a start date before
+  today (ET), 0 gained, every surviving archive id was present before**
+  (9,293 of 9,364 retained; the other 71 were expired). 16 of 17 sources
+  reported non-fresh; only smorgasburg (static descriptors) was `ok`.
+- Browser: `scripts/ui-smoke/` (README there) drove the built app in headless
+  Chromium at 1280×900 and as an iPhone 13, on a synthetic payload with hostile
+  strings, string/out-of-range/half coordinates, an empty search, a
+  status-mixed `sources` array and an archive city. Before/after reports were
+  kept outside the repo; the after-state is what the README describes.
 
 ## Known bugs / broken sources
 
@@ -105,6 +124,32 @@ list — the footer is correspondingly longer on a bad run.
    be cleared (`sourceFilterOptions.ts`).
 10. **Comment drift**: `sources.ts` says Resident Advisor "area 43" twice;
     `RA_NYC_AREA_ID = 8`. Verify which is NYC before touching.
+11. ~~List view links any scraped URL; malformed coordinates count as located~~
+    **FIXED 2026-09-19** (found by the browser smoke, not by the unit tests).
+    A `javascript:` event/alt-ticket/Spotify URL rendered as an anchor in the
+    card and the modal — React 19 rewrites it to a stub that throws on click,
+    so nothing ran, but the user got a dead "Get tickets" button. Both now go
+    through `safeHref()` (http(s) only; the title falls back to plain text, the
+    buttons disappear), and artwork `src` too. Separately, a string `"40.7"`,
+    a `999,999` and a lat-without-lon all counted as "has location data",
+    produced Directions links to nowhere and were pushed into the map source;
+    `isPlottable()` (numeric, finite, in range) now gates the marker set, the
+    map count, and every Directions link. Measured in Chromium on the synthetic
+    payload: 7 anchors → 6, 5 Directions → 3, "6 of 7 have location data" →
+    "3 of 7"; hostile title/venue in the popup render as inert text; no
+    injected flag was ever set, before or after.
+12. ~~Carried-forward data advertised as current~~ **FIXED 2026-09-19.** The
+    hero stamp said "N events · updated <time>" even when most sources were
+    carried forward. The payload's `sources[]` rows now carry `asOf` — the time
+    of that source's last *successful* fetch, taken from the previous payload
+    when the source did not fetch this run, so it survives any number of down
+    runs and dates the data, not the run. The stamp appends "N of M sources not
+    refreshed this run" whenever any row is not fresh, and each stale footer
+    row's tooltip ends with "(last refreshed <date>)" when known. A previous row
+    from before the field existed counts as that payload's `generatedAt` old if
+    it was fresh then, and as unknown (no `asOf`) otherwise — e.g. jambase,
+    which was already carried before 09-18, shows no date until it next
+    fetches.
 
 ## Next steps (each ≈ one Sonnet session unless marked Opus)
 
@@ -137,8 +182,13 @@ list — the footer is correspondingly longer on a bad run.
 - ~~MapView fixes (bug 8)~~ **DONE 2026-09-18** — see bug 8. Landed
   `mapPopup.ts` + `mapBounds.ts` (+ tests) and `sourceFilterOptions.ts` for
   bug 9; MapView itself stays a thin wiring layer, per the no-component-tests
-  convention. Worth a human eye on the real map: the fixes are covered by pure
-  tests, but nobody has looked at the rendered result.
+  convention. **Seen rendered 2026-09-19** in headless Chromium via
+  `scripts/ui-smoke/`: the popup shows the hostile title/venue as text, the
+  Massachusetts switch re-frames so the Boston marker sits at the map centre
+  (its popup opens on a centre click), and `?src=` keeps the Source control on
+  screen after the switch — on desktop and on an iPhone-13 viewport. Not yet
+  seen with real MapTiler tiles (the smoke answers the style inline); a quick
+  look at the deployed map after merge is still worth a minute.
 - Add eventbrite + residentAdvisor normalizer tests (the only two sources
   without any) using recorded sample payloads. Accept: both have co-located
   `.test.ts` exercising a real record → Event.

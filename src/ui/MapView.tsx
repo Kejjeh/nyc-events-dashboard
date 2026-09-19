@@ -9,6 +9,7 @@ import {
   FIT_PADDING,
   MAX_FIT_ZOOM,
   boundsOf,
+  isPlottable,
   shouldRefit,
   type Bounds,
 } from './mapBounds';
@@ -38,8 +39,10 @@ const CATEGORY_COLOR: Record<string, string> = {
 function buildGeoJSON(events: Event[]) {
   return {
     type: 'FeatureCollection' as const,
+    // Same rule as boundsOf: a string, NaN or out-of-range coordinate is not a
+    // marker, so the count, the markers and the viewport fit all agree.
     features: events
-      .filter((e) => e.lat != null && e.lon != null)
+      .filter(isPlottable)
       .map((e) => ({
         type: 'Feature' as const,
         geometry: { type: 'Point' as const, coordinates: [e.lon!, e.lat!] },
@@ -200,7 +203,7 @@ export function MapView({ events }: Props) {
     }
   }, [events]);
 
-  const mappableCount = events.filter((e) => e.lat != null).length;
+  const mappableCount = events.filter(isPlottable).length;
 
   if (!MAPTILER_KEY) {
     return <p className="notice">Map view unavailable (VITE_MAPTILER_API_KEY not set).</p>;

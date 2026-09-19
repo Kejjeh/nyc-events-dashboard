@@ -12,7 +12,11 @@ export const FIT_PADDING = 56;
 /** Don't zoom past neighborhood level, even for a single event. */
 export const MAX_FIT_ZOOM = 14;
 
-function isPlottable(e: Event): boolean {
+/**
+ * Whether an event can be put on the map: both coordinates present, numeric
+ * (a scraped "40.7" string is not), finite, and inside the WGS-84 range.
+ */
+export function isPlottable(e: Event): boolean {
   return (
     typeof e.lat === 'number' &&
     typeof e.lon === 'number' &&
