@@ -1,637 +1,7 @@
 {
-  "generatedAt": "2026-10-12T01:53:43.612Z",
-  "count": 7744,
+  "generatedAt": "2026-10-12T20:02:18.310Z",
+  "count": 7783,
   "events": [
-    {
-      "id": "jambase:15849989",
-      "title": "Tia Fuller",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Regattabar",
-      "start": "2026-10-11T18:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/tia-fuller-regattabar-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/tia-fuller-1480x832.png",
-      "lat": 42.3723,
-      "lon": -71.1222,
-      "neighborhood": "Harvard Square",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketweb.com/event/tia-fuller-regattabar-tickets/14013994"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16537501",
-      "title": "Supersuckers",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Crafthouse Stage & Grill",
-      "start": "2026-10-11T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/supersuckers-crafthouse-stage-grill-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.3501,
-      "lon": -79.9965
-    },
-    {
-      "id": "jambase:16337983",
-      "title": "Tokyo Tea Room",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-10-11T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/tokyo-tea-room-the-atlantis-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9182,
-      "lon": -77.0236,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16485072",
-      "title": "Andrew McMahon",
-      "category": "music",
-      "city": "Woodstock",
-      "state": "NY",
-      "venue": "Bearsville Theater",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/andrew-mcmahon-bearsville-theater-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/03/andrew-mcmahon-1480x832.png",
-      "lat": 42.0404,
-      "lon": -74.1527
-    },
-    {
-      "id": "jambase:16128218",
-      "title": "Briscoe",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Wonder Bar",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/briscoe-the-wonder-bar-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.2233,
-      "lon": -73.9995
-    },
-    {
-      "id": "jambase:16213372",
-      "title": "Buena Vista Orchestra",
-      "category": "music",
-      "city": "Morristown",
-      "state": "NJ",
-      "venue": "Mayo Performing Arts Center",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/buena-vista-orchestra-mayo-performing-arts-center-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/05/buena-vista-social-orchestra-1480x832.png",
-      "lat": 40.7943,
-      "lon": -74.478
-    },
-    {
-      "id": "jambase:16459685",
-      "title": "Dogwood Tales",
-      "category": "music",
-      "city": "Providence",
-      "state": "RI",
-      "venue": "Alchemy",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/dogwood-tales-alchemy-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 41.8178,
-      "lon": -71.4097,
-      "neighborhood": "Jewelry District"
-    },
-    {
-      "id": "jambase:16297967",
-      "title": "Chance the Rapper",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Citizens Live at The Wylie",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/chance-the-rapper-citizens-live-at-the-wylie-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/08/chance-the-rapper-2025-press-keeley-parenteau-1480x832.jpg",
-      "lat": 40.4418,
-      "lon": -79.9899,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:15749456",
-      "title": "Panopticon",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Ottobar",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/panopticon-ottobar-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 39.3188,
-      "lon": -76.6197,
-      "neighborhood": "Charles Village"
-    },
-    {
-      "id": "jambase:16545578",
-      "title": "Brian Fallon",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Black Cat",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/brian-fallon-black-cat-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/07/brian-fallon-profile-1480x832.jpg",
-      "lat": 38.9144,
-      "lon": -77.032,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16483924",
-      "title": "Show Me The Body",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The Broadberry",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/show-me-the-body-the-broadberry-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2022/10/show-me-the-body-1666804274-1480x832.png",
-      "lat": 37.5617,
-      "lon": -77.4716,
-      "neighborhood": "Museum District"
-    },
-    {
-      "id": "jambase:16484484",
-      "title": "Aoife O’Donovan",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The Tin Pan",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/aoife-odonovan-the-tin-pan-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/aoife-odonovan-joanna-chattman-press-crop-1480x832.jpg",
-      "lat": 37.6059,
-      "lon": -77.5703,
-      "neighborhood": "Regency"
-    },
-    {
-      "id": "jambase:16115941",
-      "title": "Bayonne",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The Camel",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/bayonne-the-camel-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/bayonne-ticketmaster-ram-1480x832.jpg",
-      "lat": 37.5543,
-      "lon": -77.4565,
-      "neighborhood": "The Fan District"
-    },
-    {
-      "id": "jambase:16544553",
-      "title": "Basement",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The National",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/basement-the-national-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/basement-press-may-2026-1480x832.jpg",
-      "lat": 37.5419,
-      "lon": -77.4352,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16476644",
-      "title": "Cory Branan",
-      "category": "music",
-      "city": "Portsmouth",
-      "state": "NH",
-      "venue": "The Press Room",
-      "start": "2026-10-11T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/cory-branan-the-press-room-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 43.0774,
-      "lon": -70.7559
-    },
-    {
-      "id": "jambase:15993610",
-      "title": "Artemas",
-      "category": "music",
-      "city": "New Haven",
-      "state": "CT",
-      "venue": "Toad’s Place",
-      "start": "2026-10-11T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/artemas-henry-morris-toads-place-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2022/08/artemas-facebook-2026-1480x832.jpg",
-      "lat": 41.3116,
-      "lon": -72.9294,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.etix.com/ticket/p/87275003/artemas-lovercore-getting-up-to-no-good-tour-new-haven-toads-place-of-new-haven"
-        }
-      ],
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:15240510",
-      "title": "“Weird Al” Yankovic",
-      "category": "music",
-      "city": "State College",
-      "state": "PA",
-      "venue": "Bryce Jordan Center",
-      "start": "2026-10-11T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/weird-al-yankovic-bryce-jordan-center-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/8220weird-al8221-yankovic-1480x832.png",
-      "lat": 40.8086,
-      "lon": -77.8558,
-      "neighborhood": "University Park"
-    },
-    {
-      "id": "jambase:16536048",
-      "title": "Great Lake Swimmers",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Milkboy",
-      "start": "2026-10-11T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/great-lake-swimmers-milkboy-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/great-lake-swimmers-great-lake-swimmers-d1f9f35a-7e48-4287-b430-a25645c41299_102031_RETINA_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 39.9501,
-      "lon": -75.1587,
-      "neighborhood": "Center City East"
-    },
-    {
-      "id": "jambase:16523479",
-      "title": "Polyphia",
-      "category": "music",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "The Dome by Rutter Mills",
-      "start": "2026-10-11T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/polyphia-the-dome-by-rutter-mills-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/polyphia-ticketmaster-ram-1480x832.jpg",
-      "lat": 36.8475,
-      "lon": -75.979,
-      "neighborhood": "North Virginia Beach"
-    },
-    {
-      "id": "jambase:15631350",
-      "title": "The Black Keys",
-      "category": "music",
-      "city": "Portland",
-      "state": "ME",
-      "venue": "Cross Insurance Arena",
-      "start": "2026-10-11T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-black-keys-cross-insurance-arena-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/02/black-keys-2026-press-1480x832.jpg",
-      "lat": 43.6537,
-      "lon": -70.2558,
-      "neighborhood": "Old Port"
-    },
-    {
-      "id": "jambase:16435937",
-      "title": "Nevertel",
-      "category": "music",
-      "city": "Hampton",
-      "state": "NH",
-      "venue": "Wally’s",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/nevertel-rivals-ocean-sleeper-broadwing-wallys-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.9048,
-      "lon": -70.8144,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/nevertel-hampton-new-hampshire-10-11-2026/event/010064BBC9B5E84F"
-        }
-      ],
-      "neighborhood": "Hampton Beach"
-    },
-    {
-      "id": "jambase:16268937",
-      "title": "BERTHA: Grateful Drag",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Brooklyn Bowl Philadelphia",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/bertha-grateful-drag-brooklyn-bowl-philadelphia-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/08/bertha-grateful-drag-1480x832.png",
-      "lat": 39.9653,
-      "lon": -75.1349,
-      "neighborhood": "North Philadelphia",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/bertha-grateful-drag-philadelphia-pennsylvania-10-11-2026/event/020064A6366F6BBD"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16229962",
-      "title": "AFI",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Nevermore Hall",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/afi-nevermore-hall-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/afi-afi-22e7af4a-6221-41c4-b279-40a8385562c0_241871_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 39.2896,
-      "lon": -76.6073,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/afi-baltimore-maryland-10-11-2026/event/1500649E98BE7956"
-        }
-      ],
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16071365",
-      "title": "Jamey Johnson",
-      "category": "music",
-      "city": "Verona",
-      "state": "NY",
-      "venue": "Turning Stone Casino",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/jamey-johnson-turning-stone-casino-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/jamey-johnson-press-2025-mcclister-1480x832.jpg",
-      "lat": 43.1097,
-      "lon": -75.5918
-    },
-    {
-      "id": "jambase:16310105",
-      "title": "Don Omar",
-      "category": "music",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "Prudential Center",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/don-omar-prudential-center-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/05/don-omar-2026-tour-promo-1480x832.jpg",
-      "lat": 40.7337,
-      "lon": -74.1719,
-      "neighborhood": "Central Ward"
-    },
-    {
-      "id": "jambase:15223736",
-      "title": "Benjamin Tod",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Royale",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/benjamin-tod-royale-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3498,
-      "lon": -71.0653,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16324156",
-      "title": "Grace Enger",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sinclair",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/grace-enger-the-sinclair-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3741,
-      "lon": -71.1208,
-      "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "jambase:16441528",
-      "title": "Jesse Gallagher",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Sanctuary",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/jesse-gallagher-sanctuary-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.4317,
-      "lon": -71.4536,
-      "neighborhood": "Maynard"
-    },
-    {
-      "id": "jambase:16195302",
-      "title": "Foster The People",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Highmark Skyline Stage at The Mann",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/foster-the-people-highmark-skyline-stage-at-the-mann-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/04/foster-the-people-press-april-2026-1480x832.jpg",
-      "lat": 39.9892,
-      "lon": -75.2197,
-      "neighborhood": "Wynnefield"
-    },
-    {
-      "id": "jambase:16078931",
-      "title": "Jessie Ware",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Fillmore Philadelphia",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/jessie-ware-the-fillmore-philadelphia-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/04/jessie-ware-press-april-2026--1480x832.jpg",
-      "lat": 39.9656,
-      "lon": -75.1351,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "jambase:16419551",
-      "title": "Kelela",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Theatre of Living Arts (TLA)",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/kelela-theatre-of-living-arts-tla-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/kelela-1480x832.png",
-      "lat": 39.9415,
-      "lon": -75.1483,
-      "neighborhood": "Queen Village"
-    },
-    {
-      "id": "jambase:16465647",
-      "title": "Stephen Day",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Thunderbird Café & Music Hall",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/stephen-day-thunderbird-cafe-music-hall-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/stephen-day-1480x832.png",
-      "lat": 40.4696,
-      "lon": -79.9615,
-      "neighborhood": "Central Lawrenceville"
-    },
-    {
-      "id": "jambase:15887064",
-      "title": "Two Door Cinema Club",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Anthem",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/two-door-cinema-club-the-anthem-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/two-door-cinema-club-ticketmaster-ram-1480x832.jpg",
-      "lat": 38.8851,
-      "lon": -77.0109,
-      "neighborhood": "Southwest Washington"
-    },
-    {
-      "id": "jambase:16502600",
-      "title": "Alison Brown",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Hamilton Live",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/alison-brown-the-hamilton-live-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/02/alison-brown-1480x832.png",
-      "lat": 38.8976,
-      "lon": -77.0325,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16498363",
-      "title": "Magenta Wave",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Pearl Street Warehouse",
-      "start": "2026-10-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/magenta-wave-pearl-street-warehouse-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.8788,
-      "lon": -77.024,
-      "neighborhood": "Southwest Waterfront"
-    },
-    {
-      "id": "jambase:16213679",
-      "title": "Rutshelle Guillaume",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "MGM Music Hall at Fenway Park",
-      "start": "2026-10-11T21:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/rutshelle-guillaume-mgm-music-hall-at-fenway-park-20261011",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3471,
-      "lon": -71.0944,
-      "neighborhood": "West Fens"
-    },
-    {
-      "id": "ticketmaster:1AtZk4kGkdM0YLY",
-      "title": "Hot Mess XL: Holiday Sunday",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Legacy",
-      "start": "2026-10-11T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketweb.com/event/hot-mess-xl-holiday-sunday-legacy-tickets/14365384?REFERRAL_ID=tmfeed",
-      "source": "ticketmaster",
-      "lat": 42.35044,
-      "lon": -71.06602,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vv177Z_3GkXn_GYR",
-      "title": "HANGOVER ( 21+ )",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Big Night Live",
-      "start": "2026-10-11T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/hangover-21-boston-massachusetts-10-11-2026/event/0100652FAA64CC2F",
-      "source": "ticketmaster",
-      "lat": 42.365977,
-      "lon": -71.0617,
-      "neighborhood": "West End"
-    },
     {
       "id": "jambase:16348915",
       "title": "Caiola",
@@ -646,94 +16,6 @@
       "image": "https://www.jambase.com/wp-content/uploads/2025/05/philly-music-fest-1480x832.png",
       "lat": 40.0076,
       "lon": -75.29
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1I3BmK",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-10-12T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-10-12-2026/event/00006452A84BAB93",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:LvZ18Qn6uZL7wQq_CwAEh",
-      "title": "The Sports Museum Tour",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sports Museum",
-      "start": "2026-10-12T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.36606,
-      "lon": -71.060956,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:k7vGF_8Sr7ZIp",
-      "title": "Buffalo Sabres Single Game Suite Rental-Florida Panthers",
-      "category": "sports",
-      "city": "Buffalo",
-      "state": "NY",
-      "venue": "KeyBank Center",
-      "start": "2026-10-12T13:00:00",
-      "isFree": false,
-      "url": "https://www.gofevo.com/event/20262738720260811-09352807",
-      "source": "ticketmaster",
-      "lat": 42.874941,
-      "lon": -78.8762239,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:k7vGF_CT56ET5",
-      "title": "Buffalo Sabres v Florida Panthers",
-      "category": "sports",
-      "city": "Buffalo",
-      "state": "NY",
-      "venue": "KeyBank Center",
-      "start": "2026-10-12T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/buffalo-sabres-v-florida-panthers-buffalo-new-york-10-12-2026/event/000064EFCB1E7FCB",
-      "source": "ticketmaster",
-      "lat": 42.874941,
-      "lon": -78.8762239,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAvNAN",
-      "title": "Levitate Flannel Jam (Under 21 must be accompanied by a parent)",
-      "category": "other",
-      "city": "Nantucket",
-      "state": "MA",
-      "venue": "Cisco Brewers Nantucket",
-      "start": "2026-10-12T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAN",
-      "source": "ticketmaster",
-      "lat": 41.2766,
-      "lon": -70.065002
-    },
-    {
-      "id": "ticketmaster:17A8v0G611oOPKa",
-      "title": "Disney On Ice presents Spotlight Magic!",
-      "category": "other",
-      "city": "Fairfax",
-      "state": "VA",
-      "venue": "EagleBank Arena",
-      "start": "2026-10-12T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/disney-on-ice-presents-spotlight-magic-fairfax-virginia-10-12-2026/event/150064A2918254C9",
-      "source": "ticketmaster",
-      "lat": 38.8330513,
-      "lon": -77.3098503
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfGJ47",
@@ -8963,6 +8245,23 @@
       "neighborhood": "Cambridgeport"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af1AZV",
+      "title": "Giovannie and the Hired Guns with Austin Meade",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Off The Rails Boston",
+      "start": "2026-10-16T19:30:00",
+      "isFree": false,
+      "priceMin": 11.55,
+      "priceMax": 11.55,
+      "url": "https://www.ticketweb.com/event/giovannie-and-the-hired-guns-off-the-rails-boston-tickets/14285034",
+      "source": "ticketmaster",
+      "lat": 42.3577549,
+      "lon": -71.0591691,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:vv1AvZkfYGkeiXVzB",
       "title": "Late Nite Catechism: Til Death Do Us Part",
       "category": "comedy",
@@ -9742,23 +9041,6 @@
       "source": "ticketmaster",
       "lat": 41.879002,
       "lon": -70.630699
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Af1AZV",
-      "title": "Giovannie and the Hired Guns with Austin Meade",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Off The Rails Boston",
-      "start": "2026-10-16T20:00:00",
-      "isFree": false,
-      "priceMin": 11.55,
-      "priceMax": 11.55,
-      "url": "https://www.ticketweb.com/event/giovannie-and-the-hired-guns-off-the-rails-boston-tickets/14285034",
-      "source": "ticketmaster",
-      "lat": 42.3577549,
-      "lon": -71.0591691,
-      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfPgJd",
@@ -11786,6 +11068,21 @@
       "lon": -75.374001
     },
     {
+      "id": "ticketmaster:k7vGF_kxnwPEe",
+      "title": "Late Nite Catechism",
+      "category": "theater",
+      "city": "Utica",
+      "state": "NY",
+      "venue": "The Stanley",
+      "start": "2026-10-17T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/late-nite-catechism-utica-new-york-10-17-2026/event/00006468AACA59C2",
+      "source": "ticketmaster",
+      "lat": 43.099474,
+      "lon": -75.2351997,
+      "neighborhood": "Deerfield"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PUq8",
       "title": "Quinnipiac Bobcats Womens Ice Hockey vs. Northeastern Huskies Womens Hockey",
       "category": "sports",
@@ -11872,6 +11169,36 @@
       "lon": -75.550253
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvt-3",
+      "title": "Clarkson Golden Knights Mens Hockey vs. Canisius Golden Griffins Hockey",
+      "category": "sports",
+      "city": "Potsdam",
+      "state": "NY",
+      "venue": "Cheel Arena",
+      "start": "2026-10-17T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt-3",
+      "source": "ticketmaster",
+      "lat": 44.669399,
+      "lon": -74.9814
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfJ3Qd",
+      "title": "Automotive Steamhorse",
+      "category": "music",
+      "city": "Patchogue",
+      "state": "NY",
+      "venue": "Stereo Garden",
+      "start": "2026-10-17T16:00:00",
+      "isFree": false,
+      "priceMin": 33.64,
+      "priceMax": 33.64,
+      "url": "https://www.ticketweb.com/event/automotive-steamhorse-stereo-garden-tickets/14992683",
+      "source": "ticketmaster",
+      "lat": 40.765132,
+      "lon": -73.016821
+    },
+    {
       "id": "ticketmaster:G5vVZ_1xPEfP3",
       "title": "Snow White and the Seven Dwarfs by The United European Ballet Company",
       "category": "theater",
@@ -11899,6 +11226,36 @@
       "source": "ticketmaster",
       "lat": 41.32352,
       "lon": -74.80013
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-EaZ",
+      "title": "Wagner Seahawks Football vs. LIU Sharks Football",
+      "category": "sports",
+      "city": "Staten Island",
+      "state": "NY",
+      "venue": "Hameline Field",
+      "start": "2026-10-17T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-EaZ",
+      "source": "ticketmaster",
+      "lat": 40.630798,
+      "lon": -74.0923,
+      "neighborhood": "Mid Island"
+    },
+    {
+      "id": "ticketmaster:k7vGF_okEn57P",
+      "title": "Syracuse Crunch vs. Rochester Americans",
+      "category": "sports",
+      "city": "Syracuse",
+      "state": "NY",
+      "venue": "Upstate Medical University Arena at The Oncenter War Memorial",
+      "start": "2026-10-17T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/syracuse-crunch-vs-rochester-americans-syracuse-new-york-10-17-2026/event/00006511A7A8B125",
+      "source": "ticketmaster",
+      "lat": 43.04488614,
+      "lon": -76.14804737,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:k7vGF_5w5UIFk",
@@ -11992,6 +11349,34 @@
       "lat": 38.91795,
       "lon": -77.02373,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1718v0G62Re3veQ",
+      "title": "Home By 10 - a Dance Party for Adults Halloween Edition",
+      "category": "music",
+      "city": "Buffalo",
+      "state": "NY",
+      "venue": "Rec Room",
+      "start": "2026-10-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/home-by-10-rec-room-tickets/14994853?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 42.890699,
+      "lon": -76.875859
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7J64N",
+      "title": "Utica Comets vs. Laval Rocket",
+      "category": "sports",
+      "city": "Utica",
+      "state": "NY",
+      "venue": "Adirondack Bank Center",
+      "start": "2026-10-17T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J64N",
+      "source": "ticketmaster",
+      "lat": 43.0811,
+      "lon": -75.227203
     },
     {
       "id": "ticketmaster:1718v0G6CDAw-rQ",
@@ -12215,6 +11600,79 @@
       "lat": 42.26436,
       "lon": -71.798487,
       "neighborhood": "Central Business District"
+    },
+    {
+      "id": "ticketmaster:17GZv0G62wDGPel",
+      "title": "PeelingFlesh",
+      "category": "music",
+      "city": "Albany",
+      "state": "NY",
+      "venue": "Empire Live",
+      "start": "2026-10-17T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/peelingflesh-albany-new-york-10-17-2026/event/300064FCBB3250AB",
+      "source": "ticketmaster",
+      "lat": 42.65288,
+      "lon": -73.75036,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1kGZvPA9GAGexJR",
+      "title": "Genitorturers - Live + Lewd Tour",
+      "category": "music",
+      "city": "Albany",
+      "state": "NY",
+      "venue": "Empire Underground",
+      "start": "2026-10-17T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/genitorturers-live-lewd-tour-albany-new-york-10-17-2026/event/300065157C0A29AF",
+      "source": "ticketmaster",
+      "lat": 42.65288,
+      "lon": -73.75036,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZp3k",
+      "title": "Tim Dillon",
+      "category": "theater",
+      "city": "West Nyack",
+      "state": "NY",
+      "venue": "West Nyack Levity Live",
+      "start": "2026-10-17T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZp3k",
+      "source": "ticketmaster",
+      "lat": 41.0961,
+      "lon": -73.972099
+    },
+    {
+      "id": "ticketmaster:k7vGF_3TPgyRf",
+      "title": "Trick-or-Treat Box at Peace, Love & Pumpkins",
+      "category": "other",
+      "city": "Bethel",
+      "state": "NY",
+      "venue": "Bethel Woods Center for the Arts",
+      "start": "2026-10-17T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/trickortreat-box-at-peace-love-pumpkins-bethel-new-york-10-17-2026/event/0000652FE5D79BD4",
+      "source": "ticketmaster",
+      "lat": 41.69688884,
+      "lon": -74.8779738,
+      "neighborhood": "Bethel"
+    },
+    {
+      "id": "ticketmaster:k7vGF_CExU9Tb",
+      "title": "ACW Presents: Mischief Night",
+      "category": "sports",
+      "city": "Poughkeepsie",
+      "state": "NY",
+      "venue": "MJ Nesheiwat Convention Center",
+      "start": "2026-10-17T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/acw-presents-mischief-night-poughkeepsie-new-york-10-17-2026/event/000064E9E2D97FD8",
+      "source": "ticketmaster",
+      "lat": 41.7049639,
+      "lon": -73.929356
     },
     {
       "id": "ticketmaster:LvZ18QIjbtVjtZwZh4hx_",
@@ -38673,6 +38131,21 @@
       ]
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA76GN",
+      "title": "BABYCHIEFDOIT ???Haunted Traphouse???",
+      "category": "music",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Webster Theatre",
+      "start": "2026-10-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76GN",
+      "source": "ticketmaster",
+      "lat": 41.739101,
+      "lon": -72.670303,
+      "neighborhood": "South End"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Afu440",
       "title": "LIGHTS OUT, Chainlacing, & Beth Kaplan and Her Band",
       "category": "music",
@@ -42254,6 +41727,21 @@
       "lon": -71.069057
     },
     {
+      "id": "ticketmaster:vv1A8vP38GA5Oev5",
+      "title": "50 Cent",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "The Grand (Boston)",
+      "start": "2026-10-30T22:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/50-cent-boston-massachusetts-10-30-2026/event/010065490B80204B",
+      "source": "ticketmaster",
+      "lat": 42.35330048,
+      "lon": -71.04747991,
+      "neighborhood": "D Street / West Broadway"
+    },
+    {
       "id": "ticketmaster:17A8v0G6CJWCbnb",
       "title": "Bassvictim",
       "category": "music",
@@ -43998,6 +43486,20 @@
       "source": "ticketmaster",
       "lat": 40.349071,
       "lon": -74.07022
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvK17",
+      "title": "Cosmic Jerry Band",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "Asbury Lanes",
+      "start": "2026-10-31T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK17",
+      "source": "ticketmaster",
+      "lat": 40.249199,
+      "lon": -74.052101
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4Ze1K",
@@ -47118,6 +46620,21 @@
       "lon": -74.10333
     },
     {
+      "id": "ticketmaster:G5vVZ_f9nofXL",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Us Coast Guard Academy Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-02T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-11-02-2026/event/1D006545EA454F9F",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZy-P",
       "title": "Harvard Crimson Mens Basketball vs. MIT Engineers Mens Basketball",
       "category": "sports",
@@ -49845,6 +49362,20 @@
       "lon": -76.245201
     },
     {
+      "id": "ticketmaster:vv1AeZk4FGkeBFhRw",
+      "title": "Blue Man Group - A New Holiday Surprise",
+      "category": "theater",
+      "city": "Scranton",
+      "state": "PA",
+      "venue": "Scranton Cultural Center",
+      "start": "2026-11-05T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/blue-man-group-a-new-holiday-scranton-pennsylvania-11-05-2026/event/02006548BA21BBF2",
+      "source": "ticketmaster",
+      "lat": 41.4106418,
+      "lon": -75.6606497
+    },
+    {
       "id": "ticketmaster:1718v0G62foWOOw",
       "title": "Psycroptic, Inferi, Cognitive, Summoning the Lich, Nights of Malice",
       "category": "music",
@@ -49965,6 +49496,21 @@
       "lat": 40.73340555,
       "lon": -74.17121214,
       "neighborhood": "Central Ward"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9n3fXx",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Maine Mens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-11-05-2026/event/1D006545EA494FA2",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAee-S",
@@ -51939,6 +51485,21 @@
       "lon": -74.435366
     },
     {
+      "id": "ticketmaster:G5vVZ_fLRhbTQ",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Mercy College Women's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-06T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-11-06-2026/event/1D006547EF6D8FDA",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:G5vVZ_uJRC6Bw",
       "title": "Sacred Heart Pioneers Men's Ice Hockey vs. Canisius University Men's Hockey",
       "category": "sports",
@@ -53667,6 +53228,20 @@
       "lat": 41.748402,
       "lon": -72.6959,
       "neighborhood": "Behind the Rocks"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZbu9",
+      "title": "Super Trans Am",
+      "category": "music",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "StageOne",
+      "start": "2026-11-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbu9",
+      "source": "ticketmaster",
+      "lat": 41.169201,
+      "lon": -73.267998
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvkxo",
@@ -57327,6 +56902,20 @@
       ]
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PfZ-",
+      "title": "Lez Zeppelin",
+      "category": "music",
+      "city": "East Greenwich",
+      "state": "RI",
+      "venue": "Greenwich Odeum",
+      "start": "2026-11-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfZ-",
+      "source": "ticketmaster",
+      "lat": 41.642899,
+      "lon": -71.493896
+    },
+    {
       "id": "ticketmaster:vv1AvZkf-Gke-dGOp",
       "title": "MJ LIVE – Michael Jackson Tribute Concert",
       "category": "music",
@@ -58444,6 +58033,20 @@
       "neighborhood": "Valley Street"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA76OM",
+      "title": "Mandar Bhide",
+      "category": "other",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "venue": "New Brunswick Performing Arts Center",
+      "start": "2026-11-08T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76OM",
+      "source": "ticketmaster",
+      "lat": 40.486099,
+      "lon": -74.447304
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7x8Q_",
       "title": "The Bodyguard (Touring)",
       "category": "theater",
@@ -59001,6 +58604,21 @@
       "source": "ticketmaster",
       "lat": 40.22328639,
       "lon": -73.99950139
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfuAf7",
+      "title": "Jazz Dinner w/ Armand & Nina",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-11-08T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/jazz-dinner-w-armand-middle-east-cornerbakery-tickets/14345504",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
     },
     {
       "id": "ticketmaster:1A4ZkfgGkdFE_8d",
@@ -62474,6 +62092,21 @@
       "neighborhood": "Central Ward"
     },
     {
+      "id": "ticketmaster:G5vVZ_fLRjITO",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Northeastern Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-11T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-11-11-2026/event/1D006547EF728FE0",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvo7d",
       "title": "Providence College Friars Womens Basketball vs. Bryant Bulldogs Womens Basketball",
       "category": "sports",
@@ -64154,6 +63787,21 @@
       "lat": 41.4915974,
       "lon": -72.0914563,
       "neighborhood": "Uncasville"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9nkfWt",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Central Connecticut Blue Devils Mens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-12T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-11-12-2026/event/1D006545EA194F69",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAee-V",
@@ -71223,20 +70871,6 @@
       "lon": -79.519501
     },
     {
-      "id": "ticketmaster:vv17FZ_3GkSjjp27",
-      "title": "ERNEST",
-      "category": "music",
-      "city": "Wilkes Barre",
-      "state": "PA",
-      "venue": "Mohegan Pennsylvania",
-      "start": "2026-11-14T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/ernest-wilkes-barre-pennsylvania-11-14-2026/event/0200652CDC7163C4",
-      "source": "ticketmaster",
-      "lat": 41.2689522,
-      "lon": -75.811476
-    },
-    {
       "id": "jambase:16077366",
       "title": "Bedouine",
       "category": "music",
@@ -72312,6 +71946,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvvPa",
+      "title": "Lez Zeppelin",
+      "category": "music",
+      "city": "Falls Church",
+      "state": "VA",
+      "venue": "State Theatre-VA",
+      "start": "2026-11-14T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvvPa",
+      "source": "ticketmaster",
+      "lat": 38.8866,
+      "lon": -77.179298
+    },
+    {
       "id": "ticketmaster:1k18vP37GA1fZHP",
       "title": "Never In Vegas",
       "category": "music",
@@ -73083,6 +72731,38 @@
       "neighborhood": "Central Ward"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Afu3Ff",
+      "title": "Laszlo Gardony Sextet with Don Braden, Stan Strickland, Temidayo Balogun, Avery Sharpe, Yoron Israel",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Regattabar",
+      "start": "2026-11-15T18:00:00",
+      "isFree": false,
+      "priceMin": 30.15,
+      "priceMax": 41.79,
+      "url": "https://www.ticketweb.com/event/laszlo-gardony-sextet-with-don-regattabar-tickets/14352214",
+      "source": "ticketmaster",
+      "lat": 42.37249,
+      "lon": -71.12302,
+      "neighborhood": "Harvard Square"
+    },
+    {
+      "id": "ticketmaster:vv177Z_8Gkwfq_oF",
+      "title": "Boston Celtics vs. Dallas Mavericks",
+      "category": "sports",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "TD Garden",
+      "start": "2026-11-15T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boston-celtics-vs-dallas-mavericks-boston-massachusetts-11-15-2026/event/0100650C94759448",
+      "source": "ticketmaster",
+      "lat": 42.365841,
+      "lon": -71.060724,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:1718v0G65FaYvVF",
       "title": "The Queers Performing At the Halftime Sports and Music Venue In Newark",
       "category": "music",
@@ -73207,6 +72887,21 @@
       "lon": -77.0082
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZdbg",
+      "title": "Trivium w/ In Flames",
+      "category": "music",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Palladium-MA",
+      "start": "2026-11-15T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
+      "source": "ticketmaster",
+      "lat": 42.2617,
+      "lon": -71.801498,
+      "neighborhood": "Central Business District"
+    },
+    {
       "id": "ticketmaster:G5vVZ_1BJ0gGL",
       "title": "Air Supply - A Matter of Time Tour",
       "category": "music",
@@ -73270,6 +72965,35 @@
       "lat": 41.318298,
       "lon": -72.926399,
       "neighborhood": "Dixwell"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZU4f",
+      "title": "Daniel Lanois",
+      "category": "music",
+      "city": "Groton",
+      "state": "MA",
+      "venue": "Groton Hill Music Center",
+      "start": "2026-11-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZU4f",
+      "source": "ticketmaster",
+      "lat": 42.613499,
+      "lon": -71.561096,
+      "neighborhood": "Groton"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvzvS",
+      "title": "Peter Billingsley",
+      "category": "other",
+      "city": "Beverly",
+      "state": "MA",
+      "venue": "The Cabot",
+      "start": "2026-11-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzvS",
+      "source": "ticketmaster",
+      "lat": 42.568501,
+      "lon": -70.8619
     },
     {
       "id": "ticketmaster:17A8v0G61m7lVyn",
@@ -74670,6 +74394,23 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfugO0",
+      "title": "Japan Nite On The Ave",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Zissimos",
+      "start": "2026-11-17T19:30:00",
+      "isFree": false,
+      "priceMin": 26,
+      "priceMax": 26,
+      "url": "https://www.ticketweb.com/event/japan-nite-on-the-ave-zissimos-tickets/14375824",
+      "source": "ticketmaster",
+      "lat": 39.330976,
+      "lon": -76.633417,
+      "neighborhood": "Hampden"
+    },
+    {
       "id": "ticketmaster:1A4Zkf6GkdJ0c00",
       "title": "Andrea Gibson's Love Letter From The Afterlife",
       "category": "theater",
@@ -75704,6 +75445,22 @@
       "lat": 44.4759,
       "lon": -73.2129,
       "neighborhood": "South End"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1Afugu0",
+      "title": "Strangers Stopping Strangers Free Show - (Grateful Dead Tribute)",
+      "category": "music",
+      "city": "Morristown",
+      "state": "NJ",
+      "venue": "The Homestead",
+      "start": "2026-11-18T20:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/strangers-stopping-strangers-free-show-the-homestead-tickets/14375364",
+      "source": "ticketmaster",
+      "lat": 40.7949024,
+      "lon": 74.4806335
     },
     {
       "id": "ticketmaster:vvG1FZ_2hZJb2j",
@@ -78216,6 +77973,21 @@
       "source": "ticketmaster",
       "lat": 41.306801,
       "lon": -72.925201,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZYfb",
+      "title": "Pink Talking Fish",
+      "category": "music",
+      "city": "Hartford",
+      "state": "CT",
+      "venue": "Infinity Hall - Hartford",
+      "start": "2026-11-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZYfb",
+      "source": "ticketmaster",
+      "lat": 41.766499,
+      "lon": -72.673103,
       "neighborhood": "Downtown"
     },
     {
@@ -85182,6 +84954,21 @@
       "neighborhood": "Potomac West"
     },
     {
+      "id": "ticketmaster:1AvfZ_fGkwNYpZw",
+      "title": "Merrily We Don't Roll Along",
+      "category": "comedy",
+      "city": "Alexandria",
+      "state": "VA",
+      "venue": "Rachel M. Schlesinger Concert Hall",
+      "start": "2026-11-28T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/merrily-we-dont-roll-along-alexandria-virginia-11-28-2026/event/1500654CA3C16032",
+      "source": "ticketmaster",
+      "lat": 38.8363201,
+      "lon": -77.1226288,
+      "neighborhood": "Alexandria West"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAef7y",
       "title": "Mark Williams",
       "category": "other",
@@ -85508,6 +85295,21 @@
       "source": "ticketmaster",
       "lat": 39.2201,
       "lon": -78.161301
+    },
+    {
+      "id": "ticketmaster:vv16vZk46rZZAuAd1A",
+      "title": "We Are Star Children & Theocles - Co-bill",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2026-11-28T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/we-are-star-children-theocles-cobill-charlottesville-virginia-11-28-2026/event/01006547780C4294",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "ticketmaster:vv177Z_8GkD_SVji",
@@ -85896,6 +85698,21 @@
       "source": "ticketmaster",
       "lat": 40.68834,
       "lon": -75.19987
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9nAfWJ",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. NJIT Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-29T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-11-29-2026/event/1D006545EA154F66",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7JfQp",
@@ -86413,6 +86230,21 @@
       "lat": 41.8088,
       "lon": -72.248703,
       "neighborhood": "Storrs"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLRqITI",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Holy Cross Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-11-30T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-11-30-2026/event/1D006547EF768FE8",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:vv1AvZkfEGkdfOwR1",
@@ -87519,6 +87351,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLRrzTl",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Central Connecticut State Blue Devils Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-12-03T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-12-03-2026/event/1D006547EF7B8FEB",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:G5vVZ_oG84rSR",
@@ -89043,6 +88890,20 @@
       "lon": -73.502403
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvpfN",
+      "title": "Pink Talking Fish",
+      "category": "music",
+      "city": "East Greenwich",
+      "state": "RI",
+      "venue": "Greenwich Odeum",
+      "start": "2026-12-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpfN",
+      "source": "ticketmaster",
+      "lat": 41.642899,
+      "lon": -71.493896
+    },
+    {
       "id": "ticketmaster:1A4ZkfoGkdyKHXv",
       "title": "bleood - Kill Your Idols Tour",
       "category": "music",
@@ -89998,6 +89859,20 @@
       "lon": -74.00071097
     },
     {
+      "id": "ticketmaster:k7vGF_fE-Yu7_",
+      "title": "Waiting On Mongo",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Wonder Bar",
+      "start": "2026-12-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/waiting-on-mongo-asbury-park-new-jersey-12-05-2026/event/00006549E1C0D119",
+      "source": "ticketmaster",
+      "lat": 40.22328639,
+      "lon": -73.99950139
+    },
+    {
       "id": "ticketmaster:vv1AeZkfMGke0n17u",
       "title": "Wildwoods Holiday Spectacular Featuring The Duprees",
       "category": "music",
@@ -90730,6 +90605,21 @@
       "lat": 43.0695,
       "lon": -70.800797,
       "neighborhood": "Pease"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4aGkd5O3TD",
+      "title": "Higher Ground: Family of Soul",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "Aura",
+      "start": "2026-12-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/higher-ground-family-of-soul-portland-maine-12-05-2026/event/01006549CB812FFB",
+      "source": "ticketmaster",
+      "lat": 43.656551,
+      "lon": -70.258943,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:vv1AvZkf_GkeVg8ni",
@@ -92334,6 +92224,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9n7fWK",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Umass-Lowell Mens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-12-09T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-12-09-2026/event/1D006545EA114F53",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvAF8",
@@ -94418,6 +94323,20 @@
       "source": "ticketmaster",
       "lat": 40.349071,
       "lon": -74.07022
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA76rb",
+      "title": "Ab Hai Apki Baari by Inder Sahani",
+      "category": "other",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "venue": "Elizabeth Ross Johnson Theater",
+      "start": "2026-12-11T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76rb",
+      "source": "ticketmaster",
+      "lat": 40.486099,
+      "lon": -74.447304
     },
     {
       "id": "ticketmaster:k7vGF_32QnTed",
@@ -97456,6 +97375,21 @@
       "lon": -70.76009881
     },
     {
+      "id": "ticketmaster:G5vVZ_f9ndfW8",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Queens College Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-12-14T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-12-14-2026/event/1D006545EA0D4F50",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7x4je",
       "title": "The Rock Orchestra By Candlelight",
       "category": "music",
@@ -98939,62 +98873,6 @@
       "neighborhood": "Town Center"
     },
     {
-      "id": "ticketmaster:1k18vPosGAGj8lS",
-      "title": "That Metal Show Annual Holiday Bash",
-      "category": "comedy",
-      "city": "Clifton",
-      "state": "NJ",
-      "venue": "Dingbatz",
-      "start": "2026-12-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketweb.com/event/that-metal-show-annual-holiday-dingbatz-tickets/14369304?REFERRAL_ID=tmfeed",
-      "source": "ticketmaster",
-      "lat": 40.857882,
-      "lon": -74.147614
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAe74N",
-      "title": "Mary Poppins (Touring)",
-      "category": "theater",
-      "city": "Millburn",
-      "state": "NJ",
-      "venue": "Paper Mill Playhouse",
-      "start": "2026-12-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe74N",
-      "source": "ticketmaster",
-      "lat": 40.7229,
-      "lon": -74.300598
-    },
-    {
-      "id": "ticketmaster:k7vGF_22Wrj9P",
-      "title": "Jake Thistle Band",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Stone Pony",
-      "start": "2026-12-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jake-thistle-band-asbury-park-new-jersey-12-18-2026/event/000064F3FD79C5E5",
-      "source": "ticketmaster",
-      "lat": 40.220001,
-      "lon": -74.00071097
-    },
-    {
-      "id": "ticketmaster:k7vGF_fEqbGtS",
-      "title": "Cosmic Jerry Band",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Wonder Bar",
-      "start": "2026-12-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/cosmic-jerry-band-asbury-park-new-jersey-12-18-2026/event/00006549DD60CA73",
-      "source": "ticketmaster",
-      "lat": 40.22328639,
-      "lon": -73.99950139
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7PtvY",
       "title": "The Nutcracker",
       "category": "other",
@@ -99449,6 +99327,21 @@
       "lon": -75.550253
     },
     {
+      "id": "ticketmaster:16vfZ_fJpG7UJ9q",
+      "title": "Ripe",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2026-12-18T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ripe-washington-district-of-columbia-12-18-2026/event/1500654996DA65DD",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZNag",
       "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
       "category": "theater",
@@ -99810,6 +99703,21 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLROFTy",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Marist College Red Foxes Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-12-19T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-12-19-2026/event/1D006547EF808FF9",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAed14",
@@ -100950,6 +100858,21 @@
       "lat": 42.8937,
       "lon": -78.8754,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLR-FTX",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Saint Peter's University Women's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2026-12-21T11:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-12-21-2026/event/1D006547EF848FFE",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAv-fU",
@@ -102579,6 +102502,20 @@
       "neighborhood": "Mashantucket"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ6C9",
+      "title": "Military Bowl",
+      "category": "sports",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Navy Marine Corps Memorial Stadium",
+      "start": "2026-12-28T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6C9",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:vv1AvZkf_GkeICcQL",
       "title": "Harlem Globetrotters: Rivalry Tour Presented By Sprite",
       "category": "other",
@@ -103360,6 +103297,21 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "ticketmaster:1A4Zk4FGkeNbJU4",
+      "title": "White Ford Bronco",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2026-12-31T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/white-ford-bronco-washington-district-of-columbia-12-31-2026/event/15006548A3626D95",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:vv177Z_3Gkmm0vnb",
       "title": "Last Fair Deal: NYE Night 1",
       "category": "music",
@@ -103449,6 +103401,21 @@
       "lat": 41.768353,
       "lon": -72.676384,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9n6fWm",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Niagara University Purple Eagles Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-01T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-01-2027/event/1D006545EA1D4F6E",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAeex7",
@@ -103927,6 +103894,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:G5vVZ_f9nFfWH",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Canisius University Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-03T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-03-2027/event/1D006545EA214F7C",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAed19",
       "title": "Quinnipiac Bobcats Womens Basketball vs. Merrimack Warriors Womens Basketball",
       "category": "music",
@@ -104281,6 +104263,21 @@
       "source": "ticketmaster",
       "lat": 41.426701,
       "lon": -72.913803
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLRoIXR",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Siena Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-07T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-01-07-2027/event/1D006547EF468FAF",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:1AdZZ_oGklhzMSU",
@@ -105196,6 +105193,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:G5vVZ_f9nafXd",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Manhattan Mens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-10T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-10-2027/event/1D006545EA254F83",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAeexA",
       "title": "Quinnipiac Bobcats Mens Basketball vs. Marist Red Foxes Mens Basketball",
       "category": "sports",
@@ -105225,20 +105237,6 @@
       "neighborhood": "Green Valley"
     },
     {
-      "id": "ticketmaster:vv1A8vPC_GAGzBDi",
-      "title": "2027 Stampede Championship Rodeo-Sunday",
-      "category": "sports",
-      "city": "Salem",
-      "state": "VA",
-      "venue": "Salem Civic Center",
-      "start": "2027-01-10T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/2027-stampede-championship-rodeosunday-salem-virginia-01-10-2027/event/010065399CE3AEEC",
-      "source": "ticketmaster",
-      "lat": 37.2841126,
-      "lon": -80.0411382
-    },
-    {
       "id": "ticketmaster:vvG17Z_CByB9Af",
       "title": "Providence Bruins vs. Hartford Wolf Pack",
       "category": "sports",
@@ -105252,21 +105250,6 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
-    },
-    {
-      "id": "ticketmaster:vv1AvZkfAGkdp4FIb",
-      "title": "Norfolk Admirals vs. Worcester Railers",
-      "category": "sports",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Scope Arena",
-      "start": "2027-01-10T15:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/norfolk-admirals-vs-worcester-railers-norfolk-virginia-01-10-2027/event/01006505D6548A18",
-      "source": "ticketmaster",
-      "lat": 36.8520889,
-      "lon": -76.2861351,
-      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af13x7",
@@ -105389,6 +105372,21 @@
       "lat": 39.28763705,
       "lon": -76.60719037,
       "neighborhood": "Inner Harbor"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9n17X6",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Mount St. Mary's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-13T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-13-2027/event/1D006545EA284F87",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z1r9uZrrZCuZ1AvPMvF",
@@ -105671,6 +105669,21 @@
       "lon": -72.6317
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PgFk",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFk",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:G5vVZ_3NhHOEI",
       "title": "The Who's Tommy",
       "category": "theater",
@@ -105831,6 +105844,21 @@
       "lon": -72.846188
     },
     {
+      "id": "ticketmaster:G5vVZ_fLR3zXS",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Iona Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-16T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-01-16-2027/event/1D006547EF4B8FB3",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAeex6",
       "title": "Quinnipiac Bobcats Mens Basketball vs. Niagara Purple Eagles Mens Basketball",
       "category": "sports",
@@ -105843,6 +105871,21 @@
       "source": "ticketmaster",
       "lat": 41.426701,
       "lon": -72.913803
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PgFA",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-16T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFA",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvka7",
@@ -106291,6 +106334,21 @@
       "lon": -72.846188
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PgF7",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-17T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgF7",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A700-v",
       "title": "Maine Mariners vs. Norfolk Admirals",
       "category": "sports",
@@ -106319,6 +106377,21 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9n57X1",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Quinnipiac Bobcats Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-18T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-18-2027/event/1D006545EA2C4F8A",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAed1_",
@@ -106512,6 +106585,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLRfFXz",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Canisius University Women's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-21T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-01-21-2027/event/1D006547EF508FB8",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7v-A",
@@ -106899,6 +106987,36 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PgFF",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-22T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFF",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_KDfIpyJ",
+      "title": "Rose and Spritz Soiree Hosted by Chef Shawn Osbey",
+      "category": "other",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Cabaret",
+      "start": "2027-01-22T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rose-and-spritz-soiree-hosted-by-uncasville-connecticut-01-22-2027/event/1D00653ED4A16E66",
+      "source": "ticketmaster",
+      "lat": 41.4915974,
+      "lon": -72.0914563,
+      "neighborhood": "Uncasville"
+    },
+    {
       "id": "ticketmaster:G5vVZ_ahqHFLB",
       "title": "ZARNA GARG: MILLION DOLLAR EXCUSES",
       "category": "comedy",
@@ -106929,6 +107047,20 @@
       "neighborhood": "Uncasville"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7vjE",
+      "title": "Lez Zeppelin",
+      "category": "music",
+      "city": "Norwalk",
+      "state": "CT",
+      "venue": "District Music Hall",
+      "start": "2027-01-22T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vjE",
+      "source": "ticketmaster",
+      "lat": 41.116956,
+      "lon": -73.413981
+    },
+    {
       "id": "jambase:16339602",
       "title": "1964 The Tribute",
       "category": "music",
@@ -106942,6 +107074,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2017/02/1964-the-tribute-1964-the-tribute-ec5d2659-359c-4829-97cd-032be6d1a3d3_19191_RETINA_LANDSCAPE_16_9-1480x832.jpg",
       "lat": 42.0053,
       "lon": -71.5124
+    },
+    {
+      "id": "ticketmaster:G5vVZ_KD4UUWw",
+      "title": "Ice Bar Experience",
+      "category": "other",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Earth Expo & Convention Center",
+      "start": "2027-01-22T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ice-bar-experience-uncasville-connecticut-01-22-2027/event/1D00653ED5DB6F72",
+      "source": "ticketmaster",
+      "lat": 41.49346,
+      "lon": -72.090751,
+      "neighborhood": "Uncasville"
     },
     {
       "id": "ticketmaster:G5vVZ_o5_0KQJ",
@@ -107017,6 +107164,21 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_KD9O9d9",
+      "title": "Blind Wine Tasting Seminar Hosted by the USA Wine Team",
+      "category": "other",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Earth Expo & Convention Center",
+      "start": "2027-01-23T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/blind-wine-tasting-seminar-hosted-by-uncasville-connecticut-01-23-2027/event/1D00653ED78170D7",
+      "source": "ticketmaster",
+      "lat": 41.49346,
+      "lon": -72.090751,
+      "neighborhood": "Uncasville"
     },
     {
       "id": "ticketmaster:1A4ZkfAGkda0IU-",
@@ -107273,6 +107435,35 @@
       "neighborhood": "Olneyville"
     },
     {
+      "id": "ticketmaster:1A4Zk4kGkd_gaX3",
+      "title": "EagleMania - The Worlds Greatest Eagles Tribute Band",
+      "category": "music",
+      "city": "Hagerstown",
+      "state": "MD",
+      "venue": "The Maryland Theatre",
+      "start": "2027-01-23T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/eaglemania-the-worlds-greatest-eagles-tribute-hagerstown-maryland-01-23-2027/event/15006546D9D49F92",
+      "source": "ticketmaster",
+      "lat": 39.641428,
+      "lon": -77.72091
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Pgk_",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-23T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pgk_",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "jambase:16434300",
       "title": "So Good! The Neil Diamond Experience",
       "category": "music",
@@ -107441,6 +107632,21 @@
       "neighborhood": "West End/West Side"
     },
     {
+      "id": "ticketmaster:G5vVZ_KDbI62B",
+      "title": "Celebrity Chef Dine Around - After Party",
+      "category": "other",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "novelle at Mohegan Sun",
+      "start": "2027-01-23T22:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/celebrity-chef-dine-around-after-party-uncasville-connecticut-01-23-2027/event/1D00653ED8A073FA",
+      "source": "ticketmaster",
+      "lat": 41.4915974,
+      "lon": -72.0914563,
+      "neighborhood": "Uncasville"
+    },
+    {
       "id": "ticketmaster:1A4Zk4FGkdRFqhX",
       "title": "Toby's Dinner Theatre Presents: Grease",
       "category": "theater",
@@ -107475,6 +107681,21 @@
           "url": "https://www.jambase.com/show/the-little-mermen-emelin-theater-20270124-2"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:G5vVZ_KDjb9hN",
+      "title": "Italian Wine Masterclass Presented by the USA Wine Team",
+      "category": "other",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Earth Expo & Convention Center",
+      "start": "2027-01-24T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/italian-wine-masterclass-presented-by-the-uncasville-connecticut-01-24-2027/event/1D00653EDC6176E3",
+      "source": "ticketmaster",
+      "lat": 41.49346,
+      "lon": -72.090751,
+      "neighborhood": "Uncasville"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7v-o",
@@ -107651,6 +107872,21 @@
       "lat": 38.91819,
       "lon": -77.02241,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9nG7XG",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Marist College Red Foxes Mens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-24-2027/event/1D006545EA304F8C",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7P93_",
@@ -107857,6 +108093,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2019/10/david-foster-ticketmaster-ram-1480x832.jpg",
       "lat": 40.3491,
       "lon": -74.0701
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLR4FXW",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Rider University Women's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-28T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-01-28-2027/event/1D006547EF548FBD",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:1A4Zk4FGkdR1qj2",
@@ -108141,6 +108392,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PgFv",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFv",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:16vfZ_3J8G7S7yh",
       "title": "TopHouse",
       "category": "music",
@@ -108199,6 +108465,21 @@
       "lat": 38.8961209,
       "lon": -77.0296101,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PgFe",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-01-30T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFe",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:1kA8vPCbGACP0Du",
@@ -108362,6 +108643,21 @@
       "source": "ticketmaster",
       "lat": 41.3064,
       "lon": -73.502403
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9nu7X2",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Iona University Gaels Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-01-31T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-01-31-2027/event/1D006545EA344F8F",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZY8t",
@@ -108972,6 +109268,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7PgFa",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-02-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFa",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvSpk",
       "title": "Tommy Emmanuel w/ Jack Schneider",
       "category": "music",
@@ -109015,6 +109326,21 @@
       "lat": 43.6555,
       "lon": -70.2591,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_f9nC7X4",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Fairfield Stags Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-02-05-2027/event/1D006545EA384F95",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:G5vVZ_uJRaEyT",
@@ -109148,21 +109474,6 @@
       "lon": -72.846188
     },
     {
-      "id": "ticketmaster:1A4ZkfwGkeSfhfn",
-      "title": "Alvin Ailey American Dance Theater",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Warner Theatre",
-      "start": "2027-02-05T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/alvin-ailey-american-dance-theater-washington-district-of-columbia-02-05-2027/event/15006532B351B52A",
-      "source": "ticketmaster",
-      "lat": 38.8961209,
-      "lon": -77.0296101,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:G5vVZ_53IeJfN",
       "title": "RuPaul's Drag Race Werq The World 2027 Tour",
       "category": "theater",
@@ -109207,21 +109518,6 @@
       "neighborhood": "Bromo Arts District"
     },
     {
-      "id": "ticketmaster:1kA8vPuOGAuB0mR",
-      "title": "The Love of Soul Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-02-05T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A70Ir8",
       "title": "Matt Mathews",
       "category": "comedy",
@@ -109252,6 +109548,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:G5vVZ_fLRpzTd",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Manhattan Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-06T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-02-06-2027/event/1D006547EF5B8FC3",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAedGd",
       "title": "Quinnipiac Bobcats Womens Basketball vs. Niagara Purple Eagles Womens Basketball",
       "category": "music",
@@ -109279,6 +109590,21 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PgFZ",
+      "title": "Little Women",
+      "category": "theater",
+      "city": "Manchester",
+      "state": "NH",
+      "venue": "Palace Theatre-NH",
+      "start": "2027-02-06T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgFZ",
+      "source": "ticketmaster",
+      "lat": 42.987801,
+      "lon": -71.465103,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PPqy",
@@ -109867,6 +110193,20 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1kA8vP3aGA5lJ2s",
+      "title": "Boyz II Men",
+      "category": "music",
+      "city": "National Harbor",
+      "state": "MD",
+      "venue": "The Theater at MGM National Harbor",
+      "start": "2027-02-11T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
+      "source": "ticketmaster",
+      "lat": 38.791707,
+      "lon": -77.003002
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAefFP",
       "title": "Emmaline",
       "category": "music",
@@ -110043,6 +110383,20 @@
       "lon": -71.437762
     },
     {
+      "id": "ticketmaster:1kA8vP3aGA5iJ2M",
+      "title": "Boyz II Men",
+      "category": "music",
+      "city": "National Harbor",
+      "state": "MD",
+      "venue": "The Theater at MGM National Harbor",
+      "start": "2027-02-12T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-12-2027/event/150065489BB263F7",
+      "source": "ticketmaster",
+      "lat": 38.791707,
+      "lon": -77.003002
+    },
+    {
       "id": "jambase:16430632",
       "title": "Cécile McLorin Salvant",
       "category": "music",
@@ -110085,6 +110439,21 @@
       "source": "ticketmaster",
       "lat": 38.991501,
       "lon": -76.532501
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLR9zT1",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Mount St. Mary's Women's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-13T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-02-13-2027/event/1D006547EF5F8FCA",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAedG7",
@@ -110225,6 +110594,20 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1kA8vP3aGA5cU2T",
+      "title": "Boyz II Men",
+      "category": "music",
+      "city": "National Harbor",
+      "state": "MD",
+      "venue": "The Theater at MGM National Harbor",
+      "start": "2027-02-13T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
+      "source": "ticketmaster",
+      "lat": 38.791707,
+      "lon": -77.003002
     },
     {
       "id": "jambase:16528506",
@@ -110590,6 +110973,21 @@
       "lon": -71.5112
     },
     {
+      "id": "ticketmaster:G5vVZ_f9n27Xb",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Saint Peter's University Men's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-02-19-2027/event/1D006545EA3C4F98",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZKrv",
       "title": "Hartford Wolfpack vs. Hershey Bears",
       "category": "sports",
@@ -110910,6 +111308,21 @@
       "lon": -71.437762
     },
     {
+      "id": "ticketmaster:G5vVZ_f9n8fXj",
+      "title": "Sacred Heart Pioneers Men's Basketball vs. Siena Saints Mens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-21T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-mens-basketball-vs-fairfield-connecticut-02-21-2027/event/1D006545EA414F9C",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZY8y",
       "title": "Cyrano - Musical",
       "category": "theater",
@@ -111224,6 +111637,21 @@
       "lon": -72.913803
     },
     {
+      "id": "ticketmaster:G5vVZ_fLR_FTu",
+      "title": "Sacred Heart Pioneers Women's Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-25T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-fairfield-connecticut-02-25-2027/event/1D006547EF648FCD",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
+    },
+    {
       "id": "ticketmaster:1AvfZ_oGklCwb4X",
       "title": "Alice in Wonderland by International Ballet Stars",
       "category": "theater",
@@ -111515,6 +111943,21 @@
       "lat": 43.6558863,
       "lon": -70.2770997,
       "neighborhood": "Valley Street"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_fLRQFTo",
+      "title": "Sacred Heart Pioneers Women's Basketball vs. Fairfield Womens Basketball",
+      "category": "sports",
+      "city": "Fairfield",
+      "state": "CT",
+      "venue": "William H. Pitt Center",
+      "start": "2027-02-27T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sacred-heart-pioneers-womens-basketball-vs-fairfield-connecticut-02-27-2027/event/1D006547EF688FD1",
+      "source": "ticketmaster",
+      "lat": 41.219439,
+      "lon": -73.244628,
+      "neighborhood": "Sacred Heart University"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvkae",
@@ -112082,6 +112525,21 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:vv1AvZk4kGkecT3If",
+      "title": "Niko Moon: Back To My Roots Tour",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2027-03-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/niko-moon-back-to-my-roots-portland-maine-03-04-2027/event/01006546ADFD2A14",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:vv1AvZkfNGkdXyid1",
       "title": "Alaska Thunderf*ck: The Revolution Tour",
       "category": "music",
@@ -112139,6 +112597,21 @@
       "source": "ticketmaster",
       "lat": 41.4486599,
       "lon": -72.846188
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4FGkeXisP3",
+      "title": "Gianmarco Soresi:  The Misery Loves Tour",
+      "category": "comedy",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2027-03-05T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/gianmarco-soresi-the-misery-loves-tour-portland-maine-03-05-2027/event/01006548BEB31952",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:vvG17Z_CBBk9aL",
@@ -114109,6 +114582,21 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:1kA8vP3ZGA1E-AA",
+      "title": "Ayra Starr: Starrgirl World Tour",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2027-03-24T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ayra-starr-starrgirl-world-tour-silver-spring-maryland-03-24-2027/event/150065480A9E1145",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZ_Pz",
       "title": "Dead Girls Quinceanera",
       "category": "other",
@@ -115855,6 +116343,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1A4ZkfgGkdajaf4",
+      "title": "Shen Yun",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-01T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/shen-yun-baltimore-maryland-05-01-2027/event/15006535C9709515",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7x_Z0",
       "title": "The Book of Mormon (Touring)",
       "category": "theater",
@@ -115898,6 +116401,21 @@
       "lat": 41.766499,
       "lon": -72.673103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1A4ZkfgGkdar_fN",
+      "title": "Shen Yun",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-02T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/shen-yun-baltimore-maryland-05-02-2027/event/15006535C9799523",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "todaytix:48287",
