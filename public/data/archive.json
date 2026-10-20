@@ -1,178 +1,15 @@
 {
-  "generatedAt": "2026-10-20T01:20:32.037Z",
-  "count": 7510,
+  "generatedAt": "2026-10-20T15:25:41.605Z",
+  "count": 7530,
   "events": [
     {
-      "id": "jambase:16513393",
-      "title": "ivri",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-10-19T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/ivri-the-atlantis-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9182,
-      "lon": -77.0236,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/ivri-washington-district-of-columbia-10-19-2026/event/150064CCC1F235F6"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:15435683",
-      "title": "Bethel Music",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Royale",
-      "start": "2026-10-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/bethel-music-royale-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3498,
-      "lon": -71.0653,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16210011",
-      "title": "Emei",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Paradise Rock Club",
-      "start": "2026-10-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/emei-paradise-rock-club-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/08/emei-1480x832.png",
-      "lat": 42.3505,
-      "lon": -71.1096,
-      "neighborhood": "Fenway–Kenmore"
-    },
-    {
-      "id": "jambase:16094940",
-      "title": "Acid Mothers Temple",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Metro Gallery",
-      "start": "2026-10-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/acid-mothers-temple-metro-gallery-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/07/acid-mothers-temple-profile-1480x832.jpg",
-      "lat": 39.3088,
-      "lon": -76.6164,
-      "neighborhood": "Midtown"
-    },
-    {
-      "id": "jambase:16485066",
-      "title": "Andrew McMahon",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The Broadberry",
-      "start": "2026-10-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/andrew-mcmahon-the-broadberry-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/03/andrew-mcmahon-1480x832.png",
-      "lat": 37.5617,
-      "lon": -77.4716,
-      "neighborhood": "Museum District"
-    },
-    {
-      "id": "jambase:16207756",
-      "title": "All Them Witches",
-      "category": "music",
-      "city": "Portsmouth",
-      "state": "NH",
-      "venue": "3S Artspace",
-      "start": "2026-10-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/all-them-witches-3s-artspace-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/all-them-witches-all-them-witches-865a217b-fbf2-4057-9d3d-df66c07dc857_44421_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 43.08,
-      "lon": -70.7652
-    },
-    {
-      "id": "jambase:16257842",
-      "title": "Rehash",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Taffeta",
-      "start": "2026-10-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/rehash-taffeta-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.6398,
-      "lon": -71.3193,
-      "neighborhood": "Highlands"
-    },
-    {
-      "id": "jambase:16472734",
-      "title": "PUP",
-      "category": "music",
-      "city": "Wilmington",
-      "state": "DE",
-      "venue": "Main Hall at The Queen",
-      "start": "2026-10-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/pup-main-hall-at-the-queen-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/pup-pup-765111a7-e98e-460c-a893-2c5a8bd0dca2_187381_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 39.741,
-      "lon": -75.5501
-    },
-    {
-      "id": "jambase:16492182",
-      "title": "Ian McConnell",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "The Annex",
-      "start": "2026-10-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/ian-mcconnell-the-annex-20261019",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 36.8697,
-      "lon": -76.2793,
-      "neighborhood": "Lindenwood"
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1IhnRW",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-10-20T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-10-20-2026/event/00006452A86EABFD",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:LvZ18QnLTuQIXu4PcUA0d",
+      "id": "ticketmaster:LvZ18QnLTuQIXu4PcUA0A",
       "title": "The Sports Museum Tour",
       "category": "sports",
       "city": "Boston",
       "state": "MA",
       "venue": "The Sports Museum",
-      "start": "2026-10-20T10:00:00",
+      "start": "2026-10-20T12:00:00",
       "isFree": false,
       "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
       "source": "ticketmaster",
@@ -181,30 +18,30 @@
       "neighborhood": "West End"
     },
     {
-      "id": "ticketmaster:1AvbZ_3Gkmh8VJ-",
+      "id": "ticketmaster:1AvbZ_3Gkmh87Jk",
       "title": "PPG Paints Arena Tours",
       "category": "other",
       "city": "Pittsburgh",
       "state": "PA",
       "venue": "PPG Paints Arena",
-      "start": "2026-10-20T10:00:00",
+      "start": "2026-10-20T12:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/ppg-paints-arena-tours-pittsburgh-pennsylvania-10-20-2026/event/1600652B9B4349A1",
+      "url": "https://www.ticketmaster.com/ppg-paints-arena-tours-pittsburgh-pennsylvania-10-20-2026/event/1600652B9B404986",
       "source": "ticketmaster",
       "lat": 40.4388401,
       "lon": -79.9908551,
       "neighborhood": "Uptown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AA7ouA",
+      "id": "ticketmaster:Z7r9jZ1AA7ouk",
       "title": "Joshua Live On Stage",
       "category": "other",
       "city": "Ronks",
       "state": "PA",
       "venue": "Sight and Sound Theatres - PA",
-      "start": "2026-10-20T11:00:00",
+      "start": "2026-10-20T15:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ouA",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ouk",
       "source": "ticketmaster",
       "lat": 40.012299,
       "lon": -76.1511
@@ -1712,6 +1549,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:k7vGF_fXuCEoR",
+      "title": "Belmont Park - General Admission",
+      "category": "sports",
+      "city": "Elmont",
+      "state": "NY",
+      "venue": "Belmont Park",
+      "start": "2026-10-21T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/belmont-park-general-admission-elmont-new-york-10-21-2026/event/0000654F8D3A746F",
+      "source": "ticketmaster",
+      "lat": 40.708328,
+      "lon": -73.717618,
+      "neighborhood": "Alden Manor"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7ouF",
@@ -3857,6 +3709,21 @@
       "lat": 42.36606,
       "lon": -71.060956,
       "neighborhood": "West End"
+    },
+    {
+      "id": "ticketmaster:k7vGF_fXkZUul",
+      "title": "Belmont Park - General Admission",
+      "category": "sports",
+      "city": "Elmont",
+      "state": "NY",
+      "venue": "Belmont Park",
+      "start": "2026-10-22T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/belmont-park-general-admission-elmont-new-york-10-22-2026/event/0000654F8603636B",
+      "source": "ticketmaster",
+      "lat": 40.708328,
+      "lon": -73.717618,
+      "neighborhood": "Alden Manor"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7oua",
@@ -6380,6 +6247,21 @@
       "neighborhood": "West End"
     },
     {
+      "id": "ticketmaster:k7vGF_fXkekuM",
+      "title": "Belmont Park - General Admission",
+      "category": "sports",
+      "city": "Elmont",
+      "state": "NY",
+      "venue": "Belmont Park",
+      "start": "2026-10-23T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/belmont-park-general-admission-elmont-new-york-10-23-2026/event/0000654F86086377",
+      "source": "ticketmaster",
+      "lat": 40.708328,
+      "lon": -73.717618,
+      "neighborhood": "Alden Manor"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvEa4",
       "title": "COFFEE CONCERT: John Williams & Steven Spielberg: Iconic Film Scores",
       "category": "music",
@@ -6735,8 +6617,8 @@
       "venue": "The Song & Dance",
       "start": "2026-10-23T18:30:00",
       "isFree": false,
-      "priceMin": 31.59,
-      "priceMax": 119.39,
+      "priceMin": 32.62,
+      "priceMax": 32.62,
       "url": "https://www.ticketweb.com/event/holywatr-deogratiastour-the-song-dance-tickets/14967943",
       "source": "ticketmaster",
       "lat": 43.0474234,
@@ -10489,6 +10371,21 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "ticketmaster:17A8v0G6GCbdtMs",
+      "title": "RØZ Presents: SE ESTÁ HACIENDO TARDE",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2026-10-23T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rz-presents-se-esta-haciendo-tarde-washington-district-of-columbia-10-23-2026/event/150064C3980E9DF1",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZPvY",
       "title": "Desi Alexander - Ages 21+",
       "category": "theater",
@@ -10745,21 +10642,6 @@
       "neighborhood": "Center City"
     },
     {
-      "id": "ticketmaster:17A8v0G6GCbdtMs",
-      "title": "RØZ Presents: SE ESTÁ HACIENDO TARDE",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2026-10-23T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/rz-presents-se-esta-haciendo-tarde-washington-district-of-columbia-10-23-2026/event/150064C3980E9DF1",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:1kA8vPZwGAuiUZB",
       "title": "Chris Lorenzo",
       "category": "music",
@@ -10908,6 +10790,21 @@
       "source": "ticketmaster",
       "lat": 38.991501,
       "lon": -76.532501
+    },
+    {
+      "id": "ticketmaster:k7vGF_fXkeUuW",
+      "title": "Belmont Park - General Admission",
+      "category": "sports",
+      "city": "Elmont",
+      "state": "NY",
+      "venue": "Belmont Park",
+      "start": "2026-10-24T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/belmont-park-general-admission-elmont-new-york-10-24-2026/event/0000654F860B637D",
+      "source": "ticketmaster",
+      "lat": 40.708328,
+      "lon": -73.717618,
+      "neighborhood": "Alden Manor"
     },
     {
       "id": "ticketmaster:vvG17Z_G3-yNVJ",
@@ -11233,6 +11130,21 @@
       "source": "ticketmaster",
       "lat": 40.9176228,
       "lon": -74.076344
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7_q7",
+      "title": "Holy Cross Crusaders Football vs. Bucknell Bison Football",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Fitton Field",
+      "start": "2026-10-24T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_q7",
+      "source": "ticketmaster",
+      "lat": 42.227299,
+      "lon": -71.792397,
+      "neighborhood": "Quinsigamond Village"
     },
     {
       "id": "ticketmaster:17GZv0G6CDmnCAl",
@@ -12095,20 +12007,6 @@
       ]
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7roAP",
-      "title": "New York Red Bulls vs. Inter Miami CF",
-      "category": "sports",
-      "city": "Harrison",
-      "state": "NJ",
-      "venue": "Sports Illustrated Stadium",
-      "start": "2026-10-24T16:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7roAP",
-      "source": "ticketmaster",
-      "lat": 40.744202,
-      "lon": -74.151703
-    },
-    {
       "id": "ticketmaster:k7vGF_FqDF0y2",
       "title": "Monster Jam",
       "category": "sports",
@@ -12198,6 +12096,20 @@
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7roAP",
+      "title": "New York Red Bulls vs. Inter Miami CF",
+      "category": "sports",
+      "city": "Harrison",
+      "state": "NJ",
+      "venue": "Sports Illustrated Stadium",
+      "start": "2026-10-24T17:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7roAP",
+      "source": "ticketmaster",
+      "lat": 40.744202,
+      "lon": -74.151703
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvto0",
@@ -12661,6 +12573,21 @@
           "url": "https://www.ticketweb.com/event/texas-hippie-coalition-the-song-dance-tickets/14873013"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7J3_z",
+      "title": "Thundercat w/ TiaCorine",
+      "category": "music",
+      "city": "Buffalo",
+      "state": "NY",
+      "venue": "Buffalo RiverWorks",
+      "start": "2026-10-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3_z",
+      "source": "ticketmaster",
+      "lat": 42.856098,
+      "lon": -78.864403,
+      "neighborhood": "First Ward"
     },
     {
       "id": "jambase:16537315",
@@ -24019,23 +23946,6 @@
       "lat": 42.362857,
       "lon": -71.118134,
       "neighborhood": "Lower Allston"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Afayv7",
-      "title": "Ella Hunt performing Blindspot",
-      "category": "music",
-      "city": "Cambridge",
-      "state": "MA",
-      "venue": "Regattabar",
-      "start": "2026-10-30T19:00:00",
-      "isFree": false,
-      "priceMin": 30.15,
-      "priceMax": 35.97,
-      "url": "https://www.ticketweb.com/event/ella-hunt-performing-blindspot-regattabar-tickets/14279044",
-      "source": "ticketmaster",
-      "lat": 42.37249,
-      "lon": -71.12302,
-      "neighborhood": "Harvard Square"
     },
     {
       "id": "ticketmaster:vv16vZkfAF_ZAGvakv",
@@ -37495,6 +37405,20 @@
       "source": "ticketmaster",
       "lat": 40.285717,
       "lon": -76.6758748
+    },
+    {
+      "id": "ticketmaster:vv1AeZk48Gkd8jXOO",
+      "title": "The United States Army Field Band: Six-string Soldiers",
+      "category": "music",
+      "city": "Scranton",
+      "state": "PA",
+      "venue": "Scranton Cultural Center",
+      "start": "2026-11-06T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-united-states-army-field-band-scranton-pennsylvania-11-06-2026/event/02006550D073E820",
+      "source": "ticketmaster",
+      "lat": 41.4106418,
+      "lon": -75.6606497
     },
     {
       "id": "ticketmaster:vv1AeZkowGkdIW7yO",
@@ -67308,6 +67232,21 @@
       "lon": -79.907402
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvMqy",
+      "title": "Topdog/Underdog",
+      "category": "theater",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Arden Theatre Company",
+      "start": "2026-11-20T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMqy",
+      "source": "ticketmaster",
+      "lat": 39.950401,
+      "lon": -75.146599,
+      "neighborhood": "Center City East"
+    },
+    {
       "id": "ticketmaster:17A8v0G6CHc3ajR",
       "title": "Goldfinger",
       "category": "music",
@@ -71893,6 +71832,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:vvG17Z_GJnV0wD",
+      "title": "The Sound of Music",
+      "category": "theater",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Boch Center Wang Theatre",
+      "start": "2026-11-22T11:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-sound-of-music-boston-massachusetts-11-22-2026/event/010064C9AAD24CBB",
+      "source": "ticketmaster",
+      "lat": 42.3499769,
+      "lon": -71.0652677,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:k7vGF_5QG69vc",
@@ -79571,6 +79525,20 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:vv1AeZk4oGkei9JIg",
+      "title": "Elizabeth Cook",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2026-12-03T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/elizabeth-cook-wilmington-delaware-12-03-2026/event/02006551AC5E6A35",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
+    },
+    {
       "id": "ticketmaster:1AvfZ_3Gksk4EO7",
       "title": "Syd: Beard Tour",
       "category": "music",
@@ -80760,6 +80728,20 @@
       "lon": -76.532501
     },
     {
+      "id": "ticketmaster:vv1AOvP4FGA2YSs9",
+      "title": "Hometown Holiday Benefit",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2026-12-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/hometown-holiday-benefit-wilmington-delaware-12-04-2026/event/020065548FC33C57",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
+    },
+    {
       "id": "ticketmaster:vv1kFZ_Kr4G7YMmB",
       "title": "A Flock of Seagulls",
       "category": "music",
@@ -81066,7 +81048,7 @@
     {
       "id": "ticketmaster:vv17FZ_3Gkl2X3LE",
       "title": "Taylor Hanson Afterparty",
-      "category": "music",
+      "category": "other",
       "city": "Atlantic City",
       "state": "NJ",
       "venue": "The Balcony",
@@ -87766,6 +87748,21 @@
       "lon": -73.99950139
     },
     {
+      "id": "ticketmaster:vv1AOvPfYGA18mil",
+      "title": "CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR",
+      "category": "comedy",
+      "city": "Jersey City",
+      "state": "NJ",
+      "venue": "Loew's Jersey Theatre",
+      "start": "2026-12-12T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-jersey-city-new-jersey-12-12-2026/event/020065530A42EB2B",
+      "source": "ticketmaster",
+      "lat": 40.73247562,
+      "lon": -74.06465129,
+      "neighborhood": "Journal Square"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvkpv",
       "title": "Quinnipiac Bobcats Mens Ice Hockey vs. Stonehill Skyhawks Mens Hockey",
       "category": "sports",
@@ -88651,6 +88648,21 @@
       "lat": 43.656551,
       "lon": -70.258943,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_fGkXhhMpZ",
+      "title": "Hot In Herre: 2000s Dance Party",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2026-12-12T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/hot-in-herre-2000s-dance-party-washington-district-of-columbia-12-12-2026/event/1500654F9B6F7580",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:17A8v0G6CUesfKt",
@@ -89576,6 +89588,20 @@
       "source": "ticketmaster",
       "lat": 40.895358,
       "lon": -73.97511
+    },
+    {
+      "id": "ticketmaster:k7vGF_4d8PXJy",
+      "title": "Jesse Malin",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Stone Pony",
+      "start": "2026-12-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jesse-malin-asbury-park-new-jersey-12-13-2026/event/00006550D097E9B9",
+      "source": "ticketmaster",
+      "lat": 40.220001,
+      "lon": -74.00071097
     },
     {
       "id": "ticketmaster:1A4ZkfkGketoMdp",
@@ -91253,22 +91279,6 @@
       "lon": -75.19987
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfFt_V",
-      "title": "Bayway presents a Big Ass Christmas Party with special guests Big Ass Truck and more tba",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Black Box - Rutherford",
-      "start": "2026-12-18T18:00:00",
-      "isFree": false,
-      "priceMin": 40.79,
-      "priceMax": 72.72,
-      "url": "https://www.ticketweb.com/event/bayway-presents-a-big-ass-williams-center-black-tickets/14229674",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
       "id": "ticketmaster:1AvfZ_3GkToTDYJ",
       "title": "Toby's Dinner Theatre Presents: White Christmas",
       "category": "theater",
@@ -91282,34 +91292,6 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
-    },
-    {
-      "id": "ticketmaster:1k18vPosGAGj8lS",
-      "title": "That Metal Show Annual Holiday Bash",
-      "category": "comedy",
-      "city": "Clifton",
-      "state": "NJ",
-      "venue": "Dingbatz",
-      "start": "2026-12-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketweb.com/event/that-metal-show-annual-holiday-dingbatz-tickets/14369304?REFERRAL_ID=tmfeed",
-      "source": "ticketmaster",
-      "lat": 40.857882,
-      "lon": -74.147614
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAe74N",
-      "title": "Mary Poppins (Touring)",
-      "category": "theater",
-      "city": "Millburn",
-      "state": "NJ",
-      "venue": "Paper Mill Playhouse",
-      "start": "2026-12-18T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe74N",
-      "source": "ticketmaster",
-      "lat": 40.7229,
-      "lon": -74.300598
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PtvY",
@@ -98114,6 +98096,20 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:G5viZ_fD5UMRE",
+      "title": "Derrick Stroup",
+      "category": "comedy",
+      "city": "Bristol",
+      "state": "VA",
+      "venue": "Hard Rock Live Bristol",
+      "start": "2027-01-09T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/derrick-stroup-bristol-virginia-01-09-2027/event/1B00654ECBDB7BE7",
+      "source": "ticketmaster",
+      "lat": 36.59902833,
+      "lon": -82.21946726
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvP8K",
       "title": "Virginia Tech Hokies Mens Basketball vs. Boston College Eagles Mens Basketball",
       "category": "sports",
@@ -98127,6 +98123,21 @@
       "lat": 37.2286,
       "lon": -80.414902,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4KGkeIV6la",
+      "title": "Cumberland Road, 90's Country Tribute",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2027-01-09T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cumberland-road-90s-country-tribute-charlottesville-virginia-01-09-2027/event/01006553A8D07AC9",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "ticketmaster:vv1AvZk4kGkd-4RSp",
@@ -99908,20 +99919,6 @@
       "neighborhood": "Potomac West"
     },
     {
-      "id": "ticketmaster:vv177Z_oGkXWz-or",
-      "title": "Jo Koy: Koy Meets World Tour",
-      "category": "comedy",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Performing Arts Theatre",
-      "start": "2027-01-17T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jo-koy-koy-meets-world-tour-roanoke-virginia-01-17-2027/event/0100651FBDE2145E",
-      "source": "ticketmaster",
-      "lat": 37.27907,
-      "lon": -79.935701
-    },
-    {
       "id": "ticketmaster:1AvfZ_KGkDslVrT",
       "title": "George Washington Mens Basketball vs. George Mason University Patriots Mens Basketball",
       "category": "sports",
@@ -100068,21 +100065,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZPaF",
-      "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-01-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPaF",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
     },
     {
       "id": "ticketmaster:1A4Zk4aGkdpAj_E",
@@ -102115,6 +102097,20 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:LvZ18QnK5nFHIB7QNLdui",
+      "title": "R&B ONLY LIVE - Wilmington, DE",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2027-01-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/r-b-only-live-wilmington-de-tickets-DPCXG0?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
+    },
+    {
       "id": "ticketmaster:1A4ZkfwGkeS85fd",
       "title": "Alvin Ailey American Dance Theater",
       "category": "theater",
@@ -102142,6 +102138,21 @@
       "source": "ticketmaster",
       "lat": 42.987801,
       "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_3kx7l5I",
+      "title": "Voyage - Celebrating The Music of Journey",
+      "category": "music",
+      "city": "Stamford",
+      "state": "CT",
+      "venue": "Palace Theatre Stamford",
+      "start": "2027-01-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/voyage-celebrating-the-music-of-journey-stamford-connecticut-01-29-2027/event/1D006521A212B2E8",
+      "source": "ticketmaster",
+      "lat": 41.0507831,
+      "lon": -73.5395426,
       "neighborhood": "Downtown"
     },
     {
@@ -104945,6 +104956,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:1AvfZ_fGkTaRjKp",
+      "title": "Silverada",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Atlantis",
+      "start": "2027-02-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/silverada-washington-district-of-columbia-02-13-2027/event/1500654FC9BDC4D6",
+      "source": "ticketmaster",
+      "lat": 38.91819,
+      "lon": -77.02241,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZfvk",
       "title": "Mortified",
       "category": "theater",
@@ -105573,6 +105599,21 @@
       "lat": 41.748402,
       "lon": -72.6959,
       "neighborhood": "Behind the Rocks"
+    },
+    {
+      "id": "ticketmaster:1A4Zk48GkddUBT8",
+      "title": "CIRQUE ALICE",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-02-18T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cirque-alice-baltimore-maryland-02-18-2027/event/15006550C3DBAFD0",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:1A4ZkfIGkdcJm_X",
@@ -106463,21 +106504,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:1A4Zk4eGkeXdsDm",
-      "title": "Zach Seabaugh",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2027-02-24T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/zach-seabaugh-washington-district-of-columbia-02-24-2027/event/15006542BE0F1EEE",
-      "source": "ticketmaster",
-      "lat": 38.91819,
-      "lon": -77.02241,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:1kA8vPG9GA1o0A7",
       "title": "Northlane: THE ANEMOIA TOUR",
       "category": "music",
@@ -106580,21 +106606,6 @@
       "source": "ticketmaster",
       "lat": 41.426701,
       "lon": -72.913803
-    },
-    {
-      "id": "ticketmaster:16vfZ_K_wG7te9o",
-      "title": "Cory Wong featuring dodie with special guest PREP",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-02-25T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/cory-wong-featuring-dodie-with-special-washington-district-of-columbia-02-25-2027/event/1500653672A425D1",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:G5vVZ_fLR_FTu",
@@ -109535,6 +109546,21 @@
       "neighborhood": "Mashantucket"
     },
     {
+      "id": "ticketmaster:1AvfZ_fGkM9ni3y",
+      "title": "Emily Ann Roberts: The Thread Tour",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2027-03-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/emily-ann-roberts-the-thread-tour-silver-spring-maryland-03-20-2027/event/1500654DD7AAC4B9",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
+    },
+    {
       "id": "ticketmaster:G5vVZ_KEjmtBh",
       "title": "CT GamerCon: CT's #1 Con for Gamers and Anime",
       "category": "other",
@@ -110037,6 +110063,21 @@
       "lat": 39.293999,
       "lon": -76.622597,
       "neighborhood": "University Of Maryland"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_fGkI5CUNI",
+      "title": "The Plot In You",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "The Paramount Baltimore",
+      "start": "2027-04-01T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-plot-in-you-baltimore-maryland-04-01-2027/event/1500654A0B3B68E8",
+      "source": "ticketmaster",
+      "lat": 39.276802,
+      "lon": -76.625641,
+      "neighborhood": "Carroll - Camden Industrial Area"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7POZ-",
@@ -110551,6 +110592,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:1AvfZ_fGkVsQv8-",
+      "title": "THROWN: UNWANTED NORTH AMERICA TOUR 2027",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Baltimore Soundstage",
+      "start": "2027-04-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/thrown-unwanted-north-america-tour-2027-baltimore-maryland-04-09-2027/event/1500654D31681421",
+      "source": "ticketmaster",
+      "lat": 39.28763705,
+      "lon": -76.60719037,
+      "neighborhood": "Inner Harbor"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAe3GO",
       "title": "Roger Waters Presents LEGACY - A Pink Floyd Show",
       "category": "music",
@@ -110861,6 +110917,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:vv1A8vP3oGA559ts",
+      "title": "Eric Andre: Subtle",
+      "category": "comedy",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2027-04-15T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/eric-andre-subtle-portland-maine-04-15-2027/event/010065491B2D7A71",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "todaytix:47752",
       "title": "What Belongs to You",
       "category": "theater",
@@ -110899,6 +110970,20 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:vv17FZ_fGkXgAQS7",
+      "title": "The Growlers",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2027-04-15T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-growlers-wilmington-delaware-04-15-2027/event/0200654FB515ACC4",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7Pspe",
       "title": "Radio Golf",
       "category": "theater",
@@ -110927,6 +111012,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_KGkl9MT1D",
+      "title": "Cleo Sol - Gentlewoman Tour",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "CFG Bank Arena",
+      "start": "2027-04-16T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cleo-sol-gentlewoman-tour-baltimore-maryland-04-16-2027/event/1500653AD7DFF2BB",
+      "source": "ticketmaster",
+      "lat": 39.288494,
+      "lon": -76.6187,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:G5vVZ_3h9vrq0",
@@ -110972,6 +111072,21 @@
       "lat": 41.4915974,
       "lon": -72.0914563,
       "neighborhood": "Uncasville"
+    },
+    {
+      "id": "ticketmaster:vv1k7Z_4GPG7D6Au",
+      "title": "Eric Andre: Subtle",
+      "category": "comedy",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Veterans Memorial Auditorium",
+      "start": "2027-04-17T19:00:00",
+      "isFree": false,
+      "url": "https://thevets.evenue.net/events/ERIC",
+      "source": "ticketmaster",
+      "lat": 41.82975456,
+      "lon": -71.41712799,
+      "neighborhood": "Downtown Providence"
     },
     {
       "id": "ticketmaster:1AvfZ_KGkM6Fici",
@@ -111342,6 +111457,21 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_fGkVDL-pk",
+      "title": "Four Year Strong: Rise or Die Trying 25 Year Anniversary Tour",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Baltimore Soundstage",
+      "start": "2027-04-24T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/four-year-strong-rise-or-die-baltimore-maryland-04-24-2027/event/1500654D3B7E1586",
+      "source": "ticketmaster",
+      "lat": 39.28763705,
+      "lon": -76.60719037,
+      "neighborhood": "Inner Harbor"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7947",
@@ -112064,6 +112194,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:1A4Zk4aGkd6E1Ml",
+      "title": "Boardwalk Rock",
+      "category": "music",
+      "city": "Ocean City",
+      "state": "MD",
+      "venue": "Ocean City Inlet",
+      "start": "2027-05-14T12:00:00",
+      "isFree": false,
+      "url": "https://on.fgtix.com/trk/sDh0b",
+      "source": "ticketmaster",
+      "lat": 38.3779123,
+      "lon": -75.069073
+    },
+    {
       "id": "ticketmaster:vvG17Z_u6m7-v3",
       "title": "Jeff Arcuri: The Road Trip Tour",
       "category": "comedy",
@@ -112077,6 +112221,20 @@
       "lat": 43.6539716,
       "lon": -70.2632924,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4aGkd6UByF",
+      "title": "Boardwalk Rock",
+      "category": "music",
+      "city": "Ocean City",
+      "state": "MD",
+      "venue": "Ocean City Inlet",
+      "start": "2027-05-15T12:00:00",
+      "isFree": false,
+      "url": "https://on.fgtix.com/trk/sDh0b",
+      "source": "ticketmaster",
+      "lat": 38.3779123,
+      "lon": -75.069073
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PY0k",
@@ -112138,6 +112296,21 @@
       "lon": -72.1063
     },
     {
+      "id": "ticketmaster:1A4Zk4FGkd1o127",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-15T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-15-2027/event/15006548CA44A3C4",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
       "id": "ticketmaster:1A4ZkfAGkeBK9Pl",
       "title": "Mass of the Fermenting Dregs",
       "category": "music",
@@ -112151,6 +112324,35 @@
       "lat": 38.99734055,
       "lon": -77.02746183,
       "neighborhood": "Downtown Silver Spring"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4aGkdF7QBr",
+      "title": "Boardwalk Rock",
+      "category": "music",
+      "city": "Ocean City",
+      "state": "MD",
+      "venue": "Ocean City Inlet",
+      "start": "2027-05-16T12:00:00",
+      "isFree": false,
+      "url": "https://on.fgtix.com/trk/sDh0b",
+      "source": "ticketmaster",
+      "lat": 38.3779123,
+      "lon": -75.069073
+    },
+    {
+      "id": "ticketmaster:1A4Zk4FGkd13Q28",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-16T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-16-2027/event/15006548CA49A3D0",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:G5vVZ_3BmHSON",
@@ -112168,6 +112370,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:1A4Zk4FGkd1fn2l",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-18T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-18-2027/event/15006548CA52A3EB",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
       "id": "ticketmaster:1AvfZ_fGkBYqEQG",
       "title": "Papa Roach: Rise Of The Roach Tour W/ Ice Nine Kills & Ninth Key",
       "category": "music",
@@ -112181,6 +112398,36 @@
       "lat": 39.276802,
       "lon": -76.625641,
       "neighborhood": "Carroll - Camden Industrial Area"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4FGkd14n2Y",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-19-2027/event/15006548CA56A3F0",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4FGkd1912y",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-20-2027/event/15006548CA5CA3F9",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvVGp",
@@ -112211,6 +112458,36 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4FGkd1bQ2X",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-21T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-21-2027/event/15006548CA61A3FE",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4FGkd1_Q8A",
+      "title": "Heathers the Musical (Touring)",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Hippodrome at France-Merrick Performing Arts Center",
+      "start": "2027-05-22T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/heathers-the-musical-touring-baltimore-maryland-05-22-2027/event/15006548CA65A405",
+      "source": "ticketmaster",
+      "lat": 39.289634,
+      "lon": -76.621342,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:G5vVZ_fDUsP0G",
