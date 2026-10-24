@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import type { Event } from '../domain/event';
 import { formatDay, formatTime, formatPrice, sourceLabel } from './format';
+import { isPlottable } from './mapBounds';
+import { safeHref } from './mapPopup';
 import { googleCalendarUrl, icsHref } from './calendar';
 
 const CATEGORY_LABELS: Record<Event['category'], string> = {
@@ -53,6 +55,14 @@ export function EventModal({
   }
 
   const icsName = `${event.id.replace(/[^a-z0-9]+/gi, '-')}.ics`;
+  // Scraped URLs are third-party strings: only http(s) becomes a link.
+  const eventUrl = safeHref(event.url);
+  const spotifyUrl = safeHref(event.spotifyUrl);
+  const image = safeHref(event.image);
+  const altLinks = (event.altTicketLinks ?? []).flatMap((link) => {
+    const url = safeHref(link.url);
+    return url ? [{ source: link.source, url }] : [];
+  });
 
   return (
     <div className="modal-backdrop" onClick={onClose} role="presentation">
@@ -67,8 +77,8 @@ export function EventModal({
           ✕
         </button>
 
-        {event.image && (
-          <img className="modal__art" src={event.image} alt="" loading="lazy" />
+        {image && (
+          <img className="modal__art" src={image} alt="" loading="lazy" />
         )}
 
         <div className="modal__body">
@@ -134,14 +144,16 @@ export function EventModal({
           )}
 
           <div className="modal__actions">
-            <a
-              className="modal-btn modal-btn--primary"
-              href={event.url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Get tickets / info ↗
-            </a>
+            {eventUrl && (
+              <a
+                className="modal-btn modal-btn--primary"
+                href={eventUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Get tickets / info ↗
+              </a>
+            )}
             <button
               className={`modal-btn ${saved ? 'modal-btn--saved' : ''}`}
               onClick={onToggleSave}
@@ -152,9 +164,9 @@ export function EventModal({
               {linkCopied ? '✓ Copied' : '🔗 Share'}
             </button>
           </div>
-          {event.altTicketLinks && event.altTicketLinks.length > 0 && (
+          {altLinks.length > 0 && (
             <div className="modal__alt-links">
-              {event.altTicketLinks.map((link) => (
+              {altLinks.map((link) => (
                 <a key={link.url} className="modal-btn" href={link.url} target="_blank" rel="noreferrer">
                   Also on {sourceLabel(link.source)} ↗
                 </a>
@@ -175,7 +187,7 @@ export function EventModal({
             <a className="cal-btn" href={icsHref(event)} download={icsName}>
               iCal
             </a>
-            {event.lat != null && event.lon != null && (
+            {isPlottable(event) && (
               <a
                 className="cal-btn"
                 href={`https://www.google.com/maps/dir/?api=1&destination=${event.lat},${event.lon}`}
@@ -185,10 +197,10 @@ export function EventModal({
                 Directions
               </a>
             )}
-            {event.spotifyUrl && (
+            {spotifyUrl && (
               <a
                 className="cal-btn cal-btn--spotify"
-                href={event.spotifyUrl}
+                href={spotifyUrl}
                 target="_blank"
                 rel="noreferrer"
               >

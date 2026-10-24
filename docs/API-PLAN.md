@@ -23,8 +23,10 @@ no committed key file.** Keys are **GitHub Actions secrets** read from
 2. Expose it to the data step in `.github/workflows/deploy.yml` under the
    "Refresh events data" step's `env:` block (Ticketmaster is the template).
 3. Read it in the fetcher via `process.env.<NAME>`. If the key is missing, the
-   fetcher should **throw** so the source is clearly "not configured"
-   (carry-forward + the source-health footer handle the rest).
+   fetcher **throws `MissingCredentialsError`** (from `src/pipeline/sourceOutcome.ts`)
+   so the source is clearly "not configured" (carry-forward + the source-health
+   footer handle the rest). Never return an empty batch — that means "we asked and
+   there was nothing", and it drops the source's banked events.
 4. Local runs: `export <NAME>=...` before `npm run build:data`.
 
 **A new event source = one pure normalizer in `src/ingestion/<src>.ts` (TDD'd) +

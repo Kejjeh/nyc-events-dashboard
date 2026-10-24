@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import type { Event } from '../domain/event';
 import { formatDay, formatTime, formatPrice } from './format';
+import { isPlottable } from './mapBounds';
 
 const CATEGORY_LABELS: Record<Event['category'], string> = {
   music: 'Music', comedy: 'Comedy', theater: 'Theater', film: 'Film',
@@ -54,7 +55,7 @@ export function VenueModal({
           : first.city
         : ''
     : '';
-  const located = events.find((e) => e.lat != null && e.lon != null);
+  const located = events.find(isPlottable);
 
   return (
     <div className="modal-backdrop" onClick={onClose} role="presentation">

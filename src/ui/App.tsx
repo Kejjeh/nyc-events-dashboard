@@ -19,7 +19,8 @@ import {
   defaultCityFor,
   type LocationSelection,
 } from './filterSelection';
-import { sourceLabel } from './format';
+import { carriedSourcesNote, sourceHealthTitle, sourceLabel } from './format';
+import { shouldShowSourceFilter, sourceFilterOptions } from './sourceFilterOptions';
 import { EventCard } from './EventCard';
 import { EventModal } from './EventModal';
 import { VenueModal } from './VenueModal';
@@ -394,6 +395,15 @@ export function App() {
     (sort !== 'soonest' ? 1 : 0);
 
   const sourcesInData = state.status === 'ready' ? (state.payload.sources ?? []) : [];
+  // `sources` describes the live board, so the control used to render only for
+  // NYC — but a ?src= filter keeps applying after a city switch, and needs a
+  // control to clear it. See sourceFilterOptions.ts.
+  const sourceOptions = sourceFilterOptions(sourcesInData, sources);
+  const showSourceFilter = shouldShowSourceFilter(
+    stateFilter === 'NY' && cityFilter === 'New York',
+    sourceOptions,
+    sources,
+  );
 
   function sortLabel(key: SortKey) {
     if (key === 'nearest' && geo.status === 'pending') return 'Locating…';
@@ -429,6 +439,12 @@ export function App() {
                 hour: 'numeric',
                 minute: '2-digit',
               })}
+              {carriedSourcesNote(state.payload.sources) && (
+                <span className="hero__stamp-note" title="See the source list in the footer">
+                  {' · '}
+                  {carriedSourcesNote(state.payload.sources)}
+                </span>
+              )}
             </p>
           )}
           <button className="share-btn" onClick={copyLink}>
@@ -612,7 +628,7 @@ export function App() {
             </div>
           </FilterDropdown>
 
-          {stateFilter === 'NY' && cityFilter === 'New York' && sourcesInData.length > 1 && (
+          {showSourceFilter && (
             <FilterDropdown label="Source" activeCount={sources.length}>
               <div className="fdd__options">
                 <label className="fdd__option">
@@ -623,20 +639,20 @@ export function App() {
                   />
                   All sources
                 </label>
-                {sourcesInData.map((s) => (
-                  <label key={s.source} className="fdd__option">
+                {sourceOptions.map((source) => (
+                  <label key={source} className="fdd__option">
                     <input
                       type="checkbox"
-                      checked={sources.includes(s.source)}
+                      checked={sources.includes(source)}
                       onChange={() =>
                         setSources((prev) =>
-                          prev.includes(s.source)
-                            ? prev.filter((x) => x !== s.source)
-                            : [...prev, s.source],
+                          prev.includes(source)
+                            ? prev.filter((x) => x !== source)
+                            : [...prev, source],
                         )
                       }
                     />
-                    {sourceLabel(s.source)}
+                    {sourceLabel(source)}
                   </label>
                 ))}
               </div>
@@ -818,11 +834,7 @@ export function App() {
               <span
                 key={s.source}
                 className={`src ${s.fresh ? '' : 'src--stale'}`}
-                title={
-                  s.fresh
-                    ? 'Refreshed this run'
-                    : 'Carried forward — this source was unavailable at the last refresh'
-                }
+                title={sourceHealthTitle(s)}
               >
                 {sourceLabel(s.source)} <span className="src__count">{s.count.toLocaleString()}</span>
                 {!s.fresh && ' ⚠'}
