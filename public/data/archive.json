@@ -1,53 +1,7 @@
 {
-  "generatedAt": "2026-10-26T17:02:57.968Z",
-  "count": 7341,
+  "generatedAt": "2026-10-27T01:40:37.979Z",
+  "count": 7409,
   "events": [
-    {
-      "id": "ticketmaster:LvZ18Qn6uZL7wQq_CwAEW",
-      "title": "The Sports Museum Tour",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sports Museum",
-      "start": "2026-10-26T14:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.36606,
-      "lon": -71.060956,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfGM3f",
-      "title": "Wait Until Dark (1967)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-10-26T17:15:00",
-      "isFree": false,
-      "priceMin": 13.63,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/wait-until-dark-1967-williams-center-cinema-tickets/14337494",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_1TPoUBA",
-      "title": "Arch Enemy + The Black Dahlia Murder: Wrath Across North America 2026",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Theatre of Living Arts",
-      "start": "2026-10-26T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/arch-enemy-the-black-dahlia-murder-philadelphia-pennsylvania-10-26-2026/event/020064AFE5476E85",
-      "source": "ticketmaster",
-      "lat": 39.941305,
-      "lon": -75.148678,
-      "neighborhood": "Queen Village"
-    },
     {
       "id": "jambase:16322853",
       "title": "Arch Enemy",
@@ -65,21 +19,6 @@
       "neighborhood": "Queen Village"
     },
     {
-      "id": "ticketmaster:1A4ZkozGkeIaM5R",
-      "title": "Friko - Something Worth Waiting For: The Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-10-26T18:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/friko-something-worth-waiting-for-the-washington-district-of-columbia-10-26-2026/event/15006478A82772EF",
-      "source": "ticketmaster",
-      "lat": 38.91819,
-      "lon": -77.02241,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "jambase:15985328",
       "title": "Friko",
       "category": "music",
@@ -94,232 +33,6 @@
       "lat": 38.9182,
       "lon": -77.0236,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:k7vGF_Cs1kfDP",
-      "title": "The Rocky Horror Picture Show",
-      "category": "film",
-      "city": "Albany",
-      "state": "NY",
-      "venue": "The Palace Theatre Albany",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-rocky-horror-picture-show-albany-new-york-10-26-2026/event/000064EC4A194EE5",
-      "source": "ticketmaster",
-      "lat": 42.654511,
-      "lon": -73.750175,
-      "neighborhood": "Arbor Hill"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfC3AV",
-      "title": "FL!P Circus x The Learning Experience Paramus",
-      "category": "other",
-      "city": "Yorktown Heights",
-      "state": "NY",
-      "venue": "Flip Circus - JEFFERSON VALLEY MALL",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "priceMin": 23.1,
-      "priceMax": 33.9,
-      "url": "https://www.ticketweb.com/event/flp-circus-x-the-learning-flip-circus-jefferson-tickets/14392174",
-      "source": "ticketmaster",
-      "lat": 41.32836,
-      "lon": -73.80757
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfGKu0",
-      "title": "Percy Jones + Kenny Grohowski + Tim Motzer",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Spring Hall - Rutherford",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "priceMin": 26.46,
-      "priceMax": 48.09,
-      "url": "https://www.ticketweb.com/event/percy-jones-kenny-grohowski-williams-center-spring-tickets/14313364",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfuNGf",
-      "title": "FL!P Circus x The Learning Experience Paramus",
-      "category": "other",
-      "city": "Paramus",
-      "state": "NJ",
-      "venue": "Flip Circus  - Garden State Plaza",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "priceMin": 23.1,
-      "priceMax": 33.9,
-      "url": "https://www.ticketweb.com/event/flp-circus-x-the-learning-flip-circus-tickets/14363314",
-      "source": "ticketmaster",
-      "lat": 40.9176228,
-      "lon": -74.076344
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Afuek7",
-      "title": "Friendly Distractions (2025) with Q&A!",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "priceMin": 13.63,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/friendly-distractions-2025-with-qa-williams-center-cinema-tickets/14342184",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:vv16vZkf6PZZAu5Ceu",
-      "title": "The Parables Tour with Father Mike Schmitz",
-      "category": "other",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Boch Center Wang Theatre",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-parables-tour-with-father-mike-boston-massachusetts-10-26-2026/event/01006507940CAD1C",
-      "source": "ticketmaster",
-      "lat": 42.3499769,
-      "lon": -71.0652677,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_1mYvLVB",
-      "title": "LØLØ: God Forbid a Girl Goes on Tour",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Brighton Music Hall presented by Citizens",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/ll-god-forbid-a-girl-goes-boston-massachusetts-10-26-2026/event/010064ABB005FD3A",
-      "source": "ticketmaster",
-      "lat": 42.3528999,
-      "lon": -71.1326128,
-      "neighborhood": "Commonwealth"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_55dXCzc",
-      "title": "Watsky x Infinity",
-      "category": "music",
-      "city": "Somerville",
-      "state": "MA",
-      "venue": "Somerville Theatre",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/watsky-x-infinity-somerville-massachusetts-10-26-2026/event/010064B2C3F8EE2D",
-      "source": "ticketmaster",
-      "lat": 42.396753,
-      "lon": -71.122819,
-      "neighborhood": "Davis Square"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A703ab",
-      "title": "Glenn Miller Orchestra- All Ages (under 16 with adult)",
-      "category": "music",
-      "city": "Glenside",
-      "state": "PA",
-      "venue": "Keswick Theatre",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703ab",
-      "source": "ticketmaster",
-      "lat": 40.1012,
-      "lon": -75.172203
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZMaN",
-      "title": "Daughtry",
-      "category": "music",
-      "city": "Greensburg",
-      "state": "PA",
-      "venue": "Palace Theatre-Greensburg",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMaN",
-      "source": "ticketmaster",
-      "lat": 40.340801,
-      "lon": -79.519501
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CRee6G-",
-      "title": "Punch Line Philly Open Mic Night",
-      "category": "comedy",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Punch Line Philly Callback Bar",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/punch-line-philly-open-mic-night-philadelphia-pennsylvania-10-26-2026/event/020064EBC2087321",
-      "source": "ticketmaster",
-      "lat": 39.96545508,
-      "lon": -75.1352,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6GpWUqHy",
-      "title": "HEY, NOTHING - THE HOUND TOUR",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/hey-nothing-the-hound-tour-washington-district-of-columbia-10-26-2026/event/150064C5BDD9DF39",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1A4Zkf_GkdQeDUj",
-      "title": "Isabel LaRosa - DollParts Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Union Stage",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.unionstagepresents.com/shows/isabel-larosa-dollparts-tour-26-oct",
-      "source": "ticketmaster",
-      "lat": 38.878689,
-      "lon": -77.024097,
-      "neighborhood": "Southwest Waterfront"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P07g",
-      "title": "Drunk Shakespeare: Drunk Dracula (21+ Event)",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Sage",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P07g",
-      "source": "ticketmaster",
-      "lat": 38.904202,
-      "lon": -77.031502,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:vv177Z_oGkmVwVEC",
-      "title": "Local Artist Series: Jumbo Circus Peanuts Halloween Party",
-      "category": "music",
-      "city": "Portsmouth",
-      "state": "NH",
-      "venue": "Jimmy's Jazz and Blues Club",
-      "start": "2026-10-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/local-artist-series-jumbo-circus-peanuts-portsmouth-new-hampshire-10-26-2026/event/0100651BB4CB49CE",
-      "source": "ticketmaster",
-      "lat": 43.07634404,
-      "lon": -70.76009881
     },
     {
       "id": "jambase:16391566",
@@ -401,140 +114,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:16dZZ_8jOG7VjoB",
-      "title": "Beauty School Dropout",
-      "category": "music",
-      "city": "Albany",
-      "state": "NY",
-      "venue": "Empire Underground",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/beauty-school-dropout-albany-new-york-10-26-2026/event/3000650720D1C47A",
-      "source": "ticketmaster",
-      "lat": 42.65288,
-      "lon": -73.75036,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfayJf",
-      "title": "DEAD NIGHT w/ Pearly Baker's Best",
-      "category": "music",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "Funk 'n Waffles",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "priceMin": 13.07,
-      "priceMax": 13.07,
-      "url": "https://www.ticketweb.com/event/dead-night-w-pearly-bakers-funk-n-waffles-tickets/14279994",
-      "source": "ticketmaster",
-      "lat": 43.048366,
-      "lon": -76.153423,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:G5vVZ_8rMcG0J",
-      "title": "Asi Wind",
-      "category": "theater",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "The Vogel at Count Basie Center for the Arts",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/asi-wind-red-bank-new-jersey-10-26-2026/event/1D006507B7B4C926",
-      "source": "ticketmaster",
-      "lat": 40.349071,
-      "lon": -74.07022
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P4C3",
-      "title": "Rodrigo y Gabriela",
-      "category": "music",
-      "city": "Northampton",
-      "state": "MA",
-      "venue": "Academy of Music Theatre - MA",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P4C3",
-      "source": "ticketmaster",
-      "lat": 42.323002,
-      "lon": -72.6707
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZ6-O",
-      "title": "Thriller - Live",
-      "category": "theater",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "City Winery - Boston",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-O",
-      "source": "ticketmaster",
-      "lat": 42.362099,
-      "lon": -71.068001,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:vv177Z_8Gkwfba8Z",
-      "title": "Boston Celtics vs. Chicago Bulls",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "TD Garden",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/boston-celtics-vs-chicago-bulls-boston-massachusetts-10-26-2026/event/0100650C94609400",
-      "source": "ticketmaster",
-      "lat": 42.365841,
-      "lon": -71.060724,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:1AvbZ_8GkY0YxyY",
-      "title": "Jonas Brothers: The Burning Up Tour All Over Again",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "PPG Paints Arena",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-pittsburgh-pennsylvania-10-26-2026/event/1600650C24C22E70",
-      "source": "ticketmaster",
-      "lat": 40.4388401,
-      "lon": -79.9908551,
-      "neighborhood": "Uptown"
-    },
-    {
-      "id": "ticketmaster:LvZ18Ql4FOnu9UOPdjaRc",
-      "title": "Do Portugal Circus - Harrisonburg, VA",
-      "category": "theater",
-      "city": "Harrisonburg",
-      "state": "VA",
-      "venue": "Rockingham County Fairgrounds",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/do-portugal-circus-harrisonburg-va-tickets-TNKHL2?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 38.53796,
-      "lon": -78.770447
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7-t7E",
-      "title": "Earl Sweatshirt w/ MIKE",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The National",
-      "start": "2026-10-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-t7E",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "jambase:16469321",
       "title": "Jeff Tweedy",
       "category": "music",
@@ -581,188 +160,6 @@
       "neighborhood": "Hunter Mill District"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfG6bf",
-      "title": "Improvised Dungeons & Dragons : Halloween Edition",
-      "category": "other",
-      "city": "Syracuse",
-      "state": "NY",
-      "venue": "The Song & Dance",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "priceMin": 15.71,
-      "priceMax": 15.71,
-      "url": "https://www.ticketweb.com/event/improvised-dungeons-dragons-the-song-dance-tickets/14307614",
-      "source": "ticketmaster",
-      "lat": 43.0474234,
-      "lon": -76.1518037,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG1GZ_2xnO-HG",
-      "title": "Mon. 10/26/2026 - Highmark Stadium Tours",
-      "category": "other",
-      "city": "Orchard Park",
-      "state": "NY",
-      "venue": "Highmark Stadium",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://am.ticketmaster.com/bsec/buy",
-      "source": "ticketmaster",
-      "lat": 42.77389,
-      "lon": -78.78694
-    },
-    {
-      "id": "ticketmaster:k7vGF_2TIb-NI",
-      "title": "Hablando Huevadas US Tour 2026",
-      "category": "theater",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "New Jersey Performing Arts Center",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/hablando-huevadas-us-tour-2026-newark-new-jersey-10-26-2026/event/000064FFE86218E8",
-      "source": "ticketmaster",
-      "lat": 40.739502,
-      "lon": -74.16809,
-      "neighborhood": "Central Ward"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70A3K",
-      "title": "lilyisthatyou",
-      "category": "other",
-      "city": "Cambridge",
-      "state": "MA",
-      "venue": "The Sinclair Music Hall",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70A3K",
-      "source": "ticketmaster",
-      "lat": 42.380199,
-      "lon": -71.134697,
-      "neighborhood": "West Cambridge"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P7Za",
-      "title": "Hokus Pokus Live",
-      "category": "theater",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Emerson Colonial Theatre",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P7Za",
-      "source": "ticketmaster",
-      "lat": 42.349602,
-      "lon": -71.075302,
-      "neighborhood": "Prudential / St. Botolph"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZg0-",
-      "title": "Bassvictim with Thoom (18+ Event)",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Roadrunner-Boston",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZg0-",
-      "source": "ticketmaster",
-      "lat": 42.3489,
-      "lon": -71.156502,
-      "neighborhood": "Brighton"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_1pFpIzP",
-      "title": "L7: The Last Hurrah Tour 2026",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Wilbur",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/l7-the-last-hurrah-tour-2026-boston-massachusetts-10-26-2026/event/010064A5885A8E25",
-      "source": "ticketmaster",
-      "lat": 42.3504843,
-      "lon": -71.065086,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZb44",
-      "title": "Neoni",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Thunderbird Cafe & Music Hall",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZb44",
-      "source": "ticketmaster",
-      "lat": 40.473801,
-      "lon": -79.952003,
-      "neighborhood": "Central Lawrenceville"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_CXK4_1l",
-      "title": "After",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Foundry",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/after-philadelphia-pennsylvania-10-26-2026/event/020064EF935592AB",
-      "source": "ticketmaster",
-      "lat": 39.96477,
-      "lon": -75.134457,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_8GkmqCp9n",
-      "title": "Hurricane Wisdom",
-      "category": "music",
-      "city": "Silver Spring",
-      "state": "MD",
-      "venue": "The Fillmore Silver Spring",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/hurricane-wisdom-silver-spring-maryland-10-26-2026/event/1500650B9D3965EA",
-      "source": "ticketmaster",
-      "lat": 38.99734055,
-      "lon": -77.02746183,
-      "neighborhood": "Downtown Silver Spring"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7JZG7",
-      "title": "Alton Brown",
-      "category": "theater",
-      "city": "North Bethesda",
-      "state": "MD",
-      "venue": "Music Center at Strathmore",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JZG7",
-      "source": "ticketmaster",
-      "lat": 39.051899,
-      "lon": -77.124199
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Af0S-K",
-      "title": "RAPHAEL GHANEM APRESENTA: A CARNE SÓ CAI NO PRATO DO VEGANO",
-      "category": "comedy",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Howard Theatre",
-      "start": "2026-10-26T20:00:00",
-      "isFree": false,
-      "priceMin": 33.28,
-      "priceMax": 82.72,
-      "url": "https://www.ticketweb.com/event/raphael-ghanem-apresenta-a-carne-howard-theatre-tickets/14933853",
-      "source": "ticketmaster",
-      "lat": 38.9153136,
-      "lon": -77.0210937,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "jambase:16250006",
       "title": "L7",
       "category": "music",
@@ -793,21 +190,6 @@
       "lat": 42.3741,
       "lon": -71.1208,
       "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "ticketmaster:vv17FZ_kGkUpdnhG",
-      "title": "Philadelphia Eagles vs. Dallas Cowboys",
-      "category": "sports",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Lincoln Financial Field",
-      "start": "2026-10-26T20:15:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/philadelphia-eagles-vs-dallas-cowboys-philadelphia-pennsylvania-10-26-2026/event/0200646D960EA6CC",
-      "source": "ticketmaster",
-      "lat": 39.900706,
-      "lon": -75.167406,
-      "neighborhood": "South Philadelphia East"
     },
     {
       "id": "ticketmaster:k7vGF_A1INQsB",
@@ -3719,21 +3101,6 @@
       "neighborhood": "West End"
     },
     {
-      "id": "ticketmaster:vvG17Z_1MZT4EK",
-      "title": "Arcángel - La 8va Maravilla World Tour",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "MGM Music Hall at Fenway",
-      "start": "2026-10-28T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
-      "source": "ticketmaster",
-      "lat": 42.346806,
-      "lon": -71.097272,
-      "neighborhood": "West Fens"
-    },
-    {
       "id": "ticketmaster:vvG17Z_5SEKxr4",
       "title": "Toad The Wet Sprocket - Rings: The Acoustic Tour",
       "category": "music",
@@ -4030,6 +3397,21 @@
       "lat": 42.380199,
       "lon": -71.134697,
       "neighborhood": "West Cambridge"
+    },
+    {
+      "id": "ticketmaster:vvG17Z_1MZT4EK",
+      "title": "Arcángel - La 8va Maravilla World Tour",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "MGM Music Hall at Fenway",
+      "start": "2026-10-28T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-boston-massachusetts-10-28-2026/event/010064ADC0FD59D3",
+      "source": "ticketmaster",
+      "lat": 42.346806,
+      "lon": -71.097272,
+      "neighborhood": "West Fens"
     },
     {
       "id": "jambase:16524063",
@@ -6743,7 +6125,7 @@
       "category": "sports",
       "city": "Utica",
       "state": "NY",
-      "venue": "Adirondack Bank Center",
+      "venue": "NBT Bank Arena",
       "start": "2026-10-30T19:00:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6pZ",
@@ -8090,21 +7472,6 @@
       ]
     },
     {
-      "id": "ticketmaster:1AvfZ_6GkTlxusS",
-      "title": "Art Garfunkel - What a Wonderful World Concerts",
-      "category": "music",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2026-10-30T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/art-garfunkel-what-a-wonderful-world-tysons-virginia-10-30-2026/event/1500647FEB88DC73",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
       "id": "ticketmaster:LvZ18Ql4FOnu9UOPdjaRs",
       "title": "Do Portugal Circus - Harrisonburg, VA",
       "category": "theater",
@@ -8817,23 +8184,6 @@
       "lat": 42.2617,
       "lon": -71.801498,
       "neighborhood": "Central Business District"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Af7OvV",
-      "title": "DEVIL'S NIGHT",
-      "category": "other",
-      "city": "Cambridge",
-      "state": "MA",
-      "venue": "Middle East - Upstairs",
-      "start": "2026-10-30T20:00:00",
-      "isFree": false,
-      "priceMin": 27.79,
-      "priceMax": 27.79,
-      "url": "https://www.ticketweb.com/event/devils-night-middle-east-upstairs-tickets/14120074",
-      "source": "ticketmaster",
-      "lat": 42.36422,
-      "lon": -71.10133,
-      "neighborhood": "Central Square"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfGOf0",
@@ -9712,6 +9062,23 @@
       "neighborhood": "Hunter Mill District"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af7OvV",
+      "title": "DEVIL'S NIGHT",
+      "category": "other",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Upstairs",
+      "start": "2026-10-30T20:30:00",
+      "isFree": false,
+      "priceMin": 33.44,
+      "priceMax": 33.44,
+      "url": "https://www.ticketweb.com/event/devils-night-middle-east-upstairs-tickets/14120074",
+      "source": "ticketmaster",
+      "lat": 42.36422,
+      "lon": -71.10133,
+      "neighborhood": "Central Square"
+    },
+    {
       "id": "ticketmaster:vv177Z_kGkmUlwQK",
       "title": "RAWAYANA - ¿Dónde es el after? World Tour",
       "category": "music",
@@ -9779,9 +9146,9 @@
       "state": "NY",
       "venue": "Stereo Garden",
       "start": "2026-10-30T21:00:00",
-      "isFree": false,
-      "priceMin": 70.44,
-      "priceMax": 70.44,
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
       "url": "https://www.ticketweb.com/event/perreoween-stereo-garden-tickets/14359194",
       "source": "ticketmaster",
       "lat": 40.765132,
@@ -10568,6 +9935,21 @@
       "lon": -73.72602467
     },
     {
+      "id": "ticketmaster:k7vGF_GSxTDSk",
+      "title": "Hell's Kitchen (Touring)",
+      "category": "theater",
+      "city": "Buffalo",
+      "state": "NY",
+      "venue": "Shea's Buffalo Theatre",
+      "start": "2026-10-31T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/hells-kitchen-touring-buffalo-new-york-10-31-2026/event/000064CCE2FFBCC6",
+      "source": "ticketmaster",
+      "lat": 42.89187269,
+      "lon": -78.87325599,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7Psp3",
       "title": "Dracula",
       "category": "theater",
@@ -10776,6 +10158,21 @@
       "neighborhood": "Green Valley"
     },
     {
+      "id": "ticketmaster:k7vGF_GT1uOO9",
+      "title": "Sweeney Todd",
+      "category": "theater",
+      "city": "Buffalo",
+      "state": "NY",
+      "venue": "Shea's 710 Theatre",
+      "start": "2026-10-31T14:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sweeney-todd-buffalo-new-york-10-31-2026/event/000064CFCA360817",
+      "source": "ticketmaster",
+      "lat": 42.89313177,
+      "lon": -78.871952,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PUq3",
       "title": "Quinnipiac Bobcats Womens Ice Hockey vs. Brown University Bears Womens Hockey",
       "category": "sports",
@@ -10866,6 +10263,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:16dZZ_3Q4G7nxFi",
+      "title": "NIght of the Living Dead - The 2026 Horrorthon",
+      "category": "film",
+      "city": "Middletown",
+      "state": "NY",
+      "venue": "The Paramount Theatre (Middletown, NY)",
+      "start": "2026-10-31T15:15:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/night-of-the-living-dead-the-middletown-new-york-10-31-2026/event/3000652695AA222C",
+      "source": "ticketmaster",
+      "lat": 41.44454,
+      "lon": -74.42094
+    },
+    {
       "id": "ticketmaster:vv1kFZ_fFFG7X0-v",
       "title": "Mario Vi- 10 Años Sin Reírme (En Español)",
       "category": "comedy",
@@ -10893,6 +10304,34 @@
       "source": "ticketmaster",
       "lat": 36.6357423,
       "lon": -79.8515114
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZNGp",
+      "title": "Army Black Knights Hockey vs. RIT Tigers Men's Hockey",
+      "category": "sports",
+      "city": "West Point",
+      "state": "NY",
+      "venue": "Tate Rink",
+      "start": "2026-10-31T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZNGp",
+      "source": "ticketmaster",
+      "lat": 41.3927,
+      "lon": -73.974098
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvt-4",
+      "title": "Clarkson Golden Knights Mens Hockey vs. Niagara Purple Eagles Hockey",
+      "category": "sports",
+      "city": "Potsdam",
+      "state": "NY",
+      "venue": "Cheel Arena",
+      "start": "2026-10-31T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt-4",
+      "source": "ticketmaster",
+      "lat": 44.669399,
+      "lon": -74.9814
     },
     {
       "id": "ticketmaster:vv17FZ_6GkTifRKN",
@@ -10998,6 +10437,20 @@
       "neighborhood": "University Park"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvt84",
+      "title": "Union College Garnet Chargers Hockey vs. Rensselaer Polytechnic Engineers Mens Hockey",
+      "category": "sports",
+      "city": "Schenectady",
+      "state": "NY",
+      "venue": "M&T Bank Center",
+      "start": "2026-10-31T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvt84",
+      "source": "ticketmaster",
+      "lat": 42.8158,
+      "lon": -73.942001
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvVpk",
       "title": "Black Kray w/ Smokedope2016",
       "category": "other",
@@ -11043,6 +10496,34 @@
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
+    },
+    {
+      "id": "ticketmaster:15dZZ_3QfAwA-",
+      "title": "The 2026 Horrorthon Weekend Pass",
+      "category": "film",
+      "city": "Middletown",
+      "state": "NY",
+      "venue": "The Paramount Theatre (Middletown, NY)",
+      "start": "2026-10-31T17:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-2026-horrorthon-weekend-pass-middletown-new-york-10-31-2026/event/3000652694172161",
+      "source": "ticketmaster",
+      "lat": 41.44454,
+      "lon": -74.42094
+    },
+    {
+      "id": "ticketmaster:15dZZ_3Qpbe18",
+      "title": "House on Haunted Hill - The 2026 Horrorthon",
+      "category": "film",
+      "city": "Middletown",
+      "state": "NY",
+      "venue": "The Paramount Theatre (Middletown, NY)",
+      "start": "2026-10-31T17:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/house-on-haunted-hill-the-2026-middletown-new-york-10-31-2026/event/3000652696602290",
+      "source": "ticketmaster",
+      "lat": 41.44454,
+      "lon": -74.42094
     },
     {
       "id": "ticketmaster:1Ae0Z_oGkRBWYUD",
@@ -11247,6 +10728,36 @@
       "lat": 38.9179,
       "lon": -77.0237,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:k7vGF_3TJvasi",
+      "title": "Trick-or-Treat Box at Peace, Love & Pumpkins",
+      "category": "other",
+      "city": "Bethel",
+      "state": "NY",
+      "venue": "Bethel Woods Center for the Arts",
+      "start": "2026-10-31T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/trickortreat-box-at-peace-love-pumpkins-bethel-new-york-10-31-2026/event/0000652FE6049C6C",
+      "source": "ticketmaster",
+      "lat": 41.69688884,
+      "lon": -74.8779738,
+      "neighborhood": "Bethel"
+    },
+    {
+      "id": "ticketmaster:k7vGF_KSM80iF",
+      "title": "Boos & Booze at Peace, Love & Pumpkins (NOT AN ADMISSION TICKET)",
+      "category": "other",
+      "city": "Bethel",
+      "state": "NY",
+      "venue": "Bethel Woods Center for the Arts",
+      "start": "2026-10-31T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boos-booze-at-peace-love-pumpkins-bethel-new-york-10-31-2026/event/0000653CF7424B08",
+      "source": "ticketmaster",
+      "lat": 41.69688884,
+      "lon": -74.8779738,
+      "neighborhood": "Bethel"
     },
     {
       "id": "ticketmaster:17GZv0G65wxRAE5",
@@ -14320,8 +13831,8 @@
       "venue": "Middle East - Downstairs",
       "start": "2026-11-01T18:30:00",
       "isFree": false,
-      "priceMin": 30.88,
-      "priceMax": 30.88,
+      "priceMin": 1.3,
+      "priceMax": 1.3,
       "url": "https://www.ticketweb.com/event/dev-lemons-eat-middle-east-downstairs-tickets/14244484",
       "source": "ticketmaster",
       "lat": 42.36422,
@@ -14495,36 +14006,6 @@
       "lon": -71.264321
     },
     {
-      "id": "ticketmaster:vvG17Z_291i290",
-      "title": "National Park After Dark VIP Q&A add-on",
-      "category": "other",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Wilbur",
-      "start": "2026-11-01T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/national-park-after-dark-vip-qa-boston-massachusetts-11-01-2026/event/010064F5CAB0F5E4",
-      "source": "ticketmaster",
-      "lat": 42.3504843,
-      "lon": -71.065086,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_29FAC-o",
-      "title": "National Park After Dark: Your Neck of the Woods Tour",
-      "category": "theater",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Wilbur",
-      "start": "2026-11-01T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/national-park-after-dark-your-neck-boston-massachusetts-11-01-2026/event/010064F5C814E851",
-      "source": "ticketmaster",
-      "lat": 42.3504843,
-      "lon": -71.065086,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "ticketmaster:vvG1FZ_5z-22m5",
       "title": "Raj Suresh & Friends",
       "category": "comedy",
@@ -14635,8 +14116,8 @@
       "venue": "Howard Theatre",
       "start": "2026-11-01T19:00:00",
       "isFree": false,
-      "priceMin": 116.64,
-      "priceMax": 116.64,
+      "priceMin": 116.71,
+      "priceMax": 116.71,
       "url": "https://www.ticketweb.com/event/eva-ayllon-with-special-guest-howard-theatre-tickets/14953093",
       "source": "ticketmaster",
       "lat": 38.9153136,
@@ -17782,7 +17263,7 @@
       "start": "2026-11-04T19:30:00",
       "isFree": false,
       "priceMin": 30.5,
-      "priceMax": 82,
+      "priceMax": 30.5,
       "url": "https://www.ticketweb.com/event/bumpin-uglies-with-artikal-sound-off-the-rails-music-venue-tickets/15014733",
       "source": "ticketmaster",
       "lat": 42.2666,
@@ -19029,7 +18510,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfapG0",
-      "title": "Imperial Teen, Gay Meat",
+      "title": "Imperial Teen, Kristeen Young, Gay Meat",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -19038,7 +18519,7 @@
       "isFree": false,
       "priceMin": 29.39,
       "priceMax": 29.39,
-      "url": "https://www.ticketweb.com/event/imperial-teen-gay-meat-nikki-lopez-philly-tickets/14256324",
+      "url": "https://www.ticketweb.com/event/imperial-teen-kristeen-young-gay-nikki-lopez-philly-tickets/14256324",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -19201,7 +18682,7 @@
       "start": "2026-11-05T19:00:00",
       "isFree": false,
       "priceMin": 23.56,
-      "priceMax": 75,
+      "priceMax": 45.91,
       "url": "https://www.ticketweb.com/event/megan-woods-the-truth-tour-parkway-church-on-the-mountain-tickets/14216434",
       "source": "ticketmaster",
       "lat": 37.30405762675879,
@@ -21348,7 +20829,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfaO4f",
-      "title": "Banshee",
+      "title": "Banshee, Laila Mach",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -21357,7 +20838,7 @@
       "isFree": false,
       "priceMin": 26.15,
       "priceMax": 59.32,
-      "url": "https://www.ticketweb.com/event/banshee-nikki-lopez-philly-tickets/14260554",
+      "url": "https://www.ticketweb.com/event/banshee-laila-mach-nikki-lopez-philly-tickets/14260554",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -25021,6 +24502,62 @@
       "neighborhood": "West End"
     },
     {
+      "id": "ticketmaster:1718v0G629nF8O7",
+      "title": "A Killer's Confession Presents *Victim 3Everything Comes Full Circl",
+      "category": "music",
+      "city": "Pottstown",
+      "state": "PA",
+      "venue": "Rivet: Canteen & Assembly",
+      "start": "2026-11-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/a-killers-confession-presents-victim-rivet-canteen-assembly-tickets/14272404?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 40.24539,
+      "lon": -75.64897
+    },
+    {
+      "id": "ticketmaster:1718v0G62Ds1YBK",
+      "title": "Shamoo *The Bangor Ripper* Performingthe *A Killer's Confessionâ Sho",
+      "category": "music",
+      "city": "Pottstown",
+      "state": "PA",
+      "venue": "Rivet: Canteen & Assembly",
+      "start": "2026-11-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/shamoo-the-bangor-ripper-performingthe-rivet-canteen-assembly-tickets/15001613?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 40.24539,
+      "lon": -75.64897
+    },
+    {
+      "id": "ticketmaster:1718v0G62hVlZJ5",
+      "title": "Chris Demon Performing On the a Killers Confession Show At the Rivet C",
+      "category": "music",
+      "city": "Pottstown",
+      "state": "PA",
+      "venue": "Rivet: Canteen & Assembly",
+      "start": "2026-11-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/chris-demon-performing-on-the-rivet-canteen-assembly-tickets/14275284?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 40.24539,
+      "lon": -75.64897
+    },
+    {
+      "id": "ticketmaster:1718v0G62hgUOJl",
+      "title": "Spider Rockets Performing with a Killers Confession At the Rivet Cante",
+      "category": "music",
+      "city": "Pottstown",
+      "state": "PA",
+      "venue": "Rivet: Canteen & Assembly",
+      "start": "2026-11-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/spider-rockets-performing-with-a-rivet-canteen-assembly-tickets/14275294?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 40.24539,
+      "lon": -75.64897
+    },
+    {
       "id": "ticketmaster:1AvfZ_3GkTbOHJ_",
       "title": "Toby's Dinner Theatre Presents: White Christmas",
       "category": "theater",
@@ -25651,7 +25188,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfGOoV",
-      "title": "Flycatcher",
+      "title": "Flycatcher, Latewaves ",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -25660,7 +25197,7 @@
       "isFree": false,
       "priceMin": 22.73,
       "priceMax": 22.73,
-      "url": "https://www.ticketweb.com/event/flycatcher-nikki-lopez-philly-tickets/14320474",
+      "url": "https://www.ticketweb.com/event/flycatcher-latewaves-nikki-lopez-philly-tickets/14320474",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -27611,6 +27148,23 @@
       "neighborhood": "D Street / West Broadway"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8dF7",
+      "title": "Metal Night Philly",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Nikki Lopez Philly",
+      "start": "2026-11-07T22:00:00",
+      "isFree": false,
+      "priceMin": 13.34,
+      "priceMax": 13.34,
+      "url": "https://www.ticketweb.com/event/metal-night-philly-nikki-lopez-philly-tickets/14403204",
+      "source": "ticketmaster",
+      "lat": 39.941327,
+      "lon": -75.1478724,
+      "neighborhood": "Queen Village"
+    },
+    {
       "id": "ticketmaster:17A8v0G61rNpBAo",
       "title": "Madeon presents Victory Live",
       "category": "music",
@@ -28966,7 +28520,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfuxO7",
-      "title": "Archer Oh",
+      "title": "Archer Oh, Integra Pink",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -28975,7 +28529,7 @@
       "isFree": false,
       "priceMin": 19.49,
       "priceMax": 19.49,
-      "url": "https://www.ticketweb.com/event/archer-oh-nikki-lopez-philly-tickets/14362804",
+      "url": "https://www.ticketweb.com/event/archer-oh-integra-pink-nikki-lopez-philly-tickets/14362804",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -34770,6 +34324,20 @@
       "neighborhood": "Fairview"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvKoY",
+      "title": "Joe Russo's Almost Dead",
+      "category": "music",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "venue": "State Theatre-NJ",
+      "start": "2026-11-12T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvKoY",
+      "source": "ticketmaster",
+      "lat": 40.486099,
+      "lon": -74.447304
+    },
+    {
       "id": "ticketmaster:k7vGF_52hdgxE",
       "title": "Miles @100 With Jon Faddis & Friends",
       "category": "music",
@@ -36715,6 +36283,21 @@
       "lat": 39.904551,
       "lon": -75.1736273,
       "neighborhood": "South Philadelphia East"
+    },
+    {
+      "id": "ticketmaster:1AdZZ_4GklcTltu",
+      "title": "WXPN Land of the Lost Dance Party + Live Broadcast",
+      "category": "theater",
+      "city": "Allentown",
+      "state": "PA",
+      "venue": "Arrow",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.eventbrite.com/e/wxpn-land-of-the-lost-dance-party-live-broadcast-tickets-2003171240103?aff=ebdsoporgprofile",
+      "source": "ticketmaster",
+      "lat": 40.60126,
+      "lon": -75.47697,
+      "neighborhood": "Hamilton District"
     },
     {
       "id": "ticketmaster:1AdZZ_6GkDAwKjQ",
@@ -41051,7 +40634,7 @@
       "start": "2026-11-14T19:00:00",
       "isFree": false,
       "priceMin": 29.48,
-      "priceMax": 75,
+      "priceMax": 29.48,
       "url": "https://www.ticketweb.com/event/megan-woods-the-truth-tour-new-beginnings-church-of-god-tickets/14216544",
       "source": "ticketmaster",
       "lat": 41.65166,
@@ -46773,7 +46356,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4ZgaS",
-      "title": "Girl Tones",
+      "title": "Girl Tones, JT Loux",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -46782,7 +46365,7 @@
       "isFree": false,
       "priceMin": 19.49,
       "priceMax": 19.49,
-      "url": "https://www.ticketweb.com/event/girl-tones-nikki-lopez-philly-tickets/15035273",
+      "url": "https://www.ticketweb.com/event/girl-tones-jt-loux-nikki-lopez-philly-tickets/15035273",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -49569,7 +49152,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4vk-K",
-      "title": "Ebril, Kristiane",
+      "title": "Ebril, Kristiane, Vcente",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
@@ -49578,7 +49161,7 @@
       "isFree": false,
       "priceMin": 26.15,
       "priceMax": 26.15,
-      "url": "https://www.ticketweb.com/event/ebril-kristiane-nikki-lopez-philly-tickets/15046853",
+      "url": "https://www.ticketweb.com/event/ebril-kristiane-vcente-nikki-lopez-philly-tickets/15046853",
       "source": "ticketmaster",
       "lat": 39.941327,
       "lon": -75.1478724,
@@ -49750,6 +49333,22 @@
       "source": "ticketmaster",
       "lat": 40.895358,
       "lon": -73.97511
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1Af8ejV",
+      "title": "CUG's Movie Trivia Night",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-11-19T19:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/cugs-movie-trivia-night-williams-center-cinema-tickets/14402734",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAee-M",
@@ -50595,6 +50194,28 @@
       "lon": -75.5485
     },
     {
+      "id": "jambase:16024051",
+      "title": "Metallica",
+      "category": "music",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Arena",
+      "start": "2026-11-19T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/metallica-mohegan-sun-arena-20261119",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2015/06/metallica-2026-press-1480x832.jpg",
+      "lat": 41.4916,
+      "lon": -72.0915,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F"
+        }
+      ],
+      "neighborhood": "Uncasville"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7Psb3",
       "title": "10000 Maniacs",
       "category": "music",
@@ -50636,28 +50257,6 @@
       "source": "ticketmaster",
       "lat": 40.8124988,
       "lon": -74.2165153
-    },
-    {
-      "id": "jambase:16024051",
-      "title": "Metallica",
-      "category": "music",
-      "city": "Uncasville",
-      "state": "CT",
-      "venue": "Mohegan Sun Arena",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/metallica-mohegan-sun-arena-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/metallica-2026-press-1480x832.jpg",
-      "lat": 41.4916,
-      "lon": -72.0915,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F"
-        }
-      ],
-      "neighborhood": "Uncasville"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70IP0",
@@ -55349,6 +54948,21 @@
       "neighborhood": "Back Bay"
     },
     {
+      "id": "ticketmaster:LvZ18Qcas_cmBNY1Z2Vb0",
+      "title": "Purple Pub Crawl",
+      "category": "other",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "The Little Gay Pub",
+      "start": "2026-11-21T17:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/purple-pub-crawl-tickets-FWBYL5?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 39.950184,
+      "lon": -75.162097,
+      "neighborhood": "Gayborhood"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Afuy17",
       "title": "The Player (1992)",
       "category": "other",
@@ -56554,6 +56168,28 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "jambase:16024039",
+      "title": "Metallica",
+      "category": "music",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Arena",
+      "start": "2026-11-21T20:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/metallica-mohegan-sun-arena-20261121",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2015/06/metallica-2026-press-1480x832.jpg",
+      "lat": 41.4916,
+      "lon": -72.0915,
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-21-2026/event/1D00647AA1E25998"
+        }
+      ],
+      "neighborhood": "Uncasville"
+    },
+    {
       "id": "ticketmaster:k7vGF_5CziriX",
       "title": "Ben Vereen's 80th Birthday Celebration",
       "category": "music",
@@ -56655,28 +56291,6 @@
       "lat": 41.0507831,
       "lon": -73.5395426,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16024039",
-      "title": "Metallica",
-      "category": "music",
-      "city": "Uncasville",
-      "state": "CT",
-      "venue": "Mohegan Sun Arena",
-      "start": "2026-11-21T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/metallica-mohegan-sun-arena-20261121",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/metallica-2026-press-1480x832.jpg",
-      "lat": 41.4916,
-      "lon": -72.0915,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-21-2026/event/1D00647AA1E25998"
-        }
-      ],
-      "neighborhood": "Uncasville"
     },
     {
       "id": "ticketmaster:G5vVZ_864tthl",
@@ -61849,38 +61463,6 @@
       "neighborhood": "Town Center"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1Afuyof",
-      "title": "Paper Moon (1973)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-11-26T17:15:00",
-      "isFree": false,
-      "priceMin": 7.45,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/paper-moon-1973-williams-center-cinema-tickets/14379454",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfCZa0",
-      "title": "Genius Party (2007)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-11-26T17:20:00",
-      "isFree": false,
-      "priceMin": 7.45,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/genius-party-2007-williams-center-cinema-tickets/14380264",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
-    },
-    {
       "id": "ticketmaster:rZ7HnEZ1AfjdOd",
       "title": "The People's Karaoke",
       "category": "other",
@@ -64166,6 +63748,22 @@
       "lon": -74.499199
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8dFV",
+      "title": "“DICE MOB PRESENTS: “FROM ASHES” FEATURING BOOGER",
+      "category": "music",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - CUG Cantina - Rutherford",
+      "start": "2026-11-28T14:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/dice-mob-presents-from-ashes-williams-center-cug-tickets/14403234",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfF7Pf",
       "title": "The Polar Express",
       "category": "other",
@@ -64180,22 +63778,6 @@
       "source": "ticketmaster",
       "lat": 40.68834,
       "lon": -75.19987
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Afuzb7",
-      "title": "“DICE MOB PRESENTS: “FROM ASHES” FEATURING BOOGER",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - CUG Cantina - Rutherford",
-      "start": "2026-11-28T14:00:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
-      "url": "https://www.ticketweb.com/event/dice-mob-presents-from-ashes-williams-center-cug-tickets/14378604",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PFev",
@@ -64284,6 +63866,35 @@
       "source": "ticketmaster",
       "lat": 39.950401,
       "lon": -75.146599,
+      "neighborhood": "Center City East"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAveFd",
+      "title": "Annie",
+      "category": "theater",
+      "city": "Lancaster",
+      "state": "PA",
+      "venue": "Fulton Opera House",
+      "start": "2026-11-28T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveFd",
+      "source": "ticketmaster",
+      "lat": 40.011501,
+      "lon": -76.355301
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_G2P6Imp",
+      "title": "Walnut Street Theatre's Disney's FROZEN The Broadway Musical",
+      "category": "theater",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Walnut Street Theatre",
+      "start": "2026-11-28T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/walnut-street-theatres-disneys-frozen-the-philadelphia-pennsylvania-11-28-2026/event/020064C3E51E8B96",
+      "source": "ticketmaster",
+      "lat": 39.9482621,
+      "lon": -75.1555148,
       "neighborhood": "Center City East"
     },
     {
@@ -64498,6 +64109,20 @@
       "lat": 42.26436,
       "lon": -71.798487,
       "neighborhood": "Central Business District"
+    },
+    {
+      "id": "ticketmaster:1AvbZ_KGkBRpze8",
+      "title": "Rain Athletics | Rain Reveal 2026 ",
+      "category": "other",
+      "city": "Moon Township",
+      "state": "PA",
+      "venue": "UPMC Events Center",
+      "start": "2026-11-28T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rain-athletics-rain-reveal-2026-moon-township-pennsylvania-11-28-2026/event/1600653EAF5B8090",
+      "source": "ticketmaster",
+      "lat": 40.520236,
+      "lon": -80.214785
     },
     {
       "id": "ticketmaster:1AvfZ_FGkIuhp28",
@@ -67197,7 +66822,7 @@
       "venue": "Hawthorne Gospel Church ",
       "start": "2026-12-01T19:00:00",
       "isFree": false,
-      "priceMin": 40.2,
+      "priceMin": 37.11,
       "priceMax": 121.6,
       "url": "https://www.ticketweb.com/event/steven-curtis-chapman-the-music-hawthorne-gospel-church-tickets/15045693",
       "source": "ticketmaster",
@@ -69587,9 +69212,9 @@
       "state": "NJ",
       "venue": "Delaware River Railroad Excursions (Polar Express Train Ride)",
       "start": "2026-12-04T18:00:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
+      "isFree": false,
+      "priceMin": 41.42,
+      "priceMax": 51.93,
       "url": "https://www.ticketweb.com/event/the-polar-express-delaware-river-railroad-excursions-polar-tickets/14205174",
       "source": "ticketmaster",
       "lat": 40.68834,
@@ -69891,6 +69516,105 @@
       "neighborhood": "Behind the Rocks"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ7Qk",
+      "title": "Charlie Brown Christmas (Touring)",
+      "category": "theater",
+      "city": "Lowell",
+      "state": "MA",
+      "venue": "Lowell Memorial Auditorium",
+      "start": "2026-12-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ7Qk",
+      "source": "ticketmaster",
+      "lat": 42.631699,
+      "lon": -71.2957,
+      "neighborhood": "South Lowell"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZY36",
+      "title": "UMass Minutemen Hockey vs. Northeastern Huskies Hockey",
+      "category": "sports",
+      "city": "Amherst",
+      "state": "MA",
+      "venue": "Mullins Center",
+      "start": "2026-12-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZY36",
+      "source": "ticketmaster",
+      "lat": 42.375198,
+      "lon": -72.521202,
+      "neighborhood": "Amherst Center"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfG34f",
+      "title": "MIKE TUCKER TUCKER ANTELL - FRIENDLY FIRE",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Scullers Jazz Club",
+      "start": "2026-12-04T19:00:00",
+      "isFree": false,
+      "priceMin": 42.45,
+      "priceMax": 65.35,
+      "url": "https://www.ticketweb.com/event/mike-tucker-tucker-antell-scullers-jazz-club-tickets/14312554",
+      "source": "ticketmaster",
+      "lat": 42.362857,
+      "lon": -71.118134,
+      "neighborhood": "Lower Allston"
+    },
+    {
+      "id": "ticketmaster:vv1AvZkC3Gkd2Wo0b",
+      "title": "Nikki Glaser: The Stunning Tour",
+      "category": "comedy",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "MGM Music Hall at Fenway",
+      "start": "2026-12-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/nikki-glaser-the-stunning-tour-boston-massachusetts-12-04-2026/event/01006392CFF51918",
+      "source": "ticketmaster",
+      "lat": 42.346806,
+      "lon": -71.097272,
+      "neighborhood": "West Fens"
+    },
+    {
+      "id": "ticketmaster:vv1AvZkf7GkdQtrPh",
+      "title": "Thee Sinseers: Love Stories Tour (18+)",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Brighton Music Hall presented by Citizens",
+      "start": "2026-12-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/thee-sinseers-love-stories-tour-18-boston-massachusetts-12-04-2026/event/01006504DAA5E95B",
+      "source": "ticketmaster",
+      "lat": 42.3528999,
+      "lon": -71.1326128,
+      "neighborhood": "Commonwealth"
+    },
+    {
+      "id": "jambase:16465123",
+      "title": "Dexter and The Moonrocks",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Citizens House of Blues Boston",
+      "start": "2026-12-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.jambase.com/show/dexter-and-the-moonrocks-citizens-house-of-blues-boston-20261204",
+      "source": "jambase",
+      "image": "https://www.jambase.com/wp-content/uploads/2023/02/dexter-and-the-moonrocks-1480x832.png",
+      "lat": 42.3474,
+      "lon": -71.0957,
+      "neighborhood": "West Fens",
+      "altTicketLinks": [
+        {
+          "source": "ticketmaster",
+          "url": "https://www.ticketmaster.com/dexter-and-the-moonrocks-boston-massachusetts-12-04-2026/event/010064C4A79158F5"
+        }
+      ]
+    },
+    {
       "id": "ticketmaster:1A4ZkfAGkexDADr",
       "title": "A Christmas Carol",
       "category": "theater",
@@ -70054,22 +69778,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "jambase:16465123",
-      "title": "Dexter and The Moonrocks",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Citizens House of Blues Boston",
-      "start": "2026-12-04T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/dexter-and-the-moonrocks-citizens-house-of-blues-boston-20261204",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/02/dexter-and-the-moonrocks-1480x832.png",
-      "lat": 42.3474,
-      "lon": -71.0957,
-      "neighborhood": "West Fens"
-    },
-    {
       "id": "jambase:15944310",
       "title": "Chris Smither",
       "category": "music",
@@ -70083,6 +69791,21 @@
       "image": "https://www.jambase.com/wp-content/uploads/2015/06/chris-smither-profile-1480x832.jpg",
       "lat": 42.3189,
       "lon": -72.6317
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7JFaY",
+      "title": "Springfield Thunderbirds vs. Providence Bruins",
+      "category": "sports",
+      "city": "Springfield",
+      "state": "MA",
+      "venue": "MassMutual Center",
+      "start": "2026-12-04T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFaY",
+      "source": "ticketmaster",
+      "lat": 42.102501,
+      "lon": -72.591599,
+      "neighborhood": "Metro Center"
     },
     {
       "id": "ticketmaster:G5vVZ_8S7vyHL",
@@ -70215,6 +69938,51 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:vv1AvZkfYGkesPk8Y",
+      "title": "Sisters Christmas Catechism",
+      "category": "theater",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Charles Playhouse Theater 2",
+      "start": "2026-12-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sisters-christmas-catechism-boston-massachusetts-12-04-2026/event/01006530B1946430",
+      "source": "ticketmaster",
+      "lat": 42.34995971,
+      "lon": -71.06615514,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv1AvZkoyGkdn0R7v",
+      "title": "Gianmarco Soresi: The Misery Loves Tour",
+      "category": "comedy",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "The Wilbur",
+      "start": "2026-12-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/gianmarco-soresi-the-misery-loves-tour-boston-massachusetts-12-04-2026/event/01006479EA92F101",
+      "source": "ticketmaster",
+      "lat": 42.3504843,
+      "lon": -71.065086,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vvG17Z_CNt822C",
+      "title": "Cirque Dreams Holidaze",
+      "category": "theater",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Boch Center Shubert Theatre",
+      "start": "2026-12-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cirque-dreams-holidaze-boston-massachusetts-12-04-2026/event/010064E8E940F3CE",
+      "source": "ticketmaster",
+      "lat": 42.353068,
+      "lon": -71.0765188,
+      "neighborhood": "Back Bay"
     },
     {
       "id": "ticketmaster:1kA8v0-zGAGG0LG",
@@ -70600,6 +70368,51 @@
       "source": "ticketmaster",
       "lat": 41.8889356,
       "lon": -71.4478764
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7071k",
+      "title": "Streetlight Manifesto",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Roadrunner-Boston",
+      "start": "2026-12-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7071k",
+      "source": "ticketmaster",
+      "lat": 42.3489,
+      "lon": -71.156502,
+      "neighborhood": "Brighton"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70Uug",
+      "title": "Dresden Dolls",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Emerson Colonial Theatre",
+      "start": "2026-12-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Uug",
+      "source": "ticketmaster",
+      "lat": 42.349602,
+      "lon": -71.075302,
+      "neighborhood": "Prudential / St. Botolph"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PVOa",
+      "title": "Karina Rykman",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "The Sinclair Music Hall",
+      "start": "2026-12-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVOa",
+      "source": "ticketmaster",
+      "lat": 42.380199,
+      "lon": -71.134697,
+      "neighborhood": "West Cambridge"
     },
     {
       "id": "ticketmaster:1A4ZkfoGkdyKHXv",
@@ -74619,6 +74432,21 @@
       "neighborhood": "Potomac West"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7F1K",
+      "title": "Good Shot Judy Presents: A Crooner???s Christmas",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "Paramount Theater - VA",
+      "start": "2026-12-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7F1K",
+      "source": "ticketmaster",
+      "lat": 38.025002,
+      "lon": -78.476097,
+      "neighborhood": "Belmont"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZNFx",
       "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
       "category": "theater",
@@ -78572,21 +78400,6 @@
       "lon": -75.550253
     },
     {
-      "id": "ticketmaster:1A4Zk44Gkd4gGth",
-      "title": "Sami Beigi",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "DAR Constitution Hall",
-      "start": "2026-12-12T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/sami-beigi-washington-district-of-columbia-12-12-2026/event/15006555D5D4CA5B",
-      "source": "ticketmaster",
-      "lat": 38.89423638,
-      "lon": -77.04092216,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7PwGY",
       "title": "Joe Jordan w/ Blake Tyler",
       "category": "music",
@@ -81117,6 +80930,22 @@
       "source": "ticketmaster",
       "lat": 40.22328639,
       "lon": -73.99950139
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1Af8eqf",
+      "title": "CUG's Movie Trivia Night",
+      "category": "other",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Cinema Underground - Rutherford",
+      "start": "2026-12-17T19:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/cugs-movie-trivia-night-williams-center-cinema-tickets/14402754",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PtvJ",
@@ -87350,6 +87179,20 @@
       "lon": -74.4455451
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAe74y",
+      "title": "Mary Poppins (Touring)",
+      "category": "theater",
+      "city": "Millburn",
+      "state": "NJ",
+      "venue": "Paper Mill Playhouse",
+      "start": "2026-12-30T13:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe74y",
+      "source": "ticketmaster",
+      "lat": 40.7229,
+      "lon": -74.300598
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAv_ft",
       "title": "Shen Yun",
       "category": "theater",
@@ -87439,6 +87282,20 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:G5vVZ_8tTb3tS",
+      "title": "Kidz Bop",
+      "category": "theater",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "venue": "Dream Live at American Dream",
+      "start": "2026-12-30T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/kidz-bop-east-rutherford-new-jersey-12-30-2026/event/1D00650A7F612A73",
+      "source": "ticketmaster",
+      "lat": 40.80969,
+      "lon": -74.06804
+    },
+    {
       "id": "ticketmaster:Z1r9uZrrZCuZ1AvPMZg",
       "title": "Hamilton",
       "category": "theater",
@@ -87466,6 +87323,20 @@
       "source": "ticketmaster",
       "lat": 38.8330513,
       "lon": -77.3098503
+    },
+    {
+      "id": "ticketmaster:vv17FZ_oGkmnqmf5",
+      "title": "They Might Be Giants - All The Best!",
+      "category": "music",
+      "city": "Montclair",
+      "state": "NJ",
+      "venue": "The Wellmont Theater",
+      "start": "2026-12-30T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/they-might-be-giants-all-the-montclair-new-jersey-12-30-2026/event/0200651BAA76E50B",
+      "source": "ticketmaster",
+      "lat": 40.8124988,
+      "lon": -74.2165153
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAed7K",
@@ -95010,6 +94881,20 @@
       "neighborhood": "Arlington Heights Historic District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvV-a",
+      "title": "Red Grant",
+      "category": "theater",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Funny Bone Comedy Club - Richmond",
+      "start": "2027-01-29T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV-a",
+      "source": "ticketmaster",
+      "lat": 37.615799,
+      "lon": -77.636398
+    },
+    {
       "id": "ticketmaster:vv177Z_oGkml-sBo",
       "title": "Maine Celtics vs. College Park Skyhawks",
       "category": "sports",
@@ -95423,6 +95308,20 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvV-6",
+      "title": "Red Grant",
+      "category": "theater",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Funny Bone Comedy Club - Richmond",
+      "start": "2027-01-30T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV-6",
+      "source": "ticketmaster",
+      "lat": 37.615799,
+      "lon": -77.636398
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvtPw",
@@ -96419,20 +96318,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:vv1A8vPf-GAuD1nr",
-      "title": "VSU Basketball DH vs Fayetteville State University",
-      "category": "other",
-      "city": "Petersburg",
-      "state": "VA",
-      "venue": "VSU Multi-Purpose Center",
-      "start": "2027-02-04T17:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/vsu-basketball-dh-vs-fayetteville-state-petersburg-virginia-02-04-2027/event/010065521DECAA9E",
-      "source": "ticketmaster",
-      "lat": 37.2279279,
-      "lon": -77.4019267
     },
     {
       "id": "ticketmaster:1A4Zk4FGkdRucjJ",
@@ -99141,6 +99026,20 @@
       "lon": -76.952797
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAeoGJ",
+      "title": "Harlem Globetrotters",
+      "category": "sports",
+      "city": "Bel Air",
+      "state": "MD",
+      "venue": "APG Federal Credit Union Arena",
+      "start": "2027-02-17T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGJ",
+      "source": "ticketmaster",
+      "lat": 39.547501,
+      "lon": -76.297501
+    },
+    {
       "id": "ticketmaster:1A4ZkfAGkdbNBam",
       "title": "Wizards v Heat (Cherry Blossom Sling Bag - First 10K Fans)",
       "category": "sports",
@@ -100411,23 +100310,6 @@
       "neighborhood": "Inner Harbor"
     },
     {
-      "id": "jambase:16244398",
-      "title": "Olivia Rodrigo",
-      "category": "music",
-      "city": "New York",
-      "state": "NY",
-      "borough": "Brooklyn",
-      "neighborhood": "Prospect Heights",
-      "venue": "Barclays Center",
-      "start": "2027-02-24T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/olivia-rodrigo-barclays-center-20270224",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/02/olivia-rodrigo-press-2026-1480x832.jpg",
-      "lat": 40.6835,
-      "lon": -73.9761
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAee_O",
       "title": "Rhiannon Giddens",
       "category": "music",
@@ -101534,6 +101416,20 @@
       "lon": -72.913803
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAeoJZ",
+      "title": "Harlem Globetrotters",
+      "category": "sports",
+      "city": "Newark",
+      "state": "DE",
+      "venue": "Bob Carpenter Center",
+      "start": "2027-02-28T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoJZ",
+      "source": "ticketmaster",
+      "lat": 39.714401,
+      "lon": -75.7397
+    },
+    {
       "id": "ticketmaster:17A8v0G6uMo0zLa",
       "title": "A Song Flung Up to Heaven: Honoring 65 Years of The Washington Chorus",
       "category": "music",
@@ -101789,6 +101685,20 @@
       "lat": 41.768353,
       "lon": -72.676384,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAeoJv",
+      "title": "Harlem Globetrotters",
+      "category": "sports",
+      "city": "Salisbury",
+      "state": "MD",
+      "venue": "Wicomico Civic Center",
+      "start": "2027-03-03T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoJv",
+      "source": "ticketmaster",
+      "lat": 38.3596,
+      "lon": -75.570503
     },
     {
       "id": "ticketmaster:17A8v0G62ZMtX-C",
@@ -102871,6 +102781,36 @@
       "neighborhood": "Allston"
     },
     {
+      "id": "ticketmaster:16vfZ_fFEG7mdpA",
+      "title": "Nickelback: Everything Under The Sun Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Capital One Arena",
+      "start": "2027-03-08T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-washington-district-of-columbia-03-08-2027/event/1500654227B83585",
+      "source": "ticketmaster",
+      "lat": 38.897412,
+      "lon": -77.020029,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_fGki5EcBh",
+      "title": "United Globe Concert Access-Nickelback (EVENT TICKET NOT INCLUDED)",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Capital One Arena",
+      "start": "2027-03-08T18:31:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/united-globe-concert-accessnickelback-event-ticket-washington-district-of-columbia-03-08-2027/event/1500654B0B9EDE9B",
+      "source": "ticketmaster",
+      "lat": 38.897412,
+      "lon": -77.020029,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:vv1AeZkfMGkexqysz",
       "title": "Dropkick Murphys",
       "category": "music",
@@ -102898,6 +102838,51 @@
       "lat": 43.6555,
       "lon": -70.2591,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:17A8v0G62ZMnX-3",
+      "title": "Capitals vs Flames (Salute to the Military)",
+      "category": "sports",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Capital One Arena",
+      "start": "2027-03-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/capitals-vs-flames-salute-to-the-washington-district-of-columbia-03-09-2027/event/150064F037ABE852",
+      "source": "ticketmaster",
+      "lat": 38.897412,
+      "lon": -77.020029,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GktXTwMB",
+      "title": "Washington Capitals VIP Tickets: 03/09/27",
+      "category": "sports",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Capital One Arena",
+      "start": "2027-03-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.gofevo.com/event/Capitals25220260109-1415010131",
+      "source": "ticketmaster",
+      "lat": 38.897412,
+      "lon": -77.020029,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_KGkSNlRq_",
+      "title": "Twin Temple: Doomed Lovers Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2027-03-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/twin-temple-doomed-lovers-tour-washington-district-of-columbia-03-09-2027/event/1500653CE3AEF759",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZ_PN",
@@ -102943,6 +102928,21 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:17A8v0G6GmR0lC4",
+      "title": "Polyphia: BE NOT AFRAID World Tour ",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Echostage",
+      "start": "2027-03-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+      "source": "ticketmaster",
+      "lat": 38.91984858,
+      "lon": -76.97281793,
+      "neighborhood": "Northeast Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvs_F",
@@ -103136,6 +103136,23 @@
       "lat": 41.318298,
       "lon": -72.926399,
       "neighborhood": "Dixwell"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfCvu7",
+      "title": "Darcy & Jer: Average At Best Tour",
+      "category": "comedy",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Howard Theatre",
+      "start": "2027-03-10T20:00:00",
+      "isFree": false,
+      "priceMin": 48.73,
+      "priceMax": 174.39,
+      "url": "https://www.ticketweb.com/event/darcy-jer-average-at-howard-theatre-tickets/14381344",
+      "source": "ticketmaster",
+      "lat": 38.9153136,
+      "lon": -77.0210937,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70kkd",
@@ -103906,6 +103923,18 @@
       "lat": 41.4915974,
       "lon": -72.0914563,
       "neighborhood": "Uncasville"
+    },
+    {
+      "id": "todaytix:47457",
+      "title": "Old Actress",
+      "category": "theater",
+      "borough": "Manhattan",
+      "venue": "Atlantic Theater Company - Linda Gross Theater",
+      "start": "2027-03-18T19:30:00",
+      "isFree": false,
+      "priceMin": 58,
+      "url": "https://www.todaytix.com/nyc/shows/old-actress",
+      "source": "todaytix"
     },
     {
       "id": "todaytix:47758",
@@ -105311,6 +105340,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tka",
+      "title": "Wilmington Blue Rocks vs. Winston-Salem Dash",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-06T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tka",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvUa3",
       "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
       "category": "sports",
@@ -105353,6 +105396,20 @@
       "lat": 39.28763705,
       "lon": -76.60719037,
       "neighborhood": "Inner Harbor"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tk8",
+      "title": "Wilmington Blue Rocks vs. Winston-Salem Dash",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-07T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tk8",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:17A8v0G6GkWL5Fy",
@@ -105424,6 +105481,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tko",
+      "title": "Wilmington Blue Rocks vs. Winston-Salem Dash",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-08T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tko",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:vv177Z_fGkXgYXqN",
@@ -105525,6 +105596,20 @@
       "lat": 43.6555,
       "lon": -70.2591,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tk3",
+      "title": "Wilmington Blue Rocks vs. Winston-Salem Dash",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-09T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tk3",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7JFb8",
@@ -105644,6 +105729,20 @@
       "lat": 39.170101,
       "lon": -76.7201,
       "neighborhood": "Hanover"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tkK",
+      "title": "Wilmington Blue Rocks vs. Winston-Salem Dash",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-10T15:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tkK",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:vvG17Z_CBB26GE",
@@ -105792,6 +105891,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tkf",
+      "title": "Wilmington Blue Rocks vs. Winston-Salem Dash",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-11T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tkf",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:vvG17Z_CBB86Gm",
@@ -106342,6 +106455,20 @@
       "lon": -73.502403
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tk4",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-20T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tk4",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4a",
       "title": "Chesapeake Baysox vs. Harrisburg Senators",
       "category": "sports",
@@ -106398,6 +106525,20 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tkp",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-21T11:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tkp",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZYoP",
@@ -106473,6 +106614,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tk9",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-22T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tk9",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "todaytix:47756",
       "title": "Anne Teresa De Keersmaeker: Il Cimento dell’Armonia e dell’Inventione",
       "category": "theater",
@@ -106529,6 +106684,20 @@
       "source": "ticketmaster",
       "lat": 39.4029686,
       "lon": -76.5622415
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tkb",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-23T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tkb",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvUaK",
@@ -106664,6 +106833,20 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tk_",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-24T15:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tk_",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvUab",
       "title": "Chesapeake Baysox vs. Harrisburg Senators",
       "category": "sports",
@@ -106751,6 +106934,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFZ",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-25T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFZ",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PspZ",
       "title": "Radio Golf",
       "category": "theater",
@@ -106779,6 +106976,34 @@
       "lat": 39.276802,
       "lon": -76.625641,
       "neighborhood": "Carroll - Camden Industrial Area"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFv",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-27T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFv",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFe",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-28T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFe",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "todaytix:46911",
@@ -106837,6 +107062,20 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFd",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-29T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFd",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZOZp",
       "title": "Radio Golf",
       "category": "theater",
@@ -106850,6 +107089,20 @@
       "lat": 41.766499,
       "lon": -72.673103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tF7",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-04-30T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF7",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7x_ZE",
@@ -106987,6 +107240,20 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFA",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-01T15:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFA",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7x_Z0",
       "title": "The Book of Mormon (Touring)",
       "category": "theater",
@@ -107015,6 +107282,20 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFk",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-02T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFk",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZOZO",
@@ -107554,6 +107835,34 @@
       "neighborhood": "North Meadows"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tF6",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-11T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF6",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFF",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-12T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFF",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "todaytix:48210",
       "title": "Paris Opera Ballet",
       "category": "theater",
@@ -107578,6 +107887,20 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFa",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-13T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFa",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:vvG17Z_5KsdSPu",
@@ -107609,6 +107932,20 @@
       "lon": -75.069073
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tF8",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-14T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF8",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:vvG17Z_u6m7-v3",
       "title": "Jeff Arcuri: The Road Trip Tour",
       "category": "comedy",
@@ -107636,6 +107973,20 @@
       "source": "ticketmaster",
       "lat": 38.3779123,
       "lon": -75.069073
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFo",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-15T15:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFo",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PY0k",
@@ -107754,6 +108105,20 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tF3",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-16T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF3",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:G5vVZ_3BmHSON",
@@ -108148,6 +108513,20 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFK",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-25T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFK",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "todaytix:48288",
       "title": "Phil",
       "category": "theater",
@@ -108174,6 +108553,20 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFf",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-26T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFf",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvVGY",
       "title": "Nothing Up My Sleeve",
       "category": "other",
@@ -108187,6 +108580,20 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tF4",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-27T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF4",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "todaytix:47466",
@@ -108227,6 +108634,20 @@
       "source": "ticketmaster",
       "lat": 44.487202,
       "lon": -73.227798
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFp",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-28T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFp",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PgAZ",
@@ -108301,6 +108722,20 @@
       "source": "cityparks"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tF9",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-29T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF9",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:G5vVZ_2UsE_Jo",
       "title": "Leonid & Friends",
       "category": "music",
@@ -108343,6 +108778,20 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFb",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-05-30T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFb",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZ_J6",
@@ -109026,6 +109475,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tF_",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-15T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF_",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvVuK",
       "title": "Nothing Up My Sleeve",
       "category": "other",
@@ -109053,6 +109516,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFO",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-16T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFO",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PgA6",
@@ -109099,6 +109576,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tF-",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-17T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF-",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:vv1AvZk46GkdKuPBm",
       "title": "Jimmy Carr: Killing Jokes",
       "category": "comedy",
@@ -109127,6 +109618,20 @@
       "lat": 41.766499,
       "lon": -72.673103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFx",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-18T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFx",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:vv1AvZkfsGke-eLVi",
@@ -109217,6 +109722,20 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFN",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-19T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFN",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4I",
       "title": "Chesapeake Baysox vs. Akron RubberDucks",
       "category": "sports",
@@ -109302,6 +109821,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tF0",
+      "title": "Wilmington Blue Rocks vs. Hudson Valley Renegades",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-20T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tF0",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7Pg7y",
@@ -109535,6 +110068,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFP",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-06-30T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFP",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4s",
       "title": "Chesapeake Baysox vs. Somerset Patriots",
       "category": "sports",
@@ -109547,6 +110094,34 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFJ",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-01T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFJ",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFE",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-02T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFE",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvUap",
@@ -109563,6 +110138,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFI",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-03T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFI",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvUao",
       "title": "Chesapeake Baysox vs. Somerset Patriots",
       "category": "sports",
@@ -109577,6 +110166,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFt",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-04T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFt",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvUak",
       "title": "Chesapeake Baysox vs. Somerset Patriots",
       "category": "sports",
@@ -109589,6 +110192,90 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFY",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-06T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFY",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFs",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-07T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFs",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFw",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-08T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFw",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFS",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-09T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFS",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFV",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-10T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFV",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFg",
+      "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-11T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFg",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:vv1AvZk4FGkd3eVW-",
@@ -109905,6 +110592,20 @@
       "lon": -71.412946
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFU",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-27T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFU",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4g",
       "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
       "category": "sports",
@@ -109917,6 +110618,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFM",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-28T11:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFM",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4U",
@@ -109947,6 +110662,34 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tFz",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-29T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFz",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tFy",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-30T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tFy",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4z",
       "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
       "category": "sports",
@@ -109959,6 +110702,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7taZ",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-07-31T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7taZ",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4y",
@@ -109987,6 +110744,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tav",
+      "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-01T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tav",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvMbx",
@@ -110087,6 +110858,20 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7tae",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-10T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tae",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7Ppe",
       "title": "Chesapeake Baysox vs. Erie Sea Wolves",
       "category": "sports",
@@ -110099,6 +110884,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tad",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-11T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tad",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7Ppd",
@@ -110115,6 +110914,34 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7ta7",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-12T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ta7",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7taA",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-13T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7taA",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7Pp7",
       "title": "Chesapeake Baysox vs. Erie Sea Wolves",
       "category": "sports",
@@ -110127,6 +110954,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tak",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-14T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tak",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7PpA",
@@ -110155,6 +110996,20 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7ta6",
+      "title": "Wilmington Blue Rocks vs. Frederick Keys",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-15T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ta6",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvUa6",
@@ -110323,6 +111178,90 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7taF",
+      "title": "Wilmington Blue Rocks vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-24T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7taF",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7taa",
+      "title": "Wilmington Blue Rocks vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-25T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7taa",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7ta8",
+      "title": "Wilmington Blue Rocks vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-26T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ta8",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7tao",
+      "title": "Wilmington Blue Rocks vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-27T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tao",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7ta3",
+      "title": "Wilmington Blue Rocks vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-28T18:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ta3",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7taK",
+      "title": "Wilmington Blue Rocks vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "Frawley Stadium",
+      "start": "2027-08-29T13:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7taK",
+      "source": "ticketmaster",
+      "lat": 39.722,
+      "lon": -75.538597
     },
     {
       "id": "todaytix:48064",
