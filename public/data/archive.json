@@ -1,524 +1,7 @@
 {
-  "generatedAt": "2026-10-30T02:14:27.048Z",
-  "count": 7401,
+  "generatedAt": "2026-10-30T16:50:55.587Z",
+  "count": 7385,
   "events": [
-    {
-      "id": "jambase:16394191",
-      "title": "Sarah Levecque",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Sanctuary",
-      "start": "2026-10-29T17:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/sarah-levecque-sanctuary-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.4317,
-      "lon": -71.4536,
-      "neighborhood": "Maynard"
-    },
-    {
-      "id": "jambase:16383397",
-      "title": "Periphery",
-      "category": "music",
-      "city": "McKees Rocks",
-      "state": "PA",
-      "venue": "Roxian Theatre",
-      "start": "2026-10-29T17:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/periphery-roxian-theatre-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/periphery-periphery-2bc6e23b-35c0-456f-bcef-33a79e5b713a_282131_RETINA_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 40.4646,
-      "lon": -80.059
-    },
-    {
-      "id": "jambase:16259627",
-      "title": "Marc “Skippy” Price",
-      "category": "music",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center",
-      "start": "2026-10-29T18:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/marc-skippy-price-williams-center-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/05/marc-8220skippy8221-price-8211-williams-center-8211-20261029-1480x832.png",
-      "lat": 40.8272,
-      "lon": -74.1033
-    },
-    {
-      "id": "jambase:16439572",
-      "title": "Dana and Alden",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-10-29T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/dana-and-alden-the-atlantis-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/09/dana-and-alden-1480x832.png",
-      "lat": 38.9182,
-      "lon": -77.0236,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:15987554",
-      "title": "Carsie Blanton",
-      "category": "music",
-      "city": "Providence",
-      "state": "RI",
-      "venue": "Alchemy",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/carsie-blanton-alchemy-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 41.8178,
-      "lon": -71.4097,
-      "neighborhood": "Jewelry District"
-    },
-    {
-      "id": "jambase:16336703",
-      "title": "John Summit",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "TD Garden",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/john-summit-td-garden-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/05/john-summit-press-may-2026-1480x832.jpg",
-      "lat": 42.3584,
-      "lon": -71.0598,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:15876379",
-      "title": "Geoffrey Keezer",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Regattabar",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/geoffrey-keezer-regattabar-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3723,
-      "lon": -71.1222,
-      "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "jambase:16536833",
-      "title": "Ak’chamel",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Deep Cuts",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/akchamel-deep-cuts-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.4363,
-      "lon": -71.1322
-    },
-    {
-      "id": "jambase:16311593",
-      "title": "In Her Own Words",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Crafthouse Stage & Grill",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/in-her-own-words-crafthouse-stage-grill-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.3501,
-      "lon": -79.9965
-    },
-    {
-      "id": "jambase:16390443",
-      "title": "They Are Gutting a Body of Water",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Ottobar",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/they-are-gutting-a-body-of-water-ottobar-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/02/they-are-gutting-a-body-of-water-1480x832.png",
-      "lat": 39.3188,
-      "lon": -76.6197,
-      "neighborhood": "Charles Village"
-    },
-    {
-      "id": "jambase:16547066",
-      "title": "Hawthorne Heights",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Baltimore Soundstage",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/hawthorne-heights-baltimore-soundstage-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/hawthorne-heights-ticketmaster-ram-1480x832.jpg",
-      "lat": 39.2876,
-      "lon": -76.6068,
-      "neighborhood": "Inner Harbor"
-    },
-    {
-      "id": "jambase:16312516",
-      "title": "MICO",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 Club",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/mico-930-club-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9179,
-      "lon": -77.0237,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16522294",
-      "title": "Josh Ritter",
-      "category": "music",
-      "city": "Keene",
-      "state": "NH",
-      "venue": "Colonial Theatre Keene",
-      "start": "2026-10-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/josh-ritter-colonial-theatre-keene-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/06/josh-ritter-june-2025-press-jake-magraw-1480x832.jpg",
-      "lat": 42.9315,
-      "lon": -72.2783
-    },
-    {
-      "id": "jambase:16547222",
-      "title": "Built to Spill",
-      "category": "music",
-      "city": "Norwalk",
-      "state": "CT",
-      "venue": "District Music Hall",
-      "start": "2026-10-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/built-to-spill-district-music-hall-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/03/built-to-spill-2025-press-lilah-edwardmelanie-radford-002-1480x832.jpg",
-      "lat": 41.1175,
-      "lon": -73.4138,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P04S"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16535813",
-      "title": "Boney James",
-      "category": "music",
-      "city": "Washington",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-10-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/boney-james-birchmere-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/boney-james-boney-james-48e4e259-49b5-4523-a99f-580334d60ff6_83421_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 38.8386,
-      "lon": -77.0616,
-      "neighborhood": "Potomac West",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/boney-james-alexandria-virginia-10-29-2026/event/150064C9A32DAD3A"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16334374",
-      "title": "Mariza",
-      "category": "music",
-      "city": "Princeton",
-      "state": "NJ",
-      "venue": "McCarter Theatre Center – Matthews Theater",
-      "start": "2026-10-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/mariza-mccarter-theatre-center-matthews-theater-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/mariza-mariza-6bcad69b-2e37-4343-a513-d9d89e7c7466_110621_RETINA_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 40.3442,
-      "lon": -74.6606
-    },
-    {
-      "id": "jambase:16267006",
-      "title": "Journey",
-      "category": "music",
-      "city": "Providence",
-      "state": "RI",
-      "venue": "Amica Mutual Pavilion",
-      "start": "2026-10-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/journey-amica-mutual-pavilion-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/11/journey-press-2026-brian-ach-1480x832.jpg",
-      "lat": 41.8235,
-      "lon": -71.4182,
-      "neighborhood": "Downtown Providence"
-    },
-    {
-      "id": "jambase:16042779",
-      "title": "Get The Led Out",
-      "category": "music",
-      "city": "Englewood",
-      "state": "NJ",
-      "venue": "Bergen Performing Arts Center",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/get-the-led-out-bergen-performing-arts-center-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/get-the-led-out-get-the-led-out-aee78bc4-5372-4220-badc-dc2fee92c614_249961_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 40.8954,
-      "lon": -73.9751,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/get-the-led-out-englewood-new-jersey-10-29-2026/event/000064878C4E72F7"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16485330",
-      "title": "Toad the Wet Sprocket",
-      "category": "music",
-      "city": "Ridgefield",
-      "state": "CT",
-      "venue": "Ridgefield Playhouse",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/toad-the-wet-sprocket-ridgefield-playhouse-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/toad-the-wet-sprocket-1480x832.png",
-      "lat": 41.2823,
-      "lon": -73.4928,
-      "neighborhood": "Ridgefield",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PFkv"
-        }
-      ]
-    },
-    {
-      "id": "jambase:15608952",
-      "title": "Mike Dawes",
-      "category": "music",
-      "city": "Elkton",
-      "state": "MD",
-      "venue": "Elkton Music Hall",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/mike-dawes-elkton-music-hall-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 39.6081,
-      "lon": -75.8303,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mpk"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16176948",
-      "title": "Eivør",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Howard Theatre",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/eivor-howard-theatre-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/eivor-eivor-8c95df0a-e750-4c28-80a6-93010ab4a0eb_262281_RETINA_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 38.9154,
-      "lon": -77.0211,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketweb.com/event/eivr-howard-theatre-tickets/14878953"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16230146",
-      "title": "Scott Bradlee’s Postmodern Jukebox",
-      "category": "music",
-      "city": "Albany",
-      "state": "NY",
-      "venue": "Troy Savings Bank Music Hall",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/scott-bradlees-postmodern-jukebox-troy-savings-bank-music-hall-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/08/scott-bradlees-post-modern-jukebox-press-2025-1480x832.jpg",
-      "lat": 42.7303,
-      "lon": -73.6928
-    },
-    {
-      "id": "jambase:16246868",
-      "title": "The Mavericks",
-      "category": "music",
-      "city": "Morristown",
-      "state": "NJ",
-      "venue": "Mayo Performing Arts Center",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-mavericks-mayo-performing-arts-center-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/the-mavericks-ticketmaster-ram-1480x832.jpg",
-      "lat": 40.7943,
-      "lon": -74.478
-    },
-    {
-      "id": "jambase:16513446",
-      "title": "The Army, The Navy",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Foundry at The Fillmore",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-army-the-navy-the-foundry-at-the-fillmore-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/09/the-army-the-navy-1480x832.png",
-      "lat": 39.9656,
-      "lon": -75.1351,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "jambase:16523572",
-      "title": "Vince Staples",
-      "category": "music",
-      "city": "Washington",
-      "state": "MD",
-      "venue": "The Fillmore Silver Spring",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/vince-staples-the-fillmore-silver-spring-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/06/vince-staples-2026-press-1480x832.jpg",
-      "lat": 38.9974,
-      "lon": -77.0276,
-      "neighborhood": "Downtown Silver Spring"
-    },
-    {
-      "id": "jambase:16019784",
-      "title": "Baby Bugs",
-      "category": "music",
-      "city": "Washington",
-      "state": "VA",
-      "venue": "Jammin’ Java",
-      "start": "2026-10-29T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/baby-bugs-elliot-lee-jammin-java-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/05/baby-bugs-1480x832.png",
-      "lat": 38.9041,
-      "lon": -77.2625,
-      "neighborhood": "Hunter Mill District"
-    },
-    {
-      "id": "jambase:16223230",
-      "title": "Blake Whiten",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sinclair",
-      "start": "2026-10-29T20:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/blake-whiten-the-sinclair-20261029",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3741,
-      "lon": -71.1208,
-      "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1IJnwh",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-10-30T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-10-30-2026/event/00006452A89AAC9B",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:LvZ18Qn6uZL7wQq_CwAIA",
-      "title": "The Sports Museum Tour",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sports Museum",
-      "start": "2026-10-30T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.36606,
-      "lon": -71.060956,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:k7vGF_fXkAJCs",
-      "title": "Belmont Park - General Admission",
-      "category": "sports",
-      "city": "Elmont",
-      "state": "NY",
-      "venue": "Belmont Park",
-      "start": "2026-10-30T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/belmont-park-general-admission-elmont-new-york-10-30-2026/event/0000654F861663B1",
-      "source": "ticketmaster",
-      "lat": 40.708328,
-      "lon": -73.717618,
-      "neighborhood": "Alden Manor"
-    },
-    {
-      "id": "ticketmaster:vvG1FZ_GnsRL0T",
-      "title": "Disney On Ice presents Spotlight Magic!",
-      "category": "other",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "Prudential Center",
-      "start": "2026-10-30T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/disney-on-ice-presents-spotlight-magic-newark-new-jersey-10-30-2026/event/020064CAB1BDF93F",
-      "source": "ticketmaster",
-      "lat": 40.73340555,
-      "lon": -74.17121214,
-      "neighborhood": "Central Ward"
-    },
     {
       "id": "jambase:16471477",
       "title": "Adam Ezra Group",
@@ -534,6 +17,21 @@
       "lat": 42.8937,
       "lon": -78.8754,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:LvZ18Qn6uZL7wQq_CwAIF",
+      "title": "The Sports Museum Tour",
+      "category": "sports",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "The Sports Museum",
+      "start": "2026-10-30T13:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 42.36606,
+      "lon": -71.060956,
+      "neighborhood": "West End"
     },
     {
       "id": "ticketmaster:vv17FZ_fGkz4fPAu",
@@ -1174,6 +672,21 @@
       "source": "ticketmaster",
       "lat": 39.359944,
       "lon": -74.420138
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_Gnsl20f",
+      "title": "Disney On Ice presents Spotlight Magic!",
+      "category": "other",
+      "city": "Newark",
+      "state": "NJ",
+      "venue": "Prudential Center",
+      "start": "2026-10-30T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/disney-on-ice-presents-spotlight-magic-newark-new-jersey-10-30-2026/event/020064CAB1ACF914",
+      "source": "ticketmaster",
+      "lat": 40.73340555,
+      "lon": -74.17121214,
+      "neighborhood": "Central Ward"
     },
     {
       "id": "ticketmaster:G5vVZ_71KovIZ",
@@ -2411,6 +1924,20 @@
       "source": "ticketmaster",
       "lat": 37.615799,
       "lon": -77.636398
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PgAp",
+      "title": "Foghat",
+      "category": "music",
+      "city": "Hopewell",
+      "state": "VA",
+      "venue": "Beacon Theatre - Hopewell",
+      "start": "2026-10-30T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgAp",
+      "source": "ticketmaster",
+      "lat": 37.276001,
+      "lon": -77.217003
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZZAE",
@@ -6906,7 +6433,7 @@
       "start": "2026-10-31T20:00:00",
       "isFree": false,
       "priceMin": 15.07,
-      "priceMax": 72.33,
+      "priceMax": 89.13,
       "url": "https://www.ticketweb.com/event/halloween-2026-long-mulcahys-tickets/14336774",
       "source": "ticketmaster",
       "lat": 40.6723969,
@@ -10435,14 +9962,29 @@
     },
     {
       "id": "ticketmaster:LvZ18QErUwnWDxhHy3XLk",
-      "title": "Ana Castela Boston | After Party | November 1st",
+      "title": "Ana Castela Boston | After Party | November 1st @ Studio B Boston",
       "category": "music",
       "city": "Boston",
       "state": "MA",
       "venue": "Big Night Live",
       "start": "2026-11-01T21:00:00",
       "isFree": false,
-      "url": "https://www.universe.com/events/ana-castela-boston-after-party-november-1st-tickets-K9P0MB?ref=ticketmaster",
+      "url": "https://www.universe.com/events/ana-castela-boston-after-party-november-1st-studio-b-boston-tickets-K9P0MB?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 42.365977,
+      "lon": -71.0617,
+      "neighborhood": "West End"
+    },
+    {
+      "id": "ticketmaster:LvZ18Qm7pQOJBclLPsSwC",
+      "title": "Bye Bye Halloween (18+) | November 1st @ Studio B Boston",
+      "category": "other",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Big Night Live",
+      "start": "2026-11-01T21:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/bye-bye-halloween-18-november-1st-studio-b-boston-tickets-YHSR43?ref=ticketmaster",
       "source": "ticketmaster",
       "lat": 42.365977,
       "lon": -71.0617,
@@ -23061,6 +22603,21 @@
       "lon": -71.26837
     },
     {
+      "id": "ticketmaster:LvZ18QcYfkzX6__V71mXS",
+      "title": "Favela Encantada Wig Party (18+) | Nov 7 @ Play Boston Big Night Live",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Big Night Live",
+      "start": "2026-11-07T21:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/favela-encantada-wig-party-18-nov-7-play-boston-big-night-live-tickets-GB9654?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 42.365977,
+      "lon": -71.0617,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfZs0f",
       "title": "GLOBAL ENTRY",
       "category": "music",
@@ -27057,6 +26614,21 @@
       "lat": 38.919701,
       "lon": -77.037598,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GkBbHp9F",
+      "title": "Test",
+      "category": "other",
+      "city": "Alexandria",
+      "state": "VA",
+      "venue": "Birchmere",
+      "start": "2026-11-10T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/test-alexandria-virginia-11-10-2026/event/1500655E98F165C8",
+      "source": "ticketmaster",
+      "lat": 38.839787,
+      "lon": -77.061339,
+      "neighborhood": "Potomac West"
     },
     {
       "id": "jambase:16251182",
@@ -31785,6 +31357,20 @@
       "lon": -76.1511
     },
     {
+      "id": "ticketmaster:vv17FZ_4GkVA_LOo",
+      "title": "Dune: Part One & Dune: Part Two Double Feature",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-13T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dune-part-one-dune-part-two-atlantic-city-new-jersey-11-13-2026/event/0200655D0565F811",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:LvZ18QLwRmRoInZZMGJZq",
       "title": "The Atlantic City Tattoo Expo - 2026",
       "category": "other",
@@ -33409,20 +32995,6 @@
       "lat": 36.8581468,
       "lon": -76.2873442,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7OUr4",
-      "title": "The Rush Tribute Project",
-      "category": "music",
-      "city": "Concord",
-      "state": "NH",
-      "venue": "Capitol Center for the Arts - NH",
-      "start": "2026-11-13T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OUr4",
-      "source": "ticketmaster",
-      "lat": 43.248001,
-      "lon": -71.5112
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PtFE",
@@ -35828,6 +35400,20 @@
       "lon": -74.052101
     },
     {
+      "id": "ticketmaster:vv17FZ_4GkVAhROS",
+      "title": "Dune: Part One Reissue (2026)",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-14T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dune-part-one-reissue-2026-atlantic-city-new-jersey-11-14-2026/event/0200655D056EF833",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:vv1AvZkfKGkd04To8",
       "title": "Boston University Womens Hockey vs. Boston College Womens Hockey",
       "category": "sports",
@@ -37403,6 +36989,20 @@
       "source": "ticketmaster",
       "lat": 40.323929,
       "lon": -74.644334
+    },
+    {
+      "id": "ticketmaster:vv17FZ_4GkVAjR-A",
+      "title": "Dune: Part Two Reissue (2026)",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dune-part-two-reissue-2026-atlantic-city-new-jersey-11-14-2026/event/0200655D0572F845",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70U0M",
@@ -39846,6 +39446,20 @@
       "lon": -74.052101
     },
     {
+      "id": "ticketmaster:vv17FZ_4GkVArT-V",
+      "title": "Dune: Part Two Reissue (2026)",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-15T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dune-part-two-reissue-2026-atlantic-city-new-jersey-11-15-2026/event/0200655D057BF874",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:16vfZ_37wG7nz5L",
       "title": "Amber Autry: Happy Holler Tour",
       "category": "comedy",
@@ -40824,6 +40438,20 @@
       "lat": 43.6537,
       "lon": -70.2558,
       "neighborhood": "Old Port"
+    },
+    {
+      "id": "ticketmaster:vv17FZ_4GkVAO2-T",
+      "title": "Dune: Part One Reissue (2026)",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dune-part-one-reissue-2026-atlantic-city-new-jersey-11-15-2026/event/0200655D0580F87F",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PO-U",
@@ -43603,6 +43231,20 @@
       "neighborhood": "Center City East"
     },
     {
+      "id": "ticketmaster:vv17FZ_4GkVAxLxL",
+      "title": "Dune: Part One Reissue (2026)",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-18T16:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dune-part-one-reissue-2026-atlantic-city-new-jersey-11-18-2026/event/0200655D0589F89F",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfuyF0",
       "title": "The Player (1992)",
       "category": "other",
@@ -43863,6 +43505,20 @@
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
+    },
+    {
+      "id": "ticketmaster:vv17FZ_4GkVANLxt",
+      "title": "The Hunger Games: Sunrise On The Reaping Early Access Screening",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-18T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-hunger-games-sunrise-on-the-atlantic-city-new-jersey-11-18-2026/event/0200655D058DF8A9",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7bOt",
@@ -48811,6 +48467,20 @@
       "lon": -82.009201
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvZu8",
+      "title": "BOSTYX",
+      "category": "music",
+      "city": "Hopewell",
+      "state": "VA",
+      "venue": "Beacon Theatre - Hopewell",
+      "start": "2026-11-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZu8",
+      "source": "ticketmaster",
+      "lat": 37.276001,
+      "lon": -77.217003
+    },
+    {
       "id": "ticketmaster:vv177Z_oGkm_PiSj",
       "title": "Musicians of the Virginia Symphony Orchestra",
       "category": "theater",
@@ -49395,9 +49065,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:17A8v0G62hrZpA3",
@@ -49588,6 +49258,21 @@
       "lat": 38.843102,
       "lon": -77.0896,
       "neighborhood": "Green Valley"
+    },
+    {
+      "id": "ticketmaster:vv177Z_4GkBqyHu8",
+      "title": "Tinsley Ellis",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2026-11-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tinsley-ellis-charlottesville-virginia-11-20-2026/event/0100655E9DE7C350",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "ticketmaster:vv177ZbyGkXwUnwL",
@@ -70127,6 +69812,21 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:1AvfZ_4GkBSh_KD",
+      "title": "Eric Roberson",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Nevermore Hall",
+      "start": "2026-12-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/eric-roberson-baltimore-maryland-12-05-2026/event/1500655EB36D94FB",
+      "source": "ticketmaster",
+      "lat": 39.290443,
+      "lon": -76.612333,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7JZGK",
       "title": "Leslie Odom Jr.",
       "category": "music",
@@ -70755,6 +70455,21 @@
       "lon": -72.386497
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A70KFO",
+      "title": "Love Actually in Concert",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Emerson Colonial Theatre",
+      "start": "2026-12-06T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KFO",
+      "source": "ticketmaster",
+      "lat": 42.349602,
+      "lon": -71.075302,
+      "neighborhood": "Prudential / St. Botolph"
+    },
+    {
       "id": "ticketmaster:1A4ZkfAGkexHgDR",
       "title": "A Christmas Carol",
       "category": "theater",
@@ -71379,9 +71094,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/jason-bonhams-led-zeppelin-evening-baltimore-maryland-12-06-2026/event/1500652A79134B11",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:17A8v0G627h6s-W",
@@ -72403,6 +72118,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:1AvfZ_4GkBqX9ei",
+      "title": "2Dead Boyz x The Underachievers",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Union Stage",
+      "start": "2026-12-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.unionstagepresents.com/shows/2dead-boyz-x-the-underachievers-09-dec",
+      "source": "ticketmaster",
+      "lat": 38.878689,
+      "lon": -77.024097,
+      "neighborhood": "Southwest Waterfront"
+    },
+    {
       "id": "ticketmaster:1AvfZ_KGkBxjIJK",
       "title": "George Washington Mens Basketball vs. American University Eagles Mens Basketball",
       "category": "sports",
@@ -73362,6 +73092,21 @@
       "neighborhood": "Potomac West"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7Ejy",
+      "title": "Eli Young Band",
+      "category": "music",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "The National",
+      "start": "2026-12-10T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ejy",
+      "source": "ticketmaster",
+      "lat": 37.5411,
+      "lon": -77.434601,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZojt",
       "title": "Pink Martini All-Stars present: A Season of Stars",
       "category": "music",
@@ -73753,6 +73498,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GkM54Dw8",
+      "title": "THE 30+ PARTY - Millennial Dance Night",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2026-12-11T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-30-party-millennial-dance-night-washington-district-of-columbia-12-11-2026/event/1500655DCB57BC90",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:vvG17Z_uJ6ubRZ",
@@ -79631,6 +79391,21 @@
       "neighborhood": "Downtown Mall"
     },
     {
+      "id": "ticketmaster:vv177Z_4Gkm4nMXx",
+      "title": "Hasler Yancey with Meraki",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2026-12-17T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/hasler-yancey-with-meraki-charlottesville-virginia-12-17-2026/event/0100655B95AB7FA2",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
+    },
+    {
       "id": "ticketmaster:vv1AvZk4vGkdG8Bm0",
       "title": "A Charlie Brown Christmas",
       "category": "music",
@@ -80766,6 +80541,20 @@
       "lat": 36.8520889,
       "lon": -76.2861351,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv17FZ_4GkBQ7EVZ",
+      "title": "Santa Brunch",
+      "category": "other",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2026-12-19T11:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/santa-brunch-wilmington-delaware-12-19-2026/event/0200655E9A127D00",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
     },
     {
       "id": "ticketmaster:vvG1FZ_2eoHaVn",
@@ -85563,6 +85352,23 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8FPf",
+      "title": "Alex Jean: The Welcome Home Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Howard Theatre",
+      "start": "2026-12-29T20:00:00",
+      "isFree": false,
+      "priceMin": 33.28,
+      "priceMax": 62.12,
+      "url": "https://www.ticketweb.com/event/alex-jean-the-welcome-home-howard-theatre-tickets/14408954",
+      "source": "ticketmaster",
+      "lat": 38.9153136,
+      "lon": -77.0210937,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:164ZkfMxZZA27G11",
       "title": "DJ Snake (NYW)",
       "category": "music",
@@ -86259,6 +86065,22 @@
       "neighborhood": "Inner Harbor"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfGKF7",
+      "title": "NEW YEAR'S EVE - CIRCULO LOUNGE",
+      "category": "other",
+      "city": "Dover",
+      "state": "DE",
+      "venue": "Circulo Bar / Lounge @ Bally's Dover",
+      "start": "2026-12-31T21:00:00",
+      "isFree": false,
+      "priceMin": 84,
+      "priceMax": 110,
+      "url": "https://www.ticketweb.com/event/new-years-eve-circulo-bar-lounge-tickets/14313204",
+      "source": "ticketmaster",
+      "lat": 39.1892875,
+      "lon": -75.5343116
+    },
+    {
       "id": "ticketmaster:1A4Zk4FGkeNbJU4",
       "title": "White Ford Bronco",
       "category": "music",
@@ -86348,6 +86170,22 @@
       "lat": 41.306801,
       "lon": -72.925201,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfG8-f",
+      "title": "NEW YEARS EVE - ROLLINS CENTER",
+      "category": "other",
+      "city": "Dover",
+      "state": "DE",
+      "venue": "Rollins Center @ Bally's Dover",
+      "start": "2026-12-31T21:30:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/new-years-eve-rollins-center-ballys-dover-tickets/14310854",
+      "source": "ticketmaster",
+      "lat": 39.1892875,
+      "lon": -75.5343116
     },
     {
       "id": "ticketmaster:vv1AeZkfMGkdeXrkK",
@@ -86878,20 +86716,6 @@
       "lon": -77.3098503
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAZMPJ",
-      "title": "Princeton Tigers Hockey vs. UMass Lowell River Hawks Hockey",
-      "category": "sports",
-      "city": "Princeton",
-      "state": "NJ",
-      "venue": "Hobey Baker Rink",
-      "start": "2027-01-02T16:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMPJ",
-      "source": "ticketmaster",
-      "lat": 40.352402,
-      "lon": -74.6595
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvkpe",
       "title": "Quinnipiac Bobcats Mens Ice Hockey vs. Maryville Saints Mens Hockey",
       "category": "sports",
@@ -86936,20 +86760,6 @@
       "neighborhood": "Kingston"
     },
     {
-      "id": "ticketmaster:G5vVZ_f-ySxd8",
-      "title": "TJ Salta Presents Unity",
-      "category": "theater",
-      "city": "East Rutherford",
-      "state": "NJ",
-      "venue": "Dream Live at American Dream",
-      "start": "2027-01-02T17:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/tj-salta-presents-unity-east-rutherford-new-jersey-01-02-2027/event/1D00654879CE20D0",
-      "source": "ticketmaster",
-      "lat": 40.80969,
-      "lon": -74.06804
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvtPO",
       "title": "Brown University Bears Hockey vs. Harvard Crimson Hockey",
       "category": "sports",
@@ -86963,21 +86773,6 @@
       "lat": 41.823799,
       "lon": -71.400902,
       "neighborhood": "College Hill"
-    },
-    {
-      "id": "ticketmaster:k7vGF_3BChVDS",
-      "title": "Trenton Ironhawks vs. Trois-Rivières Lions",
-      "category": "sports",
-      "city": "Trenton",
-      "state": "NJ",
-      "venue": "CURE Insurance Arena",
-      "start": "2027-01-02T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/trenton-ironhawks-vs-troisrivieres-lions-trenton-new-jersey-01-02-2027/event/0000652E8E6F4EF3",
-      "source": "ticketmaster",
-      "lat": 40.2127206,
-      "lon": -74.7577,
-      "neighborhood": "Ewing and Carroll"
     },
     {
       "id": "ticketmaster:1AvfZ_3GkTb0iJy",
@@ -90505,9 +90300,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/aries-spears-baltimore-maryland-01-16-2027/event/1500653575D62AC7",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:1AvfZ_fGkHes77K",
@@ -91907,6 +91702,36 @@
       "neighborhood": "Potomac West"
     },
     {
+      "id": "ticketmaster:vv177Z_fGkMb26L8",
+      "title": "AMA Partzilla Track Walk Experience - 7pm OR 8:35pm",
+      "category": "other",
+      "city": "Hampton",
+      "state": "VA",
+      "venue": "Hampton Coliseum",
+      "start": "2027-01-22T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ama-partzilla-track-walk-experience-7pm-hampton-virginia-01-22-2027/event/0100654DD83C77D0",
+      "source": "ticketmaster",
+      "lat": 37.0340879,
+      "lon": -76.380428,
+      "neighborhood": "Coliseum Central"
+    },
+    {
+      "id": "ticketmaster:vv177Z_fGkMfXksO",
+      "title": "AMA Partzilla National Arenacross Championship",
+      "category": "sports",
+      "city": "Hampton",
+      "state": "VA",
+      "venue": "Hampton Coliseum",
+      "start": "2027-01-22T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ama-partzilla-national-arenacross-championship-hampton-virginia-01-22-2027/event/0100654DD4F86C60",
+      "source": "ticketmaster",
+      "lat": 37.0340879,
+      "lon": -76.380428,
+      "neighborhood": "Coliseum Central"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PgFF",
       "title": "Little Women",
       "category": "theater",
@@ -92641,6 +92466,36 @@
           "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JaFI"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:vv177Z_fGkMb2ELf",
+      "title": "AMA Partzilla Track Walk Experience - 7pm OR 8:35pm",
+      "category": "other",
+      "city": "Hampton",
+      "state": "VA",
+      "venue": "Hampton Coliseum",
+      "start": "2027-01-23T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ama-partzilla-track-walk-experience-7pm-hampton-virginia-01-23-2027/event/0100654DD83E77D4",
+      "source": "ticketmaster",
+      "lat": 37.0340879,
+      "lon": -76.380428,
+      "neighborhood": "Coliseum Central"
+    },
+    {
+      "id": "ticketmaster:vv177Z_fGkMfTpsR",
+      "title": "AMA Partzilla National Arenacross Championship",
+      "category": "sports",
+      "city": "Hampton",
+      "state": "VA",
+      "venue": "Hampton Coliseum",
+      "start": "2027-01-23T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ama-partzilla-national-arenacross-championship-hampton-virginia-01-23-2027/event/0100654DD4FD6C6F",
+      "source": "ticketmaster",
+      "lat": 37.0340879,
+      "lon": -76.380428,
+      "neighborhood": "Coliseum Central"
     },
     {
       "id": "ticketmaster:vv1AvZk46GkdFIKJX",
@@ -93563,6 +93418,20 @@
       "lon": -72.913803
     },
     {
+      "id": "ticketmaster:vv1AvZk48Gkd9TPFN",
+      "title": "Tropidelic",
+      "category": "music",
+      "city": "Leesburg",
+      "state": "VA",
+      "venue": "Tally Ho Theater",
+      "start": "2027-01-28T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/tropidelic-leesburg-virginia-01-28-2027/event/01006550D7FE5223",
+      "source": "ticketmaster",
+      "lat": 39.1157,
+      "lon": -77.5656
+    },
+    {
       "id": "ticketmaster:164ZkfSAKZA51a1F",
       "title": "Peter Antoniou: Brain Teaser",
       "category": "comedy",
@@ -93636,20 +93505,6 @@
       "lat": 37.0170608,
       "lon": -76.320344,
       "neighborhood": "Phoebus"
-    },
-    {
-      "id": "ticketmaster:vv1AvZk48Gkd9TPFN",
-      "title": "Tropidelic",
-      "category": "music",
-      "city": "Leesburg",
-      "state": "VA",
-      "venue": "Tally Ho Theater",
-      "start": "2027-01-28T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/tropidelic-leesburg-virginia-01-28-2027/event/01006550D7FE5223",
-      "source": "ticketmaster",
-      "lat": 39.1157,
-      "lon": -77.5656
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAeejM",
@@ -94019,6 +93874,20 @@
       "lat": 38.839787,
       "lon": -77.061339,
       "neighborhood": "Potomac West"
+    },
+    {
+      "id": "ticketmaster:vv177Z_4GkMRYmBY",
+      "title": "AMA Partzilla Arenacross Series",
+      "category": "sports",
+      "city": "Salem",
+      "state": "VA",
+      "venue": "Salem Civic Center",
+      "start": "2027-01-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ama-partzilla-arenacross-series-salem-virginia-01-29-2027/event/0100655DEFC2EEB0",
+      "source": "ticketmaster",
+      "lat": 37.2841126,
+      "lon": -80.0411382
     },
     {
       "id": "ticketmaster:vv1A8vPfFGA2o6pg",
@@ -94494,6 +94363,20 @@
       "lat": 38.839787,
       "lon": -77.061339,
       "neighborhood": "Potomac West"
+    },
+    {
+      "id": "ticketmaster:vv177Z_4GkMRRXBt",
+      "title": "AMA Partzilla Arenacross Series",
+      "category": "sports",
+      "city": "Salem",
+      "state": "VA",
+      "venue": "Salem Civic Center",
+      "start": "2027-01-30T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ama-partzilla-arenacross-series-salem-virginia-01-30-2027/event/0100655DEFBFEEA9",
+      "source": "ticketmaster",
+      "lat": 37.2841126,
+      "lon": -80.0411382
     },
     {
       "id": "ticketmaster:vv177ZbYGkUu8-C2",
@@ -95298,64 +95181,6 @@
       "neighborhood": "Belmont"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAZO4Z",
-      "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
-      "category": "other",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZO4Z",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZPa0",
-      "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPa0",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:vv1AvZkfdGkd2sJgc",
-      "title": "Broadway Buffet- Shucked",
-      "category": "other",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Performing Arts Theatre",
-      "start": "2027-02-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/broadway-buffet-shucked-roanoke-virginia-02-03-2027/event/01006503CFC66D6D",
-      "source": "ticketmaster",
-      "lat": 37.27907,
-      "lon": -79.935701
-    },
-    {
-      "id": "ticketmaster:vvG17Z_53cieMI",
-      "title": "Shucked",
-      "category": "theater",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Performing Arts Theatre",
-      "start": "2027-02-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/shucked-roanoke-virginia-02-03-2027/event/010064B4ADB02DE8",
-      "source": "ticketmaster",
-      "lat": 37.27907,
-      "lon": -79.935701
-    },
-    {
       "id": "jambase:16232307",
       "title": "Cliff Eberhardt",
       "category": "music",
@@ -95399,20 +95224,6 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:vv1A8vPf-GAuD1nr",
-      "title": "VSU Basketball DH vs Fayetteville State University",
-      "category": "other",
-      "city": "Petersburg",
-      "state": "VA",
-      "venue": "VSU Multi-Purpose Center",
-      "start": "2027-02-04T17:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/vsu-basketball-dh-vs-fayetteville-state-petersburg-virginia-02-04-2027/event/010065521DECAA9E",
-      "source": "ticketmaster",
-      "lat": 37.2279279,
-      "lon": -77.4019267
     },
     {
       "id": "ticketmaster:1A4Zk4FGkdRucjJ",
@@ -95533,21 +95344,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:vv177Z_8GkImna65",
-      "title": "The Black Jacket Symphony Presents Michael Jackson's 'Thriller'",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Harrison Opera House",
-      "start": "2027-02-04T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-black-jacket-symphony-presents-michael-norfolk-virginia-02-04-2027/event/0100650A2EA891CB",
-      "source": "ticketmaster",
-      "lat": 36.8581468,
-      "lon": -76.2873442,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7PgFa",
       "title": "Little Women",
       "category": "theater",
@@ -95576,36 +95372,6 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7Ja4e",
-      "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-04T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ja4e",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZtfA",
-      "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
-      "category": "other",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-04T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtfA",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvSpk",
@@ -95801,36 +95567,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7P_pd",
-      "title": "Flip Orley",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Arlington Cinema and Drafthouse",
-      "start": "2027-02-05T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_pd",
-      "source": "ticketmaster",
-      "lat": 38.865299,
-      "lon": -77.089996,
-      "neighborhood": "Arlington Heights Historic District"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZgAe",
-      "title": "Liberty University Flames Hockey vs. Adrian Bulldogs Mens Hockey",
-      "category": "other",
-      "city": "Lynchburg",
-      "state": "VA",
-      "venue": "LaHaye Ice Center",
-      "start": "2027-02-05T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgAe",
-      "source": "ticketmaster",
-      "lat": 37.351601,
-      "lon": -79.217102,
-      "neighborhood": "Windsor Hills"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvsv6",
       "title": "Dartmouth Big Green Hockey vs. Harvard Crimson Hockey",
       "category": "sports",
@@ -95843,20 +95579,6 @@
       "source": "ticketmaster",
       "lat": 43.725601,
       "lon": -72.236801
-    },
-    {
-      "id": "ticketmaster:vv177Z_3GklECUsV",
-      "title": "Blow Up Races vs. Birmingham Bulls",
-      "category": "sports",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Coliseum",
-      "start": "2027-02-05T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/blow-up-races-vs-birmingham-bulls-roanoke-virginia-02-05-2027/event/0100652AE73B6C74",
-      "source": "ticketmaster",
-      "lat": 37.279913,
-      "lon": -79.936475
     },
     {
       "id": "ticketmaster:G5vVZ_3EkJcjI",
@@ -98952,6 +98674,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:1AvfZ_4GkBrHMFm",
+      "title": "Rare Americans",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Union Stage",
+      "start": "2027-02-20T19:00:00",
+      "isFree": false,
+      "url": "https://www.unionstagepresents.com/shows/rare-americans-welcome-to-crooked-city-tour-20-feb",
+      "source": "ticketmaster",
+      "lat": 38.878689,
+      "lon": -77.024097,
+      "neighborhood": "Southwest Waterfront"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7w4t",
       "title": "UNH Wildcats Hockey vs. Boston University Terriers Mens Ice Hockey",
       "category": "sports",
@@ -100441,9 +100178,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-baltimore-maryland-02-27-2027/event/15006554FD522A69",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:1AvfZ_fGkXQj92c",
@@ -100936,6 +100673,21 @@
       "source": "ticketmaster",
       "lat": 39.3932725,
       "lon": -76.605821
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GkBL4MGF",
+      "title": "Ruby Waters: Suppre$$ions North America Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Union Stage",
+      "start": "2027-03-02T19:00:00",
+      "isFree": false,
+      "url": "https://www.unionstagepresents.com/shows/ruby-waters-suppre-ions-north-america-tour-02-mar",
+      "source": "ticketmaster",
+      "lat": 38.878689,
+      "lon": -77.024097,
+      "neighborhood": "Southwest Waterfront"
     },
     {
       "id": "ticketmaster:vv177Z_4GknIfbiK",
@@ -103272,21 +103024,6 @@
       "neighborhood": "Gales Ferry"
     },
     {
-      "id": "ticketmaster:16vfZ_333G7mkTL",
-      "title": "Valley - Do You Need to Be Entertained Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-03-14T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvs4M",
       "title": "Brit Floyd",
       "category": "music",
@@ -103314,66 +103051,6 @@
       "source": "ticketmaster",
       "lat": 41.372002,
       "lon": -72.941803
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAekbv",
-      "title": "Games We Play w/ Bears in Trees",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Pearl Street Warehouse",
-      "start": "2027-03-14T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekbv",
-      "source": "ticketmaster",
-      "lat": 38.877998,
-      "lon": -77.019798,
-      "neighborhood": "Southwest Waterfront"
-    },
-    {
-      "id": "ticketmaster:17A8v0G62ZMlm-Q",
-      "title": "Capitals vs Lightning (Trading Card Pack Giveaway)",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-03-15T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/capitals-vs-lightning-trading-card-pack-washington-district-of-columbia-03-15-2027/event/150064F037AEE85A",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_4GktTZezv",
-      "title": "Washington Capitals VIP Tickets: 03/15/27",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-03-15T15:00:00",
-      "isFree": false,
-      "url": "https://www.gofevo.com/event/Capitals25220260109-1415010132",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:17A8v0G61wJlJXG",
-      "title": "Blondshell - Scaring Strangers Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-03-15T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-washington-district-of-columbia-03-15-2027/event/150064ACA6AE6F8C",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvkqU",
@@ -104654,9 +104331,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/the-plot-in-you-world-tour-baltimore-maryland-04-01-2027/event/1500654A0B3B68E8",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7POZ-",
@@ -105178,9 +104855,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvUaa",
@@ -105354,6 +105031,20 @@
       "lat": 39.28763705,
       "lon": -76.60719037,
       "neighborhood": "Inner Harbor"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7sbE",
+      "title": "Scott Bradlee's Postmodern Jukebox",
+      "category": "music",
+      "city": "Rutland",
+      "state": "VT",
+      "venue": "Paramount Theatre - VT",
+      "start": "2027-04-09T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sbE",
+      "source": "ticketmaster",
+      "lat": 43.636902,
+      "lon": -72.9375
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAe3GO",
@@ -106734,6 +106425,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7s83",
+      "title": "Mat Kearney",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "The Historic Theater - Portsmouth",
+      "start": "2027-04-26T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s83",
+      "source": "ticketmaster",
+      "lat": 43.0695,
+      "lon": -70.800797,
+      "neighborhood": "Pease"
+    },
+    {
       "id": "ticketmaster:1AvfZ_KGkw8zA2G",
       "title": "Roger Waters Presents LEGACY - A Pink Floyd Show",
       "category": "music",
@@ -106744,9 +106450,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/roger-waters-presents-legacy-a-pink-baltimore-maryland-04-26-2027/event/1500653C90E053CC",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tFv",
@@ -108047,9 +107753,9 @@
       "isFree": false,
       "url": "https://www.ticketmaster.com/papa-roach-rise-of-the-roach-baltimore-maryland-05-19-2027/event/1500654EB076768C",
       "source": "ticketmaster",
-      "lat": 39.276802,
-      "lon": -76.625641,
-      "neighborhood": "Carroll - Camden Industrial Area"
+      "lat": 39.27648,
+      "lon": -76.624741,
+      "neighborhood": "Stadium/Entertainment Area"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvM_I",
