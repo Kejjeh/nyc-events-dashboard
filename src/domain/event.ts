@@ -52,10 +52,30 @@ export interface Event {
   altTicketLinks?: { source: string; url: string }[];
 }
 
+/**
+ * Why a source did or didn't contribute this run. Mirrors `SourceHealth` in
+ * `src/pipeline/sourceOutcome.ts`, which is where the semantics are documented.
+ */
+export type SourceHealth = 'ok' | 'missing-key' | 'skipped' | 'error';
+
 /** Per-source health for the published payload, so silent drops stay visible. */
 export interface SourceStatus {
   source: string;
   count: number;
   /** True when the source was fetched successfully this run (not carried forward). */
   fresh: boolean;
+  /**
+   * Why, in more detail than `fresh` alone: a missing credential, a
+   * cost-skipped fetch and a failed fetch all read as `fresh: false`, and they
+   * mean different things. Absent from payloads published before this field
+   * existed, so treat `undefined` as "only `fresh` is known".
+   */
+  status?: SourceHealth;
+  /**
+   * When this source last fetched successfully (ISO). Equals the payload's
+   * `generatedAt` for a fresh row and is older for a carried one, so the UI can
+   * say how old carried data is instead of presenting it as current. Absent
+   * when unknown: the source has not fetched since the field was introduced.
+   */
+  asOf?: string;
 }

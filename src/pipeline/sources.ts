@@ -5,6 +5,7 @@ import { smorgasburgMarketDescriptors } from '../ingestion/smorgasburg';
 import { greenmarketDescriptors } from '../ingestion/nycGreenmarket';
 import { nycDateOf } from '../ingestion/datetime';
 import { fetchJson, fetchText, fetchWithRetry } from './http';
+import { MissingCredentialsError } from './sourceOutcome';
 
 const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
@@ -438,11 +439,13 @@ const SEATGEEK_MAX_PAGES = 3;
 
 /**
  * Fetches upcoming NYC events from SeatGeek using a 20-mile geo-radius query.
- * Requires SEATGEEK_CLIENT_ID; returns an empty batch when the key is absent.
+ * Requires SEATGEEK_CLIENT_ID; throws MissingCredentialsError when the key is
+ * absent, so the run records "not configured" rather than a successful zero and
+ * carry-forward keeps SeatGeek's banked events.
  * The borough polygon check in the normalizer filters to NYC proper.
  */
 export async function fetchSeatGeek(clientId: string | undefined): Promise<RawBatch> {
-  if (!clientId) return { source: 'seatgeek', records: [] };
+  if (!clientId) throw new MissingCredentialsError('SEATGEEK_CLIENT_ID');
 
   const records: any[] = [];
   for (let page = 1; page <= SEATGEEK_MAX_PAGES; page++) {
@@ -473,15 +476,16 @@ const SONGKICK_WINDOW_DAYS = 45;
 /**
  * Fetches upcoming concerts near NYC from Songkick's events API. Requires
  * SONGKICK_API_KEY (read from the environment / GitHub Actions secret — never
- * committed); returns an empty batch when the key is absent so the pipeline
- * still runs. The geo search spills slightly past the city line, so the
- * normalizer's borough polygon trims it to NYC proper.
+ * committed); throws MissingCredentialsError when the key is absent — the
+ * pipeline still runs (run.ts classifies the outcome) and carry-forward keeps
+ * Songkick's banked events. The geo search spills slightly past the city line,
+ * so the normalizer's borough polygon trims it to NYC proper.
  */
 export async function fetchSongkick(
   apiKey: string | undefined,
   nowIso: string,
 ): Promise<RawBatch> {
-  if (!apiKey) return { source: 'songkick', records: [] };
+  if (!apiKey) throw new MissingCredentialsError('SONGKICK_API_KEY');
 
   const minDate = nycDateOf(nowIso);
   const maxDate = nycDateOf(
@@ -527,13 +531,14 @@ const JAMBASE_MAX_PAGES = 45; // perPage=100; NY alone is ~41 pages over this wi
 
 /**
  * Fetches upcoming concerts from JamBase across the Northeast/rail-corridor
- * states. Returns an empty batch without a key. Events are deduped by JamBase id
+ * states. Throws MissingCredentialsError without a key, so the lapsed trial reads
+ * as "not configured" and never wipes the bank. Events are deduped by JamBase id
  * across state borders. A failed page throws so carry-forward keeps the last-good
  * banked superset. run.ts gates this to scheduled/manual runs (not push) given
  * the request volume.
  */
 export async function fetchJamBase(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
-  if (!apiKey) return { source: 'jambase', records: [] };
+  if (!apiKey) throw new MissingCredentialsError('JAMBASE_API_KEY');
 
   const from = nycDateOf(nowIso);
   const to = nycDateOf(
@@ -572,15 +577,16 @@ const SERPAPI_QUERIES = [
 ];
 
 /**
- * Fetches NYC events from Google Events via SerpAPI. Returns an empty batch
- * without a key. run.ts gates this to scheduled/manual runs (never on push) so
+ * Fetches NYC events from Google Events via SerpAPI. Throws
+ * MissingCredentialsError without a key. run.ts gates this to scheduled/manual
+ * runs (never on push) so
  * frequent dev pushes don't burn the monthly search quota. Each record is tagged
  * with its seeding query (`_q`) and `_nowIso` for the normalizer's category and
  * year-inference logic. A failed query throws so carry-forward keeps last-good
  * data rather than publishing a partial pull.
  */
 export async function fetchSerpApi(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
-  if (!apiKey) return { source: 'serpapi', records: [] };
+  if (!apiKey) throw new MissingCredentialsError('SERPAPI_KEY');
 
   const records: any[] = [];
   const seen = new Set<string>();
@@ -871,13 +877,14 @@ const TICKETMASTER_MAX_PAGES = 5;
 
 /**
  * Fetches upcoming events from Ticketmaster across the Northeast / rail-corridor
- * states. Requires TICKETMASTER_API_KEY; returns an empty batch without it. The
+ * states. Requires TICKETMASTER_API_KEY; throws MissingCredentialsError without
+ * it, so a keyless run carries the banked events forward instead of wiping them. The
  * normalizer reads city/state from each venue (NYC stays borough-precise), so the
  * whole region is captured. This is the permanent multi-state source that keeps
  * coverage fresh after the JamBase trial lapses. Deduped by id across states.
  */
 export async function fetchTicketmaster(apiKey: string | undefined, nowIso: string): Promise<RawBatch> {
-  if (!apiKey) return { source: 'ticketmaster', records: [] };
+  if (!apiKey) throw new MissingCredentialsError('TICKETMASTER_API_KEY');
 
   const startDateTime = `${nowIso.slice(0, 19)}Z`;
   const byId = new Map<string, any>();

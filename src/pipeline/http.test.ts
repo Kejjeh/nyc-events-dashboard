@@ -20,6 +20,23 @@ describe('fetchJson / fetchText', () => {
     );
   });
 
+  it('names the source and the attempt count when a retryable status never clears', async () => {
+    // The case BPL hit in CI: a 403 on every attempt. The old message was the
+    // per-attempt "transient HTTP 403", which is wrong after the fourth one.
+    const fetchMock = vi.fn(async () => new Response('blocked', { status: 403 }));
+    vi.stubGlobal('fetch', fetchMock);
+    vi.useFakeTimers();
+    try {
+      const pending = fetchJson('https://x.test', {}, 'BPL');
+      const rejection = expect(pending).rejects.toThrow('BPL fetch failed: HTTP 403 on all 4 attempts');
+      await vi.runAllTimersAsync();
+      await rejection;
+      expect(fetchMock).toHaveBeenCalledTimes(4); // initial + 3 retries
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
   it('fetchText returns the body text on a 200', async () => {
     vi.stubGlobal('fetch', vi.fn(async () => new Response('<rss>ok</rss>', { status: 200 })));
 

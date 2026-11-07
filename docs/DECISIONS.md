@@ -47,12 +47,18 @@ evidence. "(inferred)" = reconstructed from code/history, not found stated.
    MapTiler ended up as the map-tile provider only, and venue ratings were never
    built. (inferred: Google's quality won once the billing account existed.)
 
-9. **Missing key ⇒ empty batch, not throw** (`sources.ts`) — documented in the
-   fetcher docstrings as "so the pipeline still runs" for keyless local dev.
-   Directly contradicts API-PLAN.md's "the fetcher should throw". Consequence:
-   a keyless local `build:data` wipes banked keyed events from the working tree
-   (harmless in CI where keys exist). Treat as an open tension — see HANDOFF
-   P1 — not as settled.
+9. **Missing key ⇒ throw, and a source outcome is one of four states**
+   (`sourceOutcome.ts`) — RESOLVED 2026-09-18 in favour of API-PLAN.md. A keyed
+   fetcher with no credential throws `MissingCredentialsError`; `settleSource()`
+   turns every fetch into an explicit `ok` / `missing-key` / `skipped` / `error`
+   outcome, and only `ok` is authoritative. Previously a missing key produced an
+   empty batch that counted as success, so carry-forward dropped the source's
+   banked events — a keyless local `build:data` emptied the archive (~9,400 → 20)
+   while exiting 0, and the health footer showed the source as `fresh: true` with
+   0 events. The pipeline still runs keylessly; the source just reads as "not
+   configured". Note what did NOT change: a source that fetches and genuinely
+   returns zero is still authoritative and still drops its own stale events —
+   that is how a silently-broken parser stays visible (`count: 0, fresh: true`).
 
 10. **Data-commit race handling: reset+reapply, never rebase; `merge=ours` for
     events.json** — generated JSON can't 3-way merge (corrupt, duplicate-laden

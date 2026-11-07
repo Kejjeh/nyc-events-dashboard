@@ -1,4 +1,4 @@
-import type { Event } from '../domain/event';
+import type { Event, SourceStatus } from '../domain/event';
 
 const DAY = new Intl.DateTimeFormat('en-US', {
   weekday: 'short',
@@ -54,4 +54,49 @@ const SOURCE_LABELS: Record<string, string> = {
 
 export function sourceLabel(source: string): string {
   return SOURCE_LABELS[source] ?? source;
+}
+
+/**
+ * The footer tooltip for one source-health row. `fresh` alone can't tell a
+ * missing credential from a quota-skipped fetch from an outright failure, so the
+ * `status` field says which — when the payload carries it. Payloads published
+ * before `status` existed fall back to the old two-state wording.
+ */
+export function sourceHealthTitle(status: SourceStatus): string {
+  if (status.fresh) return 'Refreshed this run';
+  const reason = (() => {
+    switch (status.status) {
+      case 'missing-key':
+        return 'Not configured — no API key this run; events carried forward';
+      case 'skipped':
+        return 'Skipped this run to save API quota; events carried forward';
+      case 'error':
+        return 'Fetch failed this run; events carried forward';
+      default:
+        return 'Carried forward — this source was unavailable at the last refresh';
+    }
+  })();
+  // Date the carried data, not the run, when the payload knows.
+  return status.asOf ? `${reason} (last refreshed ${STAMP.format(new Date(status.asOf))})` : reason;
+}
+
+const STAMP = new Intl.DateTimeFormat('en-US', {
+  month: 'short',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: '2-digit',
+});
+
+/**
+ * The hero-stamp caveat. "N events · updated <time>" reads as if everything is
+ * that fresh, but any source that did not fetch this run is showing its last
+ * good data — so say how many, whatever the reason (no key, quota-skipped,
+ * failed, or a row from before `status` existed). Null when every source
+ * refreshed, or the payload predates source-health rows.
+ */
+export function carriedSourcesNote(sources: SourceStatus[] | undefined): string | null {
+  if (!sources || sources.length === 0) return null;
+  const stale = sources.filter((s) => !s.fresh).length;
+  if (stale === 0) return null;
+  return `${stale} of ${sources.length} sources not refreshed this run`;
 }
