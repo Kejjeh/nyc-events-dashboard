@@ -84,6 +84,23 @@ with `git checkout -- public/data/`.
   has `merge=ours` in `.gitattributes`. Don't "fix" either.
 - Only jambase + ticketmaster set `city`/`state`; the whole multi-state archive depends on them.
 
+## Skills for this repo
+
+Load these with the Skill tool when the situation comes up; the user does not need to ask.
+
+| Situation in this repo | Skill |
+|---|---|
+| Adding, integrating or wiring up a new event source or API | `add-event-source` (project skill) |
+| Refreshing data, or a source is failing, stale, or shows 0 events | `refresh-data` (project skill) |
+| An event has the wrong date/time, is missing from the board, duplicated across sources, or in the wrong neighborhood | `diagnosing-bugs` |
+| Writing a normalizer or fixing a scrape parser (test-first, real sample payloads) | `tdd` |
+| Touching fetchers, carry-forward, the never-blank guard, `readSnapshot` or dedup, where a failure could publish an empty or stale board as current | `sop-fail-loud` |
+| Proving a UI change in the running app (`npm run dev`, `scripts/ui-smoke/`) | `run` |
+| Designing a new filter panel, chart, stat tile or map layer | `dataviz` |
+| Scraped strings or URLs reaching the DOM, or anything touching Actions secrets | `security-review` |
+| Dropping a source, or changing the push-run cost gates / SerpAPI quota use | `sop-owner-decision` |
+| Committing; opening or merging a PR (independent review first for carry-forward/dedup/partition changes) | `safe-commit`, `sop-ship-pr`, `code-review` |
+
 ## Before you finish any task
 
 1. `npm run check` — typecheck + all tests must pass.
