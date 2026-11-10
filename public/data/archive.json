@@ -1,203 +1,7 @@
 {
-  "generatedAt": "2026-11-10T04:24:10.309Z",
-  "count": 7209,
+  "generatedAt": "2026-11-10T18:20:48.573Z",
+  "count": 7313,
   "events": [
-    {
-      "id": "jambase:16269238",
-      "title": "Slow Pulp",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 Club",
-      "start": "2026-11-09T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/slow-pulp-930-club-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/slow-pulp-1480x832.png",
-      "lat": 38.9179,
-      "lon": -77.0237,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/slow-pulp-washington-district-of-columbia-11-09-2026/event/150064A5AD1C80FA"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16095472",
-      "title": "The Rush Tribute Project",
-      "category": "music",
-      "city": "Albany",
-      "state": "NY",
-      "venue": "Hart Theatre at The Egg",
-      "start": "2026-11-09T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-rush-tribute-project-hart-theatre-at-the-egg-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/09/the-rush-tribute-project-1480x832.png",
-      "lat": 42.6504,
-      "lon": -73.7584,
-      "neighborhood": "Downtown",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xaF6"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16295013",
-      "title": "The Maine",
-      "category": "music",
-      "city": "Wilmington",
-      "state": "DE",
-      "venue": "Main Hall at The Queen",
-      "start": "2026-11-09T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-maine-main-hall-at-the-queen-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/the-maine-ticketmaster-ram-1480x832.jpg",
-      "lat": 39.741,
-      "lon": -75.5501
-    },
-    {
-      "id": "jambase:15943271",
-      "title": "Sammy Rae & The Friends",
-      "category": "music",
-      "city": "Ithaca",
-      "state": "NY",
-      "venue": "The State Theatre of Ithaca",
-      "start": "2026-11-09T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/sammy-rae-the-friends-the-state-theatre-of-ithaca-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/07/sammy-rae-and-the-friends-profile-1480x832.jpg",
-      "lat": 42.4396,
-      "lon": -76.4991,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:15727672",
-      "title": "Sting",
-      "category": "music",
-      "city": "New Haven",
-      "state": "CT",
-      "venue": "Toyota Oakdale Theatre",
-      "start": "2026-11-09T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/sting-toyota-presents-oakdale-theatre-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/06/sting-1480x832.png",
-      "lat": 41.4494,
-      "lon": -72.8452
-    },
-    {
-      "id": "jambase:16527849",
-      "title": "Heal The Hurt",
-      "category": "music",
-      "city": "New Haven",
-      "state": "CT",
-      "venue": "Space Ballroom",
-      "start": "2026-11-09T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/heal-the-hurt-space-ballroom-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 41.3532,
-      "lon": -72.925
-    },
-    {
-      "id": "jambase:15637205",
-      "title": "Hiss Golden Messenger",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sinclair",
-      "start": "2026-11-09T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/hiss-golden-messenger-the-sinclair-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/02/hiss-golden-messenger-2026-press-graham-tolbert-1480x832.jpg",
-      "lat": 42.3741,
-      "lon": -71.1208,
-      "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "jambase:16514965",
-      "title": "Mountain Grass Unit",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Thunderbird Café & Music Hall",
-      "start": "2026-11-09T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/mountain-grass-unit-thunderbird-cafe-music-hall-20261109",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2020/02/mountain-grass-unit-press-2025-1480x832.jpg",
-      "lat": 40.4696,
-      "lon": -79.9615,
-      "neighborhood": "Central Lawrenceville"
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1IS1Sy",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-11-10T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-11-10-2026/event/00006452A8CCACF9",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:LvZ18QctZqPSsfcLU1Iw_",
-      "title": "The Sports Museum Tour",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sports Museum",
-      "start": "2026-11-10T10:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.36606,
-      "lon": -71.060956,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZOOE",
-      "title": "Springfield Thunderbirds vs. Hartford Wolfpack",
-      "category": "sports",
-      "city": "Springfield",
-      "state": "MA",
-      "venue": "MassMutual Center",
-      "start": "2026-11-10T10:35:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOOE",
-      "source": "ticketmaster",
-      "lat": 42.102501,
-      "lon": -72.591599,
-      "neighborhood": "Metro Center"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7ouM",
-      "title": "Joshua Live On Stage",
-      "category": "other",
-      "city": "Ronks",
-      "state": "PA",
-      "venue": "Sight and Sound Theatres - PA",
-      "start": "2026-11-10T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ouM",
-      "source": "ticketmaster",
-      "lat": 40.012299,
-      "lon": -76.1511
-    },
     {
       "id": "ticketmaster:1AYZk4NGkeRzVnx",
       "title": "You Can See Everything",
@@ -213,6 +17,21 @@
       "lon": -74.42094
     },
     {
+      "id": "ticketmaster:LvZ18QctZqPSsfcLU1Iwq",
+      "title": "The Sports Museum Tour",
+      "category": "sports",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "The Sports Museum",
+      "start": "2026-11-10T14:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 42.36606,
+      "lon": -71.060956,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7P0Gx",
       "title": "The 2026 Christmas Show: Winter Wonderland",
       "category": "theater",
@@ -225,6 +44,20 @@
       "source": "ticketmaster",
       "lat": 40.0158,
       "lon": -76.245201
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7ouz",
+      "title": "Joshua Live On Stage",
+      "category": "other",
+      "city": "Ronks",
+      "state": "PA",
+      "venue": "Sight and Sound Theatres - PA",
+      "start": "2026-11-10T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ouz",
+      "source": "ticketmaster",
+      "lat": 40.012299,
+      "lon": -76.1511
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfuMk7",
@@ -4327,9 +4160,9 @@
       "state": "NY",
       "venue": "Mulcahy's",
       "start": "2026-11-12T18:00:00",
-      "isFree": false,
-      "priceMin": 103,
-      "priceMax": 103,
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
       "url": "https://www.ticketweb.com/event/fdny-salute-to-mulcahys-tickets/14345794",
       "source": "ticketmaster",
       "lat": 40.6723969,
@@ -4393,23 +4226,6 @@
       "lat": 40.43593276,
       "lon": -80.00955731,
       "neighborhood": "South Shore"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfaS8f",
-      "title": "Coral Moons, Ecce Shnak, Nylon Ghost ",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Nikki Lopez Philly",
-      "start": "2026-11-12T18:00:00",
-      "isFree": false,
-      "priceMin": 19.49,
-      "priceMax": 19.49,
-      "url": "https://www.ticketweb.com/event/coral-moons-ecce-shnak-nylon-nikki-lopez-philly-tickets/14273414",
-      "source": "ticketmaster",
-      "lat": 39.941327,
-      "lon": -75.1478724,
-      "neighborhood": "Queen Village"
     },
     {
       "id": "ticketmaster:vv1AOvP7bGAudPPf",
@@ -4937,6 +4753,23 @@
       "source": "ticketmaster",
       "lat": 40.408945,
       "lon": -79.914301
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfaS8f",
+      "title": "Coral Moons, Ecce Shnak, Nylon Ghost ",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Nikki Lopez Philly",
+      "start": "2026-11-12T19:00:00",
+      "isFree": false,
+      "priceMin": 19.49,
+      "priceMax": 19.49,
+      "url": "https://www.ticketweb.com/event/coral-moons-ecce-shnak-nylon-nikki-lopez-philly-tickets/14273414",
+      "source": "ticketmaster",
+      "lat": 39.941327,
+      "lon": -75.1478724,
+      "neighborhood": "Queen Village"
     },
     {
       "id": "ticketmaster:vv1AeZk40Gkd4rQVQ",
@@ -7597,6 +7430,21 @@
       "neighborhood": "Storrs"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvKG3",
+      "title": "Yale Bulldogs Hockey vs. Colgate University Raiders Hockey",
+      "category": "sports",
+      "city": "New Haven",
+      "state": "CT",
+      "venue": "Ingalls Rink",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvKG3",
+      "source": "ticketmaster",
+      "lat": 41.318298,
+      "lon": -72.926399,
+      "neighborhood": "Dixwell"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7x9vJ",
       "title": "Bert Kreischer (Children under 6 years of age not permitted)",
       "category": "theater",
@@ -7609,6 +7457,21 @@
       "source": "ticketmaster",
       "lat": 41.8204,
       "lon": -71.412804,
+      "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZkQ4",
+      "title": "Providence College Friars Hockey vs. Merrimack Warriors Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Schneider Arena",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZkQ4",
+      "source": "ticketmaster",
+      "lat": 41.821899,
+      "lon": -71.419701,
       "neighborhood": "Downtown Providence"
     },
     {
@@ -7625,6 +7488,21 @@
       "lat": 41.823799,
       "lon": -71.400902,
       "neighborhood": "College Hill"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PE_p",
+      "title": "UMass Minutemen Hockey vs. Boston College Eagles Hockey",
+      "category": "sports",
+      "city": "Amherst",
+      "state": "MA",
+      "venue": "Mullins Center",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE_p",
+      "source": "ticketmaster",
+      "lat": 42.375198,
+      "lon": -72.521202,
+      "neighborhood": "Amherst Center"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvtfU",
@@ -7944,6 +7822,23 @@
       "source": "ticketmaster",
       "lat": 40.408945,
       "lon": -79.914301
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1Afupo7",
+      "title": "Mother Soki, Alana Markel",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Nikki Lopez Philly",
+      "start": "2026-11-13T19:00:00",
+      "isFree": false,
+      "priceMin": 19.49,
+      "priceMax": 19.49,
+      "url": "https://www.ticketweb.com/event/mother-soki-alana-markel-nikki-lopez-philly-tickets/14356444",
+      "source": "ticketmaster",
+      "lat": 39.941327,
+      "lon": -75.1478724,
+      "neighborhood": "Queen Village"
     },
     {
       "id": "ticketmaster:vv1AOv0_EGA5M4-t",
@@ -8960,6 +8855,20 @@
       "lat": 37.5411,
       "lon": -77.434601,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAe7A_",
+      "title": "Liberty University Flames Mens Basketball vs. North Carolina Central Eagles Mens Basketball",
+      "category": "sports",
+      "city": "Lynchburg",
+      "state": "VA",
+      "venue": "Liberty Arena - VA",
+      "start": "2026-11-13T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7A_",
+      "source": "ticketmaster",
+      "lat": 37.347599,
+      "lon": -79.158302
     },
     {
       "id": "ticketmaster:vv1AvZkoyGkeWcV_m",
@@ -10061,6 +9970,20 @@
       "lon": -76.532501
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Poqs",
+      "title": "Maryland Terrapins Mens Basketball vs. Virginia Cavaliers Mens Basketball",
+      "category": "sports",
+      "city": "College Park",
+      "state": "MD",
+      "venue": "Xfinity Center - MD",
+      "start": "2026-11-13T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Poqs",
+      "source": "ticketmaster",
+      "lat": 38.992001,
+      "lon": -76.952797
+    },
+    {
       "id": "ticketmaster:vv1aeZkftxK_NZe2a",
       "title": "Alicia Maxwell Project",
       "category": "music",
@@ -11050,23 +10973,6 @@
       "neighborhood": "D Street / West Broadway"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1Afupo7",
-      "title": "Mother Soki, Alana Markel",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Nikki Lopez Philly",
-      "start": "2026-11-13T22:00:00",
-      "isFree": false,
-      "priceMin": 19.49,
-      "priceMax": 19.49,
-      "url": "https://www.ticketweb.com/event/mother-soki-alana-markel-nikki-lopez-philly-tickets/14356444",
-      "source": "ticketmaster",
-      "lat": 39.941327,
-      "lon": -75.1478724,
-      "neighborhood": "Queen Village"
-    },
-    {
       "id": "ticketmaster:17A8v0G65njtM7g",
       "title": "Strawberry Guy",
       "category": "music",
@@ -11365,6 +11271,20 @@
       "lon": -73.837601
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-Y36",
+      "title": "Marist Red Foxes Football vs. Butler University Bulldogs Football",
+      "category": "sports",
+      "city": "Poughkeepsie",
+      "state": "NY",
+      "venue": "Tenney Stadium at Leonidoff Field",
+      "start": "2026-11-14T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y36",
+      "source": "ticketmaster",
+      "lat": 41.714401,
+      "lon": -73.906898
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfGY7V",
       "title": "Brunch: One Dime Band",
       "category": "music",
@@ -11379,6 +11299,20 @@
       "source": "ticketmaster",
       "lat": 41.5341,
       "lon": -73.58431
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-3j7",
+      "title": "Monmouth University Hawks Football vs. Merrimack Warriors Football",
+      "category": "sports",
+      "city": "West Long Branch",
+      "state": "NJ",
+      "venue": "Kessler Stadium",
+      "start": "2026-11-14T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3j7",
+      "source": "ticketmaster",
+      "lat": 40.2883,
+      "lon": -74.018303
     },
     {
       "id": "ticketmaster:G5vVZ_2UtdIBy",
@@ -11410,6 +11344,20 @@
       "lon": -72.608803
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-3Qk",
+      "title": "Rhode Island Rams Football vs. Towson Tigers Football",
+      "category": "sports",
+      "city": "Pawtucket",
+      "state": "RI",
+      "venue": "Centreville Bank Stadium",
+      "start": "2026-11-14T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-3Qk",
+      "source": "ticketmaster",
+      "lat": 41.870602,
+      "lon": -71.389099
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvbZo",
       "title": "A Christmas Carol",
       "category": "other",
@@ -11423,6 +11371,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAAkPF",
+      "title": "Holy Cross Crusaders Football vs. Villanova Wildcats Football",
+      "category": "sports",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Fitton Field",
+      "start": "2026-11-14T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkPF",
+      "source": "ticketmaster",
+      "lat": 42.227299,
+      "lon": -71.792397,
+      "neighborhood": "Quinsigamond Village"
     },
     {
       "id": "ticketmaster:1ApZkfAGkdDTquR",
@@ -11484,6 +11447,20 @@
       "neighborhood": "Morgan State University"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7OzaY",
+      "title": "Maryland Terrapins Football vs. Wisconsin Badgers Football",
+      "category": "sports",
+      "city": "College Park",
+      "state": "MD",
+      "venue": "SECU Stadium",
+      "start": "2026-11-14T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzaY",
+      "source": "ticketmaster",
+      "lat": 38.992001,
+      "lon": -76.952797
+    },
+    {
       "id": "ticketmaster:1A4Zk4PGkdwc1t6",
       "title": "NWSL Semifinal: Washington Spirit vs. Utah Royals",
       "category": "sports",
@@ -11497,6 +11474,35 @@
       "lat": 38.867998,
       "lon": -77.013642,
       "neighborhood": "Southwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-Z4t",
+      "title": "Rutgers Scarlet Knights Football vs. Nebraska Cornhuskers Football",
+      "category": "sports",
+      "city": "Piscataway",
+      "state": "NJ",
+      "venue": "SHI Stadium",
+      "start": "2026-11-14T12:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Z4t",
+      "source": "ticketmaster",
+      "lat": 40.546501,
+      "lon": -74.462898,
+      "neighborhood": "Society Hill"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7-f1e",
+      "title": "VMI Keydets Football vs. Citadel Bulldogs Football",
+      "category": "sports",
+      "city": "Lexington",
+      "state": "VA",
+      "venue": "Alumni Memorial Field at Foster Stadium",
+      "start": "2026-11-14T12:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f1e",
+      "source": "ticketmaster",
+      "lat": 37.786598,
+      "lon": -79.519302
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7-s-d",
@@ -11553,6 +11559,21 @@
       "source": "ticketmaster",
       "lat": 39.4061431,
       "lon": -74.4455451
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70g1K",
+      "title": "Pennsylvania Quakers Football vs. Harvard Crimson Football",
+      "category": "sports",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Franklin Field",
+      "start": "2026-11-14T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70g1K",
+      "source": "ticketmaster",
+      "lat": 39.961601,
+      "lon": -75.199501,
+      "neighborhood": "University City"
     },
     {
       "id": "ticketmaster:vvG1FZ_Ci8caZg",
@@ -11614,6 +11635,21 @@
       "neighborhood": "Southwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-YZ3",
+      "title": "Howard University Bison Football vs. Delaware State Hornets Football",
+      "category": "sports",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Greene Stadium",
+      "start": "2026-11-14T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-YZ3",
+      "source": "ticketmaster",
+      "lat": 38.9221,
+      "lon": -77.019997,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7O81F",
       "title": "Hampton Pirates Football vs. North Carolina A & T Aggies Football",
       "category": "sports",
@@ -11655,6 +11691,21 @@
       "source": "ticketmaster",
       "lat": 43.125,
       "lon": -70.975899
+    },
+    {
+      "id": "ticketmaster:LvZ18QcUvMvg7w6VTcUgQ",
+      "title": "Do Portugal Circus - Staten Island, NY",
+      "category": "theater",
+      "city": "Staten Island",
+      "state": "NY",
+      "venue": "Staten Island Mall - Big Top",
+      "start": "2026-11-14T14:00:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/do-portugal-circus-staten-island-ny-tickets-XF257S?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 40.580915,
+      "lon": -74.16911,
+      "neighborhood": "New Springville"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7x6q9",
@@ -11969,6 +12020,20 @@
       "lon": -76.245201
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7xd7K",
+      "title": "Delaware Blue Hens Football vs. Florida International Panthers Football",
+      "category": "sports",
+      "city": "Newark",
+      "state": "DE",
+      "venue": "Delaware Stadium",
+      "start": "2026-11-14T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xd7K",
+      "source": "ticketmaster",
+      "lat": 39.714401,
+      "lon": -75.7397
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7P0AN",
       "title": "Drunk Shakespeare: A Drunk Christmas Carol (21+ Event)",
       "category": "theater",
@@ -11996,6 +12061,36 @@
       "source": "ticketmaster",
       "lat": 38.8330513,
       "lon": -77.3098503
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70kPg",
+      "title": "Liberty University Flames Football vs. Middle Tennessee State Blue Raiders Football",
+      "category": "sports",
+      "city": "Lynchburg",
+      "state": "VA",
+      "venue": "Williams Stadium",
+      "start": "2026-11-14T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPg",
+      "source": "ticketmaster",
+      "lat": 37.351601,
+      "lon": -79.217102,
+      "neighborhood": "Windsor Hills"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7OgZU",
+      "title": "Virginia Cavaliers Football vs. California Golden Bears Football",
+      "category": "sports",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "Scott Stadium",
+      "start": "2026-11-14T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OgZU",
+      "source": "ticketmaster",
+      "lat": 38.019798,
+      "lon": -78.570999,
+      "neighborhood": "The Rocks"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAv-qK",
@@ -12177,7 +12272,7 @@
     },
     {
       "id": "ticketmaster:16vfZ_fx9G7VAWV",
-      "title": "Towson University Tigers Mens Basketball vs. Loyola Greyhounds Men's Basketball",
+      "title": "Towson University Tigers Mens Basketball vs. UMBC Retrievers Men's Basketball",
       "category": "sports",
       "city": "Towson",
       "state": "MD",
@@ -12820,6 +12915,21 @@
       "lon": -73.413981
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAvKGK",
+      "title": "Yale Bulldogs Hockey vs. Cornell Big Red Hockey",
+      "category": "sports",
+      "city": "New Haven",
+      "state": "CT",
+      "venue": "Ingalls Rink",
+      "start": "2026-11-14T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvKGK",
+      "source": "ticketmaster",
+      "lat": 41.318298,
+      "lon": -72.926399,
+      "neighborhood": "Dixwell"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A70V_I",
       "title": "Bert Kreischer",
       "category": "theater",
@@ -12861,6 +12971,21 @@
       "source": "ticketmaster",
       "lat": 42.671101,
       "lon": -71.086601
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvkf7",
+      "title": "Boston College Eagles Hockey vs. UMass Minutemen Hockey",
+      "category": "sports",
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "venue": "Conte Forum",
+      "start": "2026-11-14T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkf7",
+      "source": "ticketmaster",
+      "lat": 42.316299,
+      "lon": -71.160301,
+      "neighborhood": "Chestnut Hill"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfObod",
@@ -13863,6 +13988,21 @@
           "url": "https://www.ticketmaster.com/chante-moore-alexandria-virginia-11-14-2026/event/150064AFA17A6A4B"
         }
       ]
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7qI1Z",
+      "title": "Virginia Tech Hokies Football vs. Stanford Cardinal Football",
+      "category": "sports",
+      "city": "Blacksburg",
+      "state": "VA",
+      "venue": "Lane Stadium",
+      "start": "2026-11-14T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qI1Z",
+      "source": "ticketmaster",
+      "lat": 37.2556,
+      "lon": -80.429001,
+      "neighborhood": "Tom's Creek"
     },
     {
       "id": "ticketmaster:vv168vPvybgZ7G722",
@@ -16131,6 +16271,21 @@
       "neighborhood": "Green Valley"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAev86",
+      "title": "Virginia Tech Hokies Womens Basketball vs. La Salle Explorers Women's Basketball",
+      "category": "sports",
+      "city": "Blacksburg",
+      "state": "VA",
+      "venue": "Cassell Coliseum",
+      "start": "2026-11-15T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAev86",
+      "source": "ticketmaster",
+      "lat": 37.2286,
+      "lon": -80.414902,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7eGZ",
       "title": "Joseph and the Amazing Technicolor Dreamcoat",
       "category": "theater",
@@ -18229,6 +18384,20 @@
       "lon": -74.10333
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ94v",
+      "title": "Maryland Terrapins Mens Basketball vs. Alcorn State Braves Mens Basketball",
+      "category": "sports",
+      "city": "College Park",
+      "state": "MD",
+      "venue": "Xfinity Center - MD",
+      "start": "2026-11-16T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ94v",
+      "source": "ticketmaster",
+      "lat": 38.992001,
+      "lon": -76.952797
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAed1K",
       "title": "Quinnipiac Bobcats Womens Basketball vs. Yale Bulldogs Womens Basketball",
       "category": "music",
@@ -19093,6 +19262,23 @@
       "lat": 42.36422,
       "lon": -71.10133,
       "neighborhood": "Central Square"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1Af8VF7",
+      "title": "Berklee College of Music Presents: Ladies of Country",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Off The Rails Boston",
+      "start": "2026-11-17T19:00:00",
+      "isFree": false,
+      "priceMin": 11.55,
+      "priceMax": 11.55,
+      "url": "https://www.ticketweb.com/event/berklee-college-of-music-presents-off-the-rails-boston-tickets/14434204",
+      "source": "ticketmaster",
+      "lat": 42.3577549,
+      "lon": -71.0591691,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfGN4V",
@@ -22157,6 +22343,21 @@
       "neighborhood": "Maynard"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7P3-A",
+      "title": "UMass Minutemen Hockey vs. Providence College Friars Hockey",
+      "category": "sports",
+      "city": "Amherst",
+      "state": "MA",
+      "venue": "Mullins Center",
+      "start": "2026-11-19T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3-A",
+      "source": "ticketmaster",
+      "lat": 42.375198,
+      "lon": -72.521202,
+      "neighborhood": "Amherst Center"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Af8A-0",
       "title": "Off The Rails Boston VIP Event",
       "category": "music",
@@ -24951,6 +25152,20 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAZ94e",
+      "title": "Maryland Terrapins Mens Basketball vs. Wagner Seahawks Mens Basketball",
+      "category": "sports",
+      "city": "College Park",
+      "state": "MD",
+      "venue": "Xfinity Center - MD",
+      "start": "2026-11-20T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ94e",
+      "source": "ticketmaster",
+      "lat": 38.992001,
+      "lon": -76.952797
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvye_",
       "title": "Jerry Seinfeld",
       "category": "theater",
@@ -27596,6 +27811,20 @@
       "neighborhood": "Three Chopt"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-f1d",
+      "title": "VMI Keydets Football vs. Furman Paladins Football",
+      "category": "sports",
+      "city": "Lexington",
+      "state": "VA",
+      "venue": "Alumni Memorial Field at Foster Stadium",
+      "start": "2026-11-21T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f1d",
+      "source": "ticketmaster",
+      "lat": 37.786598,
+      "lon": -79.519302
+    },
+    {
       "id": "ticketmaster:17A8v0G6GpL1ziD",
       "title": "LENNY PEARCE  -  TODDLER RAVE WORLD TOUR",
       "category": "music",
@@ -27609,6 +27838,21 @@
       "lat": 38.99734055,
       "lon": -77.02746183,
       "neighborhood": "Downtown Silver Spring"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7OgZM",
+      "title": "Virginia Cavaliers Football vs. North Carolina Tar Heels Football",
+      "category": "sports",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "Scott Stadium",
+      "start": "2026-11-21T12:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OgZM",
+      "source": "ticketmaster",
+      "lat": 38.019798,
+      "lon": -78.570999,
+      "neighborhood": "The Rocks"
     },
     {
       "id": "jambase:16510379",
@@ -27703,6 +27947,21 @@
       "lat": 39.3847811,
       "lon": -76.6116259,
       "neighborhood": "Ruxton"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70kPU",
+      "title": "Liberty University Flames Football vs. Western Kentucky Hilltoppers Football",
+      "category": "sports",
+      "city": "Lynchburg",
+      "state": "VA",
+      "venue": "Williams Stadium",
+      "start": "2026-11-21T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70kPU",
+      "source": "ticketmaster",
+      "lat": 37.351601,
+      "lon": -79.217102,
+      "neighborhood": "Windsor Hills"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7-w4I",
@@ -28317,6 +28576,21 @@
       "source": "ticketmaster",
       "lat": 41.21634887,
       "lon": -73.25247127
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZkQp",
+      "title": "Providence College Friars Hockey vs. UMass Minutemen Hockey",
+      "category": "sports",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Schneider Arena",
+      "start": "2026-11-21T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZkQp",
+      "source": "ticketmaster",
+      "lat": 41.821899,
+      "lon": -71.419701,
+      "neighborhood": "Downtown Providence"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1AfuOA7",
@@ -37078,21 +37352,6 @@
       "lon": -75.550253
     },
     {
-      "id": "ticketmaster:1A4ZkfIGkeU6I0B",
-      "title": "Victoria Monét: Frequency Of Love Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Anthem",
-      "start": "2026-11-27T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
-      "source": "ticketmaster",
-      "lat": 38.880099,
-      "lon": -77.026165,
-      "neighborhood": "Southwest Waterfront"
-    },
-    {
       "id": "jambase:16311842",
       "title": "Los Tucanes de Tijuana",
       "category": "music",
@@ -37413,6 +37672,21 @@
       "lat": 38.91795,
       "lon": -77.02373,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1A4ZkfIGkeU6I0B",
+      "title": "Victoria Monét: Frequency Of Love Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Anthem",
+      "start": "2026-11-27T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
+      "source": "ticketmaster",
+      "lat": 38.880099,
+      "lon": -77.026165,
+      "neighborhood": "Southwest Waterfront"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAeKC8",
@@ -38273,6 +38547,20 @@
       "lat": 38.904202,
       "lon": -77.031502,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7xd7f",
+      "title": "Delaware Blue Hens Football vs. Jacksonville State Gamecocks Football",
+      "category": "sports",
+      "city": "Newark",
+      "state": "DE",
+      "venue": "Delaware Stadium",
+      "start": "2026-11-28T15:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xd7f",
+      "source": "ticketmaster",
+      "lat": 39.714401,
+      "lon": -75.7397
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvt8v",
@@ -39824,14 +40112,14 @@
     },
     {
       "id": "ticketmaster:17A8v0G6GRLowuT",
-      "title": "DONNELL RAWLINGS: THE UNSPEAKABLE TOUR",
+      "title": "DONNELL RAWLINGS: Love Lies & Therapy Tour",
       "category": "comedy",
       "city": "National Harbor",
       "state": "MD",
       "venue": "The Theater at MGM National Harbor",
       "start": "2026-11-28T20:00:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/donnell-rawlings-the-unspeakable-tour-national-harbor-maryland-11-28-2026/event/150064CBDF47237F",
+      "url": "https://www.ticketmaster.com/donnell-rawlings-love-lies-therapy-tour-national-harbor-maryland-11-28-2026/event/150064CBDF47237F",
       "source": "ticketmaster",
       "lat": 38.791707,
       "lon": -77.003002
@@ -48476,6 +48764,20 @@
       "lon": -72.386497
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAv-4d",
+      "title": "Charlie Brown Christmas",
+      "category": "theater",
+      "city": "New Bedford",
+      "state": "MA",
+      "venue": "Zeiterion Theatre-MA",
+      "start": "2026-12-05T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-4d",
+      "source": "ticketmaster",
+      "lat": 41.638401,
+      "lon": -70.941902
+    },
+    {
       "id": "ticketmaster:vv1AvZkfYGkesEpoo",
       "title": "Sisters Christmas Catechism",
       "category": "theater",
@@ -49025,6 +49327,20 @@
       "neighborhood": "Cambridgeport"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7VPV",
+      "title": "Motown and More",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-05T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7VPV",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:15dZZ_fkb-f-z",
       "title": "Lehigh Valley Spirits vs. Baltimore Blast",
       "category": "sports",
@@ -49365,7 +49681,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af1dCf",
-      "title": "Verse Presents Santapoolza - An Ugly Sweater Party featurng: Keep Flying, Green Knuckle Material and Roderik",
+      "title": "Verse Presents Santapalooza - An Ugly Sweater Party featuring: Keep Flying, Green Knuckle Material and Roderik",
       "category": "music",
       "city": "Rutherford",
       "state": "NJ",
@@ -49374,7 +49690,7 @@
       "isFree": false,
       "priceMin": 28.46,
       "priceMax": 50.09,
-      "url": "https://www.ticketweb.com/event/verse-presents-santapoolza-williams-center-black-tickets/14283394",
+      "url": "https://www.ticketweb.com/event/verse-presents-santapalooza-williams-center-black-tickets/14283394",
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
@@ -51383,6 +51699,20 @@
       "neighborhood": "Behind the Rocks"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7VPw",
+      "title": "Elizabeth Cook",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-06T12:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7VPw",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:k7vGF_a6ezmvd",
       "title": "New York Giants vs. San Francisco 49ers",
       "category": "sports",
@@ -53084,6 +53414,20 @@
       "lat": 38.904202,
       "lon": -77.031502,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:vv177Z_pGknOWtC4",
+      "title": "Local Artist Series: Danny Bedrosian and Secret Army",
+      "category": "music",
+      "city": "Portsmouth",
+      "state": "NH",
+      "venue": "Jimmy's Jazz and Blues Club",
+      "start": "2026-12-07T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/local-artist-series-danny-bedrosian-and-portsmouth-new-hampshire-12-07-2026/event/0100656AA0F69395",
+      "source": "ticketmaster",
+      "lat": 43.07634404,
+      "lon": -70.76009881
     },
     {
       "id": "jambase:14972189",
@@ -60278,6 +60622,20 @@
       "lat": 40.448101,
       "lon": -79.990898,
       "neighborhood": "Strip District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7PsQf",
+      "title": "A Christmas Story",
+      "category": "theater",
+      "city": "Bristol",
+      "state": "PA",
+      "venue": "Bristol Riverside Theatre",
+      "start": "2026-12-12T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PsQf",
+      "source": "ticketmaster",
+      "lat": 40.115601,
+      "lon": -74.8582
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZgb7",
@@ -67856,6 +68214,20 @@
       "neighborhood": "West End"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7vGv",
+      "title": "SQRRL",
+      "category": "music",
+      "city": "Annapolis",
+      "state": "MD",
+      "venue": "Rams Head On Stage",
+      "start": "2026-12-19T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7vGv",
+      "source": "ticketmaster",
+      "lat": 38.991501,
+      "lon": -76.532501
+    },
+    {
       "id": "ticketmaster:1A4ZkfwGkelMB90",
       "title": "Georgetown Hoyas Men's Basketball v Seton Hall",
       "category": "sports",
@@ -68797,6 +69169,21 @@
       "lat": 42.362857,
       "lon": -71.118134,
       "neighborhood": "Lower Allston"
+    },
+    {
+      "id": "ticketmaster:vv177Z_eGkBxAyH3",
+      "title": "Godfrey",
+      "category": "comedy",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "The Wilbur",
+      "start": "2026-12-19T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/godfrey-boston-massachusetts-12-19-2026/event/0100642EA2179F12",
+      "source": "ticketmaster",
+      "lat": 42.3504843,
+      "lon": -71.065086,
+      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:164Zkf7PZZAuA16u",
@@ -74030,6 +74417,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:16tZk4JvkZA2eA11",
+      "title": "Nye 2027",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
+      "start": "2026-12-31T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/nye-2027-ocean-casino-resort-tickets/14429934?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 39.362536,
+      "lon": -74.413699
+    },
+    {
       "id": "ticketmaster:G5vVZ_oEQDEbm",
       "title": "Hairball",
       "category": "music",
@@ -74189,9 +74590,9 @@
       "state": "DE",
       "venue": "Rollins Center @ Bally's Dover",
       "start": "2026-12-31T21:30:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
+      "isFree": false,
+      "priceMin": 84.25,
+      "priceMax": 110,
       "url": "https://www.ticketweb.com/event/new-years-eve-rollins-center-ballys-dover-tickets/14310854",
       "source": "ticketmaster",
       "lat": 39.1892875,
@@ -74549,6 +74950,21 @@
       "source": "ticketmaster",
       "lat": 39.361334,
       "lon": -74.422049
+    },
+    {
+      "id": "ticketmaster:1A4Zk4JGketfAp-",
+      "title": "New Year's Comedy Jam",
+      "category": "comedy",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "DAR Constitution Hall",
+      "start": "2027-01-01T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/new-years-comedy-jam-washington-district-of-columbia-01-01-2027/event/15006566A95055A1",
+      "source": "ticketmaster",
+      "lat": 38.89423638,
+      "lon": -77.04092216,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:vv177Z_3GkmRcsWD",
@@ -77465,6 +77881,23 @@
       "lon": -74.435366
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8Skf",
+      "title": "Kpop Club Night with DJ NARI",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Howard Theatre",
+      "start": "2027-01-09T21:00:00",
+      "isFree": false,
+      "priceMin": 30.19,
+      "priceMax": 54.91,
+      "url": "https://www.ticketweb.com/event/kpop-club-night-with-dj-howard-theatre-tickets/14433194",
+      "source": "ticketmaster",
+      "lat": 38.9153136,
+      "lon": -77.0210937,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:1AvfZ_3GkTqvW3w",
       "title": "Toby's Dinner Theatre Presents: White Christmas",
       "category": "theater",
@@ -77805,6 +78238,21 @@
       "lat": 38.897412,
       "lon": -77.020029,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4tGkdI-icE",
+      "title": "Eva Cassidy Tribute Concert",
+      "category": "music",
+      "city": "Alexandria",
+      "state": "VA",
+      "venue": "Birchmere",
+      "start": "2027-01-11T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/eva-cassidy-tribute-concert-alexandria-virginia-01-11-2027/event/15006569E886CB67",
+      "source": "ticketmaster",
+      "lat": 38.839787,
+      "lon": -77.061339,
+      "neighborhood": "Potomac West"
     },
     {
       "id": "ticketmaster:k7vGF_3BCjVDz",
@@ -78585,6 +79033,21 @@
       "lon": -70.76009881
     },
     {
+      "id": "ticketmaster:vv1AvZk4JGkeBFXBX",
+      "title": "Grace Potter & The Trespassers",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2027-01-15T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/grace-potter-the-trespassers-portland-maine-01-15-2027/event/01006566BA23EEBE",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:k7vGF_GmIjGBO",
       "title": "The Basement Yard Live!",
       "category": "theater",
@@ -79110,21 +79573,6 @@
       "lat": 41.823799,
       "lon": -71.400902,
       "neighborhood": "College Hill"
-    },
-    {
-      "id": "ticketmaster:k7vGF_3BCq0H6",
-      "title": "Trenton Ironhawks vs. Greensboro Gargoyles",
-      "category": "sports",
-      "city": "Trenton",
-      "state": "NJ",
-      "venue": "CURE Insurance Arena",
-      "start": "2027-01-16T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/trenton-ironhawks-vs-greensboro-gargoyles-trenton-new-jersey-01-16-2027/event/0000652E8E764F07",
-      "source": "ticketmaster",
-      "lat": 40.2127206,
-      "lon": -74.7577,
-      "neighborhood": "Ewing and Carroll"
     },
     {
       "id": "ticketmaster:1A4Zk4FGkdRdchq",
@@ -80635,6 +81083,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:1A4Zk40GkeRZfHt",
+      "title": "Earlybirds Club - Girl Power Scream-Along",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2027-01-22T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/earlybirds-club-girl-power-screamalong-washington-district-of-columbia-01-22-2027/event/15006564AF014F29",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:G5vVZ_o6xlQkW",
@@ -82576,6 +83039,21 @@
       "neighborhood": "Hampton Beach"
     },
     {
+      "id": "ticketmaster:1A4Zk4PGkd0Ayii",
+      "title": "WONHO 2027 WORLD TOUR : NOCHE",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2027-01-25T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/wonho-2027-world-tour-noche-silver-spring-maryland-01-25-2027/event/15006565E4179B2C",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
+    },
+    {
       "id": "ticketmaster:1A4Zk4FGkdRaqjA",
       "title": "Toby's Dinner Theatre Presents: Grease",
       "category": "theater",
@@ -82795,6 +83273,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4PGkeH_psr",
+      "title": "Trey Daniels",
+      "category": "music",
+      "city": "Alexandria",
+      "state": "VA",
+      "venue": "Birchmere",
+      "start": "2027-01-27T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/trey-daniels-alexandria-virginia-01-27-2027/event/15006565BC656C5E",
+      "source": "ticketmaster",
+      "lat": 38.839787,
+      "lon": -77.061339,
+      "neighborhood": "Potomac West"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZPa9",
@@ -83061,6 +83554,21 @@
       "lat": 39.363445,
       "lon": -76.610418,
       "neighborhood": "Rosebank"
+    },
+    {
+      "id": "ticketmaster:1A4Zk40GkelQ0Yv",
+      "title": "The Walls Group",
+      "category": "music",
+      "city": "Alexandria",
+      "state": "VA",
+      "venue": "Birchmere",
+      "start": "2027-01-28T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-walls-group-alexandria-virginia-01-28-2027/event/15006564AB6A4C01",
+      "source": "ticketmaster",
+      "lat": 38.839787,
+      "lon": -77.061339,
+      "neighborhood": "Potomac West"
     },
     {
       "id": "ticketmaster:vv1A8vPQ8GAuD6Mg",
@@ -83490,6 +83998,21 @@
       "neighborhood": "Gales Ferry"
     },
     {
+      "id": "ticketmaster:G5vVZ_pKlufCd",
+      "title": "Jeff Foxworthy",
+      "category": "comedy",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Premier Theater at Foxwoods Resort Casino",
+      "start": "2027-01-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jeff-foxworthy-mashantucket-connecticut-01-29-2027/event/1D006564EB354383",
+      "source": "ticketmaster",
+      "lat": 41.4783608,
+      "lon": -71.9630872,
+      "neighborhood": "Mashantucket"
+    },
+    {
       "id": "ticketmaster:1AvfZ_4GkIOhWq7",
       "title": "ALEXANDRA KAY - THE ONE WOMAN SHOW",
       "category": "music",
@@ -83548,6 +84071,21 @@
       "lat": 37.5411,
       "lon": -77.434601,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv1avZk40PsuxZe8k",
+      "title": "Ani DiFranco",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "Jefferson Theater",
+      "start": "2027-01-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ani-difranco-charlottesville-virginia-01-29-2027/event/01006564971362F5",
+      "source": "ticketmaster",
+      "lat": 38.03066678,
+      "lon": -78.48125473,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7vjY",
@@ -83917,6 +84455,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4JGkey_Jxg",
+      "title": "Grace Potter & The Trespassers",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Anthem",
+      "start": "2027-01-30T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/grace-potter-the-trespassers-washington-district-of-columbia-01-30-2027/event/15006566B96668B5",
+      "source": "ticketmaster",
+      "lat": 38.880099,
+      "lon": -77.026165,
+      "neighborhood": "Southwest Waterfront"
     },
     {
       "id": "ticketmaster:1A4ZkfwGkdsg6gN",
@@ -84371,6 +84924,21 @@
       "lat": 38.910198,
       "lon": -77.017899,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1A4Zk40GkelcVs-",
+      "title": "Bebel Gilberto",
+      "category": "music",
+      "city": "Alexandria",
+      "state": "VA",
+      "venue": "Birchmere",
+      "start": "2027-01-31T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/bebel-gilberto-alexandria-virginia-01-31-2027/event/15006564ABB74C61",
+      "source": "ticketmaster",
+      "lat": 38.839787,
+      "lon": -77.061339,
+      "neighborhood": "Potomac West"
     },
     {
       "id": "ticketmaster:vv1F7Z_p0KvFZdu7u",
@@ -85051,6 +85619,36 @@
       "lon": -73.502403
     },
     {
+      "id": "ticketmaster:1A4Zk40GkdBVGNy",
+      "title": "NURSE JOHN: AGAINST MEDICAL ADVICE: READMITTED",
+      "category": "comedy",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "The Lyric",
+      "start": "2027-02-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.etix.com/ticket/p/58409292/nurse-johnagainst-medical-advicereadmitted-baltimore-the-lyric",
+      "source": "ticketmaster",
+      "lat": 39.3056193,
+      "lon": -76.6187102,
+      "neighborhood": "Midtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAAZoy",
+      "title": "Nurse John",
+      "category": "comedy",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "The Lyric - Baltimore",
+      "start": "2027-02-04T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZoy",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:1A4ZkfAGkdbhBFg",
       "title": "Wizards v Pelicans",
       "category": "sports",
@@ -85628,6 +86226,21 @@
       "lat": 41.4783608,
       "lon": -71.9630872,
       "neighborhood": "Mashantucket"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_pKYV0ha",
+      "title": "Piff the Magic Dragon",
+      "category": "theater",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Great Cedar Showroom at Foxwoods Resort Casino",
+      "start": "2027-02-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/piff-the-magic-dragon-mashantucket-connecticut-02-05-2027/event/1D006564F0D246C9",
+      "source": "ticketmaster",
+      "lat": 41.4489233,
+      "lon": -71.975699,
+      "neighborhood": "Gales Ferry"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7Mve",
@@ -86367,6 +86980,21 @@
       "lon": -76.2790052
     },
     {
+      "id": "ticketmaster:G5vVZ_pKYg7hG",
+      "title": "Piff the Magic Dragon",
+      "category": "theater",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Great Cedar Showroom at Foxwoods Resort Casino",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/piff-the-magic-dragon-mashantucket-connecticut-02-06-2027/event/1D006564F0D446CC",
+      "source": "ticketmaster",
+      "lat": 41.4489233,
+      "lon": -71.975699,
+      "neighborhood": "Gales Ferry"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7N47",
       "title": "Avenue Q",
       "category": "theater",
@@ -86379,6 +87007,23 @@
       "source": "ticketmaster",
       "lat": 41.3064,
       "lon": -73.502403
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1Af8Ub0",
+      "title": "Big Shrimp",
+      "category": "music",
+      "city": "Providence",
+      "state": "RI",
+      "venue": "Fete Music Hall",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "priceMin": 27.67,
+      "priceMax": 27.67,
+      "url": "https://www.ticketweb.com/event/big-shrimp-fete-music-hall-tickets/14436624",
+      "source": "ticketmaster",
+      "lat": 41.8158981,
+      "lon": -71.4431044,
+      "neighborhood": "Olneyville"
     },
     {
       "id": "ticketmaster:1A4ZkftGkdaT1lK",
@@ -86544,6 +87189,21 @@
       "source": "ticketmaster",
       "lat": 36.57134941,
       "lon": -79.42809252
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4PGkdmQI7o",
+      "title": "Pink Talking Fish - Animals 50",
+      "category": "music",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Elevation 27",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/pink-talking-fish-animals-50-virginia-beach-virginia-02-06-2027/event/01006565EE6A8111",
+      "source": "ticketmaster",
+      "lat": 36.8493416,
+      "lon": -76.0194075,
+      "neighborhood": "North Virginia Beach"
     },
     {
       "id": "ticketmaster:vv1AvZkfMGkdn5kyE",
@@ -86875,6 +87535,20 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:vv177Z_4GkUJbrWV",
+      "title": "Derrick Stroup: Running Hot Tour",
+      "category": "comedy",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Sandler Center For The Performing Arts",
+      "start": "2027-02-07T18:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/derrick-stroup-running-hot-tour-virginia-beach-virginia-02-07-2027/event/0100655DA661EF74",
+      "source": "ticketmaster",
+      "lat": 36.8009643,
+      "lon": -76.1210594
+    },
+    {
       "id": "ticketmaster:1AvfZ_KGkw7gVaK",
       "title": "Chelsea Cutler - IS THIS THE END? Tour",
       "category": "music",
@@ -87006,6 +87680,21 @@
       "lat": 37.5411,
       "lon": -77.434601,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GkUj2MC4",
+      "title": "Jake Minch - Getting Big Tour",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Atlantis",
+      "start": "2027-02-08T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jake-minch-getting-big-tour-washington-district-of-columbia-02-08-2027/event/1500655D9C3F7395",
+      "source": "ticketmaster",
+      "lat": 38.91819,
+      "lon": -77.02241,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "jambase:16535502",
@@ -88800,6 +89489,22 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8gQ7",
+      "title": "Couples Therapy: A Comedy Show - Valentine's Day Edition Early Show!",
+      "category": "other",
+      "city": "Leesburg",
+      "state": "VA",
+      "venue": "Tally Ho Theater",
+      "start": "2027-02-13T18:00:00",
+      "isFree": false,
+      "priceMin": 34.27,
+      "priceMax": 51.57,
+      "url": "https://www.ticketweb.com/event/couples-therapy-a-comedy-show-tally-ho-theater-tickets/14435684",
+      "source": "ticketmaster",
+      "lat": 39.115604,
+      "lon": -77.5678328
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7-1b",
       "title": "Old Dominion Monarchs Womens Basketball vs. Georgia State Panthers Womens Basketball",
       "category": "sports",
@@ -89095,21 +89800,6 @@
       "neighborhood": "The Fan District"
     },
     {
-      "id": "ticketmaster:vv1AvZkfNGkdOpwFl",
-      "title": "Shovels & Rope: Bare Bones",
-      "category": "music",
-      "city": "Charlottesville",
-      "state": "VA",
-      "venue": "Jefferson Theater",
-      "start": "2027-02-13T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/shovels-rope-bare-bones-charlottesville-virginia-02-13-2027/event/01006523E05B222B",
-      "source": "ticketmaster",
-      "lat": 38.03066678,
-      "lon": -78.48125473,
-      "neighborhood": "Downtown Mall"
-    },
-    {
       "id": "jambase:16528506",
       "title": "Get The Led Out",
       "category": "music",
@@ -89258,66 +89948,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAZO48",
-      "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
-      "category": "other",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-14T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZO48",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZPag",
-      "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
-      "category": "theater",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-14T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPag",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAv_-J",
-      "title": "Tchaikovsky: The Man Behind the Music",
-      "category": "theater",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Carpenter Theatre at Dominion Energy Center",
-      "start": "2027-02-14T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-J",
-      "source": "ticketmaster",
-      "lat": 37.5411,
-      "lon": -77.434601,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:17A8v0G6ui6Nnii",
-      "title": "The VCO Presents: Love Takes Flight",
-      "category": "theater",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "The Vault at Capital One Hall",
-      "start": "2027-02-14T16:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-vco-presents-love-takes-flight-tysons-virginia-02-14-2027/event/150064DB078EAB2C",
-      "source": "ticketmaster",
-      "lat": 38.92561,
-      "lon": -77.21158,
-      "neighborhood": "West McLean"
-    },
-    {
       "id": "ticketmaster:rZ7HnEZ1Af80-V",
       "title": "FLOW WORLD TOUR 2027 \"ONCE IN A CENTURY\" ~ANIME  THE MAX!!!~",
       "category": "music",
@@ -89325,9 +89955,9 @@
       "state": "DC",
       "venue": "Howard Theatre",
       "start": "2027-02-14T19:30:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
+      "isFree": false,
+      "priceMin": 61.61,
+      "priceMax": 117.74,
       "url": "https://www.ticketweb.com/event/flow-world-tour-2027-once-howard-theatre-tickets/14424874",
       "source": "ticketmaster",
       "lat": 38.9153136,
@@ -89810,6 +90440,21 @@
       "neighborhood": "Storrs"
     },
     {
+      "id": "ticketmaster:1AvfZ_4GkwwwUjv",
+      "title": "Jackson Browne",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Warner Theatre",
+      "start": "2027-02-17T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jackson-browne-washington-district-of-columbia-02-17-2027/event/1500655CB2CB6701",
+      "source": "ticketmaster",
+      "lat": 38.8961209,
+      "lon": -77.0296101,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:16vfZ_fx9G7cgW_",
       "title": "Towson University Tigers Mens Basketball vs. Elon Phoenix Men's Basketball",
       "category": "sports",
@@ -89984,6 +90629,21 @@
       "lat": 38.880099,
       "lon": -77.026165,
       "neighborhood": "Southwest Waterfront"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GkwwUUji",
+      "title": "Jackson Browne",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Warner Theatre",
+      "start": "2027-02-18T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jackson-browne-washington-district-of-columbia-02-18-2027/event/1500655CB2DB672C",
+      "source": "ticketmaster",
+      "lat": 38.8961209,
+      "lon": -77.0296101,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:G5vVZ_f9n27Xb",
@@ -90652,6 +91312,21 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:1kA8vPQbGACKf0z",
+      "title": "The Billy Joel Band",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "The Paramount Baltimore",
+      "start": "2027-02-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-billy-joel-band-baltimore-maryland-02-20-2027/event/150065698E4D4938",
+      "source": "ticketmaster",
+      "lat": 39.2761532,
+      "lon": -76.6248573,
+      "neighborhood": "Stadium/Entertainment Area"
+    },
+    {
       "id": "ticketmaster:1kA8vP4IGA2oPPC",
       "title": "National Symphony Orchestra: Noseda conducts Rachmaninoff and Respighi",
       "category": "theater",
@@ -90946,6 +91621,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:1AvfZ_fGkVgH-Kj",
+      "title": "Boundaries",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Baltimore Soundstage",
+      "start": "2027-02-21T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boundaries-baltimore-maryland-02-21-2027/event/1500654D35F214DC",
+      "source": "ticketmaster",
+      "lat": 39.28763705,
+      "lon": -76.60719037,
+      "neighborhood": "Inner Harbor"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfCK40",
       "title": "BABYFXCE E",
       "category": "music",
@@ -91127,6 +91817,20 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:vv16eZk40-wZA577ek",
+      "title": "Lucinda Williams And Her Band",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2027-02-23T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/lucinda-williams-and-her-band-wilmington-delaware-02-23-2027/event/02006564872A3315",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
     },
     {
       "id": "jambase:16470697",
@@ -93296,6 +94000,21 @@
       "lon": -72.846188
     },
     {
+      "id": "ticketmaster:1AvfZ_4GkBz5tcN",
+      "title": "The Funeral Portrait - A Hex On The Nation",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Baltimore Soundstage",
+      "start": "2027-03-05T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-funeral-portrait-a-hex-on-baltimore-maryland-03-05-2027/event/1500655EB82E9B63",
+      "source": "ticketmaster",
+      "lat": 39.28763705,
+      "lon": -76.60719037,
+      "neighborhood": "Inner Harbor"
+    },
+    {
       "id": "ticketmaster:G5vVZ_fM489Kp",
       "title": "Stand By Me: The Film and Its Stars 40 Years Later",
       "category": "film",
@@ -94185,6 +94904,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:1A4Zk4JGkdprFHr",
+      "title": "All My Friends Tour With Pivot Gang",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Atlantis",
+      "start": "2027-03-07T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/all-my-friends-tour-with-pivot-washington-district-of-columbia-03-07-2027/event/15006566D6788F1E",
+      "source": "ticketmaster",
+      "lat": 38.91819,
+      "lon": -77.02241,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:1A4Zk4KGkdaebhh",
       "title": "Lake Street Dive - What About Flamingos? 2027 Tour",
       "category": "music",
@@ -94321,6 +95055,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:G5vVZ_pEBFPxX",
+      "title": "The Funeral Portrait - A Hex On The Nation",
+      "category": "music",
+      "city": "New Haven",
+      "state": "CT",
+      "venue": "Toad's Place",
+      "start": "2027-03-09T18:30:00",
+      "isFree": false,
+      "url": "https://www.etix.com/ticket/p/67680794/the-funeral-portrait-a-hex-on-the-nation-new-haven-toads-place-of-new-haven",
+      "source": "ticketmaster",
+      "lat": 41.311648,
+      "lon": -72.9293225,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:17A8v0G62ZMnX-3",
       "title": "Capitals vs Flames (Salute to the Military)",
       "category": "sports",
@@ -94454,6 +95203,20 @@
       "lat": 41.820584,
       "lon": -71.426334,
       "neighborhood": "Federal Hill"
+    },
+    {
+      "id": "ticketmaster:vv1AOvPbyGA5r0Ai",
+      "title": "An Alleged Evening with Conor Oberst",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2027-03-09T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/an-alleged-evening-with-conor-oberst-wilmington-delaware-03-09-2027/event/020065639B7A416C",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
     },
     {
       "id": "ticketmaster:1A4ZkfwGkdU1_Zg",
@@ -94740,6 +95503,36 @@
       "neighborhood": "Bromo Arts District"
     },
     {
+      "id": "ticketmaster:1AvfZ_4GkDVBsko",
+      "title": "An Alleged Evening with Conor Oberst",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Baltimore Soundstage",
+      "start": "2027-03-11T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/an-alleged-evening-with-conor-oberst-baltimore-maryland-03-11-2027/event/1500655EF4EB1191",
+      "source": "ticketmaster",
+      "lat": 39.28763705,
+      "lon": -76.60719037,
+      "neighborhood": "Inner Harbor"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4xGkd6di6o",
+      "title": "The Funeral Portrait - A Hex On The Nation",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "Aura",
+      "start": "2027-03-12T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-funeral-portrait-a-hex-on-portland-maine-03-12-2027/event/01006562C70EC1D1",
+      "source": "ticketmaster",
+      "lat": 43.656551,
+      "lon": -70.258943,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:G5vVZ_fpUZNCY",
       "title": "From Ashes To New",
       "category": "music",
@@ -94932,6 +95725,23 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8Vf7",
+      "title": "JOYCE WRICE – THE MACHIKO TOUR",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Howard Theatre",
+      "start": "2027-03-12T20:00:00",
+      "isFree": false,
+      "priceMin": 77.06,
+      "priceMax": 117.23,
+      "url": "https://www.ticketweb.com/event/joyce-wrice-the-machiko-howard-theatre-tickets/14434504",
+      "source": "ticketmaster",
+      "lat": 38.9153136,
+      "lon": -77.0210937,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "jambase:16403896",
       "title": "Gracie Abrams",
       "category": "music",
@@ -95066,6 +95876,21 @@
       "lat": 37.0619,
       "lon": -76.4904,
       "neighborhood": "Riverside"
+    },
+    {
+      "id": "ticketmaster:1A4Zk40GkdfGyTD",
+      "title": "Flower Face",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Atlantis",
+      "start": "2027-03-13T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/flower-face-washington-district-of-columbia-03-13-2027/event/15006564D4339FFB",
+      "source": "ticketmaster",
+      "lat": 38.91819,
+      "lon": -77.02241,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:1AvfZ_4GkRuWGa_",
@@ -97701,51 +98526,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:1A4Zk4FGkd5tQpI",
-      "title": "Haken - In A Fever Dream Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-03-28T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/haken-in-a-fever-dream-tour-washington-district-of-columbia-03-28-2027/event/15006548CBA5A5A8",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1A4ZkfAGkdbl11K",
-      "title": "Wizards v Mavericks",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-03-28T18:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/wizards-v-mavericks-washington-district-of-columbia-03-28-2027/event/15006505D8ACA293",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_KGkSskxOi",
-      "title": "Wizards VIP Packages: 3/28/2027",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-03-28T18:00:00",
-      "isFree": false,
-      "url": "https://www.gofevo.com/event/Wizards25220250918-15282603340",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:1A4ZkfxGkelII5V",
       "title": "Yuridia - Cartas Sobre La Mesa Tour 2027",
       "category": "music",
@@ -97760,51 +98540,19 @@
       "lon": -77.003002
     },
     {
-      "id": "ticketmaster:1A4Zk4FGkec-9sW",
-      "title": "Danielle Ponder",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2027-03-29T18:30:00",
+      "id": "ticketmaster:Z7r9jZ1A7Jp4J",
+      "title": "Baltimore Orioles vs. Toronto Blue Jays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-03-29T15:05:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/danielle-ponder-washington-district-of-columbia-03-29-2027/event/15006548AD857C7D",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4J",
       "source": "ticketmaster",
-      "lat": 38.91819,
-      "lon": -77.02241,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7Jeqy",
-      "title": "The 25th Annual Putnam County Spelling Bee",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Ford's Theatre",
-      "start": "2027-03-29T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jeqy",
-      "source": "ticketmaster",
-      "lat": 38.892101,
-      "lon": -77.022301,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfCkA7",
-      "title": "Cornelius",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Howard Theatre",
-      "start": "2027-03-29T20:00:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
-      "url": "https://www.ticketweb.com/event/cornelius-howard-theatre-tickets/14386144",
-      "source": "ticketmaster",
-      "lat": 38.9153136,
-      "lon": -77.0210937,
-      "neighborhood": "Northwest Washington"
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:G5vVZ_2Td6Bfu",
@@ -97820,36 +98568,6 @@
       "lat": 41.0507831,
       "lon": -73.5395426,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:17A8v0G62ZMRC-s",
-      "title": "Capitals vs Blackhawks (CapsFest)",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-03-30T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/capitals-vs-blackhawks-capsfest-washington-district-of-columbia-03-30-2027/event/150064F037BCE871",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_4GktTZwzC",
-      "title": "Washington Capitals VIP Tickets: 03/30/27",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-03-30T19:00:00",
-      "isFree": false,
-      "url": "https://www.gofevo.com/event/Capitals25220260109-1415010135",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA79aw",
@@ -97880,6 +98598,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4E",
+      "title": "Baltimore Orioles vs. Toronto Blue Jays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-03-31T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4E",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "todaytix:47753",
@@ -97950,6 +98683,21 @@
       "lat": 39.28763705,
       "lon": -76.60719037,
       "neighborhood": "Inner Harbor"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4I",
+      "title": "Baltimore Orioles vs. Toronto Blue Jays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-01T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4I",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAeK8N",
@@ -98098,6 +98846,21 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4t",
+      "title": "Baltimore Orioles vs. Detroit Tigers",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-02T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4t",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7POZ4",
@@ -98262,6 +99025,21 @@
       "lon": -75.538597
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4Y",
+      "title": "Baltimore Orioles vs. Detroit Tigers",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-03T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4Y",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:1A4Zk4PGkdOutri",
       "title": "Toby's Dinner Theatre Presents: Crazy For You",
       "category": "theater",
@@ -98306,6 +99084,36 @@
       "lon": -76.605821
     },
     {
+      "id": "ticketmaster:G5vVZ_fH-Fk4a",
+      "title": "Clutch",
+      "category": "music",
+      "city": "Uncasville",
+      "state": "CT",
+      "venue": "Mohegan Sun Arena",
+      "start": "2027-04-03T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/clutch-uncasville-connecticut-04-03-2027/event/1D00654F21206549",
+      "source": "ticketmaster",
+      "lat": 41.4915974,
+      "lon": -72.0914563,
+      "neighborhood": "Uncasville"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4Gkz75KUe",
+      "title": "Bored Teachers: Is It Friday Yet?! Comedy Tour",
+      "category": "comedy",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Nevermore Hall",
+      "start": "2027-04-03T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/bored-teachers-is-it-friday-yet-baltimore-maryland-04-03-2027/event/1500655E042D3D82",
+      "source": "ticketmaster",
+      "lat": 39.290443,
+      "lon": -76.612333,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7_aJ",
       "title": "MercyMe",
       "category": "music",
@@ -98333,6 +99141,20 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1AvfZ_4GkMbwqCd",
+      "title": "Ms. Pat",
+      "category": "comedy",
+      "city": "National Harbor",
+      "state": "MD",
+      "venue": "The Theater at MGM National Harbor",
+      "start": "2027-04-03T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ms-pat-national-harbor-maryland-04-03-2027/event/1500655DD8C9D383",
+      "source": "ticketmaster",
+      "lat": 38.791707,
+      "lon": -77.003002
     },
     {
       "id": "ticketmaster:1A4Zk4PGkdbrava",
@@ -98392,6 +99214,21 @@
       "source": "ticketmaster",
       "lat": 39.375599,
       "lon": -77.469299
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4s",
+      "title": "Baltimore Orioles vs. Detroit Tigers",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-04T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4s",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PNjO",
@@ -98917,6 +99754,21 @@
       "neighborhood": "Bayside"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4w",
+      "title": "Baltimore Orioles vs. Los Angeles Angels",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-09T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4w",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P46",
       "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
       "category": "sports",
@@ -99033,6 +99885,21 @@
       "source": "ticketmaster",
       "lat": 39.722,
       "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4S",
+      "title": "Baltimore Orioles vs. Los Angeles Angels",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-10T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4S",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:vvG17Z_CBB26GE",
@@ -99271,6 +100138,21 @@
       "lon": -75.538597
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4V",
+      "title": "Baltimore Orioles vs. Los Angeles Angels",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-11T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4V",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:vvG17Z_CBB86Gm",
       "title": "Providence Bruins vs. Hartford Wolf Pack",
       "category": "sports",
@@ -99343,6 +100225,21 @@
       "lat": 43.6539716,
       "lon": -70.2632924,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4g",
+      "title": "Baltimore Orioles vs. Los Angeles Angels",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-12T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4g",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:1A4Zk4PGkd8AIp-",
@@ -100232,6 +101129,21 @@
       "lon": -75.538597
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4U",
+      "title": "Baltimore Orioles vs. Kansas City Royals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-20T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4U",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4a",
       "title": "Chesapeake Baysox vs. Harrisburg Senators",
       "category": "sports",
@@ -100378,6 +101290,21 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4M",
+      "title": "Baltimore Orioles vs. Kansas City Royals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-21T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4M",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZOZv",
       "title": "Radio Golf",
       "category": "theater",
@@ -100450,6 +101377,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4z",
+      "title": "Baltimore Orioles vs. Kansas City Royals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-22T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4z",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tk9",
@@ -100580,6 +101522,21 @@
       "source": "ticketmaster",
       "lat": 43.248001,
       "lon": -71.5112
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jp4y",
+      "title": "Baltimore Orioles vs. Miami Marlins",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-23T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jp4y",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvUaK",
@@ -100817,6 +101774,21 @@
       "lon": -75.538597
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7JppZ",
+      "title": "Baltimore Orioles vs. Miami Marlins",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-24T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JppZ",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:1A4Zk4PGkdO2arM",
       "title": "Toby's Dinner Theatre Presents: Crazy For You",
       "category": "theater",
@@ -101006,6 +101978,21 @@
       "lon": -75.538597
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jppv",
+      "title": "Baltimore Orioles vs. Miami Marlins",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-25T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppv",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PspZ",
       "title": "Radio Golf",
       "category": "theater",
@@ -101095,6 +102082,21 @@
       "neighborhood": "Town Center"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jppe",
+      "title": "Baltimore Orioles vs. Boston Red Sox",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-27T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppe",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7tFv",
       "title": "Wilmington Blue Rocks vs. Brooklyn Cyclones",
       "category": "sports",
@@ -101122,6 +102124,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jppd",
+      "title": "Baltimore Orioles vs. Boston Red Sox",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-04-28T12:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppd",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tFe",
@@ -101891,6 +102908,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:17A8v0G65F4Ejtr",
+      "title": "SiM - HOOMAN AFTER ALL WORLD TOUR",
+      "category": "music",
+      "city": "Silver Spring",
+      "state": "MD",
+      "venue": "The Fillmore Silver Spring",
+      "start": "2027-05-06T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sim-hooman-after-all-world-tour-silver-spring-maryland-05-06-2027/event/150064B2159DCA5E",
+      "source": "ticketmaster",
+      "lat": 38.99734055,
+      "lon": -77.02746183,
+      "neighborhood": "Downtown Silver Spring"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAAeFE",
       "title": "KT Tunstall",
       "category": "music",
@@ -101961,6 +102993,21 @@
       "source": "ticketmaster",
       "lat": 39.375599,
       "lon": -77.469299
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp7",
+      "title": "Baltimore Orioles vs. Chicago White Sox",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-07T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp7",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4f",
@@ -102139,6 +103186,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7JppA",
+      "title": "Baltimore Orioles vs. Chicago White Sox",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-08T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JppA",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P44",
       "title": "Chesapeake Baysox vs. Akron RubberDucks",
       "category": "sports",
@@ -102151,6 +103213,21 @@
       "source": "ticketmaster",
       "lat": 39.006599,
       "lon": -76.779404
+    },
+    {
+      "id": "ticketmaster:G5vVZ_pKzP0Iu",
+      "title": "Stewart Copeland Police Deranged  ",
+      "category": "music",
+      "city": "Mashantucket",
+      "state": "CT",
+      "venue": "Premier Theater at Foxwoods Resort Casino",
+      "start": "2027-05-08T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/stewart-copeland-police-deranged-mashantucket-connecticut-05-08-2027/event/1D006564F8964A0D",
+      "source": "ticketmaster",
+      "lat": 41.4783608,
+      "lon": -71.9630872,
+      "neighborhood": "Mashantucket"
     },
     {
       "id": "ticketmaster:vv177Z_4GkRoKeef",
@@ -102300,6 +103377,21 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jppk",
+      "title": "Baltimore Orioles vs. Chicago White Sox",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-09T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppk",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZOZt",
       "title": "Radio Golf",
       "category": "theater",
@@ -102373,6 +103465,21 @@
       "lon": -70.76009881
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp6",
+      "title": "Baltimore Orioles vs. New York Yankees",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-10T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp6",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:1A4Zk4PGkd82F9y",
       "title": "Toby's Dinner Theatre Presents: Crazy For You",
       "category": "theater",
@@ -102386,6 +103493,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7JppF",
+      "title": "Baltimore Orioles vs. New York Yankees",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-11T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JppF",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tF6",
@@ -102415,6 +103537,21 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jppa",
+      "title": "Baltimore Orioles vs. New York Yankees",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-12T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppa",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tFF",
@@ -102455,6 +103592,21 @@
       "lat": 43.661598,
       "lon": -70.259201,
       "neighborhood": "Bayside"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp8",
+      "title": "Baltimore Orioles vs. New York Yankees",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-13T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp8",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:1A4Zk4PGkd88FbZ",
@@ -102572,6 +103724,20 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv177Z_4GkMZsPUH",
+      "title": "Slaughter",
+      "category": "music",
+      "city": "Lincoln",
+      "state": "RI",
+      "venue": "Bally's Event Center",
+      "start": "2027-05-14T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/slaughter-lincoln-rhode-island-05-14-2027/event/0100655DC0C65DBC",
+      "source": "ticketmaster",
+      "lat": 41.892518,
+      "lon": -71.437762
     },
     {
       "id": "ticketmaster:1A4Zk4NGkeItVML",
@@ -102894,6 +104060,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jppo",
+      "title": "Baltimore Orioles vs. St. Louis Cardinals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-18T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppo",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P49",
       "title": "Chesapeake Baysox vs. Altoona Curve",
       "category": "sports",
@@ -102997,6 +104178,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp3",
+      "title": "Baltimore Orioles vs. St. Louis Cardinals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-19T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp3",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvUaF",
       "title": "Chesapeake Baysox vs. Altoona Curve",
       "category": "sports",
@@ -103053,6 +104249,21 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7JppK",
+      "title": "Baltimore Orioles vs. St. Louis Cardinals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-20T12:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JppK",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:1A4Zk4PGkd83Fbo",
@@ -103732,6 +104943,21 @@
       "lon": -73.502403
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jppf",
+      "title": "Baltimore Orioles vs. Colorado Rockies",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-28T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppf",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PgAZ",
       "title": "The Cherry Orchard",
       "category": "theater",
@@ -103804,6 +105030,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp4",
+      "title": "Baltimore Orioles vs. Colorado Rockies",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-29T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp4",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "cityparks:18362",
@@ -103934,6 +105175,21 @@
       "lon": -75.538597
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jppp",
+      "title": "Baltimore Orioles vs. Colorado Rockies",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-30T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppp",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7M7K",
       "title": "Les Miserables (Touring)",
       "category": "theater",
@@ -103961,6 +105217,21 @@
       "lat": 41.766499,
       "lon": -72.673103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp9",
+      "title": "Baltimore Orioles vs. New York Mets",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-05-31T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp9",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:1A4Zk4PGkd8fzbR",
@@ -104005,6 +105276,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jppb",
+      "title": "Baltimore Orioles vs. New York Mets",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-01T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jppb",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4-",
@@ -104108,6 +105394,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpp_",
+      "title": "Baltimore Orioles vs. New York Mets",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-02T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpp_",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4x",
@@ -104925,6 +106226,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7JpbZ",
+      "title": "Baltimore Orioles vs. Tampa Bay Rays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-11T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JpbZ",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PgA8",
       "title": "The Cherry Orchard",
       "category": "theater",
@@ -105011,6 +106327,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbv",
+      "title": "Baltimore Orioles vs. Tampa Bay Rays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-12T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbv",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:1A4Zk4PGkdO3yL3",
@@ -105114,6 +106445,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbe",
+      "title": "Baltimore Orioles vs. Tampa Bay Rays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-13T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbe",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7PgAF",
       "title": "The Cherry Orchard",
       "category": "theater",
@@ -105157,6 +106503,21 @@
       "lon": -71.5112
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbd",
+      "title": "Baltimore Orioles vs. Tampa Bay Rays",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-14T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbd",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7MQ3",
       "title": "New Hampshire Fisher Cats vs. Richmond Flying Squirrels",
       "category": "sports",
@@ -105170,6 +106531,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb7",
+      "title": "Baltimore Orioles vs. Cleveland Guardians",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-15T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb7",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4E",
@@ -105228,6 +106604,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7JpbA",
+      "title": "Baltimore Orioles vs. Cleveland Guardians",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-16T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JpbA",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvUa8",
@@ -105300,6 +106691,21 @@
       "lat": 39.289634,
       "lon": -76.621342,
       "neighborhood": "Bromo Arts District"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbk",
+      "title": "Baltimore Orioles vs. Cleveland Guardians",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-17T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbk",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvVup",
@@ -105955,6 +107361,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb6",
+      "title": "Baltimore Orioles vs. Texas Rangers",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-25T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb6",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:G5vVZ_42LSNJh",
       "title": "Frank Caliendo",
       "category": "comedy",
@@ -105997,6 +107418,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7JpbF",
+      "title": "Baltimore Orioles vs. Texas Rangers",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-26T16:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JpbF",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvMbU",
@@ -106072,6 +107508,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpba",
+      "title": "Baltimore Orioles vs. Texas Rangers",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-27T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpba",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7M7E",
       "title": "Les Miserables (Touring)",
       "category": "theater",
@@ -106099,6 +107550,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb8",
+      "title": "Baltimore Orioles vs. Athletics",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-29T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb8",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4t",
@@ -106130,6 +107596,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbo",
+      "title": "Baltimore Orioles vs. Athletics",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-06-30T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbo",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4Y",
       "title": "Chesapeake Baysox vs. Somerset Patriots",
       "category": "sports",
@@ -106156,6 +107637,21 @@
       "source": "ticketmaster",
       "lat": 39.722,
       "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb3",
+      "title": "Baltimore Orioles vs. Athletics",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-01T12:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb3",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7MjZ",
@@ -106472,6 +107968,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7JpbK",
+      "title": "Baltimore Orioles vs. Washington Nationals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-16T19:05:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JpbK",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AA7P4w",
       "title": "Chesapeake Baysox vs. Reading Fightin Phils",
       "category": "sports",
@@ -106528,6 +108039,21 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbf",
+      "title": "Baltimore Orioles vs. Washington Nationals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-17T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbf",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7P4S",
@@ -106587,6 +108113,36 @@
       "lon": -76.779404
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb4",
+      "title": "Baltimore Orioles vs. Washington Nationals",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-18T13:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb4",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbp",
+      "title": "Baltimore Orioles vs. Houston Astros",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-19T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbp",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvM_Z",
       "title": "Frederick Keys vs. Wilmington Blue Rocks",
       "category": "sports",
@@ -106599,6 +108155,21 @@
       "source": "ticketmaster",
       "lat": 39.375599,
       "lon": -77.469299
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb9",
+      "title": "Baltimore Orioles vs. Houston Astros",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-20T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb9",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvM_M",
@@ -106615,6 +108186,21 @@
       "lon": -77.469299
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7Jpbb",
+      "title": "Baltimore Orioles vs. Houston Astros",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-21T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbb",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
+    },
+    {
       "id": "ticketmaster:1AvfZ_KGkSs_xxT",
       "title": "Greta Van Fleet - Into The Beginning",
       "category": "music",
@@ -106628,6 +108214,21 @@
       "lat": 39.209019,
       "lon": -76.862583,
       "neighborhood": "Town Center"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7Jpb_",
+      "title": "Baltimore Orioles vs. Boston Red Sox",
+      "category": "sports",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Camden Yards",
+      "start": "2027-07-22T18:35:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpb_",
+      "source": "ticketmaster",
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:1A4ZkfwGkdaJCIk",
@@ -106702,18 +108303,19 @@
       "lon": -68.77376966
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAvM_d",
-      "title": "Frederick Keys vs. Wilmington Blue Rocks",
+      "id": "ticketmaster:Z7r9jZ1A7JpbO",
+      "title": "Baltimore Orioles vs. Boston Red Sox",
       "category": "sports",
-      "city": "Frederick",
+      "city": "Baltimore",
       "state": "MD",
-      "venue": "Nymeo Field at Harry Grove Stadium",
-      "start": "2027-07-24T18:00:00",
+      "venue": "Camden Yards",
+      "start": "2027-07-23T19:05:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvM_d",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JpbO",
       "source": "ticketmaster",
-      "lat": 39.375599,
-      "lon": -77.469299
+      "lat": 39.293999,
+      "lon": -76.622597,
+      "neighborhood": "University Of Maryland"
     },
     {
       "id": "ticketmaster:G5vVZ_KwzS711",
@@ -106743,20 +108345,6 @@
       "source": "ticketmaster",
       "lat": 43.580124,
       "lon": -71.412946
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAvM_K",
-      "title": "Frederick Keys vs. Wilmington Blue Rocks",
-      "category": "sports",
-      "city": "Frederick",
-      "state": "MD",
-      "venue": "Nymeo Field at Harry Grove Stadium",
-      "start": "2027-07-25T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvM_K",
-      "source": "ticketmaster",
-      "lat": 39.375599,
-      "lon": -77.469299
     },
     {
       "id": "ticketmaster:vv177Z_KGkni4dAs",
@@ -106802,20 +108390,6 @@
       "lon": -75.538597
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AA7P4g",
-      "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-07-27T18:35:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P4g",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AA7tFM",
       "title": "Wilmington Blue Rocks vs. Jersey Shore BlueClaws",
       "category": "sports",
@@ -106845,20 +108419,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AA7P4U",
-      "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-07-28T12:07:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P4U",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AA7Mja",
       "title": "New Hampshire Fisher Cats vs. Portland Sea Dogs",
       "category": "sports",
@@ -106872,20 +108432,6 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7P4M",
-      "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-07-29T18:35:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P4M",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tFz",
@@ -106931,20 +108477,6 @@
       "lon": -75.538597
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AA7P4z",
-      "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-07-30T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P4z",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AA7Mjo",
       "title": "New Hampshire Fisher Cats vs. Portland Sea Dogs",
       "category": "sports",
@@ -106972,20 +108504,6 @@
       "source": "ticketmaster",
       "lat": 39.722,
       "lon": -75.538597
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7P4y",
-      "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-07-31T18:35:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P4y",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7Mj3",
@@ -107248,6 +108766,21 @@
       "source": "ticketmaster",
       "lat": 42.987801,
       "lon": -71.465103,
+      "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4JGkd2w7hR",
+      "title": "Henry Cho: It's What I Do",
+      "category": "comedy",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2027-08-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/henry-cho-its-what-i-do-portland-maine-08-20-2027/event/01006566CFC846EF",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
       "neighborhood": "Downtown"
     },
     {
