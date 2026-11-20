@@ -1,676 +1,21 @@
 {
-  "generatedAt": "2026-11-20T03:46:30.200Z",
-  "count": 6945,
+  "generatedAt": "2026-11-20T18:53:49.319Z",
+  "count": 6928,
   "events": [
     {
-      "id": "jambase:15836174",
-      "title": "Deer Tick",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "House Of Independents",
-      "start": "2026-11-19T00:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/deer-tick-house-of-independents-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/deertick-2026-press-richard-mccaffrey-1480x832.jpg",
-      "lat": 40.2162,
-      "lon": -74.0098,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0C6"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16529176",
-      "title": "Greensky Bluegrass",
-      "category": "music",
-      "city": "York",
-      "state": "PA",
-      "venue": "Appell Center For The Performing Arts",
-      "start": "2026-11-19T00:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/greensky-bluegrass-appell-center-for-the-performing-arts-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/07/greensky-bluegrass-july-2025-press-dl-1480x832.jpg",
-      "lat": 39.9634,
-      "lon": -76.7291,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZduY"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16394602",
-      "title": "Andrea Gillis",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Sanctuary",
-      "start": "2026-11-19T17:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/andrea-gillis-sanctuary-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.4317,
-      "lon": -71.4536,
-      "neighborhood": "Maynard"
-    },
-    {
-      "id": "jambase:16509636",
-      "title": "Lenny Pearce",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Stage AE",
-      "start": "2026-11-19T18:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/lenny-pearce-stage-ae-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/04/lenny-pearce-1480x832.png",
-      "lat": 40.4459,
-      "lon": -80.0115,
-      "neighborhood": "North Shore",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16417797",
-      "title": "Goose",
-      "category": "music",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Citizens Live at The Wylie",
-      "start": "2026-11-19T18:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/goose-citizens-live-at-the-wylie-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/07/goose-march-2026-press-1480x832.jpg",
-      "lat": 40.4418,
-      "lon": -79.9899,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16433411",
-      "title": "Motionless In White",
-      "category": "music",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "Prudential Center",
-      "start": "2026-11-19T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/motionless-in-white-prudential-center-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/motionless-in-white-press-2026-evans-1480x832.jpg",
-      "lat": 40.7337,
-      "lon": -74.1719,
-      "neighborhood": "Central Ward"
-    },
-    {
-      "id": "jambase:16313657",
-      "title": "Stella Lefty",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-11-19T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/stella-lefty-the-atlantis-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9182,
-      "lon": -77.0236,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16074331",
-      "title": "They Might Be Giants",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 Club",
-      "start": "2026-11-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/they-might-be-giants-930-club-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/they-might-be-giants-press-2026-1480x832.jpg",
-      "lat": 38.9179,
-      "lon": -77.0237,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/they-might-be-giants-washington-district-of-columbia-11-19-2026/event/15006488C025A07C"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16057167",
-      "title": "West 22nd",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Brighton Music Hall",
-      "start": "2026-11-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/west-22nd-brighton-music-hall-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.353,
-      "lon": -71.1326,
-      "neighborhood": "Commonwealth"
-    },
-    {
-      "id": "jambase:16064367",
-      "title": "sombr",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Xfinity Mobile Arena",
-      "start": "2026-11-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/sombr-xfinity-mobile-arena-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/05/sombr-1480x832.png",
-      "lat": 39.9012,
-      "lon": -75.172,
-      "neighborhood": "South Philadelphia East"
-    },
-    {
-      "id": "jambase:16468731",
-      "title": "Whitechapel",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Nevermore Hall",
-      "start": "2026-11-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/whitechapel-nevermore-hall-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/whitechapel-ticketmaster-ram-1480x832.jpg",
-      "lat": 39.2896,
-      "lon": -76.6073,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16525590",
-      "title": "The Menzingers",
-      "category": "music",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Baltimore Soundstage",
-      "start": "2026-11-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-menzingers-baltimore-soundstage-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/the-menzingers-ticketmaster-ram-1480x832.jpg",
-      "lat": 39.2876,
-      "lon": -76.6068,
-      "neighborhood": "Inner Harbor"
-    },
-    {
-      "id": "jambase:16249313",
-      "title": "Dave Hause",
-      "category": "music",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "The Camel",
-      "start": "2026-11-19T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/dave-hause-the-camel-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2022/02/dave-hause-and-the-mermaid-1643996978-1480x832.png",
-      "lat": 37.5543,
-      "lon": -77.4565,
-      "neighborhood": "The Fan District"
-    },
-    {
-      "id": "jambase:16535933",
-      "title": "Jesse Cook",
-      "category": "music",
-      "city": "Washington",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2026-11-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/jesse-cook-birchmere-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/jesse-cook-jesse-cook-61fe47fc-4580-4a3e-9d52-44fd451d7759_129711_TABLET_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 38.8386,
-      "lon": -77.0616,
-      "neighborhood": "Potomac West",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/jesse-cook-alexandria-virginia-11-19-2026/event/150064CBA576A298"
-        }
-      ]
-    },
-    {
-      "id": "jambase:15864500",
-      "title": "Joshua Radin",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "City Winery",
-      "start": "2026-11-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/joshua-radin-city-winery-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/joshua-radin-joshua-radin-e943c2b7-8437-4a50-ba3c-f2d9bd679c99_122681_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 42.3646,
-      "lon": -71.0589,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "jambase:15951290",
-      "title": "John Scofield",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Somerville Theatre",
-      "start": "2026-11-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/john-scofield-somerville-theatre-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/09/johnscofieldpressimagecrop-1480x832.jpg",
-      "lat": 42.3967,
-      "lon": -71.1253,
-      "neighborhood": "Davis Square"
-    },
-    {
-      "id": "jambase:16034072",
-      "title": "Geoff Tate",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "DE",
-      "venue": "Grand Opera House",
-      "start": "2026-11-19T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/geoff-tate-grand-opera-house-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/03/geoff-tate-1480x832.png",
-      "lat": 39.7438,
-      "lon": -75.5485
-    },
-    {
-      "id": "jambase:16024051",
-      "title": "Metallica",
-      "category": "music",
-      "city": "Uncasville",
-      "state": "CT",
-      "venue": "Mohegan Sun Arena",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/metallica-mohegan-sun-arena-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/06/metallica-2026-press-1480x832.jpg",
-      "lat": 41.4916,
-      "lon": -72.0915,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F"
-        }
-      ],
-      "neighborhood": "Uncasville"
-    },
-    {
-      "id": "jambase:16265616",
-      "title": "caroline",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Underground Arts",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/caroline-underground-arts-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/11/caroline-1480x832.png",
-      "lat": 39.9589,
-      "lon": -75.161,
-      "neighborhood": "Center City",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIp6"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16275975",
-      "title": "Gene",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Howard Theatre",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/gene-howard-theatre-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9154,
-      "lon": -77.0211,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketweb.com/event/gene-howard-theatre-tickets/14911143"
-        }
-      ],
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "jambase:16222420",
-      "title": "Three Dog Night",
-      "category": "music",
-      "city": "Westbury",
-      "state": "NY",
-      "venue": "NYCB Theatre at Westbury",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/three-dog-night-nycb-theatre-at-westbury-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/three-dog-night-ticketmaster-ram-1480x832.jpg",
-      "lat": 40.7734,
-      "lon": -73.5589
-    },
-    {
-      "id": "jambase:16490611",
-      "title": "Rising Appalachia",
-      "category": "music",
-      "city": "Kingston",
-      "state": "NY",
-      "venue": "Assembly",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/rising-appalachia-assembly-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/04/rising-appalachia-2024-press-1480x832.jpg",
-      "lat": 41.9317,
-      "lon": -74.0186
-    },
-    {
-      "id": "jambase:15684005",
-      "title": "The Wailin’ Jennys",
-      "category": "music",
-      "city": "Kingston",
-      "state": "NY",
-      "venue": "Ulster Performing Arts Center",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-wailin-jennys-ulster-performing-arts-center-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/06/the-wailin8217-jennys-1480x832.png",
-      "lat": 41.9296,
-      "lon": -74.005
-    },
-    {
-      "id": "jambase:16056137",
-      "title": "Il Volo",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "TD Garden",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/il-volo-td-garden-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/il-volo-ticketmaster-ram-1480x832.jpg",
-      "lat": 42.3584,
-      "lon": -71.0598,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16296998",
-      "title": "Angine de Poitrine",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Royale",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/angine-de-poitrine-royale-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/02/angine-de-poitrine-constantin-monfilliette-1480x832.jpg",
-      "lat": 42.3498,
-      "lon": -71.0653,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "jambase:16471459",
-      "title": "AJ Lee & Blue Summit",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Sinclair",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/aj-lee-blue-summit-the-sinclair-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2025/08/aj-lee-038-blue-summit-1-1480x832.png",
-      "lat": 42.3741,
-      "lon": -71.1208,
-      "neighborhood": "Harvard Square"
-    },
-    {
-      "id": "jambase:16074505",
-      "title": "The Pineapple Thief",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Theatre of Living Arts (TLA)",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-pineapple-thief-theatre-of-living-arts-tla-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2019/10/the-pineapple-thief-ticketmaster-ram-1480x832.jpg",
-      "lat": 39.9415,
-      "lon": -75.1483,
-      "neighborhood": "Queen Village"
-    },
-    {
-      "id": "jambase:16432394",
-      "title": "Punchline",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Milkboy",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/punchline-milkboy-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/01/punchline-1480x832.png",
-      "lat": 39.9501,
-      "lon": -75.1587,
-      "neighborhood": "Center City East"
-    },
-    {
-      "id": "jambase:15548768",
-      "title": "The Dave Matthews Tribute Band",
-      "category": "music",
-      "city": "Annapolis",
-      "state": "MD",
-      "venue": "Rams Head On Stage",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/the-dave-matthews-tribute-band-rams-head-on-stage-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/01/the-dave-matthews-tribute-band-1480x832.png",
-      "lat": 38.9784,
-      "lon": -76.4949
-    },
-    {
-      "id": "jambase:16545763",
-      "title": "Marshall Crenshaw",
-      "category": "music",
-      "city": "Elkton",
-      "state": "MD",
-      "venue": "Elkton Music Hall",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/marshall-crenshaw-elkton-music-hall-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/04/marshall-crenshaw-marshall-crenshaw-76b1a73c-5a19-4c1a-bf0a-13b5124480ba_289551_TABLET_LANDSCAPE_16_9-1480x832.jpg",
-      "lat": 39.6081,
-      "lon": -75.8303
-    },
-    {
-      "id": "jambase:16232183",
-      "title": "Paula Cole",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Miracle Theatre",
-      "start": "2026-11-19T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/paula-cole-the-miracle-theatre-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2015/07/paula-cole-2022-press-1480x832.jpg",
-      "lat": 38.8971,
-      "lon": -76.9947,
-      "neighborhood": "Northeast Washington"
-    },
-    {
-      "id": "jambase:16125344",
-      "title": "Francis of Delirium",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Johnny Brenda’s",
-      "start": "2026-11-19T21:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/francis-of-delirium-johnny-brendas-20261119",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2020/10/francis-of-delirium-profile-1480x832.jpg",
-      "lat": 39.9688,
-      "lon": -75.1344,
-      "neighborhood": "North Philadelphia"
-    },
-    {
-      "id": "ticketmaster:1ApZkfgGkeE1gaX",
-      "title": "2026 PIAA Championships",
-      "category": "sports",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "F.N.B. Stadium",
-      "start": "2026-11-20T07:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/2026-piaa-championships-pittsburgh-pennsylvania-11-20-2026/event/16006535A72B527E",
-      "source": "ticketmaster",
-      "lat": 40.43593276,
-      "lon": -80.00955731,
-      "neighborhood": "South Shore"
-    },
-    {
-      "id": "ticketmaster:k7vGF_2rQJqm9",
-      "title": "The Lightning Thief: The Percy Jackson Musical",
-      "category": "theater",
-      "city": "Buffalo",
-      "state": "NY",
-      "venue": "UB Center for the Arts - Drama Theatre",
-      "start": "2026-11-20T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-lightning-thief-the-percy-jackson-buffalo-new-york-11-20-2026/event/000064F79A99DB97",
-      "source": "ticketmaster",
-      "lat": 43.000968,
-      "lon": -78.782784,
-      "neighborhood": "Getzville"
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1IXQUC",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-11-20T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-11-20-2026/event/00006452A8F9AD8E",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:LvZ18Qlf1QiVdthwUPYi3",
+      "id": "ticketmaster:LvZ18Qlf1QiVdthwUPYip",
       "title": "The Sports Museum Tour",
       "category": "sports",
       "city": "Boston",
       "state": "MA",
       "venue": "The Sports Museum",
-      "start": "2026-11-20T10:00:00",
+      "start": "2026-11-20T14:00:00",
       "isFree": false,
       "url": "https://www.universe.com/events/the-sports-museum-tour-tickets-9YLR74?ref=ticketmaster",
       "source": "ticketmaster",
       "lat": 42.36606,
       "lon": -71.060956,
       "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:k7vGF_fXkoJ8L",
-      "title": "Belmont Park - General Admission",
-      "category": "sports",
-      "city": "Elmont",
-      "state": "NY",
-      "venue": "Belmont Park",
-      "start": "2026-11-20T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/belmont-park-general-admission-elmont-new-york-11-20-2026/event/0000654F8646641F",
-      "source": "ticketmaster",
-      "lat": 40.708328,
-      "lon": -73.717618,
-      "neighborhood": "Alden Manor"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7oC9",
-      "title": "Joshua Live On Stage",
-      "category": "other",
-      "city": "Ronks",
-      "state": "PA",
-      "venue": "Sight and Sound Theatres - PA",
-      "start": "2026-11-20T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oC9",
-      "source": "ticketmaster",
-      "lat": 40.012299,
-      "lon": -76.1511
-    },
-    {
-      "id": "ticketmaster:LvZ18Qc_TAj4DgIGQfDF9",
-      "title": "TD Garden Arena Tour",
-      "category": "sports",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "TD Garden",
-      "start": "2026-11-20T12:30:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/td-garden-arena-tour-tickets-6XPN17?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 42.365841,
-      "lon": -71.060724,
-      "neighborhood": "West End"
-    },
-    {
-      "id": "ticketmaster:vv17FZ_4GkVAETNz",
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "category": "film",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "IMAX THEATRE at TROPICANA",
-      "start": "2026-11-20T13:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-hunger-games-sunrise-on-the-atlantic-city-new-jersey-11-20-2026/event/0200655D059FF8F8",
-      "source": "ticketmaster",
-      "lat": 39.4061431,
-      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:k7vGF_KeTLeq1",
@@ -702,6 +47,34 @@
       "lon": -76.245201
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AA7oCp",
+      "title": "Joshua Live On Stage",
+      "category": "other",
+      "city": "Ronks",
+      "state": "PA",
+      "venue": "Sight and Sound Theatres - PA",
+      "start": "2026-11-20T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7oCp",
+      "source": "ticketmaster",
+      "lat": 40.012299,
+      "lon": -76.1511
+    },
+    {
+      "id": "ticketmaster:vv17FZ_4GkVAIT0a",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-20T16:45:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-hunger-games-sunrise-on-the-atlantic-city-new-jersey-11-20-2026/event/0200655D05A3F909",
+      "source": "ticketmaster",
+      "lat": 39.4061431,
+      "lon": -74.4455451
+    },
+    {
       "id": "ticketmaster:k7v1AkfgJ9ZA8k2A6",
       "title": "Jeff Dunham Pre-Show Cocktail Hour",
       "category": "other",
@@ -715,6 +88,21 @@
       "lat": 43.099474,
       "lon": -75.2351997,
       "neighborhood": "Deerfield"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4v6pK",
+      "title": "Adi Uppal",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-11-20T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/adi-uppal-middle-east-cornerbakery-tickets/15047593",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afuya0",
@@ -1516,8 +904,8 @@
       "venue": "Sonia",
       "start": "2026-11-20T19:00:00",
       "isFree": false,
-      "priceMin": 31.91,
-      "priceMax": 31.91,
+      "priceMin": 36.53,
+      "priceMax": 36.53,
       "url": "https://www.ticketweb.com/event/bleu-the-hardest-part-sonia-tickets/14331494",
       "source": "ticketmaster",
       "lat": 42.363501,
@@ -2351,6 +1739,21 @@
       "lat": 40.6311,
       "lon": -73.343102,
       "neighborhood": "Gilgo"
+    },
+    {
+      "id": "ticketmaster:k7vGF_2rQJcmO",
+      "title": "The Lightning Thief: The Percy Jackson Musical",
+      "category": "theater",
+      "city": "Buffalo",
+      "state": "NY",
+      "venue": "UB Center for the Arts - Drama Theatre",
+      "start": "2026-11-20T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-lightning-thief-the-percy-jackson-buffalo-new-york-11-20-2026/event/000064F79A9ADBA0",
+      "source": "ticketmaster",
+      "lat": 43.000968,
+      "lon": -78.782784,
+      "neighborhood": "Getzville"
     },
     {
       "id": "ticketmaster:k7vGF_36hqQep",
@@ -4168,6 +3571,21 @@
       "neighborhood": "Strip District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAA-7d",
+      "title": "Go Punk Yourself: A Night of Pop-Punk Classics - Ages 21+",
+      "category": "other",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-11-20T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-7d",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
+    },
+    {
       "id": "ticketmaster:1AvfZ_4GkRi7CJv",
       "title": "AIDS Lock-in Showcase 2026",
       "category": "theater",
@@ -5549,21 +4967,6 @@
       "lat": 42.3499769,
       "lon": -71.0652677,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:LvZ18QPrJY8J9wUEpKmIr",
-      "title": "The Smyths",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "The Foundry",
-      "start": "2026-11-21T14:00:00",
-      "isFree": false,
-      "url": "https://www.universe.com/events/the-smyths-tickets-84HJMG?ref=ticketmaster",
-      "source": "ticketmaster",
-      "lat": 39.96477,
-      "lon": -75.134457,
-      "neighborhood": "North Philadelphia"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvMrZ",
@@ -10884,20 +10287,6 @@
       "neighborhood": "Arbor Hill"
     },
     {
-      "id": "ticketmaster:G5vVZbME68Vqe",
-      "title": "Maria Bamford",
-      "category": "comedy",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "The Vogel at Count Basie Center for the Arts",
-      "start": "2026-11-22T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/maria-bamford-red-bank-new-jersey-11-22-2026/event/1D006379C7434742",
-      "source": "ticketmaster",
-      "lat": 40.349071,
-      "lon": -74.07022
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A70tjs",
       "title": "Sweet Pill",
       "category": "music",
@@ -11409,6 +10798,20 @@
       "lon": -74.10333
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-0FY",
+      "title": "Jim Henson's Labyrinth: In Concert",
+      "category": "film",
+      "city": "Albany",
+      "state": "NY",
+      "venue": "Hart Theatre at The Egg",
+      "start": "2026-11-23T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0FY",
+      "source": "ticketmaster",
+      "lat": 42.6656,
+      "lon": -73.8815
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvdON",
       "title": "Seton Hall Pirates Womens Basketball vs. Rider Broncs Womens Basketball",
       "category": "sports",
@@ -11526,6 +10929,35 @@
       "source": "ticketmaster",
       "lat": 43.07634404,
       "lon": -70.76009881
+    },
+    {
+      "id": "ticketmaster:17GZv0G6C53LJ6b",
+      "title": "New York Islanders vs. Toronto Maple Leafs",
+      "category": "sports",
+      "city": "Belmont Park",
+      "state": "NY",
+      "venue": "UBS Arena",
+      "start": "2026-11-23T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/new-york-islanders-vs-toronto-maple-belmont-park-new-york-11-23-2026/event/300064E2D27E61D8",
+      "source": "ticketmaster",
+      "lat": 40.71179844,
+      "lon": -73.72602467
+    },
+    {
+      "id": "ticketmaster:LvZ18QRnuh4hp4RiEAJUx",
+      "title": "Do Portugal Circus - Staten Island, NY",
+      "category": "theater",
+      "city": "Staten Island",
+      "state": "NY",
+      "venue": "Staten Island Mall - Big Top",
+      "start": "2026-11-23T19:30:00",
+      "isFree": false,
+      "url": "https://www.universe.com/events/do-portugal-circus-staten-island-ny-tickets-XF257S?ref=ticketmaster",
+      "source": "ticketmaster",
+      "lat": 40.580915,
+      "lon": -74.16911,
+      "neighborhood": "New Springville"
     },
     {
       "id": "ticketmaster:vv1F7ZbS09vyZd227",
@@ -20276,7 +19708,7 @@
       "venue": "Hyland Heights Baptist Church",
       "start": "2026-11-29T19:00:00",
       "isFree": false,
-      "priceMin": 40.2,
+      "priceMin": 30,
       "priceMax": 121.6,
       "url": "https://www.ticketweb.com/event/steven-curtis-chapman-the-music-hyland-heights-baptist-church-tickets/15045683",
       "source": "ticketmaster",
@@ -20426,6 +19858,21 @@
       "lat": 42.396646,
       "lon": -71.123041,
       "neighborhood": "Davis Square"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAA-4S",
+      "title": "Raud",
+      "category": "other",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-11-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-4S",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
     },
     {
       "id": "ticketmaster:1A4Zk4KGkeRFJ-L",
@@ -31865,6 +31312,20 @@
       "lon": -74.07022
     },
     {
+      "id": "ticketmaster:k7v17_916G7Y7dk",
+      "title": "Sandy Mack's Wonder Jam  21+ Event",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Wonder Bar",
+      "start": "2026-12-06T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sandy-macks-wonder-jam-21-event-asbury-park-new-jersey-12-06-2026/event/0000657287C040C6",
+      "source": "ticketmaster",
+      "lat": 40.22328639,
+      "lon": -73.99950139
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Afofp7",
       "title": "The Shining (1980)",
       "category": "other",
@@ -38182,6 +37643,23 @@
       "neighborhood": "Groton"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfuUO0",
+      "title": "WKLB presents: Chayce Beckham",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Off The Rails Boston",
+      "start": "2026-12-11T19:30:00",
+      "isFree": false,
+      "priceMin": 21.06,
+      "priceMax": 27.5,
+      "url": "https://www.ticketweb.com/event/wklb-presents-chayce-beckham-off-the-rails-boston-tickets/14376824",
+      "source": "ticketmaster",
+      "lat": 42.3577549,
+      "lon": -71.0591691,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:vv1AvZkfYGkesnJ3u",
       "title": "Sisters Christmas Catechism",
       "category": "theater",
@@ -38563,7 +38041,7 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af8Ka0",
-      "title": "Cineyap Collective presents Die Hard (1988)",
+      "title": "Cineyap Collective: DIE HARD (1988)",
       "category": "other",
       "city": "Rutherford",
       "state": "NJ",
@@ -38572,7 +38050,7 @@
       "isFree": true,
       "priceMin": 0,
       "priceMax": 0,
-      "url": "https://www.ticketweb.com/event/cineyap-collective-presents-die-hard-williams-center-cinema-tickets/14413264",
+      "url": "https://www.ticketweb.com/event/cineyap-collective-die-hard-1988-williams-center-cinema-tickets/14413264",
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
@@ -38803,23 +38281,6 @@
       "lat": 42.2666,
       "lon": -71.79923,
       "neighborhood": "Central Business District"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1AfuUO0",
-      "title": "WKLB presents: Chayce Beckham",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "Off The Rails Boston",
-      "start": "2026-12-11T20:00:00",
-      "isFree": false,
-      "priceMin": 21.06,
-      "priceMax": 27.5,
-      "url": "https://www.ticketweb.com/event/wklb-presents-chayce-beckham-off-the-rails-boston-tickets/14376824",
-      "source": "ticketmaster",
-      "lat": 42.3577549,
-      "lon": -71.0591691,
-      "neighborhood": "Downtown"
     },
     {
       "id": "ticketmaster:vv168vPuO0kZ7uu62",
@@ -39159,20 +38620,6 @@
       "source": "ticketmaster",
       "lat": 39.439301,
       "lon": -77.342796
-    },
-    {
-      "id": "ticketmaster:vv17FZ_oGkm-RjJJ",
-      "title": "Talib Kweli",
-      "category": "music",
-      "city": "Wilmington",
-      "state": "DE",
-      "venue": "The Queen",
-      "start": "2026-12-11T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/talib-kweli-wilmington-delaware-12-11-2026/event/0200651BA1BDC9A6",
-      "source": "ticketmaster",
-      "lat": 39.741126,
-      "lon": -75.550253
     },
     {
       "id": "ticketmaster:vvG1FZ_2tVONPm",
@@ -47639,6 +47086,21 @@
       "neighborhood": "Fenway–Kenmore"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af0S4K",
+      "title": "Linsy Clark",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-12-17T17:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/linsy-clark-middle-east-cornerbakery-tickets/14933553",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1Afoor7",
       "title": "The Hunt (2012)",
       "category": "other",
@@ -48094,6 +47556,21 @@
       "lat": 38.9147,
       "lon": -77.077103,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZf0w",
+      "title": "Nate Jackson",
+      "category": "comedy",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Funny Bone Comedy Club - Virginia Beach",
+      "start": "2026-12-17T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZf0w",
+      "source": "ticketmaster",
+      "lat": 36.837601,
+      "lon": -76.151001,
+      "neighborhood": "Northwest"
     },
     {
       "id": "ticketmaster:vv177Z_KGkBW-EYB",
@@ -48818,6 +48295,21 @@
       "lat": 42.380199,
       "lon": -71.134697,
       "neighborhood": "West Cambridge"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1AfGN8V",
+      "title": "No Frills",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Zuzu",
+      "start": "2026-12-17T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/no-frills-middle-east-zuzu-tickets/14323434",
+      "source": "ticketmaster",
+      "lat": 42.36374167151,
+      "lon": -71.10074879726,
+      "neighborhood": "Central Square"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afj7ZK",
@@ -49726,6 +49218,21 @@
       "lat": 36.8577,
       "lon": -76.266701,
       "neighborhood": "Bruce's Park"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZf0S",
+      "title": "Nate Jackson",
+      "category": "comedy",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Funny Bone Comedy Club - Virginia Beach",
+      "start": "2026-12-18T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZf0S",
+      "source": "ticketmaster",
+      "lat": 36.837601,
+      "lon": -76.151001,
+      "neighborhood": "Northwest"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvbOa",
@@ -51013,6 +50520,23 @@
       "neighborhood": "Downtown Harrisburg"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1Af8K-V",
+      "title": "Efemmeral Sounds ",
+      "category": "music",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "Middle East - Corner/Bakery",
+      "start": "2026-12-18T21:30:00",
+      "isFree": false,
+      "priceMin": 1.3,
+      "priceMax": 1.3,
+      "url": "https://www.ticketweb.com/event/efemmeral-sounds-middle-east-cornerbakery-tickets/14413874",
+      "source": "ticketmaster",
+      "lat": 42.363809,
+      "lon": -71.101423,
+      "neighborhood": "Cambridgeport"
+    },
+    {
       "id": "ticketmaster:vv1AOvPu8GAGJBOo",
       "title": "Keropi Sánchez: Remastered (en Español)",
       "category": "comedy",
@@ -51041,21 +50565,6 @@
       "lat": 38.9147,
       "lon": -77.077103,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70K_y",
-      "title": "Nate Jackson",
-      "category": "comedy",
-      "city": "Virginia Beach",
-      "state": "VA",
-      "venue": "Funny Bone Comedy Club - Virginia Beach",
-      "start": "2026-12-18T21:45:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70K_y",
-      "source": "ticketmaster",
-      "lat": 36.837601,
-      "lon": -76.151001,
-      "neighborhood": "Northwest"
     },
     {
       "id": "ticketmaster:1AtZkfsGkdhCsax",
@@ -52530,6 +52039,21 @@
       "source": "ticketmaster",
       "lat": 40.408945,
       "lon": -79.914301
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAZf0N",
+      "title": "Nate Jackson",
+      "category": "comedy",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "venue": "Funny Bone Comedy Club - Virginia Beach",
+      "start": "2026-12-19T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZf0N",
+      "source": "ticketmaster",
+      "lat": 36.837601,
+      "lon": -76.151001,
+      "neighborhood": "Northwest"
     },
     {
       "id": "ticketmaster:16tZk4xFFZA8ekku",
@@ -55011,6 +54535,20 @@
       "neighborhood": "Northwest"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A704oz",
+      "title": "Nate Jackson",
+      "category": "comedy",
+      "city": "Richmond",
+      "state": "VA",
+      "venue": "Funny Bone Comedy Club - Richmond",
+      "start": "2026-12-20T18:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704oz",
+      "source": "ticketmaster",
+      "lat": 37.615799,
+      "lon": -77.636398
+    },
+    {
       "id": "ticketmaster:k7vGF_4rPdbRW",
       "title": "KESMAS: Kes The Band Live in Concert",
       "category": "music",
@@ -55831,6 +55369,21 @@
       "neighborhood": "Downtown Providence"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1A7-pe6",
+      "title": "Philadelphia Ballet w/ George Balanchine's The Nutcracker",
+      "category": "other",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Academy of Music - PA",
+      "start": "2026-12-22T12:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pe6",
+      "source": "ticketmaster",
+      "lat": 39.953098,
+      "lon": -75.1651,
+      "neighborhood": "Center City West"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAA6-3",
       "title": "Saint Peters Peacocks Mens Basketball vs. Kean University Cougars Mens Basketball",
       "category": "other",
@@ -55990,6 +55543,20 @@
       "lat": 42.341,
       "lon": -71.094803,
       "neighborhood": "Fenway–Kenmore"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A7P0C7",
+      "title": "The 2026 Christmas Show: Winter Wonderland",
+      "category": "theater",
+      "city": "Lancaster",
+      "state": "PA",
+      "venue": "American Music Theatre",
+      "start": "2026-12-22T15:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0C7",
+      "source": "ticketmaster",
+      "lat": 40.0158,
+      "lon": -76.245201
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZVxf",
@@ -58186,6 +57753,20 @@
       "lat": 38.91984858,
       "lon": -76.97281793,
       "neighborhood": "Northeast Washington"
+    },
+    {
+      "id": "ticketmaster:1k18vPjwGA1No4Q",
+      "title": "Ian Asher",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
+      "start": "2026-12-26T23:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/ian-asher-ocean-casino-resort-tickets/15061323?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 39.362536,
+      "lon": -74.413699
     },
     {
       "id": "ticketmaster:1AvfZ_3GkTqZW3I",
@@ -66139,6 +65720,21 @@
       "neighborhood": "Potomac West"
     },
     {
+      "id": "ticketmaster:164Zk4S-YZAC7CuF",
+      "title": "ACOTAR 7 Midnight Release: Fae Ball",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2027-01-11T21:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/acotar-7-midnight-release-fae-ball-washington-district-of-columbia-01-11-2027/event/15006573870D3DC7",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:k7vGF_3BCjVDz",
       "title": "Trenton Ironhawks vs. Reading Royals",
       "category": "sports",
@@ -67911,6 +67507,20 @@
       "lon": -79.936475
     },
     {
+      "id": "ticketmaster:k7vGF_96azQDL",
+      "title": "Divided Sky & SongsByWeen",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Wonder Bar",
+      "start": "2027-01-16T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/divided-sky-songsbyween-asbury-park-new-jersey-01-16-2027/event/00006571C9E1AEDF",
+      "source": "ticketmaster",
+      "lat": 40.22328639,
+      "lon": -73.99950139
+    },
+    {
       "id": "ticketmaster:G5vVZ_5KY2hC2",
       "title": "Jordan Jensen",
       "category": "comedy",
@@ -68977,6 +68587,21 @@
       "start": "2027-01-19T19:30:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/fortas-chamber-music-concerts-takacs-quartet-washington-district-of-columbia-01-19-2027/event/15006564DF4FABBA",
+      "source": "ticketmaster",
+      "lat": 38.8958299,
+      "lon": -77.040225,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:1kA8vPqFGA2FPpy",
+      "title": "Fortas Chamber Music Concerts Subscription Packages",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Hammer Auditorium",
+      "start": "2027-01-19T19:30:00",
+      "isFree": false,
+      "url": "https://am.ticketmaster.com/gwutickets/buy?id=43925d45-8599-41ba-865f-4cb67af10435",
       "source": "ticketmaster",
       "lat": 38.8958299,
       "lon": -77.040225,
@@ -73680,6 +73305,21 @@
       "neighborhood": "Downtown Silver Spring"
     },
     {
+      "id": "ticketmaster:1kA8vPjxGACiat8",
+      "title": "Let's Make A Deal Live",
+      "category": "other",
+      "city": "Tysons",
+      "state": "VA",
+      "venue": "Capital One Hall",
+      "start": "2027-01-30T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/lets-make-a-deal-live-tysons-virginia-01-30-2027/event/150065722EB09A50",
+      "source": "ticketmaster",
+      "lat": 38.925348,
+      "lon": -77.212058,
+      "neighborhood": "West McLean"
+    },
+    {
       "id": "ticketmaster:G5viZ_4Nr0_BZ",
       "title": "Ranch Hands Cowboylesque",
       "category": "theater",
@@ -75665,6 +75305,21 @@
       "neighborhood": "The Fan District"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAA-CA",
+      "title": "Gary Owen???No Hard Feelings Tour",
+      "category": "theater",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "Paramount Theater - VA",
+      "start": "2027-02-05T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-CA",
+      "source": "ticketmaster",
+      "lat": 38.025002,
+      "lon": -78.476097,
+      "neighborhood": "Belmont"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZOft",
       "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
       "category": "other",
@@ -77271,6 +76926,21 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-K",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-09T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-09-2027/event/Z1r9uZrrZCuZ1AvPz-K",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAeA1d",
       "title": "James Marriott",
       "category": "music",
@@ -77594,6 +77264,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-f",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-10T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-10-2027/event/Z1r9uZrrZCuZ1AvPz-f",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZPaY",
       "title": "The Secret Garden (Appropriate for ages 8 and up. Children under 6 are not admitted at Signature)",
       "category": "theater",
@@ -77840,6 +77525,21 @@
       "source": "ticketmaster",
       "lat": 38.89940401,
       "lon": -77.04714194,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-p",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-11T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-11-2027/event/Z1r9uZrrZCuZ1AvPz-p",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
     },
     {
@@ -78236,6 +77936,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-9",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-12T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-12-2027/event/Z1r9uZrrZCuZ1AvPz-9",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:1A4Zkf3GkeHwhrF",
@@ -78747,6 +78462,21 @@
       "source": "ticketmaster",
       "lat": 38.897857,
       "lon": -77.049347,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-J",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-13T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-13-2027/event/Z1r9uZrrZCuZ1AvPz-J",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
     },
     {
@@ -79353,6 +79083,21 @@
       "lon": -77.5678328
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAA4-S",
+      "title": "Nate Jackson",
+      "category": "comedy",
+      "city": "Hanover",
+      "state": "MD",
+      "venue": "Live! Event Center",
+      "start": "2027-02-13T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-S",
+      "source": "ticketmaster",
+      "lat": 39.170101,
+      "lon": -76.7201,
+      "neighborhood": "Hanover"
+    },
+    {
       "id": "ticketmaster:1AvfZ_4GknfMVuL",
       "title": "MERSIV - Nostalgia Tour",
       "category": "music",
@@ -79484,6 +79229,21 @@
       "lat": 41.766499,
       "lon": -72.673103,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-E",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-14T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-14-2027/event/Z1r9uZrrZCuZ1AvPz-E",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZO48",
@@ -79859,6 +79619,21 @@
       "neighborhood": "Behind the Rocks"
     },
     {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-O",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-16T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-16-2027/event/Z1r9uZrrZCuZ1AvPz-O",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAZO4A",
       "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
       "category": "other",
@@ -80213,6 +79988,21 @@
       "neighborhood": "Southwest Waterfront"
     },
     {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz--",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-17T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-17-2027/event/Z1r9uZrrZCuZ1AvPz--",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
+    },
+    {
       "id": "ticketmaster:1A4Zk46GkdrwBSY",
       "title": "Cirque Alice",
       "category": "theater",
@@ -80477,6 +80267,21 @@
       "lat": 39.28763705,
       "lon": -76.60719037,
       "neighborhood": "Inner Harbor"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-x",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-18T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-18-2027/event/Z1r9uZrrZCuZ1AvPz-x",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:17A8v0G65hn_upY",
@@ -80787,6 +80592,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-N",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-19T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-19-2027/event/Z1r9uZrrZCuZ1AvPz-N",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:16vfZ_oxpG7m7cz",
@@ -81140,6 +80960,21 @@
       "source": "ticketmaster",
       "lat": 38.897857,
       "lon": -77.049347,
+      "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-I",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-20T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-20-2027/event/Z1r9uZrrZCuZ1AvPz-I",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
     },
     {
@@ -81871,6 +81706,21 @@
       "source": "ticketmaster",
       "lat": 41.426701,
       "lon": -72.913803
+    },
+    {
+      "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-t",
+      "title": "Oh, Mary!",
+      "category": "theater",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The National Theatre",
+      "start": "2027-02-21T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/oh-mary-washington-district-of-columbia-02-21-2027/event/Z1r9uZrrZCuZ1AvPz-t",
+      "source": "ticketmaster",
+      "lat": 38.89626652,
+      "lon": -77.03053035,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZOfs",
@@ -83389,20 +83239,6 @@
       "neighborhood": "North Virginia Beach"
     },
     {
-      "id": "ticketmaster:vv1AvZkfIGkeOPcnB",
-      "title": "Ballyhoo!",
-      "category": "music",
-      "city": "Leesburg",
-      "state": "VA",
-      "venue": "Tally Ho Theater",
-      "start": "2027-02-26T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/ballyhoo-leesburg-virginia-02-26-2027/event/01006528A096DABA",
-      "source": "ticketmaster",
-      "lat": 39.1157,
-      "lon": -77.5656
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AA7YAy",
       "title": "Dartmouth Big Green Mens Basketball vs. Princeton Tigers Mens Basketball",
       "category": "sports",
@@ -83475,35 +83311,6 @@
       "neighborhood": "Downtown Providence"
     },
     {
-      "id": "ticketmaster:vv177Z_3Gklt_Et-",
-      "title": "Referee Appreciation Night vs. Fayetteville Marksmen",
-      "category": "sports",
-      "city": "Roanoke",
-      "state": "VA",
-      "venue": "Berglund Coliseum",
-      "start": "2027-02-26T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/referee-appreciation-night-vs-fayetteville-marksmen-roanoke-virginia-02-26-2027/event/0100652AE9667A61",
-      "source": "ticketmaster",
-      "lat": 37.279913,
-      "lon": -79.936475
-    },
-    {
-      "id": "ticketmaster:vv1AvZkfAGkdp_Fnb",
-      "title": "Norfolk Admirals vs. Tahoe Knight Monsters",
-      "category": "sports",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Scope Arena",
-      "start": "2027-02-26T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/norfolk-admirals-vs-tahoe-knight-monsters-norfolk-virginia-02-26-2027/event/01006505D6648A98",
-      "source": "ticketmaster",
-      "lat": 36.8520889,
-      "lon": -76.2861351,
-      "neighborhood": "Downtown"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAZY8S",
       "title": "Cyrano - Musical",
       "category": "theater",
@@ -83532,21 +83339,6 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
-    },
-    {
-      "id": "ticketmaster:1A4Zk4PGkdm3Bpg",
-      "title": "Matt Nathanson - To The Point Solo Tour 2027",
-      "category": "music",
-      "city": "Alexandria",
-      "state": "VA",
-      "venue": "Birchmere",
-      "start": "2027-02-26T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/matt-nathanson-to-the-point-solo-alexandria-virginia-02-26-2027/event/15006565EE4BA5B5",
-      "source": "ticketmaster",
-      "lat": 38.839787,
-      "lon": -77.061339,
-      "neighborhood": "Potomac West"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAeZ8F",
@@ -83650,51 +83442,6 @@
       "lat": 38.89423638,
       "lon": -77.04092216,
       "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:17A8v0G62pvQdgJ",
-      "title": "The Book Of Mormon",
-      "category": "theater",
-      "city": "Tysons",
-      "state": "VA",
-      "venue": "Capital One Hall",
-      "start": "2027-02-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-book-of-mormon-tysons-virginia-02-26-2027/event/150064F581683D66",
-      "source": "ticketmaster",
-      "lat": 38.925348,
-      "lon": -77.212058,
-      "neighborhood": "West McLean"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7Pd_6",
-      "title": "Hamilton (Touring)",
-      "category": "theater",
-      "city": "Richmond",
-      "state": "VA",
-      "venue": "Altria Theater",
-      "start": "2027-02-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pd_6",
-      "source": "ticketmaster",
-      "lat": 37.549801,
-      "lon": -77.459801,
-      "neighborhood": "The Fan District"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZOPI",
-      "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
-      "category": "other",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-02-26T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOPI",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A70sao",
@@ -85926,6 +85673,20 @@
       "lon": -76.532501
     },
     {
+      "id": "ticketmaster:vv17FZ_oGkm-RjJJ",
+      "title": "Talib Kweli",
+      "category": "music",
+      "city": "Wilmington",
+      "state": "DE",
+      "venue": "The Queen",
+      "start": "2027-03-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/talib-kweli-wilmington-delaware-03-06-2027/event/0200651BA1BDC9A6",
+      "source": "ticketmaster",
+      "lat": 39.741126,
+      "lon": -75.550253
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1A4v8qd",
       "title": "Pedro Capo",
       "category": "music",
@@ -87104,6 +86865,21 @@
       "lat": 38.89423638,
       "lon": -77.04092216,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAA480",
+      "title": "Tiffany Day (18+ Event)",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "Berhta",
+      "start": "2027-03-12T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA480",
+      "source": "ticketmaster",
+      "lat": 38.925999,
+      "lon": -76.972298,
+      "neighborhood": "Northeast Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAA6JZ",
@@ -88689,6 +88465,20 @@
       "neighborhood": "Northwest Washington"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAA_Fv",
+      "title": "DJ Shadow",
+      "category": "music",
+      "city": "South Burlington",
+      "state": "VT",
+      "venue": "Higher Ground",
+      "start": "2027-03-19T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fv",
+      "source": "ticketmaster",
+      "lat": 44.445999,
+      "lon": -73.172501
+    },
+    {
       "id": "ticketmaster:vv1AvZkf0GkdbME5a",
       "title": "Corey Kent - Heartland Rock and Roll",
       "category": "music",
@@ -90071,6 +89861,21 @@
       "lat": 43.656551,
       "lon": -70.258943,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAA4k8",
+      "title": "Santana (21+ Event)",
+      "category": "music",
+      "city": "Hanover",
+      "state": "MD",
+      "venue": "The Hall at Live!",
+      "start": "2027-03-26T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+      "source": "ticketmaster",
+      "lat": 39.170101,
+      "lon": -76.7201,
+      "neighborhood": "Hanover"
     },
     {
       "id": "ticketmaster:1AvfZ_8GkluaIcg",
@@ -91510,6 +91315,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAAF0U",
+      "title": "Noga Erez",
+      "category": "music",
+      "city": "New Haven",
+      "state": "CT",
+      "venue": "Toads Place - CT",
+      "start": "2027-04-03T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAF0U",
+      "source": "ticketmaster",
+      "lat": 41.318298,
+      "lon": -72.926399,
+      "neighborhood": "Dixwell"
+    },
+    {
       "id": "ticketmaster:1AvfZ_4GkMbwqCd",
       "title": "Ms. Pat",
       "category": "comedy",
@@ -92012,14 +91832,14 @@
     },
     {
       "id": "ticketmaster:1A4Zk4SGkeX0HAc",
-      "title": "Fortas Chamber Music Concerts:  Jennifer Koh and Friends",
+      "title": "Fortas Chamber Music Concerts:  From Mozart to Mazzoli",
       "category": "music",
       "city": "Washington",
       "state": "DC",
       "venue": "Hammer Auditorium",
       "start": "2027-04-07T19:30:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/fortas-chamber-music-concerts-jennifer-koh-washington-district-of-columbia-04-07-2027/event/15006573BE93C16D",
+      "url": "https://www.ticketmaster.com/fortas-chamber-music-concerts-from-mozart-washington-district-of-columbia-04-07-2027/event/15006573BE93C16D",
       "source": "ticketmaster",
       "lat": 38.8958299,
       "lon": -77.040225,
@@ -92052,6 +91872,20 @@
       "source": "ticketmaster",
       "lat": 42.737,
       "lon": -71.448799
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7sbP",
+      "title": "Scott Bradlee's Postmodern Jukebox",
+      "category": "music",
+      "city": "Norwalk",
+      "state": "CT",
+      "venue": "District Music Hall",
+      "start": "2027-04-07T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sbP",
+      "source": "ticketmaster",
+      "lat": 41.116956,
+      "lon": -73.413981
     },
     {
       "id": "ticketmaster:1AvfZ_KGkBhT6mJ",
@@ -93017,21 +92851,6 @@
       "neighborhood": "Northwest Washington"
     },
     {
-      "id": "ticketmaster:1AvfZ_4GkRCZH1b",
-      "title": "D.C. United vs. Philadelphia Union",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Audi Field",
-      "start": "2027-04-10T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/dc-united-vs-philadelphia-union-washington-district-of-columbia-04-10-2027/event/1500655BCE03C298",
-      "source": "ticketmaster",
-      "lat": 38.867998,
-      "lon": -77.013642,
-      "neighborhood": "Southwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AA7sbI",
       "title": "Scott Bradlee's Postmodern Jukebox",
       "category": "music",
@@ -93106,53 +92925,6 @@
       "lon": -75.550253
     },
     {
-      "id": "ticketmaster:1AvfZ_3Gkib-n85",
-      "title": "Matt Friend",
-      "category": "comedy",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Lincoln Theatre",
-      "start": "2027-04-10T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/matt-friend-washington-district-of-columbia-04-10-2027/event/1500652B1886A40B",
-      "source": "ticketmaster",
-      "lat": 38.9174,
-      "lon": -77.028992,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_3Gkzs_gnM",
-      "title": "8 Ball & MJG and Bun B ft. The Renaissance Orchestra",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "DAR Constitution Hall",
-      "start": "2027-04-10T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/8-ball-mjg-and-bun-b-washington-district-of-columbia-04-10-2027/event/1500652E31675AB7",
-      "source": "ticketmaster",
-      "lat": 38.89423638,
-      "lon": -77.04092216,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Af8JZf",
-      "title": "Sandra Bernhard",
-      "category": "comedy",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Howard Theatre",
-      "start": "2027-04-10T20:00:00",
-      "isFree": false,
-      "priceMin": 72.41,
-      "priceMax": 97.13,
-      "url": "https://www.ticketweb.com/event/sandra-bernhard-howard-theatre-tickets/14426014",
-      "source": "ticketmaster",
-      "lat": 38.9153136,
-      "lon": -77.0210937,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:1AvfZbVGklmrQKY",
       "title": "VNV Nation - An Evening With",
       "category": "music",
@@ -93166,21 +92938,6 @@
       "lat": 39.28763705,
       "lon": -76.60719037,
       "neighborhood": "Inner Harbor"
-    },
-    {
-      "id": "ticketmaster:1kA8vPotGA5x7TT",
-      "title": "John Splithoff 2027 Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-04-10T22:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/john-splithoff-2027-tour-washington-district-of-columbia-04-10-2027/event/150065469B884FFF",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:1A4Zk4PGkdbrtvG",
@@ -93256,36 +93013,6 @@
       "neighborhood": "University Of Maryland"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7Jb0S",
-      "title": "Washington Nationals vs. Boston Red Sox",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Nationals Park",
-      "start": "2027-04-11T13:35:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jb0S",
-      "source": "ticketmaster",
-      "lat": 38.882,
-      "lon": -76.9925,
-      "neighborhood": "Capitol Hill"
-    },
-    {
-      "id": "ticketmaster:Z1r9uZrrZCuZ1Aeud89",
-      "title": "Hadestown",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The National Theatre",
-      "start": "2027-04-11T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/hadestown-washington-district-of-columbia-04-11-2027/event/Z1r9uZrrZCuZ1Aeud89",
-      "source": "ticketmaster",
-      "lat": 38.89626652,
-      "lon": -77.03053035,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:vvG17Z_CBB86Gm",
       "title": "Providence Bruins vs. Hartford Wolf Pack",
       "category": "sports",
@@ -93328,21 +93055,6 @@
       "lat": 39.293999,
       "lon": -76.622597,
       "neighborhood": "University Of Maryland"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_KGkSs6wOX",
-      "title": "Wizards VIP Packages: 4/11/2027",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Capital One Arena",
-      "start": "2027-04-11T18:00:00",
-      "isFree": false,
-      "url": "https://www.gofevo.com/event/Wizards25220250918-15282603343",
-      "source": "ticketmaster",
-      "lat": 38.897412,
-      "lon": -77.020029,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:G5vVZ_4Xw4oMd",
@@ -93401,23 +93113,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:rZ7HnEZ1AfC3e7",
-      "title": "Faun",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Howard Theatre",
-      "start": "2027-04-11T20:30:00",
-      "isFree": true,
-      "priceMin": 0,
-      "priceMax": 0,
-      "url": "https://www.ticketweb.com/event/faun-howard-theatre-tickets/14392084",
-      "source": "ticketmaster",
-      "lat": 38.9153136,
-      "lon": -77.0210937,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7Jp4g",
       "title": "Baltimore Orioles vs. Los Angeles Angels",
       "category": "sports",
@@ -93433,21 +93128,6 @@
       "neighborhood": "University Of Maryland"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7Jerk",
-      "title": "The 25th Annual Putnam County Spelling Bee",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Ford's Theatre",
-      "start": "2027-04-12T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jerk",
-      "source": "ticketmaster",
-      "lat": 38.892101,
-      "lon": -77.022301,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:1A4Zk4PGkd8AIp-",
       "title": "Toby's Dinner Theatre Presents: Crazy For You",
       "category": "theater",
@@ -93461,21 +93141,6 @@
       "lat": 39.2095143,
       "lon": -76.8582823,
       "neighborhood": "Town Center"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7Jb0g",
-      "title": "Washington Nationals vs. Atlanta Braves",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Nationals Park",
-      "start": "2027-04-13T18:45:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jb0g",
-      "source": "ticketmaster",
-      "lat": 38.882,
-      "lon": -76.9925,
-      "neighborhood": "Capitol Hill"
     },
     {
       "id": "ticketmaster:1AvfZ_4GkShAljH",
@@ -93507,36 +93172,6 @@
       "lon": -77.469299
     },
     {
-      "id": "ticketmaster:1A4Zk4xGkdXHQo8",
-      "title": "Beach Bunny: Out of Office Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-04-13T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/beach-bunny-out-of-office-tour-washington-district-of-columbia-04-13-2027/event/15006562FEF1A450",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZOok",
-      "title": "The 25th Annual Putnam County Spelling Bee",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Ford's Theatre",
-      "start": "2027-04-13T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOok",
-      "source": "ticketmaster",
-      "lat": 38.892101,
-      "lon": -77.022301,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:G5vVZ_1imWZln",
       "title": "Niall Horan: Dinner Party Live On Tour",
       "category": "music",
@@ -93550,36 +93185,6 @@
       "lat": 41.768353,
       "lon": -72.676384,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7JvJb",
-      "title": "Romeo And Juliet",
-      "category": "theater",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Michael R. Klein Theatre",
-      "start": "2027-04-13T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JvJb",
-      "source": "ticketmaster",
-      "lat": 38.892101,
-      "lon": -77.022301,
-      "neighborhood": "Northwest Washington"
-    },
-    {
-      "id": "ticketmaster:1A4Zk4AGkelypy4",
-      "title": "Steve Hackett: Best of Genesis & Solo Gems Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "Warner Theatre",
-      "start": "2027-04-13T20:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/steve-hackett-best-of-genesis-solo-washington-district-of-columbia-04-13-2027/event/15006545ABE56E55",
-      "source": "ticketmaster",
-      "lat": 38.8961209,
-      "lon": -77.0296101,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:vvG17Z_1DBq0eK",
@@ -94617,6 +94222,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAAZp9",
+      "title": "BigXthaPlug",
+      "category": "music",
+      "city": "New Haven",
+      "state": "CT",
+      "venue": "Toads Place - CT",
+      "start": "2027-04-20T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZp9",
+      "source": "ticketmaster",
+      "lat": 41.318298,
+      "lon": -72.926399,
+      "neighborhood": "Dixwell"
+    },
+    {
       "id": "ticketmaster:1A4Zk4pGkddcWFv",
       "title": "DIIV: ZIRP! The World ",
       "category": "music",
@@ -95292,6 +94912,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAA_Fe",
+      "title": "DJ Shadow",
+      "category": "music",
+      "city": "Norwalk",
+      "state": "CT",
+      "venue": "District Music Hall",
+      "start": "2027-04-24T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fe",
+      "source": "ticketmaster",
+      "lat": 41.116956,
+      "lon": -73.413981
+    },
+    {
       "id": "ticketmaster:vv1AvZk4fGkey_jMT",
       "title": "A Night with The Cast of The Sopranos",
       "category": "theater",
@@ -95319,6 +94953,20 @@
       "lat": 42.90703,
       "lon": -70.811438,
       "neighborhood": "Hampton Beach"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAA_Z3",
+      "title": "Cursive",
+      "category": "music",
+      "city": "Brattleboro",
+      "state": "VT",
+      "venue": "The Stone Church - VT",
+      "start": "2027-04-24T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Z3",
+      "source": "ticketmaster",
+      "lat": 42.851299,
+      "lon": -72.656799
     },
     {
       "id": "ticketmaster:1A4Zk4PGkdbLtvp",
@@ -95727,6 +95375,21 @@
       "source": "ticketmaster",
       "lat": 39.722,
       "lon": -75.538597
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAA_Zf",
+      "title": "Cursive w/ Small Brown Bike",
+      "category": "music",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "Ottobar",
+      "start": "2027-04-29T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Zf",
+      "source": "ticketmaster",
+      "lat": 39.3297,
+      "lon": -76.601601,
+      "neighborhood": "Ednor Gardens-Lakeside"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZOZp",
@@ -101256,6 +100919,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:vv1AvZk4SGkeMifIU",
+      "title": "Dark Desert Eagles",
+      "category": "music",
+      "city": "Hampton Beach",
+      "state": "NH",
+      "venue": "Hampton Beach Casino Ballroom",
+      "start": "2027-06-26T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/dark-desert-eagles-hampton-beach-new-hampshire-06-26-2027/event/01006573B7B14A36",
+      "source": "ticketmaster",
+      "lat": 42.90703,
+      "lon": -70.811438,
+      "neighborhood": "Hampton Beach"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAvM_b",
       "title": "Frederick Keys vs. Brooklyn Cyclones",
       "category": "sports",
@@ -102482,20 +102160,6 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7PpZ",
-      "title": "Chesapeake Baysox vs. Richmond Flying Squirrels",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-08-01T13:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7PpZ",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7tav",
