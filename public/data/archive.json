@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T06:33:57.431Z",
-  "count": 6739,
+  "generatedAt": "2026-11-24T20:55:21.892Z",
+  "count": 6742,
   "events": [
     {
       "id": "jambase:16038612",
@@ -17,92 +17,6 @@
       "lat": 39.3188,
       "lon": -76.6197,
       "neighborhood": "Charles Village"
-    },
-    {
-      "id": "ticketmaster:k7vGF_A1teBUW",
-      "title": "The Museum At Bethel Woods: Story of 60s & Woodstock",
-      "category": "theater",
-      "city": "Bethel",
-      "state": "NY",
-      "venue": "The Museum at Bethel Woods",
-      "start": "2026-11-24T10:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-museum-at-bethel-woods-story-bethel-new-york-11-24-2026/event/00006452A90BADBD",
-      "source": "ticketmaster",
-      "lat": 41.69631204,
-      "lon": -74.87754464,
-      "neighborhood": "Bethel"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7bAk",
-      "title": "Villanova Wildcats Womens Basketball vs. La Salle Explorers Women's Basketball",
-      "category": "sports",
-      "city": "Villanova",
-      "state": "PA",
-      "venue": "Finneran Pavilion",
-      "start": "2026-11-24T11:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bAk",
-      "source": "ticketmaster",
-      "lat": 40.037399,
-      "lon": -75.350899
-    },
-    {
-      "id": "ticketmaster:1AYZk4sGkdyWMsF",
-      "title": "Wild Horse Nine",
-      "category": "film",
-      "city": "Middletown",
-      "state": "NY",
-      "venue": "The Paramount Theatre (Middletown, NY)",
-      "start": "2026-11-24T13:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/wild-horse-nine-middletown-new-york-11-24-2026/event/30006571F9F77C48",
-      "source": "ticketmaster",
-      "lat": 41.44454,
-      "lon": -74.42094
-    },
-    {
-      "id": "ticketmaster:1A4Zk4AGkdd-FXC",
-      "title": "Capital City Go-Go vs. Long Island Nets",
-      "category": "sports",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "CareFirst Arena",
-      "start": "2026-11-24T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/capital-city-gogo-vs-long-island-washington-district-of-columbia-11-24-2026/event/15006545C3848F8E",
-      "source": "ticketmaster",
-      "lat": 38.846832,
-      "lon": -76.991129,
-      "neighborhood": "Southeast Washington"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A70Ubt",
-      "title": "Elf the Musical",
-      "category": "other",
-      "city": "Abingdon",
-      "state": "VA",
-      "venue": "Barter Theatre",
-      "start": "2026-11-24T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubt",
-      "source": "ticketmaster",
-      "lat": 36.7393,
-      "lon": -82.009201
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7P0u7",
-      "title": "The 2026 Christmas Show: Winter Wonderland",
-      "category": "theater",
-      "city": "Lancaster",
-      "state": "PA",
-      "venue": "American Music Theatre",
-      "start": "2026-11-24T15:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0u7",
-      "source": "ticketmaster",
-      "lat": 40.0158,
-      "lon": -76.245201
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAvPe7",
@@ -166,7 +80,7 @@
     {
       "id": "ticketmaster:vv1k7Z_4FaG7M6xe",
       "title": "VSU Basketball DH vs Bluefield (WBB) - Shaw (MBB)",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -768,6 +682,20 @@
       "lat": 38.89626652,
       "lon": -77.03053035,
       "neighborhood": "Northwest Washington"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1A70UbY",
+      "title": "Elf the Musical",
+      "category": "other",
+      "city": "Abingdon",
+      "state": "VA",
+      "venue": "Barter Theatre",
+      "start": "2026-11-24T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UbY",
+      "source": "ticketmaster",
+      "lat": 36.7393,
+      "lon": -82.009201
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7P-8J",
@@ -2581,7 +2509,7 @@
       "venue": "Mulcahy's",
       "start": "2026-11-25T21:00:00",
       "isFree": false,
-      "priceMin": 16.79,
+      "priceMin": 49.13,
       "priceMax": 74.94,
       "url": "https://www.ticketweb.com/event/thanksgiving-eve-2026-mulcahys-tickets/14403804",
       "source": "ticketmaster",
@@ -3195,7 +3123,7 @@
     {
       "id": "ticketmaster:vv1A8vPfOGAG3bez",
       "title": "VSU Women's Basketball vs Cheyney University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -6599,6 +6527,21 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:k7vGF_GT1pZ-B",
+      "title": "Disney's Frozen the Musical",
+      "category": "theater",
+      "city": "Buffalo",
+      "state": "NY",
+      "venue": "Shea's 710 Theatre",
+      "start": "2026-11-28T14:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/disneys-frozen-the-musical-buffalo-new-york-11-28-2026/event/000064CFCA58087A",
+      "source": "ticketmaster",
+      "lat": 42.89313177,
+      "lon": -78.871952,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:G5vVZ_uBOIgZ-",
       "title": "Daniel In The Lions' Den featuring Queen Esther",
       "category": "theater",
@@ -6761,7 +6704,7 @@
     {
       "id": "ticketmaster:vv1A8vPfOGACeIKU",
       "title": "VSU Men's Basketball vs Elizabeth City State University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -12765,7 +12708,7 @@
     {
       "id": "ticketmaster:vv1A8vPfOGA2UInw",
       "title": "VSU Women's Basketball vs Shaw University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -17841,7 +17784,7 @@
     {
       "id": "ticketmaster:vv1F7Z_4FoQFZd8ev",
       "title": "VSU Women's Basketball vs Elizabeth City State University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -20382,21 +20325,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:vvG1FZ_1ikzJgu",
-      "title": "Caitlin Peluffo",
-      "category": "comedy",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Punch Line Philly",
-      "start": "2026-12-05T21:15:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/caitlin-peluffo-philadelphia-pennsylvania-12-05-2026/event/020064AB06E26D4D",
-      "source": "ticketmaster",
-      "lat": 39.965819,
-      "lon": -75.134752,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "ticketmaster:rZ7HnEZ1A4vAoN",
       "title": "Disco Fatale",
       "category": "music",
@@ -21978,6 +21906,21 @@
       "lat": 42.3518332,
       "lon": -71.1195379,
       "neighborhood": "Allston"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAANjI",
+      "title": "Koffin Kats + Voodoo Glow Skulls - Ages 21+",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-06T19:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANjI",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZZFt",
@@ -24848,6 +24791,21 @@
       ]
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAANjY",
+      "title": "Emma Ruth Rundle - Ages 21+",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-09T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANjY",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
+    },
+    {
       "id": "jambase:16465132",
       "title": "Dexter and The Moonrocks",
       "category": "music",
@@ -26236,6 +26194,21 @@
       "source": "ticketmaster",
       "lat": 39.951599,
       "lon": -75.158096,
+      "neighborhood": "Center City East"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAANjS",
+      "title": "Bit Brigade Performs \"The Legend of Zelda\" + \"Castlevania\" + \"Tetris\" - Ages 21+",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-10T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANjS",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
       "neighborhood": "Center City East"
     },
     {
@@ -28025,8 +27998,8 @@
       "venue": "Off The Rails Boston",
       "start": "2026-12-11T19:30:00",
       "isFree": false,
-      "priceMin": 21.06,
-      "priceMax": 27.5,
+      "priceMin": 23.12,
+      "priceMax": 29.56,
       "url": "https://www.ticketweb.com/event/wklb-presents-chayce-beckham-off-the-rails-boston-tickets/14376824",
       "source": "ticketmaster",
       "lat": 42.3577549,
@@ -28412,6 +28385,22 @@
       "lat": 40.739502,
       "lon": -74.16809,
       "neighborhood": "Central Ward"
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4vICK",
+      "title": "Masta Ace and Marco Polo's \"ALBUM COMPLETION PARTY\"",
+      "category": "music",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Spring Hall - Rutherford",
+      "start": "2026-12-11T20:00:00",
+      "isFree": false,
+      "priceMin": 19.28,
+      "priceMax": 26.46,
+      "url": "https://www.ticketweb.com/event/masta-ace-and-marco-polos-williams-center-spring-tickets/15068393",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af8Ka0",
@@ -29250,6 +29239,21 @@
       "source": "ticketmaster",
       "lat": 40.82711,
       "lon": -74.10333
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAANjM",
+      "title": "Joe Jordan - Ages 21+",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-11T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANjM",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AAZZoy",
@@ -37919,15 +37923,15 @@
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afoob7",
-      "title": "the Ritualists, Jesse Jordan, Flock of Indifference, Nite Music",
+      "title": "the Ritualists, Jesse Jordan, Flock of Indifference, theylovethem",
       "category": "music",
       "city": "Philadelphia",
       "state": "PA",
       "venue": "Nikki Lopez Philly",
       "start": "2026-12-17T19:00:00",
       "isFree": false,
-      "priceMin": 13.34,
-      "priceMax": 13.34,
+      "priceMin": 19.49,
+      "priceMax": 19.49,
       "url": "https://www.ticketweb.com/event/the-ritualists-jesse-jordan-flock-nikki-lopez-philly-tickets/14451604",
       "source": "ticketmaster",
       "lat": 39.941327,
@@ -38538,6 +38542,21 @@
       "source": "ticketmaster",
       "lat": 39.951599,
       "lon": -75.158096,
+      "neighborhood": "Center City East"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAANjy",
+      "title": "Creepoid - Ages 21+",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-17T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANjy",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
       "neighborhood": "Center City East"
     },
     {
@@ -41037,6 +41056,21 @@
       "neighborhood": "Central Ward"
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAANqZ",
+      "title": "Thee Sinseers: Love Stories Tour\r\nThee Sinseers: Love Stories Tour - Ages 21+",
+      "category": "music",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-18T20:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANqZ",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAe3oa",
       "title": "Added Color (21 and Over with Valid Photo ID required for entry)",
       "category": "music",
@@ -41136,6 +41170,21 @@
       "start": "2026-12-18T21:30:00",
       "isFree": false,
       "url": "https://www.ticketmaster.com/keropi-sanchez-remastered-en-espanol-philadelphia-pennsylvania-12-18-2026/event/020065350C9BA811",
+      "source": "ticketmaster",
+      "lat": 39.965819,
+      "lon": -75.134752,
+      "neighborhood": "North Philadelphia"
+    },
+    {
+      "id": "ticketmaster:vv1AeZk4zGkddVFQ2",
+      "title": "Comedy Allstars",
+      "category": "comedy",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Punch Line Philly",
+      "start": "2026-12-18T21:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/comedy-allstars-philadelphia-pennsylvania-12-18-2026/event/02006578C3D0868F",
       "source": "ticketmaster",
       "lat": 39.965819,
       "lon": -75.134752,
@@ -42409,6 +42458,21 @@
       "lon": -76.1210594
     },
     {
+      "id": "ticketmaster:Z7r9jZ1AAANqv",
+      "title": "Dice Raw: Live Performance + Q&A - Ages 21+",
+      "category": "other",
+      "city": "Philadelphia",
+      "state": "PA",
+      "venue": "Underground Arts",
+      "start": "2026-12-19T16:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAANqv",
+      "source": "ticketmaster",
+      "lat": 39.951099,
+      "lon": -75.150398,
+      "neighborhood": "Center City East"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfuOAf",
       "title": "Luke Barrozo ",
       "category": "music",
@@ -43370,6 +43434,36 @@
       "lat": 42.100016,
       "lon": -72.587027,
       "neighborhood": "South End"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4wGkdoZR-G",
+      "title": "Emo Night Brooklyn (18+)",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Brighton Music Hall presented by Citizens",
+      "start": "2026-12-19T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/emo-night-brooklyn-18-boston-massachusetts-12-19-2026/event/01006572D102F84C",
+      "source": "ticketmaster",
+      "lat": 42.3528999,
+      "lon": -71.1326128,
+      "neighborhood": "Commonwealth"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AA7AAK",
+      "title": "Are You Garbage? (21+ Event)",
+      "category": "theater",
+      "city": "Bensalem",
+      "state": "PA",
+      "venue": "Xcite Center",
+      "start": "2026-12-19T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AAK",
+      "source": "ticketmaster",
+      "lat": 40.1068,
+      "lon": -74.937897,
+      "neighborhood": "Bensalem"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7v-Z",
@@ -45990,6 +46084,21 @@
       "lat": 40.4388401,
       "lon": -79.9908551,
       "neighborhood": "Uptown"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4zGkelu7J_",
+      "title": "Thievery Corporation",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "9:30 CLUB",
+      "start": "2026-12-21T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/thievery-corporation-washington-district-of-columbia-12-21-2026/event/15006578AB344999",
+      "source": "ticketmaster",
+      "lat": 38.91795,
+      "lon": -77.02373,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "jambase:15568565",
@@ -49083,6 +49192,20 @@
       "neighborhood": "Center City East"
     },
     {
+      "id": "ticketmaster:k7v17_9ZKG7Rd_2",
+      "title": "Emo Night Brooklyn 21+ Event",
+      "category": "music",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "venue": "The Stone Pony",
+      "start": "2026-12-26T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/emo-night-brooklyn-21-event-asbury-park-new-jersey-12-26-2026/event/0000657013BC364F",
+      "source": "ticketmaster",
+      "lat": 40.220001,
+      "lon": -74.00071097
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfPPjK",
       "title": "I Love R+B Dance Party",
       "category": "music",
@@ -51400,50 +51523,6 @@
       "neighborhood": "Prudential / St. Botolph"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7-VQ8",
-      "title": "Maybe Happy Ending (Touring)",
-      "category": "theater",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "venue": "Benedum Center",
-      "start": "2026-12-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VQ8",
-      "source": "ticketmaster",
-      "lat": 40.448101,
-      "lon": -79.990898,
-      "neighborhood": "Strip District"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAveFv",
-      "title": "Annie",
-      "category": "theater",
-      "city": "Lancaster",
-      "state": "PA",
-      "venue": "Fulton Opera House",
-      "start": "2026-12-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveFv",
-      "source": "ticketmaster",
-      "lat": 40.011501,
-      "lon": -76.355301
-    },
-    {
-      "id": "ticketmaster:vv16eZk4bv-ZAueaFC",
-      "title": "Comedy Allstars",
-      "category": "comedy",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Punch Line Philly",
-      "start": "2026-12-29T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/comedy-allstars-philadelphia-pennsylvania-12-29-2026/event/02006558061C187D",
-      "source": "ticketmaster",
-      "lat": 39.965819,
-      "lon": -75.134752,
-      "neighborhood": "North Philadelphia"
-    },
-    {
       "id": "jambase:15840730",
       "title": "Mufasa Verde",
       "category": "music",
@@ -51552,50 +51631,6 @@
       "neighborhood": "Town Center"
     },
     {
-      "id": "ticketmaster:17GZv0G62rQ27vT",
-      "title": "Suites - Disney On Ice presents Spotlight Magic!",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Xfinity Mobile Arena",
-      "start": "2026-12-30T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/suites-disney-on-ice-presents-spotlight-philadelphia-pennsylvania-12-30-2026/event/300064F79A3C407F",
-      "source": "ticketmaster",
-      "lat": 39.904551,
-      "lon": -75.1736273,
-      "neighborhood": "South Philadelphia East"
-    },
-    {
-      "id": "ticketmaster:17GZv0G6uDQhUsL",
-      "title": "Disney On Ice presents Spotlight Magic!",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Xfinity Mobile Arena",
-      "start": "2026-12-30T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/disney-on-ice-presents-spotlight-magic-philadelphia-pennsylvania-12-30-2026/event/300064DEDA6F6C5F",
-      "source": "ticketmaster",
-      "lat": 39.904551,
-      "lon": -75.1736273,
-      "neighborhood": "South Philadelphia East"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7ooA",
-      "title": "Joshua Live On Stage",
-      "category": "other",
-      "city": "Ronks",
-      "state": "PA",
-      "venue": "Sight and Sound Theatres - PA",
-      "start": "2026-12-30T11:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ooA",
-      "source": "ticketmaster",
-      "lat": 40.012299,
-      "lon": -76.1511
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AAvgb9",
       "title": "A Christmas Carol",
       "category": "other",
@@ -51624,21 +51659,6 @@
       "lat": 42.3514544,
       "lon": -71.1176226,
       "neighborhood": "Allston"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7-peb",
-      "title": "Philadelphia Ballet w/ George Balanchine's The Nutcracker",
-      "category": "other",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Academy of Music - PA",
-      "start": "2026-12-30T12:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-peb",
-      "source": "ticketmaster",
-      "lat": 39.953098,
-      "lon": -75.1651,
-      "neighborhood": "Center City West"
     },
     {
       "id": "ticketmaster:1AvfZ_fGkUJq9Zy",
@@ -52487,7 +52507,7 @@
       "venue": "Hyatt Regency Princeton",
       "start": "2026-12-31T19:00:00",
       "isFree": false,
-      "priceMin": 37.88,
+      "priceMin": 46.61,
       "priceMax": 59.43,
       "url": "https://www.ticketweb.com/event/mike-vecchione-hyatt-regency-princeton-tickets/15051893",
       "source": "ticketmaster",
@@ -52824,6 +52844,21 @@
       "lat": 41.4783608,
       "lon": -71.9630872,
       "neighborhood": "Mashantucket"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAA91a",
+      "title": "The Glitter Boys NYE - Ages 21+",
+      "category": "other",
+      "city": "Cambridge",
+      "state": "MA",
+      "venue": "The Sinclair Music Hall",
+      "start": "2026-12-31T21:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA91a",
+      "source": "ticketmaster",
+      "lat": 42.380199,
+      "lon": -71.134697,
+      "neighborhood": "West Cambridge"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Afjd-S",
@@ -53252,7 +53287,7 @@
     {
       "id": "ticketmaster:vv117Z_4FfjaqP",
       "title": "VSU Women's Basketball vs Chowan University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -53772,7 +53807,7 @@
     {
       "id": "ticketmaster:vv1k7Z_4FpG7Sas_",
       "title": "VSU Men's Basketball vs Bluefield State University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -54238,6 +54273,21 @@
       "lat": 36.8493416,
       "lon": -76.0194075,
       "neighborhood": "North Virginia Beach"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4MGkdet51M",
+      "title": "Brisk",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2027-01-02T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/brisk-charlottesville-virginia-01-02-2027/event/01006577C2A4B2B7",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "ticketmaster:1A4ZkfgGkd1ra_t",
@@ -55405,7 +55455,7 @@
     {
       "id": "ticketmaster:vv168vPf--bZ75v7e",
       "title": "VSU Basketball DH vs Claflin University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -56807,7 +56857,7 @@
     {
       "id": "ticketmaster:vv1A8vPf-GA1JQ99",
       "title": "VSU Basketball DH vs Johnson C Smith University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -58209,6 +58259,21 @@
       "neighborhood": "Green Valley"
     },
     {
+      "id": "ticketmaster:vv1AvZk4MGkdp4c0-",
+      "title": "Climate Aid - The Black Ram Guitar Festival",
+      "category": "music",
+      "city": "Portland",
+      "state": "ME",
+      "venue": "State Theatre",
+      "start": "2027-01-12T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/climate-aid-the-black-ram-guitar-portland-maine-01-12-2027/event/01006577D656D921",
+      "source": "ticketmaster",
+      "lat": 43.6539716,
+      "lon": -70.2632924,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:1AvfZ_KGkyBuSaP",
       "title": "TesseracT",
       "category": "music",
@@ -58975,6 +59040,22 @@
       "neighborhood": "Ewing and Carroll"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4vIoS",
+      "title": "Kawaii Rave is back at the Williams Center! Anime remixes, EDM, and hyperpop all night.",
+      "category": "music",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Black Box - Rutherford",
+      "start": "2027-01-15T19:00:00",
+      "isFree": false,
+      "priceMin": 19.28,
+      "priceMax": 26.46,
+      "url": "https://www.ticketweb.com/event/kawaii-rave-is-back-at-williams-center-black-tickets/15068473",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1A7JFbd",
       "title": "Hartford Wolfpack vs. Belleville Senators",
       "category": "sports",
@@ -59433,6 +59514,23 @@
       "neighborhood": "Prudential / St. Botolph"
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1A4vEfN",
+      "title": "No More Almost with Opening Night & Jay Sully",
+      "category": "music",
+      "city": "Worcester",
+      "state": "MA",
+      "venue": "Off The Rails Music Venue",
+      "start": "2027-01-15T20:00:00",
+      "isFree": false,
+      "priceMin": 20.2,
+      "priceMax": 51.1,
+      "url": "https://www.ticketweb.com/event/no-more-almost-with-opening-off-the-rails-music-venue-tickets/15067523",
+      "source": "ticketmaster",
+      "lat": 42.2666,
+      "lon": -71.79923,
+      "neighborhood": "Central Business District"
+    },
+    {
       "id": "ticketmaster:vv177Z_KGkS9iPHQ",
       "title": "ROAR! Comedy: Steve Furey",
       "category": "comedy",
@@ -59682,6 +59780,22 @@
       "source": "ticketmaster",
       "lat": 37.58578286,
       "lon": -77.42365636
+    },
+    {
+      "id": "ticketmaster:rZ7HnEZ1A4vI3d",
+      "title": "GOLDEN: A K-Pop Kids Party!",
+      "category": "music",
+      "city": "Rutherford",
+      "state": "NJ",
+      "venue": "Williams Center - Black Box - Rutherford",
+      "start": "2027-01-16T11:00:00",
+      "isFree": false,
+      "priceMin": 26.46,
+      "priceMax": 32.64,
+      "url": "https://www.ticketweb.com/event/golden-a-k-pop-kids-williams-center-black-tickets/15068483",
+      "source": "ticketmaster",
+      "lat": 40.82711,
+      "lon": -74.10333
     },
     {
       "id": "ticketmaster:vv177Z_4GkIHex0O",
@@ -60644,14 +60758,14 @@
     },
     {
       "id": "ticketmaster:G5vVZ_5KY2hC2",
-      "title": "Jordan Jensen",
+      "title": "Jordan Jensen: The Wet Hug Tour",
       "category": "comedy",
       "city": "Mashantucket",
       "state": "CT",
       "venue": "Great Cedar Showroom at Foxwoods Resort Casino",
       "start": "2027-01-16T19:30:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/jordan-jensen-mashantucket-connecticut-01-16-2027/event/1D0064B4F03DB38F",
+      "url": "https://www.ticketmaster.com/jordan-jensen-the-wet-hug-tour-mashantucket-connecticut-01-16-2027/event/1D0064B4F03DB38F",
       "source": "ticketmaster",
       "lat": 41.4489233,
       "lon": -71.975699,
@@ -61070,6 +61184,20 @@
       "neighborhood": "Downtown"
     },
     {
+      "id": "ticketmaster:16e0Z_9jbG7WstC",
+      "title": "Murda Beatz",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
+      "start": "2027-01-16T23:00:00",
+      "isFree": false,
+      "url": "https://www.ticketweb.com/event/murda-beatz-ocean-casino-resort-tickets/15067013?REFERRAL_ID=tmfeed",
+      "source": "ticketmaster",
+      "lat": 39.362536,
+      "lon": -74.413699
+    },
+    {
       "id": "ticketmaster:LvZ18QcrM7bKzcPh4l9UC",
       "title": "Jurassic Quest – Baltimore, MD | Maryland State Fairgrounds",
       "category": "other",
@@ -61380,21 +61508,6 @@
       "lat": 41.82367038,
       "lon": -71.41781855,
       "neighborhood": "Downtown Providence"
-    },
-    {
-      "id": "ticketmaster:vvG17Z_2kipSb_",
-      "title": "Worcester Railers vs. Adirondack Thunder - Dino Day",
-      "category": "sports",
-      "city": "Worcester",
-      "state": "MA",
-      "venue": "DCU Center",
-      "start": "2027-01-17T15:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/worcester-railers-vs-adirondack-thunder-dino-worcester-massachusetts-01-17-2027/event/010064F1AC5B3619",
-      "source": "ticketmaster",
-      "lat": 42.26436,
-      "lon": -71.798487,
-      "neighborhood": "Central Business District"
     },
     {
       "id": "ticketmaster:1A4Zk4AGkdd8FDH",
@@ -65614,6 +65727,21 @@
       "neighborhood": "Downtown Mall"
     },
     {
+      "id": "ticketmaster:vv1AvZk4MGkdb6cS5",
+      "title": "Wax Monkey",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2027-01-27T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/wax-monkey-charlottesville-virginia-01-27-2027/event/01006577D81EDCCB",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
+    },
+    {
       "id": "ticketmaster:Z7r9jZ1AAeb_e",
       "title": "Lend Me A Tenor",
       "category": "theater",
@@ -66975,7 +67103,7 @@
     {
       "id": "ticketmaster:vv1A8vPf-GAGjBOP",
       "title": "VSU Basketball DH vs Livingstone College",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -67601,6 +67729,21 @@
       "lat": 36.8493416,
       "lon": -76.0194075,
       "neighborhood": "North Virginia Beach"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4MGkeMmnZo",
+      "title": "The Band Memo",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2027-01-30T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-band-memo-charlottesville-virginia-01-30-2027/event/01006577B7BAA011",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "jambase:14876036",
@@ -68875,7 +69018,7 @@
     {
       "id": "ticketmaster:vv1A8vPf-GAuD1nr",
       "title": "VSU Basketball DH vs Fayetteville State University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -70182,49 +70325,6 @@
       "neighborhood": "Windsor Hills"
     },
     {
-      "id": "ticketmaster:Z7r9jZ1AAvo-6",
-      "title": "Lend Me A Tenor",
-      "category": "theater",
-      "city": "Millburn",
-      "state": "NJ",
-      "venue": "Paper Mill Playhouse",
-      "start": "2027-02-06T13:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvo-6",
-      "source": "ticketmaster",
-      "lat": 40.7229,
-      "lon": -74.300598
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1A7-Y19",
-      "title": "Purpose - Play",
-      "category": "other",
-      "city": "Princeton",
-      "state": "NJ",
-      "venue": "Berlind Theatre",
-      "start": "2027-02-06T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Y19",
-      "source": "ticketmaster",
-      "lat": 40.367901,
-      "lon": -74.654297
-    },
-    {
-      "id": "ticketmaster:k7vGF_1hYEKaX",
-      "title": "Nai Ni Chen Dance Company: Year Of The Goat",
-      "category": "theater",
-      "city": "Newark",
-      "state": "NJ",
-      "venue": "New Jersey Performing Arts Center",
-      "start": "2027-02-06T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/nai-ni-chen-dance-company-year-newark-new-jersey-02-06-2027/event/000064A6F09D327E",
-      "source": "ticketmaster",
-      "lat": 40.739502,
-      "lon": -74.16809,
-      "neighborhood": "Central Ward"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1AA7y-f",
       "title": "Bad Dates - End Game",
       "category": "other",
@@ -70345,7 +70445,7 @@
     {
       "id": "ticketmaster:vv1A8vPf-GA2O1YK",
       "title": "VSU Basketball DH vs Lincoln University (PA)",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -70370,21 +70470,6 @@
       "lat": 42.987801,
       "lon": -71.465103,
       "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAA9us",
-      "title": "Rutgers Scarlet Knights Womens Gymnastics vs. Minnesota Gophers Womens Gymnastics",
-      "category": "sports",
-      "city": "Piscataway",
-      "state": "NJ",
-      "venue": "Jersey Mike's Arena",
-      "start": "2027-02-06T16:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9us",
-      "source": "ticketmaster",
-      "lat": 40.546501,
-      "lon": -74.462898,
-      "neighborhood": "Society Hill"
     },
     {
       "id": "ticketmaster:Z7r9jZ1A7PPqy",
@@ -70905,6 +70990,21 @@
       "lat": 36.8493416,
       "lon": -76.0194075,
       "neighborhood": "North Virginia Beach"
+    },
+    {
+      "id": "ticketmaster:vv1AvZk4SGkdP8m7x",
+      "title": "Kendall Street Company Lovers Tour 2027",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/kendall-street-company-lovers-tour-2027-charlottesville-virginia-02-06-2027/event/01006573E542E122",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
     },
     {
       "id": "ticketmaster:vv1AvZkfMGkdn5kyE",
@@ -72037,7 +72137,7 @@
     {
       "id": "ticketmaster:vv168vPfxvaZ75Cv1",
       "title": "VSU Basketball DH vs Bowie State University",
-      "category": "other",
+      "category": "sports",
       "city": "Petersburg",
       "state": "VA",
       "venue": "VSU Multi-Purpose Center",
@@ -72664,6 +72764,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1kA8vPjtGAGyED1",
+      "title": "Kendall Street Company",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "The Atlantis",
+      "start": "2027-02-12T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/kendall-street-company-washington-district-of-columbia-02-12-2027/event/150065729CE67ECA",
+      "source": "ticketmaster",
+      "lat": 38.91819,
+      "lon": -77.02241,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z1r9uZrrZCuZ1AvPz-9",
@@ -77499,14 +77614,14 @@
     },
     {
       "id": "ticketmaster:vv1a8vPqY3ofKv2",
-      "title": "CJ Chenier",
+      "title": "CJ Chenier & the Red Hot Louisiana Band",
       "category": "music",
       "city": "Portsmouth",
       "state": "NH",
       "venue": "Jimmy's Jazz and Blues Club",
       "start": "2027-02-24T19:30:00",
       "isFree": false,
-      "url": "https://www.ticketmaster.com/cj-chenier-portsmouth-new-hampshire-02-24-2027/event/010065770491513E",
+      "url": "https://www.ticketmaster.com/cj-chenier-the-red-hot-louisiana-portsmouth-new-hampshire-02-24-2027/event/010065770491513E",
       "source": "ticketmaster",
       "lat": 43.07634404,
       "lon": -70.76009881
@@ -79205,6 +79320,21 @@
       "lon": -79.42809252
     },
     {
+      "id": "ticketmaster:vv1AvZk4wGkdP5Pn3",
+      "title": "Sam Fribush",
+      "category": "music",
+      "city": "Charlottesville",
+      "state": "VA",
+      "venue": "The Southern Café & Music Hall",
+      "start": "2027-02-27T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/sam-fribush-charlottesville-virginia-02-27-2027/event/01006572E52E5A92",
+      "source": "ticketmaster",
+      "lat": 38.0304746,
+      "lon": -78.48181653,
+      "neighborhood": "Downtown Mall"
+    },
+    {
       "id": "ticketmaster:vvG17Z_uUPAuHt",
       "title": "All Night Thing",
       "category": "music",
@@ -80118,66 +80248,6 @@
       "lat": 37.549801,
       "lon": -77.459801,
       "neighborhood": "The Fan District"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7MoN",
-      "title": "Mersiv w/ Seth David",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "The Norva",
-      "start": "2027-03-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MoN",
-      "source": "ticketmaster",
-      "lat": 36.8517,
-      "lon": -76.2873,
-      "neighborhood": "Downtown"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAZOPS",
-      "title": "The Monsters - Play (Appropriate for mature teens and up. Children under 6 are not admitted at Signature)",
-      "category": "other",
-      "city": "Arlington",
-      "state": "VA",
-      "venue": "Signature Theatre",
-      "start": "2027-03-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZOPS",
-      "source": "ticketmaster",
-      "lat": 38.843102,
-      "lon": -77.0896,
-      "neighborhood": "Green Valley"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AAe9A-",
-      "title": "Dancing with the Stars: Live! - 2027 Tour",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Chartway Arena at Ted Constant Convocation Center",
-      "start": "2027-03-03T19:30:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe9A-",
-      "source": "ticketmaster",
-      "lat": 36.887299,
-      "lon": -76.303001,
-      "neighborhood": "Lamberts Point"
-    },
-    {
-      "id": "ticketmaster:vv1AvZk46GkdV2Wn2",
-      "title": "Dancing with the Stars: Live! - 2027 Tour",
-      "category": "music",
-      "city": "Norfolk",
-      "state": "VA",
-      "venue": "Chartway Arena",
-      "start": "2027-03-03T19:30:00",
-      "isFree": false,
-      "url": "https://odu-chartway.evenue.net/events/DS270303",
-      "source": "ticketmaster",
-      "lat": 36.884147,
-      "lon": -76.301293,
-      "neighborhood": "Highland Park"
     },
     {
       "id": "ticketmaster:vv1A8vP4YGA5Zcfk",
@@ -81312,6 +81382,21 @@
       "source": "ticketmaster",
       "lat": 39.741126,
       "lon": -75.550253
+    },
+    {
+      "id": "ticketmaster:1A4Zk4YGkdHrl22",
+      "title": "Ebi Live In Washington, D.C.",
+      "category": "music",
+      "city": "Washington",
+      "state": "DC",
+      "venue": "DAR Constitution Hall",
+      "start": "2027-03-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ebi-live-in-washington-dc-washington-district-of-columbia-03-06-2027/event/15006570FC7AB3CF",
+      "source": "ticketmaster",
+      "lat": 38.89423638,
+      "lon": -77.04092216,
+      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:rZ7HnEZ1A4v8qd",
@@ -82645,6 +82730,21 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:1A4Zk4MGkel6g1L",
+      "title": "The Super Pickle: A Hilarious Musical Parody",
+      "category": "theater",
+      "city": "Baltimore",
+      "state": "MD",
+      "venue": "M&T Bank Exchange",
+      "start": "2027-03-13T14:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/the-super-pickle-a-hilarious-musical-baltimore-maryland-03-13-2027/event/15006577AB1F529F",
+      "source": "ticketmaster",
+      "lat": 39.290215,
+      "lon": -76.620956,
+      "neighborhood": "Bromo Arts District"
     },
     {
       "id": "ticketmaster:17A8v0G6u5-woop",
@@ -91573,21 +91673,6 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "ticketmaster:1AvfZ_4GkMOCcHe",
-      "title": "Gutfeld Live Featuring Greg Gutfeld, Tom Shillue & Friends",
-      "category": "comedy",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "DAR Constitution Hall",
-      "start": "2027-04-25T14:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/gutfeld-live-featuring-greg-gutfeld-tom-washington-district-of-columbia-04-25-2027/event/1500655DE03ADF02",
-      "source": "ticketmaster",
-      "lat": 38.89423638,
-      "lon": -77.04092216,
-      "neighborhood": "Northwest Washington"
-    },
-    {
       "id": "ticketmaster:Z7r9jZ1A7Pgav",
       "title": "Jesus Christ Superstar",
       "category": "theater",
@@ -91643,21 +91728,6 @@
       "source": "ticketmaster",
       "lat": 44.78812225,
       "lon": -68.77827846
-    },
-    {
-      "id": "ticketmaster:1A4Zk4xGkdjPbOh",
-      "title": "BigXthaPlug - Better Over Time Tour",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "9:30 CLUB",
-      "start": "2027-04-25T19:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/bigxthaplug-better-over-time-tour-washington-district-of-columbia-04-25-2027/event/15006562DC95881B",
-      "source": "ticketmaster",
-      "lat": 38.91795,
-      "lon": -77.02373,
-      "neighborhood": "Northwest Washington"
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7s83",
@@ -92207,8 +92277,8 @@
       "neighborhood": "Downtown Providence"
     },
     {
-      "id": "serpapi:parrilla-latin-american-bbq-festival-greenwood-park-2027-05-02",
-      "title": "Parrilla Latin American BBQ Festival",
+      "id": "serpapi:parrilla-latin-american-bbq-festival-by-latin-city-greenwood-park-2027-05-02",
+      "title": "Parrilla Latin American BBQ Festival By Latin City",
       "category": "food",
       "borough": "Manhattan",
       "venue": "Greenwood Park",
@@ -95562,6 +95632,20 @@
       "lat": 41.8204,
       "lon": -71.412804,
       "neighborhood": "Downtown Providence"
+    },
+    {
+      "id": "ticketmaster:vv177Z_pGkwK66lD",
+      "title": "Warrant",
+      "category": "music",
+      "city": "Lincoln",
+      "state": "RI",
+      "venue": "Bally's Event Center",
+      "start": "2027-06-04T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/warrant-lincoln-rhode-island-06-04-2027/event/0100656C931C7AFB",
+      "source": "ticketmaster",
+      "lat": 41.892518,
+      "lon": -71.437762
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7MQ8",
@@ -99417,35 +99501,6 @@
       "lon": -77.469299
     },
     {
-      "id": "ticketmaster:Z7r9jZ1A7Jpbt",
-      "title": "Baltimore Orioles vs. Los Angeles Dodgers",
-      "category": "sports",
-      "city": "Baltimore",
-      "state": "MD",
-      "venue": "Camden Yards",
-      "start": "2027-08-20T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jpbt",
-      "source": "ticketmaster",
-      "lat": 39.293999,
-      "lon": -76.622597,
-      "neighborhood": "University Of Maryland"
-    },
-    {
-      "id": "ticketmaster:Z7r9jZ1AA7PpF",
-      "title": "Chesapeake Baysox vs. Portland Sea Dogs",
-      "category": "sports",
-      "city": "Bowie",
-      "state": "MD",
-      "venue": "Prince George's Stadium",
-      "start": "2027-08-20T19:05:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7PpF",
-      "source": "ticketmaster",
-      "lat": 39.006599,
-      "lon": -76.779404
-    },
-    {
       "id": "ticketmaster:vv1AvZk4JGkd2w7hR",
       "title": "Henry Cho: It's What I Do",
       "category": "comedy",
@@ -99476,8 +99531,8 @@
       "neighborhood": "Downtown"
     },
     {
-      "id": "serpapi:saz-n-latin-food-festival-brooklyn-s-taste-of-latin-american-food-greenwood-park-2027-08-22",
-      "title": "Sazón Latin Food Festival: Brooklyn’s Taste of Latin American Food",
+      "id": "serpapi:saz-n-latin-food-festival-taste-of-latin-american-food-greenwood-park-2027-08-22",
+      "title": "Sazón Latin Food Festival: Taste of Latin American Food",
       "category": "food",
       "borough": "Manhattan",
       "venue": "Greenwood Park",
