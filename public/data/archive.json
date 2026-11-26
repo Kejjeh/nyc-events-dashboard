@@ -1,171 +1,7 @@
 {
-  "generatedAt": "2026-11-26T04:34:24.089Z",
-  "count": 6737,
+  "generatedAt": "2026-11-26T19:54:34.320Z",
+  "count": 6736,
   "events": [
-    {
-      "id": "jambase:16391876",
-      "title": "Catch Your Breath",
-      "category": "music",
-      "city": "McKees Rocks",
-      "state": "PA",
-      "venue": "Roxian Theatre",
-      "start": "2026-11-25T18:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/catch-your-breath-roxian-theatre-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 40.4646,
-      "lon": -80.059
-    },
-    {
-      "id": "jambase:16246087",
-      "title": "Virginia Coalition",
-      "category": "music",
-      "city": "Washington",
-      "state": "DC",
-      "venue": "The Atlantis",
-      "start": "2026-11-25T18:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/virginia-coalition-the-atlantis-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 38.9182,
-      "lon": -77.0236,
-      "neighborhood": "Northwest Washington",
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/virginia-coalition-washington-district-of-columbia-11-25-2026/event/150064A4DBC5F3DF"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16275852",
-      "title": "Fantastic Cat",
-      "category": "music",
-      "city": "Asbury Park",
-      "state": "NJ",
-      "venue": "The Stone Pony",
-      "start": "2026-11-25T19:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/fantastic-cat-the-stone-pony-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2023/03/fantastic-cat-1480x832.png",
-      "lat": 40.22,
-      "lon": -74.0007,
-      "altTicketLinks": [
-        {
-          "source": "ticketmaster",
-          "url": "https://www.ticketmaster.com/fantastic-cat-asbury-park-new-jersey-11-25-2026/event/000064A8EE35CD1F"
-        }
-      ]
-    },
-    {
-      "id": "jambase:16263466",
-      "title": "Blue Öyster Cult",
-      "category": "music",
-      "city": "Red Bank",
-      "state": "NJ",
-      "venue": "Hackensack Meridian Health Theatre",
-      "start": "2026-11-25T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/blue-oyster-cult-hackensack-meridian-health-theatre-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2017/02/blue-oyster-cult-blue-oyster-cult-6a22f49f-f082-478c-b60b-1b4de102cb4d_97991_TABLET_LANDSCAPE_LARGE_16_9-1480x832.jpg",
-      "lat": 40.3491,
-      "lon": -74.0701
-    },
-    {
-      "id": "jambase:16379385",
-      "title": "DragonForce",
-      "category": "music",
-      "city": "Washington",
-      "state": "MD",
-      "venue": "The Fillmore Silver Spring",
-      "start": "2026-11-25T19:30:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/dragonforce-the-fillmore-silver-spring-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2026/05/dragonforce-2026-press-1480x832.jpg",
-      "lat": 38.9974,
-      "lon": -77.0276,
-      "neighborhood": "Downtown Silver Spring"
-    },
-    {
-      "id": "jambase:16393978",
-      "title": "GHOSTWOMAN",
-      "category": "music",
-      "city": "Boston",
-      "state": "MA",
-      "venue": "The Rockwell",
-      "start": "2026-11-25T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/ghostwoman-the-rockwell-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
-      "lat": 42.3956,
-      "lon": -71.1217,
-      "neighborhood": "Davis Square"
-    },
-    {
-      "id": "jambase:15588122",
-      "title": "Splintered Sunlight",
-      "category": "music",
-      "city": "Philadelphia",
-      "state": "PA",
-      "venue": "Ardmore Music Hall",
-      "start": "2026-11-25T20:00:00",
-      "isFree": false,
-      "url": "https://www.jambase.com/show/splintered-sunlight-ardmore-music-hall-20261125",
-      "source": "jambase",
-      "image": "https://www.jambase.com/wp-content/uploads/2024/02/splintered-sunlight-1480x832.png",
-      "lat": 40.0076,
-      "lon": -75.29
-    },
-    {
-      "id": "ticketmaster:G5vVZ_oXT0RJC",
-      "title": "Feng Wang",
-      "category": "music",
-      "city": "Uncasville",
-      "state": "CT",
-      "venue": "Mohegan Sun Arena",
-      "start": "2026-11-25T23:45:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/feng-wang-uncasville-connecticut-11-25-2026/event/1D00651FBF92F98E",
-      "source": "ticketmaster",
-      "lat": 41.4915974,
-      "lon": -72.0914563,
-      "neighborhood": "Uncasville"
-    },
-    {
-      "id": "ticketmaster:1AvfZ_3GkToyDRq",
-      "title": "Toby's Dinner Theatre Presents: White Christmas",
-      "category": "theater",
-      "city": "Columbia",
-      "state": "MD",
-      "venue": "Toby's Dinner Theatre Columbia",
-      "start": "2026-11-26T12:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/tobys-dinner-theatre-presents-white-christmas-columbia-maryland-11-26-2026/event/1500652FD1E7BBDD",
-      "source": "ticketmaster",
-      "lat": 39.2095143,
-      "lon": -76.8582823,
-      "neighborhood": "Town Center"
-    },
-    {
-      "id": "ticketmaster:vv1AeZk4xGkdqSQYc",
-      "title": "The Further Mis-Adventures of Cliff Booth",
-      "category": "film",
-      "city": "Atlantic City",
-      "state": "NJ",
-      "venue": "IMAX THEATRE at TROPICANA",
-      "start": "2026-11-26T13:00:00",
-      "isFree": false,
-      "url": "https://www.ticketmaster.com/the-further-misadventures-of-cliff-booth-atlantic-city-new-jersey-11-26-2026/event/02006562DDCDAC2D",
-      "source": "ticketmaster",
-      "lat": 39.4061431,
-      "lon": -74.4455451
-    },
     {
       "id": "ticketmaster:Z7r9jZ1A7PVpb",
       "title": "Buffalo Bills VIP Tailgate",
@@ -181,19 +17,18 @@
       "lon": -78.741302
     },
     {
-      "id": "ticketmaster:LvZ18QRnuh4hp4RiEAJUP",
-      "title": "Do Portugal Circus - Staten Island, NY",
-      "category": "theater",
-      "city": "Staten Island",
-      "state": "NY",
-      "venue": "Staten Island Mall - Big Top",
-      "start": "2026-11-26T19:30:00",
+      "id": "ticketmaster:vv1AeZk4xGkdqgnYM",
+      "title": "The Further Mis-Adventures of Cliff Booth",
+      "category": "film",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "IMAX THEATRE at TROPICANA",
+      "start": "2026-11-26T19:00:00",
       "isFree": false,
-      "url": "https://www.universe.com/events/do-portugal-circus-staten-island-ny-tickets-XF257S?ref=ticketmaster",
+      "url": "https://www.ticketmaster.com/the-further-misadventures-of-cliff-booth-atlantic-city-new-jersey-11-26-2026/event/02006562DDD6AC37",
       "source": "ticketmaster",
-      "lat": 40.580915,
-      "lon": -74.16911,
-      "neighborhood": "New Springville"
+      "lat": 39.4061431,
+      "lon": -74.4455451
     },
     {
       "id": "ticketmaster:vv1AdZkf-GkdCawdP",
@@ -8008,6 +7843,23 @@
       "lon": -73.58431
     },
     {
+      "id": "ticketmaster:rZ7HnEZ1AfjVFS",
+      "title": "Open mic hosted by Attamizk & friends",
+      "category": "music",
+      "city": "Syracuse",
+      "state": "NY",
+      "venue": "Funk 'n Waffles",
+      "start": "2026-11-29T19:00:00",
+      "isFree": true,
+      "priceMin": 0,
+      "priceMax": 0,
+      "url": "https://www.ticketweb.com/event/open-mic-hosted-by-attamizk-funk-n-waffles-tickets/14734233",
+      "source": "ticketmaster",
+      "lat": 43.048366,
+      "lon": -76.153423,
+      "neighborhood": "Downtown"
+    },
+    {
       "id": "ticketmaster:rZ7HnEZ1AfCZuf",
       "title": "Barry Lyndon (1975)",
       "category": "other",
@@ -8194,6 +8046,20 @@
       "lon": -72.6317
     },
     {
+      "id": "ticketmaster:k7vGF_owpelAI",
+      "title": "A Bronx Tale: The One Man Show Starring Chazz Palminteri",
+      "category": "other",
+      "city": "Huntington",
+      "state": "NY",
+      "venue": "The Paramount in concert with Northwell",
+      "start": "2026-11-29T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/a-bronx-tale-the-one-man-huntington-new-york-11-29-2026/event/0000651C960AB168",
+      "source": "ticketmaster",
+      "lat": 40.86969685,
+      "lon": -73.42591099
+    },
+    {
       "id": "jambase:16210197",
       "title": "Judy Collins",
       "category": "music",
@@ -8275,6 +8141,34 @@
       "lat": 39.9012,
       "lon": -75.172,
       "neighborhood": "South Philadelphia East"
+    },
+    {
+      "id": "ticketmaster:G5vVZ_2k9xzrR",
+      "title": "Twiddle",
+      "category": "music",
+      "city": "Port Chester",
+      "state": "NY",
+      "venue": "The Capitol Theatre",
+      "start": "2026-11-29T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/twiddle-port-chester-new-york-11-29-2026/event/1D0064F1978B87AF",
+      "source": "ticketmaster",
+      "lat": 41.0013461,
+      "lon": -73.6654488
+    },
+    {
+      "id": "ticketmaster:vvG1GZ_2xnn3Zk",
+      "title": "Sun. 11/29/2026 - Highmark Stadium Tours",
+      "category": "other",
+      "city": "Orchard Park",
+      "state": "NY",
+      "venue": "Highmark Stadium",
+      "start": "2026-11-29T20:00:00",
+      "isFree": false,
+      "url": "https://am.ticketmaster.com/bsec/buy",
+      "source": "ticketmaster",
+      "lat": 42.77389,
+      "lon": -78.78694
     },
     {
       "id": "ticketmaster:rZ7HnEZ1Af7bPV",
@@ -16589,8 +16483,8 @@
       "venue": "Fete Music Hall",
       "start": "2026-12-05T18:00:00",
       "isFree": false,
-      "priceMin": 26.67,
-      "priceMax": 26.67,
+      "priceMin": 43.64,
+      "priceMax": 43.64,
       "url": "https://www.ticketweb.com/event/tight-crew-presents-the-tightmare-fete-music-hall-tickets/14372424",
       "source": "ticketmaster",
       "lat": 41.8158981,
@@ -19950,22 +19844,6 @@
       "source": "ticketmaster",
       "lat": 42.46480942,
       "lon": -70.95121002
-    },
-    {
-      "id": "ticketmaster:rZ7HnEZ1Afofq7",
-      "title": "Punch Drunk Love (2002)",
-      "category": "other",
-      "city": "Rutherford",
-      "state": "NJ",
-      "venue": "Williams Center - Cinema Underground - Rutherford",
-      "start": "2026-12-06T17:15:00",
-      "isFree": false,
-      "priceMin": 13.63,
-      "priceMax": 15.69,
-      "url": "https://www.ticketweb.com/event/punch-drunk-love-2002-williams-center-cinema-tickets/14454744",
-      "source": "ticketmaster",
-      "lat": 40.82711,
-      "lon": -74.10333
     },
     {
       "id": "ticketmaster:LvZ18QmOqdbg5qRlACHwQ",
@@ -56553,6 +56431,21 @@
       "lon": -74.414296
     },
     {
+      "id": "ticketmaster:vv1A8vPjtGA2SWvl",
+      "title": "Ladies Love Dancehall vs Soca ( 21+ )",
+      "category": "music",
+      "city": "Boston",
+      "state": "MA",
+      "venue": "Big Night Live",
+      "start": "2027-01-09T22:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/ladies-love-dancehall-vs-soca-21-boston-massachusetts-01-09-2027/event/010065729FCFD06B",
+      "source": "ticketmaster",
+      "lat": 42.365977,
+      "lon": -71.0617,
+      "neighborhood": "West End"
+    },
+    {
       "id": "ticketmaster:LvZ18QYeIFb5AGrhNHNsj",
       "title": "Dinosaur Adventure - Hampton, VA Jan 2027",
       "category": "other",
@@ -69976,6 +69869,48 @@
       "neighborhood": "Central Ward"
     },
     {
+      "id": "ticketmaster:vv17FZ_pGkU9MItP",
+      "title": "Jessie's Girl - Back To The 80's",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Sound Waves at Hard Rock Hotel & Casino Atlantic City",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/jessies-girl-back-to-the-80s-atlantic-city-new-jersey-02-06-2027/event/0200656D97DE8A65",
+      "source": "ticketmaster",
+      "lat": 39.359944,
+      "lon": -74.420138
+    },
+    {
+      "id": "ticketmaster:vv1kFZ_fbxG7MVlj",
+      "title": "Boyz II Men",
+      "category": "music",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Borgata Event Center",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/boyz-ii-men-atlantic-city-new-jersey-02-06-2027/event/0200654622DF4ADC",
+      "source": "ticketmaster",
+      "lat": 39.376797,
+      "lon": -74.435366
+    },
+    {
+      "id": "ticketmaster:vvG1FZ_1H_CTdo",
+      "title": "RuPaul's Drag Race Werq The World 2027 Tour",
+      "category": "theater",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "venue": "Tropicana Showroom at Tropicana Atlantic City",
+      "start": "2027-02-06T20:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/rupauls-drag-race-werq-the-world-atlantic-city-new-jersey-02-06-2027/event/020064AF193BF0D1",
+      "source": "ticketmaster",
+      "lat": 39.352585,
+      "lon": -74.444893
+    },
+    {
       "id": "ticketmaster:G5vVZ_pKYg7hG",
       "title": "Piff the Magic Dragon",
       "category": "theater",
@@ -79881,6 +79816,20 @@
       "lat": 37.5411,
       "lon": -77.434601,
       "neighborhood": "Downtown"
+    },
+    {
+      "id": "ticketmaster:vvG17Z_23Ds6rR",
+      "title": "Cirque Alice",
+      "category": "theater",
+      "city": "Roanoke",
+      "state": "VA",
+      "venue": "Berglund Performing Arts Theatre",
+      "start": "2027-03-04T19:30:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/cirque-alice-roanoke-virginia-03-04-2027/event/010064F4BBC477AF",
+      "source": "ticketmaster",
+      "lat": 37.27907,
+      "lon": -79.935701
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7-49",
@@ -99451,8 +99400,8 @@
       "lon": -76.779404
     },
     {
-      "id": "serpapi:saz-n-latin-food-festival-taste-of-latin-american-food-greenwood-park-2027-08-22",
-      "title": "Sazón Latin Food Festival: Taste of Latin American Food",
+      "id": "serpapi:saz-n-latin-food-festival-brooklyn-s-taste-of-latin-american-food-greenwood-park-2027-08-22",
+      "title": "Sazón Latin Food Festival: Brooklyn's Taste of Latin American Food",
       "category": "food",
       "borough": "Manhattan",
       "venue": "Greenwood Park",
@@ -99460,6 +99409,20 @@
       "isFree": false,
       "url": "",
       "source": "serpapi"
+    },
+    {
+      "id": "ticketmaster:Z7r9jZ1AAvMbg",
+      "title": "Frederick Keys vs. Greensboro Grasshoppers",
+      "category": "sports",
+      "city": "Frederick",
+      "state": "MD",
+      "venue": "Nymeo Field at Harry Grove Stadium",
+      "start": "2027-08-22T13:00:00",
+      "isFree": false,
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMbg",
+      "source": "ticketmaster",
+      "lat": 39.375599,
+      "lon": -77.469299
     },
     {
       "id": "ticketmaster:Z7r9jZ1AA7Mj0",
